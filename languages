@@ -29,6 +29,7 @@
 5:German (Deutsch):de_DE
 36:Spanish from Spain (Español de España):es_ES
 4:Italian (Italiano):it_IT
+24:Korean (한국 언어):ko_KR
 17:Serbian (Српски):sr_RS
 28:Serbian Latin (Srpski latinica):sr_RS@latin
 7:Swedish (Svenska):sv_SE
@@ -46,7 +47,6 @@
 16:Croatian (Hrvatski):hr_HR
 31:Hungarian (Magyar):hu_HU
 27:Indonesian (Bahasa indonesia):id_ID
-# No translation yet! #24:Korean (한국 언어):ko_KR
 29:Kyrgyz (Кыргыз тили):ky_KG
 # No translation yet! #25:Nepali (नेपाली):ne_NP
 3:Dutch (Nederlandse taal):nl_NL
