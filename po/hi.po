@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 1) (b'079b41d')\n"
+"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 20:33:40\n"
+"POT-Creation-Date: 2015-09-16 17:34:32\n"
 "PO-Revision-Date: 2015-03-03 16:21+0530\n"
 "Last-Translator: Roshan Lal Gumasta <roshan@anisecrets.com>\n"
 "Language-Team: Hindi <www.anisecrets.com>\n"
@@ -724,20 +724,24 @@ msgid "-Z"
 msgstr "-Z"
 
 
-msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
-msgstr "एक json उन सेटिंग्स भंडारण संचिका का नाम (दुर्भाग्य से, ब्लेंडर की व्यवस्था यहां काम नहीं करता है)"
+msgid "Gettext 'msgfmt' executable"
+msgstr "Gettext 'msgfmt' निष्पादन योग्य"
+
+
+msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
+msgstr "Gettext msgfmt 'कम्पाइलर'। आप की संभावना संपादित करें यदि आप Windows के तहत कर रहे हैं करने के लिए होगा"
 
 
 msgid "The Blender source root path"
 msgstr "ब्लेंडर स्रोत रूट पथ"
 
 
-msgid "Fribidi Library"
-msgstr "Fribidi पुस्तकालय"
+msgid "The bf-translation repository"
+msgstr "Bf-अनुवाद भंडार"
 
 
-msgid "The FriBidi C compiled library (.so under Linux, .dll under windows...), you’ll likely have to edit it if you’re under Windows, e.g. using the one included in svn's libraries repository"
-msgstr "FriBidi C लाइब्रेरी (Linux, windows.. अंतर्गत. dll के तहत .so) संकलित, आप की संभावना अगर आप उदाहरण के लिए एक svn के पुस्तकालयों भंडार में अंतर्गत का उपयोग कर Windows, के तहत कर रहे हैं इसे संपादित करने के लिए होगा"
+msgid "Additional paths to add to sys.path (';' separated)"
+msgstr "Sys.path करने के लिए जोड़ने के लिए अतिरिक्त पथ (', ' अलग है)"
 
 
 msgid "Spell Cache"
@@ -748,16 +752,16 @@ msgid "A cache storing validated msgids, to avoid re-spellchecking them"
 msgstr "एक द्रुतिका संग्रहीत करने मान्य msgids पुन-spellchecking से बचने के लिए, उन्हें"
 
 
-msgid "Additional paths to add to sys.path (';' separated)"
-msgstr "Sys.path करने के लिए जोड़ने के लिए अतिरिक्त पथ (', ' अलग है)"
+msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
+msgstr "एक json उन सेटिंग्स भंडारण संचिका का नाम (दुर्भाग्य से, ब्लेंडर की व्यवस्था यहां काम नहीं करता है)"
 
 
-msgid "Gettext 'msgfmt' executable"
-msgstr "Gettext 'msgfmt' निष्पादन योग्य"
+msgid "Fribidi Library"
+msgstr "Fribidi पुस्तकालय"
 
 
-msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
-msgstr "Gettext msgfmt 'कम्पाइलर'। आप की संभावना संपादित करें यदि आप Windows के तहत कर रहे हैं करने के लिए होगा"
+msgid "The FriBidi C compiled library (.so under Linux, .dll under windows...), you’ll likely have to edit it if you’re under Windows, e.g. using the one included in svn's libraries repository"
+msgstr "FriBidi C लाइब्रेरी (Linux, windows.. अंतर्गत. dll के तहत .so) संकलित, आप की संभावना अगर आप उदाहरण के लिए एक svn के पुस्तकालयों भंडार में अंतर्गत का उपयोग कर Windows, के तहत कर रहे हैं इसे संपादित करने के लिए होगा"
 
 
 msgid "Warn Msgid Not Capitalized"
@@ -766,10 +770,6 @@ msgstr "Msgid नहीं बड़ा चेतावनी दें"
 
 msgid "Warn about messages not starting by a capitalized letter (with a few allowed exceptions!)"
 msgstr "संदेश (कुछ अनुमति प्राप्त अपवाद!) के साथ एक कैपिटल अक्षर से प्रारंभ नहीं करने के बारे में चेतावनी दें"
-
-
-msgid "The bf-translation repository"
-msgstr "Bf-अनुवाद भंडार"
 
 
 msgid "Animation Data"
@@ -2073,6 +2073,14 @@ msgid "Filter Text"
 msgstr "निस्पादक पाठ"
 
 
+msgid "Fonts"
+msgstr "मुद्र्"
+
+
+msgid "Shading"
+msgstr "छायाप्रभाव"
+
+
 msgid "Domain"
 msgstr "प्रक्षेत्र"
 
@@ -2427,10 +2435,6 @@ msgstr "दर"
 
 msgid "Normal Weight"
 msgstr "सामान्य भार"
-
-
-msgid "Wrap"
-msgstr "आच्छादन"
 
 
 msgid "Off"
@@ -4415,6 +4419,10 @@ msgid "Y2"
 msgstr "Y2"
 
 
+msgid "Wrap"
+msgstr "आच्छादन"
+
+
 msgid "Spin"
 msgstr "चक्रण"
 
@@ -4851,6 +4859,14 @@ msgstr "बंद/बुझ मुक्त/संरेखण"
 msgctxt "Operator"
 msgid "Select Next"
 msgstr "अगला का चयन करें"
+
+
+msgid "Equal"
+msgstr "बराबर"
+
+
+msgid "Less"
+msgstr "कम"
 
 
 msgctxt "Operator"
@@ -5316,14 +5332,6 @@ msgid "Expand"
 msgstr "विस्तृत करें"
 
 
-msgid "Equal"
-msgstr "बराबर"
-
-
-msgid "Less"
-msgstr "कम"
-
-
 msgid "Dupli"
 msgstr "प्रतिलिपि"
 
@@ -5433,10 +5441,6 @@ msgstr "हुक का चयन करें"
 msgctxt "Operator"
 msgid "Join"
 msgstr "संबद्ध"
-
-
-msgid "Fonts"
-msgstr "मुद्र्"
 
 
 msgctxt "Operator"
@@ -6176,10 +6180,6 @@ msgid "Recent"
 msgstr "हाल ही में"
 
 
-msgid "Shading"
-msgstr "छायाप्रभाव"
-
-
 msgid "Cloth Cache"
 msgstr "कपड़ा द्रुतिका"
 
@@ -6292,12 +6292,8 @@ msgid "Settings/info about a language"
 msgstr "एक भाषा के बारे में सेटिंग्स/जानकारी"
 
 
-msgid "PO Trunk File Path"
-msgstr "महत्व मानचित्र आकार है बिंदू विसबिंदू विस्तार संकल्प; उच्च संभावित मान कम खुरदुरा, स्मृति और गति की कीमत पर उत्पादन"
-
-
-msgid "Path to the relevant po file in trunk"
-msgstr "ट्रंक में प्रासंगिक po संचिका का पथ"
+msgid "Path to the relevant mo file"
+msgstr "प्रासंगिक एमओ संचिका का पथ"
 
 
 msgid "English language name/label (like \"French (Français)\")"
@@ -6308,8 +6304,20 @@ msgid "ISO code, like fr_FR"
 msgstr "आईएसओ कोड, fr_FR की तरह"
 
 
-msgid "Path to the relevant mo file"
-msgstr "प्रासंगिक एमओ संचिका का पथ"
+msgid "Path to the relevant po file in branches"
+msgstr "शाखाओं में प्रासंगिक po संचिका का पथ"
+
+
+msgid "Use this language in current operator"
+msgstr "इस भाषा में वर्तमान संचालक का उपयोग करें"
+
+
+msgid "PO Trunk File Path"
+msgstr "महत्व मानचित्र आकार है बिंदू विसबिंदू विस्तार संकल्प; उच्च संभावित मान कम खुरदुरा, स्मृति और गति की कीमत पर उत्पादन"
+
+
+msgid "Path to the relevant po file in trunk"
+msgstr "ट्रंक में प्रासंगिक po संचिका का पथ"
 
 
 msgid "Numeric ID"
@@ -6320,18 +6328,6 @@ msgid "Numeric ID (readonly!)"
 msgstr "सांख्यिक ID (केवल पढ़ने!)"
 
 
-msgid "Use this language in current operator"
-msgstr "इस भाषा में वर्तमान संचालक का उपयोग करें"
-
-
-msgid "Path to the relevant po file in branches"
-msgstr "शाखाओं में प्रासंगिक po संचिका का पथ"
-
-
-msgid "Languages to update in branches"
-msgstr "भाषाओं में शाखाओं को अद्यतन करने के लिए"
-
-
 msgid "Active Language"
 msgstr "सक्रिय भाषा"
 
@@ -6340,12 +6336,20 @@ msgid "Index of active language in langs collection"
 msgstr "Langs संग्रह में सक्रिय भाषा का सूचकांक"
 
 
-msgid "Path to the pot template file"
-msgstr "पॉट टेम्पलेट संचिका के लिए पथ"
+msgid "Languages to update in branches"
+msgstr "भाषाओं में शाखाओं को अद्यतन करने के लिए"
 
 
 msgid "Whether these settings have already been auto-set or not"
 msgstr "यह है कि क्या इन सेटिंग पहले से ही या नहीं ऑटो-सेट गया है"
+
+
+msgid "Path to the pot template file"
+msgstr "पॉट टेम्पलेट संचिका के लिए पथ"
+
+
+msgid "In"
+msgstr "में"
 
 
 msgid "Out"
@@ -6354,10 +6358,6 @@ msgstr "बाहर"
 
 msgid "E"
 msgstr "ई"
-
-
-msgid "In"
-msgstr "में"
 
 
 msgid "Zmask"
@@ -6442,10 +6442,6 @@ msgstr "विस्थापन भर्जन"
 
 msgid "Bias"
 msgstr "पूर्वाग्रह"
-
-
-msgid "Render Stamp"
-msgstr "मुहर  प्रतिपादन"
 
 
 msgid "Textured Solid"
@@ -8647,6 +8643,11 @@ msgstr "चमक"
 
 
 msgctxt "Operator"
+msgid "Text"
+msgstr "पाठ"
+
+
+msgctxt "Operator"
 msgid "Color"
 msgstr "रंग"
 
@@ -8835,11 +8836,6 @@ msgstr "जड़ें"
 msgctxt "Operator"
 msgid "Tips"
 msgstr "युक्तियाँ"
-
-
-msgctxt "Operator"
-msgid "Text"
-msgstr "पाठ"
 
 
 msgctxt "Operator"
@@ -9981,10 +9977,6 @@ msgstr "भर्जन में विफल: अमान्य चित्�
 
 msgid "Baking canceled!"
 msgstr "भर्जन रद्द!"
-
-
-msgid "Bake complete! (%s)"
-msgstr "भर्जन पूर्ण ! (%s)"
 
 
 msgid "Bake failed: %s"

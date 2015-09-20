@@ -1,10 +1,10 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 1) (b'079b41d')\n"
+"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
 "(b'0000000000000000000000000000000000000000')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 20:33:40\n"
+"POT-Creation-Date: 2015-09-16 17:34:32\n"
 "PO-Revision-Date: 2013-11-05 13:47+0600\n"
 "Last-Translator: Chyngyz Dzhumaliev <kyrgyzl10n@gmail.com>\n"
 "Language-Team: Kirghiz <kyrgyzl10n@gmail.com>\n"
@@ -1018,6 +1018,14 @@ msgstr "Бет"
 
 msgid "Save"
 msgstr "Сактоо"
+
+
+msgid "Fonts"
+msgstr "Ариптер"
+
+
+msgid "Shading"
+msgstr "Көлөкөлөө"
 
 
 msgid "Normal"
@@ -2827,10 +2835,6 @@ msgid "Object Data"
 msgstr "Объект маалыматтары"
 
 
-msgid "Fonts"
-msgstr "Ариптер"
-
-
 msgctxt "Operator"
 msgid "Add Material Slot"
 msgstr "Материал слотун кошуу"
@@ -3498,10 +3502,6 @@ msgid "Vectorscope"
 msgstr "Вектороскоп"
 
 
-msgid "Shading"
-msgstr "Көлөкөлөө"
-
-
 msgid "Print3D"
 msgstr "3D-басма"
 
@@ -3648,10 +3648,6 @@ msgstr "Маркер штампы"
 
 msgid "Stamp Filename"
 msgstr "Файл аты штампы"
-
-
-msgid "Render Stamp"
-msgstr "Визуалдаштыруу штампы"
 
 
 msgid "Font Size"
@@ -4746,6 +4742,11 @@ msgstr "Көбөйтүү"
 
 
 msgctxt "Operator"
+msgid "Text"
+msgstr "Текст"
+
+
+msgctxt "Operator"
 msgid "Color"
 msgstr "Түс"
 
@@ -4923,11 +4924,6 @@ msgstr "Солдон"
 msgctxt "Operator"
 msgid "Single Bone"
 msgstr "Бир сөөк"
-
-
-msgctxt "Operator"
-msgid "Text"
-msgstr "Текст"
 
 
 msgctxt "Operator"
@@ -5314,10 +5310,6 @@ msgstr "Лампа"
 
 msgid "Baking canceled!"
 msgstr "Бышыруу жокко чыгарылды!"
-
-
-msgid "Bake complete! (%s)"
-msgstr "Бышыруу аякталды! (%s)"
 
 
 msgid "Bake failed: %s"

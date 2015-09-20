@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 1) (b'079b41d')\n"
+"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 20:33:40\n"
+"POT-Creation-Date: 2015-09-16 17:34:32\n"
 "PO-Revision-Date: 2015-06-13 14:19+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: chinese-l10n <chinese-l10n@googlegroups.com>\n"
@@ -1950,12 +1950,12 @@ msgid "Addon Preferences"
 msgstr "附加元件偏好設定"
 
 
-msgid "Persistent Data Path"
-msgstr "永恆資料路徑"
+msgid "Gettext 'msgfmt' executable"
+msgstr "Gettext「msgfmt」可執行檔"
 
 
-msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
-msgstr "一份儲存這些設定的 json 檔案名稱 (不幸地，Blender 的系統目前無法於此處運作)"
+msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
+msgstr "Gettext msgfmt「編譯器」。如果您在 Windows 之下，您可能會需要編輯它"
 
 
 msgid "Source Root"
@@ -1966,20 +1966,12 @@ msgid "The Blender source root path"
 msgstr "Blender 來源根路徑"
 
 
-msgid "Fribidi Library"
-msgstr "Fribidi 函式庫"
+msgid "Translation Root"
+msgstr "翻譯基根"
 
 
-msgid "The FriBidi C compiled library (.so under Linux, .dll under windows...), you’ll likely have to edit it if you’re under Windows, e.g. using the one included in svn's libraries repository"
-msgstr "FriBidi C 編譯的函式庫 (Linux 下為 .so，Windows 下為 .dll)，若您是在 Windows 下您可能需要編輯它，例如您使用 svn 函式庫倉儲中的所含的版本"
-
-
-msgid "Spell Cache"
-msgstr "拼字快取"
-
-
-msgid "A cache storing validated msgids, to avoid re-spellchecking them"
-msgstr "儲存驗證過 msgid 的快取，可避免再次對內容做拼字檢查"
+msgid "The bf-translation repository"
+msgstr "bf-translation 倉儲"
 
 
 msgid "Import Paths"
@@ -1990,12 +1982,28 @@ msgid "Additional paths to add to sys.path (';' separated)"
 msgstr "要加入 sys.path 的其他路徑 (以 ; 隔開)"
 
 
-msgid "Gettext 'msgfmt' executable"
-msgstr "Gettext「msgfmt」可執行檔"
+msgid "Spell Cache"
+msgstr "拼字快取"
 
 
-msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
-msgstr "Gettext msgfmt「編譯器」。如果您在 Windows 之下，您可能會需要編輯它"
+msgid "A cache storing validated msgids, to avoid re-spellchecking them"
+msgstr "儲存驗證過 msgid 的快取，可避免再次對內容做拼字檢查"
+
+
+msgid "Persistent Data Path"
+msgstr "永恆資料路徑"
+
+
+msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
+msgstr "一份儲存這些設定的 json 檔案名稱 (不幸地，Blender 的系統目前無法於此處運作)"
+
+
+msgid "Fribidi Library"
+msgstr "Fribidi 函式庫"
+
+
+msgid "The FriBidi C compiled library (.so under Linux, .dll under windows...), you’ll likely have to edit it if you’re under Windows, e.g. using the one included in svn's libraries repository"
+msgstr "FriBidi C 編譯的函式庫 (Linux 下為 .so，Windows 下為 .dll)，若您是在 Windows 下您可能需要編輯它，例如您使用 svn 函式庫倉儲中的所含的版本"
 
 
 msgid "Warn Msgid Not Capitalized"
@@ -2004,14 +2012,6 @@ msgstr "警告 msgid 未大寫"
 
 msgid "Warn about messages not starting by a capitalized letter (with a few allowed exceptions!)"
 msgstr "警告訊息未以大寫字母起首 (不過也有少數允許的例外！)"
-
-
-msgid "Translation Root"
-msgstr "翻譯基根"
-
-
-msgid "The bf-translation repository"
-msgstr "bf-translation 倉儲"
 
 
 msgid "Animation Data"
@@ -10263,10 +10263,6 @@ msgid "Sort by extension"
 msgstr "依副檔名排序"
 
 
-msgid "Sort the file list by extension"
-msgstr "依副檔名排序檔案清單"
-
-
 msgid "Sort by time"
 msgstr "依時間排序"
 
@@ -10353,6 +10349,22 @@ msgstr "過濾資料夾"
 
 msgid "Show folders"
 msgstr "顯示資料夾"
+
+
+msgid "Fonts"
+msgstr "字型"
+
+
+msgid "Geometry"
+msgstr "幾何"
+
+
+msgid "Shading"
+msgstr "著色"
+
+
+msgid "Environment"
+msgstr "環境"
 
 
 msgid "Extension Filter"
@@ -10553,10 +10565,6 @@ msgstr "視接口顯示模式"
 
 msgid "How to display the mesh in the viewport"
 msgstr "如何在視接口中顯示網格"
-
-
-msgid "Geometry"
-msgstr "幾何"
 
 
 msgid "Display geometry"
@@ -11951,16 +11959,8 @@ msgid "Velocity Min"
 msgstr "速度最小"
 
 
-msgid "Clamp velocity to this minimum speed (except when totally still)"
-msgstr "緊固速度至這個最小速度 (除了完全靜止時)"
-
-
 msgid "Velocity Max"
 msgstr "速度最大"
-
-
-msgid "Clamp velocity to this maximum speed"
-msgstr "緊固速度至這個最大速度"
 
 
 msgid "Step Height"
@@ -13279,14 +13279,6 @@ msgid "When locked keep using normal of surface where stroke was initiated"
 msgstr "鎖定時讓筆觸初始處維持使用表面的法線"
 
 
-msgid "Wrap"
-msgstr "包覆"
-
-
-msgid "Enable torus wrapping while painting"
-msgstr "繪製時啟用環體包覆"
-
-
 msgid "Strength Pressure"
 msgstr "強度壓力"
 
@@ -13791,16 +13783,8 @@ msgid "Shift X"
 msgstr "推移 X"
 
 
-msgid "Perspective Camera horizontal shift"
-msgstr "透視法攝影機水平推移"
-
-
 msgid "Shift Y"
 msgstr "推移 Y"
-
-
-msgid "Perspective Camera vertical shift"
-msgstr "透視法攝影機垂直推移"
 
 
 msgid "DOF Distance"
@@ -22110,6 +22094,14 @@ msgid "Layer in multilayer image"
 msgstr "多層影像中的層"
 
 
+msgid "Pass"
+msgstr "通遞"
+
+
+msgid "Pass in multilayer image"
+msgstr "於多層影像中通遞"
+
+
 msgid "View in multilayer image"
 msgstr "多層影像中的視圖"
 
@@ -23758,6 +23750,10 @@ msgid "Modify the stroke geometry so that it looks more 'polygonal'"
 msgstr "修改筆觸幾何使其看起來更像「多角形」"
 
 
+msgid "Tolerance"
+msgstr "忍差"
+
+
 msgid "Wavelength"
 msgstr "波長"
 
@@ -23848,6 +23844,10 @@ msgstr "最大厚度"
 
 msgid "Maximum thickness in the main direction"
 msgstr "主要方向上的最大厚度"
+
+
+msgid "Minimum thickness"
+msgstr "最小厚度"
 
 
 msgid "Change line thickness based on the distance from the camera"
@@ -26744,10 +26744,6 @@ msgstr "使用紋理的強度值在 Y 方向錯置"
 
 msgid "Use the texture's intensity value to displace in the Z direction"
 msgstr "使用紋理的強度值在 Z 方向錯置"
-
-
-msgid "Use the texture's intensity value to displace in the normal direction"
-msgstr "使用紋理的強度值在法線方向錯置"
 
 
 msgid "RGB to XYZ"
@@ -30801,6 +30797,10 @@ msgid "Directional Blur"
 msgstr "方向性模糊"
 
 
+msgid "Wrap"
+msgstr "包覆"
+
+
 msgid "Center X"
 msgstr "中心 X"
 
@@ -30923,10 +30923,6 @@ msgstr "一定相符的鄰接像素數閾值"
 
 msgid "Difference Key"
 msgstr "差異鍵"
-
-
-msgid "Tolerance"
-msgstr "忍差"
 
 
 msgid "Color distances below this threshold are keyed"
@@ -32296,6 +32292,70 @@ msgstr "添加的擾動噪訊詳細等級"
 
 msgid "Musgrave Texture"
 msgstr "馬斯格雷夫紋理"
+
+
+msgid "Object to take point data from"
+msgstr "獲取點資料的物體來源"
+
+
+msgid "Point Source"
+msgstr "點來源"
+
+
+msgid "Point data to use as renderable point density"
+msgstr "要作為可算繪點密度的點資料"
+
+
+msgid "Generate point density from a particle system"
+msgstr "從粒子系統生成點密度"
+
+
+msgid "Object Vertices"
+msgstr "物體頂點"
+
+
+msgid "Generate point density from an object's vertices"
+msgstr "從一個物體的頂點生成點密度"
+
+
+msgid "Particle System to render as points"
+msgstr "將粒子系統算繪為點"
+
+
+msgid "Radius from the shaded sample to look for points within"
+msgstr "在與著色樣本之間的半徑內查詢點"
+
+
+msgid "Color Source"
+msgstr "色彩來源"
+
+
+msgid "Data to derive color results from"
+msgstr "衍生色彩結果的來源資料"
+
+
+msgid "Particle Age"
+msgstr "粒子年紀"
+
+
+msgid "Lifetime mapped as 0.0 - 1.0 intensity"
+msgstr "生命期映射為 0.0 - 1.0 強度"
+
+
+msgid "Particle Speed"
+msgstr "粒子速度"
+
+
+msgid "Particle speed (absolute magnitude of velocity) mapped as 0.0-1.0 intensity"
+msgstr "粒子速度 (速度的絕對大小) 映射為 0.0-1.0 強度"
+
+
+msgid "Particle Velocity"
+msgstr "粒子速度"
+
+
+msgid "XYZ velocity mapped to RGB colors"
+msgstr "XYZ 速度映射至 RGB 色彩"
 
 
 msgid "Sky Texture"
@@ -36326,6 +36386,22 @@ msgid "Select a row of control points including active one"
 msgstr "選取控制點的列，包含使用中項目"
 
 
+msgid "Compare"
+msgstr "比較"
+
+
+msgid "Equal"
+msgstr "等於"
+
+
+msgid "Greater"
+msgstr "大於"
+
+
+msgid "Less"
+msgstr "縮減"
+
+
 msgctxt "Operator"
 msgid "Separate"
 msgstr "分離"
@@ -36347,6 +36423,10 @@ msgstr "著色平滑"
 
 msgid "Set shading to smooth"
 msgstr "設定著色處理為平滑樣式"
+
+
+msgid "Select shortest path between two selections"
+msgstr "選取兩選取項之間的最短路徑"
 
 
 msgctxt "Operator"
@@ -36837,10 +36917,6 @@ msgstr "現行 7.4 二進位版"
 
 msgid "FBX 6.1 ASCII"
 msgstr "FBX 6.1 ASCII"
-
-
-msgid "Legacy 6.1 ascii version"
-msgstr "舊版 6.1 ascii 版本"
 
 
 msgid "Selected Objects"
@@ -38819,10 +38895,6 @@ msgid "Import FBX"
 msgstr "匯入 FBX"
 
 
-msgid "Search subdirs for any associated images (Warning, may be slow)"
-msgstr "為任何相關的影像搜尋次目錄 (警告，可能變很慢)"
-
-
 msgid "Displace geometry of alpha meshes"
 msgstr "錯置 alpha 網格的幾何"
 
@@ -38862,6 +38934,10 @@ msgstr "多角形群組"
 
 msgid "Import OBJ groups as vertex groups"
 msgstr "將 OBJ 群組匯入為頂點群組"
+
+
+msgid "Search subdirs for any associated images (Warning, may be slow)"
+msgstr "為任何相關的影像搜尋次目錄 (警告，可能變很慢)"
 
 
 msgid "Split"
@@ -41432,22 +41508,6 @@ msgid "Freestyle Face Marks"
 msgstr "Freestyle 面標記"
 
 
-msgid "Compare"
-msgstr "比較"
-
-
-msgid "Equal"
-msgstr "等於"
-
-
-msgid "Greater"
-msgstr "大於"
-
-
-msgid "Less"
-msgstr "縮減"
-
-
 msgctxt "Operator"
 msgid "Select Similar Regions"
 msgstr "選取相似區塊"
@@ -41476,10 +41536,6 @@ msgstr "外形增生"
 
 msgid "Apply selected vertex locations to all other shape keys"
 msgstr "將所選頂位置套用到其他所有外形鍵"
-
-
-msgid "Select shortest path between two selections"
-msgstr "選取兩選取項之間的最短路徑"
 
 
 msgctxt "Operator"
@@ -43174,10 +43230,6 @@ msgid "Object Index"
 msgstr "物體索引"
 
 
-msgid "Environment"
-msgstr "環境"
-
-
 msgid "Diffuse Direct"
 msgstr "漫射直接"
 
@@ -43802,10 +43854,6 @@ msgstr "物體資料"
 
 msgid "DupliGroup"
 msgstr "複本群組"
-
-
-msgid "Fonts"
-msgstr "字型"
 
 
 msgctxt "Operator"
@@ -44588,10 +44636,6 @@ msgstr "共享層"
 
 msgid "Shared group"
 msgstr "共享群組"
-
-
-msgid "Pass"
-msgstr "通遞"
 
 
 msgid "Render pass Index"
@@ -53274,6 +53318,14 @@ msgid "Reduce the strength of the brush where it overlaps symmetrical daubs"
 msgstr "當筆刷重疊於對稱的塗抹上時減少筆刷的強度"
 
 
+msgid "Tile X"
+msgstr "鋪排 X"
+
+
+msgid "Tile Y"
+msgstr "鋪排 Y"
+
+
 msgid "Image Paint"
 msgstr "影像繪製"
 
@@ -53589,10 +53641,6 @@ msgid "Spot Shape"
 msgstr "聚光外形"
 
 
-msgid "Ray Visibility"
-msgstr "光線可見性"
-
-
 msgid "Cycles Hair Rendering"
 msgstr "Cycles 毛髮算繪"
 
@@ -53619,6 +53667,10 @@ msgstr "體積取樣"
 
 msgid "Mist Pass"
 msgstr "迷霧通遞"
+
+
+msgid "Ray Visibility"
+msgstr "光線可見性"
 
 
 msgid "Post Processing"
@@ -53739,10 +53791,6 @@ msgstr "Freestyle 線條"
 
 msgid "Render Pipeline Options"
 msgstr "算繪管線選項"
-
-
-msgid "Shading"
-msgstr "著色"
 
 
 msgid "3D Printing"
@@ -54187,10 +54235,6 @@ msgstr "粒子系統中的粒子"
 
 msgid "Particle Location"
 msgstr "粒子位置"
-
-
-msgid "Particle Velocity"
-msgstr "粒子速度"
 
 
 msgid "Previous Particle Location"
@@ -55013,34 +55057,6 @@ msgid "Point density settings"
 msgstr "點密度設定"
 
 
-msgid "Point Source"
-msgstr "點來源"
-
-
-msgid "Point data to use as renderable point density"
-msgstr "要作為可算繪點密度的點資料"
-
-
-msgid "Generate point density from a particle system"
-msgstr "從粒子系統生成點密度"
-
-
-msgid "Object Vertices"
-msgstr "物體頂點"
-
-
-msgid "Generate point density from an object's vertices"
-msgstr "從一個物體的頂點生成點密度"
-
-
-msgid "Object to take point data from"
-msgstr "獲取點資料的物體來源"
-
-
-msgid "Particle System to render as points"
-msgstr "將粒子系統算繪為點"
-
-
 msgid "Particle Cache"
 msgstr "粒子快取"
 
@@ -55073,10 +55089,6 @@ msgid "Object Location"
 msgstr "物體位置"
 
 
-msgid "Radius from the shaded sample to look for points within"
-msgstr "在與著色樣本之間的半徑內查詢點"
-
-
 msgid "Method of attenuating density by distance from the point"
 msgstr "以與點之間的距離來減弱密度的方式"
 
@@ -55085,40 +55097,12 @@ msgid "Density is constant within lookup radius"
 msgstr "密度為查詢半徑內的常數"
 
 
-msgid "Particle Age"
-msgstr "粒子年紀"
-
-
 msgid "Softness"
 msgstr "柔度"
 
 
 msgid "Softness of the 'soft' falloff option"
 msgstr "「柔」衰落選項的柔度"
-
-
-msgid "Color Source"
-msgstr "色彩來源"
-
-
-msgid "Data to derive color results from"
-msgstr "衍生色彩結果的來源資料"
-
-
-msgid "Lifetime mapped as 0.0 - 1.0 intensity"
-msgstr "生命期映射為 0.0 - 1.0 強度"
-
-
-msgid "Particle Speed"
-msgstr "粒子速度"
-
-
-msgid "Particle speed (absolute magnitude of velocity) mapped as 0.0-1.0 intensity"
-msgstr "粒子速度 (速度的絕對大小) 映射為 0.0-1.0 強度"
-
-
-msgid "XYZ velocity mapped to RGB colors"
-msgstr "XYZ 速度映射至 RGB 色彩"
 
 
 msgid "Multiplier to bring particle speed within an acceptable range"
@@ -55461,12 +55445,28 @@ msgid "Group of ID properties"
 msgstr "ID 屬性的群組"
 
 
+msgid "Stitch frame"
+msgstr "合縫幀"
+
+
+msgid "Frame to locate stitch on"
+msgstr "要將合縫定位於何框幀上"
+
+
 msgid "Action 2"
 msgstr "動作 2"
 
 
 msgid "Second action in stitch"
 msgstr "合縫的第二個動作"
+
+
+msgid "Second offset"
+msgstr "第二個偏移"
+
+
+msgid "Frame offset for 2nd animation, where it should start"
+msgstr "第 2 個動畫的框幀偏移，它應該於何處開始"
 
 
 msgid "Action 1"
@@ -55483,22 +55483,6 @@ msgstr "混合量"
 
 msgid "Size of blending transition, on both sides of the stitch"
 msgstr "混合過渡期間的大小，於合縫處的兩側"
-
-
-msgid "Stitch frame"
-msgstr "合縫幀"
-
-
-msgid "Frame to locate stitch on"
-msgstr "要將合縫定位於何框幀上"
-
-
-msgid "Second offset"
-msgstr "第二個偏移"
-
-
-msgid "Frame offset for 2nd animation, where it should start"
-msgstr "第 2 個動畫的框幀偏移，它應該於何處開始"
 
 
 msgid "Stick Bone"
@@ -56241,12 +56225,12 @@ msgid "Settings/info about a language"
 msgstr "語言相關的設定值/資訊"
 
 
-msgid "PO Trunk File Path"
-msgstr "PO 主幹檔案路徑"
+msgid "MO File Path"
+msgstr "MO 檔案路徑"
 
 
-msgid "Path to the relevant po file in trunk"
-msgstr "主幹中相關 po 檔的路徑"
+msgid "Path to the relevant mo file"
+msgstr "相關 mo 檔的路徑"
 
 
 msgid "Language Name"
@@ -56265,12 +56249,24 @@ msgid "ISO code, like fr_FR"
 msgstr "ISO 代碼，例如 zh_TW"
 
 
-msgid "MO File Path"
-msgstr "MO 檔案路徑"
+msgid "PO File Path"
+msgstr "PO 檔案路徑"
 
 
-msgid "Path to the relevant mo file"
-msgstr "相關 mo 檔的路徑"
+msgid "Path to the relevant po file in branches"
+msgstr "分支中相關 po 檔的路徑"
+
+
+msgid "Use this language in current operator"
+msgstr "在目前操作器中使用此語言"
+
+
+msgid "PO Trunk File Path"
+msgstr "PO 主幹檔案路徑"
+
+
+msgid "Path to the relevant po file in trunk"
+msgstr "主幹中相關 po 檔的路徑"
 
 
 msgid "Numeric ID"
@@ -56281,16 +56277,12 @@ msgid "Numeric ID (readonly!)"
 msgstr "數字 ID (唯讀！)"
 
 
-msgid "Use this language in current operator"
-msgstr "在目前操作器中使用此語言"
+msgid "Active Language"
+msgstr "活躍語言"
 
 
-msgid "PO File Path"
-msgstr "PO 檔案路徑"
-
-
-msgid "Path to the relevant po file in branches"
-msgstr "分支中相關 po 檔的路徑"
+msgid "Index of active language in langs collection"
+msgstr "語言集合中活躍語言的索引"
 
 
 msgid "Languages"
@@ -56301,12 +56293,8 @@ msgid "Languages to update in branches"
 msgstr "分支中要更新的語言"
 
 
-msgid "Active Language"
-msgstr "活躍語言"
-
-
-msgid "Index of active language in langs collection"
-msgstr "語言集合中活躍語言的索引"
+msgid "Whether these settings have already been auto-set or not"
+msgstr "這些設定是否已經自動設定"
 
 
 msgid "POT File Path"
@@ -56317,20 +56305,12 @@ msgid "Path to the pot template file"
 msgstr "pot 範本檔的路徑"
 
 
-msgid "Whether these settings have already been auto-set or not"
-msgstr "這些設定是否已經自動設定"
+msgid "Target of Fix - Point"
+msgstr "修正的目標 - 點"
 
 
-msgid "Distance and Floor Fixes - Desired offset"
-msgstr "距離與地面修正 - 偏好的偏移"
-
-
-msgid "Out"
-msgstr "出"
-
-
-msgid "Number of frames to smooth out"
-msgstr "平滑出的幀數"
+msgid "Name of Mocap Fix"
+msgstr "動捕修正的名稱"
 
 
 msgid "Bone (2)"
@@ -56341,36 +56321,16 @@ msgid "Other Constrained Bone (optional, depends on type)"
 msgstr "其他約束的骨骼 (選用，取決於類型)"
 
 
-msgid "Fix is fully shown"
-msgstr "修正是完整顯示"
+msgid "Type of constraint"
+msgstr "約束的類型"
 
 
 msgid "Start frame of Fix"
 msgstr "修正的起始幀"
 
 
-msgid "Constrained Bone"
-msgstr "約束的骨骼"
-
-
-msgid "Type of constraint"
-msgstr "約束的類型"
-
-
-msgid "Target of Fix - Mesh (optional, depends on type)"
-msgstr "修正的目標 - 網格 (選用，取決於類型)"
-
-
-msgid "E"
-msgstr "E"
-
-
-msgid "End frame of Fix"
-msgstr "修正的結束幀"
-
-
-msgid "Name of Mocap Fix"
-msgstr "動捕修正的名稱"
+msgid "Fix is active"
+msgstr "修正正使用中"
 
 
 msgid "In"
@@ -56381,8 +56341,20 @@ msgid "Number of frames to smooth in"
 msgstr "平滑入的幀數"
 
 
-msgid "Fix is active"
-msgstr "修正正使用中"
+msgid "Fix is fully shown"
+msgstr "修正是完整顯示"
+
+
+msgid "Out"
+msgstr "出"
+
+
+msgid "Number of frames to smooth out"
+msgstr "平滑出的幀數"
+
+
+msgid "Target of Fix - Mesh (optional, depends on type)"
+msgstr "修正的目標 - 網格 (選用，取決於類型)"
 
 
 msgid "In which space should Point type target be evaluated"
@@ -56409,8 +56381,20 @@ msgid "Evaluate target in specified other bone space"
 msgstr "在指定的其他骨骼空間中評估目標"
 
 
-msgid "Target of Fix - Point"
-msgstr "修正的目標 - 點"
+msgid "Constrained Bone"
+msgstr "約束的骨骼"
+
+
+msgid "E"
+msgstr "E"
+
+
+msgid "End frame of Fix"
+msgstr "修正的結束幀"
+
+
+msgid "Distance and Floor Fixes - Desired offset"
+msgstr "距離與地面修正 - 偏好的偏移"
 
 
 msgid "Python expression to be evaluated as the initial node setting"
@@ -56457,34 +56441,6 @@ msgid "Is Stroke Start"
 msgstr "為筆觸起始處"
 
 
-msgid "Copy Textures"
-msgstr "複製紋理"
-
-
-msgid "Copy textures on export to the output path"
-msgstr "匯出至輸出路徑時也複製紋理"
-
-
-msgid "Apply Scale"
-msgstr "套用縮放"
-
-
-msgid "Apply scene scale setting on export"
-msgstr "匯出時套用場景縮放設定"
-
-
-msgid "Minimum thickness"
-msgstr "最小厚度"
-
-
-msgid "Limit for checking distorted faces"
-msgstr "檢查扭曲面的限制"
-
-
-msgid "Limit for checking zero area/length"
-msgstr "檢查零面積/長度的限制"
-
-
 msgid "Format type to export to"
 msgstr "要匯出的格式類型"
 
@@ -56493,12 +56449,36 @@ msgid "VRML2"
 msgstr "VRML2"
 
 
+msgid "Limit for checking zero area/length"
+msgstr "檢查零面積/長度的限制"
+
+
+msgid "Copy Textures"
+msgstr "複製紋理"
+
+
+msgid "Copy textures on export to the output path"
+msgstr "匯出至輸出路徑時也複製紋理"
+
+
 msgid "Export Directory"
 msgstr "匯出目錄"
 
 
 msgid "Path to directory where the files are created"
 msgstr "檔案建立之處的目錄路徑"
+
+
+msgid "Limit for checking distorted faces"
+msgstr "檢查扭曲面的限制"
+
+
+msgid "Apply Scale"
+msgstr "套用縮放"
+
+
+msgid "Apply scene scale setting on export"
+msgstr "匯出時套用場景縮放設定"
 
 
 msgid "Selected UV Element"
@@ -56965,16 +56945,8 @@ msgid "Percentage scale for render resolution"
 msgstr "算繪解析度的百分比縮放"
 
 
-msgid "Tile X"
-msgstr "鋪排 X"
-
-
 msgid "Horizontal tile size to use while rendering"
 msgstr "當算繪時要使用的水平鋪排大小"
-
-
-msgid "Tile Y"
-msgstr "鋪排 Y"
 
 
 msgid "Vertical tile size to use while rendering"
@@ -57279,10 +57251,6 @@ msgstr "在框幀大小之中，算繪使用者定義的框選區塊 (注意，�
 
 msgid "Border Minimum X"
 msgstr "框選最小 X 值"
-
-
-msgid "Minimum X value to for the render border"
-msgstr "框選算繪的 X 軸最小值"
 
 
 msgid "Border Minimum Y"
@@ -57705,8 +57673,8 @@ msgid "Custom text to appear in the stamp note"
 msgstr "戳記備註中要出現的自訂文字"
 
 
-msgid "Render Stamp"
-msgstr "算繪戳記"
+msgid "Stamp Output"
+msgstr "戳記輸出"
 
 
 msgid "Render the stamp info text in the rendered image"
@@ -73105,10 +73073,6 @@ msgid "Still"
 msgstr "靜態"
 
 
-msgid "Stamp Output"
-msgstr "戳記輸出"
-
-
 msgid "Enabled Metadata"
 msgstr "啟用中介資料"
 
@@ -74333,6 +74297,11 @@ msgstr "發光"
 
 
 msgctxt "Operator"
+msgid "Text"
+msgstr "文字"
+
+
+msgctxt "Operator"
 msgid "Color"
 msgstr "色彩"
 
@@ -75286,11 +75255,6 @@ msgstr "相似"
 msgctxt "Operator"
 msgid "Single Bone"
 msgstr "單一骨骼"
-
-
-msgctxt "Operator"
-msgid "Text"
-msgstr "文字"
 
 
 msgctxt "Operator"
@@ -76753,10 +76717,6 @@ msgid "Out of memory on allocating clmd->clothObject->verts"
 msgstr "分配 clmd->clothObject->verts 時記憶體耗盡"
 
 
-msgid "Out of memory on allocating clmd->clothObject->mfaces"
-msgstr "分配 clmd->clothObject->mfaces 時記憶體耗盡"
-
-
 msgid "blend_data"
 msgstr "blend_data"
 
@@ -77700,14 +77660,6 @@ msgid "Cannot spin"
 msgstr "無法旋轉"
 
 
-msgid "Surface has not got active point"
-msgstr "表面未取得使用中的點"
-
-
-msgid "Curve has not got active point"
-msgstr "曲線未取得使用中的點"
-
-
 msgid "Active object is not a selected curve"
 msgstr "使用中物體並非選取的曲線"
 
@@ -77770,6 +77722,14 @@ msgstr "表面環體"
 msgctxt "Curve"
 msgid "Surface"
 msgstr "表面"
+
+
+msgid "Surface has not got active point"
+msgstr "表面未取得使用中的點"
+
+
+msgid "Curve has not got active point"
+msgstr "曲線未取得使用中的點"
 
 
 msgid "Clipboard empty"
@@ -78627,10 +78587,6 @@ msgid "Icosphere"
 msgstr "Ico 球體"
 
 
-msgid "Confirm: (Enter/LMB), Cancel: (Esc/RMB), Mode: %s (M), Clamp Overlap: %s (C), Offset: %s, Segments: %d"
-msgstr "確認：Enter/左鍵點擊，取消：(Esc/右鼠鍵)，模式：%s (M)，緊固重疊：%s (C)，偏移：%s，區段：%d"
-
-
 msgid "LMB: Click and drag to draw cut line"
 msgstr "左鼠鍵：點按並拖曳以描繪切割線"
 
@@ -79101,10 +79057,6 @@ msgid "Baking canceled!"
 msgstr "烘焙取消！"
 
 
-msgid "Bake complete! (%s)"
-msgstr "烘焙完成！(%s)"
-
-
 msgid "Bake failed: %s"
 msgstr "烘焙失敗：%s"
 
@@ -79509,12 +79461,12 @@ msgid "Missing%s%s%s%s detected!"
 msgstr "偵測到遺失%s%s%s%s！"
 
 
-msgid "OK"
-msgstr "確定"
-
-
 msgid "Warning!"
 msgstr "警告！"
+
+
+msgid "OK"
+msgstr "確定"
 
 
 msgid "Vertex Data Detected!"
@@ -80890,10 +80842,6 @@ msgstr "視圖偏移已鎖上"
 
 msgid "Depth too large"
 msgstr "深度過大"
-
-
-msgid "LMB/Return: confirm, RMB/Esc: cancel, MMB: pan, WASDQE: direction, Alt: slow, Ctrl: free look, X: Upright x axis (%s), Z: Upright z axis (%s), (+/- | Wheel): speed"
-msgstr "左鼠鍵/Enter：確定，右鼠鍵/Esc：取消，中鼠鍵：搖鏡，WADQE：方向，Alt：慢，Ctrl：自由觀看，X：直 x 軸 (%s)，Z：直 z 軸 (%s)，(+/- | 滾輪)：速度"
 
 
 msgid "Face select - Shift-Click for multiple modes, Ctrl-Click expands selection"
@@ -82794,10 +82742,6 @@ msgstr "來自路徑「%s」的屬性不是浮點"
 
 msgid "Property from path '%s' has length %d instead of %d"
 msgstr "來自路徑「%s」的屬性長度為 %d 而不是 %d"
-
-
-msgid "%d x %s: %.2f ms,  average: %.4f"
-msgstr "%d x %s：%.2f ms，平均：%.4f"
 
 
 msgid "Stereo 3D Mode requires the window to be fullscreen"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 1) (b'079b41d')\n"
+"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 20:33:40\n"
+"POT-Creation-Date: 2015-09-16 17:34:32\n"
 "PO-Revision-Date: 2012-05-11 14:55+0200\n"
 "Last-Translator: Fatih EKE <fatiheke@hotmail.com>\n"
 "Language-Team: BLENDIST <fatiheke@hotmail.com>\n"
@@ -980,12 +980,12 @@ msgid "Addon Preferences"
 msgstr "Kullanıcı Tercihleri "
 
 
-msgid "Persistent Data Path"
-msgstr "Kesit Sınırı Oluştur"
-
-
 msgid "Source Root"
 msgstr "Kök Bozulma"
+
+
+msgid "Persistent Data Path"
+msgstr "Kesit Sınırı Oluştur"
 
 
 msgid "Animation Data"
@@ -4337,6 +4337,22 @@ msgid "Show folders"
 msgstr "Aktif olanı göster"
 
 
+msgid "Fonts"
+msgstr "Yazıtipleri:"
+
+
+msgid "Geometry"
+msgstr "Geometri "
+
+
+msgid "Shading"
+msgstr "Gölgeleme"
+
+
+msgid "Environment"
+msgstr "Çevre"
+
+
 msgid "Extension Filter"
 msgstr "Dosya Uzantılarını Filtrele"
 
@@ -4439,10 +4455,6 @@ msgstr "Kamera Uçuş Modu"
 
 msgid "How to display the mesh in the viewport"
 msgstr "Blender GUI içinde Mesh akışı nasıl görüntülensin"
-
-
-msgid "Geometry"
-msgstr "Geometri "
 
 
 msgid "Display geometry"
@@ -5279,10 +5291,6 @@ msgstr "Ağırlık Ortalaması:"
 
 msgid "Original Normal"
 msgstr "Orijinali Koru"
-
-
-msgid "Wrap"
-msgstr "Sar"
 
 
 msgid "Plane Offset Pressure"
@@ -8662,6 +8670,10 @@ msgstr "Geçerli Karenin Tersine"
 
 
 msgid "Layer in multilayer image"
+msgstr "Görüntü yüksekliği"
+
+
+msgid "Pass in multilayer image"
 msgstr "Görüntü yüksekliği"
 
 
@@ -12166,6 +12178,10 @@ msgid "Directional Blur"
 msgstr "Harekete bağlı bulanıklığı da işle"
 
 
+msgid "Wrap"
+msgstr "Sar"
+
+
 msgid "Center X"
 msgstr "Merkez"
 
@@ -12776,6 +12792,30 @@ msgstr "Hareket Editörü "
 
 msgid "Musgrave Texture"
 msgstr "Doku Boyama"
+
+
+msgid "Point Source"
+msgstr "Nokta Kaynağı"
+
+
+msgid "Object Vertices"
+msgstr "Yalnız Noktalar"
+
+
+msgid "Color Source"
+msgstr "Arkaplan Kaynağı"
+
+
+msgid "Particle Age"
+msgstr "Parçacık Modu"
+
+
+msgid "Particle Speed"
+msgstr "Hız Kontrol"
+
+
+msgid "Particle Velocity"
+msgstr "Parçacık Modu"
 
 
 msgid "Sky Texture"
@@ -14751,6 +14791,14 @@ msgstr "Rasgele Bozulma"
 
 msgid "Randomly select some control points"
 msgstr "Anahtarları Seç"
+
+
+msgid "Compare"
+msgstr "Dosyayı Sıkıştır"
+
+
+msgid "Greater"
+msgstr "Büyüktür"
 
 
 msgctxt "Operator"
@@ -17268,14 +17316,6 @@ msgid "Polygon Sides"
 msgstr "Mesh Araçları"
 
 
-msgid "Compare"
-msgstr "Dosyayı Sıkıştır"
-
-
-msgid "Greater"
-msgstr "Büyüktür"
-
-
 msgid "By Material"
 msgstr "Malzeme butonları"
 
@@ -18131,10 +18171,6 @@ msgid "Object Index"
 msgstr "Nesne Endeksi"
 
 
-msgid "Environment"
-msgstr "Çevre"
-
-
 msgid "Diffuse Direct"
 msgstr "Nesnenin genel rengi."
 
@@ -18455,10 +18491,6 @@ msgstr "Nesne Verileri"
 
 msgid "Object Data"
 msgstr "Nesne Verileri"
-
-
-msgid "Fonts"
-msgstr "Yazıtipleri:"
 
 
 msgctxt "Operator"
@@ -23045,6 +23077,14 @@ msgid "Input Samples"
 msgstr "Parçacık Hareketi"
 
 
+msgid "Tile X"
+msgstr "Pencereyi Küçült"
+
+
+msgid "Tile Y"
+msgstr "Pencereyi Küçült"
+
+
 msgid "Image Paint"
 msgstr "Resmi Boya"
 
@@ -23145,16 +23185,16 @@ msgid "Spot Shape"
 msgstr "Şekil Anahtarı Ekle"
 
 
-msgid "Ray Visibility"
-msgstr "Işın İzleme"
-
-
 msgid "Cycles Hair Rendering"
 msgstr "Cycles Sunumu"
 
 
 msgid "Light Paths"
 msgstr "Dosya yolu"
+
+
+msgid "Ray Visibility"
+msgstr "Işın İzleme"
 
 
 msgid "Area Shape"
@@ -23219,10 +23259,6 @@ msgstr "Eğriyi buna Çevir"
 
 msgid "Render Pipeline Options"
 msgstr "Bake Render Meshes"
-
-
-msgid "Shading"
-msgstr "Gölgeleme"
 
 
 msgid "Mocap tools"
@@ -23451,10 +23487,6 @@ msgstr "Dahil Olduğu tüm grup"
 
 msgid "Particle Location"
 msgstr "Konum Kısıtlamaları"
-
-
-msgid "Particle Velocity"
-msgstr "Parçacık Modu"
 
 
 msgid "Previous Particle Location"
@@ -23869,14 +23901,6 @@ msgid "Point density settings"
 msgstr "Fabrika Ayarlarını Yükle"
 
 
-msgid "Point Source"
-msgstr "Nokta Kaynağı"
-
-
-msgid "Object Vertices"
-msgstr "Yalnız Noktalar"
-
-
 msgid "Particle Cache"
 msgstr "Parçacık Modu"
 
@@ -23899,18 +23923,6 @@ msgstr "Yalnız Noktalar"
 
 msgid "Object Location"
 msgstr "Konum Kısıtlamaları"
-
-
-msgid "Particle Age"
-msgstr "Parçacık Modu"
-
-
-msgid "Color Source"
-msgstr "Arkaplan Kaynağı"
-
-
-msgid "Particle Speed"
-msgstr "Hız Kontrol"
 
 
 msgid "Velocity Scale"
@@ -23985,8 +23997,16 @@ msgid "Group of ID properties"
 msgstr "Gerçek-Zaman Özellikleri"
 
 
+msgid "Stitch frame"
+msgstr "Kare Sil"
+
+
 msgid "Action 2"
 msgstr "Eylem"
+
+
+msgid "Second offset"
+msgstr "Kare/Saniye"
 
 
 msgid "Action 1"
@@ -23995,14 +24015,6 @@ msgstr "Eylem"
 
 msgid "Blend amount"
 msgstr "Yansıma miktarı"
-
-
-msgid "Stitch frame"
-msgstr "Kare Sil"
-
-
-msgid "Second offset"
-msgstr "Kare/Saniye"
 
 
 msgid "Stick Bone"
@@ -24277,16 +24289,16 @@ msgid "Progressive Refine"
 msgstr "İlerleme"
 
 
+msgid "MO File Path"
+msgstr "Dosya yolu"
+
+
 msgid "Language Name"
 msgstr "Dil"
 
 
 msgid "Language ID"
 msgstr "Dil"
-
-
-msgid "MO File Path"
-msgstr "Dosya yolu"
 
 
 msgid "PO File Path"
@@ -24301,40 +24313,36 @@ msgid "POT File Path"
 msgstr "Dosya yolu"
 
 
-msgid "Out"
-msgstr "Çıkış"
-
-
-msgid "Bone (2)"
-msgstr "Kemik"
-
-
-msgid "Start frame of Fix"
-msgstr "Animasyonun başlangıç karesi"
-
-
-msgid "Constrained Bone"
-msgstr "Kemik Kısıtlamaları"
-
-
-msgid "Type of constraint"
-msgstr "Konum Kısıtlamaları"
-
-
-msgid "End frame of Fix"
-msgstr "Animasyonun son karesi"
+msgid "Target of Fix - Point"
+msgstr "Hedef değişkeni sil"
 
 
 msgid "Name of Mocap Fix"
 msgstr "İşareti (Tekrar) Adlandır"
 
 
-msgid "In"
-msgstr "Giriş"
+msgid "Bone (2)"
+msgstr "Kemik"
+
+
+msgid "Type of constraint"
+msgstr "Konum Kısıtlamaları"
+
+
+msgid "Start frame of Fix"
+msgstr "Animasyonun başlangıç karesi"
 
 
 msgid "Fix is active"
 msgstr "Aktif pozisyonu sil"
+
+
+msgid "In"
+msgstr "Giriş"
+
+
+msgid "Out"
+msgstr "Çıkış"
 
 
 msgid "Object space"
@@ -24345,8 +24353,12 @@ msgid "Other Bone Space"
 msgstr "Space Handler Scripts"
 
 
-msgid "Target of Fix - Point"
-msgstr "Hedef değişkeni sil"
+msgid "Constrained Bone"
+msgstr "Kemik Kısıtlamaları"
+
+
+msgid "End frame of Fix"
+msgstr "Animasyonun son karesi"
 
 
 msgid "Operator Mouse Path"
@@ -24537,16 +24549,8 @@ msgid "Resolution %"
 msgstr "Çözünürlük:"
 
 
-msgid "Tile X"
-msgstr "Pencereyi Küçült"
-
-
 msgid "Horizontal tile size to use while rendering"
 msgstr "Sunumda kullanılacak hesaplama aygıtı"
-
-
-msgid "Tile Y"
-msgstr "Pencereyi Küçült"
 
 
 msgid "Vertical tile size to use while rendering"
@@ -24799,10 +24803,6 @@ msgstr "Gerçek-Zaman Özellikleri"
 
 msgid "Stamp Note Text"
 msgstr "METİN DOSYASI YÜKLE"
-
-
-msgid "Render Stamp"
-msgstr "Blender Sunum"
 
 
 msgid "Font Size"
@@ -31680,6 +31680,11 @@ msgstr "Parlama"
 
 
 msgctxt "Operator"
+msgid "Text"
+msgstr "Metin"
+
+
+msgctxt "Operator"
 msgid "Color"
 msgstr "Renk"
 
@@ -32328,11 +32333,6 @@ msgstr "Aktif Kamera"
 msgctxt "Operator"
 msgid "Single Bone"
 msgstr "Kemik Kısıtlamaları"
-
-
-msgctxt "Operator"
-msgid "Text"
-msgstr "Metin"
 
 
 msgctxt "Operator"

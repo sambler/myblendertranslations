@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 1) (b'079b41d')\n"
+"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 20:33:40\n"
+"POT-Creation-Date: 2015-09-16 17:34:32\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Tabačan <tabycz@gmail.com>\n"
 "Language-Team: Taby <tabycz@gmail.com>\n"
@@ -1433,16 +1433,16 @@ msgid "Addon Preferences"
 msgstr "Uživateslká nastavení"
 
 
-msgid "Persistent Data Path"
-msgstr "Označené kosti"
-
-
 msgid "Source Root"
 msgstr "Čtverec"
 
 
 msgid "Translation Root"
 msgstr "Překlad"
+
+
+msgid "Persistent Data Path"
+msgstr "Označené kosti"
 
 
 msgid "Animation Data"
@@ -6150,10 +6150,6 @@ msgid "Sort by extension"
 msgstr "Setřídit podle přípony"
 
 
-msgid "Sort the file list by extension"
-msgstr "Setřídit soubory podle přípony"
-
-
 msgid "Sort by time"
 msgstr "Setřídit podle času"
 
@@ -6240,6 +6236,22 @@ msgstr "Filtr složek"
 
 msgid "Show folders"
 msgstr "Ukáže složky"
+
+
+msgid "Fonts"
+msgstr "Písma:"
+
+
+msgid "Geometry"
+msgstr "Geometrie:"
+
+
+msgid "Shading"
+msgstr "Stínování"
+
+
+msgid "Environment"
+msgstr "Inkrementální"
 
 
 msgid "Extension Filter"
@@ -6352,10 +6364,6 @@ msgstr "3D pohled:"
 
 msgid "How to display the mesh in the viewport"
 msgstr "Sledovat cestu"
-
-
-msgid "Geometry"
-msgstr "Geometrie:"
 
 
 msgid "Display geometry"
@@ -7580,10 +7588,6 @@ msgstr "Automaticky"
 
 msgid "Original Normal"
 msgstr "původní"
-
-
-msgid "Enable torus wrapping while painting"
-msgstr "Povolit změnu barvy vertexů na aktivním mesh objektu"
 
 
 msgid "Strength Pressure"
@@ -12455,6 +12459,10 @@ msgid "Fields per Frame"
 msgstr "Zobrazit jméno"
 
 
+msgid "Pass"
+msgstr "Průchody:"
+
+
 msgid "Has Accumulate"
 msgstr "Vypočítat"
 
@@ -13177,6 +13185,10 @@ msgstr "Změna velikosti"
 
 msgid "Rotation Angle"
 msgstr "Úhel otáčení"
+
+
+msgid "Tolerance"
+msgstr "Přidat"
 
 
 msgid "Orientation"
@@ -17084,10 +17096,6 @@ msgid "Difference Key"
 msgstr "Rozdíl"
 
 
-msgid "Tolerance"
-msgstr "Přidat"
-
-
 msgid "Step"
 msgstr "Krok"
 
@@ -17858,6 +17866,34 @@ msgstr "Projekce:"
 
 msgid "Musgrave Texture"
 msgstr "Prostor textury"
+
+
+msgid "Point Source"
+msgstr "Rotovat "
+
+
+msgid "Object Vertices"
+msgstr "Odstranit vertexy"
+
+
+msgid "Particle System to render as points"
+msgstr "Částice"
+
+
+msgid "Color Source"
+msgstr "Barva"
+
+
+msgid "Particle Age"
+msgstr "Mřížka"
+
+
+msgid "Particle Speed"
+msgstr "Částicový systém"
+
+
+msgid "Particle Velocity"
+msgstr "Mřížka"
 
 
 msgid "Sky Texture"
@@ -20580,6 +20616,18 @@ msgid "Select Control Point Row"
 msgstr "Zobrazit neoznačení řídící body"
 
 
+msgid "Compare"
+msgstr "Komprimovat"
+
+
+msgid "Greater"
+msgstr "Ostrost: "
+
+
+msgid "Less"
+msgstr "Méně"
+
+
 msgctxt "Operator"
 msgid "Separate"
 msgstr "Oddělit"
@@ -20597,6 +20645,10 @@ msgstr "Zobrazit vyhlazené"
 
 msgid "Set shading to smooth"
 msgstr "Zobrazit vyhlazené"
+
+
+msgid "Select shortest path between two selections"
+msgstr "Odstranit aktuální skript link"
 
 
 msgctxt "Operator"
@@ -23944,18 +23996,6 @@ msgid "Perimeter"
 msgstr "Filter"
 
 
-msgid "Compare"
-msgstr "Komprimovat"
-
-
-msgid "Greater"
-msgstr "Ostrost: "
-
-
-msgid "Less"
-msgstr "Méně"
-
-
 msgid "Separate selected geometry into a new mesh"
 msgstr "Odstranit aktuální skript link"
 
@@ -23967,10 +24007,6 @@ msgstr "Materiál"
 msgctxt "Operator"
 msgid "Shape Propagate"
 msgstr "Vložit"
-
-
-msgid "Select shortest path between two selections"
-msgstr "Odstranit aktuální skript link"
 
 
 msgid "Selected vertex path between two vertices"
@@ -25089,10 +25125,6 @@ msgid "Object Index"
 msgstr "Informace o obj."
 
 
-msgid "Environment"
-msgstr "Inkrementální"
-
-
 msgid "Diffuse Direct"
 msgstr "Zobrazit:"
 
@@ -25578,10 +25610,6 @@ msgstr "Data objektu"
 
 msgid "DupliGroup"
 msgstr "DupliSkupinu"
-
-
-msgid "Fonts"
-msgstr "Písma:"
 
 
 msgctxt "Operator"
@@ -26227,10 +26255,6 @@ msgstr "Objekty na sdílené vrstvě"
 
 msgid "Shared group"
 msgstr "Sdílená Barva Vertexu"
-
-
-msgid "Pass"
-msgstr "Průchody:"
 
 
 msgid "Render pass Index"
@@ -31772,6 +31796,14 @@ msgid "Mirror brush across the Z axis"
 msgstr "Limituje rotaci po Z ose"
 
 
+msgid "Tile X"
+msgstr "Dlaždice:"
+
+
+msgid "Tile Y"
+msgstr "Dlaždice:"
+
+
 msgid "Image Paint"
 msgstr "Obrázek "
 
@@ -31916,10 +31948,6 @@ msgid "Spot Shape"
 msgstr "Velikost fontu:   8"
 
 
-msgid "Ray Visibility"
-msgstr "Viditelnost"
-
-
 msgid "Cycles Hair Rendering"
 msgstr "Vycentrovat pohled"
 
@@ -31934,6 +31962,10 @@ msgstr "Přidat primitivum"
 
 msgid "Performance"
 msgstr "Transformace"
+
+
+msgid "Ray Visibility"
+msgstr "Viditelnost"
 
 
 msgid "Area Shape"
@@ -32026,10 +32058,6 @@ msgstr "Znovu nastavit křivku"
 
 msgid "Render Pipeline Options"
 msgstr "Předvolby renderu"
-
-
-msgid "Shading"
-msgstr "Stínování"
 
 
 msgid "Mocap Fixes"
@@ -32341,10 +32369,6 @@ msgstr "Částice"
 
 
 msgid "Particle Location"
-msgstr "Mřížka"
-
-
-msgid "Particle Velocity"
 msgstr "Mřížka"
 
 
@@ -32952,18 +32976,6 @@ msgid "Point density settings"
 msgstr "Zobrazit nastaveni hran"
 
 
-msgid "Point Source"
-msgstr "Rotovat "
-
-
-msgid "Object Vertices"
-msgstr "Odstranit vertexy"
-
-
-msgid "Particle System to render as points"
-msgstr "Částice"
-
-
 msgid "Particle Cache"
 msgstr "Mřížka"
 
@@ -32996,20 +33008,8 @@ msgid "Object Location"
 msgstr "Umístění objektu"
 
 
-msgid "Particle Age"
-msgstr "Mřížka"
-
-
 msgid "Softness"
 msgstr "Vyhladit"
-
-
-msgid "Color Source"
-msgstr "Barva"
-
-
-msgid "Particle Speed"
-msgstr "Částicový systém"
 
 
 msgid "Velocity Scale"
@@ -33228,12 +33228,24 @@ msgid "Group of ID properties"
 msgstr "Transformační vlastnosti"
 
 
+msgid "Stitch frame"
+msgstr "První frame"
+
+
+msgid "Frame to locate stitch on"
+msgstr "Krok Snímku"
+
+
 msgid "Action 2"
 msgstr "Akce"
 
 
 msgid "Second action in stitch"
 msgstr "Vybrat řádek"
+
+
+msgid "Second offset"
+msgstr "Kompenzace:"
 
 
 msgid "Action 1"
@@ -33246,18 +33258,6 @@ msgstr "Vybrat řádek"
 
 msgid "Blend amount"
 msgstr "Přechod"
-
-
-msgid "Stitch frame"
-msgstr "První frame"
-
-
-msgid "Frame to locate stitch on"
-msgstr "Krok Snímku"
-
-
-msgid "Second offset"
-msgstr "Kompenzace:"
 
 
 msgid "Stick Bone"
@@ -33632,16 +33632,16 @@ msgid "Map Resolution"
 msgstr "Rozlišení"
 
 
+msgid "MO File Path"
+msgstr "Důležité cesty"
+
+
 msgid "Language Name"
 msgstr "Jazyk & Fonty"
 
 
 msgid "Language ID"
 msgstr "Jazyk & Fonty"
-
-
-msgid "MO File Path"
-msgstr "Důležité cesty"
 
 
 msgid "PO File Path"
@@ -33656,36 +33656,24 @@ msgid "POT File Path"
 msgstr "Důležité cesty"
 
 
-msgid "Out"
-msgstr "Vně:"
-
-
-msgid "Number of frames to smooth out"
-msgstr "Počet opakování pro překreslení"
+msgid "Name of Mocap Fix"
+msgstr "Zaklíčovat tvar"
 
 
 msgid "Bone (2)"
 msgstr "Kost"
 
 
-msgid "Start frame of Fix"
-msgstr "První frame animace"
-
-
-msgid "Constrained Bone"
-msgstr "Název vazby"
-
-
 msgid "Type of constraint"
 msgstr "Vazba sledování"
 
 
-msgid "End frame of Fix"
-msgstr "Konečný frame pro zobrazení rozsahu Přízraku"
+msgid "Start frame of Fix"
+msgstr "První frame animace"
 
 
-msgid "Name of Mocap Fix"
-msgstr "Zaklíčovat tvar"
+msgid "Fix is active"
+msgstr "Převrátit aktivní"
 
 
 msgid "In"
@@ -33696,8 +33684,12 @@ msgid "Number of frames to smooth in"
 msgstr "Zobrazit počet materiálů a aktivní materiál u daného objektu"
 
 
-msgid "Fix is active"
-msgstr "Převrátit aktivní"
+msgid "Out"
+msgstr "Vně:"
+
+
+msgid "Number of frames to smooth out"
+msgstr "Počet opakování pro překreslení"
 
 
 msgid "Evaluate target in global space"
@@ -33718,6 +33710,14 @@ msgstr "Prostor textury"
 
 msgid "Evaluate target in specified other bone space"
 msgstr "Distance deformace kosti"
+
+
+msgid "Constrained Bone"
+msgstr "Název vazby"
+
+
+msgid "End frame of Fix"
+msgstr "Konečný frame pro zobrazení rozsahu Přízraku"
 
 
 msgid "Operator File List Element"
@@ -34016,16 +34016,8 @@ msgid "Percentage scale for render resolution"
 msgstr "Procentuální změna měřítka pro rozlišení renderu"
 
 
-msgid "Tile X"
-msgstr "Dlaždice:"
-
-
 msgid "Horizontal tile size to use while rendering"
 msgstr "Počet dělení plošek během renderování"
-
-
-msgid "Tile Y"
-msgstr "Dlaždice:"
 
 
 msgid "Vertical tile size to use while rendering"
@@ -34114,10 +34106,6 @@ msgstr "Zde se nastavuje rozdíl rozsahu rámečků Přízraku"
 
 msgid "Border Minimum X"
 msgstr "Minimální X limitace"
-
-
-msgid "Minimum X value to for the render border"
-msgstr "Vzdálenost meli linkami orientační sítě"
 
 
 msgid "Border Minimum Y"
@@ -34326,10 +34314,6 @@ msgstr "Poslední frame animace"
 
 msgid "Stamp Note Text"
 msgstr "Vložit"
-
-
-msgid "Render Stamp"
-msgstr "Render: "
 
 
 msgid "Font Size"
@@ -43051,6 +43035,11 @@ msgstr "Ukázat"
 
 
 msgctxt "Operator"
+msgid "Text"
+msgstr "Text"
+
+
+msgctxt "Operator"
 msgid "Color"
 msgstr "Barva"
 
@@ -43761,11 +43750,6 @@ msgstr "Podobný"
 msgctxt "Operator"
 msgid "Single Bone"
 msgstr "Samostatná kost"
-
-
-msgctxt "Operator"
-msgid "Text"
-msgstr "Text"
 
 
 msgctxt "Operator"

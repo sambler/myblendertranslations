@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 1) (b'079b41d')\n"
+"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 20:33:40\n"
+"POT-Creation-Date: 2015-09-16 17:34:32\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arvid Rudling <arvid.r@gmail.com>\n"
 "Language-Team: \n"
@@ -1255,16 +1255,16 @@ msgid "Addon Preferences"
 msgstr "Spara användarinställn."
 
 
-msgid "Persistent Data Path"
-msgstr "Markera Rad"
-
-
 msgid "Source Root"
 msgstr "Markera Rad"
 
 
 msgid "Translation Root"
 msgstr "Markera Länkad"
+
+
+msgid "Persistent Data Path"
+msgstr "Markera Rad"
 
 
 msgid "Animation Data"
@@ -5340,6 +5340,18 @@ msgid "Show folders"
 msgstr "Flytta Till Lager"
 
 
+msgid "Fonts"
+msgstr "Typsnitt"
+
+
+msgid "Geometry"
+msgstr "Geometri"
+
+
+msgid "Shading"
+msgstr "Skuggning:"
+
+
 msgid "Normal"
 msgstr "Beräkna Normaler"
 
@@ -5442,10 +5454,6 @@ msgstr "Rendera"
 
 msgid "How to display the mesh in the viewport"
 msgstr "Duplicera"
-
-
-msgid "Geometry"
-msgstr "Geometri"
 
 
 msgid "Display geometry"
@@ -6526,10 +6534,6 @@ msgstr "Autostart"
 
 msgid "Original Normal"
 msgstr "Rensa Ursprung"
-
-
-msgid "Wrap"
-msgstr "Radbrytning"
 
 
 msgid "Strength Pressure"
@@ -11673,6 +11677,10 @@ msgid "Rotation Angle"
 msgstr "Rotationsvinkel"
 
 
+msgid "Tolerance"
+msgstr "Infoga"
+
+
 msgid "Orientation"
 msgstr "Rensa Rotation"
 
@@ -15162,6 +15170,10 @@ msgid "Directional Blur"
 msgstr "Riktning"
 
 
+msgid "Wrap"
+msgstr "Radbrytning"
+
+
 msgid "Center X"
 msgstr "Mitten"
 
@@ -15208,10 +15220,6 @@ msgstr "Bana"
 
 msgid "Difference Key"
 msgstr "Programnställningar…"
-
-
-msgid "Tolerance"
-msgstr "Infoga"
 
 
 msgid "Step"
@@ -15964,6 +15972,34 @@ msgstr "Rensa Placering"
 
 msgid "Musgrave Texture"
 msgstr "Text"
+
+
+msgid "Point Source"
+msgstr "Rotera"
+
+
+msgid "Object Vertices"
+msgstr "Bana"
+
+
+msgid "Particle System to render as points"
+msgstr "Spara som"
+
+
+msgid "Color Source"
+msgstr "Färgkälla"
+
+
+msgid "Particle Age"
+msgstr "Partikel-UV"
+
+
+msgid "Particle Speed"
+msgstr "Partikelsystem"
+
+
+msgid "Particle Velocity"
+msgstr "Bild Displist"
 
 
 msgid "Sky Texture"
@@ -18691,6 +18727,14 @@ msgid "Select Control Point Row"
 msgstr "Lägg till Stripp"
 
 
+msgid "Compare"
+msgstr "Kompression"
+
+
+msgid "Greater"
+msgstr "Utsända från:"
+
+
 msgctxt "Operator"
 msgid "Separate"
 msgstr "Separera"
@@ -18708,6 +18752,10 @@ msgstr "Mjuk uppdelning"
 
 msgid "Set shading to smooth"
 msgstr "Mjuk uppdelning"
+
+
+msgid "Select shortest path between two selections"
+msgstr "Markera Länkad"
 
 
 msgctxt "Operator"
@@ -21882,14 +21930,6 @@ msgid "Perimeter"
 msgstr "Parametrar"
 
 
-msgid "Compare"
-msgstr "Kompression"
-
-
-msgid "Greater"
-msgstr "Utsända från:"
-
-
 msgid "Separate selected geometry into a new mesh"
 msgstr "Markera Länkad"
 
@@ -21904,10 +21944,6 @@ msgstr "Form"
 
 
 msgid "Apply selected vertex locations to all other shape keys"
-msgstr "Markera Länkad"
-
-
-msgid "Select shortest path between two selections"
 msgstr "Markera Länkad"
 
 
@@ -23504,10 +23540,6 @@ msgstr "Packa Data"
 
 msgid "DupliGroup"
 msgstr "Markera Rad"
-
-
-msgid "Fonts"
-msgstr "Typsnitt"
 
 
 msgctxt "Operator"
@@ -29578,6 +29610,14 @@ msgid "Mirror brush across the Z axis"
 msgstr "Vektor Måla"
 
 
+msgid "Tile X"
+msgstr "Arkiv"
+
+
+msgid "Tile Y"
+msgstr "Arkiv"
+
+
 msgid "Image Paint"
 msgstr "Bild Displist"
 
@@ -29726,10 +29766,6 @@ msgid "Spot Shape"
 msgstr "Beräkna Normaler"
 
 
-msgid "Ray Visibility"
-msgstr "Växla synlighet"
-
-
 msgid "Cycles Hair Rendering"
 msgstr "Visa"
 
@@ -29744,6 +29780,10 @@ msgstr "Flytta Till Lager"
 
 msgid "Performance"
 msgstr "Rensa Rotation"
+
+
+msgid "Ray Visibility"
+msgstr "Växla synlighet"
 
 
 msgid "Area Shape"
@@ -29832,10 +29872,6 @@ msgstr "NURBS Kurva"
 
 msgid "Render Pipeline Options"
 msgstr "Lägg till renderingsförinställning"
-
-
-msgid "Shading"
-msgstr "Skuggning:"
 
 
 msgid "Mocap Fixes"
@@ -30148,10 +30184,6 @@ msgstr "Partikel i ett partikelsystem"
 
 msgid "Particle Location"
 msgstr "Partikelfriktion:"
-
-
-msgid "Particle Velocity"
-msgstr "Bild Displist"
 
 
 msgid "Previous Particle Location"
@@ -30690,18 +30722,6 @@ msgid "Point density settings"
 msgstr "Inställningar för punkttäthet"
 
 
-msgid "Point Source"
-msgstr "Rotera"
-
-
-msgid "Object Vertices"
-msgstr "Bana"
-
-
-msgid "Particle System to render as points"
-msgstr "Spara som"
-
-
 msgid "Particle Cache"
 msgstr "Partiklar/yta"
 
@@ -30734,20 +30754,8 @@ msgid "Object Location"
 msgstr "Objektanimation"
 
 
-msgid "Particle Age"
-msgstr "Partikel-UV"
-
-
 msgid "Softness"
 msgstr "Styvhet"
-
-
-msgid "Color Source"
-msgstr "Färgkälla"
-
-
-msgid "Particle Speed"
-msgstr "Partikelsystem"
 
 
 msgid "Velocity Scale"
@@ -30910,12 +30918,24 @@ msgid "Group of ID properties"
 msgstr "Vätskeegenskaper:"
 
 
+msgid "Stitch frame"
+msgstr "Starta Spel"
+
+
+msgid "Frame to locate stitch on"
+msgstr "Radera"
+
+
 msgid "Action 2"
 msgstr "Markera Rad"
 
 
 msgid "Second action in stitch"
 msgstr "Markera Länkad"
+
+
+msgid "Second offset"
+msgstr "Spel"
 
 
 msgid "Action 1"
@@ -30928,18 +30948,6 @@ msgstr "Markera Länkad"
 
 msgid "Blend amount"
 msgstr "Blanda"
-
-
-msgid "Stitch frame"
-msgstr "Starta Spel"
-
-
-msgid "Frame to locate stitch on"
-msgstr "Radera"
-
-
-msgid "Second offset"
-msgstr "Spel"
 
 
 msgid "Stick Bone"
@@ -31310,35 +31318,23 @@ msgid "POT File Path"
 msgstr "Sökväg"
 
 
-msgid "Out"
-msgstr "Rendera"
-
-
-msgid "Number of frames to smooth out"
-msgstr "Bild Displist"
+msgid "Name of Mocap Fix"
+msgstr "Flytta Till Lager"
 
 
 msgid "Bone (2)"
 msgstr "Ben"
 
 
-msgid "Start frame of Fix"
-msgstr "Starta rendering av sekvens"
-
-
-msgid "Constrained Bone"
-msgstr "Lägg till Stripp"
-
-
 msgid "Type of constraint"
 msgstr "Lägg till Stripp"
 
 
-msgid "End frame of Fix"
-msgstr "Aktivera alla Nyckelbilder"
+msgid "Start frame of Fix"
+msgstr "Starta rendering av sekvens"
 
 
-msgid "Name of Mocap Fix"
+msgid "Fix is active"
 msgstr "Flytta Till Lager"
 
 
@@ -31350,8 +31346,12 @@ msgid "Number of frames to smooth in"
 msgstr "Markera Länkad"
 
 
-msgid "Fix is active"
-msgstr "Flytta Till Lager"
+msgid "Out"
+msgstr "Rendera"
+
+
+msgid "Number of frames to smooth out"
+msgstr "Bild Displist"
 
 
 msgid "Object space"
@@ -31360,6 +31360,14 @@ msgstr "Packa Data"
 
 msgid "Other Bone Space"
 msgstr "Texturrum"
+
+
+msgid "Constrained Bone"
+msgstr "Lägg till Stripp"
+
+
+msgid "End frame of Fix"
+msgstr "Aktivera alla Nyckelbilder"
 
 
 msgid "Operator File List Element"
@@ -31610,16 +31618,8 @@ msgid "Percentage scale for render resolution"
 msgstr "Percentuell skala för renderingsupplösning"
 
 
-msgid "Tile X"
-msgstr "Arkiv"
-
-
 msgid "Horizontal tile size to use while rendering"
 msgstr "Renderingsmotor"
-
-
-msgid "Tile Y"
-msgstr "Arkiv"
 
 
 msgid "Vertical tile size to use while rendering"
@@ -31856,10 +31856,6 @@ msgstr "Rendera"
 
 msgid "Stamp Note Text"
 msgstr "Duplicera"
-
-
-msgid "Render Stamp"
-msgstr "Rendera stämpel"
 
 
 msgid "Font Size"
@@ -39927,6 +39923,11 @@ msgstr "Glöd"
 
 
 msgctxt "Operator"
+msgid "Text"
+msgstr "Text"
+
+
+msgctxt "Operator"
 msgid "Color"
 msgstr "Färg"
 
@@ -40665,11 +40666,6 @@ msgstr "Markera Rad"
 msgctxt "Operator"
 msgid "Single Bone"
 msgstr "Enstaka ben"
-
-
-msgctxt "Operator"
-msgid "Text"
-msgstr "Text"
 
 
 msgctxt "Operator"

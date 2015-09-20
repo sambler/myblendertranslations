@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 1) (b'079b41d')\n"
+"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 20:33:40\n"
+"POT-Creation-Date: 2015-09-16 17:34:32\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Santiago Lizardo <santiago.lizardo@gmail.com>\n"
 "Language-Team: Blender Català (http://www.blender.cat)\n"
@@ -1092,16 +1092,16 @@ msgid "Addon Preferences"
 msgstr "Començar a renderitzar una seqüència"
 
 
-msgid "Persistent Data Path"
-msgstr "Seleccionar fila"
-
-
 msgid "Source Root"
 msgstr "Seleccionar fila"
 
 
 msgid "Translation Root"
 msgstr "Seleccionar connectats"
+
+
+msgid "Persistent Data Path"
+msgstr "Seleccionar fila"
 
 
 msgid "Animation Data"
@@ -4647,6 +4647,14 @@ msgstr "Moure a Capa"
 
 msgid "Show folders"
 msgstr "Moure a Capa"
+
+
+msgid "Fonts"
+msgstr "Duplicar"
+
+
+msgid "Shading"
+msgstr "Esborrar Rotació"
 
 
 msgid "Normal"
@@ -10134,6 +10142,10 @@ msgid "Rotation Angle"
 msgstr "Esborrar Rotació"
 
 
+msgid "Tolerance"
+msgstr "Afegir"
+
+
 msgid "Orientation"
 msgstr "Esborrar Rotació"
 
@@ -13331,10 +13343,6 @@ msgid "Difference Key"
 msgstr "Començar a renderitzar una seqüència"
 
 
-msgid "Tolerance"
-msgstr "Afegir"
-
-
 msgid "Edge to inset"
 msgstr "Seleccionar fila"
 
@@ -13989,6 +13997,34 @@ msgstr "Esborrar Posició"
 
 msgid "Musgrave Texture"
 msgstr "Texte"
+
+
+msgid "Point Source"
+msgstr "Rotar"
+
+
+msgid "Object Vertices"
+msgstr "Corba"
+
+
+msgid "Particle System to render as points"
+msgstr "Guardar com"
+
+
+msgid "Color Source"
+msgstr "Comprimir Dades"
+
+
+msgid "Particle Age"
+msgstr "Image Displist"
+
+
+msgid "Particle Speed"
+msgstr "Image Displist"
+
+
+msgid "Particle Velocity"
+msgstr "Image Displist"
 
 
 msgid "Sky Texture"
@@ -16294,6 +16330,22 @@ msgid "Select Control Point Row"
 msgstr "Afegir Tira"
 
 
+msgid "Compare"
+msgstr "Image Displist"
+
+
+msgid "Equal"
+msgstr "Igual"
+
+
+msgid "Greater"
+msgstr "Esborrar Rotació"
+
+
+msgid "Less"
+msgstr "Menys"
+
+
 msgctxt "Operator"
 msgid "Separate"
 msgstr "Separar"
@@ -16311,6 +16363,10 @@ msgstr "Pintura Vectorial"
 
 msgid "Set shading to smooth"
 msgstr "Pintura Vectorial"
+
+
+msgid "Select shortest path between two selections"
+msgstr "Seleccionar connectats"
 
 
 msgctxt "Operator"
@@ -19047,22 +19103,6 @@ msgid "Perimeter"
 msgstr "Duplicar"
 
 
-msgid "Compare"
-msgstr "Image Displist"
-
-
-msgid "Equal"
-msgstr "Igual"
-
-
-msgid "Greater"
-msgstr "Esborrar Rotació"
-
-
-msgid "Less"
-msgstr "Menys"
-
-
 msgid "Separate selected geometry into a new mesh"
 msgstr "Seleccionar connectats"
 
@@ -19074,10 +19114,6 @@ msgstr "Duplicar"
 msgctxt "Operator"
 msgid "Shape Propagate"
 msgstr "Seleccionar fila"
-
-
-msgid "Select shortest path between two selections"
-msgstr "Seleccionar connectats"
 
 
 msgid "Selected vertex path between two vertices"
@@ -20483,10 +20519,6 @@ msgstr "Comprimir Dades"
 
 msgid "DupliGroup"
 msgstr "Seleccionar fila"
-
-
-msgid "Fonts"
-msgstr "Duplicar"
 
 
 msgctxt "Operator"
@@ -25410,6 +25442,14 @@ msgid "Input Samples"
 msgstr "Esborrar"
 
 
+msgid "Tile X"
+msgstr "Arxiu"
+
+
+msgid "Tile Y"
+msgstr "Arxiu"
+
+
 msgid "Image Paint"
 msgstr "Image Displist"
 
@@ -25566,10 +25606,6 @@ msgid "Spot Shape"
 msgstr "Moure a Capa"
 
 
-msgid "Ray Visibility"
-msgstr "Cíclic"
-
-
 msgid "Cycles Hair Rendering"
 msgstr "Mostrar"
 
@@ -25588,6 +25624,10 @@ msgstr "Moure a Capa"
 
 msgid "Performance"
 msgstr "Esborrar Rotació"
+
+
+msgid "Ray Visibility"
+msgstr "Cíclic"
 
 
 msgid "Area Shape"
@@ -25676,10 +25716,6 @@ msgstr "Corba NURBS"
 
 msgid "Render Pipeline Options"
 msgstr "Render"
-
-
-msgid "Shading"
-msgstr "Esborrar Rotació"
 
 
 msgid "Mocap Fixes"
@@ -25975,10 +26011,6 @@ msgstr "Image Displist"
 
 
 msgid "Particle Location"
-msgstr "Image Displist"
-
-
-msgid "Particle Velocity"
 msgstr "Image Displist"
 
 
@@ -26510,18 +26542,6 @@ msgid "Point density settings"
 msgstr "Seleccionar fila"
 
 
-msgid "Point Source"
-msgstr "Rotar"
-
-
-msgid "Object Vertices"
-msgstr "Corba"
-
-
-msgid "Particle System to render as points"
-msgstr "Guardar com"
-
-
 msgid "Particle Cache"
 msgstr "Mostrar propietats de les arestes"
 
@@ -26554,20 +26574,8 @@ msgid "Object Location"
 msgstr "Finestra de Render"
 
 
-msgid "Particle Age"
-msgstr "Image Displist"
-
-
 msgid "Softness"
 msgstr "Blandura"
-
-
-msgid "Color Source"
-msgstr "Comprimir Dades"
-
-
-msgid "Particle Speed"
-msgstr "Image Displist"
 
 
 msgid "Velocity Scale"
@@ -26670,8 +26678,16 @@ msgid "Group of ID properties"
 msgstr "Image Displist"
 
 
+msgid "Stitch frame"
+msgstr "Començar Joc"
+
+
 msgid "Action 2"
 msgstr "Seleccionar fila"
+
+
+msgid "Second offset"
+msgstr "Joc"
 
 
 msgid "Action 1"
@@ -26680,14 +26696,6 @@ msgstr "Seleccionar fila"
 
 msgid "Blend amount"
 msgstr "Render"
-
-
-msgid "Stitch frame"
-msgstr "Començar Joc"
-
-
-msgid "Second offset"
-msgstr "Joc"
 
 
 msgid "Stick Bone"
@@ -27026,16 +27034,16 @@ msgid "Map Resolution"
 msgstr "Seleccionar connectats"
 
 
+msgid "MO File Path"
+msgstr "Arxiu"
+
+
 msgid "Language Name"
 msgstr "Idioma"
 
 
 msgid "Language ID"
 msgstr "Idioma"
-
-
-msgid "MO File Path"
-msgstr "Arxiu"
 
 
 msgid "PO File Path"
@@ -27050,6 +27058,30 @@ msgid "POT File Path"
 msgstr "Arxiu"
 
 
+msgid "Name of Mocap Fix"
+msgstr "Moure a Capa"
+
+
+msgid "Bone (2)"
+msgstr "Corba de Bezier"
+
+
+msgid "Type of constraint"
+msgstr "Afegir Tira"
+
+
+msgid "Start frame of Fix"
+msgstr "Començar a renderitzar una seqüència"
+
+
+msgid "Fix is active"
+msgstr "Moure a Capa"
+
+
+msgid "Number of frames to smooth in"
+msgstr "Seleccionar connectats"
+
+
 msgid "Out"
 msgstr "Render"
 
@@ -27058,44 +27090,20 @@ msgid "Number of frames to smooth out"
 msgstr "Seleccionar connectats"
 
 
-msgid "Bone (2)"
-msgstr "Corba de Bezier"
-
-
-msgid "Start frame of Fix"
-msgstr "Començar a renderitzar una seqüència"
-
-
-msgid "Constrained Bone"
-msgstr "Afegir Tira"
-
-
-msgid "Type of constraint"
-msgstr "Afegir Tira"
-
-
-msgid "End frame of Fix"
-msgstr "Mostrar propietats de les arestes"
-
-
-msgid "Name of Mocap Fix"
-msgstr "Moure a Capa"
-
-
-msgid "Number of frames to smooth in"
-msgstr "Seleccionar connectats"
-
-
-msgid "Fix is active"
-msgstr "Moure a Capa"
-
-
 msgid "Object space"
 msgstr "Comprimir Dades"
 
 
 msgid "Other Bone Space"
 msgstr "Texte"
+
+
+msgid "Constrained Bone"
+msgstr "Afegir Tira"
+
+
+msgid "End frame of Fix"
+msgstr "Mostrar propietats de les arestes"
 
 
 msgid "Operator File List Element"
@@ -27338,16 +27346,8 @@ msgid "Percentage scale for render resolution"
 msgstr "Començar a renderitzar una seqüència"
 
 
-msgid "Tile X"
-msgstr "Arxiu"
-
-
 msgid "Horizontal tile size to use while rendering"
 msgstr "Guardar com"
-
-
-msgid "Tile Y"
-msgstr "Arxiu"
 
 
 msgid "Vertical tile size to use while rendering"
@@ -27520,10 +27520,6 @@ msgstr "Render"
 
 msgid "Stamp Note Text"
 msgstr "Duplicar"
-
-
-msgid "Render Stamp"
-msgstr "Render"
 
 
 msgid "Text Color"
@@ -34467,6 +34463,11 @@ msgstr "Créixer"
 
 
 msgctxt "Operator"
+msgid "Text"
+msgstr "Texte"
+
+
+msgctxt "Operator"
 msgid "Color"
 msgstr "Color"
 
@@ -34957,11 +34958,6 @@ msgstr "Superfície"
 msgctxt "Operator"
 msgid "Side of Active"
 msgstr "Moure a Capa"
-
-
-msgctxt "Operator"
-msgid "Text"
-msgstr "Texte"
 
 
 msgctxt "Operator"

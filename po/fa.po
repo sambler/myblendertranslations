@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 1) (b'079b41d')\n"
+"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 20:33:40\n"
+"POT-Creation-Date: 2015-09-16 17:34:32\n"
 "PO-Revision-Date: 2012-10-31 17:00-0800\n"
 "Last-Translator: Amin Babaeipanah <translate@leomoon.com>\n"
 "Language-Team: LeoMoon Studios <blender@leomoon.com>\n"
@@ -1126,12 +1126,12 @@ msgid "Addon Preferences"
 msgstr "ﺮﺑﺭﺎﮐ ﺕﺎﻤﯿﻈﻨﺗ"
 
 
-msgid "Persistent Data Path"
-msgstr "ﻊﺒﻨﻣ"
-
-
 msgid "Translation Root"
 msgstr "ﯽﯾﺎﺠﺑﺎﺟ ﺪﺣﺍﻭ"
+
+
+msgid "Persistent Data Path"
+msgstr "ﻊﺒﻨﻣ"
 
 
 msgid "Animation Data"
@@ -3405,6 +3405,14 @@ msgstr "ﻩﺮﯿﺧﺫ"
 
 msgid "Filter BlenderBackup files"
 msgstr "ﺭﺪﻨﻠﺑ ﻞﯾﺎﻓ ﺶﯾﺎﻤﻧ"
+
+
+msgid "Fonts"
+msgstr "ﺎﻫ ﺖﻧﻮﻓ:"
+
+
+msgid "Shading"
+msgstr "ﯽﻧﺯ ﻪﯾﺎﺳ"
 
 
 msgid "Start Time"
@@ -9471,6 +9479,14 @@ msgid "Select Control Point Row"
 msgstr "ﺶﺧﺮﭼ ﻪﻄﻘﻧ"
 
 
+msgid "Compare"
+msgstr "ﻩﺩﺮﺸﻓ ﺮﮕﻧﺎﺸﻧ"
+
+
+msgid "Less"
+msgstr "ﺮﺘﻤﮐ"
+
+
 msgctxt "Operator"
 msgid "Separate"
 msgstr "ﺍﺪﺟ"
@@ -9488,6 +9504,10 @@ msgstr "ﻪﻧﻮﻤﻧ ﺖﻣﺮﻓ"
 
 msgid "Set shading to smooth"
 msgstr "ﻪﻧﻮﻤﻧ ﺖﻣﺮﻓ"
+
+
+msgid "Select shortest path between two selections"
+msgstr "ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ ﯽﺷ ﻭﺩ ﻦﯿﺑ ﺮﯿﺴﻣ ﻦﯾﺮﺗ ﻩﺎﺗﻮﮐ ﺏﺎﺨﺘﻧﺍ"
 
 
 msgctxt "Operator"
@@ -11076,24 +11096,12 @@ msgid "Polygon Sides"
 msgstr "ﯼﺍ ﻪﺷﻮﮔ"
 
 
-msgid "Compare"
-msgstr "ﻩﺩﺮﺸﻓ ﺮﮕﻧﺎﺸﻧ"
-
-
-msgid "Less"
-msgstr "ﺮﺘﻤﮐ"
-
-
 msgid "By Material"
 msgstr "ﺩﺍﻮﻣ ﺎﺑ"
 
 
 msgid "By loose parts"
 msgstr "ﺍﺪﺟ ﯼﺎﻫ‌ﺖﻤﺴﻗ ﺎﺑ"
-
-
-msgid "Select shortest path between two selections"
-msgstr "ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ ﯽﺷ ﻭﺩ ﻦﯿﺑ ﺮﯿﺴﻣ ﻦﯾﺮﺗ ﻩﺎﺗﻮﮐ ﺏﺎﺨﺘﻧﺍ"
 
 
 msgid "Selected vertex path between two vertices"
@@ -11963,10 +11971,6 @@ msgstr "ﺪﻧﻮﯿﭘ"
 
 msgid "Object Data"
 msgstr "ءﯽﺷ ﯼﺎﻫ‌ﻩﺩﺍﺩ"
-
-
-msgid "Fonts"
-msgstr "ﺎﻫ ﺖﻧﻮﻓ:"
 
 
 msgctxt "Operator"
@@ -14822,6 +14826,14 @@ msgid "Input Samples"
 msgstr "AA ﯼﺎﻫ‌ﻪﻧﻮﻤﻧ"
 
 
+msgid "Tile X"
+msgstr "ﺯﺎﺠﻣ ﻩﺯﺍﺪﻧﺍ"
+
+
+msgid "Tile Y"
+msgstr "ﺯﺎﺠﻣ ﻩﺯﺍﺪﻧﺍ"
+
+
 msgid "Stencil Layer"
 msgstr "ﻞﯿﺴﻨﺘﺳﺍ ﻪﯾﻻ﻿"
 
@@ -14894,10 +14906,6 @@ msgid "Tracking Settings"
 msgstr "ﺏﺎﯾﺩﺭ ﺕﺎﻤﯿﻈﻨﺗ"
 
 
-msgid "Ray Visibility"
-msgstr "ﻪﻌﺷﺍ ﺪﯾﺩ"
-
-
 msgid "Cycles Hair Rendering"
 msgstr "ﻥﺍﺪﯿﻣ ﯼﻭﺮﯿﻧ ﺕﺎﻤﯿﻈﻨﺗ"
 
@@ -14908,6 +14916,10 @@ msgstr "ﻥﺯﻭ ﯽﺷﺎﻘﻧ"
 
 msgid "Performance"
 msgstr "ﺩﺮﮑﻠﻤﻋ"
+
+
+msgid "Ray Visibility"
+msgstr "ﻪﻌﺷﺍ ﺪﯾﺩ"
 
 
 msgid "Post Processing"
@@ -14956,10 +14968,6 @@ msgstr "UV ﯼﺭﺎﺠﺣ"
 
 msgid "UV Sculpt Curve"
 msgstr "UV ﯽﻨﺤﻨﻣ ﯼﺭﺎﺠﺣ"
-
-
-msgid "Shading"
-msgstr "ﯽﻧﺯ ﻪﯾﺎﺳ"
 
 
 msgid "Mocap Fixes"
@@ -15106,6 +15114,10 @@ msgid "IK"
 msgstr "(IK) ﺱﻮﮑﻌﻣ ﺖﮐﺮﺣ"
 
 
+msgid "Stitch frame"
+msgstr "ﻢﯾﺮﻓ ﻥﺩﺯ ﻪﯿﺨﺑ"
+
+
 msgid "Action 2"
 msgstr "2 ﺭﺍﺩﺮﮐ"
 
@@ -15116,10 +15128,6 @@ msgstr "1 ﺭﺍﺩﺮﮐ"
 
 msgid "Blend amount"
 msgstr "ﺐﯿﮐﺮﺗ ﺭﺍﺪﻘﻣ"
-
-
-msgid "Stitch frame"
-msgstr "ﻢﯾﺮﻓ ﻥﺩﺯ ﻪﯿﺨﺑ"
 
 
 msgid "Aperture Type"
@@ -15330,24 +15338,36 @@ msgid "POT File Path"
 msgstr "ﻞﯾﺎﻓ ﯼﺎﻫﺮﯿﺴﻣ"
 
 
-msgid "Out"
-msgstr "ﯽﺟﻭﺮﺧ"
-
-
 msgid "Bone (2)"
 msgstr "(2) ﻥﺍﻮﺨﺘﺳﺍ"
+
+
+msgid "Type of constraint"
+msgstr "ﺖﯾﺩﻭﺪﺤﻣ ﻉﻮﻧ"
 
 
 msgid "Start frame of Fix"
 msgstr "ﺝﻭﺮﺧ ﯼﺍﺮﺑ ﻢﯾﺮﻓ ﻉﻭﺮﺷ"
 
 
+msgid "Fix is active"
+msgstr "ﺖﺳﺍ ﻝﺎﻌﻓ ﺮﯿﻤﻌﺗ"
+
+
+msgid "In"
+msgstr "ﯽﻠﺧﺍﺩ"
+
+
+msgid "Out"
+msgstr "ﯽﺟﻭﺮﺧ"
+
+
+msgid "Object space"
+msgstr "ءﯽﺷ ﯼﺎﻀﻓ"
+
+
 msgid "Constrained Bone"
 msgstr "ﻩﺪﺷ ﺩﻭﺪﺤﻣ ﻥﺍﻮﺨﺘﺳﺍ"
-
-
-msgid "Type of constraint"
-msgstr "ﺖﯾﺩﻭﺪﺤﻣ ﻉﻮﻧ"
 
 
 msgid "E"
@@ -15356,18 +15376,6 @@ msgstr "E"
 
 msgid "End frame of Fix"
 msgstr "ﺝﻭﺮﺧ ﯼﺍﺮﺑ ﻢﯾﺮﻓ ﻥﺎﯾﺎﭘ"
-
-
-msgid "In"
-msgstr "ﯽﻠﺧﺍﺩ"
-
-
-msgid "Fix is active"
-msgstr "ﺖﺳﺍ ﻝﺎﻌﻓ ﺮﯿﻤﻌﺗ"
-
-
-msgid "Object space"
-msgstr "ءﯽﺷ ﯼﺎﻀﻓ"
 
 
 msgid "Operator Mouse Path"
@@ -15408,14 +15416,6 @@ msgstr "ﻢﯿﻘﺘﺴﻣ ﺮﯿﻏ"
 
 msgid "Deliver transmission color pass"
 msgstr "ﻞﮑﺷ ﺮﯿﯿﻐﺗ ﺖﻬﺟ"
-
-
-msgid "Tile X"
-msgstr "ﺯﺎﺠﻣ ﻩﺯﺍﺪﻧﺍ"
-
-
-msgid "Tile Y"
-msgstr "ﺯﺎﺠﻣ ﻩﺯﺍﺪﻧﺍ"
 
 
 msgid "Image Editor"
@@ -17837,6 +17837,11 @@ msgstr "ﺏﺮﺿ"
 
 
 msgctxt "Operator"
+msgid "Text"
+msgstr "ﻦﺘﻣ"
+
+
+msgctxt "Operator"
 msgid "Color"
 msgstr "ﮓﻧﺭ"
 
@@ -18395,11 +18400,6 @@ msgstr "ﻪﺑﺎﺸﻣ"
 msgctxt "Operator"
 msgid "Single Bone"
 msgstr "ﻥﺍﻮﺨﺘﺳﺍ ﮏﺗ"
-
-
-msgctxt "Operator"
-msgid "Text"
-msgstr "ﻦﺘﻣ"
 
 
 msgctxt "Operator"
