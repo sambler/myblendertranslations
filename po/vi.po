@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
+"Project-Id-Version: Blender 2.76 (sub 0) (b'e24ea81')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-16 17:34:32\n"
+"POT-Creation-Date: 2015-09-30 16:04:40\n"
 "PO-Revision-Date: 2015-04-13 10:11+0700\n"
 "Last-Translator: HỒ NHỰT CHÂU <su_huynh@yahoo.com>\n"
 "Language-Team: Tỉnh An Giang, Đình Bình Phú\n"
@@ -1952,52 +1952,12 @@ msgid "Addon Preferences"
 msgstr "Tùy Chọn Đồ Kèm"
 
 
-msgid "Gettext 'msgfmt' executable"
-msgstr "Thực hành 'msgfmt' của Gettext"
-
-
-msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
-msgstr "'Biên dịch' gettext msgfmt. Chắt bạn cần chỉnh sửa nó nếu bạn đang xài Windows"
-
-
-msgid "Source Root"
-msgstr "Rẻ Mã Nguồn"
-
-
-msgid "The Blender source root path"
-msgstr "Đường dẫn rể mã nguồn của Blender"
-
-
 msgid "Translation Root"
 msgstr "Rể Tệp Dịch"
 
 
 msgid "The bf-translation repository"
 msgstr "Kho bf-translation (các tệp dịch giao diện của Blender)"
-
-
-msgid "Import Paths"
-msgstr "Nhập Đường Dẫn Tệp"
-
-
-msgid "Additional paths to add to sys.path (';' separated)"
-msgstr "Thêm đường dẫn têp để kèm với sys.path (xài ';' đê cách li)"
-
-
-msgid "Spell Cache"
-msgstr "Kho Đấng Vần"
-
-
-msgid "A cache storing validated msgids, to avoid re-spellchecking them"
-msgstr "Kho giữ mã msgid hợp lệ đề tránh đánh vần lại"
-
-
-msgid "Persistent Data Path"
-msgstr "Đườnd Dẫn Dữ Liệu Cố Chấp"
-
-
-msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
-msgstr "Tên của tệp json lưu các gía trị đặt đó (nhưng hệ thống của Blender không hoạt động ở đây)"
 
 
 msgid "Fribidi Library"
@@ -2008,12 +1968,52 @@ msgid "The FriBidi C compiled library (.so under Linux, .dll under windows...), 
 msgstr "Thư viện biên dịch C FriBidi (.so cho Linux, .dll cho Windows…), thường bạn sẽ cần chỉnh sửa nó nếu xài Windows, ví dụ thư viện ở trong respository thư viện svn"
 
 
+msgid "Source Root"
+msgstr "Rẻ Mã Nguồn"
+
+
+msgid "The Blender source root path"
+msgstr "Đường dẫn rể mã nguồn của Blender"
+
+
+msgid "Spell Cache"
+msgstr "Kho Đấng Vần"
+
+
+msgid "A cache storing validated msgids, to avoid re-spellchecking them"
+msgstr "Kho giữ mã msgid hợp lệ đề tránh đánh vần lại"
+
+
 msgid "Warn Msgid Not Capitalized"
 msgstr "Cảnh Cáo: Mã Tin Nhắn Không Có Chữ Hoa"
 
 
 msgid "Warn about messages not starting by a capitalized letter (with a few allowed exceptions!)"
 msgstr "Cảnh cáo về tin nhắn chữ đầu khôhg phải là chữ hoa (chỉ có vài trường hợp ngoại lệ!)"
+
+
+msgid "Persistent Data Path"
+msgstr "Đườnd Dẫn Dữ Liệu Cố Chấp"
+
+
+msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
+msgstr "Tên của tệp json lưu các gía trị đặt đó (nhưng hệ thống của Blender không hoạt động ở đây)"
+
+
+msgid "Gettext 'msgfmt' executable"
+msgstr "Thực hành 'msgfmt' của Gettext"
+
+
+msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
+msgstr "'Biên dịch' gettext msgfmt. Chắt bạn cần chỉnh sửa nó nếu bạn đang xài Windows"
+
+
+msgid "Import Paths"
+msgstr "Nhập Đường Dẫn Tệp"
+
+
+msgid "Additional paths to add to sys.path (';' separated)"
+msgstr "Thêm đường dẫn têp để kèm với sys.path (xài ';' đê cách li)"
 
 
 msgid "Animation Data"
@@ -17724,7 +17724,7 @@ msgstr "Góc cực đại giữa pháp tuyến mặt thì được chấp nhận
 
 
 msgid "Has Custom Normals"
-msgstr "Có Pháp Tuyến Tùy Chọn"
+msgstr "Có Pháp Tuyến Tự Tạo"
 
 
 msgid "True if there are custom split normals data in this mesh"
@@ -21493,7 +21493,7 @@ msgstr "Ngoại suy bằng chép điểm ảnh cạnh"
 
 
 msgid "Clip to image size and set exterior pixels as transparent"
-msgstr "Cắt tùy theo cỡ kích ảnh và đặt trong điểm ảnh ở ngoài"
+msgstr "Cắt tùy theo khổ ảnh và đặt đặt các điểm ảnh ở ngoài màu trong"
 
 
 msgid "Clip Cube"
@@ -22553,7 +22553,7 @@ msgstr "Đúng nếu ảnh dự khán này đã bị sửa đổi bởi văn b�
 
 
 msgid "Image Size"
-msgstr "Cỡ Kích Ảnh"
+msgstr "Khổ Ảnh"
 
 
 msgid "Width and height in pixels"
@@ -28662,11 +28662,11 @@ msgstr "Xài giá trị cường độ họa tiết cho dịch theo hướng ph�
 
 
 msgid "Custom Normal"
-msgstr "Pháp Tuyến Tự Chọn"
+msgstr "Pháp Tuyến Tự Tạo"
 
 
 msgid "Use the texture's intensity value to displace along the (averaged) custom normal (falls back to vertex)"
-msgstr "Xài giá trị cường độ của họa tiết cho dịch theo hướng pháp tuyến tự chọn (bị trung bình), (nếu không có sẽ xài đỉnh)"
+msgstr "Xài giá trị cường độ của họa tiết cho dịch theo hướng pháp tuyến tự tạo (bị trung bình), (nếu không có sẽ xài đỉnh)"
 
 
 msgid "RGB to XYZ"
@@ -29250,7 +29250,7 @@ msgstr "Cụ Sửa Đổi Pháp Tuyến"
 
 
 msgid "Modifier affecting/generating custom normals"
-msgstr "Cụ sửa đổi ảnh hướng/sáng tạo pháp tuyến tự lập"
+msgstr "Cụ sửa đổi ảnh hướng/sáng tạo pháp tuyến tự tạo"
 
 
 msgid "How to affect (generate) normals"
@@ -32849,7 +32849,7 @@ msgstr "Đinh Góc"
 
 
 msgid "Crop Image Size"
-msgstr "Cỡ Kích Cắt"
+msgstr "Khổ Cắt Ảnh"
 
 
 msgid "Whether to crop the size of the input image"
@@ -33413,10 +33413,6 @@ msgid "For positive distortion factor only: scale image such that black areas ar
 msgstr "Chỉ cho trị số méo dương: phóng to ảnh cho ẩn chổ màu đen"
 
 
-msgid "C"
-msgstr "Gồm"
-
-
 msgid "Combined RGB"
 msgstr "Gồm RGB"
 
@@ -33626,11 +33622,11 @@ msgstr "Phóng to tương đối với không gian tọa đồ nào"
 
 
 msgid "Offset image horizontally (factor of image size)"
-msgstr "Dịch ảnh ngang (phân số của cỡ kích ảnh)"
+msgstr "Dịch ảnh ngang (phân số của khổ ảnh)"
 
 
 msgid "Offset image vertically (factor of image size)"
-msgstr "Dịch ảnh dọc (phân số của cỡ kích ảnh)"
+msgstr "Dịch ảnh dọc (phân số của khổ ảnh)"
 
 
 msgid "Separate HSVA"
@@ -33674,7 +33670,7 @@ msgstr "Độ Dài Tia"
 
 
 msgid "Length of rays as a factor of the image size"
-msgstr "Độ dài của tia (phần số của cỡ kích ảnh)"
+msgstr "Độ dài của tia (phần số của khổ ảnh)"
 
 
 msgid "Switch"
@@ -41931,7 +41927,7 @@ msgstr "Nhập Pháp Tuyến"
 
 
 msgid "Import custom normals, if available (otherwise Blender will recompute them)"
-msgstr "Nhập pháp tuyến tùy tạo, nếu có (nếu không Blênder sẽ tính nó lại)"
+msgstr "Nhập pháp tuyến tự tạo, nếu có (nếu không Blênder sẽ tính nó lại)"
 
 
 msgid "Search subdirs for any associated images (WARNING: may be slow)"
@@ -43845,6 +43841,15 @@ msgstr "Cạnh"
 
 msgid "Number of sides in hole required to fill (zero fills all holes)"
 msgstr "Lỗ phải có bao nhiêu cạnh cho làm đầy (nếu = 0, đầy hết lỗ)"
+
+
+msgctxt "Operator"
+msgid "Flip Custom Normals"
+msgstr "Lật Pháp Tuyến Tự Tạo"
+
+
+msgid "Flip active mesh's normals, including custom ones (only in Object mode)"
+msgstr "Lật pháp tuyến của mạng lưới kích động, gồm pháp tuyến tự tạo (chỉ trong chế độ Vật Thể)"
 
 
 msgctxt "Operator"
@@ -46008,16 +46013,16 @@ msgid "Add a node to the active tree and link to an existing socket"
 msgstr "Thêm một giao điểm vào cây kích động và nối nó với ổ cắm có sẵn"
 
 
+msgid "Settings to be applied on the newly created node"
+msgstr "Đặt trưng áp dụng cho giao đểm mới tạo"
+
+
 msgid "Node Type"
 msgstr "Loại Giao Điểm"
 
 
 msgid "Node type"
 msgstr "Loại giao điểm"
-
-
-msgid "Settings to be applied on the newly created node"
-msgstr "Đặt trưng áp dụng cho giao đểm mới tạo"
 
 
 msgid "Use Transform"
@@ -60032,12 +60037,12 @@ msgid "Group of ID properties"
 msgstr "Nhóm của đặc trưng ID (tên)"
 
 
-msgid "Stitch frame"
-msgstr "Bức ảnh vá"
+msgid "Second offset"
+msgstr "Dịch thứ hai"
 
 
-msgid "Frame to locate stitch on"
-msgstr "Số bức ảnh cho làm vá"
+msgid "Frame offset for 2nd animation, where it should start"
+msgstr "Dịch bức ảnh cho hoạt hình thứ 2, thời nó nên bắt đầu"
 
 
 msgid "Action 2"
@@ -60048,20 +60053,12 @@ msgid "Second action in stitch"
 msgstr "Hành động thứ 1 trong vá"
 
 
-msgid "Second offset"
-msgstr "Dịch thứ hai"
+msgid "Stick Bone"
+msgstr "Xương Cây"
 
 
-msgid "Frame offset for 2nd animation, where it should start"
-msgstr "Dịch bức ảnh cho hoạt hình thứ 2, thời nó nên bắt đầu"
-
-
-msgid "Action 1"
-msgstr "Hành Động 1"
-
-
-msgid "First action in stitch"
-msgstr "Hành động thứ 1 trong vá"
+msgid "Bone to freeze during transition"
+msgstr "Xương cho giữ nguyên khi tiến triển"
 
 
 msgid "Blend amount"
@@ -60072,12 +60069,20 @@ msgid "Size of blending transition, on both sides of the stitch"
 msgstr "Cỡ kích pha trộn tiến triển, ở hai bên của vá"
 
 
-msgid "Stick Bone"
-msgstr "Xương Cây"
+msgid "Stitch frame"
+msgstr "Bức ảnh vá"
 
 
-msgid "Bone to freeze during transition"
-msgstr "Xương cho giữ nguyên khi tiến triển"
+msgid "Frame to locate stitch on"
+msgstr "Số bức ảnh cho làm vá"
+
+
+msgid "Action 1"
+msgstr "Hành Động 1"
+
+
+msgid "First action in stitch"
+msgstr "Hành động thứ 1 trong vá"
 
 
 msgid "Aperture Type"
@@ -61092,42 +61097,6 @@ msgid "Settings/info about a language"
 msgstr "Đặc trưng/thông tin về ngôn ngữ"
 
 
-msgid "MO File Path"
-msgstr "Dường Dẫn Tệp MO"
-
-
-msgid "Path to the relevant mo file"
-msgstr "Đường dẫn đến tệp .mo phù hợp"
-
-
-msgid "Language Name"
-msgstr "Tên Nhôn Ngữ"
-
-
-msgid "English language name/label (like \"French (Français)\")"
-msgstr "Tên tiếng Anh (như \"French (Français)\" (tiếng Pháp))"
-
-
-msgid "Language ID"
-msgstr "ID Ngôn Ngữ"
-
-
-msgid "ISO code, like fr_FR"
-msgstr "Mã số ISO, như fr_FR"
-
-
-msgid "PO File Path"
-msgstr "Đường Dẫn Tệp PO"
-
-
-msgid "Path to the relevant po file in branches"
-msgstr "Đường dẫn đến tệp .po phù hợp trong nhánh"
-
-
-msgid "Use this language in current operator"
-msgstr "Xài ngôn ngữ trong thao tác hiện tại"
-
-
 msgid "PO Trunk File Path"
 msgstr "Đường Dẫn Tệp Thân Cây PO"
 
@@ -61152,20 +61121,40 @@ msgid "Numeric ID (readonly!)"
 msgstr "ID Mã Số (chỉ được đọc)"
 
 
-msgid "Active Language"
-msgstr "Ngôn Ngữ Kích Động"
+msgid "Language ID"
+msgstr "ID Ngôn Ngữ"
 
 
-msgid "Index of active language in langs collection"
-msgstr "Chỉ số của ngôn ngữ kích động trong tập ngôn ngữ"
+msgid "ISO code, like fr_FR"
+msgstr "Mã số ISO, như fr_FR"
 
 
-msgid "Languages"
-msgstr "Ngông Ngữ"
+msgid "MO File Path"
+msgstr "Dường Dẫn Tệp MO"
 
 
-msgid "Languages to update in branches"
-msgstr "Ngông ngữ để nâng cấp trong nhánh"
+msgid "Path to the relevant mo file"
+msgstr "Đường dẫn đến tệp .mo phù hợp"
+
+
+msgid "PO File Path"
+msgstr "Đường Dẫn Tệp PO"
+
+
+msgid "Path to the relevant po file in branches"
+msgstr "Đường dẫn đến tệp .po phù hợp trong nhánh"
+
+
+msgid "Use this language in current operator"
+msgstr "Xài ngôn ngữ trong thao tác hiện tại"
+
+
+msgid "Language Name"
+msgstr "Tên Nhôn Ngữ"
+
+
+msgid "English language name/label (like \"French (Français)\")"
+msgstr "Tên tiếng Anh (như \"French (Français)\" (tiếng Pháp))"
 
 
 msgid "Whether these settings have already been auto-set or not"
@@ -61180,56 +61169,24 @@ msgid "Path to the pot template file"
 msgstr "Đường dẫn đến tệp mẫu .pot"
 
 
-msgid "Target of Fix - Point"
-msgstr "Mục Tieu Của Điểm - Chỉnh Sửa"
+msgid "Languages"
+msgstr "Ngông Ngữ"
 
 
-msgid "Name of Mocap Fix"
-msgstr "Tên Chỉnh Sửa Cho Mocap"
+msgid "Languages to update in branches"
+msgstr "Ngông ngữ để nâng cấp trong nhánh"
 
 
-msgid "Bone (2)"
-msgstr "Xương (2)"
+msgid "Active Language"
+msgstr "Ngôn Ngữ Kích Động"
 
 
-msgid "Other Constrained Bone (optional, depends on type)"
-msgstr "Xượng Khác Bị Ràng Buộc (tùy chọn, tuỳ loại)"
-
-
-msgid "Type of constraint"
-msgstr "Loại ràng buộc"
+msgid "Index of active language in langs collection"
+msgstr "Chỉ số của ngôn ngữ kích động trong tập ngôn ngữ"
 
 
 msgid "Start frame of Fix"
 msgstr "Số bức ảnh Đầu của sửa đổi"
-
-
-msgid "Fix is active"
-msgstr "Chỉnh sửa kích động rồi"
-
-
-msgid "In"
-msgstr "Vào"
-
-
-msgid "Number of frames to smooth in"
-msgstr "Số lượng bức ảnh chi vào mịn"
-
-
-msgid "Fix is fully shown"
-msgstr "Đang chiếu chỉnh sửa toàn bộ"
-
-
-msgid "Out"
-msgstr "Ra"
-
-
-msgid "Number of frames to smooth out"
-msgstr "Số lượng bức ảnh cho ra mịn"
-
-
-msgid "Target of Fix - Mesh (optional, depends on type)"
-msgstr "Mục tiêu của Chỉnh Sửa - Lưới (không bắt buộc, tùy lọai)"
 
 
 msgid "In which space should Point type target be evaluated"
@@ -61256,20 +61213,64 @@ msgid "Evaluate target in specified other bone space"
 msgstr "Đánh giá mục tiêu trong không gian xương khác được xác định"
 
 
-msgid "Constrained Bone"
-msgstr "Xương Được Ràng Buộc"
+msgid "Distance and Floor Fixes - Desired offset"
+msgstr "Sửa Khoảng Cách Và Sàn - Dịch thích thú"
 
 
-msgid "E"
-msgstr "C"
+msgid "Fix is active"
+msgstr "Chỉnh sửa kích động rồi"
+
+
+msgid "Type of constraint"
+msgstr "Loại ràng buộc"
+
+
+msgid "Target of Fix - Mesh (optional, depends on type)"
+msgstr "Mục tiêu của Chỉnh Sửa - Lưới (không bắt buộc, tùy lọai)"
+
+
+msgid "Target of Fix - Point"
+msgstr "Mục Tieu Của Điểm - Chỉnh Sửa"
+
+
+msgid "Fix is fully shown"
+msgstr "Đang chiếu chỉnh sửa toàn bộ"
+
+
+msgid "Out"
+msgstr "Ra"
+
+
+msgid "Number of frames to smooth out"
+msgstr "Số lượng bức ảnh cho ra mịn"
 
 
 msgid "End frame of Fix"
 msgstr "Số bức ảnh Cưới của Chỉnh Sửa"
 
 
-msgid "Distance and Floor Fixes - Desired offset"
-msgstr "Sửa Khoảng Cách Và Sàn - Dịch thích thú"
+msgid "In"
+msgstr "Vào"
+
+
+msgid "Number of frames to smooth in"
+msgstr "Số lượng bức ảnh chi vào mịn"
+
+
+msgid "Bone (2)"
+msgstr "Xương (2)"
+
+
+msgid "Other Constrained Bone (optional, depends on type)"
+msgstr "Xượng Khác Bị Ràng Buộc (tùy chọn, tuỳ loại)"
+
+
+msgid "Name of Mocap Fix"
+msgstr "Tên Chỉnh Sửa Cho Mocap"
+
+
+msgid "Constrained Bone"
+msgstr "Xương Được Ràng Buộc"
 
 
 msgid "Python expression to be evaluated as the initial node setting"
@@ -61324,8 +61325,12 @@ msgid "VRML2"
 msgstr "VRML2"
 
 
-msgid "Limit for checking zero area/length"
-msgstr "Giới hạn cho kiểm tra diện tích/bề dài không"
+msgid "Apply Scale"
+msgstr "Áp Dụng Phóng To"
+
+
+msgid "Apply scene scale setting on export"
+msgstr "Áp dụng phóng to của cảnh khi xuất tệp"
 
 
 msgid "Copy Textures"
@@ -61344,16 +61349,12 @@ msgid "Path to directory where the files are created"
 msgstr "Đường dẫn thư mục là chổ cho xuất tệp"
 
 
+msgid "Limit for checking zero area/length"
+msgstr "Giới hạn cho kiểm tra diện tích/bề dài không"
+
+
 msgid "Limit for checking distorted faces"
 msgstr "Giới hạn cho kiểm tra mặt méo"
-
-
-msgid "Apply Scale"
-msgstr "Áp Dụng Phóng To"
-
-
-msgid "Apply scene scale setting on export"
-msgstr "Áp dụng phóng to của cảnh khi xuất tệp"
 
 
 msgid "Selected UV Element"
@@ -66079,7 +66080,7 @@ msgstr "Bề Rộng Mờ"
 
 
 msgid "Width of the blur edge, in percentage relative to the image size"
-msgstr "Bề rộng của cạnh mờ, trăm tương đối với cỡ kích ảnh"
+msgstr "Bề rộng của cạnh mờ, trăm tương đối với khổ ảnh"
 
 
 msgid "Edge angle"
@@ -75935,6 +75936,10 @@ msgstr "Không kiếm được 'VậtThể' trong tệp %r"
 
 msgid "No 'Connections' found in file %r"
 msgstr "Không kiếm được 'KếtThúc' trong tệp %r"
+
+
+msgid "Custom Normal Tools:"
+msgstr "Dụng Cụ Pháp Tuyến Tự Tạo"
 
 
 msgid "Group '%s' not found"
@@ -86330,6 +86335,10 @@ msgid "Average re-projection error: %.3f"
 msgstr "Sai lầm chiếu lại trung bình: %.3f"
 
 
+msgid "Parent Directory"
+msgstr "Thư Mục Phụ Huynh"
+
+
 msgid "Open Directory"
 msgstr "Mở Thư Mục"
 
@@ -89202,6 +89211,10 @@ msgstr "OpenSubdiv bị tắt trong Tùy Chọn"
 
 msgid "OpenSubdiv is disabled due to dependencies"
 msgstr "OpenSubdiv bị tắt vì có đồ nhờ"
+
+
+msgid "OpenSubdiv is not supported in edit mode"
+msgstr "Không hỗ trọ OpenSubdiv trong chế độ soạn thảo"
 
 
 msgid "From/To objects must be set"

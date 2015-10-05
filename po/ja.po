@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
+"Project-Id-Version: Blender 2.76 (sub 0) (b'e24ea81')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-16 17:34:32\n"
+"POT-Creation-Date: 2015-09-30 16:04:40\n"
 "PO-Revision-Date: 2014-01-09 12:04+0900\n"
 "Last-Translator: \n"
 "Language-Team: Japanese Translation Team (https://sites.google.com/site/blugjp/blender-translators)\n"
@@ -1953,52 +1953,12 @@ msgid "Addon Preferences"
 msgstr "アドオン設定"
 
 
-msgid "Gettext 'msgfmt' executable"
-msgstr "実行可能なGettext 'msgfmt'"
-
-
-msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
-msgstr "Gettext msgfmtコンパイラ。Windows環境では編集しないといけないかもしれません"
-
-
-msgid "Source Root"
-msgstr "ソースルート"
-
-
-msgid "The Blender source root path"
-msgstr "Blenderソースルートパス"
-
-
 msgid "Translation Root"
 msgstr "ルートの移動"
 
 
 msgid "The bf-translation repository"
 msgstr "bf-translationリポジトリ"
-
-
-msgid "Import Paths"
-msgstr "パスのインポート"
-
-
-msgid "Additional paths to add to sys.path (';' separated)"
-msgstr "sys.pathに追加するパス(「;」で区切り)"
-
-
-msgid "Spell Cache"
-msgstr "スペルキャッシュ"
-
-
-msgid "A cache storing validated msgids, to avoid re-spellchecking them"
-msgstr "有効な msgid を格納するキャッシュ。再スペルチェックを防ぎます"
-
-
-msgid "Persistent Data Path"
-msgstr "Persistenデータパス"
-
-
-msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
-msgstr "これらの設定が含まれるJSONファイル名(残念ながらBlenderのシステムはここでは動作しません)"
 
 
 msgid "Fribidi Library"
@@ -2009,12 +1969,52 @@ msgid "The FriBidi C compiled library (.so under Linux, .dll under windows...), 
 msgstr "FriBidi Cコンパイル済ライブラリ(Linuxでは .so、Windowsでは .dll)。Windows環境の場合、編集しないといけないでしょう。例：SVNのライブラリリポジトリ内でインクルードされたこれを使用するなど"
 
 
+msgid "Source Root"
+msgstr "ソースルート"
+
+
+msgid "The Blender source root path"
+msgstr "Blenderソースルートパス"
+
+
+msgid "Spell Cache"
+msgstr "スペルキャッシュ"
+
+
+msgid "A cache storing validated msgids, to avoid re-spellchecking them"
+msgstr "有効な msgid を格納するキャッシュ。再スペルチェックを防ぎます"
+
+
 msgid "Warn Msgid Not Capitalized"
 msgstr "msgidの先頭文字の警告"
 
 
 msgid "Warn about messages not starting by a capitalized letter (with a few allowed exceptions!)"
 msgstr "開始文字が大文字ではないメッセージを警告します(少しの例外を可能にするため！)"
+
+
+msgid "Persistent Data Path"
+msgstr "Persistenデータパス"
+
+
+msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
+msgstr "これらの設定が含まれるJSONファイル名(残念ながらBlenderのシステムはここでは動作しません)"
+
+
+msgid "Gettext 'msgfmt' executable"
+msgstr "実行可能なGettext 'msgfmt'"
+
+
+msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
+msgstr "Gettext msgfmtコンパイラ。Windows環境では編集しないといけないかもしれません"
+
+
+msgid "Import Paths"
+msgstr "パスのインポート"
+
+
+msgid "Additional paths to add to sys.path (';' separated)"
+msgstr "sys.pathに追加するパス(「;」で区切り)"
 
 
 msgid "Animation Data"
@@ -33426,10 +33426,6 @@ msgid "For positive distortion factor only: scale image such that black areas ar
 msgstr "(正の歪み係数のみ)黒い領域がみえないよう画像を拡大縮小します"
 
 
-msgid "C"
-msgstr "統合"
-
-
 msgid "Combined RGB"
 msgstr "統合したRGB"
 
@@ -43874,6 +43870,15 @@ msgstr "フィルするのに必要な穴の辺の数（0ですべての穴を�
 
 
 msgctxt "Operator"
+msgid "Flip Custom Normals"
+msgstr "カスタム法線を反転"
+
+
+msgid "Flip active mesh's normals, including custom ones (only in Object mode)"
+msgstr "アクティブメッシュの、カスタムを含む法線を反転します（オブジェクトのみ）"
+
+
+msgctxt "Operator"
 msgid "Flip Normals"
 msgstr "面を反転"
 
@@ -46036,16 +46041,16 @@ msgid "Add a node to the active tree and link to an existing socket"
 msgstr "アクティブツリーにノードを追加し、現存のソケットにリンクします"
 
 
+msgid "Settings to be applied on the newly created node"
+msgstr "新規ノードに設定を適用します"
+
+
 msgid "Node Type"
 msgstr "ノードタイプ"
 
 
 msgid "Node type"
 msgstr "ノードタイプ"
-
-
-msgid "Settings to be applied on the newly created node"
-msgstr "新規ノードに設定を適用します"
 
 
 msgid "Use Transform"
@@ -60064,12 +60069,12 @@ msgid "Group of ID properties"
 msgstr "IDプロパティのグループ"
 
 
-msgid "Stitch frame"
-msgstr "フレームにスティッチ"
+msgid "Second offset"
+msgstr "第2オフセット"
 
 
-msgid "Frame to locate stitch on"
-msgstr "スティッチを行うフレーム位置"
+msgid "Frame offset for 2nd animation, where it should start"
+msgstr "二つめのアニメーションが開始するフレームオフセットです"
 
 
 msgid "Action 2"
@@ -60080,20 +60085,12 @@ msgid "Second action in stitch"
 msgstr "スティッチ内の二つめのアクション"
 
 
-msgid "Second offset"
-msgstr "第2オフセット"
+msgid "Stick Bone"
+msgstr "スティックボーン"
 
 
-msgid "Frame offset for 2nd animation, where it should start"
-msgstr "二つめのアニメーションが開始するフレームオフセットです"
-
-
-msgid "Action 1"
-msgstr "アクション1"
-
-
-msgid "First action in stitch"
-msgstr "スティッチの最初のアクション"
+msgid "Bone to freeze during transition"
+msgstr "推移中にボーンをフリーズ"
 
 
 msgid "Blend amount"
@@ -60104,12 +60101,20 @@ msgid "Size of blending transition, on both sides of the stitch"
 msgstr "スティッチ両側の移行部分のブレンドサイズ"
 
 
-msgid "Stick Bone"
-msgstr "スティックボーン"
+msgid "Stitch frame"
+msgstr "フレームにスティッチ"
 
 
-msgid "Bone to freeze during transition"
-msgstr "推移中にボーンをフリーズ"
+msgid "Frame to locate stitch on"
+msgstr "スティッチを行うフレーム位置"
+
+
+msgid "Action 1"
+msgstr "アクション1"
+
+
+msgid "First action in stitch"
+msgstr "スティッチの最初のアクション"
 
 
 msgid "Aperture Type"
@@ -61124,42 +61129,6 @@ msgid "Settings/info about a language"
 msgstr "言語の設定/情報"
 
 
-msgid "MO File Path"
-msgstr "MOファイルパス"
-
-
-msgid "Path to the relevant mo file"
-msgstr "適合するmoファイルへのパス"
-
-
-msgid "Language Name"
-msgstr "言語名"
-
-
-msgid "English language name/label (like \"French (Français)\")"
-msgstr "英語での言語名/ラベル(「Japanese (日本語)」など)"
-
-
-msgid "Language ID"
-msgstr "言語ID"
-
-
-msgid "ISO code, like fr_FR"
-msgstr "ja_JPなどのISOコード"
-
-
-msgid "PO File Path"
-msgstr "POファイルパス"
-
-
-msgid "Path to the relevant po file in branches"
-msgstr "branch内の適合するpoファイルへのパス"
-
-
-msgid "Use this language in current operator"
-msgstr "現在のオペレーターで現在の言語を使用します"
-
-
 msgid "PO Trunk File Path"
 msgstr "PO Trunkファイルパス"
 
@@ -61184,20 +61153,40 @@ msgid "Numeric ID (readonly!)"
 msgstr "数値ID(読み込みのみ！)"
 
 
-msgid "Active Language"
-msgstr "アクティブ言語"
+msgid "Language ID"
+msgstr "言語ID"
 
 
-msgid "Index of active language in langs collection"
-msgstr "言語群中のアクティブ言語のインデックス"
+msgid "ISO code, like fr_FR"
+msgstr "ja_JPなどのISOコード"
 
 
-msgid "Languages"
-msgstr "言語"
+msgid "MO File Path"
+msgstr "MOファイルパス"
 
 
-msgid "Languages to update in branches"
-msgstr "branch内の言語の更新"
+msgid "Path to the relevant mo file"
+msgstr "適合するmoファイルへのパス"
+
+
+msgid "PO File Path"
+msgstr "POファイルパス"
+
+
+msgid "Path to the relevant po file in branches"
+msgstr "branch内の適合するpoファイルへのパス"
+
+
+msgid "Use this language in current operator"
+msgstr "現在のオペレーターで現在の言語を使用します"
+
+
+msgid "Language Name"
+msgstr "言語名"
+
+
+msgid "English language name/label (like \"French (Français)\")"
+msgstr "英語での言語名/ラベル(「Japanese (日本語)」など)"
 
 
 msgid "Whether these settings have already been auto-set or not"
@@ -61212,56 +61201,24 @@ msgid "Path to the pot template file"
 msgstr "適合するpotテンプレートファイルへのパス"
 
 
-msgid "Target of Fix - Point"
-msgstr "補正ターゲット - ポイント"
+msgid "Languages"
+msgstr "言語"
 
 
-msgid "Name of Mocap Fix"
-msgstr "モーキャプ補正の名前"
+msgid "Languages to update in branches"
+msgstr "branch内の言語の更新"
 
 
-msgid "Bone (2)"
-msgstr "ボーン (2)"
+msgid "Active Language"
+msgstr "アクティブ言語"
 
 
-msgid "Other Constrained Bone (optional, depends on type)"
-msgstr "他のコンストレイントされたボーン（オプション、タイプに依存）"
-
-
-msgid "Type of constraint"
-msgstr "コンストレイントの種類"
+msgid "Index of active language in langs collection"
+msgstr "言語群中のアクティブ言語のインデックス"
 
 
 msgid "Start frame of Fix"
 msgstr "補正の開始フレーム"
-
-
-msgid "Fix is active"
-msgstr "補正がアクティブである"
-
-
-msgid "In"
-msgstr "入力"
-
-
-msgid "Number of frames to smooth in"
-msgstr "スムーズインするフレーム数"
-
-
-msgid "Fix is fully shown"
-msgstr "補正を完全に表示"
-
-
-msgid "Out"
-msgstr "出力"
-
-
-msgid "Number of frames to smooth out"
-msgstr "スムーズアウトする為のフレーム数"
-
-
-msgid "Target of Fix - Mesh (optional, depends on type)"
-msgstr "補正ターゲット - メッシュ（オプション、タイプに依存）"
 
 
 msgid "In which space should Point type target be evaluated"
@@ -61288,8 +61245,36 @@ msgid "Evaluate target in specified other bone space"
 msgstr "ターゲットを指定の他のボーン空間で評価します"
 
 
-msgid "Constrained Bone"
-msgstr "コンストレイントの掛けられたボーン"
+msgid "Distance and Floor Fixes - Desired offset"
+msgstr "距離と床の補正 - 希望のオフセット"
+
+
+msgid "Fix is active"
+msgstr "補正がアクティブである"
+
+
+msgid "Type of constraint"
+msgstr "コンストレイントの種類"
+
+
+msgid "Target of Fix - Mesh (optional, depends on type)"
+msgstr "補正ターゲット - メッシュ（オプション、タイプに依存）"
+
+
+msgid "Target of Fix - Point"
+msgstr "補正ターゲット - ポイント"
+
+
+msgid "Fix is fully shown"
+msgstr "補正を完全に表示"
+
+
+msgid "Out"
+msgstr "出力"
+
+
+msgid "Number of frames to smooth out"
+msgstr "スムーズアウトする為のフレーム数"
 
 
 msgid "E"
@@ -61300,8 +61285,28 @@ msgid "End frame of Fix"
 msgstr "補正の終了フレーム"
 
 
-msgid "Distance and Floor Fixes - Desired offset"
-msgstr "距離と床の補正 - 希望のオフセット"
+msgid "In"
+msgstr "入力"
+
+
+msgid "Number of frames to smooth in"
+msgstr "スムーズインするフレーム数"
+
+
+msgid "Bone (2)"
+msgstr "ボーン (2)"
+
+
+msgid "Other Constrained Bone (optional, depends on type)"
+msgstr "他のコンストレイントされたボーン（オプション、タイプに依存）"
+
+
+msgid "Name of Mocap Fix"
+msgstr "モーキャプ補正の名前"
+
+
+msgid "Constrained Bone"
+msgstr "コンストレイントの掛けられたボーン"
 
 
 msgid "Python expression to be evaluated as the initial node setting"
@@ -61356,8 +61361,12 @@ msgid "VRML2"
 msgstr "VRML2"
 
 
-msgid "Limit for checking zero area/length"
-msgstr "面積や長さが0かチェックする限界"
+msgid "Apply Scale"
+msgstr "スケールを適用"
+
+
+msgid "Apply scene scale setting on export"
+msgstr "エクスポート時にシーンスケール設定を適用します"
 
 
 msgid "Copy Textures"
@@ -61376,16 +61385,12 @@ msgid "Path to directory where the files are created"
 msgstr "ファイルを作成するディレクトリへのパス"
 
 
+msgid "Limit for checking zero area/length"
+msgstr "面積や長さが0かチェックする限界"
+
+
 msgid "Limit for checking distorted faces"
 msgstr "面の歪みをチェックする限界"
-
-
-msgid "Apply Scale"
-msgstr "スケールを適用"
-
-
-msgid "Apply scene scale setting on export"
-msgstr "エクスポート時にシーンスケール設定を適用します"
 
 
 msgid "Selected UV Element"
@@ -75975,6 +75980,10 @@ msgid "No 'Connections' found in file %r"
 msgstr "ファイル「%r」内に 'Connections' がありません"
 
 
+msgid "Custom Normal Tools:"
+msgstr "カスタム法線ツール:"
+
+
 msgid "Group '%s' not found"
 msgstr "グループ '%s' が見つかりません"
 
@@ -86382,6 +86391,10 @@ msgid "Average re-projection error: %.3f"
 msgstr "再投影の平均誤差: %.3f"
 
 
+msgid "Parent Directory"
+msgstr "親ディレクトリ"
+
+
 msgid "Open Directory"
 msgstr "ディレクトリを開く"
 
@@ -89269,7 +89282,11 @@ msgstr "ユーザー設定でOpenSubdivが無効になっています"
 
 
 msgid "OpenSubdiv is disabled due to dependencies"
-msgstr "依存の所為でOpenSubdivが無効です"
+msgstr "依存のため、OpenSubdivが無効です"
+
+
+msgid "OpenSubdiv is not supported in edit mode"
+msgstr "OpenSubdivは編集モードに対応していません"
 
 
 msgid "From/To objects must be set"

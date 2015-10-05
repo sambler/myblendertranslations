@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
+"Project-Id-Version: Blender 2.76 (sub 0) (b'e24ea81')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-16 17:34:32\n"
+"POT-Creation-Date: 2015-09-30 16:04:40\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Santiago Lizardo <santiago.lizardo@gmail.com>\n"
 "Language-Team: Blender Català (http://www.blender.cat)\n"
@@ -1092,12 +1092,12 @@ msgid "Addon Preferences"
 msgstr "Començar a renderitzar una seqüència"
 
 
-msgid "Source Root"
-msgstr "Seleccionar fila"
-
-
 msgid "Translation Root"
 msgstr "Seleccionar connectats"
+
+
+msgid "Source Root"
+msgstr "Seleccionar fila"
 
 
 msgid "Persistent Data Path"
@@ -26678,28 +26678,28 @@ msgid "Group of ID properties"
 msgstr "Image Displist"
 
 
-msgid "Stitch frame"
-msgstr "Començar Joc"
+msgid "Second offset"
+msgstr "Joc"
 
 
 msgid "Action 2"
 msgstr "Seleccionar fila"
 
 
-msgid "Second offset"
-msgstr "Joc"
-
-
-msgid "Action 1"
-msgstr "Seleccionar fila"
+msgid "Stick Bone"
+msgstr "Moure a Capa"
 
 
 msgid "Blend amount"
 msgstr "Render"
 
 
-msgid "Stick Bone"
-msgstr "Moure a Capa"
+msgid "Stitch frame"
+msgstr "Començar Joc"
+
+
+msgid "Action 1"
+msgstr "Seleccionar fila"
 
 
 msgid "Aperture Type"
@@ -27034,7 +27034,15 @@ msgid "Map Resolution"
 msgstr "Seleccionar connectats"
 
 
+msgid "Language ID"
+msgstr "Idioma"
+
+
 msgid "MO File Path"
+msgstr "Arxiu"
+
+
+msgid "PO File Path"
 msgstr "Arxiu"
 
 
@@ -27042,11 +27050,7 @@ msgid "Language Name"
 msgstr "Idioma"
 
 
-msgid "Language ID"
-msgstr "Idioma"
-
-
-msgid "PO File Path"
+msgid "POT File Path"
 msgstr "Arxiu"
 
 
@@ -27054,40 +27058,8 @@ msgid "Languages"
 msgstr "Idioma"
 
 
-msgid "POT File Path"
-msgstr "Arxiu"
-
-
-msgid "Name of Mocap Fix"
-msgstr "Moure a Capa"
-
-
-msgid "Bone (2)"
-msgstr "Corba de Bezier"
-
-
-msgid "Type of constraint"
-msgstr "Afegir Tira"
-
-
 msgid "Start frame of Fix"
 msgstr "Començar a renderitzar una seqüència"
-
-
-msgid "Fix is active"
-msgstr "Moure a Capa"
-
-
-msgid "Number of frames to smooth in"
-msgstr "Seleccionar connectats"
-
-
-msgid "Out"
-msgstr "Render"
-
-
-msgid "Number of frames to smooth out"
-msgstr "Seleccionar connectats"
 
 
 msgid "Object space"
@@ -27098,12 +27070,40 @@ msgid "Other Bone Space"
 msgstr "Texte"
 
 
-msgid "Constrained Bone"
+msgid "Fix is active"
+msgstr "Moure a Capa"
+
+
+msgid "Type of constraint"
 msgstr "Afegir Tira"
+
+
+msgid "Out"
+msgstr "Render"
+
+
+msgid "Number of frames to smooth out"
+msgstr "Seleccionar connectats"
 
 
 msgid "End frame of Fix"
 msgstr "Mostrar propietats de les arestes"
+
+
+msgid "Number of frames to smooth in"
+msgstr "Seleccionar connectats"
+
+
+msgid "Bone (2)"
+msgstr "Corba de Bezier"
+
+
+msgid "Name of Mocap Fix"
+msgstr "Moure a Capa"
+
+
+msgid "Constrained Bone"
+msgstr "Afegir Tira"
 
 
 msgid "Operator File List Element"

@@ -1,11 +1,11 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.75 (sub 4) (b'cf4711b')\n"
+"Project-Id-Version: Blender 2.76 (sub 0) (b'e24ea81')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-16 17:34:32\n"
+"POT-Creation-Date: 2015-09-30 16:04:40\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Ivan Paulos Tomé <ivan.paulos.tome>\n"
+"Last-Translator: Ivan Paulos Tomé <ivan.paulos.tome@gmail.com>\n"
 "Language-Team: Ivan Paulos Tomé, Dalai Felinto, Bruno Gonçalves Pirajá, Samuel Arataca, Daniel Tavares, Moraes Junior <greylica@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -1953,52 +1953,12 @@ msgid "Addon Preferences"
 msgstr "Preferências de complementos"
 
 
-msgid "Gettext 'msgfmt' executable"
-msgstr "Executável \"msgfmt\" Gettext"
-
-
-msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
-msgstr "O compilador \"msgfmt gettext\". Você provavelmente terá de editá-lo se estiver usando Windows "
-
-
-msgid "Source Root"
-msgstr "Raiz dos arquivos fonte"
-
-
-msgid "The Blender source root path"
-msgstr "O caminho da raiz de arquivos fonte do Blender"
-
-
 msgid "Translation Root"
 msgstr "Raiz das traduções"
 
 
 msgid "The bf-translation repository"
 msgstr "O repositório de tradução da fundação Blender"
-
-
-msgid "Import Paths"
-msgstr "Importar unidades"
-
-
-msgid "Additional paths to add to sys.path (';' separated)"
-msgstr "Caminhos adicionais para adicionar para sys.path (separados por \";\")"
-
-
-msgid "Spell Cache"
-msgstr "Cache de ortografia"
-
-
-msgid "A cache storing validated msgids, to avoid re-spellchecking them"
-msgstr "Um cache guardando msgids validadas, para evitar que sejam refeitas verificações ortográficas"
-
-
-msgid "Persistent Data Path"
-msgstr "Dados persistentes"
-
-
-msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
-msgstr "O nome do arquivo json guardando estas configurações (infelizmente, o sistema do Blender não funciona aqui) "
 
 
 msgid "Fribidi Library"
@@ -2009,12 +1969,52 @@ msgid "The FriBidi C compiled library (.so under Linux, .dll under windows...), 
 msgstr "A biblioteca Fribidi C compilada (.so em sistemas Linux, .dll em sistemas Windows...), você provavelmente irá ter de editá-la se estiver no Windows, ex: usando aquelas inclusas dentro dos repositórios svn de bibliotecas."
 
 
+msgid "Source Root"
+msgstr "Raiz dos arquivos fonte"
+
+
+msgid "The Blender source root path"
+msgstr "O caminho da raiz de arquivos fonte do Blender"
+
+
+msgid "Spell Cache"
+msgstr "Cache de ortografia"
+
+
+msgid "A cache storing validated msgids, to avoid re-spellchecking them"
+msgstr "Um cache guardando msgids validadas, para evitar que sejam refeitas verificações ortográficas"
+
+
 msgid "Warn Msgid Not Capitalized"
 msgstr "Emite um aviso sobre Msgid não capitalizadas"
 
 
 msgid "Warn about messages not starting by a capitalized letter (with a few allowed exceptions!)"
 msgstr "Emite um aviso sobre mensagens que não iniciam com letras capitalizadas (com poucas exceções permitidas!)"
+
+
+msgid "Persistent Data Path"
+msgstr "Dados persistentes"
+
+
+msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
+msgstr "O nome do arquivo json guardando estas configurações (infelizmente, o sistema do Blender não funciona aqui) "
+
+
+msgid "Gettext 'msgfmt' executable"
+msgstr "Executável \"msgfmt\" Gettext"
+
+
+msgid "The gettext msgfmt 'compiler'. You’ll likely have to edit it if you’re under Windows"
+msgstr "O compilador \"msgfmt gettext\". Você provavelmente terá de editá-lo se estiver usando Windows "
+
+
+msgid "Import Paths"
+msgstr "Importar unidades"
+
+
+msgid "Additional paths to add to sys.path (';' separated)"
+msgstr "Caminhos adicionais para adicionar para sys.path (separados por \";\")"
 
 
 msgid "Animation Data"
@@ -21110,7 +21110,7 @@ msgstr "Procedural - onda gerada com faixas ou anéis, com ruído opcional"
 
 
 msgid "Set negative texture RGB and intensity values to zero, for some uses like displacement this option can be disabled to get the full range"
-msgstr "Define texturas RGB e valores de intensidade negativos para zero, para algumas utilizações como deslocamento, esta opção pode ser desabilitada para obtenção de espectros completos dos valores"
+msgstr "Define texturas RGB e valores de intensidade negativos para zero. Para algumas utilizações como deslocamento, esta opção pode ser desabilitada para obtenção de espectros completos dos valores"
 
 
 msgid "Factor Red"
@@ -21394,7 +21394,7 @@ msgstr "Mapas MIP"
 
 
 msgid "Use auto-generated MIP maps for the image"
-msgstr "Usar mapas MIP gerados automaticamente para a imagem"
+msgstr "Usa mapas do tipo \"Muito em pouco\" (MIP) gerados automaticamente para a imagem"
 
 
 msgid "MIP Map Gaussian filter"
@@ -21402,7 +21402,7 @@ msgstr "Filtro gaussiano para mapas MIP"
 
 
 msgid "Use Gauss filter to sample down MIP maps"
-msgstr "Usa um filtro gaussiano para reduzir as amostras de Mapas MIP"
+msgstr "Usa um filtro gaussiano para reduzir as amostras de mapas do tipo \"Muito em pouco\" (MIP)"
 
 
 msgid "Filter"
@@ -22978,7 +22978,7 @@ msgstr "Ajustar a esquerda"
 
 
 msgid "TwkL"
-msgstr "Ajuste à esquerda"
+msgstr "Ajustar à esquerda"
 
 
 msgid "Tweak Middle"
@@ -22986,7 +22986,7 @@ msgstr "Ajustar ao meio"
 
 
 msgid "TwkM"
-msgstr "Ajuste ao meio"
+msgstr "Ajustar ao meio"
 
 
 msgid "Tweak Right"
@@ -22994,7 +22994,7 @@ msgstr "Ajustar a direita"
 
 
 msgid "TwkR"
-msgstr "Ajuste à direita"
+msgstr "Ajustar à direita"
 
 
 msgid "Tweak Action"
@@ -23002,7 +23002,7 @@ msgstr "Ajustar ação"
 
 
 msgid "TwkA"
-msgstr "Ajuste à ação"
+msgstr "Ajustar à ação"
 
 
 msgid "Tweak Select"
@@ -43849,6 +43849,15 @@ msgstr "Número de lados no orifício requerido para preencher (zero preenche to
 
 
 msgctxt "Operator"
+msgid "Flip Custom Normals"
+msgstr "Virar as normais personalizadas"
+
+
+msgid "Flip active mesh's normals, including custom ones (only in Object mode)"
+msgstr "Vira as normais da malha ativa, incluindo as personalizadas (somente no \"Modo de objeto\")"
+
+
+msgctxt "Operator"
 msgid "Flip Normals"
 msgstr "Inverter normais"
 
@@ -45827,16 +45836,16 @@ msgstr "Garante que cada ação é usada somente uma vez no conjunto de faixas s
 
 msgctxt "Operator"
 msgid "Add Meta-Strips"
-msgstr "Adicionar faixas-meta"
+msgstr "Adicionar faixas meta"
 
 
 msgid "Add new meta-strips incorporating the selected strips"
-msgstr "Adiciona novas faixas-meta incorporando as faixas selecionadas"
+msgstr "Adiciona novas faixas meta incorporando as faixas selecionadas"
 
 
 msgctxt "Operator"
 msgid "Remove Meta-Strips"
-msgstr "Remover faixas-meta "
+msgstr "Remover faixas meta "
 
 
 msgid "Separate out the strips held by the selected meta-strips"
@@ -46009,16 +46018,16 @@ msgid "Add a node to the active tree and link to an existing socket"
 msgstr "Adiciona um nó à árvore ativa e a vincula a um conector existente"
 
 
+msgid "Settings to be applied on the newly created node"
+msgstr "Configurações a ser aplicadas no nó recentemente criado"
+
+
 msgid "Node Type"
 msgstr "Tipo de nó"
 
 
 msgid "Node type"
 msgstr "O tipo de nó"
-
-
-msgid "Settings to be applied on the newly created node"
-msgstr "Configurações a ser aplicadas no nó recentemente criado"
 
 
 msgid "Use Transform"
@@ -60033,12 +60042,12 @@ msgid "Group of ID properties"
 msgstr "Grupo de propriedades do identificador"
 
 
-msgid "Stitch frame"
-msgstr "Quadro de junção"
+msgid "Second offset"
+msgstr "Segundo deslocamento"
 
 
-msgid "Frame to locate stitch on"
-msgstr "Quadro para localizar a junção"
+msgid "Frame offset for 2nd animation, where it should start"
+msgstr "Deslocamento de quadro para a segunda animação, onde ela deve iniciar"
 
 
 msgid "Action 2"
@@ -60049,20 +60058,12 @@ msgid "Second action in stitch"
 msgstr "Segunda ação na costura"
 
 
-msgid "Second offset"
-msgstr "Segundo deslocamento"
+msgid "Stick Bone"
+msgstr "Paralisar osso"
 
 
-msgid "Frame offset for 2nd animation, where it should start"
-msgstr "Deslocamento de quadro para a segunda animação, onde ela deve iniciar"
-
-
-msgid "Action 1"
-msgstr "Ação 1"
-
-
-msgid "First action in stitch"
-msgstr "Primeira ação dentro do ponto de junção"
+msgid "Bone to freeze during transition"
+msgstr "Osso para congelar durante a transição"
 
 
 msgid "Blend amount"
@@ -60073,12 +60074,20 @@ msgid "Size of blending transition, on both sides of the stitch"
 msgstr "Tamanho das transições de mesclagem, em ambos os lados das junções"
 
 
-msgid "Stick Bone"
-msgstr "Paralisar osso"
+msgid "Stitch frame"
+msgstr "Quadro de junção"
 
 
-msgid "Bone to freeze during transition"
-msgstr "Osso para congelar durante a transição"
+msgid "Frame to locate stitch on"
+msgstr "Quadro para localizar a junção"
+
+
+msgid "Action 1"
+msgstr "Ação 1"
+
+
+msgid "First action in stitch"
+msgstr "Primeira ação dentro do ponto de junção"
 
 
 msgid "Aperture Type"
@@ -61093,42 +61102,6 @@ msgid "Settings/info about a language"
 msgstr "Configurações e informações sobre uma tradução"
 
 
-msgid "MO File Path"
-msgstr "Caminho de arquivo MO"
-
-
-msgid "Path to the relevant mo file"
-msgstr "Caminho para o arquivo mo relevante"
-
-
-msgid "Language Name"
-msgstr "Nome da língua"
-
-
-msgid "English language name/label (like \"French (Français)\")"
-msgstr "Nome ou rótulo em inglês da tradução (como \"Francês (Francês)\")"
-
-
-msgid "Language ID"
-msgstr "Identificador da língua"
-
-
-msgid "ISO code, like fr_FR"
-msgstr "Código ISO, algo como pt_BR"
-
-
-msgid "PO File Path"
-msgstr "Caminho de arquivo PO"
-
-
-msgid "Path to the relevant po file in branches"
-msgstr "Caminho para o arquivo po relevante dentro das ramificações"
-
-
-msgid "Use this language in current operator"
-msgstr "Usar esta língua no operador atual"
-
-
 msgid "PO Trunk File Path"
 msgstr "Caminho tronco dos arquivos PO"
 
@@ -61153,20 +61126,40 @@ msgid "Numeric ID (readonly!)"
 msgstr "Identificador numérico (somente leitura!)"
 
 
-msgid "Active Language"
-msgstr "Tradução ativa"
+msgid "Language ID"
+msgstr "Identificador da língua"
 
 
-msgid "Index of active language in langs collection"
-msgstr "Índice da língua ativa dentro da coleção de traduções"
+msgid "ISO code, like fr_FR"
+msgstr "Código ISO, algo como pt_BR"
 
 
-msgid "Languages"
-msgstr "Línguas para tradução"
+msgid "MO File Path"
+msgstr "Caminho de arquivo MO"
 
 
-msgid "Languages to update in branches"
-msgstr "Traduções para atualizar nas ramificações"
+msgid "Path to the relevant mo file"
+msgstr "Caminho para o arquivo mo relevante"
+
+
+msgid "PO File Path"
+msgstr "Caminho de arquivo PO"
+
+
+msgid "Path to the relevant po file in branches"
+msgstr "Caminho para o arquivo po relevante dentro das ramificações"
+
+
+msgid "Use this language in current operator"
+msgstr "Usar esta língua no operador atual"
+
+
+msgid "Language Name"
+msgstr "Nome da língua"
+
+
+msgid "English language name/label (like \"French (Français)\")"
+msgstr "Nome ou rótulo em inglês da tradução (como \"Francês (Francês)\")"
 
 
 msgid "Whether these settings have already been auto-set or not"
@@ -61181,56 +61174,24 @@ msgid "Path to the pot template file"
 msgstr "O caminho para o arquivo modelo tipo pot"
 
 
-msgid "Target of Fix - Point"
-msgstr "Alvo do conserto - Ponto"
+msgid "Languages"
+msgstr "Línguas para tradução"
 
 
-msgid "Name of Mocap Fix"
-msgstr "Nome do ponto fixo de captura de movimentos"
+msgid "Languages to update in branches"
+msgstr "Traduções para atualizar nas ramificações"
 
 
-msgid "Bone (2)"
-msgstr "Osso (2)"
+msgid "Active Language"
+msgstr "Tradução ativa"
 
 
-msgid "Other Constrained Bone (optional, depends on type)"
-msgstr "Outro osso restrito (opcional, dependente do tipo específico)"
-
-
-msgid "Type of constraint"
-msgstr "Tipo de restrição"
+msgid "Index of active language in langs collection"
+msgstr "Índice da língua ativa dentro da coleção de traduções"
 
 
 msgid "Start frame of Fix"
 msgstr "Quadro inicial do conserto"
-
-
-msgid "Fix is active"
-msgstr "Conserto está ativo"
-
-
-msgid "In"
-msgstr "Entrada"
-
-
-msgid "Number of frames to smooth in"
-msgstr "Número de quadros para suavizar"
-
-
-msgid "Fix is fully shown"
-msgstr "O conserto está plenamente mostrado"
-
-
-msgid "Out"
-msgstr "Saída"
-
-
-msgid "Number of frames to smooth out"
-msgstr "Número de quadros para suavizar"
-
-
-msgid "Target of Fix - Mesh (optional, depends on type)"
-msgstr "Alvo para conserto - Malha (opcional, depende do tipo)"
 
 
 msgid "In which space should Point type target be evaluated"
@@ -61257,8 +61218,36 @@ msgid "Evaluate target in specified other bone space"
 msgstr "Avalia o alvo dentro do outro espaço de osso especificado"
 
 
-msgid "Constrained Bone"
-msgstr "Osso restringido"
+msgid "Distance and Floor Fixes - Desired offset"
+msgstr "Distância e consertos de piso - deslocamento desejado"
+
+
+msgid "Fix is active"
+msgstr "Conserto está ativo"
+
+
+msgid "Type of constraint"
+msgstr "Tipo de restrição"
+
+
+msgid "Target of Fix - Mesh (optional, depends on type)"
+msgstr "Alvo para conserto - Malha (opcional, depende do tipo)"
+
+
+msgid "Target of Fix - Point"
+msgstr "Alvo do conserto - Ponto"
+
+
+msgid "Fix is fully shown"
+msgstr "O conserto está plenamente mostrado"
+
+
+msgid "Out"
+msgstr "Saída"
+
+
+msgid "Number of frames to smooth out"
+msgstr "Número de quadros para suavizar"
 
 
 msgid "E"
@@ -61269,8 +61258,28 @@ msgid "End frame of Fix"
 msgstr "Quadro final do conserto"
 
 
-msgid "Distance and Floor Fixes - Desired offset"
-msgstr "Distância e consertos de piso - deslocamento desejado"
+msgid "In"
+msgstr "Entrada"
+
+
+msgid "Number of frames to smooth in"
+msgstr "Número de quadros para suavizar"
+
+
+msgid "Bone (2)"
+msgstr "Osso (2)"
+
+
+msgid "Other Constrained Bone (optional, depends on type)"
+msgstr "Outro osso restrito (opcional, dependente do tipo específico)"
+
+
+msgid "Name of Mocap Fix"
+msgstr "Nome do ponto fixo de captura de movimentos"
+
+
+msgid "Constrained Bone"
+msgstr "Osso restringido"
 
 
 msgid "Python expression to be evaluated as the initial node setting"
@@ -61325,8 +61334,12 @@ msgid "VRML2"
 msgstr "VRML2"
 
 
-msgid "Limit for checking zero area/length"
-msgstr "Limite para verificação de áreas ou comprimentos de valor zero"
+msgid "Apply Scale"
+msgstr "Aplicar escala"
+
+
+msgid "Apply scene scale setting on export"
+msgstr "Aplica a configuração de escala de cena na exportação"
 
 
 msgid "Copy Textures"
@@ -61345,16 +61358,12 @@ msgid "Path to directory where the files are created"
 msgstr "Caminho para o diretório onde os arquivos são criados"
 
 
+msgid "Limit for checking zero area/length"
+msgstr "Limite para verificação de áreas ou comprimentos de valor zero"
+
+
 msgid "Limit for checking distorted faces"
 msgstr "Limite para verificação de faces distorcidas"
-
-
-msgid "Apply Scale"
-msgstr "Aplicar escala"
-
-
-msgid "Apply scene scale setting on export"
-msgstr "Aplica a configuração de escala de cena na exportação"
 
 
 msgid "Selected UV Element"
@@ -61614,11 +61623,11 @@ msgstr "Fornece o buffer combinado (RGBA) completo "
 
 
 msgid "Deliver Z values pass"
-msgstr "Fornece o passo de valores Z"
+msgstr "Fornece o passo dos valores Z"
 
 
 msgid "Deliver speed vector pass"
-msgstr "Fornece o passo de vetor de velocidade"
+msgstr "Fornece o passo dos vetores de velocidade"
 
 
 msgid "Deliver normal pass"
@@ -61626,7 +61635,7 @@ msgstr "Fornece o passo das normais"
 
 
 msgid "Deliver texture UV pass"
-msgstr "Fornece o passo de textura UV"
+msgstr "Fornece o passo das texturas UV"
 
 
 msgid "Deliver mist factor pass (0.0-1.0)"
@@ -61634,19 +61643,19 @@ msgstr "Fornece o passo de névoa (0.0-1.0)"
 
 
 msgid "Deliver object index pass"
-msgstr "Fornece o passo de índice de objeto "
+msgstr "Fornece o passo dos índices de objeto "
 
 
 msgid "Deliver material index pass"
-msgstr "Fornece o passo de índice de material"
+msgstr "Fornece o passo dos índices de material"
 
 
 msgid "Deliver shade-less color pass"
-msgstr "Fornece o passo de cor sem-sombra"
+msgstr "Fornece o passo das cores lisas (sem sombreamento)"
 
 
 msgid "Deliver diffuse pass"
-msgstr "Fornece o passo de cores difusas"
+msgstr "Fornece o passo das cores difusas"
 
 
 msgid "Deliver specular pass"
@@ -61666,15 +61675,15 @@ msgstr "Fornece o passo de oclusão ambiente"
 
 
 msgid "Deliver raytraced reflection pass"
-msgstr "Fornece o passo de reflexão traçada por raios"
+msgstr "Fornece o passo das reflexões traçada por raios"
 
 
 msgid "Deliver raytraced refraction pass"
-msgstr "Fornece o passo de refração traçada por raios"
+msgstr "Fornece o passo das refrações traçada por raios"
 
 
 msgid "Deliver emission pass"
-msgstr "Fornece o passo de emissão"
+msgstr "Fornece o passo das emissões de luz"
 
 
 msgid "Deliver environment lighting pass"
@@ -61702,7 +61711,7 @@ msgstr "Excluir sombras"
 
 
 msgid "Exclude shadow pass from combined"
-msgstr "Exclui o passo de sombras do combinado"
+msgstr "Exclui o passo das sombras a partir dos passos combinados"
 
 
 msgid "AO Exclude"
@@ -61710,7 +61719,7 @@ msgstr "Excluir oclusão ambiente"
 
 
 msgid "Exclude AO pass from combined"
-msgstr "Exclui o passo de oclusão ambiente a partir do combinado"
+msgstr "Exclui o passo de oclusão ambiente a partir dos passos combinados"
 
 
 msgid "Reflection Exclude"
@@ -61718,7 +61727,7 @@ msgstr "Excluir reflexão"
 
 
 msgid "Exclude raytraced reflection pass from combined"
-msgstr "Exclui o passo de reflexão traçado por raios do combinado"
+msgstr "Exclui o passo de reflexão traçado por raios a partir dos passos combinados"
 
 
 msgid "Refraction Exclude"
@@ -61726,7 +61735,7 @@ msgstr "Excluir refração"
 
 
 msgid "Exclude raytraced refraction pass from combined"
-msgstr "Exclui o passo de refração por traçador de raios do combinado"
+msgstr "Exclui o passo de refração por traçador de raios a partir dos passos combinados"
 
 
 msgid "Emit Exclude"
@@ -61742,7 +61751,7 @@ msgstr "Excluir ambiente"
 
 
 msgid "Exclude environment pass from combined"
-msgstr "Exclui o passo de ambiente a partir do combinado"
+msgstr "Exclui o passo de ambiente a partir dos passos combinados"
 
 
 msgid "Indirect Exclude"
@@ -61750,7 +61759,7 @@ msgstr "Excluir indiretos"
 
 
 msgid "Exclude indirect pass from combined"
-msgstr "Exclui os passos indiretos de passos combinados"
+msgstr "Exclui os passos indiretos a partir dos passos combinados"
 
 
 msgid "Deliver diffuse direct pass"
@@ -66296,7 +66305,7 @@ msgstr "Todas as sequências"
 
 
 msgid "All strips, recursively including those inside metastrips"
-msgstr "Todas as faixas, recursivamente incluindo aquelas que estão em faixas-meta"
+msgstr "Todas as faixas, recursivamente incluindo aquelas que estão em faixas meta"
 
 
 msgid "Meta Stack"
@@ -68673,7 +68682,7 @@ msgstr "Mostra as texturas de partículas"
 
 
 msgid "Show linestyle textures"
-msgstr "Mostra texturas de estilo de linha"
+msgstr "Mostra as texturas de estilo de linha"
 
 
 msgid "Show other data textures"
@@ -70549,7 +70558,7 @@ msgstr "Fator de velocidade"
 
 
 msgid "Amount texture affects particle initial velocity"
-msgstr "Quantidade que a textura afeta a velocidade inicial da partícula"
+msgstr "Quanto a textura afeta a velocidade inicial da partícula"
 
 
 msgid "Field Factor"
@@ -71257,23 +71266,23 @@ msgstr "Cor de região de plano de fundo do escopo"
 
 
 msgid "Stitch preview face color"
-msgstr "Cor de previsão de junção de face"
+msgstr "Cor de previsão das junções das faces"
 
 
 msgid "Stitch preview edge color"
-msgstr "Cor de previsão de junção de costura"
+msgstr "Cor de previsão das junções das costuras"
 
 
 msgid "Stitch preview vertex color"
-msgstr "Cor de previsão de junção de vértice"
+msgstr "Cor de previsão das junções dos vértices"
 
 
 msgid "Stitch preview stitchable color"
-msgstr "Cor de previsão de junção de cor soldável"
+msgstr "Cor de previsão das junções de cores soldáveis"
 
 
 msgid "Stitch preview unstitchable color"
-msgstr "Cor de previsão de junção de cor não soldável"
+msgstr "Cor de previsão das junções de cores não soldáveis"
 
 
 msgid "Stitch preview active island"
@@ -71385,11 +71394,11 @@ msgstr "Bloco de dados de animação não possui ação ativa"
 
 
 msgid "Action-Clip Strip - Unselected"
-msgstr "Faixa de clipe de ação - Não selecionada "
+msgstr "Faixa de clipe de ação - Não selecionadas "
 
 
 msgid "Action-Clip Strip - Selected"
-msgstr "Faixa de clipe de ação - Selecionada"
+msgstr "Faixa de clipe de ação - Selecionadas"
 
 
 msgid "Transitions"
@@ -71405,23 +71414,23 @@ msgstr "Transições - Selecionadas"
 
 
 msgid "Transition Strip - Selected"
-msgstr "Transições - Faixa selecionada"
+msgstr "Transições - Faixas selecionadas"
 
 
 msgid "Meta Strips"
-msgstr "Faixas-meta"
+msgstr "Faixas meta"
 
 
 msgid "Meta Strip - Unselected (for grouping related strips)"
-msgstr "Faixas-meta - Não selecionada (para faixas relacionadas a agrupamentos)"
+msgstr "Faixas meta - Não selecionadas (para faixas relacionadas a agrupamentos)"
 
 
 msgid "Meta Strips Selected"
-msgstr "Faixas-meta - Selecionadas"
+msgstr "Faixas meta - Selecionadas"
 
 
 msgid "Meta Strip - Selected (for grouping related strips)"
-msgstr "Faixas-meta - Selecionada (para faixas relacionadas ao agrupamento)"
+msgstr "Faixas meta - Selecionadas (para faixas relacionadas a agrupamentos)"
 
 
 msgid "Sound Strips"
@@ -71449,7 +71458,7 @@ msgstr "Ajustar bandeira para duplicatas"
 
 
 msgid "Warning/error indicator color for strips referencing the strip being tweaked"
-msgstr "Permite definir a cor dos avisos ou erros para as faixas referenciando a faixa que está sendo ajustada"
+msgstr "Permite definir a cor dos avisos ou erros para as faixas que referenciam a faixa que está sendo ajustada"
 
 
 msgid "Theme Node Editor"
@@ -71761,7 +71770,7 @@ msgstr "Sintaxe - Comentários"
 
 
 msgid "Syntax String"
-msgstr "Sintaxe - Variável texto"
+msgstr "Sintaxe - Variáveis de texto"
 
 
 msgid "Syntax Numbers"
@@ -71977,19 +71986,19 @@ msgstr "Spline ativa"
 
 
 msgid "Edge Length Text"
-msgstr "Texto do comprimento das arestas"
+msgstr "Texto dos comprimento das arestas"
 
 
 msgid "Edge Angle Text"
-msgstr "Texto do ângulos das arestas"
+msgstr "Texto dos ângulos das arestas"
 
 
 msgid "Face Angle Text"
-msgstr "Texto do ângulos das faces"
+msgstr "Texto dos ângulos das faces"
 
 
 msgid "Face Area Text"
-msgstr "Texto do área das faces"
+msgstr "Texto das áreas das faces"
 
 
 msgid "Split Normal"
@@ -72133,7 +72142,7 @@ msgstr "Mostra os vértices sem pesos no grupo ativo"
 
 
 msgid "Show vertices with no weights in any group"
-msgstr "Mostra os vértices sem pesos dentro de qualquer grupo"
+msgstr "Mostra os vértices sem pesos em quaisquer dos grupos"
 
 
 msgid "Filter Vertex groups for Display"
@@ -72193,7 +72202,7 @@ msgstr "Usa o método laplaciano para relaxamento"
 
 
 msgid "Use HC method for relaxation"
-msgstr "Usa o método de interações HC para relaxamento"
+msgstr "Usa o método Classes de Humphrey para relaxamento"
 
 
 msgid "Proportional Editing mode, allows transforms with distance fall-off"
@@ -75940,6 +75949,10 @@ msgstr "Nenhum \"Objeto\" encontrado no arquivo %r"
 
 msgid "No 'Connections' found in file %r"
 msgstr "Nenhuma \"Conexão\" encontrada no arquivo %r"
+
+
+msgid "Custom Normal Tools:"
+msgstr "Ferramentas para normais personalizadas:"
 
 
 msgid "Group '%s' not found"
@@ -86339,6 +86352,10 @@ msgid "Average re-projection error: %.3f"
 msgstr "Média de erro de re-projeção %.3f"
 
 
+msgid "Parent Directory"
+msgstr "Diretório parente"
+
+
 msgid "Open Directory"
 msgstr "Abrir diretório"
 
@@ -89229,6 +89246,10 @@ msgid "OpenSubdiv is disabled due to dependencies"
 msgstr "A subdivisão aberta está desabilitada devido á dependências"
 
 
+msgid "OpenSubdiv is not supported in edit mode"
+msgstr "A subdivisão aberta não é suportada no modo de edição"
+
+
 msgid "From/To objects must be set"
 msgstr "Objetos a \"A partir de\" e \"Para\" devem ser configurados"
 
@@ -89698,11 +89719,11 @@ msgstr "Tipo de mapa de ambiente inválido"
 
 
 msgid "Error writing environment map"
-msgstr "Erro ao escrever mapa de ambiente."
+msgstr "Erro ao escrever o mapa de ambiente."
 
 
 msgid "Setting scene %s alpha mode to Premul"
-msgstr "Configurar modo de alfa da cena %s para pré-multiplicação"
+msgstr "Definindo o modo de alfa da cena %s para pré-multiplicado"
 
 
 msgid "Camera \"%s\" is not a multi-view camera"
@@ -89798,7 +89819,7 @@ msgstr "Caminho muito longo, não é possível salvar"
 
 
 msgid "Engine '%s' not available for scene '%s' (an addon may need to be installed or enabled)"
-msgstr "Motor '%s' não disponível para a cena '%s' (pode ser necessário que complementos sejam instalados ou habilitados)"
+msgstr "O motor '%s' não está disponível para a cena '%s' (pode ser necessário que complementos sejam instalados ou habilitados)"
 
 
 msgid "Cannot read file '%s': %s"
@@ -89834,7 +89855,7 @@ msgstr "Não é possível sobrescrever a biblioteca usada '%.240s'"
 
 
 msgid "No valid 3D View found, game auto start is not possible"
-msgstr "Nenhuma visualização 3D válida encontrada, não é possível início automático de jogo"
+msgstr "Nenhuma visualização 3D válida encontrada, não é possível iníciar automaticamente o jogo"
 
 
 msgid "dbl-"
@@ -89923,15 +89944,15 @@ msgstr "Não é possível usar o arquivo atual como biblioteca"
 
 
 msgid "Property cannot be both boolean and float"
-msgstr "Propriedade não pode ser booleana e flutuante ao mesmo tempo"
+msgstr "A propriedade não pode ser booleana e ponto flutuante ao mesmo tempo"
 
 
 msgid "Pointer from path image_id is not an ID"
-msgstr "O ponteiro obtido para o caminho do valor image_id não é um identificador válido"
+msgstr "O ponteiro obtido para o caminho da variável image_id não é um identificador válido"
 
 
 msgid "Property must be an integer or a float"
-msgstr "Propriedade deve ser um inteiro ou um flutuante"
+msgstr "A propriedade deve ser expressa em números inteiros ou em ponto flutuante"
 
 
 msgid "Property must be a none, distance, factor, percentage, angle, or pixel"
@@ -89971,11 +89992,11 @@ msgstr "A cena '%s' está vinculada, instância de grupo desabilitada"
 
 
 msgid "Could not resolve path '%s'"
-msgstr "Não foi possível resolver caminho '%s'"
+msgstr "Não foi possível resolver o caminho fornecido '%s'"
 
 
 msgid "Property from path '%s' is not a float"
-msgstr "Propriedade a partir do caminho '%s' não é flutuante"
+msgstr "Propriedade a partir do caminho '%s' não está definida em ponto flutuante"
 
 
 msgid "Property from path '%s' has length %d instead of %d"
