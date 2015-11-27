@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 2) (b'7bb16a5')\n"
+"Project-Id-Version: Blender 2.76 (sub 2) (b'39957b8')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-10 12:08:18\n"
+"POT-Creation-Date: 2015-11-23 21:20:22\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Reininger <martinreininger@gmx.net>\n"
 "Language-Team: German translation team\n"
@@ -20138,10 +20138,6 @@ msgstr "Schlüsselbild löschen (Knöpfe)"
 msgctxt "Operator"
 msgid "Delete Keyframe"
 msgstr "Schlüsselbild löschen"
-
-
-msgid "Remove keyframes on current frame for selected objects"
-msgstr "Alle Spieleigenschaften von allen ausgewählten Objekten entfernen"
 
 
 msgctxt "Operator"
@@ -40546,14 +40542,6 @@ msgid "Translate tooltips"
 msgstr "Tooltips übersetzen"
 
 
-msgid "VBOs"
-msgstr "Vertex-Buffer-Objekte"
-
-
-msgid "Use Vertex Buffer Objects (or Vertex Arrays, if unsupported) for viewport rendering"
-msgstr "Vertex-Pufferobjekte (oder Vertex-Arrays, wenn nicht unterstützt) für die Ansichtsfenster-Rendering verwenden"
-
-
 msgid "Use Weight Color Range"
 msgstr "Gewichtungsfarbverlauf verwenden"
 
@@ -45897,10 +45885,6 @@ msgid "Unable to open"
 msgstr "Kann nicht geöffnet werden"
 
 
-msgid "LIB ERROR: object lost from scene: '%s'"
-msgstr "Bibliothekfehler: Objekte verloren von Szene: '%s'"
-
-
 msgid "Library '%s', '%s' had multiple instances, save and reload!"
 msgstr "Bibliothek '%s', '%s' hat mehrfache Instanzen, speichern und neuladen!"
 
@@ -47473,10 +47457,6 @@ msgid ", Frame: %d"
 msgstr ", Einzelbilder: %d"
 
 
-msgid "No Layers in Render Result"
-msgstr "Keine Ebenen im Renderergebnis"
-
-
 msgid "(%d) Frames"
 msgstr "(%d) Einzelbilder"
 
@@ -47495,22 +47475,6 @@ msgstr "Ebene auswählen"
 
 msgid "Select Pass"
 msgstr "Durchgang auswählen"
-
-
-msgid "Previous Layer"
-msgstr "Vorherige Ebene"
-
-
-msgid "Next Layer"
-msgstr "Nächste Ebene"
-
-
-msgid "Previous Pass"
-msgstr "Vorheriger Durchgang"
-
-
-msgid "Next Pass"
-msgstr "Nächster Durchgang"
 
 
 msgid "unsupported image format"
