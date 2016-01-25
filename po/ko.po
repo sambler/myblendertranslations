@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 2) (b'39957b8')\n"
+"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-23 21:20:22\n"
+"POT-Creation-Date: 2016-01-19 20:32:10\n"
 "PO-Revision-Date: 2015-08-27 01:35+0900\n"
 "Last-Translator: Geuntak Jeong <beroberos@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lxlalexlxl/blender/language/ko/)\n"
@@ -2773,6 +2773,38 @@ msgid "Bake the normals in tangent space"
 msgstr "탄젠트 공간에서 노멀을 배이크"
 
 
+msgid "Emit"
+msgstr "방출"
+
+
+msgid "Direct"
+msgstr "직접"
+
+
+msgid "Indirect"
+msgstr "간접"
+
+
+msgid "Color"
+msgstr "색상"
+
+
+msgid "Diffuse"
+msgstr "확산"
+
+
+msgid "Glossy"
+msgstr "광택"
+
+
+msgid "Transmission"
+msgstr "전송"
+
+
+msgid "Subsurface"
+msgstr "하위 표면"
+
+
 msgid "Save Mode"
 msgstr "저장 모드"
 
@@ -2815,6 +2847,10 @@ msgstr "지우기"
 
 msgid "Clear Images before baking (internal only)"
 msgstr "배이킹 이전에 이미지를 지우기 (내부 전용)"
+
+
+msgid "AO"
+msgstr "AO"
 
 
 msgid "Selected to Active"
@@ -4623,10 +4659,6 @@ msgstr "색상 맵핑"
 
 msgid "Color mapping settings"
 msgstr "색상 맵핑 설정"
-
-
-msgid "Color"
-msgstr "색상"
 
 
 msgid "Blend color to mix with texture output color"
@@ -11102,6 +11134,62 @@ msgid "Volumetric Strokes"
 msgstr "볼륨메트릭 획"
 
 
+msgid "Add effect of brush"
+msgstr "브러시의 이팩트를 추가"
+
+
+msgid "Subtract effect of brush"
+msgstr "브러시의 이펙트를 빼기"
+
+
+msgid "Radius"
+msgstr "반경"
+
+
+msgid "Radius of the brush in pixels"
+msgstr "픽셀 단위 브러시의 반경"
+
+
+msgid "Brush strength"
+msgstr "브러시 강도"
+
+
+msgid "Strength Pressure"
+msgstr "강도 압력"
+
+
+msgid "Enable tablet pressure sensitivity for strength"
+msgstr "강도에 대한 타블렛 압력 감도를 사용"
+
+
+msgid "Tool"
+msgstr "도구"
+
+
+msgid "Grab"
+msgstr "잡기"
+
+
+msgid "Push"
+msgstr "밀기"
+
+
+msgid "Twist"
+msgstr "비틀기"
+
+
+msgid "Pinch"
+msgstr "핀치"
+
+
+msgid "Randomize"
+msgstr "무작위화"
+
+
+msgid "Clone"
+msgstr "클론"
+
+
 msgid "Grease Pencil Stroke"
 msgstr "그리스 펜슬 선획"
 
@@ -11400,10 +11488,6 @@ msgstr "게임 캐릭터에 대한 적절한 심플 물리 운동"
 
 msgid "Game engine properties"
 msgstr "게임 엔진 속성"
-
-
-msgid "Radius"
-msgstr "반경"
 
 
 msgid "Radius of bounding sphere and material physics"
@@ -12310,14 +12394,6 @@ msgid "Editable falloff curve"
 msgstr "편집 가능한 곡선 감소"
 
 
-msgid "Add effect of brush"
-msgstr "브러시의 이팩트를 추가"
-
-
-msgid "Subtract effect of brush"
-msgstr "브러시의 이펙트를 빼기"
-
-
 msgid "Fill Threshold"
 msgstr "채우기 임계 값"
 
@@ -12376,10 +12452,6 @@ msgstr "부드럽게"
 
 msgid "Smear"
 msgstr "흐리게"
-
-
-msgid "Clone"
-msgstr "클론"
 
 
 msgid "Fill"
@@ -12506,20 +12578,12 @@ msgid "Flatten"
 msgstr "평평하게"
 
 
-msgid "Grab"
-msgstr "잡기"
-
-
 msgid "Inflate"
 msgstr "팽창"
 
 
 msgid "Nudge"
 msgstr "자극"
-
-
-msgid "Pinch"
-msgstr "핀치"
 
 
 msgid "Rotate"
@@ -12548,10 +12612,6 @@ msgstr "보조 색상"
 
 msgid "Sharp Threshold"
 msgstr "샤프 임계 값"
-
-
-msgid "Radius of the brush in pixels"
-msgstr "픽셀 단위 브러시의 반경"
 
 
 msgid "Smooth Stroke Factor"
@@ -12828,14 +12888,6 @@ msgstr "간격 압력"
 
 msgid "Enable tablet pressure sensitivity for spacing"
 msgstr "간격에 대한 타블렛 압력 감도를 사용"
-
-
-msgid "Strength Pressure"
-msgstr "강도 압력"
-
-
-msgid "Enable tablet pressure sensitivity for strength"
-msgstr "강도에 대한 타블렛 압력 감도를 사용"
 
 
 msgid "Use Texture Overlay"
@@ -14046,40 +14098,8 @@ msgid "Freehand annotation sketchbook"
 msgstr "자유형 주석 달기 스케치북"
 
 
-msgid "Cursor"
-msgstr "커서"
-
-
-msgid "Draw stroke at the 3D cursor"
-msgstr "3D 커서에서 선획을 그리기"
-
-
-msgid "View"
-msgstr "뷰"
-
-
-msgid "Stick stroke to the view "
-msgstr "뷰에 스틱 선획"
-
-
-msgid "Stick stroke to surfaces"
-msgstr "표면에 스틱 선획"
-
-
-msgid "Stroke"
-msgstr "선획"
-
-
-msgid "Stick stroke to other strokes"
-msgstr "다른 획에 획을 붙이기"
-
-
 msgid "Stroke Edit Mode"
 msgstr "선획 편집 모드"
-
-
-msgid "Only Endpoints"
-msgstr "종료 포인트 만"
 
 
 msgid "Dupli Offset"
@@ -14754,10 +14774,6 @@ msgstr "영역"
 
 msgid "Directional area light source"
 msgstr "지향성의 영역 광원"
-
-
-msgid "Diffuse"
-msgstr "확산"
 
 
 msgid "Do diffuse shading"
@@ -15506,10 +15522,6 @@ msgstr "확산 툰 스무스"
 
 msgid "Smoothness of diffuse toon area"
 msgstr "확산 툰 영역의 매끄러움"
-
-
-msgid "Emit"
-msgstr "방출"
 
 
 msgid "Amount of light to emit"
@@ -17208,6 +17220,10 @@ msgid "Particle Edit"
 msgstr "파티클 편집"
 
 
+msgid "Edit Strokes"
+msgstr "획을 편집"
+
+
 msgid "Motion Path"
 msgstr "모션 경로"
 
@@ -17622,6 +17638,10 @@ msgstr "해어의 강성을 무작위"
 
 msgid "Align to"
 msgstr "다음으로 정렬"
+
+
+msgid "View"
+msgstr "뷰"
 
 
 msgid "Animate"
@@ -23575,6 +23595,10 @@ msgid "Fluid Presets"
 msgstr "유체 프리셋"
 
 
+msgid "Snap"
+msgstr "스냅"
+
+
 msgid "A pie menu for quick access to Grease Pencil settings"
 msgstr "그리스 펜슬 설정으로 빠르게 접근에 대한 파이 메뉴"
 
@@ -23609,10 +23633,6 @@ msgstr "UV 선택 모드"
 
 msgid "Show/Hide Faces"
 msgstr "페이스를 표시/숨기기"
-
-
-msgid "Snap"
-msgstr "스냅"
 
 
 msgid "Weld/Align"
@@ -23775,10 +23795,6 @@ msgid "Playback"
 msgstr "재생"
 
 
-msgid "Development Guides"
-msgstr "개발 안내"
-
-
 msgid "AppPresets"
 msgstr "앱 프리셋"
 
@@ -23821,6 +23837,10 @@ msgstr "사용된 모드"
 
 msgid "Bone Roll"
 msgstr "본 롤"
+
+
+msgid "GPencil"
+msgstr "G펜슬"
 
 
 msgid "Clean up"
@@ -24929,10 +24949,6 @@ msgstr "이펙트의 시작 프레임"
 
 msgid "Seed for random if used"
 msgstr "사용하는 경우 무작위에 대한 씨드"
-
-
-msgid "Randomize"
-msgstr "무작위화"
 
 
 msgid "Randomize the faces or edges during build"
@@ -26673,10 +26689,6 @@ msgstr "왜곡 및 굽힘으로 이런 이펙트들을 적용하는 심플 변�
 
 msgid "Angle of deformation"
 msgstr "변형의 각도"
-
-
-msgid "Twist"
-msgstr "비틀기"
 
 
 msgid "Rotate around the Z axis of the modifier space"
@@ -30459,10 +30471,6 @@ msgid "Toon BSDF"
 msgstr "툰 BSDF"
 
 
-msgid "Glossy"
-msgstr "광택"
-
-
 msgid "Translucent BSDF"
 msgstr "반투명 BSDF "
 
@@ -32591,6 +32599,10 @@ msgid "View Axis"
 msgstr "뷰 축"
 
 
+msgid "Cursor"
+msgstr "커서"
+
+
 msgctxt "Operator"
 msgid "Click-Extrude"
 msgstr "클릭-돌출"
@@ -33076,10 +33088,6 @@ msgstr "스텐실 브러시 컨트롤"
 
 msgid "Control the stencil brush"
 msgstr "스텐실 브러시 컨트롤"
-
-
-msgid "Tool"
-msgstr "도구"
 
 
 msgid "Translation"
@@ -36183,15 +36191,6 @@ msgstr "검색 경로에 있는 모든 파일을 찾기 (단지 누락되지 않
 
 
 msgctxt "Operator"
-msgid "Toggle Hide Dot Files"
-msgstr "숨기기 도트 파일를 전환"
-
-
-msgid "Toggle hide hidden dot files"
-msgstr "숨겨진 도트 파일을 숨기기를 전환"
-
-
-msgctxt "Operator"
 msgid "Highlight File"
 msgstr "강조 파일"
 
@@ -36724,6 +36723,14 @@ msgid "Delete the active frame for the active Grease Pencil datablock"
 msgstr "활성 그리스 펜슬 데이터 블록에 대한 활성 프레임을 삭제"
 
 
+msgid "Stroke"
+msgstr "선획"
+
+
+msgid "Wait for Input"
+msgstr "입력에 대해 대기"
+
+
 msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "그리스 펜슬을 전환"
@@ -36923,10 +36930,6 @@ msgid "Erase Grease Pencil strokes"
 msgstr "그리스 펜슬 획을 지우기"
 
 
-msgid "Wait for Input"
-msgstr "입력에 대해 대기"
-
-
 msgctxt "Operator"
 msgid "Duplicate Strokes"
 msgstr "획을 복제"
@@ -37066,6 +37069,16 @@ msgstr "이미 선택한 포인트로 같은 획에서 포인트를 모두 선�
 
 msgid "Grow sets of selected Grease Pencil points"
 msgstr "선택된 그리스 펜슬 포인트의 성장 설정"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Cursor"
+msgstr "선택을 커서에 스냅"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Grid"
+msgstr "선택을 격자에 스냅"
 
 
 msgctxt "Operator"
@@ -39580,15 +39593,6 @@ msgstr "선택한 페이스을 평평하게"
 
 
 msgctxt "Operator"
-msgid "Split by Edges"
-msgstr "에지로 분할"
-
-
-msgid "Split faces by loose edges"
-msgstr "루즈 에지로 페이스를 분할"
-
-
-msgctxt "Operator"
 msgid "Copy Mirrored UV coords"
 msgstr "미러된 UV 좌표를 복사"
 
@@ -39736,11 +39740,6 @@ msgid "Select the new inset faces"
 msgstr "새로운 안쪽에 삽입 페이스를 선택"
 
 
-msgctxt "Operator"
-msgid "Intersect"
-msgstr "교차"
-
-
 msgid "Cut an intersection into faces"
 msgstr "페이스로 교차 지점을 잘라내기"
 
@@ -39763,6 +39762,10 @@ msgstr "선택 안된 페이스와 함께 선택된 교차"
 
 msgid "Merge threshold"
 msgstr "병합 임계 값 "
+
+
+msgid "Swap"
+msgstr "교환"
 
 
 msgctxt "Operator"
@@ -40668,15 +40671,6 @@ msgstr "확장"
 
 
 msgctxt "Operator"
-msgid "Select Next Loop"
-msgstr "다음 루프를 선택"
-
-
-msgid "Select next edge loop adjacent to a selected loop"
-msgstr "선택된 루프에 인접한 다음 에지 루프를 선택"
-
-
-msgctxt "Operator"
 msgid "Select Non Manifold"
 msgstr "논 매니폴드를 선택"
 
@@ -40794,10 +40788,6 @@ msgstr "최단 경로를 선택"
 
 msgid "Selected vertex path between two vertices"
 msgstr "두 버텍스 사이의 선택된 버텍스 경로"
-
-
-msgid "Use length when measuring distance"
-msgstr "거리를 측정할 때 길이를 사용"
 
 
 msgctxt "Operator"
@@ -42386,54 +42376,6 @@ msgstr "배이크하는 패스의 종류, 그것 중 일부는 현재 렌더링 
 
 msgid "Combined"
 msgstr "결합된"
-
-
-msgid "Refraction"
-msgstr "굴절"
-
-
-msgid "Object Index"
-msgstr "오브젝트 인덱스"
-
-
-msgid "Diffuse Direct"
-msgstr "직접 확산 "
-
-
-msgid "Diffuse Indirect"
-msgstr "확산 간접 "
-
-
-msgid "Glossy Direct"
-msgstr "광택 직접"
-
-
-msgid "Glossy Indirect"
-msgstr "광택 간접"
-
-
-msgid "Glossy Color"
-msgstr "광택 색상"
-
-
-msgid "Transmission Direct"
-msgstr "전송 직접"
-
-
-msgid "Transmission Indirect"
-msgstr "전송 간접"
-
-
-msgid "Subsurface Direct"
-msgstr "하위 표면 직접"
-
-
-msgid "Subsurface Indirect"
-msgstr "하위 표면 간접"
-
-
-msgid "Subsurface Color"
-msgstr "하위 표면 색상"
 
 
 msgid "Automatically name the output file with the pass type"
@@ -47566,10 +47508,6 @@ msgid "Change Effect Input"
 msgstr "이팩트 입력을 변경"
 
 
-msgid "Swap"
-msgstr "교환"
-
-
 msgid "The effect inputs to swap"
 msgstr "교환하는 이펙트 입력"
 
@@ -48508,10 +48446,6 @@ msgid "Load a sound file"
 msgstr "사운드 파일을 불러오기"
 
 
-msgid "Mixdown the sound to mono"
-msgstr "모노로 사운드를 믹스다운"
-
-
 msgctxt "Operator"
 msgid "Open Sound Mono"
 msgstr "사운드 모노를 열기"
@@ -48519,6 +48453,10 @@ msgstr "사운드 모노를 열기"
 
 msgid "Load a sound file as mono"
 msgstr "모노로 사운드 파일을 불러오기"
+
+
+msgid "Mixdown the sound to mono"
+msgstr "모노로 사운드를 믹스다운"
 
 
 msgctxt "Operator"
@@ -50830,18 +50768,8 @@ msgid "Snap cursor to center of selected item(s)"
 msgstr "커서를 선택한 항목(들)의 중심에 스냅"
 
 
-msgctxt "Operator"
-msgid "Snap Selection to Cursor"
-msgstr "선택을 커서에 스냅"
-
-
 msgid "Snap selected item(s) to cursor"
 msgstr "선택된 항목(들)을 커서에 스냅"
-
-
-msgctxt "Operator"
-msgid "Snap Selection to Grid"
-msgstr "선택을 격자에 스냅"
 
 
 msgid "Snap selected item(s) to nearest grid division"
@@ -51134,42 +51062,14 @@ msgid "Disable Addon"
 msgstr "애드온을 사용 중지"
 
 
-msgid "Disable an addon"
-msgstr "에드온을 사용 금지"
-
-
-msgid "Module name of the addon to disable"
-msgstr "사용 금지 하는 애드온의 모듈 이름"
-
-
 msgctxt "Operator"
 msgid "Enable Addon"
 msgstr "애드온을 사용"
 
 
-msgid "Enable an addon"
-msgstr "에드온을 사용"
-
-
-msgid "Module name of the addon to enable"
-msgstr "사용하는 애드온의 모듈 이름"
-
-
-msgid "Display more information on this addon"
-msgstr "이 애드온에 대한 자세한 정보를 표시"
-
-
-msgid "Module name of the addon to expand"
-msgstr "확장하는 애드온의 모듈 이름"
-
-
 msgctxt "Operator"
 msgid "Install from File..."
 msgstr "파일에서 설치..."
-
-
-msgid "Install an addon"
-msgstr "애드온 설치"
 
 
 msgid "Remove existing addons with the same ID"
@@ -51189,21 +51089,9 @@ msgid "Refresh"
 msgstr "새로 고침"
 
 
-msgid "Scan addon directories for new modules"
-msgstr "새로운 모듈에 대한 애드온 디렉토리를 검사"
-
-
 msgctxt "Operator"
 msgid "Remove Addon"
 msgstr "에드온을 제거"
-
-
-msgid "Delete the addon from the file system"
-msgstr "파일 시스템에서 애드온을 삭제"
-
-
-msgid "Module name of the addon to remove"
-msgstr "제거하는 애드온의 모듈 이름"
 
 
 msgctxt "Operator"
@@ -52445,15 +52333,6 @@ msgstr "릴리스 정보와 함께 스플래쉬 화면을 열기"
 
 
 msgctxt "Operator"
-msgid "System Info"
-msgstr "시스템 정보"
-
-
-msgid "Generate System Info"
-msgstr "시스템 정보를 생성"
-
-
-msgctxt "Operator"
 msgid "Install Theme..."
 msgstr "테마를 설치..."
 
@@ -52969,10 +52848,6 @@ msgstr "2D 안정"
 
 msgid "Solve"
 msgstr "솔브"
-
-
-msgid "Edit Strokes"
-msgstr "획을 편집"
 
 
 msgid "Mask Tools"
@@ -53702,10 +53577,6 @@ msgstr "덜 푹신한 헤어를 만들기"
 
 msgid "Brush steps"
 msgstr "브러시 단계"
-
-
-msgid "Brush strength"
-msgstr "브러시 강도"
 
 
 msgid "Puff Volume"
@@ -55724,10 +55595,6 @@ msgid "Object visibility for shadow rays"
 msgstr "새도우 레이에 대한 오브젝트의 가시성"
 
 
-msgid "Transmission"
-msgstr "전송"
-
-
 msgid "Object visibility for transmission rays"
 msgstr "전송 광선에 대한 오브젝트의 가시성"
 
@@ -56276,10 +56143,6 @@ msgid "Render Halos in this Layer (on top of Solid)"
 msgstr "이 레이어에서 헤일로를 렌더(입체 위)"
 
 
-msgid "AO"
-msgstr "AO"
-
-
 msgid "Deliver AO pass"
 msgstr "AO 패스를 제공"
 
@@ -56300,8 +56163,16 @@ msgid "Deliver diffuse color pass"
 msgstr "확산 색상 패스를 제공"
 
 
+msgid "Diffuse Direct"
+msgstr "직접 확산 "
+
+
 msgid "Deliver diffuse direct pass"
 msgstr "확산 직접 패스를 제공"
+
+
+msgid "Diffuse Indirect"
+msgstr "확산 간접 "
 
 
 msgid "Deliver diffuse indirect pass"
@@ -56316,20 +56187,28 @@ msgid "Deliver environment lighting pass"
 msgstr "환경 조명 패스를 제공"
 
 
+msgid "Glossy Color"
+msgstr "광택 색상"
+
+
 msgid "Deliver glossy color pass"
 msgstr "광택 색상 패스를 제공"
+
+
+msgid "Glossy Direct"
+msgstr "광택 직접"
 
 
 msgid "Deliver glossy direct pass"
 msgstr "광택 직접 패스를 제공"
 
 
+msgid "Glossy Indirect"
+msgstr "광택 간접"
+
+
 msgid "Deliver glossy indirect pass"
 msgstr "광택 간접 패스를 제공"
-
-
-msgid "Indirect"
-msgstr "간접"
 
 
 msgid "Deliver indirect lighting pass"
@@ -56348,12 +56227,20 @@ msgid "Deliver normal pass"
 msgstr "노멀 패스를 제공"
 
 
+msgid "Object Index"
+msgstr "오브젝트 인덱스"
+
+
 msgid "Deliver object index pass"
 msgstr "오브젝트 인덱스 패스를 제공"
 
 
 msgid "Deliver raytraced reflection pass"
 msgstr "레이트레이스된 반사 패스를 제공"
+
+
+msgid "Refraction"
+msgstr "굴절"
 
 
 msgid "Deliver raytraced refraction pass"
@@ -56368,12 +56255,24 @@ msgid "Deliver specular pass"
 msgstr "반사 패스를 제공"
 
 
+msgid "Subsurface Color"
+msgstr "하위 표면 색상"
+
+
 msgid "Deliver subsurface color pass"
 msgstr "하위 표면 색상 패스를 제공"
 
 
+msgid "Subsurface Direct"
+msgstr "하위 표면 직접"
+
+
 msgid "Deliver subsurface direct pass"
 msgstr "하위 표면 직접 패스를 제공"
+
+
+msgid "Subsurface Indirect"
+msgstr "하위 표면 간접"
 
 
 msgid "Deliver subsurface indirect pass"
@@ -56384,8 +56283,16 @@ msgid "Deliver transmission color pass"
 msgstr "전송 색상 패스를 제공"
 
 
+msgid "Transmission Direct"
+msgstr "전송 직접"
+
+
 msgid "Deliver transmission direct pass"
 msgstr "전송 직접 패스를 제공"
+
+
+msgid "Transmission Indirect"
+msgstr "전송 간접"
 
 
 msgid "Deliver transmission indirect pass"
@@ -58136,20 +58043,8 @@ msgid "Choose the best supported mode"
 msgstr "최상의 지원 모드를 선택하기"
 
 
-msgid "Immediate Mode"
-msgstr "즉시 모드"
-
-
-msgid "Slowest performance, requires OpenGL (any version)"
-msgstr "가장 느린 성능, OpenGL이 필요 (모든 버전)"
-
-
 msgid "Vertex Arrays"
 msgstr "버텍스 배열"
-
-
-msgid "Better performance, requires at least OpenGL 1.1"
-msgstr "더 나은 성능, 최소 OpenGL 1.1이 필요함"
 
 
 msgid "Recast Data"
@@ -61295,10 +61190,6 @@ msgstr "당기기"
 
 msgid "Edge spring stiffness when longer than rest length"
 msgstr "휴식 길이보다 더 길게 할 때 에지 스프링 강성"
-
-
-msgid "Push"
-msgstr "밀기"
 
 
 msgid "Edge spring stiffness when shorter than rest length"
@@ -65986,6 +65877,22 @@ msgid "Template"
 msgstr "템플릿"
 
 
+msgid "Draw stroke at the 3D cursor"
+msgstr "3D 커서에서 선획을 그리기"
+
+
+msgid "Stick stroke to the view "
+msgstr "뷰에 스틱 선획"
+
+
+msgid "Stick stroke to surfaces"
+msgstr "표면에 스틱 선획"
+
+
+msgid "Stick stroke to other strokes"
+msgstr "다른 획에 획을 붙이기"
+
+
 msgid "Grease Pencil Source"
 msgstr "그리스 펜슬 소스"
 
@@ -66146,12 +66053,12 @@ msgid "Automatically convert and delete on stroke end"
 msgstr "자동 변환 및 선획 종료에서 삭제"
 
 
-msgid "Use Sketching Sessions"
-msgstr "스케치 세션을 사용"
-
-
 msgid "Allow drawing multiple strokes at a time with Grease Pencil"
 msgstr "그리스 펜슬로 한 번에 여러 획을 그리기 허용"
+
+
+msgid "Only Endpoints"
+msgstr "종료 포인트 만"
 
 
 msgid "Auto Keying"
@@ -66180,10 +66087,6 @@ msgstr "동일 위치로 이동된 버텍스를 자동으로 병합"
 
 msgid "WPaint Multi-Paint"
 msgstr "W페인트 멀티페인트"
-
-
-msgid "Paint across all selected bones while weight painting"
-msgstr "웨이트 페인팅 할 때 모든 선택된 본 맞은편에 페인트"
 
 
 msgid "Proportional Editing Actions"
@@ -68706,6 +68609,11 @@ msgstr "화면 편집하기"
 
 
 msgctxt "WindowManager"
+msgid "Header"
+msgstr "헤더"
+
+
+msgctxt "WindowManager"
 msgid "View2D"
 msgstr "뷰2D "
 
@@ -68713,21 +68621,6 @@ msgstr "뷰2D "
 msgctxt "WindowManager"
 msgid "View2D Buttons List"
 msgstr "뷰2D 버튼 목록"
-
-
-msgctxt "WindowManager"
-msgid "Header"
-msgstr "헤더"
-
-
-msgctxt "WindowManager"
-msgid "Grease Pencil"
-msgstr "그리스 펜슬"
-
-
-msgctxt "WindowManager"
-msgid "Grease Pencil Stroke Edit Mode"
-msgstr "그리스 펜슬 선획 편집 모드"
 
 
 msgctxt "WindowManager"
@@ -68866,26 +68759,6 @@ msgstr "3D 뷰 일반"
 
 
 msgctxt "WindowManager"
-msgid "Frames"
-msgstr "프레임"
-
-
-msgctxt "WindowManager"
-msgid "Markers"
-msgstr "마커"
-
-
-msgctxt "WindowManager"
-msgid "Animation"
-msgstr "애니메이션"
-
-
-msgctxt "WindowManager"
-msgid "Animation Channels"
-msgstr "애니메이션 채널"
-
-
-msgctxt "WindowManager"
 msgid "Graph Editor"
 msgstr "그래프 편집기"
 
@@ -68916,6 +68789,11 @@ msgstr "NLA 일반"
 
 
 msgctxt "WindowManager"
+msgid "Timeline"
+msgstr "타임라인"
+
+
+msgctxt "WindowManager"
 msgid "Image"
 msgstr "이미지"
 
@@ -68933,11 +68811,6 @@ msgstr "UV 조형"
 msgctxt "WindowManager"
 msgid "Image Generic"
 msgstr "이미지 일반"
-
-
-msgctxt "WindowManager"
-msgid "Timeline"
-msgstr "타임라인"
 
 
 msgctxt "WindowManager"
@@ -69036,8 +68909,38 @@ msgstr "클립 도프시트 편집기"
 
 
 msgctxt "WindowManager"
+msgid "Grease Pencil"
+msgstr "그리스 펜슬"
+
+
+msgctxt "WindowManager"
+msgid "Grease Pencil Stroke Edit Mode"
+msgstr "그리스 펜슬 선획 편집 모드"
+
+
+msgctxt "WindowManager"
 msgid "Mask Editing"
 msgstr "마스크 편집하기"
+
+
+msgctxt "WindowManager"
+msgid "Frames"
+msgstr "프레임"
+
+
+msgctxt "WindowManager"
+msgid "Markers"
+msgstr "마커"
+
+
+msgctxt "WindowManager"
+msgid "Animation"
+msgstr "애니메이션"
+
+
+msgctxt "WindowManager"
+msgid "Animation Channels"
+msgstr "애니메이션 채널"
 
 
 msgctxt "WindowManager"
@@ -69158,10 +69061,6 @@ msgid "Diffuse:"
 msgstr "확산:"
 
 
-msgid "Direct"
-msgstr "직접"
-
-
 msgid "Glossy:"
 msgstr "광택:"
 
@@ -69272,10 +69171,6 @@ msgstr "AA 샘플:"
 
 msgid "Mesh Light"
 msgstr "메시 조명"
-
-
-msgid "Subsurface"
-msgstr "하위 표면"
 
 
 msgid "File Suffix:"
@@ -71045,16 +70940,17 @@ msgid "Continuous Drawing"
 msgstr "연속 그리기"
 
 
-msgid "Enable Editing"
-msgstr "편집하기를 사용"
-
-
 msgid "Select:"
 msgstr "선택:"
 
 
 msgid "Edit:"
 msgstr "편집:"
+
+
+msgctxt "Operator"
+msgid "Scale"
+msgstr "규모"
 
 
 msgid "Active Layer:      "
@@ -71066,8 +70962,37 @@ msgid "Convert..."
 msgstr "전환..."
 
 
+msgctxt "Operator"
+msgid "Selection to Grid"
+msgstr "선택을 격자에 스냅"
+
+
+msgctxt "Operator"
+msgid "Cursor to Selected"
+msgstr "커서를 선택에 스냅"
+
+
+msgctxt "Operator"
+msgid "Cursor to Center"
+msgstr "커서를 중심에 스냅"
+
+
+msgctxt "Operator"
+msgid "Cursor to Grid"
+msgstr "커서를 격자에 스냅"
+
+
+msgctxt "Operator"
+msgid "Show All"
+msgstr "모두를 표시"
+
+
 msgid "Stroke:"
 msgstr "선획:"
+
+
+msgid "Enable Editing"
+msgstr "편집하기를 사용"
 
 
 msgid "Proportional Edit:"
@@ -71103,11 +71028,6 @@ msgstr "도구:"
 
 
 msgctxt "Operator"
-msgid "Scale"
-msgstr "규모"
-
-
-msgctxt "Operator"
 msgid "Straight Lines"
 msgstr "직선"
 
@@ -71123,6 +71043,16 @@ msgstr "메인 팔레트에 뒤쪽..."
 
 
 msgctxt "Operator"
+msgid "Selection to Cursor"
+msgstr "선택을 커서에 스냅"
+
+
+msgctxt "Operator"
+msgid "Selection to Cursor (Offset)"
+msgstr "선택을 커서에 스냅 (오프셋)"
+
+
+msgctxt "Operator"
 msgid "New Layer"
 msgstr "새로운 레이어"
 
@@ -71132,17 +71062,9 @@ msgid "Settings..."
 msgstr "설정..."
 
 
-msgid "Exit Edit Mode"
-msgstr "에디트 모드를 종료"
-
-
 msgctxt "Operator"
 msgid "Select Inverse"
 msgstr "선택 반전"
-
-
-msgid "Enable Stroke Editing"
-msgstr "선획 편집하기를 사용"
 
 
 msgctxt "Operator"
@@ -72829,11 +72751,6 @@ msgstr "커서를 픽셀에 스냅"
 
 
 msgctxt "Operator"
-msgid "Cursor to Selected"
-msgstr "커서를 선택에 스냅"
-
-
-msgctxt "Operator"
 msgid "Unpin"
 msgstr "고정을 해제"
 
@@ -73013,11 +72930,6 @@ msgstr "배포 로그"
 msgctxt "Operator"
 msgid "Blender Website"
 msgstr "블렌더 웹사이트"
-
-
-msgctxt "Operator"
-msgid "Blender e-Shop"
-msgstr "블렌더 e-Shop"
 
 
 msgctxt "Operator"
@@ -74082,16 +73994,6 @@ msgid "API Concepts"
 msgstr "API 개념"
 
 
-msgctxt "Operator"
-msgid "Addon Guidelines"
-msgstr "에드온 안내"
-
-
-msgctxt "Operator"
-msgid "How to share your addon"
-msgstr "당신의 에드온을 공유하는 방법"
-
-
 msgid "Missing script files"
 msgstr "스크립트 파일이 누락 됨"
 
@@ -74192,21 +74094,6 @@ msgstr "Z 글로벌"
 
 
 msgctxt "Operator"
-msgid "Selection to Grid"
-msgstr "선택을 격자에 스냅"
-
-
-msgctxt "Operator"
-msgid "Cursor to Center"
-msgstr "커서를 중심에 스냅"
-
-
-msgctxt "Operator"
-msgid "Cursor to Grid"
-msgstr "커서를 격자에 스냅"
-
-
-msgctxt "Operator"
 msgid "Cursor to Active"
 msgstr "커서를 활성에 스냅"
 
@@ -74277,6 +74164,21 @@ msgstr "왼쪽"
 
 
 msgctxt "Operator"
+msgid "Child"
+msgstr "자식"
+
+
+msgctxt "Operator"
+msgid "Extend Parent"
+msgstr "부모를 확장"
+
+
+msgctxt "Operator"
+msgid "Extend Child"
+msgstr "자식을 확장"
+
+
+msgctxt "Operator"
 msgid "Random"
 msgstr "무작위"
 
@@ -74312,21 +74214,6 @@ msgstr "대상 제약"
 
 
 msgctxt "Operator"
-msgid "Child"
-msgstr "자식"
-
-
-msgctxt "Operator"
-msgid "Extend Parent"
-msgstr "부모를 확장"
-
-
-msgctxt "Operator"
-msgid "Extend Child"
-msgstr "자식을 확장"
-
-
-msgctxt "Operator"
 msgid "Roots"
 msgstr "루트"
 
@@ -74342,16 +74229,6 @@ msgstr "페이스 영역"
 
 
 msgctxt "Operator"
-msgid "Sharp Edges"
-msgstr "샤프 에지"
-
-
-msgctxt "Operator"
-msgid "Linked Flat Faces"
-msgstr "연결된 플래트 페이스"
-
-
-msgctxt "Operator"
 msgid "Loose Geometry"
 msgstr "루즈 지오메트리"
 
@@ -74364,6 +74241,16 @@ msgstr "내부 페이스"
 msgctxt "Operator"
 msgid "Ungrouped Verts"
 msgstr "버텍스를 그룹 해제"
+
+
+msgctxt "Operator"
+msgid "Sharp Edges"
+msgstr "샤프 에지"
+
+
+msgctxt "Operator"
+msgid "Linked Flat Faces"
+msgstr "연결된 플래트 페이스"
 
 
 msgctxt "Operator"
@@ -74555,11 +74442,6 @@ msgstr "고정 변형"
 
 msgid "Threaded Sculpt"
 msgstr "스레드 조형"
-
-
-msgctxt "Operator"
-msgid "Show All"
-msgstr "모두를 표시"
 
 
 msgctxt "Operator"
@@ -74817,16 +74699,6 @@ msgstr "Y 로컬"
 msgctxt "Operator"
 msgid "Z Local"
 msgstr "Z 로컬"
-
-
-msgctxt "Operator"
-msgid "Selection to Cursor"
-msgstr "선택을 커서에 스냅"
-
-
-msgctxt "Operator"
-msgid "Selection to Cursor (Offset)"
-msgstr "선택을 커서에 스냅 (오프셋)"
 
 
 msgctxt "Operator"
@@ -76942,20 +76814,16 @@ msgid "File too long %s"
 msgstr "파일이 너무 깁니다 %s"
 
 
-msgid "Failed to read file '%s', %s"
-msgstr "'%s' 파일을 읽는데 실패함, %s"
-
-
 msgid "GPencil Stroke Editing"
 msgstr "G펜슬 선획 편집하기"
 
 
+msgid "No keyframes copied to keyframes copy/paste buffer"
+msgstr "키 프레임 복사/붙여 넣기 버퍼에 복사된 키 프레임이 없음"
+
+
 msgid "No Grease Pencil data to work on"
 msgstr "다음에 작업하는 그리스 펜슬 데이터가 없음"
-
-
-msgid "GPencil"
-msgstr "G펜슬"
 
 
 msgid "Cannot delete locked layers"
@@ -77444,10 +77312,6 @@ msgid "Stop this job"
 msgstr "이 직업을 중지"
 
 
-msgid "Progress"
-msgstr "진행"
-
-
 msgid "Stop screencast"
 msgstr "스크린캐스트 중지"
 
@@ -77835,10 +77699,6 @@ msgstr "자라내기의 수: %s, 스무스: %s (Alt)"
 
 msgid "Loop cut does not work well on deformed edit mesh display"
 msgstr "변형된 편집 메시 표시에서 루프 잘라내기가 잘 작동하지 않음"
-
-
-msgid "Path can't be found"
-msgstr "경로를 찾을 수 없음"
 
 
 msgid "Error ripping vertex from faces"
@@ -78484,18 +78344,6 @@ msgid "Bake failed: invalid canvas"
 msgstr "배이크 실패: 잘못된 캔버스"
 
 
-msgid "Baking canceled!"
-msgstr "굽기 취소 됨!"
-
-
-msgid "Bake complete! (%.2f)"
-msgstr "배이크 완료! (%.2f)"
-
-
-msgid "Bake failed: %s"
-msgstr "배이크 실패됨: %s"
-
-
 msgid "Removed %d double particles"
 msgstr "제거된 %d 개의 이중 파티클"
 
@@ -79016,16 +78864,8 @@ msgid "Internal Error: Could not find Animation Data/NLA Stack to use"
 msgstr "내부 오류: 사용하는 애니메이션 데이터/NLA 스택을 찾을 수 없습니다"
 
 
-msgid "Keyframe pasting is not available for grease pencil mode"
-msgstr "키 프레임 붙여 넣기는 그리스 펜슬 모드를 이용 할 수 없음"
-
-
 msgid "Keyframe pasting is not available for mask mode"
 msgstr "키 프레임 붙여 넣기는 마스크 모드를 이용 할 수 없음"
-
-
-msgid "No keyframes copied to keyframes copy/paste buffer"
-msgstr "키 프레임 복사/붙여 넣기 버퍼에 복사된 키 프레임이 없음"
 
 
 msgid "Not implemented"
@@ -79172,24 +79012,24 @@ msgid "Use LMB click to define location where place the marker"
 msgstr "마커를 두는 곳 위치를 정의할 때 LMB 클릭을 사용"
 
 
-msgid "Invoking this operator only supported from Clip Editor space"
-msgstr "클립 에디터 공간에서 만 지원 되는 이 연산자를 호출"
-
-
-msgid "No object to apply orientation on"
-msgstr "다음에 방향정위를 적용하는 오브젝트가 없음"
-
-
-msgid "Feature detection requires valid clip frame"
-msgstr "특성 감지는 유효한 클립 프레임이 필요함"
-
-
 msgid "No active track to join to"
 msgstr "에 합칠 활성 트랙 없음"
 
 
 msgid "Object used for camera tracking cannot be deleted"
 msgstr "카메라 트레킹하는 데 사용된 오브젝트를 삭제할 수 없음"
+
+
+msgid "Feature detection requires valid clip frame"
+msgstr "특성 감지는 유효한 클립 프레임이 필요함"
+
+
+msgid "No object to apply orientation on"
+msgstr "다음에 방향정위를 적용하는 오브젝트가 없음"
+
+
+msgid "Invoking this operator only supported from Clip Editor space"
+msgstr "클립 에디터 공간에서 만 지원 되는 이 연산자를 호출"
 
 
 msgid "Open Directory"
@@ -79532,10 +79372,6 @@ msgid "Can not set border from a cropped render"
 msgstr "잘린 렌더에서 경계를 설정할 수 없습니다"
 
 
-msgid "Could not write image %s"
-msgstr "이미지 %s 를 작성 할 수 없음"
-
-
 msgid "Saved Image '%s'"
 msgstr "저장된 이미지 '%s'"
 
@@ -79807,10 +79643,6 @@ msgstr "프레임: %d"
 
 msgid "Squash"
 msgstr "억압"
-
-
-msgid "Only enabled in experimental GPU kernel"
-msgstr "실험적인 GPU 커널에서 만 사용된"
 
 
 msgid "Center:"
@@ -81132,10 +80964,6 @@ msgid "Image not packed"
 msgstr "이미지 포장 되지 않음"
 
 
-msgid "Could not write image '%s'"
-msgstr "이미지 '%s' 를 작성할 수 없음"
-
-
 msgid "Image '%s' could not be saved to '%s'"
 msgstr "이미지 '%s' 는 '%s' 로 저장할 수 없음"
 
@@ -82034,10 +81862,6 @@ msgid "Cannot render, no camera"
 msgstr "렌더 할 수 없음, 카메라 없음"
 
 
-msgid "No camera found in scene"
-msgstr "장면에서 카메라를 찾을 수 없음"
-
-
 msgid "No border area selected"
 msgstr "선택된 경계 영역 없음"
 
@@ -82110,10 +81934,6 @@ msgid "No active view found in scene \"%s\""
 msgstr "장면 \"%s\" 에서 활성 뷰를 찾을 수 없음"
 
 
-msgid "No camera found in scene \"%s\""
-msgstr "장면 \"%s\" 에서 카메라를 찾을 수 없음"
-
-
 msgid "%s: no Combined pass found in the render layer '%s'"
 msgstr "%s: 렌더 레이어 '%s' 에서 결합된 패스를 찾을 수 없음"
 
@@ -82148,10 +81968,6 @@ msgstr "레이트리 빌딩 취소됨"
 
 msgid "Raytree finished"
 msgstr "레이트리 완료"
-
-
-msgid "Error writing render result (see console)"
-msgstr "렌더 결과를 쓰는 중 오류가 발생함 (콘솔을 참조)"
 
 
 msgid "SSS preprocessing"

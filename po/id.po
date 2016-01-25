@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 2) (b'39957b8')\n"
+"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-23 21:20:22\n"
+"POT-Creation-Date: 2016-01-19 20:32:10\n"
 "PO-Revision-Date: 2013-09-26 14:51+0700\n"
 "Last-Translator: Daffi A. Prabowo <daffi.ap@gmail.com>\n"
 "Language-Team: Indonesian <>\n"
@@ -778,6 +778,14 @@ msgid "Image Format"
 msgstr "Penyunting Gambar"
 
 
+msgid "Color"
+msgstr "Warna"
+
+
+msgid "Transmission"
+msgstr "Orientasi Transformasi"
+
+
 msgid "Internal"
 msgstr "Internet:"
 
@@ -888,10 +896,6 @@ msgstr "Partikel"
 
 msgid "View Transform"
 msgstr "Orientasi Transformasi"
-
-
-msgid "Color"
-msgstr "Warna"
 
 
 msgctxt "Text"
@@ -5767,18 +5771,6 @@ msgid "Add Armature"
 msgstr "Tambah Gambar"
 
 
-msgid "Glossy Color"
-msgstr "Warna"
-
-
-msgid "Transmission Direct"
-msgstr "Orientasi Transformasi"
-
-
-msgid "Transmission Indirect"
-msgstr "Orientasi Transformasi"
-
-
 msgctxt "Operator"
 msgid "Add Camera"
 msgstr "Kamera"
@@ -7937,10 +7929,6 @@ msgid "Progressive Refine"
 msgstr "Proses"
 
 
-msgid "Transmission"
-msgstr "Orientasi Transformasi"
-
-
 msgid "Map Resolution"
 msgstr "Gerakan"
 
@@ -7985,7 +7973,19 @@ msgid "Exclude Layers"
 msgstr "Lapisan"
 
 
+msgid "Glossy Color"
+msgstr "Warna"
+
+
 msgid "Deliver transmission color pass"
+msgstr "Orientasi Transformasi"
+
+
+msgid "Transmission Direct"
+msgstr "Orientasi Transformasi"
+
+
+msgid "Transmission Indirect"
 msgstr "Orientasi Transformasi"
 
 
@@ -8031,10 +8031,6 @@ msgstr "Tipe"
 
 msgid "Auto Select"
 msgstr "Seleksi"
-
-
-msgid "Immediate Mode"
-msgstr "Modus Sunting"
 
 
 msgid "Vertex Arrays"
@@ -8841,6 +8837,16 @@ msgstr "Seleksi"
 
 
 msgctxt "Operator"
+msgid "Scale"
+msgstr "Adegan"
+
+
+msgctxt "Operator"
+msgid "Cursor to Selected"
+msgstr "lokasi"
+
+
+msgctxt "Operator"
 msgid "Erase"
 msgstr "Hapus"
 
@@ -8853,11 +8859,6 @@ msgstr "Konsol Python"
 msgctxt "Operator"
 msgid "Poly"
 msgstr "Putar"
-
-
-msgctxt "Operator"
-msgid "Scale"
-msgstr "Adegan"
 
 
 msgctxt "Operator"
@@ -9110,11 +9111,6 @@ msgstr "Saluran"
 msgctxt "Operator"
 msgid "Invert Alpha Channel"
 msgstr "Saluran"
-
-
-msgctxt "Operator"
-msgid "Cursor to Selected"
-msgstr "lokasi"
 
 
 msgctxt "Operator"
@@ -10129,10 +10125,6 @@ msgid "Stop this job"
 msgstr "Hentikan Perintah"
 
 
-msgid "Progress"
-msgstr "Proses"
-
-
 msgctxt "Scene"
 msgid "New"
 msgstr "Baru"
@@ -10437,10 +10429,6 @@ msgstr "Tidak dapat membuka dokumen"
 
 msgid "No frames to bake"
 msgstr "Modus Sunting"
-
-
-msgid "Bake failed: %s"
-msgstr "Nilai: %s"
 
 
 msgid "No fluid input objects in the scene"

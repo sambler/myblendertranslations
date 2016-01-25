@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 2) (b'39957b8')\n"
+"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-23 21:20:22\n"
+"POT-Creation-Date: 2016-01-19 20:32:10\n"
 "PO-Revision-Date: 2012-09-07 22:32+0100\n"
 "Last-Translator: Nikola Radovanovic <cobisimo@gmail.com>\n"
 "Language-Team: Nikola Radovanovic\n"
@@ -1825,6 +1825,38 @@ msgid "Tangent"
 msgstr "Магента"
 
 
+msgid "Emit"
+msgstr "Емитовање"
+
+
+msgid "Direct"
+msgstr "Директно"
+
+
+msgid "Indirect"
+msgstr "Индиректно"
+
+
+msgid "Color"
+msgstr "Боја"
+
+
+msgid "Diffuse"
+msgstr "Дифузно"
+
+
+msgid "Glossy"
+msgstr "Сјајно"
+
+
+msgid "Transmission"
+msgstr "Преношење"
+
+
+msgid "Subsurface"
+msgstr "Издељена површ"
+
+
 msgid "Save Mode"
 msgstr "Начин уписивања"
 
@@ -3019,10 +3051,6 @@ msgstr "Трансформација погледа"
 
 msgid "Color Mapping"
 msgstr "Бојење:"
-
-
-msgid "Color"
-msgstr "Боја"
 
 
 msgid "Blend Factor"
@@ -6522,6 +6550,50 @@ msgid "Draw strokes as a series of circular blobs, resulting in a volumetric eff
 msgstr "Пиказује потезе као низ кружних мрља, што даје ефекат волуметричности"
 
 
+msgid "Add effect of brush"
+msgstr "Додај ефекат четкице"
+
+
+msgid "Subtract effect of brush"
+msgstr "Одузми ефекат четкице"
+
+
+msgid "Radius"
+msgstr "Радиус"
+
+
+msgid "Radius of the brush in pixels"
+msgstr "Полупречник четкице у пикселе"
+
+
+msgid "Strength Pressure"
+msgstr "Снага притиска"
+
+
+msgid "Tool"
+msgstr "Алатка"
+
+
+msgid "Grab"
+msgstr "Повлачење"
+
+
+msgid "Push"
+msgstr "Поставља запамћену позу"
+
+
+msgid "Pinch"
+msgstr "Штипање"
+
+
+msgid "Randomize"
+msgstr "Насумично"
+
+
+msgid "Clone"
+msgstr "Клинирање"
+
+
 msgid "Grease Pencil Stroke"
 msgstr "Потез скице"
 
@@ -6688,10 +6760,6 @@ msgstr "Знак"
 
 msgid "Game engine properties"
 msgstr "Особине погона игре"
-
-
-msgid "Radius"
-msgstr "Радиус"
 
 
 msgid "Sensors"
@@ -7134,14 +7202,6 @@ msgid "Mask Texture Overlay Alpha"
 msgstr "Маскирај провидност преклапања текстуре"
 
 
-msgid "Add effect of brush"
-msgstr "Додај ефекат четкице"
-
-
-msgid "Subtract effect of brush"
-msgstr "Одузми ефекат четкице"
-
-
 msgid "Fill Threshold"
 msgstr "Праг испуне"
 
@@ -7176,10 +7236,6 @@ msgstr "Умекшање"
 
 msgid "Smear"
 msgstr "Замазивање"
-
-
-msgid "Clone"
-msgstr "Клинирање"
 
 
 msgid "Fill"
@@ -7238,20 +7294,12 @@ msgid "Flatten"
 msgstr "Изравнавање"
 
 
-msgid "Grab"
-msgstr "Повлачење"
-
-
 msgid "Inflate"
 msgstr "Надувати"
 
 
 msgid "Nudge"
 msgstr "Гуркање"
-
-
-msgid "Pinch"
-msgstr "Штипање"
 
 
 msgid "Rotate"
@@ -7280,10 +7328,6 @@ msgstr "Споредна боја"
 
 msgid "Sharp Threshold"
 msgstr "Праг оштрине"
-
-
-msgid "Radius of the brush in pixels"
-msgstr "Полупречник четкице у пикселе"
 
 
 msgid "Smooth Stroke Factor"
@@ -7412,10 +7456,6 @@ msgstr "Искључено"
 
 msgid "Ramp"
 msgstr "Прелаз"
-
-
-msgid "Strength Pressure"
-msgstr "Снага притиска"
 
 
 msgid "Use Texture Overlay"
@@ -8042,24 +8082,8 @@ msgid "Use Textures"
 msgstr "Користи текстуре"
 
 
-msgid "Cursor"
-msgstr "Курсор"
-
-
-msgid "View"
-msgstr "Поглед"
-
-
-msgid "Stroke"
-msgstr "Потез"
-
-
 msgid "Stroke Edit Mode"
 msgstr "Мод измене потеза"
-
-
-msgid "Only Endpoints"
-msgstr "Само крајње тачке"
 
 
 msgid "Dupli Offset"
@@ -8484,10 +8508,6 @@ msgid "Directional area light source"
 msgstr "Усмерени површински извор светлости"
 
 
-msgid "Diffuse"
-msgstr "Дифузно"
-
-
 msgid "Do diffuse shading"
 msgstr "Користи дифузно сенчење"
 
@@ -8794,10 +8814,6 @@ msgstr "Дифузно цртано замућење"
 
 msgid "Smoothness of diffuse toon area"
 msgstr "Замућење дифузне површине цртаног сенчења"
-
-
-msgid "Emit"
-msgstr "Емитовање"
 
 
 msgid "Amount of light to emit"
@@ -10082,6 +10098,10 @@ msgstr "Насумична крутост косе"
 
 msgid "Align to"
 msgstr "Поравнај са"
+
+
+msgid "View"
+msgstr "Поглед"
 
 
 msgid "Animate"
@@ -12852,6 +12872,10 @@ msgid "Fluid Presets"
 msgstr "Својства течности:"
 
 
+msgid "Snap"
+msgstr "Лепљење"
+
+
 msgid "Grease Pencil Settings"
 msgstr "Подешавање скицирања"
 
@@ -12878,10 +12902,6 @@ msgstr "UV режим избора"
 
 msgid "Show/Hide Faces"
 msgstr "Прикажи/сакриј странице"
-
-
-msgid "Snap"
-msgstr "Лепљење"
 
 
 msgid "Export"
@@ -12990,10 +13010,6 @@ msgstr "Остава"
 
 msgid "Playback"
 msgstr "Репродукција"
-
-
-msgid "Development Guides"
-msgstr "Упутства за развој"
 
 
 msgid "Presets"
@@ -13646,10 +13662,6 @@ msgstr "Одузима један меш другим"
 
 msgid "Start frame of the effect"
 msgstr "Почетни кадар ефекта"
-
-
-msgid "Randomize"
-msgstr "Насумично"
 
 
 msgid "Randomize the faces or edges during build"
@@ -15763,10 +15775,6 @@ msgid "Toon BSDF"
 msgstr "Цртани BSDF"
 
 
-msgid "Glossy"
-msgstr "Сјајно"
-
-
 msgid "Transparent BSDF"
 msgstr "Провидно BSDF"
 
@@ -16705,6 +16713,10 @@ msgid "View Axis"
 msgstr "Осе погледа"
 
 
+msgid "Cursor"
+msgstr "Курсор"
+
+
 msgctxt "Operator"
 msgid "Click-Extrude"
 msgstr "Клик-извуци"
@@ -16984,10 +16996,6 @@ msgstr "Скалар"
 
 msgid "Factor to scale brush size by"
 msgstr "Фактор увећања величине четкице"
-
-
-msgid "Tool"
-msgstr "Алатка"
 
 
 msgid "Translation"
@@ -18695,11 +18703,6 @@ msgstr "Тражи поново"
 
 
 msgctxt "Operator"
-msgid "Toggle Hide Dot Files"
-msgstr "Прикажи обележиваче"
-
-
-msgctxt "Operator"
 msgid "Highlight File"
 msgstr "Означи датотеку"
 
@@ -19056,6 +19059,14 @@ msgid "Delete the active frame for the active Grease Pencil datablock"
 msgstr "Брише активни кадар активаног блока података скице"
 
 
+msgid "Stroke"
+msgstr "Потез"
+
+
+msgid "Wait for Input"
+msgstr "Чекај на унос"
+
+
 msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "Претвори скицу"
@@ -19203,10 +19214,6 @@ msgid "Erase Grease Pencil strokes"
 msgstr "Брише скициране потезе"
 
 
-msgid "Wait for Input"
-msgstr "Чекај на унос"
-
-
 msgctxt "Operator"
 msgid "Duplicate Strokes"
 msgstr "Дуплирај потезе"
@@ -19350,6 +19357,16 @@ msgstr "Изабери све тачке у тренутном потезу ка
 
 msgid "Grow sets of selected Grease Pencil points"
 msgstr "Увећава збирку изабраних тачака потеза скице"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Cursor"
+msgstr "Изабор за курсор"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Grid"
+msgstr "Изабрано за мрежу"
 
 
 msgctxt "Operator"
@@ -20647,6 +20664,10 @@ msgid "Select Outer"
 msgstr "Изабери шару"
 
 
+msgid "Swap"
+msgstr "Замени"
+
+
 msgid "Only cut selected geometry"
 msgstr "Јачина издизања геометрије"
 
@@ -21877,38 +21898,6 @@ msgstr "Испеци текстуре изабраних објеката"
 
 msgid "Combined"
 msgstr "Комбиновано"
-
-
-msgid "Object Index"
-msgstr "Индекс објекта"
-
-
-msgid "Diffuse Direct"
-msgstr "Дифузни фактор"
-
-
-msgid "Diffuse Indirect"
-msgstr "Дифузни интензитет"
-
-
-msgid "Glossy Direct"
-msgstr "Директоријум фонтова"
-
-
-msgid "Glossy Indirect"
-msgstr "Индиректно"
-
-
-msgid "Glossy Color"
-msgstr "Боја неба"
-
-
-msgid "Transmission Direct"
-msgstr "Преношење"
-
-
-msgid "Transmission Indirect"
-msgstr "Индиректни пренос"
 
 
 msgctxt "Operator"
@@ -24306,10 +24295,6 @@ msgid "Change Effect Input"
 msgstr "Измени улаз ефекта"
 
 
-msgid "Swap"
-msgstr "Замени"
-
-
 msgid "The effect inputs to swap"
 msgstr "Замена улазног ефекта"
 
@@ -26151,18 +26136,8 @@ msgid "Snap cursor to center of selected item(s)"
 msgstr "Лепи курсор на центар изабрану ставку/е"
 
 
-msgctxt "Operator"
-msgid "Snap Selection to Cursor"
-msgstr "Изабор за курсор"
-
-
 msgid "Snap selected item(s) to cursor"
 msgstr "Лепи изабрану ставку/е за курсор"
-
-
-msgctxt "Operator"
-msgid "Snap Selection to Grid"
-msgstr "Изабрано за мрежу"
 
 
 msgid "Snap selected item(s) to nearest grid division"
@@ -26338,38 +26313,14 @@ msgid "Disable Addon"
 msgstr "Онемогући додатак"
 
 
-msgid "Disable an addon"
-msgstr "Онемогући додатак"
-
-
-msgid "Module name of the addon to disable"
-msgstr "Назив модула додатка за искључење"
-
-
 msgctxt "Operator"
 msgid "Enable Addon"
 msgstr "Омогући додатак"
 
 
-msgid "Enable an addon"
-msgstr "Омогући додатак"
-
-
-msgid "Module name of the addon to enable"
-msgstr "Назив модула додатка за укључење"
-
-
-msgid "Module name of the addon to expand"
-msgstr "Назив модула за проширење додатка"
-
-
 msgctxt "Operator"
 msgid "Install from File..."
 msgstr "Инсталирај из датотеке..."
-
-
-msgid "Install an addon"
-msgstr "Инсталира додатак"
 
 
 msgid "Remove existing addons with the same ID"
@@ -26392,14 +26343,6 @@ msgstr "Освежи"
 msgctxt "Operator"
 msgid "Remove Addon"
 msgstr "Уклони додатак"
-
-
-msgid "Delete the addon from the file system"
-msgstr "Уклони додатак из система датотека"
-
-
-msgid "Module name of the addon to remove"
-msgstr "Назив модула додатка за укључење"
 
 
 msgid "Link the objects or datablocks rather than appending"
@@ -26900,15 +26843,6 @@ msgstr "Мени претраге"
 msgctxt "Operator"
 msgid "Splash Screen"
 msgstr "Почетни екран"
-
-
-msgctxt "Operator"
-msgid "System Info"
-msgstr "Информације о систему"
-
-
-msgid "Generate System Info"
-msgstr "Генериши информације о систему"
 
 
 msgctxt "Operator"
@@ -28391,10 +28325,6 @@ msgid "Max Steps"
 msgstr "Макс. корака"
 
 
-msgid "Transmission"
-msgstr "Преношење"
-
-
 msgid "When using volume rendering, assume volume has the same density everywhere(not using any textures), for faster rendering"
 msgstr "При рендеровању запремине, рачунај да је густина свуда иста (не користи текстуре), ради бржег рендеровања"
 
@@ -28579,8 +28509,36 @@ msgid "Fill in Z values for solid faces in invisible layers, for masking"
 msgstr "Попуни Z вредности пуних страница у провидном слоју за маскирање"
 
 
-msgid "Indirect"
+msgid "Diffuse Direct"
+msgstr "Дифузни фактор"
+
+
+msgid "Diffuse Indirect"
+msgstr "Дифузни интензитет"
+
+
+msgid "Glossy Color"
+msgstr "Боја неба"
+
+
+msgid "Glossy Direct"
+msgstr "Директоријум фонтова"
+
+
+msgid "Glossy Indirect"
 msgstr "Индиректно"
+
+
+msgid "Object Index"
+msgstr "Индекс објекта"
+
+
+msgid "Transmission Direct"
+msgstr "Преношење"
+
+
+msgid "Transmission Indirect"
+msgstr "Индиректни пренос"
 
 
 msgid "Render Sky in this Layer"
@@ -29357,10 +29315,6 @@ msgstr "Складиште"
 
 msgid "Auto Select"
 msgstr "Ауто избор"
-
-
-msgid "Immediate Mode"
-msgstr "Непосредан режим"
 
 
 msgid "Vertex Arrays"
@@ -30912,10 +30866,6 @@ msgstr "Локација тежишта"
 
 msgid "Permanent deform"
 msgstr "Трајна деформација"
-
-
-msgid "Push"
-msgstr "Поставља запамћену позу"
 
 
 msgid "Rot Matrix"
@@ -32865,12 +32815,12 @@ msgid "Quick Sketching"
 msgstr "Брзо скицирање"
 
 
-msgid "Use Sketching Sessions"
-msgstr "Користи фазе скицирања"
-
-
 msgid "Allow drawing multiple strokes at a time with Grease Pencil"
 msgstr "Омогућава цртање више слободоручних потеза приликом скицирања"
+
+
+msgid "Only Endpoints"
+msgstr "Само крајње тачке"
 
 
 msgid "Automatic keyframe insertion for Objects and Bones"
@@ -34009,6 +33959,11 @@ msgstr "Екранско уређивање"
 
 
 msgctxt "WindowManager"
+msgid "Header"
+msgstr "Заглавље"
+
+
+msgctxt "WindowManager"
 msgid "View2D"
 msgstr "2D поглед"
 
@@ -34016,11 +33971,6 @@ msgstr "2D поглед"
 msgctxt "WindowManager"
 msgid "View2D Buttons List"
 msgstr "Листа дугмића у 2D погледу"
-
-
-msgctxt "WindowManager"
-msgid "Header"
-msgstr "Заглавље"
 
 
 msgctxt "WindowManager"
@@ -34104,26 +34054,6 @@ msgstr "Почетни 3D поглед"
 
 
 msgctxt "WindowManager"
-msgid "Frames"
-msgstr "Кадрова"
-
-
-msgctxt "WindowManager"
-msgid "Markers"
-msgstr "Маркери"
-
-
-msgctxt "WindowManager"
-msgid "Animation"
-msgstr "Анимација"
-
-
-msgctxt "WindowManager"
-msgid "Animation Channels"
-msgstr "Канали анимације"
-
-
-msgctxt "WindowManager"
 msgid "Graph Editor"
 msgstr "Уређивач графикона"
 
@@ -34149,6 +34079,11 @@ msgstr "Почетни NLA"
 
 
 msgctxt "WindowManager"
+msgid "Timeline"
+msgstr "Временска линија"
+
+
+msgctxt "WindowManager"
 msgid "Image"
 msgstr "Слика"
 
@@ -34166,11 +34101,6 @@ msgstr "UV Вајање"
 msgctxt "WindowManager"
 msgid "Image Generic"
 msgstr "Почетна слика"
-
-
-msgctxt "WindowManager"
-msgid "Timeline"
-msgstr "Временска линија"
 
 
 msgctxt "WindowManager"
@@ -34226,6 +34156,26 @@ msgstr "Уређивач исечака"
 msgctxt "WindowManager"
 msgid "Mask Editing"
 msgstr "Уређење маске"
+
+
+msgctxt "WindowManager"
+msgid "Frames"
+msgstr "Кадрова"
+
+
+msgctxt "WindowManager"
+msgid "Markers"
+msgstr "Маркери"
+
+
+msgctxt "WindowManager"
+msgid "Animation"
+msgstr "Анимација"
+
+
+msgctxt "WindowManager"
+msgid "Animation Channels"
+msgstr "Канали анимације"
 
 
 msgctxt "WindowManager"
@@ -34287,10 +34237,6 @@ msgstr "Користи косу"
 
 msgid "Diffuse:"
 msgstr "Дифузно:"
-
-
-msgid "Direct"
-msgstr "Директно"
 
 
 msgid "Glossy:"
@@ -34371,10 +34317,6 @@ msgstr "AA узорака:"
 
 msgid "Mesh Light"
 msgstr "Меш светло"
-
-
-msgid "Subsurface"
-msgstr "Издељена површ"
 
 
 msgid "Normal Settings:"
@@ -35556,16 +35498,17 @@ msgid "Continuous Drawing"
 msgstr "Непрекидно цртање"
 
 
-msgid "Enable Editing"
-msgstr "Омогући уређивање"
-
-
 msgid "Select:"
 msgstr "Изабери:"
 
 
 msgid "Edit:"
 msgstr "Уреди:"
+
+
+msgctxt "Operator"
+msgid "Scale"
+msgstr "Повећај/смањи"
 
 
 msgid "Active Layer:      "
@@ -35577,8 +35520,37 @@ msgid "Convert..."
 msgstr "Претвори..."
 
 
+msgctxt "Operator"
+msgid "Selection to Grid"
+msgstr "Изабрано за вођице"
+
+
+msgctxt "Operator"
+msgid "Cursor to Selected"
+msgstr "Курсор на избор"
+
+
+msgctxt "Operator"
+msgid "Cursor to Center"
+msgstr "Курсор у центар"
+
+
+msgctxt "Operator"
+msgid "Cursor to Grid"
+msgstr "Курсор на вођице"
+
+
+msgctxt "Operator"
+msgid "Show All"
+msgstr "Прикажи све"
+
+
 msgid "Stroke:"
 msgstr "Потез:"
+
+
+msgid "Enable Editing"
+msgstr "Омогући уређивање"
 
 
 msgid "Proportional Edit:"
@@ -35614,8 +35586,8 @@ msgstr "Алатке:"
 
 
 msgctxt "Operator"
-msgid "Scale"
-msgstr "Повећај/смањи"
+msgid "Selection to Cursor"
+msgstr "Изабрано за курсор"
 
 
 msgctxt "Operator"
@@ -36639,11 +36611,6 @@ msgstr "Курсор на пикселе"
 
 
 msgctxt "Operator"
-msgid "Cursor to Selected"
-msgstr "Курсор на избор"
-
-
-msgctxt "Operator"
 msgid "Vertex"
 msgstr "Теме"
 
@@ -36782,11 +36749,6 @@ msgstr "Преглед измена"
 msgctxt "Operator"
 msgid "Blender Website"
 msgstr "Blender-ов сајт"
-
-
-msgctxt "Operator"
-msgid "Blender e-Shop"
-msgstr "Blender e-продавница"
 
 
 msgctxt "Operator"
@@ -37476,16 +37438,6 @@ msgid "API Concepts"
 msgstr "API концепти"
 
 
-msgctxt "Operator"
-msgid "Addon Guidelines"
-msgstr "Смернице за додатке"
-
-
-msgctxt "Operator"
-msgid "How to share your addon"
-msgstr "Како поделити додатак"
-
-
 msgid "Missing script files"
 msgstr "Недостаје датотека скрипте"
 
@@ -37560,21 +37512,6 @@ msgstr "Z опште"
 
 
 msgctxt "Operator"
-msgid "Selection to Grid"
-msgstr "Изабрано за вођице"
-
-
-msgctxt "Operator"
-msgid "Cursor to Center"
-msgstr "Курсор у центар"
-
-
-msgctxt "Operator"
-msgid "Cursor to Grid"
-msgstr "Курсор на вођице"
-
-
-msgctxt "Operator"
 msgid "Cursor to Active"
 msgstr "Курсор на активно"
 
@@ -37640,6 +37577,21 @@ msgstr "Лево"
 
 
 msgctxt "Operator"
+msgid "Child"
+msgstr "Дете"
+
+
+msgctxt "Operator"
+msgid "Extend Parent"
+msgstr "Повежи"
+
+
+msgctxt "Operator"
+msgid "Extend Child"
+msgstr "Наставак"
+
+
+msgctxt "Operator"
 msgid "Random"
 msgstr "Насумично"
 
@@ -37675,21 +37627,6 @@ msgstr "Предмет ограничења"
 
 
 msgctxt "Operator"
-msgid "Child"
-msgstr "Дете"
-
-
-msgctxt "Operator"
-msgid "Extend Parent"
-msgstr "Повежи"
-
-
-msgctxt "Operator"
-msgid "Extend Child"
-msgstr "Наставак"
-
-
-msgctxt "Operator"
 msgid "Roots"
 msgstr "Корење"
 
@@ -37700,16 +37637,6 @@ msgstr "Савети"
 
 
 msgctxt "Operator"
-msgid "Sharp Edges"
-msgstr "Оштре ивице"
-
-
-msgctxt "Operator"
-msgid "Linked Flat Faces"
-msgstr "Повезане равне странице"
-
-
-msgctxt "Operator"
 msgid "Loose Geometry"
 msgstr "Слободна геометрија"
 
@@ -37717,6 +37644,16 @@ msgstr "Слободна геометрија"
 msgctxt "Operator"
 msgid "Interior Faces"
 msgstr "Унутрашње странице"
+
+
+msgctxt "Operator"
+msgid "Sharp Edges"
+msgstr "Оштре ивице"
+
+
+msgctxt "Operator"
+msgid "Linked Flat Faces"
+msgstr "Повезане равне странице"
 
 
 msgctxt "Operator"
@@ -37860,11 +37797,6 @@ msgstr "Очисти"
 msgctxt "Operator"
 msgid "Levels"
 msgstr "Нивои"
-
-
-msgctxt "Operator"
-msgid "Show All"
-msgstr "Прикажи све"
 
 
 msgctxt "Operator"
@@ -38062,11 +37994,6 @@ msgstr "Y локално"
 msgctxt "Operator"
 msgid "Z Local"
 msgstr "Z локално"
-
-
-msgctxt "Operator"
-msgid "Selection to Cursor"
-msgstr "Изабрано за курсор"
 
 
 msgctxt "Operator"
@@ -39077,10 +39004,6 @@ msgid "Text too long"
 msgstr "Текст је превише дугачак"
 
 
-msgid "Failed to read file '%s', %s"
-msgstr "Не могу да прочитам датотеку: '%s', %s"
-
-
 msgid "No active frame to delete"
 msgstr "Модификатор вредности F-криве"
 
@@ -39324,10 +39247,6 @@ msgstr "Дупли клик за преименовање"
 
 msgid "Stop this job"
 msgstr "Заустави посао"
-
-
-msgid "Progress"
-msgstr "Напредак"
 
 
 msgid "Stop screencast"

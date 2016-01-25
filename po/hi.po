@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 2) (b'39957b8')\n"
+"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-23 21:20:22\n"
+"POT-Creation-Date: 2016-01-19 20:32:10\n"
 "PO-Revision-Date: 2015-03-03 16:21+0530\n"
 "Last-Translator: Roshan Lal Gumasta <roshan@anisecrets.com>\n"
 "Language-Team: Hindi <www.anisecrets.com>\n"
@@ -976,12 +976,28 @@ msgid "+Z"
 msgstr "+ Z"
 
 
+msgid "Emit"
+msgstr "स्कंदन"
+
+
+msgid "Color"
+msgstr "रंग"
+
+
+msgid "Diffuse"
+msgstr "व्याप्त"
+
+
 msgid "Internal"
 msgstr "आंतरिक"
 
 
 msgid "Clear"
 msgstr "स्पष्ट"
+
+
+msgid "AO"
+msgstr "ए ओ"
 
 
 msgid "Free"
@@ -1338,10 +1354,6 @@ msgstr "वक्र"
 
 msgid "Gamma"
 msgstr "गामा"
-
-
-msgid "Color"
-msgstr "रंग"
 
 
 msgid "Blend Type"
@@ -2173,6 +2185,30 @@ msgid "X Ray"
 msgstr "एक्स रे"
 
 
+msgid "Radius"
+msgstr "त्रिज्या"
+
+
+msgid "Tool"
+msgstr "यंत्र"
+
+
+msgid "Grab"
+msgstr "स्थानांतर"
+
+
+msgid "Push"
+msgstr "दबाव"
+
+
+msgid "Pinch"
+msgstr "चुटकी"
+
+
+msgid "Clone"
+msgstr "प्रतिरूप"
+
+
 msgid "3D Space"
 msgstr "त्रि-आयाम आकाश"
 
@@ -2239,10 +2275,6 @@ msgstr "लचीला-पदार्थ"
 
 msgid "Character"
 msgstr "चरित्र"
-
-
-msgid "Radius"
-msgstr "त्रिज्या"
 
 
 msgid "Sensors"
@@ -2381,10 +2413,6 @@ msgid "Smear"
 msgstr "धब्बा"
 
 
-msgid "Clone"
-msgstr "प्रतिरूप"
-
-
 msgid "Fill"
 msgstr "भरण"
 
@@ -2427,14 +2455,6 @@ msgstr "मिट्टी"
 
 msgid "Flatten"
 msgstr "समतल"
-
-
-msgid "Grab"
-msgstr "स्थानांतर"
-
-
-msgid "Pinch"
-msgstr "चुटकी"
 
 
 msgid "Rotate"
@@ -2627,14 +2647,6 @@ msgstr "दौर"
 
 msgid "Relative"
 msgstr "सापेक्ष"
-
-
-msgid "Cursor"
-msgstr "प्रसंकेतक"
-
-
-msgid "View"
-msgstr "दृश्य"
 
 
 msgid "Alpha Mode"
@@ -2855,10 +2867,6 @@ msgid "Directional area light source"
 msgstr "दिशात्मक क्षेत्र प्रकाश स्रोत"
 
 
-msgid "Diffuse"
-msgstr "व्याप्त"
-
-
 msgid "Do diffuse shading"
 msgstr "व्याप्त छाया प्रभाव फैलाना"
 
@@ -2941,10 +2949,6 @@ msgstr "जलाएँ"
 
 msgid "Toon"
 msgstr "तून"
-
-
-msgid "Emit"
-msgstr "स्कंदन"
 
 
 msgid "Game Settings"
@@ -3197,6 +3201,10 @@ msgstr "वैश्विक y"
 
 msgid "Global Z"
 msgstr "वैश्विक z"
+
+
+msgid "View"
+msgstr "दृश्य"
 
 
 msgid "Age"
@@ -3869,16 +3877,16 @@ msgid "Fluid Presets"
 msgstr "पूर्वनिश्चित द्रव"
 
 
+msgid "Snap"
+msgstr "स्नैप"
+
+
 msgid "UVs"
 msgstr "यूवीस्"
 
 
 msgid "Mirror"
 msgstr "दर्पण"
-
-
-msgid "Snap"
-msgstr "स्नैप"
 
 
 msgid "Export"
@@ -3967,6 +3975,10 @@ msgstr "सक्षम किया गया रूप"
 
 msgid "Bone Roll"
 msgstr "हड्डी पंजी"
+
+
+msgid "GPencil"
+msgstr "तैलीय पेंसिल"
 
 
 msgid "Clean up"
@@ -4548,6 +4560,10 @@ msgid "Paste Driver"
 msgstr "चिपकाएँ यंत्र-संवादी"
 
 
+msgid "Cursor"
+msgstr "प्रसंकेतक"
+
+
 msgctxt "Operator"
 msgid "Extrude"
 msgstr "बिहर्वेधन"
@@ -4613,10 +4629,6 @@ msgstr "रेखा"
 msgctxt "Curve"
 msgid "Round"
 msgstr "दौर"
-
-
-msgid "Tool"
-msgstr "यंत्र"
 
 
 msgid "Relax"
@@ -5119,6 +5131,10 @@ msgid "Sides"
 msgstr "किनारा"
 
 
+msgid "Swap"
+msgstr "अदला-बदली"
+
+
 msgctxt "Operator"
 msgid "Knife Project"
 msgstr "चाकू प्रक्षेपण"
@@ -5286,14 +5302,6 @@ msgstr "त्रि-आयाम प्रसंकेतक"
 msgctxt "Operator"
 msgid "Bake"
 msgstr "भर्जन"
-
-
-msgid "Refraction"
-msgstr "अपवर्तन"
-
-
-msgid "Glossy Color"
-msgstr "चमकदार रंग"
 
 
 msgctxt "Operator"
@@ -5569,10 +5577,6 @@ msgstr "शिल्प रूप"
 
 msgid "Symmetrize the topology modifications"
 msgstr "टोपोलॉजी संशोधन symmetrize"
-
-
-msgid "Swap"
-msgstr "अदला-बदली"
 
 
 msgid "Wipe"
@@ -6268,8 +6272,12 @@ msgid "All Z"
 msgstr "सभी z"
 
 
-msgid "AO"
-msgstr "ए ओ"
+msgid "Glossy Color"
+msgstr "चमकदार रंग"
+
+
+msgid "Refraction"
+msgstr "अपवर्तन"
 
 
 msgid "Zmask"
@@ -6687,10 +6695,6 @@ msgid "Pull"
 msgstr "खिंचाव"
 
 
-msgid "Push"
-msgstr "दबाव"
-
-
 msgid "SL"
 msgstr "एस एल"
 
@@ -6958,10 +6962,6 @@ msgid "Joint"
 msgstr "संयुक्त"
 
 
-msgid "Use Sketching Sessions"
-msgstr "आरेखन सत्र का उपयोग करेंसत्र के चित्र का उपयोग करें"
-
-
 msgid "Mask Non-Group Vertices"
 msgstr "मुखौटा गैर-समूह वर्टेक्स"
 
@@ -7031,11 +7031,6 @@ msgstr "लौ"
 
 
 msgctxt "WindowManager"
-msgid "Grease Pencil"
-msgstr "तैलीय पेंसिल"
-
-
-msgctxt "WindowManager"
 msgid "Object Mode"
 msgstr "वस्तु रूप"
 
@@ -7058,11 +7053,6 @@ msgstr "मुद्रा"
 msgctxt "WindowManager"
 msgid "Sculpt"
 msgstr "गढन"
-
-
-msgctxt "WindowManager"
-msgid "Animation"
-msgstr "अनुप्राणन"
 
 
 msgctxt "WindowManager"
@@ -7116,8 +7106,18 @@ msgstr "छांटन बिंदुरेख संपादक"
 
 
 msgctxt "WindowManager"
+msgid "Grease Pencil"
+msgstr "तैलीय पेंसिल"
+
+
+msgctxt "WindowManager"
 msgid "Mask Editing"
 msgstr "आवरण संपादन"
+
+
+msgctxt "WindowManager"
+msgid "Animation"
+msgstr "अनुप्राणन"
 
 
 msgid "OSL shader compilation succeeded"
@@ -7807,6 +7807,16 @@ msgstr "चित्रण:"
 
 
 msgctxt "Operator"
+msgid "Scale"
+msgstr "प्रमाण"
+
+
+msgctxt "Operator"
+msgid "Show All"
+msgstr "सभी दिखाएँ"
+
+
+msgctxt "Operator"
 msgid "Draw"
 msgstr "चित्रण"
 
@@ -7827,8 +7837,8 @@ msgstr "बहु"
 
 
 msgctxt "Operator"
-msgid "Scale"
-msgstr "प्रमाण"
+msgid "Selection to Cursor"
+msgstr "प्रसंकेतक के लिए चयन"
 
 
 msgctxt "Operator"
@@ -8456,11 +8466,6 @@ msgstr "ब्लेंडर वेबस्थल"
 
 
 msgctxt "Operator"
-msgid "Blender e-Shop"
-msgstr "ब्लेंडर ई-दुकान"
-
-
-msgctxt "Operator"
 msgid "User Community"
 msgstr "प्रयोक्ता समुदाय"
 
@@ -8723,13 +8728,13 @@ msgstr "बाईं ओर"
 
 
 msgctxt "Operator"
-msgid "Random"
-msgstr "यादृच्छिक"
+msgid "Child"
+msgstr "कारक"
 
 
 msgctxt "Operator"
-msgid "Child"
-msgstr "कारक"
+msgid "Random"
+msgstr "यादृच्छिक"
 
 
 msgctxt "Operator"
@@ -8796,11 +8801,6 @@ msgstr "साफ"
 
 
 msgctxt "Operator"
-msgid "Show All"
-msgstr "सभी दिखाएँ"
-
-
-msgctxt "Operator"
 msgid "All"
 msgstr "सभी"
 
@@ -8863,11 +8863,6 @@ msgstr "ज्यामिति के लिए मूल"
 msgctxt "Operator"
 msgid "Origin to 3D Cursor"
 msgstr "त्रि-आयाम प्रसंकेतक लिए मूल"
-
-
-msgctxt "Operator"
-msgid "Selection to Cursor"
-msgstr "प्रसंकेतक के लिए चयन"
 
 
 msgctxt "Operator"
@@ -9572,10 +9567,6 @@ msgid "Surface"
 msgstr "सतह"
 
 
-msgid "GPencil"
-msgstr "तैलीय पेंसिल"
-
-
 msgctxt "Operator"
 msgid "Delete Single Keyframe"
 msgstr "एक अनुबोधक चिन्ह मिटाएँ"
@@ -9879,14 +9870,6 @@ msgid "Bake failed: invalid canvas"
 msgstr "भर्जन में विफल: अमान्य चित्रपटी"
 
 
-msgid "Baking canceled!"
-msgstr "भर्जन रद्द!"
-
-
-msgid "Bake failed: %s"
-msgstr "भर्जन विफल: %s"
-
-
 msgid "There should be only one domain object"
 msgstr "एक ही प्रक्षेत्र वस्तु होना चाहिए"
 
@@ -10113,10 +10096,6 @@ msgstr "दृश्य गुण"
 
 msgid ": size %d x %d,"
 msgstr ": आकार %d x %d,"
-
-
-msgid "Could not write image %s"
-msgstr "छवि नहीं लिख सकता है %s"
 
 
 msgid "Unpack"

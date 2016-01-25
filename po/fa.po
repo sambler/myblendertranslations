@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 2) (b'39957b8')\n"
+"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-23 21:20:22\n"
+"POT-Creation-Date: 2016-01-19 20:32:10\n"
 "PO-Revision-Date: 2012-10-31 17:00-0800\n"
 "Last-Translator: Amin Babaeipanah <translate@leomoon.com>\n"
 "Language-Team: LeoMoon Studios <blender@leomoon.com>\n"
@@ -1498,6 +1498,22 @@ msgid "Image Format"
 msgstr "ﻪﻧﻮﻤﻧ ﺖﻣﺮﻓ"
 
 
+msgid "Direct"
+msgstr "ﺎﺘﺳﺍﺭ"
+
+
+msgid "Indirect"
+msgstr "ﻢﯿﻘﺘﺴﻣ ﺮﯿﻏ"
+
+
+msgid "Color"
+msgstr "ﮓﻧﺭ"
+
+
+msgid "Transmission"
+msgstr "ﻞﮑﺷ ﺮﯿﯿﻐﺗ ﺖﻬﺟ"
+
+
 msgid "Internal"
 msgstr "ﻡﺎﻏﺩﺍ"
 
@@ -1980,10 +1996,6 @@ msgstr ":UV ﯼﺭﺍﺩﺮﺑ ﻪﺸﻘﻧ"
 
 msgid "Color mapping settings"
 msgstr "ﯽﮕﻧﺭ ﺖﺷﺎﮕﻧ ﺕﺎﻤﯿﻈﻨﺗ"
-
-
-msgid "Color"
-msgstr "ﮓﻧﺭ"
 
 
 msgid "Blend color to mix with texture output color"
@@ -4071,14 +4083,6 @@ msgid "Use Textures"
 msgstr "UV ﺖﻓﺎﺑ"
 
 
-msgid "Cursor"
-msgstr "ﺎﻤﻧ ﻥﺎﮑﻣ"
-
-
-msgid "View"
-msgstr "ﺶﯾﺎﻤﻧ"
-
-
 msgid "Dupli Offset"
 msgstr "X ﺖﺴﻓﺍ"
 
@@ -4957,6 +4961,10 @@ msgstr "(ﯽﻧﺎﻬﺟ)"
 
 msgid "Global Z"
 msgstr "(ﯽﻧﺎﻬﺟ)"
+
+
+msgid "View"
+msgstr "ﺶﯾﺎﻤﻧ"
 
 
 msgid "Animate"
@@ -8257,6 +8265,10 @@ msgid "Recalculate Roll"
 msgstr "ﻥﺩﺮﮐ‌ﺏﺎﺴﺣ ﻩﺭﺎﺑﻭﺩ"
 
 
+msgid "Cursor"
+msgstr "ﺎﻤﻧ ﻥﺎﮑﻣ"
+
+
 msgctxt "Operator"
 msgid "Delete Selected Bone(s)"
 msgstr "ﺐﺨﺘﻨﻣ ﯼﺎﻫ‌ﻥﺍﻮﺨﺘﺳﺍ ﺮﺑ ﻂﻘﻓ"
@@ -9359,11 +9371,6 @@ msgstr "ﻞﯾﺎﻓ ﻡﺎﻧ ﻩﺭﺎﻤﺷ ﺶﯾﺍﺰﻓﺍ"
 
 
 msgctxt "Operator"
-msgid "Toggle Hide Dot Files"
-msgstr "ﻩﺮﮔ ﯼﺎﻫ ﻪﻨﯾﺰﮔ ﭻﯾﻮﺳ"
-
-
-msgctxt "Operator"
 msgid "Next Folder"
 msgstr "ﻦﺘﻣ ﮓﻧﺭ"
 
@@ -9615,6 +9622,16 @@ msgstr "ﻝﺎﻌﻓ ﻉﻮﻧ ﭻﯾﻮﺳ"
 
 msgid "Toggle the selection"
 msgstr "ﻝﺎﻌﻓ ﻉﻮﻧ ﭻﯾﻮﺳ"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Cursor"
+msgstr "ﺎﻤﻧ ﻥﺎﮑﻣ ﺏﺎﺨﺘﻧﺍ"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Grid"
+msgstr "ﻪﮑﺒﺷ ﻪﺑ ﺏﺎﺨﺘﻧﺍ"
 
 
 msgctxt "Operator"
@@ -10723,11 +10740,6 @@ msgstr "ﻪﺘﻓﺎﯾ‌ﻂﺴﺑ"
 
 
 msgctxt "Operator"
-msgid "Select Next Loop"
-msgstr "ﺱﺃﺭ ﺮﯿﺴﻣ ﺏﺎﺨﺘﻧﺍ"
-
-
-msgctxt "Operator"
 msgid "Select Non Manifold"
 msgstr "ﻪﮑﺒﺷ ﻪﺑ ﺏﺎﺨﺘﻧﺍ"
 
@@ -11360,30 +11372,6 @@ msgstr "ﻦﺘﺨﭘ"
 
 msgid "Combined"
 msgstr "ﻩﺪﺷ ﺐﯿﮐﺮﺗ"
-
-
-msgid "Diffuse Direct"
-msgstr "ﺕﻭﺎﻔﺗ"
-
-
-msgid "Diffuse Indirect"
-msgstr "ﺕﻭﺎﻔﺗ"
-
-
-msgid "Glossy Direct"
-msgstr "ﺖﻬﺟ ﯼﺯﺎﺳ ﻪﻨﯾﺮﻗ"
-
-
-msgid "Glossy Color"
-msgstr "ﮓﻧﺭ ﯽﭙﮐ"
-
-
-msgid "Transmission Direct"
-msgstr "ﻞﮑﺷ ﺮﯿﯿﻐﺗ ﺖﻬﺟ"
-
-
-msgid "Transmission Indirect"
-msgstr "ﻞﮑﺷ ﺮﯿﯿﻐﺗ ﺖﻬﺟ"
 
 
 msgctxt "Operator"
@@ -14017,16 +14005,6 @@ msgid "Snap Cursor to Selected"
 msgstr "ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ ﻪﺑ ﺎﻤﻧ ﻥﺎﮑﻣ"
 
 
-msgctxt "Operator"
-msgid "Snap Selection to Cursor"
-msgstr "ﺎﻤﻧ ﻥﺎﮑﻣ ﺏﺎﺨﺘﻧﺍ"
-
-
-msgctxt "Operator"
-msgid "Snap Selection to Grid"
-msgstr "ﻪﮑﺒﺷ ﻪﺑ ﺏﺎﺨﺘﻧﺍ"
-
-
 msgid "All Regions"
 msgstr "ﻖﻃﺎﻨﻣ"
 
@@ -14456,11 +14434,6 @@ msgstr "ﻮﺠﺘﺴﺟ"
 msgctxt "Operator"
 msgid "Splash Screen"
 msgstr "ﺖﺴﺨﻧ ﻪﺤﻔﺻ"
-
-
-msgctxt "Operator"
-msgid "System Info"
-msgstr "ﻢﺘﺴﯿﺳ ﺕﺎﻋﻼ﻿ﻃﺍ"
 
 
 msgctxt "Operator"
@@ -14978,10 +14951,6 @@ msgid "Progressive Refine"
 msgstr "ﺖﻓﺮﺸﯿﭘ"
 
 
-msgid "Transmission"
-msgstr "ﻞﮑﺷ ﺮﯿﯿﻐﺗ ﺖﻬﺟ"
-
-
 msgid "Map Resolution"
 msgstr "ﺶﯾﺎﻤﻨﺸﯿﭘ"
 
@@ -15070,11 +15039,31 @@ msgid "Exclude Layers"
 msgstr "ﻪﯾﻻ﻿"
 
 
-msgid "Indirect"
-msgstr "ﻢﯿﻘﺘﺴﻣ ﺮﯿﻏ"
+msgid "Diffuse Direct"
+msgstr "ﺕﻭﺎﻔﺗ"
+
+
+msgid "Diffuse Indirect"
+msgstr "ﺕﻭﺎﻔﺗ"
+
+
+msgid "Glossy Color"
+msgstr "ﮓﻧﺭ ﯽﭙﮐ"
+
+
+msgid "Glossy Direct"
+msgstr "ﺖﻬﺟ ﯼﺯﺎﺳ ﻪﻨﯾﺮﻗ"
 
 
 msgid "Deliver transmission color pass"
+msgstr "ﻞﮑﺷ ﺮﯿﯿﻐﺗ ﺖﻬﺟ"
+
+
+msgid "Transmission Direct"
+msgstr "ﻞﮑﺷ ﺮﯿﯿﻐﺗ ﺖﻬﺟ"
+
+
+msgid "Transmission Indirect"
 msgstr "ﻞﮑﺷ ﺮﯿﯿﻐﺗ ﺖﻬﺟ"
 
 
@@ -15180,10 +15169,6 @@ msgstr "A ﯼﺪﯿﻠﮐ ﻢﯾﺮﻓ"
 
 msgid "Auto Select"
 msgstr "ﻢﻠﯿﻓ ﺲﻧﺎﮑﺳ"
-
-
-msgid "Immediate Mode"
-msgstr "ﯽﺸﯾﺍﺮﯾﻭ ﺖﻟﺎﺣ"
 
 
 msgid "Vertex Arrays"
@@ -16114,10 +16099,6 @@ msgid "Unified Paint Settings"
 msgstr "ﺪﺤﺘﻣ ﯽﺷﺎﻘﻧ ﺕﺎﻤﯿﻈﻨﺗ"
 
 
-msgid "Use Sketching Sessions"
-msgstr "ﻢﺋﺍﺩ ﯽﺷﺎﻘﻧ"
-
-
 msgid "Relaxation Method"
 msgstr "ﯼﺯﺎﺳ‌ﻡﺍﺭﺁ ﺵﻭﺭ"
 
@@ -16344,10 +16325,6 @@ msgstr "ﻩﺩﺎﻣ:"
 
 msgid "Use Environment"
 msgstr "ﻪﺸﻘﻧ ﻥﻮﻠﮐ"
-
-
-msgid "Direct"
-msgstr "ﺎﺘﺳﺍﺭ"
 
 
 msgid "Glossy:"
@@ -16667,6 +16644,36 @@ msgstr "ﺩﺍﺯﺁ:"
 
 
 msgctxt "Operator"
+msgid "Scale"
+msgstr "ﺲﻧﺎﺠﺗ"
+
+
+msgctxt "Operator"
+msgid "Selection to Grid"
+msgstr "ﻪﮑﺒﺷ ﻪﺑ ﺏﺎﺨﺘﻧﺍ"
+
+
+msgctxt "Operator"
+msgid "Cursor to Selected"
+msgstr "ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ ﻪﺑ ﺎﻤﻧ ﻥﺎﮑﻣ"
+
+
+msgctxt "Operator"
+msgid "Cursor to Center"
+msgstr "ﺰﮐﺮﻣ ﻪﺑ ﺎﻤﻧ ﻥﺎﮑﻣ"
+
+
+msgctxt "Operator"
+msgid "Cursor to Grid"
+msgstr "ﻪﮑﺒﺷ ﻪﺑ ﺎﻤﻧ ﻥﺎﮑﻣ"
+
+
+msgctxt "Operator"
+msgid "Show All"
+msgstr "ﻪﻤﻫ ﺶﯾﺎﻤﻧ"
+
+
+msgctxt "Operator"
 msgid "Draw"
 msgstr "ﺩﺍﺯﺁ ﯽﺷﺎﻘﻧ"
 
@@ -16687,8 +16694,8 @@ msgstr "ﯼﺍ ﻪﺷﻮﮔ"
 
 
 msgctxt "Operator"
-msgid "Scale"
-msgstr "ﺲﻧﺎﺠﺗ"
+msgid "Selection to Cursor"
+msgstr "ﺎﻤﻧ ﻥﺎﮑﻣ ﺏﺎﺨﺘﻧﺍ"
 
 
 msgctxt "Operator"
@@ -17183,11 +17190,6 @@ msgstr "ﻞﺴﮑﯿﭘ ﻪﺑ ﺎﻤﻧ ﻥﺎﮑﻣ"
 
 
 msgctxt "Operator"
-msgid "Cursor to Selected"
-msgstr "ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ ﻪﺑ ﺎﻤﻧ ﻥﺎﮑﻣ"
-
-
-msgctxt "Operator"
 msgid "Clear Seam"
 msgstr "ﺯﺭﺩ ﻥﺩﺮﮐ‌ﮎﺎﭘ"
 
@@ -17315,11 +17317,6 @@ msgstr "ﻩﺪﺷ ﺮﺸﺘﻨﻣ ﻪﻫﺎﯿﺳ"
 msgctxt "Operator"
 msgid "Blender Website"
 msgstr "ﺭﺪﻨﻠﺑ ﺖﯾﺎﺳ ﺏﻭ"
-
-
-msgctxt "Operator"
-msgid "Blender e-Shop"
-msgstr "ﺭﺪﻨﻠﺑ ﯽﮑﯿﻧﻭﺮﺘﮑﻟﺍ ﻩﺎﮕﺷﻭﺮﻓ"
 
 
 msgctxt "Operator"
@@ -17825,11 +17822,6 @@ msgid "API Concepts"
 msgstr "API ﻢﯿﻫﺎﻔﻣ"
 
 
-msgctxt "Operator"
-msgid "How to share your addon"
-msgstr "ﺪﯾﺭﺍﺬﮕﺑ ﮎﺍﺮﺘﺷﺍ ﻪﺑ ﺍﺭ ﺩﻮﺧ ﻪﻧﻭﺰﻓﺍ ﻪﻧﻮﮕﭼ"
-
-
 msgid "Description:"
 msgstr "ﺡﺮﺷ:"
 
@@ -17880,21 +17872,6 @@ msgstr "Y ﯽﻧﺎﻬﺟ"
 msgctxt "Operator"
 msgid "Z Global"
 msgstr "Z ﯽﻧﺎﻬﺟ"
-
-
-msgctxt "Operator"
-msgid "Selection to Grid"
-msgstr "ﻪﮑﺒﺷ ﻪﺑ ﺏﺎﺨﺘﻧﺍ"
-
-
-msgctxt "Operator"
-msgid "Cursor to Center"
-msgstr "ﺰﮐﺮﻣ ﻪﺑ ﺎﻤﻧ ﻥﺎﮑﻣ"
-
-
-msgctxt "Operator"
-msgid "Cursor to Grid"
-msgstr "ﻪﮑﺒﺷ ﻪﺑ ﺎﻤﻧ ﻥﺎﮑﻣ"
 
 
 msgctxt "Operator"
@@ -17953,6 +17930,21 @@ msgstr "ﭗﭼ"
 
 
 msgctxt "Operator"
+msgid "Child"
+msgstr "ﺪﻧﺯﺮﻓ"
+
+
+msgctxt "Operator"
+msgid "Extend Parent"
+msgstr "ﺪﻟﺍﻭ ﺵﺮﺘﺴﮔ"
+
+
+msgctxt "Operator"
+msgid "Extend Child"
+msgstr "ﺪﻧﺯﺮﻓ ﺵﺮﺘﺴﮔ"
+
+
+msgctxt "Operator"
 msgid "Random"
 msgstr "ﯽﻓﺩﺎﺼﺗ"
 
@@ -17988,21 +17980,6 @@ msgstr "ءﺎﯿﺷﺍ ﯼﺎﻫ‌ﺖﯾﺩﻭﺪﺤﻣ"
 
 
 msgctxt "Operator"
-msgid "Child"
-msgstr "ﺪﻧﺯﺮﻓ"
-
-
-msgctxt "Operator"
-msgid "Extend Parent"
-msgstr "ﺪﻟﺍﻭ ﺵﺮﺘﺴﮔ"
-
-
-msgctxt "Operator"
-msgid "Extend Child"
-msgstr "ﺪﻧﺯﺮﻓ ﺵﺮﺘﺴﮔ"
-
-
-msgctxt "Operator"
 msgid "Roots"
 msgstr "ﺎﻫ ﻪﺸﯾﺭ"
 
@@ -18013,17 +17990,17 @@ msgstr "ﺕﺎﮑﻧ"
 
 
 msgctxt "Operator"
+msgid "Interior Faces"
+msgstr "ﻞﺴﮑﯿﭘ ﻪﺑ ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ"
+
+
+msgctxt "Operator"
 msgid "Sharp Edges"
 msgstr "ﻢﯾﺮﻓ ﻉﻭﺮﺷ"
 
 
 msgctxt "Operator"
 msgid "Linked Flat Faces"
-msgstr "ﻞﺴﮑﯿﭘ ﻪﺑ ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ"
-
-
-msgctxt "Operator"
-msgid "Interior Faces"
 msgstr "ﻞﺴﮑﯿﭘ ﻪﺑ ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ"
 
 
@@ -18187,11 +18164,6 @@ msgstr "ﺲﻧﺎﺠﺗ ﻥﺩﺮﮐ ﺩﻭﺪﺤﻣ"
 
 
 msgctxt "Operator"
-msgid "Show All"
-msgstr "ﻪﻤﻫ ﺶﯾﺎﻤﻧ"
-
-
-msgctxt "Operator"
 msgid "Hide Bounding Box"
 msgstr "ﻩﺩﺮﺘﺴﮔ ﺶﯾﺎﻤﻧ"
 
@@ -18345,11 +18317,6 @@ msgstr "Y ﯽﻠﺤﻣ"
 msgctxt "Operator"
 msgid "Z Local"
 msgstr "Z ﯽﻠﺤﻣ"
-
-
-msgctxt "Operator"
-msgid "Selection to Cursor"
-msgstr "ﺎﻤﻧ ﻥﺎﮑﻣ ﺏﺎﺨﺘﻧﺍ"
 
 
 msgctxt "Operator"
@@ -19411,10 +19378,6 @@ msgid "Stop this job"
 msgstr "ﺭﺎﮐ ﻦﯾﺍ ﻒﻗﻮﺗ"
 
 
-msgid "Progress"
-msgstr "ﺖﻓﺮﺸﯿﭘ"
-
-
 msgid "Stop screencast"
 msgstr "ﺖﺴﮐ ﻦﯾﺮﮑﺳﺍ ﻒﻗﻮﺗ"
 
@@ -19880,10 +19843,6 @@ msgstr "ﯼﺪﯿﻠﮐ ﯼﺎﻫ ﻢﯾﺮﻓ ﺎﺑ ﺎﻫ ﮎﺮﺗِ"
 
 msgid "Bake failed: no Dynamic Paint modifier found"
 msgstr "ﺎﯾﻮﭘ"
-
-
-msgid "Bake failed: %s"
-msgstr "‬%s‪‪ :ﺭﺍﺪﻘﻣ"
 
 
 msgid "No fluid input objects in the scene"

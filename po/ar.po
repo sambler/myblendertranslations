@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 2) (b'39957b8')\n"
+"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-23 21:20:22\n"
+"POT-Creation-Date: 2016-01-19 20:32:10\n"
 "PO-Revision-Date: 2015-10-22 17:40+0200\n"
 "Last-Translator: Yousef Harfoush <bat3a@msn.com>\n"
 "Language-Team: Yousef Harfoush, Amine Moussaoui <bat3a@msn.com>\n"
@@ -2841,6 +2841,38 @@ msgid "Bake the normals in tangent space"
 msgstr "ﺱﺎﻤﻤﻟﺍ ءﺎﻀﻓ ﻲﻓ ﺕﺎﻤﻇﺎﻨﻟﺍ ﻦﻳﺰﺨﺗ"
 
 
+msgid "Emit"
+msgstr "ﺪﻟّﻭ"
+
+
+msgid "Direct"
+msgstr "ﺮﺷﺎﺒﻣ"
+
+
+msgid "Indirect"
+msgstr "ﺮﺷﺎﺒﻣ ﺮﻴﻏ"
+
+
+msgid "Color"
+msgstr "ﻥﻮﻠﻟﺍ"
+
+
+msgid "Diffuse"
+msgstr "ﻥﻮﻠﻟﺍ"
+
+
+msgid "Glossy"
+msgstr "ﻥﺎﻌﻤﻠﻟﺍ"
+
+
+msgid "Transmission"
+msgstr "ﺙﺎﻌﺒﻧﻻ﻿ﺍ"
+
+
+msgid "Subsurface"
+msgstr "ﻲﺤﻄﺳ-ﺖﺤﺗ"
+
+
 msgid "Save Mode"
 msgstr "ﻦﻳﺰﺨﺘﻟﺍ ﻊﺿﻭ"
 
@@ -2883,6 +2915,10 @@ msgstr "ﺢﺴﻣﺇ"
 
 msgid "Clear Images before baking (internal only)"
 msgstr "(ﻂﻘﻓ ﻲﻠﺧﺍﺪﻠﻟ) ﻦﻳﺰﺨﺘﻟﺍ ﻞﺒﻗ ﺭﻮﺼﻟﺍ ﻝﺯﺇ"
+
+
+msgid "AO"
+msgstr "ﻡ.ﺇ"
 
 
 msgid "Selected to Active"
@@ -4803,10 +4839,6 @@ msgstr "ﻥﻮﻠﻟﺍ ﻂﻴﻄﺨﺗ"
 
 msgid "Color mapping settings"
 msgstr "ﻥﻮﻠﻟﺍ ﻂﻴﻄﺨﺗ ﺕﺍﺩﺍﺪﻋﺇ"
-
-
-msgid "Color"
-msgstr "ﻥﻮﻠﻟﺍ"
 
 
 msgid "Blend color to mix with texture output color"
@@ -11730,6 +11762,54 @@ msgid "Draw strokes as a series of circular blobs, resulting in a volumetric eff
 msgstr "ﻲﻤﺠﺣ ﺮﻴﺛﺄﺗ ﺔﺠﺘﻨﻣ ,ﺔﻳﺮﺋﺍﺩ ﺕﺎﻋﺎﻘﻓ ﺔﻠﺴﻠﺴﻛ ﺕﺎﺒﻄﺸﻟﺍ ﻢﺳﺭﺍ"
 
 
+msgid "Add effect of brush"
+msgstr "ﺓﺎﺷﺮﻔﻟﺍ ﺮﺛﺆﻣ ﻒﺿﺍ"
+
+
+msgid "Subtract effect of brush"
+msgstr "ﺓﺎﺷﺮﻔﻟﺍ ﺮﻴﺛﺄﺗ ﺡﺮﻃﺍ"
+
+
+msgid "Radius"
+msgstr "ﺮﻄﻘﻟﺍ ﻒﺼﻧ"
+
+
+msgid "Radius of the brush in pixels"
+msgstr "ﺕﻼ﻿ﺴﻜﺒﻟﺎﺑ ﺓﺎﺷﺮﻔﻟﺍ ﻉﺎﻌﺷ"
+
+
+msgid "Brush strength"
+msgstr "ﺓﺎﺷﺮﻔﻟﺍ ﺓﻮﻗ"
+
+
+msgid "Strength Pressure"
+msgstr "ﺓﻮﻘﻟﺍ ﻂﻐﺿ"
+
+
+msgid "Enable tablet pressure sensitivity for strength"
+msgstr "ﺓﻮّﻘﻠﻟ ﻂﻐﻀﻟﺍ ﺔﻴﺳﺎﺴﺣ ﻞﻌّﻓ"
+
+
+msgid "Tool"
+msgstr "ﺓﺍﺩﺃ"
+
+
+msgid "Grab"
+msgstr "ﺐﺤﺳﺍ"
+
+
+msgid "Twist"
+msgstr "ءﺍﻮﺘﻟﻹ﻿ﺍ"
+
+
+msgid "Pinch"
+msgstr "ﺪﻌّﺟ"
+
+
+msgid "Clone"
+msgstr "ﺦﺴﻧﺍ"
+
+
 msgid "Grease Pencil Stroke"
 msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ ﺔﺒﻄﺷ"
 
@@ -12056,10 +12136,6 @@ msgstr "ﺔﺒﻌﻠﻟﺍ ﺕﺎﻴﺼﺨﺸﻟ ﺔﺒﺳﺎﻨﻣ ﺔﻄﻴﺴ
 
 msgid "Game engine properties"
 msgstr "ﺏﺎﻌﻟﻷ﻿ﺍ ﻲﻛﺎﺤﻣ ﺹﺍﻮﺧ"
-
-
-msgid "Radius"
-msgstr "ﺮﻄﻘﻟﺍ ﻒﺼﻧ"
 
 
 msgid "Radius of bounding sphere and material physics"
@@ -13018,14 +13094,6 @@ msgid "Editable falloff curve"
 msgstr "ﺮﻳﺮﺤﺘﻠﻟ ﻞﺑﺎﻗ ﻁﻮﻘﺳ ﻰﻨﺤﻨﻣ"
 
 
-msgid "Add effect of brush"
-msgstr "ﺓﺎﺷﺮﻔﻟﺍ ﺮﺛﺆﻣ ﻒﺿﺍ"
-
-
-msgid "Subtract effect of brush"
-msgstr "ﺓﺎﺷﺮﻔﻟﺍ ﺮﻴﺛﺄﺗ ﺡﺮﻃﺍ"
-
-
 msgid "Fill Threshold"
 msgstr "ﺔﺌﺒﻌﺘﻟﺍ ﺔﺒﺘﻋ"
 
@@ -13096,10 +13164,6 @@ msgstr "ﻒﻄّﻟ"
 
 msgid "Smear"
 msgstr "ﺦﻄّﻟ"
-
-
-msgid "Clone"
-msgstr "ﺦﺴﻧﺍ"
 
 
 msgid "Fill"
@@ -13234,20 +13298,12 @@ msgid "Flatten"
 msgstr "ﺢﻄّﺳ"
 
 
-msgid "Grab"
-msgstr "ﺐﺤﺳﺍ"
-
-
 msgid "Inflate"
 msgstr "ﺲﻔّﻧ"
 
 
 msgid "Nudge"
 msgstr "ﻊﻓﺩﺍ"
-
-
-msgid "Pinch"
-msgstr "ﺪﻌّﺟ"
 
 
 msgid "Rotate"
@@ -13280,10 +13336,6 @@ msgstr "ﺓﺩﺎﺤﻟﺍ ﺔﺒﺘﻌﻟﺍ"
 
 msgid "Threshold below which, no sharpening is done"
 msgstr "ﺬﺤﺸﻟﺍ ﺎﻬﻠﺒﻗ ﻢﺘﻳ ﻻ﻿ ﻲﺘﻟﺍ ﺔﺒﺘﻌﻟﺍ"
-
-
-msgid "Radius of the brush in pixels"
-msgstr "ﺕﻼ﻿ﺴﻜﺒﻟﺎﺑ ﺓﺎﺷﺮﻔﻟﺍ ﻉﺎﻌﺷ"
 
 
 msgid "Smooth Stroke Factor"
@@ -13600,14 +13652,6 @@ msgstr "ﺕﺎﻓﺎﺴﻤﻟﺍ ﻂﻏﺎﻀﺗ"
 
 msgid "Enable tablet pressure sensitivity for spacing"
 msgstr "ﺪﻋﺎﺒﺘﻠﻟ ﻂﻐﻀﻟﺍ ﺔﻴﺳﺎﺴﺣ ﻞﻌّﻓ"
-
-
-msgid "Strength Pressure"
-msgstr "ﺓﻮﻘﻟﺍ ﻂﻐﺿ"
-
-
-msgid "Enable tablet pressure sensitivity for strength"
-msgstr "ﺓﻮّﻘﻠﻟ ﻂﻐﻀﻟﺍ ﺔﻴﺳﺎﺴﺣ ﻞﻌّﻓ"
 
 
 msgid "Use Texture Overlay"
@@ -14998,48 +15042,8 @@ msgid "Freehand annotation sketchbook"
 msgstr "ﺓﺩﻮﺴﻤﻟﺍ ﺕﺎﻈﺣﻼ﻿ﻤﻟ ﺮﺣ ﻢﺳﺭ"
 
 
-msgid "Cursor"
-msgstr "ﺮﺷﺆﻣ"
-
-
-msgid "Draw stroke at the 3D cursor"
-msgstr "ﻲﺛﻼ﻿ﺜﻟﺍ ﺮﺷﺆﻣ ﺪﻨﻋ ﺔﺒﻄﺸﻟﺍ ﻢﺳﺭﺍ"
-
-
-msgid "View"
-msgstr "ﺮﻈﻨﻣ"
-
-
-msgid "Stick stroke to the view "
-msgstr "ﺮﻈﻨﻤﻠﻟ ﺔﺒﻄﺸﻟﺍ ﻖﺼﻟﺍ"
-
-
-msgid "Stick stroke to surfaces"
-msgstr "ﺢﻄﺳﻸ﻿ﻟ ﺔﺒﻄﺸﻟﺍ ﺖﺒﺛ"
-
-
-msgid "Stroke"
-msgstr "ﺔﺒﻄﺷ"
-
-
-msgid "Stick stroke to other strokes"
-msgstr "ﻯﺮﺧﻷ﻿ﺍ ﺕﺎﺒﻄﺸﻠﻟ ﺔﺒﻄﺸﻟﺍ ﻖﺼﻟﺍ"
-
-
 msgid "Stroke Edit Mode"
 msgstr "ﺔﺒﻄﺸﻟﺍ ﺮﻳﺮﺤﺗ ﻊﺿﻭ"
-
-
-msgid "Enable alternative keymap to make editing stroke points easier"
-msgstr "ﻞﻬﺳﺍ ﺔﺒﻄﺸﻟﺍ ﻁﺎﻘﻧ ﺮﻳﺮﺤﺗ ﻞﻌﺠﻟ ﻞﻳﺪﺑ ﺭﺎﺼﺘﺧﺍ ﺡﺎﺘﻔﻣ ﻞﻌّﻓ"
-
-
-msgid "Only Endpoints"
-msgstr "ﻂﻘﻨﻟﺍ ﺕﺎﻳﺎﻬﻧ ﻂﻘﻓ"
-
-
-msgid "Only use the first and last parts of the stroke for snapping"
-msgstr "ﺓﺍﺫﺎﺤﻤﻠﻟ ﺔﺒﻄﺸﻠﻟ ءﺍﺰﺟﺍ ﺮﺧﺁ ﻭ ﻝﻭﺍ ﻂﻘﻓ ﻡﺪﺨﺘﺳﺍ"
 
 
 msgid "Dupli Offset"
@@ -15746,10 +15750,6 @@ msgstr "ﺔﻘﻄﻨﻣ"
 
 msgid "Directional area light source"
 msgstr "ﻪﺠﺘﻣ ﺔﻘﻄﻨﻣ ءﻮﺿ ﺭﺪﺼﻣ"
-
-
-msgid "Diffuse"
-msgstr "ﻥﻮﻠﻟﺍ"
 
 
 msgid "Do diffuse shading"
@@ -16534,10 +16534,6 @@ msgstr "ﺭﺎﺸﺘﻧﻺ﻿ﻟ ﻲﻧﻮﺗﺮﻛ ﻢﻴﻌﻨﺗ"
 
 msgid "Smoothness of diffuse toon area"
 msgstr "ﻲﻧﻮﺗﺮﻜﻟﺍ ﺭﺎﺸﺘﻧﻻ﻿ﺍ ﺔﻘﻄﻨﻣ ﺔﻣﻮﻌﻧ"
-
-
-msgid "Emit"
-msgstr "ﺪﻟّﻭ"
 
 
 msgid "Amount of light to emit"
@@ -18384,6 +18380,10 @@ msgid "Particle Edit"
 msgstr "ﺊﻳﺰﺠﻟﺍ ﻞﻳﺪﻌﺗ"
 
 
+msgid "Edit Strokes"
+msgstr "ﺔﺒﻄﺸﻟﺍ ﺭﺮّﺣ"
+
+
 msgid "Modifiers affecting the geometric data of the object"
 msgstr "ﻦﺋﺎﻜﻠﻟ ﺔﻴﺳﺪﻨﻬﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻰﻠﻋ ﺓﺮﺛﺆﻤﻟﺍ ﺕﺍﺮﻴﻐﻤﻟﺍ"
 
@@ -18834,6 +18834,10 @@ msgstr " ـﻟ ﻱﺫﺎﺣ"
 
 msgid "In respect to what the billboards are aligned"
 msgstr "ﺡﺍﻮﻟﻷ﻿ﺍ ﻱﺫﺎﺤﻳ ﺎﻣ ﻊﻣ ﺍﺭﺎﺒﺘﻋﺇ"
+
+
+msgid "View"
+msgstr "ﺮﻈﻨﻣ"
 
 
 msgid "Animate"
@@ -24637,6 +24641,10 @@ msgid "Fluid Presets"
 msgstr "ﻞﺋﺍﻮﺴﻠﻟ ﺔﻘﺒﺴﻤﻟﺍ ﺕﺍﺩﺍﺪﻋﻹ﻿ﺍ"
 
 
+msgid "Snap"
+msgstr "ﻱﺫﺎﺣ"
+
+
 msgid "Grease Pencil Settings"
 msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ ﺕﺍﺩﺍﺪﻋﺇ"
 
@@ -24663,10 +24671,6 @@ msgstr "UV ـﻟﺍ ﺭﺎﻴﺘﺧﺍ ﻂﻤﻧ"
 
 msgid "Show/Hide Faces"
 msgstr "ﻪﺟﻭﻷ﻿ﺍ ﻲﻔﺧﺇ/ﺮﻬﻇﺍ"
-
-
-msgid "Snap"
-msgstr "ﻱﺫﺎﺣ"
 
 
 msgid "Weld/Align"
@@ -24811,10 +24815,6 @@ msgstr "ﺎﻘﺒﺴﻣ ﺐﺴﺣﺍ"
 
 msgid "Playback"
 msgstr "ﺽﺮﻋ"
-
-
-msgid "Development Guides"
-msgstr "ﺮﻳﻮﻄﺘﻟﺍ ﻞﺋﻻ﻿ﺩ"
 
 
 msgid "Presets"
@@ -26559,10 +26559,6 @@ msgstr "ﻂﻴﺴﺒﻟﺍ ﻊﻳﻮﻄﺘﻟﺍ ﺮﻴﻐﻣ"
 
 msgid "Simple deformation modifier to apply effects such as twisting and bending"
 msgstr "ءﺎﻨﺤﻧﻻ﻿ﺍ ﻭ ءﺍﻮﺘﻟﻹ﻿ﺎﻛ ﺕﺍﺮﻴﺛﺄﺗ ﻖﺒﻄﻴﻟ ﻂﻴﺴﺑ ﻊﻳﻮﻄﺗ ﺮﻴّﻐﻣ"
-
-
-msgid "Twist"
-msgstr "ءﺍﻮﺘﻟﻹ﻿ﺍ"
 
 
 msgid "Rotate around the Z axis of the modifier space"
@@ -29053,10 +29049,6 @@ msgid "Refraction BSDF"
 msgstr "ﺭﺎﺴﻜﻧﻻ﻿ﺍ"
 
 
-msgid "Glossy"
-msgstr "ﻥﺎﻌﻤﻠﻟﺍ"
-
-
 msgid "Transparent BSDF"
 msgstr "ﻑﺎﻔّﺷ"
 
@@ -30233,6 +30225,10 @@ msgid "Global -Z Axis"
 msgstr "ﻲﻤﻟﺎﻋ Z- ﺭﻮﺤﻣ"
 
 
+msgid "Cursor"
+msgstr "ﺮﺷﺆﻣ"
+
+
 msgctxt "Operator"
 msgid "Click-Extrude"
 msgstr "ﻖﺜﺑﺍ-ﻂﻐﺿﺍ"
@@ -30490,10 +30486,6 @@ msgstr "ﺓﺎﺷﺮﻔﻟﺍ ﻊﺿﻭ ﺪﻋﺍ"
 
 msgid "Factor to scale brush size by"
 msgstr "ﺓﺎﺷﺮﻔﻟﺍ ﻢﺠﺣ ﻢﻴﺠﺤﺗ ﻞﻣﺎﻌﻣ"
-
-
-msgid "Tool"
-msgstr "ﺓﺍﺩﺃ"
 
 
 msgid "Translation"
@@ -32123,15 +32115,6 @@ msgstr "ﺔﻴﺟﺭﺎﺨﻟﺍ ﺓﺩﻮﻘﻔﻤﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ 
 
 
 msgctxt "Operator"
-msgid "Toggle Hide Dot Files"
-msgstr "ﺔﻄﻘﻨﺑ ﺕﺎﻔﻠﻤﻟﺍ ءﺎﻔﺧﺍ ﺐﻠﻗﺍ"
-
-
-msgid "Toggle hide hidden dot files"
-msgstr " ﺔﻴﻔﺨﻤﻟﺍ ﺔﻄﻘﻨﺑ ﺕﺎﻔﻠﻣ ﺭﻮﻬﻇ ﺐﻠﻗﺍ"
-
-
-msgctxt "Operator"
 msgid "Highlight File"
 msgstr "ﻒﻠﻤﻟﺍ ﺯﺮﺑﺍ"
 
@@ -32405,6 +32388,10 @@ msgid "Delete Active Frame"
 msgstr "ﻲﻟﺎﺤﻟﺍ ﺭﺎﻃﻻ﻿ﺍ ﻑﺬﺣﺍ"
 
 
+msgid "Stroke"
+msgstr "ﺔﺒﻄﺷ"
+
+
 msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ ﻝﻮﺣ"
@@ -32617,6 +32604,16 @@ msgstr "ﻞﺒﺤﻟﺎﺑ ﺕﺎﺒﻄﺸﻟﺍ ﺭﺎﺘﺧﺍ"
 
 msgid "Select Grease Pencil strokes using lasso selection"
 msgstr "ﺭﺎﻴﺘﺧﻹ﻿ﺍ ﻞﺒﺣ ﻡﺍﺪﺨﺘﺳﺈﺑ ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ ﺕﺎﺒﻄﺷ ﺮﺘﺧﺍ"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Cursor"
+msgstr "ﺮﺷﺆﻤﻠﻟ ﺭﺎﻴﺘﺧﻻ﻿ﺍ ﻱﺫﺎﺣ"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Grid"
+msgstr "ﺔﻜﺒﺸﻠﻟ ﺭﺎﻴﺘﺧﻻ﻿ﺍ ﻱﺫﺎﺣ"
 
 
 msgctxt "Operator"
@@ -33990,11 +33987,6 @@ msgid "Select the new inset faces"
 msgstr "ﺓﺪﻳﺪﺠﻟﺍ ﺔﺟﺭّﺪﻤﻟﺍ ﻪﺟﻭﻻ﻿ﺍ ﺮﺘﺧﺍ"
 
 
-msgctxt "Operator"
-msgid "Intersect"
-msgstr "ﻊﻃﺎﻘﺗ"
-
-
 msgid "Self Intersect"
 msgstr "ﻲﺗﺍﺫ ﻊﻃﺎﻘﺗ"
 
@@ -34373,11 +34365,6 @@ msgstr "ﺔﻓﺎﺤﻟﺍ ﺭﺎﻴﺘﺣﺍ ﻂﻤﻧ"
 
 msgid "Expand"
 msgstr "ﻊﺳﻮﻣ"
-
-
-msgctxt "Operator"
-msgid "Select Next Loop"
-msgstr "ﻲﻟﺎﺘﻟﺍ ﻞﺴﻠﺴﺘﻟﺍ ﺮﺘﺧﺍ"
 
 
 msgctxt "Operator"
@@ -35372,46 +35359,6 @@ msgstr "ﻥﺰّﺧ"
 
 msgid "Combined"
 msgstr "ﻊﻤﺠﻣ"
-
-
-msgid "Refraction"
-msgstr "ﺭﺎﺴﻜﻧﻻ﻿ﺍ"
-
-
-msgid "Object Index"
-msgstr "ﻦﺋﺎﻜﻟﺍ ﺮﺷﺆﻣ"
-
-
-msgid "Diffuse Direct"
-msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﺭﺎﺸﺘﻧﻻ﻿ﺍ"
-
-
-msgid "Diffuse Indirect"
-msgstr "ﺮﺷﺎﺒﻣ ﺮﻴﻐﻟﺍ ﺭﺎﺸﺘﻧﻻ﻿ﺍ"
-
-
-msgid "Glossy Direct"
-msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﻥﺎﻌﻤﻠﻟﺍ"
-
-
-msgid "Glossy Indirect"
-msgstr "ﺮﺷﺎﺒﻣ ﺮﻴﻐﻟﺍ ﻥﺎﻌﻤﻠﻟﺍ"
-
-
-msgid "Glossy Color"
-msgstr "ﻥﺎﻌﻤﻠﻟﺍ ﻥﻮﻟ"
-
-
-msgid "Transmission Direct"
-msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﺙﺎﻌﺒﻧﻹ﻿ﺍ"
-
-
-msgid "Transmission Indirect"
-msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﺮﻴﻐﻟﺍ ﺙﺎﻌﺒﻧﻻ﻿ﺍ"
-
-
-msgid "Subsurface Color"
-msgstr "ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﻥﻮﻟ"
 
 
 msgctxt "Operator"
@@ -39790,16 +39737,6 @@ msgid "Snap cursor to center of selected item(s)"
 msgstr "ﺓﺭﺎﺘﺨﻤﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﺰﻛﺮﻤﻟ ﺮﺷﺆﻤﻟﺍ ﻱﺫﺎﺣ"
 
 
-msgctxt "Operator"
-msgid "Snap Selection to Cursor"
-msgstr "ﺮﺷﺆﻤﻠﻟ ﺭﺎﻴﺘﺧﻻ﻿ﺍ ﻱﺫﺎﺣ"
-
-
-msgctxt "Operator"
-msgid "Snap Selection to Grid"
-msgstr "ﺔﻜﺒﺸﻠﻟ ﺭﺎﻴﺘﺧﻻ﻿ﺍ ﻱﺫﺎﺣ"
-
-
 msgid "All Regions"
 msgstr "ﺕﺎﻗﺎﻄﻨﻟﺍ"
 
@@ -39933,17 +39870,9 @@ msgid "Disable Addon"
 msgstr "ﺲﺒﻘﻤﻟﺍ ﺊﻔﻃﺍ"
 
 
-msgid "Disable an addon"
-msgstr "ﺲﺒﻘﻣ ﻞﻄّﻋ"
-
-
 msgctxt "Operator"
 msgid "Enable Addon"
 msgstr "ﺲﺒﻘﻤﻟﺍ ﻞﻌّﻓ"
-
-
-msgid "Display more information on this addon"
-msgstr "ﺲﺒﻘﻤﻟﺍ ﺍﺬﻫ ﻦﻋ ﺮﺜﻛﺍ ﺕﺎﻣﻮﻠﻌﻣ ﺽﺮﻋﺍ"
 
 
 msgctxt "Operator"
@@ -40643,15 +40572,6 @@ msgstr "ﺔﻳﺍﺪﺒﻟﺍ ﺔﺷﺎﺷ"
 
 
 msgctxt "Operator"
-msgid "System Info"
-msgstr "ﻡﺎﻈﻨﻟﺍ ﺕﺎﻣﻮﻠﻌﻣ"
-
-
-msgid "Generate System Info"
-msgstr "ﺔﻣﺎﻌﻟﺍ ﻡﺎﻈﻨﻟﺍ ﺕﺎﻣﻮﻠﻌﻣ"
-
-
-msgctxt "Operator"
 msgid "Install Theme..."
 msgstr "...ﻂﻤﻨﻟﺍ ﺐﺼّﻧ"
 
@@ -40893,10 +40813,6 @@ msgstr "2D ـﻟﺍ ﺖﻴﺒﺜﺗ"
 
 msgid "Solve"
 msgstr "ﺞﻟﺎﻋ"
-
-
-msgid "Edit Strokes"
-msgstr "ﺔﺒﻄﺸﻟﺍ ﺭﺮّﺣ"
 
 
 msgid "Mask Tools"
@@ -41498,10 +41414,6 @@ msgstr "ﺎﺧﺎﻔﺘﻧﺍ ﻞﻗﺃ ﺮﻌﺸﻟﺍ ﻞﻌﺟﺇ"
 
 msgid "Brush steps"
 msgstr "ﺓﺎﺷﺮﻔﻟﺍ ﺕﺍﻮﻄﺧ"
-
-
-msgid "Brush strength"
-msgstr "ﺓﺎﺷﺮﻔﻟﺍ ﺓﻮﻗ"
 
 
 msgid "Puff Volume"
@@ -43108,10 +43020,6 @@ msgid "Object visibility for volume scatter rays"
 msgstr "ﻢﺠﺤﻟﺍ ﺩﺪﺒﺗ ﺔﻌﺷﻷ﻿ ﻦﺋﺎﻜﻟﺍ ﺭﻮﻬﻇ"
 
 
-msgid "Transmission"
-msgstr "ﺙﺎﻌﺒﻧﻻ﻿ﺍ"
-
-
 msgid "Object visibility for transmission rays"
 msgstr "ﺙﺎﻌﺒﻧﻻ﻿ﺍ ﺔﻌﺷﻻ﻿ ﻦﺋﺎﻜﻟﺍ ﺔﻳﺅﺭ"
 
@@ -43508,10 +43416,6 @@ msgid "Render Halos in this Layer (on top of Solid)"
 msgstr "(ﺐﻠﺼﻟﺍ ﻕﻮﻓ) ﺔﻘﺒﻄﻟﺍ ﻩﺬﻫ ﻲﻓ ﺕﻻ﻿ﺎﻬﻟﺍ ﺓﺮﻴّﺼﺗ"
 
 
-msgid "AO"
-msgstr "ﻡ.ﺇ"
-
-
 msgid "Deliver AO pass"
 msgstr "ﻡ.ﺇ ﺔﻘﺒﻃ ﻊﻳﺯﻮﺗ"
 
@@ -43532,8 +43436,16 @@ msgid "Deliver diffuse color pass"
 msgstr "ﺭﺎﺸﺘﻧﻹ﻿ﺍ ﻥﻮﻟ ﺮﻤﻣ ﻞﻘﻧﺍ"
 
 
+msgid "Diffuse Direct"
+msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﺭﺎﺸﺘﻧﻻ﻿ﺍ"
+
+
 msgid "Deliver diffuse direct pass"
 msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﺭﺎﺸﺘﻧﻹ﻿ﺍ ﺮﻤﻣ ﻞﻘﻧﺍ"
+
+
+msgid "Diffuse Indirect"
+msgstr "ﺮﺷﺎﺒﻣ ﺮﻴﻐﻟﺍ ﺭﺎﺸﺘﻧﻻ﻿ﺍ"
 
 
 msgid "Deliver diffuse indirect pass"
@@ -43548,20 +43460,28 @@ msgid "Deliver environment lighting pass"
 msgstr "ﻂﻴﺤﻤﻟﺍ ﺓءﺎﺿﺇ ﺔﻘﺒﻃ ﻊﻳﺯﻮﺗ"
 
 
+msgid "Glossy Color"
+msgstr "ﻥﺎﻌﻤﻠﻟﺍ ﻥﻮﻟ"
+
+
 msgid "Deliver glossy color pass"
 msgstr "ﻥﺎﻌﻤﻠﻟﺍ ﻥﻮﻟ ﺮﻤﻣ ﻞﻘﻧﺍ"
+
+
+msgid "Glossy Direct"
+msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﻥﺎﻌﻤﻠﻟﺍ"
 
 
 msgid "Deliver glossy direct pass"
 msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﻥﺎﻌﻤﻠﻟﺍ ﺮﻤﻣ ﻞﻘﻧﺍ"
 
 
+msgid "Glossy Indirect"
+msgstr "ﺮﺷﺎﺒﻣ ﺮﻴﻐﻟﺍ ﻥﺎﻌﻤﻠﻟﺍ"
+
+
 msgid "Deliver glossy indirect pass"
 msgstr "ﺮﺷﺎﺒﻣ ﺮﻴﻐﻟﺍ ﻥﺎﻌﻤﻠﻟﺍ ﺮﻤﻣ ﻞﻘﻧﺍ"
-
-
-msgid "Indirect"
-msgstr "ﺮﺷﺎﺒﻣ ﺮﻴﻏ"
 
 
 msgid "Deliver indirect lighting pass"
@@ -43580,12 +43500,20 @@ msgid "Deliver normal pass"
 msgstr "ﻢﻇﺎﻨﻟﺍ ﺔﻘﺒﻃ ﻊﻳﺯﻮﺗ"
 
 
+msgid "Object Index"
+msgstr "ﻦﺋﺎﻜﻟﺍ ﺮﺷﺆﻣ"
+
+
 msgid "Deliver object index pass"
 msgstr "ﻦﺋﺎﻜﻟﺍ ﺮﺷﺆﻣ ﺔﻘﺒﻃ ﻊﻳﺯﻮﺗ"
 
 
 msgid "Deliver raytraced reflection pass"
 msgstr " ﺐﻘﻌﺘﻣ ﻉﺎﻌﺷ ﻭﺫ ﺱﺎﻜﻌﻧﺇ ﺔﻘﺒﻃ ﻊﻳﺯﻮﺗ"
+
+
+msgid "Refraction"
+msgstr "ﺭﺎﺴﻜﻧﻻ﻿ﺍ"
 
 
 msgid "Deliver raytraced refraction pass"
@@ -43598,6 +43526,10 @@ msgstr "ﻞﻇ ﺔﻘﺒﻃ ﻊﻳﺯﻮﺗ"
 
 msgid "Deliver specular pass"
 msgstr "ﻖﻳﺮﺒﻟﺍ ﺔﻘﺒﻃ ﻊﻳﺯﻮﺗ"
+
+
+msgid "Subsurface Color"
+msgstr "ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﻥﻮﻟ"
 
 
 msgid "Deliver subsurface color pass"
@@ -43616,8 +43548,16 @@ msgid "Deliver transmission color pass"
 msgstr "ﺙﺎﻌﺒﻧﻹ﻿ﺍ ﻥﻮﻟ ﺮﻤﻣ ﻞﻘﻧﺍ"
 
 
+msgid "Transmission Direct"
+msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﺙﺎﻌﺒﻧﻹ﻿ﺍ"
+
+
 msgid "Deliver transmission direct pass"
 msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﺙﺎﻌﺒﻧﻹ﻿ﺍ ﺮﻤﻣ ﻞﻘﻧﺍ"
+
+
+msgid "Transmission Indirect"
+msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﺮﻴﻐﻟﺍ ﺙﺎﻌﺒﻧﻻ﻿ﺍ"
 
 
 msgid "Deliver transmission indirect pass"
@@ -45102,10 +45042,6 @@ msgstr "ﺔﻴﺋﺎﻘﻠﺗ ﺔﻋﺮﺳ"
 
 msgid "Choose the best supported mode"
 msgstr "ﻢﻋّﺪﻣ ﻊﺿﻭ ﻞﻀﻓﺍ ﺮﺘﺧﺇ"
-
-
-msgid "Immediate Mode"
-msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ"
 
 
 msgid "Vertex Arrays"
@@ -49277,6 +49213,22 @@ msgid "Template armature that will be retargeted to the stroke"
 msgstr "ﺔﺒﻄﺸﻟﺍ ﻰﻟﺇ ﻑﺪﻬﺘﺴﻴﺳ ﻱﺬﻟﺍ ﻞﻜﻴﻬﻟﺍ ﺝﺫﻮﻤﻧ"
 
 
+msgid "Draw stroke at the 3D cursor"
+msgstr "ﻲﺛﻼ﻿ﺜﻟﺍ ﺮﺷﺆﻣ ﺪﻨﻋ ﺔﺒﻄﺸﻟﺍ ﻢﺳﺭﺍ"
+
+
+msgid "Stick stroke to the view "
+msgstr "ﺮﻈﻨﻤﻠﻟ ﺔﺒﻄﺸﻟﺍ ﻖﺼﻟﺍ"
+
+
+msgid "Stick stroke to surfaces"
+msgstr "ﺢﻄﺳﻸ﻿ﻟ ﺔﺒﻄﺸﻟﺍ ﺖﺒﺛ"
+
+
+msgid "Stick stroke to other strokes"
+msgstr "ﻯﺮﺧﻷ﻿ﺍ ﺕﺎﺒﻄﺸﻠﻟ ﺔﺒﻄﺸﻟﺍ ﻖﺼﻟﺍ"
+
+
 msgid "Grease Pencil Source"
 msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ ﺭﺪﺼﻣ"
 
@@ -49385,12 +49337,16 @@ msgid "Quick Sketching"
 msgstr "ﻊﻳﺮﺳ ﻢﺳﺭ"
 
 
-msgid "Use Sketching Sessions"
-msgstr "ﻢﺳﺮﻟﺍ ﺕﺎﺴﻠﺟ ﻡﺪﺨﺘﺳﺍ"
-
-
 msgid "Allow drawing multiple strokes at a time with Grease Pencil"
 msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻘﺑ ﺖﻗﻮﻟﺍ ﺲﻔﻧ ﻲﻓ ﺓﺩﺪﻌﺘﻣ ﺕﺎﺒﻄﺷ ﻢﺳﺮﺑ ﺢﻤﺳﺇ"
+
+
+msgid "Only Endpoints"
+msgstr "ﻂﻘﻨﻟﺍ ﺕﺎﻳﺎﻬﻧ ﻂﻘﻓ"
+
+
+msgid "Only use the first and last parts of the stroke for snapping"
+msgstr "ﺓﺍﺫﺎﺤﻤﻠﻟ ﺔﺒﻄﺸﻠﻟ ءﺍﺰﺟﺍ ﺮﺧﺁ ﻭ ﻝﻭﺍ ﻂﻘﻓ ﻡﺪﺨﺘﺳﺍ"
 
 
 msgid "Auto Keying"
@@ -49419,10 +49375,6 @@ msgstr "ﻊﻗﻮﻤﻟﺍ ﺲﻔﻧ ﻰﻟﺇ ﺔﻟﻮﻘﻨﻤﻟﺍ ﻂﻘ�
 
 msgid "WPaint Multi-Paint"
 msgstr "ﻥﺯﻮﻟﺍ ﻢﺳﺮﻟ ﺩﺪﻌﺘﻣ ﻢﺳﺭ"
-
-
-msgid "Paint across all selected bones while weight painting"
-msgstr " ﻥﺯﻮﻟﺍ ﻦﻳﻮﻠﺗ ﺪﻨﻋ ﺓﺭﺎﺘﺨﻤﻟﺍ ﻡﺎﻈﻌﻟﺍ ﻞﻛ ﺮﺒﻋ ﻢﺳﺭﺍ"
 
 
 msgid "Proportional Editing Actions"
@@ -51793,6 +51745,11 @@ msgstr "ﺔﺷﺎﺷ ﺮﻳﺮﺤﺗ"
 
 
 msgctxt "WindowManager"
+msgid "Header"
+msgstr "ﺔﻴﺳﺃﺮﻟﺍ"
+
+
+msgctxt "WindowManager"
 msgid "View2D"
 msgstr "ﻲﺋﺎﻨﺜﻟﺍ ﺮﻈﻨﻣ"
 
@@ -51800,21 +51757,6 @@ msgstr "ﻲﺋﺎﻨﺜﻟﺍ ﺮﻈﻨﻣ"
 msgctxt "WindowManager"
 msgid "View2D Buttons List"
 msgstr "ﻲﺋﺎﻨﺜﻟﺍ ﺮﻈﻨﻣ ﺭﺍﺭﺯﺃ ﺔﺤﺋﻻ﻿"
-
-
-msgctxt "WindowManager"
-msgid "Header"
-msgstr "ﺔﻴﺳﺃﺮﻟﺍ"
-
-
-msgctxt "WindowManager"
-msgid "Grease Pencil"
-msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ"
-
-
-msgctxt "WindowManager"
-msgid "Grease Pencil Stroke Edit Mode"
-msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ ﺔﺒﻄﺷ ﺮﻳﺮﺤﺗ ﻊﺿﻭ"
 
 
 msgctxt "WindowManager"
@@ -51943,26 +51885,6 @@ msgstr "ﻲﺛﻼ﻿ﺜﻟﺍ ﺮﻈﻨﻣ ﻡﺎﻋ"
 
 
 msgctxt "WindowManager"
-msgid "Frames"
-msgstr "ﺮﻃﻷ﻿ﺍ"
-
-
-msgctxt "WindowManager"
-msgid "Markers"
-msgstr "ﺕﺎﻣﻼ﻿ﻌﻟﺍ"
-
-
-msgctxt "WindowManager"
-msgid "Animation"
-msgstr "ﺕﺎﻜﻳﺮﺤﺘﻟﺍ"
-
-
-msgctxt "WindowManager"
-msgid "Animation Channels"
-msgstr "ﻚﻳﺮﺤﺘﻟﺍ ﺕﺍﻮﻨﻗ"
-
-
-msgctxt "WindowManager"
 msgid "Graph Editor"
 msgstr "ﻲﻧﺎﻴﺒﻟﺍ ﺭﺮﺤﻤﻟﺍ"
 
@@ -51993,6 +51915,11 @@ msgstr "NLA ﻡﺎﻋ"
 
 
 msgctxt "WindowManager"
+msgid "Timeline"
+msgstr "ﺖﻗﻮﻟﺍ ﻂﺧ"
+
+
+msgctxt "WindowManager"
 msgid "Image"
 msgstr "ﺓﺭﻮﺻ"
 
@@ -52005,11 +51932,6 @@ msgstr "UV ـﻟﺍ ﺖﺤﻧ"
 msgctxt "WindowManager"
 msgid "Image Generic"
 msgstr "ﺓﺭﻮﺻ ﻡﺎﻋ"
-
-
-msgctxt "WindowManager"
-msgid "Timeline"
-msgstr "ﺖﻗﻮﻟﺍ ﻂﺧ"
 
 
 msgctxt "WindowManager"
@@ -52108,8 +52030,38 @@ msgstr "ﺔﺻﺎﺼﻘﻠﻟ ﻂﻴﻄﺨﺘﻟﺍ ﺔﻗﺭﻭ ﺭﺮﺤﻣ"
 
 
 msgctxt "WindowManager"
+msgid "Grease Pencil"
+msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ"
+
+
+msgctxt "WindowManager"
+msgid "Grease Pencil Stroke Edit Mode"
+msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ ﺔﺒﻄﺷ ﺮﻳﺮﺤﺗ ﻊﺿﻭ"
+
+
+msgctxt "WindowManager"
 msgid "Mask Editing"
 msgstr "ﻉﺎﻨﻘﻟﺍ ﺮﻳﺮﺤﺗ"
+
+
+msgctxt "WindowManager"
+msgid "Frames"
+msgstr "ﺮﻃﻷ﻿ﺍ"
+
+
+msgctxt "WindowManager"
+msgid "Markers"
+msgstr "ﺕﺎﻣﻼ﻿ﻌﻟﺍ"
+
+
+msgctxt "WindowManager"
+msgid "Animation"
+msgstr "ﺕﺎﻜﻳﺮﺤﺘﻟﺍ"
+
+
+msgctxt "WindowManager"
+msgid "Animation Channels"
+msgstr "ﻚﻳﺮﺤﺘﻟﺍ ﺕﺍﻮﻨﻗ"
 
 
 msgctxt "WindowManager"
@@ -52191,10 +52143,6 @@ msgstr "ﺮﻌﺸﻟﺍ ﻡﺪﺨﺘﺳﺍ"
 
 msgid "Diffuse:"
 msgstr ":ﻥﺍﻮﻟﻷ﻿ﺍ ﺮﻴﺛﺄﺗ"
-
-
-msgid "Direct"
-msgstr "ﺮﺷﺎﺒﻣ"
 
 
 msgid "Glossy:"
@@ -52291,10 +52239,6 @@ msgstr ":ﺭﻮﻠﺒﺘﻟﺍ-ﺪﺿ ﺕﺎﻨﻴﻋ"
 
 msgid "Mesh Light"
 msgstr "ﻢﺴﺠﻤﻟﺍ ءﻮﺿ"
-
-
-msgid "Subsurface"
-msgstr "ﻲﺤﻄﺳ-ﺖﺤﺗ"
 
 
 msgid "Not supported, interpreted as sun lamp"
@@ -53691,6 +53635,11 @@ msgid "Edit:"
 msgstr ":ﺭﺮّﺣ"
 
 
+msgctxt "Operator"
+msgid "Scale"
+msgstr "ﻢﺠّﺣ"
+
+
 msgid "Active Layer:      "
 msgstr ":ﺔﻟﺎﻌّﻔﻟﺍ ﺔﻘﺒﻄﻟﺍ"
 
@@ -53698,6 +53647,31 @@ msgstr ":ﺔﻟﺎﻌّﻔﻟﺍ ﺔﻘﺒﻄﻟﺍ"
 msgctxt "Operator"
 msgid "Convert..."
 msgstr "...ﻝﻮّﺣ"
+
+
+msgctxt "Operator"
+msgid "Selection to Grid"
+msgstr "ﺔﻜﺒﺸﻟﺍ ﻰﻟﺇ ﺭﺎﻴﺘﺧﺍ"
+
+
+msgctxt "Operator"
+msgid "Cursor to Selected"
+msgstr "ﺭﺎﺘﺨﻤﻟﺍ ﻰﻟﺇ ﺮﺷﺆﻤﻟﺍ"
+
+
+msgctxt "Operator"
+msgid "Cursor to Center"
+msgstr "ﺰﻛﺮﻤﻟﺍ ﻰﻟﺇ ﺮﺷﺆﻤﻟﺍ"
+
+
+msgctxt "Operator"
+msgid "Cursor to Grid"
+msgstr "ﺔﻜﺒﺸﻟﺍ ﻰﻟﺇ ﺮﺷﺆﻤﻟﺍ"
+
+
+msgctxt "Operator"
+msgid "Show All"
+msgstr "ﻞﻜﻟﺍ ﺮﻬﻇﺍ"
 
 
 msgid "Stroke:"
@@ -53737,13 +53711,18 @@ msgstr ":ﺕﺍﻭﺩﻷ﻿ﺍ"
 
 
 msgctxt "Operator"
-msgid "Scale"
-msgstr "ﻢﺠّﺣ"
+msgid "Eraser"
+msgstr "ﺓﺎﺤﻤﻤﻟﺍ"
 
 
 msgctxt "Operator"
-msgid "Eraser"
-msgstr "ﺓﺎﺤﻤﻤﻟﺍ"
+msgid "Selection to Cursor"
+msgstr "ﺮﺷﺆﻤﻟﺍ ﻰﻟﺇ ﺭﺎﻴﺘﺧﺍ"
+
+
+msgctxt "Operator"
+msgid "Selection to Cursor (Offset)"
+msgstr "(ﺔﺣﺍﺯﺇ) ﺮﺷﺆﻤﻟﺍ ﻰﻟﺇ ﺭﺎﻴﺘﺧﻹ﻿ﺍ"
 
 
 msgctxt "Operator"
@@ -53754,10 +53733,6 @@ msgstr "New Layer"
 msgctxt "Operator"
 msgid "Settings..."
 msgstr "...ﺕﺍﺩﺍﺪﻋﻹ﻿ﺍ"
-
-
-msgid "Exit Edit Mode"
-msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻦﻣ ﺝﺮﺧﺃ"
 
 
 msgctxt "Operator"
@@ -55334,11 +55309,6 @@ msgstr "ﺕﻼ﻿ﺴﻜﺒﻟﺍ ﻰﻟﺇ ﺮﺷﺆﻤﻟﺍ"
 
 
 msgctxt "Operator"
-msgid "Cursor to Selected"
-msgstr "ﺭﺎﺘﺨﻤﻟﺍ ﻰﻟﺇ ﺮﺷﺆﻤﻟﺍ"
-
-
-msgctxt "Operator"
 msgid "Unpin"
 msgstr "ﻚﻴﺒﺸﺘﻟﺍ ﺔﻟﺍﺯﺇ"
 
@@ -55494,11 +55464,6 @@ msgstr "ﺔﺨﺴﻨﻟﺍ ﺮﻳﺮﻘﺗ"
 msgctxt "Operator"
 msgid "Blender Website"
 msgstr "ﺭﺪﻨﻠﺒﻟﺍ ﻊﻗﻮﻣ"
-
-
-msgctxt "Operator"
-msgid "Blender e-Shop"
-msgstr "ﻲﻧﻭﺮﺘﻜﻟﻻ﻿ﺍ ﺭﺪﻨﻠﺑ ﺮﺠﺘﻣ"
 
 
 msgctxt "Operator"
@@ -56421,16 +56386,6 @@ msgid "API Concepts"
 msgstr "APIﻝﺍ ﻢﻴﻫﺎﻔﻣ"
 
 
-msgctxt "Operator"
-msgid "Addon Guidelines"
-msgstr "ﺲﺒﻘﻤﻟﺍ ﺕﺍﺩﺎﺷﺭﺇ"
-
-
-msgctxt "Operator"
-msgid "How to share your addon"
-msgstr "ﻚﺴﺑﺎﻘﻣ ﻙﺭﺎﺸﺗ ﻒﻴﻛ"
-
-
 msgid "Missing script files"
 msgstr "ﺩﻮﻘﻔﻣ ﺖﺒﻳﺮﻜﺳ ﻒﻠﻣ"
 
@@ -56503,21 +56458,6 @@ msgstr "Z ﻲﻤﻟﺎﻋ"
 
 
 msgctxt "Operator"
-msgid "Selection to Grid"
-msgstr "ﺔﻜﺒﺸﻟﺍ ﻰﻟﺇ ﺭﺎﻴﺘﺧﺍ"
-
-
-msgctxt "Operator"
-msgid "Cursor to Center"
-msgstr "ﺰﻛﺮﻤﻟﺍ ﻰﻟﺇ ﺮﺷﺆﻤﻟﺍ"
-
-
-msgctxt "Operator"
-msgid "Cursor to Grid"
-msgstr "ﺔﻜﺒﺸﻟﺍ ﻰﻟﺇ ﺮﺷﺆﻤﻟﺍ"
-
-
-msgctxt "Operator"
 msgid "Cursor to Active"
 msgstr "ﻲﻟﺎﺤﻟﺍ ﻰﻟﺇ ﺮﺷﺆﻤﻟﺍ"
 
@@ -56583,6 +56523,21 @@ msgstr "ﺭﺎﺴﻳ"
 
 
 msgctxt "Operator"
+msgid "Child"
+msgstr "ﻉﺮﻓ"
+
+
+msgctxt "Operator"
+msgid "Extend Parent"
+msgstr "ﻞﺻﻷ﻿ﺍ ﻊﻴﺳﻮﺗ"
+
+
+msgctxt "Operator"
+msgid "Extend Child"
+msgstr "ﻉﺮﻔﻟﺍ ﻊﻴﺳﻮﺗ"
+
+
+msgctxt "Operator"
 msgid "Random"
 msgstr "ﻲﺋﺍﻮﺸﻋ"
 
@@ -56618,21 +56573,6 @@ msgstr "ﺪﻴﻘﻟﺍ ﻑﺪﻫ"
 
 
 msgctxt "Operator"
-msgid "Child"
-msgstr "ﻉﺮﻓ"
-
-
-msgctxt "Operator"
-msgid "Extend Parent"
-msgstr "ﻞﺻﻷ﻿ﺍ ﻊﻴﺳﻮﺗ"
-
-
-msgctxt "Operator"
-msgid "Extend Child"
-msgstr "ﻉﺮﻔﻟﺍ ﻊﻴﺳﻮﺗ"
-
-
-msgctxt "Operator"
 msgid "Roots"
 msgstr "ﺭﻭﺬﺟ"
 
@@ -56643,6 +56583,11 @@ msgstr "ﺱﻭﺅﺭ"
 
 
 msgctxt "Operator"
+msgid "Interior Faces"
+msgstr "ﺔﻴﻠﺧﺍﺪﻟﺍ ﺔﺟﻭﻷ﻿ﺍ"
+
+
+msgctxt "Operator"
 msgid "Sharp Edges"
 msgstr "ﺩﺎﺣ ﻑﺮﺣ"
 
@@ -56650,11 +56595,6 @@ msgstr "ﺩﺎﺣ ﻑﺮﺣ"
 msgctxt "Operator"
 msgid "Linked Flat Faces"
 msgstr "ﺔﻄﺒﺗﺮﻤﻟﺍ ﺔﺤﻄﺴﻤﻟﺍ ﺔﺟﻮﻟﺍ"
-
-
-msgctxt "Operator"
-msgid "Interior Faces"
-msgstr "ﺔﻴﻠﺧﺍﺪﻟﺍ ﺔﺟﻭﻷ﻿ﺍ"
 
 
 msgctxt "Operator"
@@ -56841,11 +56781,6 @@ msgstr "ﺕﺎﻫﻮﺸﺘﻟﺍ ﺢﻠﺻﺃ"
 
 msgid "Threaded Sculpt"
 msgstr "ﻊﺿﻮﻤﻣ ﺖﺤﻧ"
-
-
-msgctxt "Operator"
-msgid "Show All"
-msgstr "ﻞﻜﻟﺍ ﺮﻬﻇﺍ"
 
 
 msgctxt "Operator"
@@ -57065,16 +57000,6 @@ msgstr "Y ﻲﻠﺤﻣ"
 msgctxt "Operator"
 msgid "Z Local"
 msgstr "Z ﻲﻠﺤﻣ"
-
-
-msgctxt "Operator"
-msgid "Selection to Cursor"
-msgstr "ﺮﺷﺆﻤﻟﺍ ﻰﻟﺇ ﺭﺎﻴﺘﺧﺍ"
-
-
-msgctxt "Operator"
-msgid "Selection to Cursor (Offset)"
-msgstr "(ﺔﺣﺍﺯﺇ) ﺮﺷﺆﻤﻟﺍ ﻰﻟﺇ ﺭﺎﻴﺘﺧﻹ﻿ﺍ"
 
 
 msgctxt "Operator"
@@ -58454,10 +58379,6 @@ msgid "Text too long"
 msgstr "ﺺﻨﻟﺍ ﻥﻮﻟ"
 
 
-msgid "Failed to read file '%s', %s"
-msgstr "‬%s‬', ‪%s‪' ﻒﻠﻤﻟﺍ ﺓءﺍﺮﻗ ﻞﺸﻓ"
-
-
 msgid "No Grease Pencil data to work on"
 msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ ﺕﺎﻧﺎﻴﺑ ﺔﻠﺘﻛ"
 
@@ -58814,10 +58735,6 @@ msgstr "ﺕﺎﻴﻨﺤﻨﻤﻟﺍ ﻭ ءﺎﻀﻴﺒﻟﺍ/ءﺍﺩﻮﺴﻟ�
 
 msgid "Stop this job"
 msgstr "ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻒﻗﻭﺃ"
-
-
-msgid "Progress"
-msgstr "ﻡﺪﻘﺘﻟﺍ"
 
 
 msgid "Stop screencast"
@@ -59670,16 +59587,16 @@ msgid "Cannot read '%s': %s"
 msgstr ".%s‬\", ‪%s‬‪\" :ﻒﻠﻤﻟﺍ ﺓءﺍﺮﻗ ﻦﻜﻤﻳ ﻻ﻿"
 
 
-msgid "No object to apply orientation on"
-msgstr "ﺐﻄﻘﻟﺍ ﻥﺍﺭﻭﺪﻟ ﻦﺋﺎﻛ"
-
-
 msgid "No active track to join to"
 msgstr "ﻞﻌﻔﻣ ﺭﺎﺴﻣ ﻻ﻿"
 
 
 msgid "Object used for camera tracking cannot be deleted"
 msgstr "ﺍﺮﻴﻤﻜﻟﺍ ﺔﻘﺣﻼ﻿ﻤﻟ ﻡﺪﺨﺘﺴﻣ ﻦﺋﺎﻜﻟﺍ"
+
+
+msgid "No object to apply orientation on"
+msgstr "ﺐﻄﻘﻟﺍ ﻥﺍﺭﻭﺪﻟ ﻦﺋﺎﻛ"
 
 
 msgid "Parent Directory"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 2) (b'39957b8')\n"
+"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-23 21:20:22\n"
+"POT-Creation-Date: 2016-01-19 20:32:10\n"
 "PO-Revision-Date: 2012-05-11 14:55+0200\n"
 "Last-Translator: Fatih EKE <fatiheke@hotmail.com>\n"
 "Language-Team: BLENDIST <fatiheke@hotmail.com>\n"
@@ -1352,6 +1352,26 @@ msgid "Normal Space"
 msgstr "Space Handler Scripts"
 
 
+msgid "Emit"
+msgstr "Yayma"
+
+
+msgid "Direct"
+msgstr "Yönü Çevir"
+
+
+msgid "Indirect"
+msgstr "Dolaylı"
+
+
+msgid "Color"
+msgstr "Renk"
+
+
+msgid "Diffuse"
+msgstr "Yayılma"
+
+
 msgid "Internal"
 msgstr "Dahili Blender"
 
@@ -1902,10 +1922,6 @@ msgstr "UV "
 
 msgid "Color mapping settings"
 msgstr "Fabrika Ayarlarını Yükle"
-
-
-msgid "Color"
-msgstr "Renk"
 
 
 msgid "Blend Factor"
@@ -4685,6 +4701,38 @@ msgid "X Ray"
 msgstr "X Işını"
 
 
+msgid "Add effect of brush"
+msgstr "Kütüphaneye Ekle"
+
+
+msgid "Subtract effect of brush"
+msgstr "Fırça Kütüphanesi"
+
+
+msgid "Radius"
+msgstr "Yarıçap"
+
+
+msgid "Radius of the brush in pixels"
+msgstr "Görüntü genişliği"
+
+
+msgid "Tool"
+msgstr "Araç:"
+
+
+msgid "Grab"
+msgstr "Tut"
+
+
+msgid "Push"
+msgstr "İtme/Çekme"
+
+
+msgid "Clone"
+msgstr "Kopya"
+
+
 msgid "Draw Mode"
 msgstr "Çizim Modu"
 
@@ -4827,10 +4875,6 @@ msgstr "Karakter"
 
 msgid "Game engine properties"
 msgstr "Gerçek-Zaman Özellikleri"
-
-
-msgid "Radius"
-msgstr "Yarıçap"
 
 
 msgid "Rotation Damping"
@@ -5177,14 +5221,6 @@ msgid "Editable falloff curve"
 msgstr "Eğriyi buna Çevir"
 
 
-msgid "Add effect of brush"
-msgstr "Kütüphaneye Ekle"
-
-
-msgid "Subtract effect of brush"
-msgstr "Fırça Kütüphanesi"
-
-
 msgid "Brush Height"
 msgstr "Alan yüksekliği"
 
@@ -5207,10 +5243,6 @@ msgstr "Yumuşat"
 
 msgid "Smear"
 msgstr "Leke"
-
-
-msgid "Clone"
-msgstr "Kopya"
 
 
 msgid "Fill"
@@ -5265,20 +5297,12 @@ msgid "Sculpt Tool"
 msgstr "Heykeltraşlık Araçları"
 
 
-msgid "Grab"
-msgstr "Tut"
-
-
 msgid "Rotate"
 msgstr "Döndür"
 
 
 msgid "Snake Hook"
 msgstr "Kanca Ekle"
-
-
-msgid "Radius of the brush in pixels"
-msgstr "Görüntü genişliği"
 
 
 msgid "Smooth Stroke Factor"
@@ -5789,26 +5813,6 @@ msgid "Use Textures"
 msgstr "Kırpma Kullan"
 
 
-msgid "Cursor"
-msgstr "İmleç"
-
-
-msgid "View"
-msgstr "Görünüş"
-
-
-msgid "Stick stroke to the view "
-msgstr "Görüntüyü Seçili Olana Hizala"
-
-
-msgid "Stroke"
-msgstr "Kontur Metodu:"
-
-
-msgid "Only Endpoints"
-msgstr "Yalnız Kenarlar"
-
-
 msgid "Dupli Layers"
 msgstr "Katmanlar 6-10"
 
@@ -6079,10 +6083,6 @@ msgstr "Enerji"
 
 msgid "Type of Lamp"
 msgstr "Işık Bilgileri"
-
-
-msgid "Diffuse"
-msgstr "Yayılma"
 
 
 msgid "Do diffuse shading"
@@ -6451,10 +6451,6 @@ msgstr "Yazıtipi Boyutu Seçin:"
 
 msgid "Diffuse Toon Smooth"
 msgstr "Eğrileri yumuşat"
-
-
-msgid "Emit"
-msgstr "Yayma"
 
 
 msgid "Game Settings"
@@ -7515,6 +7511,10 @@ msgstr "Çocuk (nesne) Ekle"
 
 msgid "Align to"
 msgstr "Görüntüyü Seçili Olana Hizala"
+
+
+msgid "View"
+msgstr "Görünüş"
 
 
 msgid "Angle"
@@ -9398,6 +9398,10 @@ msgid "Fluid Presets"
 msgstr "Akışkan Simülasyonu"
 
 
+msgid "Snap"
+msgstr "Yakala"
+
+
 msgid "Mirror"
 msgstr "Yansıtma"
 
@@ -9408,10 +9412,6 @@ msgstr "Kenar Seçme Modu:"
 
 msgid "Show/Hide Faces"
 msgstr "Tümünü Göster/Gizle"
-
-
-msgid "Snap"
-msgstr "Yakala"
 
 
 msgid "Weld/Align"
@@ -13120,6 +13120,10 @@ msgid "View Axis"
 msgstr "Yatay Eksen"
 
 
+msgid "Cursor"
+msgstr "İmleç"
+
+
 msgctxt "Operator"
 msgid "Click-Extrude"
 msgstr "Ekstrüzyon Boyutu"
@@ -13324,10 +13328,6 @@ msgstr "Şekil Anahtarı Ekle"
 msgctxt "Operator"
 msgid "Reset Brush"
 msgstr "Eğriyi Sıfırla"
-
-
-msgid "Tool"
-msgstr "Araç:"
 
 
 msgid "Grab UVs"
@@ -15199,6 +15199,10 @@ msgid "Delete Active Frame"
 msgstr "Aktif pozisyonu sil"
 
 
+msgid "Stroke"
+msgstr "Kontur Metodu:"
+
+
 msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "Eğriyi buna Çevir"
@@ -15331,6 +15335,16 @@ msgstr "Seçilenler"
 
 msgid "Toggle the selection"
 msgstr "Seçimi İmlece"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Cursor"
+msgstr "İmleci Merkez al"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Grid"
+msgstr "Nesneleri ızgara birimlerince ölçekle"
 
 
 msgctxt "Operator"
@@ -16535,6 +16549,10 @@ msgid "Select the new inset faces"
 msgstr "Arabirim için yeni bir yazıtipi seçin"
 
 
+msgid "Swap"
+msgstr "Seçimi Değiş"
+
+
 msgctxt "Operator"
 msgid "Knife Topology Tool"
 msgstr "Vida Aracını çalıştırır"
@@ -16896,11 +16914,6 @@ msgstr "Kenar Seçme Modu:"
 
 msgid "Expand"
 msgstr "Genişletilmiş"
-
-
-msgctxt "Operator"
-msgid "Select Next Loop"
-msgstr "Kenar Doğrultusunca Seç"
 
 
 msgctxt "Operator"
@@ -17773,26 +17786,6 @@ msgstr "Pişir"
 
 msgid "Combined"
 msgstr "Birleşik"
-
-
-msgid "Refraction"
-msgstr "Kırılma"
-
-
-msgid "Object Index"
-msgstr "Nesne Endeksi"
-
-
-msgid "Diffuse Direct"
-msgstr "Nesnenin genel rengi."
-
-
-msgid "Diffuse Indirect"
-msgstr "Nesnenin genel rengi."
-
-
-msgid "Glossy Color"
-msgstr "Ekran Rengi:"
 
 
 msgctxt "Operator"
@@ -20313,10 +20306,6 @@ msgid "Change Effect Input"
 msgstr "Kemik Katmanlarınını Değiştir..."
 
 
-msgid "Swap"
-msgstr "Seçimi Değiş"
-
-
 msgctxt "Operator"
 msgid "Change Effect Type"
 msgstr "Nesne Tipini Değiştir..."
@@ -20694,13 +20683,13 @@ msgid "Load a sound file"
 msgstr "METİN DOSYASI YÜKLE"
 
 
-msgid "Mixdown the sound to mono"
-msgstr "Ses bağlarına gözat"
-
-
 msgctxt "Operator"
 msgid "Open Sound Mono"
 msgstr "Ses blok butonları"
+
+
+msgid "Mixdown the sound to mono"
+msgstr "Ses bağlarına gözat"
 
 
 msgctxt "Operator"
@@ -21912,16 +21901,6 @@ msgid "Snap Cursor to Selected"
 msgstr "Görüntüyü Seçili Olana Hizala"
 
 
-msgctxt "Operator"
-msgid "Snap Selection to Cursor"
-msgstr "İmleci Merkez al"
-
-
-msgctxt "Operator"
-msgid "Snap Selection to Grid"
-msgstr "Nesneleri ızgara birimlerince ölçekle"
-
-
 msgid "All Regions"
 msgstr "Tümünü Normalleştir"
 
@@ -22116,16 +22095,8 @@ msgid "Disable Addon"
 msgstr "Ses Pasif"
 
 
-msgid "Disable an addon"
-msgstr "Ses Pasif"
-
-
 msgctxt "Operator"
 msgid "Enable Addon"
-msgstr "Etkin/Pasif"
-
-
-msgid "Enable an addon"
 msgstr "Etkin/Pasif"
 
 
@@ -22643,15 +22614,6 @@ msgstr "Döngü/Kesim Menüsü "
 msgctxt "Operator"
 msgid "Splash Screen"
 msgstr "Tam Ekran Resim Al"
-
-
-msgctxt "Operator"
-msgid "System Info"
-msgstr "Sistem Bilgisi"
-
-
-msgid "Generate System Info"
-msgstr "Ayrıntılı bilgi göster"
 
 
 msgctxt "Operator"
@@ -24117,12 +24079,28 @@ msgid "Deliver diffuse color pass"
 msgstr "Nesnenin genel rengi."
 
 
-msgid "Indirect"
-msgstr "Dolaylı"
+msgid "Diffuse Direct"
+msgstr "Nesnenin genel rengi."
+
+
+msgid "Diffuse Indirect"
+msgstr "Nesnenin genel rengi."
+
+
+msgid "Glossy Color"
+msgstr "Ekran Rengi:"
 
 
 msgid "Deliver material index pass"
 msgstr "Yeni malzeme ekle"
+
+
+msgid "Object Index"
+msgstr "Nesne Endeksi"
+
+
+msgid "Refraction"
+msgstr "Kırılma"
 
 
 msgid "Deliver shadow pass"
@@ -24703,10 +24681,6 @@ msgstr "Nesne Tipini Değiştir..."
 
 msgid "Auto Select"
 msgstr "Otomatik Normalleştir"
-
-
-msgid "Immediate Mode"
-msgstr "En yakın Çocuk Nesne"
 
 
 msgid "Vertex Arrays"
@@ -25798,10 +25772,6 @@ msgstr "Kutusal Sınır Merkezi "
 
 
 msgid "Pull"
-msgstr "İtme/Çekme"
-
-
-msgid "Push"
 msgstr "İtme/Çekme"
 
 
@@ -27849,6 +27819,10 @@ msgid "Retarget roll mode"
 msgstr "Kamera Uçuş Modu"
 
 
+msgid "Stick stroke to the view "
+msgstr "Görüntüyü Seçili Olana Hizala"
+
+
 msgid "Mesh Selection Mode"
 msgstr "Kamera Uçuş Modu"
 
@@ -27929,8 +27903,8 @@ msgid "Quick Sketching"
 msgstr "Hızlı Düzenle"
 
 
-msgid "Use Sketching Sessions"
-msgstr "Arkaplan Resmi Kullan"
+msgid "Only Endpoints"
+msgstr "Yalnız Kenarlar"
 
 
 msgid "Auto Keying"
@@ -29025,10 +28999,6 @@ msgid "Use Environment"
 msgstr "Çevre"
 
 
-msgid "Direct"
-msgstr "Yönü Çevir"
-
-
 msgid "Glossy:"
 msgstr "Ekran Rengi:"
 
@@ -29937,6 +29907,36 @@ msgstr "Çiz:"
 
 
 msgctxt "Operator"
+msgid "Scale"
+msgstr "Ölçekle"
+
+
+msgctxt "Operator"
+msgid "Selection to Grid"
+msgstr "Izgarayı yakala:"
+
+
+msgctxt "Operator"
+msgid "Cursor to Selected"
+msgstr "Seçimi İmlece"
+
+
+msgctxt "Operator"
+msgid "Cursor to Center"
+msgstr "İmleci Merkeze"
+
+
+msgctxt "Operator"
+msgid "Cursor to Grid"
+msgstr "İmleci Izgaraya"
+
+
+msgctxt "Operator"
+msgid "Show All"
+msgstr "Tümünü Göster"
+
+
+msgctxt "Operator"
 msgid "Draw"
 msgstr "Çiz:"
 
@@ -29957,8 +29957,8 @@ msgstr "Oynat"
 
 
 msgctxt "Operator"
-msgid "Scale"
-msgstr "Ölçekle"
+msgid "Selection to Cursor"
+msgstr "Seçimi İmlece"
 
 
 msgctxt "Operator"
@@ -30872,11 +30872,6 @@ msgstr "İmleci Piksele"
 
 
 msgctxt "Operator"
-msgid "Cursor to Selected"
-msgstr "Seçimi İmlece"
-
-
-msgctxt "Operator"
 msgid "Unpin"
 msgstr "Birleşim"
 
@@ -31015,11 +31010,6 @@ msgstr "Sürüm Notları"
 msgctxt "Operator"
 msgid "Blender Website"
 msgstr "Blender Resmi Websitesi"
-
-
-msgctxt "Operator"
-msgid "Blender e-Shop"
-msgstr "Blender E-Satış"
 
 
 msgctxt "Operator"
@@ -31763,21 +31753,6 @@ msgstr "Genel Z"
 
 
 msgctxt "Operator"
-msgid "Selection to Grid"
-msgstr "Izgarayı yakala:"
-
-
-msgctxt "Operator"
-msgid "Cursor to Center"
-msgstr "İmleci Merkeze"
-
-
-msgctxt "Operator"
-msgid "Cursor to Grid"
-msgstr "İmleci Izgaraya"
-
-
-msgctxt "Operator"
 msgid "Cursor to Active"
 msgstr "İmleci Aktif Olana"
 
@@ -31843,6 +31818,21 @@ msgstr "Sol Fare"
 
 
 msgctxt "Operator"
+msgid "Child"
+msgstr "Çocuk Nesne"
+
+
+msgctxt "Operator"
+msgid "Extend Parent"
+msgstr "Ebeveyni Uzat"
+
+
+msgctxt "Operator"
+msgid "Extend Child"
+msgstr "Çocuğu Uzat"
+
+
+msgctxt "Operator"
 msgid "Random"
 msgstr "Rasgele"
 
@@ -31878,21 +31868,6 @@ msgstr "Konum Kısıtlamaları"
 
 
 msgctxt "Operator"
-msgid "Child"
-msgstr "Çocuk Nesne"
-
-
-msgctxt "Operator"
-msgid "Extend Parent"
-msgstr "Ebeveyni Uzat"
-
-
-msgctxt "Operator"
-msgid "Extend Child"
-msgstr "Çocuğu Uzat"
-
-
-msgctxt "Operator"
 msgid "Roots"
 msgstr "Kök"
 
@@ -31903,6 +31878,11 @@ msgstr "İpuçları"
 
 
 msgctxt "Operator"
+msgid "Interior Faces"
+msgstr "İç Yüzler"
+
+
+msgctxt "Operator"
 msgid "Sharp Edges"
 msgstr "Tüm Kenarlar"
 
@@ -31910,11 +31890,6 @@ msgstr "Tüm Kenarlar"
 msgctxt "Operator"
 msgid "Linked Flat Faces"
 msgstr "Bağlantılı Düz Yüzler"
-
-
-msgctxt "Operator"
-msgid "Interior Faces"
-msgstr "İç Yüzler"
 
 
 msgctxt "Operator"
@@ -32083,11 +32058,6 @@ msgstr "Güzelce Kapla"
 
 msgid "Threaded Sculpt"
 msgstr "Heykeltraşlık Modu"
-
-
-msgctxt "Operator"
-msgid "Show All"
-msgstr "Tümünü Göster"
 
 
 msgctxt "Operator"
@@ -32271,11 +32241,6 @@ msgstr "Y Lokal"
 msgctxt "Operator"
 msgid "Z Local"
 msgstr "Z Lokal"
-
-
-msgctxt "Operator"
-msgid "Selection to Cursor"
-msgstr "Seçimi İmlece"
 
 
 msgctxt "Operator"
@@ -33411,10 +33376,6 @@ msgid "Stop this job"
 msgstr "İşi durdur"
 
 
-msgid "Progress"
-msgstr "İlerleme"
-
-
 msgid "Stop screencast"
 msgstr "Ekrandökümünü durdur"
 
@@ -34013,12 +33974,12 @@ msgid "No files selected to be opened"
 msgstr "Seçili İşaretler arasında"
 
 
-msgid "No object to apply orientation on"
-msgstr "Alttaki değerlere bağlı olarak (DupSta, DupEnd, DupOn, DupOff) nesne, dış hattı (yolu) izleyerek çoğaltılacaktır"
-
-
 msgid "No active track to join to"
 msgstr "Aktif Kemik Yok"
+
+
+msgid "No object to apply orientation on"
+msgstr "Alttaki değerlere bağlı olarak (DupSta, DupEnd, DupOn, DupOff) nesne, dış hattı (yolu) izleyerek çoğaltılacaktır"
 
 
 msgid "Cancel"

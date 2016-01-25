@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 2) (b'39957b8')\n"
+"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-23 21:20:22\n"
+"POT-Creation-Date: 2016-01-19 20:32:10\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Reininger <martinreininger@gmx.net>\n"
 "Language-Team: German translation team\n"
@@ -2248,6 +2248,38 @@ msgid "Bake the normals in tangent space"
 msgstr "Normalen im Tangentenraum backen"
 
 
+msgid "Emit"
+msgstr "Emitter"
+
+
+msgid "Direct"
+msgstr "Direkt"
+
+
+msgid "Indirect"
+msgstr "Indirekt"
+
+
+msgid "Color"
+msgstr "Farbe"
+
+
+msgid "Diffuse"
+msgstr "Diffus"
+
+
+msgid "Glossy"
+msgstr "Glanz"
+
+
+msgid "Transmission"
+msgstr "Übergang"
+
+
+msgid "Subsurface"
+msgstr "Oberfläche"
+
+
 msgid "Internal"
 msgstr "Intern"
 
@@ -2270,6 +2302,10 @@ msgstr "Entfernen"
 
 msgid "Clear Images before baking (internal only)"
 msgstr "Bilder vor dem Backen entfernen (nur intern)"
+
+
+msgid "AO"
+msgstr "AO"
 
 
 msgid "Selected to Active"
@@ -3690,10 +3726,6 @@ msgstr "Farbmanagement"
 
 msgid "Color mapping settings"
 msgstr "Einstellungen kopieren"
-
-
-msgid "Color"
-msgstr "Farbe"
 
 
 msgid "Blend color to mix with texture output color"
@@ -8085,6 +8117,54 @@ msgid "Make the layer draw in front of objects"
 msgstr "Kopie ohne Objekte erstellen"
 
 
+msgid "Add effect of brush"
+msgstr "Hinzufügen-Effekt des Pinsels"
+
+
+msgid "Subtract effect of brush"
+msgstr "Abziehen-Effekt des Pinsels"
+
+
+msgid "Radius"
+msgstr "Radius"
+
+
+msgid "Radius of the brush in pixels"
+msgstr "Pinselradius in Pixeln"
+
+
+msgid "Brush strength"
+msgstr "Pinselstärke"
+
+
+msgid "Strength Pressure"
+msgstr "Stärke"
+
+
+msgid "Tool"
+msgstr "Werkzeug"
+
+
+msgid "Grab"
+msgstr "Greifen"
+
+
+msgid "Twist"
+msgstr "Verdrehen"
+
+
+msgid "Pinch"
+msgstr "Ausdünnen"
+
+
+msgid "Randomize"
+msgstr "Zufallsgeneriert"
+
+
+msgid "Clone"
+msgstr "Klonen"
+
+
 msgid "Grease Pencil Stroke"
 msgstr "Wachsstift-Strich"
 
@@ -8299,10 +8379,6 @@ msgstr "Weicher Körper"
 
 msgid "Character"
 msgstr "Charakter"
-
-
-msgid "Radius"
-msgstr "Radius"
 
 
 msgid "Rotation Damping"
@@ -8805,14 +8881,6 @@ msgid "Mask Texture Overlay Alpha"
 msgstr "Maskentextur überlagert Alpha"
 
 
-msgid "Add effect of brush"
-msgstr "Hinzufügen-Effekt des Pinsels"
-
-
-msgid "Subtract effect of brush"
-msgstr "Abziehen-Effekt des Pinsels"
-
-
 msgid "Repeat"
 msgstr "Wiederholen"
 
@@ -8847,10 +8915,6 @@ msgstr "Weichzeichnen"
 
 msgid "Smear"
 msgstr "Verschmieren"
-
-
-msgid "Clone"
-msgstr "Klonen"
 
 
 msgid "Fill"
@@ -8949,20 +9013,12 @@ msgid "Flatten"
 msgstr "Glätten"
 
 
-msgid "Grab"
-msgstr "Greifen"
-
-
 msgid "Inflate"
 msgstr "Aufblasen"
 
 
 msgid "Nudge"
 msgstr "Anstoßen"
-
-
-msgid "Pinch"
-msgstr "Ausdünnen"
 
 
 msgid "Rotate"
@@ -8983,10 +9039,6 @@ msgstr "Fleischerhaken"
 
 msgid "Thumb"
 msgstr "Daumen"
-
-
-msgid "Radius of the brush in pixels"
-msgstr "Pinselradius in Pixeln"
 
 
 msgid "Smooth Stroke Factor"
@@ -9163,10 +9215,6 @@ msgstr "Verlauf"
 
 msgid "Cutoff"
 msgstr "Abschneiden"
-
-
-msgid "Strength Pressure"
-msgstr "Stärke"
 
 
 msgid "Use Texture Overlay"
@@ -9929,26 +9977,6 @@ msgid "Use Textures"
 msgstr "Texturen benutzen"
 
 
-msgid "Cursor"
-msgstr "Cursor"
-
-
-msgid "Draw stroke at the 3D cursor"
-msgstr "Striche am 3D Cursor anzeigen"
-
-
-msgid "View"
-msgstr "Ansicht"
-
-
-msgid "Stroke"
-msgstr "Pinselstrich"
-
-
-msgid "Only Endpoints"
-msgstr "Nur Endpunkte"
-
-
 msgid "Dupli Offset"
 msgstr "Versatz"
 
@@ -10427,10 +10455,6 @@ msgid "Directional area light source"
 msgstr "Gerichtete Flächen-Lichtquelle"
 
 
-msgid "Diffuse"
-msgstr "Diffus"
-
-
 msgid "Do diffuse shading"
 msgstr "Diffus"
 
@@ -10853,10 +10877,6 @@ msgstr "Einen Fresnel-Shader verwenden"
 
 msgid "Diffuse Toon Size"
 msgstr "Diffus"
-
-
-msgid "Emit"
-msgstr "Emitter"
 
 
 msgid "Amount of light to emit"
@@ -12357,6 +12377,10 @@ msgstr "Kinder"
 
 msgid "Align to"
 msgstr "Ausrichten an"
+
+
+msgid "View"
+msgstr "Ansicht"
 
 
 msgid "Animate"
@@ -15195,16 +15219,16 @@ msgid "Fluid Presets"
 msgstr "Flüssigkeits-Voreinstellungen"
 
 
+msgid "Snap"
+msgstr "Einrasten"
+
+
 msgid "Mirror"
 msgstr "Spiegeln"
 
 
 msgid "UV Select Mode"
 msgstr "UV-Auswahlmodus"
-
-
-msgid "Snap"
-msgstr "Einrasten"
 
 
 msgid "Export"
@@ -15865,10 +15889,6 @@ msgstr "Startbild des Effektes"
 
 msgid "Seed for random if used"
 msgstr "Seed des Rauschens"
-
-
-msgid "Randomize"
-msgstr "Zufallsgeneriert"
 
 
 msgid "Reversed"
@@ -16533,10 +16553,6 @@ msgstr "Das Mesh zum nächsten Ziel-Vertex schrumpfen"
 
 msgid "SimpleDeform Modifier"
 msgstr "Einfaches-Deformieren Modifikator"
-
-
-msgid "Twist"
-msgstr "Verdrehen"
 
 
 msgid "Rotate around the Z axis of the modifier space"
@@ -19139,10 +19155,6 @@ msgid "Toon BSDF"
 msgstr "Zeichentrick BSDF"
 
 
-msgid "Glossy"
-msgstr "Glanz"
-
-
 msgid "Translucent BSDF"
 msgstr "Transluzent BSDF"
 
@@ -20297,6 +20309,10 @@ msgid "Active Bone"
 msgstr "Aktiver Knochen"
 
 
+msgid "Cursor"
+msgstr "Cursor"
+
+
 msgctxt "Operator"
 msgid "Click-Extrude"
 msgstr "Klick-Extrudieren"
@@ -20545,10 +20561,6 @@ msgstr "Pinsel zurücksetzen"
 
 msgid "Return brush to defaults based on current tool"
 msgstr "Pinsel auf Voreinstellung, basierend auf aktivem Werkzeug, zurücksetzen"
-
-
-msgid "Tool"
-msgstr "Werkzeug"
 
 
 msgid "Translation"
@@ -22367,15 +22379,6 @@ msgstr "Alle suchen"
 
 
 msgctxt "Operator"
-msgid "Toggle Hide Dot Files"
-msgstr "Punkt-Dateien verbergen/zeigen"
-
-
-msgid "Toggle hide hidden dot files"
-msgstr "Versteckte Punkt-Dateien verbergen/zeigen"
-
-
-msgctxt "Operator"
 msgid "Make All Paths Absolute"
 msgstr "Alle Pfade absolut machen"
 
@@ -22707,6 +22710,10 @@ msgid "Delete the active frame for the active Grease Pencil datablock"
 msgstr "Aktives Einzelbild für den aktiven Wachsstift-Datablock löschen"
 
 
+msgid "Stroke"
+msgstr "Pinselstrich"
+
+
 msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "Wachsstift umwandeln"
@@ -22859,6 +22866,16 @@ msgstr "Auswählbar ein/aus"
 
 msgid "Toggle the selection"
 msgstr "Auswählbar ein/aus"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Cursor"
+msgstr "Auswahl an Cursor einrasten"
+
+
+msgctxt "Operator"
+msgid "Snap Selection to Grid"
+msgstr "Auswahl an Raster einrasten"
 
 
 msgctxt "Operator"
@@ -24800,11 +24817,6 @@ msgstr "Mehr Vertices, Kanten oder Flächen, die mit der Initialisierungsauswahl
 
 
 msgctxt "Operator"
-msgid "Select Next Loop"
-msgstr "Nächsten Loop auswählen"
-
-
-msgctxt "Operator"
 msgid "Select Non Manifold"
 msgstr "Zufällig auswählen"
 
@@ -25912,46 +25924,6 @@ msgstr "Bildtexturen von ausgewählten Objekten backen"
 
 msgid "Combined"
 msgstr "Kombiniert"
-
-
-msgid "Refraction"
-msgstr "Strahlenbrechnung"
-
-
-msgid "Object Index"
-msgstr "Objekt-Index"
-
-
-msgid "Diffuse Direct"
-msgstr "Direkte Zerstreuung"
-
-
-msgid "Diffuse Indirect"
-msgstr "Indirekte Zerstreuung"
-
-
-msgid "Glossy Direct"
-msgstr "Direktes Glänzen"
-
-
-msgid "Glossy Indirect"
-msgstr "Indirekter Glanz"
-
-
-msgid "Glossy Color"
-msgstr "Glanzfarbe"
-
-
-msgid "Transmission Direct"
-msgstr "Direkte Übertragung"
-
-
-msgid "Transmission Indirect"
-msgstr "Indirekte Übertragung"
-
-
-msgid "Subsurface Color"
-msgstr "Oberflächenfarbe"
 
 
 msgctxt "Operator"
@@ -30696,18 +30668,8 @@ msgid "Snap cursor to center of selected item(s)"
 msgstr "Cursor am Zentrum der ausgewählten Objekte einrasten lassen"
 
 
-msgctxt "Operator"
-msgid "Snap Selection to Cursor"
-msgstr "Auswahl an Cursor einrasten"
-
-
 msgid "Snap selected item(s) to cursor"
 msgstr "Ausgewählte Objekte am Cursor einrasten lassen"
-
-
-msgctxt "Operator"
-msgid "Snap Selection to Grid"
-msgstr "Auswahl an Raster einrasten"
 
 
 msgid "View all objects in scene"
@@ -30918,17 +30880,9 @@ msgid "Enable Addon"
 msgstr "Add-on aktivieren"
 
 
-msgid "Display more information on this addon"
-msgstr "Mehr Information über dieses Add-on anzeigen"
-
-
 msgctxt "Operator"
 msgid "Install from File..."
 msgstr "Von Datei installieren..."
-
-
-msgid "Install an addon"
-msgstr "Ein Add-on installieren"
 
 
 msgid "Target Path"
@@ -31507,15 +31461,6 @@ msgstr "Suchen Menü"
 msgctxt "Operator"
 msgid "Splash Screen"
 msgstr "Startbildschirm"
-
-
-msgctxt "Operator"
-msgid "System Info"
-msgstr "Systeminformation"
-
-
-msgid "Generate System Info"
-msgstr "Systeminformation erzeugen"
 
 
 msgctxt "Operator"
@@ -32203,10 +32148,6 @@ msgstr "Längenmodus"
 
 msgid "Brush steps"
 msgstr "Pinselschritte"
-
-
-msgid "Brush strength"
-msgstr "Pinselstärke"
 
 
 msgid "Editing hair"
@@ -33157,10 +33098,6 @@ msgid "Object visibility for camera rays"
 msgstr "Objektsichtbarkeit für Kamerastrahlen"
 
 
-msgid "Transmission"
-msgstr "Übergang"
-
-
 msgid "Map Resolution"
 msgstr "Texturauflösung"
 
@@ -33353,10 +33290,6 @@ msgid "All Z"
 msgstr "Alle Z"
 
 
-msgid "AO"
-msgstr "AO"
-
-
 msgid "Deliver AO pass"
 msgstr "Ambient Occlusion-Durchgang übergeben"
 
@@ -33369,8 +33302,16 @@ msgid "Deliver diffuse color pass"
 msgstr "Zerstreuungsfarben-Durchgang übergeben"
 
 
+msgid "Diffuse Direct"
+msgstr "Direkte Zerstreuung"
+
+
 msgid "Deliver diffuse direct pass"
 msgstr "Direkten Zerstreuungs-Durchgang übergeben"
+
+
+msgid "Diffuse Indirect"
+msgstr "Indirekte Zerstreuung"
 
 
 msgid "Deliver diffuse indirect pass"
@@ -33385,20 +33326,28 @@ msgid "Deliver environment lighting pass"
 msgstr "Umgebungslicht-Durchgang übergeben"
 
 
+msgid "Glossy Color"
+msgstr "Glanzfarbe"
+
+
 msgid "Deliver glossy color pass"
 msgstr "Glanzfarben-Durchgang übergeben"
+
+
+msgid "Glossy Direct"
+msgstr "Direktes Glänzen"
 
 
 msgid "Deliver glossy direct pass"
 msgstr "Direkten Glanz-Durchgang übergeben"
 
 
+msgid "Glossy Indirect"
+msgstr "Indirekter Glanz"
+
+
 msgid "Deliver glossy indirect pass"
 msgstr "Indirekten Glanz-Durchgang übergeben"
-
-
-msgid "Indirect"
-msgstr "Indirekt"
 
 
 msgid "Deliver material index pass"
@@ -33409,20 +33358,40 @@ msgid "Deliver normal pass"
 msgstr "Normalen-Durchgang übergeben"
 
 
+msgid "Object Index"
+msgstr "Objekt-Index"
+
+
 msgid "Deliver object index pass"
 msgstr "Objekt-Index-Durchgang übergeben"
+
+
+msgid "Refraction"
+msgstr "Strahlenbrechnung"
 
 
 msgid "Deliver shadow pass"
 msgstr "Schatten-Durchgang übergeben"
 
 
+msgid "Subsurface Color"
+msgstr "Oberflächenfarbe"
+
+
 msgid "Deliver transmission color pass"
 msgstr "Farbübertragungs-Durchgang übergeben"
 
 
+msgid "Transmission Direct"
+msgstr "Direkte Übertragung"
+
+
 msgid "Deliver transmission direct pass"
 msgstr "Direkten Übertragungs-Durchgang übergeben"
+
+
+msgid "Transmission Indirect"
+msgstr "Indirekte Übertragung"
 
 
 msgid "Deliver transmission indirect pass"
@@ -34643,10 +34612,6 @@ msgstr "Schlüsselbildtyp festlegen"
 
 msgid "Auto Select"
 msgstr "Zur Auswahl hinzufügen"
-
-
-msgid "Immediate Mode"
-msgstr "Unmittelbare Kinder"
 
 
 msgid "Vertex Arrays"
@@ -39198,6 +39163,10 @@ msgid "Template"
 msgstr "Vorlage"
 
 
+msgid "Draw stroke at the 3D cursor"
+msgstr "Striche am 3D Cursor anzeigen"
+
+
 msgid "Normal Size"
 msgstr "Normalengröße"
 
@@ -39278,12 +39247,12 @@ msgid "Unified Paint Settings"
 msgstr "Partikelsystem-Einstellungen"
 
 
-msgid "Use Sketching Sessions"
-msgstr "Zeichensitzungen nutzen"
-
-
 msgid "Allow drawing multiple strokes at a time with Grease Pencil"
 msgstr "Erlaubt mehrfache Striche auf einmal mit dem Wachsstift zu ziehen"
+
+
+msgid "Only Endpoints"
+msgstr "Nur Endpunkte"
 
 
 msgid "Auto Keying"
@@ -40909,18 +40878,13 @@ msgstr "Bildschirm"
 
 
 msgctxt "WindowManager"
-msgid "View2D"
-msgstr "2D Ansicht"
-
-
-msgctxt "WindowManager"
 msgid "Header"
 msgstr "Kopfleiste"
 
 
 msgctxt "WindowManager"
-msgid "Grease Pencil"
-msgstr "Wachsstift"
+msgid "View2D"
+msgstr "2D Ansicht"
 
 
 msgctxt "WindowManager"
@@ -40999,26 +40963,6 @@ msgstr "Partikel"
 
 
 msgctxt "WindowManager"
-msgid "Frames"
-msgstr "Einzelbilder"
-
-
-msgctxt "WindowManager"
-msgid "Markers"
-msgstr "Marken"
-
-
-msgctxt "WindowManager"
-msgid "Animation"
-msgstr "Animation"
-
-
-msgctxt "WindowManager"
-msgid "Animation Channels"
-msgstr "Animationskanäle"
-
-
-msgctxt "WindowManager"
 msgid "Graph Editor"
 msgstr "Graph Editor"
 
@@ -41049,6 +40993,11 @@ msgstr "NLA-Generiert"
 
 
 msgctxt "WindowManager"
+msgid "Timeline"
+msgstr "Zeitleiste"
+
+
+msgctxt "WindowManager"
 msgid "Image"
 msgstr "Bild"
 
@@ -41061,11 +41010,6 @@ msgstr "UV-Editor"
 msgctxt "WindowManager"
 msgid "UV Sculpt"
 msgstr "UV-Skulptur"
-
-
-msgctxt "WindowManager"
-msgid "Timeline"
-msgstr "Zeitleiste"
 
 
 msgctxt "WindowManager"
@@ -41149,8 +41093,33 @@ msgstr "Clip DopeSheet-Editor"
 
 
 msgctxt "WindowManager"
+msgid "Grease Pencil"
+msgstr "Wachsstift"
+
+
+msgctxt "WindowManager"
 msgid "Mask Editing"
 msgstr "Maskenbearbeitung"
+
+
+msgctxt "WindowManager"
+msgid "Frames"
+msgstr "Einzelbilder"
+
+
+msgctxt "WindowManager"
+msgid "Markers"
+msgstr "Marken"
+
+
+msgctxt "WindowManager"
+msgid "Animation"
+msgstr "Animation"
+
+
+msgctxt "WindowManager"
+msgid "Animation Channels"
+msgstr "Animationskanäle"
 
 
 msgid "Settings:"
@@ -41211,10 +41180,6 @@ msgstr "Haare verwenden"
 
 msgid "Diffuse:"
 msgstr "Zerstreuung:"
-
-
-msgid "Direct"
-msgstr "Direkt"
 
 
 msgid "Glossy:"
@@ -41283,10 +41248,6 @@ msgstr "Kantenglättungs-Abtastwerte:"
 
 msgid "Mesh Light"
 msgstr "Mesh-Licht"
-
-
-msgid "Subsurface"
-msgstr "Oberfläche"
 
 
 msgid "Not supported, interpreted as sun lamp"
@@ -42233,6 +42194,36 @@ msgstr "Zeichnen:"
 
 
 msgctxt "Operator"
+msgid "Scale"
+msgstr "Skalieren"
+
+
+msgctxt "Operator"
+msgid "Selection to Grid"
+msgstr "Auswahl an Raster"
+
+
+msgctxt "Operator"
+msgid "Cursor to Selected"
+msgstr "Cursor an Auswahl"
+
+
+msgctxt "Operator"
+msgid "Cursor to Center"
+msgstr "Cursor an Zentrum"
+
+
+msgctxt "Operator"
+msgid "Cursor to Grid"
+msgstr "Cursor an Raster"
+
+
+msgctxt "Operator"
+msgid "Show All"
+msgstr "Alles zeigen"
+
+
+msgctxt "Operator"
 msgid "Draw"
 msgstr "Zeichnen"
 
@@ -42253,8 +42244,13 @@ msgstr "Poly"
 
 
 msgctxt "Operator"
-msgid "Scale"
-msgstr "Skalieren"
+msgid "Selection to Cursor"
+msgstr "Auswahl an Cursor"
+
+
+msgctxt "Operator"
+msgid "Selection to Cursor (Offset)"
+msgstr "Auswahl an Cursor (Versatz)"
 
 
 msgctxt "Operator"
@@ -43354,11 +43350,6 @@ msgstr "Cursor zu Pixel"
 
 
 msgctxt "Operator"
-msgid "Cursor to Selected"
-msgstr "Cursor an Auswahl"
-
-
-msgctxt "Operator"
 msgid "Clear Seam"
 msgstr "Naht löschen"
 
@@ -43510,11 +43501,6 @@ msgstr "Versionshinweise"
 msgctxt "Operator"
 msgid "Blender Website"
 msgstr "Blender-Webseite"
-
-
-msgctxt "Operator"
-msgid "Blender e-Shop"
-msgstr "Blender e-Shop"
 
 
 msgctxt "Operator"
@@ -44294,16 +44280,6 @@ msgid "API Concepts"
 msgstr "API Konzepte"
 
 
-msgctxt "Operator"
-msgid "Addon Guidelines"
-msgstr "Add-on-Richtlinien"
-
-
-msgctxt "Operator"
-msgid "How to share your addon"
-msgstr "Wie teile ich mein Add-on"
-
-
 msgid "Missing script files"
 msgstr "Fehlende Skriptdateien"
 
@@ -44400,21 +44376,6 @@ msgstr "Z Global"
 
 
 msgctxt "Operator"
-msgid "Selection to Grid"
-msgstr "Auswahl an Raster"
-
-
-msgctxt "Operator"
-msgid "Cursor to Center"
-msgstr "Cursor an Zentrum"
-
-
-msgctxt "Operator"
-msgid "Cursor to Grid"
-msgstr "Cursor an Raster"
-
-
-msgctxt "Operator"
 msgid "Cursor to Active"
 msgstr "Cursor an Aktivem"
 
@@ -44480,6 +44441,21 @@ msgstr "Links"
 
 
 msgctxt "Operator"
+msgid "Child"
+msgstr "Kind"
+
+
+msgctxt "Operator"
+msgid "Extend Parent"
+msgstr "Eltern erweitern"
+
+
+msgctxt "Operator"
+msgid "Extend Child"
+msgstr "Kinder erweitern"
+
+
+msgctxt "Operator"
 msgid "Random"
 msgstr "Zufällig"
 
@@ -44515,21 +44491,6 @@ msgstr "Beschränkungsziel"
 
 
 msgctxt "Operator"
-msgid "Child"
-msgstr "Kind"
-
-
-msgctxt "Operator"
-msgid "Extend Parent"
-msgstr "Eltern erweitern"
-
-
-msgctxt "Operator"
-msgid "Extend Child"
-msgstr "Kinder erweitern"
-
-
-msgctxt "Operator"
 msgid "Roots"
 msgstr "Wurzeln"
 
@@ -44540,6 +44501,11 @@ msgstr "Tipps"
 
 
 msgctxt "Operator"
+msgid "Interior Faces"
+msgstr "Innere Flächen"
+
+
+msgctxt "Operator"
 msgid "Sharp Edges"
 msgstr "Scharfe Kanten"
 
@@ -44547,11 +44513,6 @@ msgstr "Scharfe Kanten"
 msgctxt "Operator"
 msgid "Linked Flat Faces"
 msgstr "Flache Flächen verbinden"
-
-
-msgctxt "Operator"
-msgid "Interior Faces"
-msgstr "Innere Flächen"
 
 
 msgctxt "Operator"
@@ -44729,11 +44690,6 @@ msgstr "Totale Grenze"
 msgctxt "Operator"
 msgid "Fix Deforms"
 msgstr "Verformung fixieren"
-
-
-msgctxt "Operator"
-msgid "Show All"
-msgstr "Alles zeigen"
 
 
 msgctxt "Operator"
@@ -44949,16 +44905,6 @@ msgstr "Y Lokal"
 msgctxt "Operator"
 msgid "Z Local"
 msgstr "Z Lokal"
-
-
-msgctxt "Operator"
-msgid "Selection to Cursor"
-msgstr "Auswahl an Cursor"
-
-
-msgctxt "Operator"
-msgid "Selection to Cursor (Offset)"
-msgstr "Auswahl an Cursor (Versatz)"
 
 
 msgctxt "Operator"
@@ -46527,10 +46473,6 @@ msgid "Stop this job"
 msgstr "Diesen Auftrag stoppen"
 
 
-msgid "Progress"
-msgstr "Fortschritt"
-
-
 msgid "Stop screencast"
 msgstr "Bildschirmaufzeichnung beenden"
 
@@ -46999,10 +46941,6 @@ msgstr "Backen fehlgeschlagen: kein Dynamisch Malen-Modifikator gefunden"
 
 msgid "Bake failed: invalid canvas"
 msgstr "Backen fehlgeschlagen: ungültge Zeichenfläche"
-
-
-msgid "Baking canceled!"
-msgstr "Backen abgebrochen!"
 
 
 msgid "There should be only one domain object"
@@ -48834,10 +48772,6 @@ msgid "Cannot render, no camera"
 msgstr "Vertexgruppe aufräumen"
 
 
-msgid "No camera found in scene"
-msgstr "Keine Kamera in Szene gefunden"
-
-
 msgid "No border area selected"
 msgstr "Knotenauswahl"
 
@@ -48860,10 +48794,6 @@ msgstr "Umgebungstextur speichern"
 
 msgid "Error writing environment map"
 msgstr "Umgebungstextur"
-
-
-msgid "Error writing render result (see console)"
-msgstr "Fehler beim Schreiben des Renderergebnisses (siehe Konsole)"
 
 
 msgid "Paste name"
