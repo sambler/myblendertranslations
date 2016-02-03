@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
+"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-19 20:32:10\n"
+"POT-Creation-Date: 2016-02-02 20:42:40\n"
 "PO-Revision-Date: 2015-06-13 14:19+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: chinese-l10n <chinese-l10n@googlegroups.com>\n"
@@ -13113,6 +13113,10 @@ msgstr "平面修剪"
 
 msgid "If a vertex is further away from offset plane than this, then it is not affected"
 msgstr "如果頂點比這還要遠離偏移平面，那麼它就不會受到影響"
+
+
+msgid "Rake"
+msgstr "耙掠"
 
 
 msgid "Rate"
@@ -33416,6 +33420,10 @@ msgid "Select similar bones by property types"
 msgstr "依屬性類型選取相似的骨骼"
 
 
+msgid "Siblings"
+msgstr "手足代"
+
+
 msgid "Direction (Y axis)"
 msgstr "方向 (Y 軸)"
 
@@ -34696,10 +34704,6 @@ msgstr "追蹤標記"
 
 msgid "Track selected markers"
 msgstr "追蹤所選的標記"
-
-
-msgid "Movie Clip to be tracked"
-msgstr "無法追蹤影片剪輯"
 
 
 msgid "Track Sequence"
@@ -37356,6 +37360,10 @@ msgstr "切換選取"
 
 msgid "Toggle the selection"
 msgstr "切換選取"
+
+
+msgid "Shared layers"
+msgstr "共享層"
 
 
 msgctxt "Operator"
@@ -43776,20 +43784,12 @@ msgid "Immediate Children"
 msgstr "立即子代"
 
 
-msgid "Siblings"
-msgstr "手足代"
-
-
 msgid "Shared Parent"
 msgstr "共享的親代"
 
 
 msgid "Shared object type"
 msgstr "共享的物體類型"
-
-
-msgid "Shared layers"
-msgstr "共享層"
 
 
 msgid "Shared group"
@@ -62883,10 +62883,6 @@ msgid "Quad View Regions"
 msgstr "四視圖區塊"
 
 
-msgid "3D regions (the third one defines quad view settings, the forth one is same as 'region_3d')"
-msgstr "3D 區塊 (第三項定義四視圖設定，第四項則與「region_3d」相同)"
-
-
 msgid "All Object Origins"
 msgstr "所有物體原點"
 
@@ -63593,10 +63589,6 @@ msgstr "有紋理角度來源"
 
 msgid "Tiled"
 msgstr "鋪排"
-
-
-msgid "Rake"
-msgstr "耙掠"
 
 
 msgid "Lamp Texture Slot"
@@ -66133,10 +66125,6 @@ msgstr "指派給非變形骨骼的頂點群組"
 
 msgid "Mask Non-Group Vertices"
 msgstr "遮罩無群組頂點"
-
-
-msgid "Display unweighted vertices (multi-paint overrides)"
-msgstr "顯示未加權重的頂點 (多繪製凌駕)"
 
 
 msgid "Show vertices with no weights in the active group"

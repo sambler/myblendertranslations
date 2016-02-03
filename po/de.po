@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
+"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-19 20:32:10\n"
+"POT-Creation-Date: 2016-02-02 20:42:40\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Reininger <martinreininger@gmx.net>\n"
 "Language-Team: German translation team\n"
@@ -8959,6 +8959,10 @@ msgstr "Flächenversatz"
 
 msgid "Plane Trim"
 msgstr "Fläche trimmen"
+
+
+msgid "Rake"
+msgstr "Rechen"
 
 
 msgid "Rate"
@@ -20437,6 +20441,10 @@ msgid "Select Similar"
 msgstr "Ähnliche auswählen"
 
 
+msgid "Siblings"
+msgstr "Geschwister"
+
+
 msgid "Direction (Y axis)"
 msgstr "Richtung (Y-Achse)"
 
@@ -22866,6 +22874,10 @@ msgstr "Auswählbar ein/aus"
 
 msgid "Toggle the selection"
 msgstr "Auswählbar ein/aus"
+
+
+msgid "Shared layers"
+msgstr "Gemeinsame Ebenen"
 
 
 msgctxt "Operator"
@@ -26825,20 +26837,12 @@ msgid "Immediate Children"
 msgstr "Unmittelbare Kinder"
 
 
-msgid "Siblings"
-msgstr "Geschwister"
-
-
 msgid "Shared Parent"
 msgstr "Gemeinsamer Elternteil"
 
 
 msgid "Shared object type"
 msgstr "Gemeinsamer Objekttyp"
-
-
-msgid "Shared layers"
-msgstr "Gemeinsame Ebenen"
 
 
 msgid "Shared group"
@@ -37841,10 +37845,6 @@ msgstr "Hat Texturwinkelquelle"
 
 msgid "Tiled"
 msgstr "Gekachelt"
-
-
-msgid "Rake"
-msgstr "Rechen"
 
 
 msgid "Lamp Texture Slot"

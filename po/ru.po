@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
+"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-19 20:32:10\n"
+"POT-Creation-Date: 2016-02-02 20:42:40\n"
 "PO-Revision-Date: 2015-06-08 11:49+0300\n"
 "Last-Translator: Lockal S <lockalsash@gmail.com>\n"
 "Language-Team: Russian <http://translateblender.ru/projects/blender/blender/ru/>\n"
@@ -13162,6 +13162,10 @@ msgstr "Усечение плоскости"
 
 msgid "If a vertex is further away from offset plane than this, then it is not affected"
 msgstr "Если вершина находится на большем расстоянии от плоскости смещения, чем это значение, она не затрагивается"
+
+
+msgid "Rake"
+msgstr "Грабли"
 
 
 msgid "Rate"
@@ -34910,6 +34914,10 @@ msgid "Select similar bones by property types"
 msgstr "Выбрать похожие кости по типам свойств"
 
 
+msgid "Siblings"
+msgstr "С общим родителем"
+
+
 msgid "Direction (Y axis)"
 msgstr "Направление (ось Y)"
 
@@ -36275,10 +36283,6 @@ msgstr "Отследить маркеры"
 
 msgid "Track selected markers"
 msgstr "Отследить выделенные маркеры"
-
-
-msgid "Movie Clip to be tracked"
-msgstr "Видеофрагмент для отслеживания"
 
 
 msgid "Track Sequence"
@@ -39246,6 +39250,10 @@ msgstr "Выделить штрихи эскизного карандаша в �
 
 msgid "Select Grease Pencil strokes using brush selection"
 msgstr "Выделить штрихи эскизного карандаша, используя кисть выделения"
+
+
+msgid "Shared layers"
+msgstr "Общие слои"
 
 
 msgctxt "Operator"
@@ -46342,20 +46350,12 @@ msgid "Immediate Children"
 msgstr "Непосредственные потомки"
 
 
-msgid "Siblings"
-msgstr "С общим родителем"
-
-
 msgid "Shared Parent"
 msgstr "С общим родителем"
 
 
 msgid "Shared object type"
 msgstr "Тип общего объекта"
-
-
-msgid "Shared layers"
-msgstr "Общие слои"
 
 
 msgid "Shared group"
@@ -66758,10 +66758,6 @@ msgid "Quad View Regions"
 msgstr "Регионы просмотра с 4-х видов"
 
 
-msgid "3D regions (the third one defines quad view settings, the forth one is same as 'region_3d')"
-msgstr "3D-регионы (третье значение определяет параметры просмотра с четырёх видов, четвёртое значение совпадает с «region_3d»)"
-
-
 msgid "All Object Origins"
 msgstr "Опорные точки всех объектов"
 
@@ -67484,10 +67480,6 @@ msgstr "Случайный угол"
 
 msgid "Brush texture random angle"
 msgstr "Случайный угол текстуры кисти"
-
-
-msgid "Rake"
-msgstr "Грабли"
 
 
 msgid "Lamp Texture Slot"
@@ -70136,10 +70128,6 @@ msgstr "Группы вершин, назначенные на недеформ�
 
 msgid "Mask Non-Group Vertices"
 msgstr "Маскировать вершины вне группы"
-
-
-msgid "Display unweighted vertices (multi-paint overrides)"
-msgstr "Отображать вершины без весов (с перезаписью при мультирисовании)"
 
 
 msgid "Show vertices with no weights in the active group"
@@ -83602,10 +83590,6 @@ msgstr "Невозможно восстановить некоторые дан�
 
 msgid "Average re-projection error: %.3f"
 msgstr "Средняя ошибка перепроецирования: %.3f"
-
-
-msgid "Invoking this operator only supported from Clip Editor space"
-msgstr "Этот оператор можно запустить только в пространстве редактора видеофрагментов"
 
 
 msgid "Cancel"

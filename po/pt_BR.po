@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
+"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-19 20:32:10\n"
+"POT-Creation-Date: 2016-02-02 20:42:40\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Ivan paulos Tomé <ivan.paulos.tome@gmail.com>\n"
 "Language-Team: Ivan Paulos Tomé, Dalai Felinto, Bruno Gonçalves Pirajá, Samuel Arataca, Daniel Tavares, Moraes Junior <greylica@gmail.com>\n"
@@ -2869,6 +2869,14 @@ msgid "Bake the normals in tangent space"
 msgstr "Gera e grava as normais no espaço da tangente"
 
 
+msgid "Pass Filter"
+msgstr "Filtro de passos"
+
+
+msgid "Passes to include in the active baking pass"
+msgstr "Passos para incluir nos passos ativos de geração e gravação"
+
+
 msgid "Emit"
 msgstr "Emissão"
 
@@ -2951,6 +2959,42 @@ msgstr "Limpa as imagens antes de gerar e gravar (somente internamente)"
 
 msgid "AO"
 msgstr "Oclusão ambiente"
+
+
+msgid "Add ambient occlusion contribution"
+msgstr "Adiciona as contribuições da oclusão ambiente"
+
+
+msgid "Color the pass"
+msgstr "Colorizar passos"
+
+
+msgid "Add diffuse contribution"
+msgstr "Adiciona as contribuições das cores difusas"
+
+
+msgid "Add direct lighting contribution"
+msgstr "Adiciona as contribuições das iluminações diretas"
+
+
+msgid "Add emission contribution"
+msgstr "Adiciona as contribuições das emissões"
+
+
+msgid "Add glossy contribution"
+msgstr "Adiciona as contribuições dos polimentos"
+
+
+msgid "Add indirect lighting contribution"
+msgstr "Adiciona as contribuições da iluminações indiretas"
+
+
+msgid "Add subsurface contribution"
+msgstr "Adiciona as contribuições das subdivisões de superfície"
+
+
+msgid "Add transmission contribution"
+msgstr "Adiciona as contribuições das transmissões"
 
 
 msgid "Selected to Active"
@@ -4058,7 +4102,7 @@ msgstr "Multiplicar o grupo de vértices com o envelope"
 
 
 msgid "When deforming bone, multiply effects of Vertex Group weights with Envelope influence"
-msgstr "Quando estiver deformando o osso, multiplicar os efeitos dos pesos dos grupos de vértices com a influência do envelope"
+msgstr "Durante as deformações de ossos, multiplica os efeitos dos pesos dos grupos de vértices com a influência do envelope"
 
 
 msgid "Inherit Rotation"
@@ -13634,6 +13678,14 @@ msgid "If a vertex is further away from offset plane than this, then it is not a
 msgstr "Caso um vértice esteja mais distante que isso do plano de deslocamento, então não será afetado"
 
 
+msgid "Rake"
+msgstr "Alisar"
+
+
+msgid "How much grab will follow cursor rotation"
+msgstr "Permite definir quanto a operação de agarrar seguirá a rotação do cursor"
+
+
 msgid "Rate"
 msgstr "Taxa"
 
@@ -13871,7 +13923,7 @@ msgstr "Divide o espaço entre as crostas de acordo com a orientação de superf
 
 
 msgid "When this is disabled, lock alpha while painting"
-msgstr "Quando isso está desabilitado, trava o alfa durante a pintura"
+msgstr "Caso esta opção esteja desabilitada, impede modificações do alfa durante a pintura"
 
 
 msgid "Use Cursor Overlay"
@@ -22650,7 +22702,7 @@ msgstr "Salva os canais combinados de luminância, crominância e crominância a
 
 
 msgid "When rendering animations, save JPG preview images in same directory"
-msgstr "Quando renderiza animações, salvar imagens de pré-visualização em JPG no mesmo diretório"
+msgstr "Durante a renderização das animações, salva imagens de pré-visualização em formato JPG no mesmo diretório"
 
 
 msgid "Z Buffer"
@@ -28484,6 +28536,10 @@ msgstr "Copia a partir de malhas topologicamente idênticas"
 
 msgid "Nearest Vertices"
 msgstr "Vértices mais próximos"
+
+
+msgid "Copy from most similar edge (edge which vertices are the closest of destination edge's ones)"
+msgstr "Copia a partir das arestas com maior similaridade (as arestas cujos vértices estão mais próximos daqueles presentes nas arestas de destinação)"
 
 
 msgid "Nearest Edge"
@@ -36961,6 +37017,10 @@ msgid "Select similar bones by property types"
 msgstr "Seleciona os ossos similares pelos tipos de propriedades"
 
 
+msgid "Siblings"
+msgstr "Similares"
+
+
 msgid "Direction (Y axis)"
 msgstr "Direção (eixo Y)"
 
@@ -37223,7 +37283,7 @@ msgstr "Aspecto de imagem"
 
 
 msgid "When using an image texture, adjust the stencil size to fit the image aspect ratio"
-msgstr "Quando estiver usando uma textura de imagem, ajustar o tamanho do estêncil para se encaixar na proporção de aspecto da imagem"
+msgstr "Durante a utilização de texturas de imagem, ajusta o tamanho do estêncil para se encaixar na proporção de aspecto da imagem"
 
 
 msgid "Modify Mask Stencil"
@@ -38330,10 +38390,6 @@ msgstr "Rastrear marcadores"
 
 msgid "Track selected markers"
 msgstr "Rastreia os marcadores selecionados"
-
-
-msgid "Movie Clip to be tracked"
-msgstr "Clipe de filme para ser rastreado"
 
 
 msgid "Track Sequence"
@@ -41483,6 +41539,14 @@ msgstr "Permite selecionar os traços de lápis de cera através do desenho de u
 
 msgid "Select Grease Pencil strokes using brush selection"
 msgstr "Permite selecionar os traços de lápis de cera usando um círculo para a pintura de abrangência"
+
+
+msgid "Select all strokes with similar characteristics"
+msgstr "Seleciona todos os traços com características similares"
+
+
+msgid "Shared layers"
+msgstr "Camadas compartilhadas"
 
 
 msgctxt "Operator"
@@ -47361,6 +47425,10 @@ msgid "Vertical dimension of the baking map (external only)"
 msgstr "Dimensão vertical do mapa gerado e gravado (somente externamente)"
 
 
+msgid "Filter to combined, diffuse, glossy, transmission and subsurface passes"
+msgstr "Filtro para os passos difuso, polido, transmissão, subdivisão de superfícies e combinado"
+
+
 msgid "Type of pass to bake, some of them may not be supported by the current render engine"
 msgstr "Tipo de passo para gerar e gravar, alguns deles podem não ser suportados pelo motor de renderização atual"
 
@@ -48859,20 +48927,12 @@ msgid "Immediate Children"
 msgstr "Crianças mais imediatas"
 
 
-msgid "Siblings"
-msgstr "Similares"
-
-
 msgid "Shared Parent"
 msgstr "Parentes compartilhados"
 
 
 msgid "Shared object type"
 msgstr "Tipos de objetos compartilhados"
-
-
-msgid "Shared layers"
-msgstr "Camadas compartilhadas"
 
 
 msgid "Shared group"
@@ -51749,7 +51809,7 @@ msgstr "Usar a porta de visão 3D"
 
 
 msgid "When inside a 3D viewport, use layers and camera of the viewport"
-msgstr "Quando dentro de uma porta de visão 3D, use as camadas e a câmera da porta de visão"
+msgstr "Quando o cursor estiver localizado dentro de uma porta de visão 3D, usa as camadas e a câmera da porta de visão"
 
 
 msgctxt "Operator"
@@ -53568,6 +53628,10 @@ msgid "White Balance"
 msgstr "Balanço dos tons brancos"
 
 
+msgid "Tone Map"
+msgstr "Mapa de tonalidades"
+
+
 msgctxt "Operator"
 msgid "Copy to Selected Strips"
 msgstr "Copiar para as faixas selecionadas"
@@ -54277,7 +54341,7 @@ msgstr "Resolver conflitos"
 
 
 msgid "When external text is out of sync, resolve the conflict"
-msgstr "Quando o texto externo estiver fora de sincronismo, resolver o conflito"
+msgstr "Quando o texto externo estiver fora de sincronismo, resolve os conflitos de temporização"
 
 
 msgid "How to solve conflict due to differences in internal and external text"
@@ -60998,7 +61062,7 @@ msgstr "Volume homogêneo"
 
 
 msgid "When using volume rendering, assume volume has the same density everywhere (not using any textures), for faster rendering"
-msgstr "Quando usar renderização de volume, assumir que o volume possui a mesma densidade em qualquer lugar (sem usar quaisquer texturas), para uma renderização mais rápida"
+msgstr "Durante o uso de renderização de volumes, assume que o volume possui a mesma densidade em qualquer lugar (sem usar quaisquer texturas), para uma renderização mais rápida"
 
 
 msgid "Use multiple importance sampling for this material, disabling may reduce overall noise for large objects that emit little light compared to other light sources"
@@ -61255,6 +61319,10 @@ msgstr "SSE 4.1"
 
 msgid "Debug OpenCL"
 msgstr "Depurar OpenCL"
+
+
+msgid "QBVH"
+msgstr "QBVH"
 
 
 msgid "Use Spatial Splits"
@@ -61786,7 +61854,7 @@ msgstr "Visibilidade de objetos para os raios de transmissão"
 
 
 msgid "When using volume rendering, assume volume has the same density everywhere(not using any textures), for faster rendering"
-msgstr "Quando usar renderização de volumes, assume que os volumes possuem a mesma densidade em qualquer lugar (sem usar quaisquer texturas), para uma renderização mais rápida"
+msgstr "Durante o uso de renderização de volumes, assume que os volumes possuem a mesma densidade em qualquer lugar (sem usar quaisquer texturas), para uma renderização mais rápida"
 
 
 msgid "Maximum number of bounces the background light will contribute to the render"
@@ -65114,6 +65182,10 @@ msgid "Has Plane Offset"
 msgstr "Possui deslocamento de plano"
 
 
+msgid "Has Rake Factor"
+msgstr "Possui fator de alisamento"
+
+
 msgid "Has Sculpt Plane"
 msgstr "Possui plano de escultura"
 
@@ -67229,6 +67301,22 @@ msgid "Use mask ID as mask input"
 msgstr "Usa o identificador de máscara como entrada de máscara"
 
 
+msgid "Mask Time"
+msgstr "Tempo de máscara"
+
+
+msgid "Time to use for the Mask animation"
+msgstr "O tempo a ser usado para a animação da máscara"
+
+
+msgid "Mask animation is offset to start of strip"
+msgstr "A animação de máscara é um deslocamento para o início da faixa"
+
+
+msgid "Mask animation is in sync with scene frame"
+msgstr "A animação de máscara está em sincronismo com os quadros da cena"
+
+
 msgid "Mute this modifier"
 msgstr "Tornar mudo este modificador"
 
@@ -67259,6 +67347,10 @@ msgstr "Mapeamento de curva"
 
 msgid "Hue correction modifier for sequence strip"
 msgstr "Modificador de correção de matiz para faixa de sequência"
+
+
+msgid "Tone mapping modifier"
+msgstr "Modificador de mapa de tonalidades"
 
 
 msgid "White balance modifier for sequence strip"
@@ -67505,6 +67597,14 @@ msgid "Speed of the burning reaction (use larger values for smaller flame)"
 msgstr "Velocidade da reação de queima (use valores maiores para chamas menores)"
 
 
+msgid "Select the file format to be used for caching"
+msgstr "Permite selecionar o formato de arquivos para ser usado como cache"
+
+
+msgid "Blender specific point cache file format"
+msgstr "O formato específico de arquivos de cache de pontos Blender"
+
+
 msgid "Border Collisions"
 msgstr "Margens de colisão"
 
@@ -67539,6 +67639,30 @@ msgstr "Limita as colisões a este grupo"
 
 msgid "Smoke color grid"
 msgstr "A grade de cores para fumaça"
+
+
+msgid "Data Depth"
+msgstr "Profundidade de dados"
+
+
+msgid "Bit depth for writing all scalar (including vector) lower values reduce file size"
+msgstr "A profundidade de bits para definir a escala da escrita de todos os valores (incluindo os vetores). Valores mais baixos reduzem o tamanho dos arquivos."
+
+
+msgid "Float (Half)"
+msgstr "Flutuante (Parcial)"
+
+
+msgid "Half float (16 bit data)"
+msgstr "Ponto flutuante parcial (dados de 16 bits)"
+
+
+msgid "Float (Full)"
+msgstr "Flutuante (Pleno)"
+
+
+msgid "Full float (32 bit data)"
+msgstr "Ponto flutuante pleno (dados de 32 bits)"
 
 
 msgid "Density Grid"
@@ -67627,6 +67751,14 @@ msgstr "Pequena ondulação"
 
 msgid "FFT"
 msgstr "Transformada rápida de Fourier"
+
+
+msgid "Zip"
+msgstr "Zip"
+
+
+msgid "Do not use any compression"
+msgstr "Não utiliza qualquer compressão"
 
 
 msgid "Max Res"
@@ -70070,10 +70202,6 @@ msgid "Quad View Regions"
 msgstr "Regiões de visualização em quatro vistas"
 
 
-msgid "3D regions (the third one defines quad view settings, the forth one is same as 'region_3d')"
-msgstr "Regiões 3D (a terceira dentre elas define as configurações de visualização em quatro vistas, a quarta é o mesmo que 'region_3D')"
-
-
 msgid "All Object Origins"
 msgstr "Todas as origens dos objetos"
 
@@ -70808,10 +70936,6 @@ msgstr "Ângulos aleatórios"
 
 msgid "Brush texture random angle"
 msgstr "Define o uso de ângulos aleatórios para a textura do pincel"
-
-
-msgid "Rake"
-msgstr "Alisar"
 
 
 msgid "Lamp Texture Slot"
@@ -73346,6 +73470,10 @@ msgid "WPaint Multi-Paint"
 msgstr "Pintura múltipla para pintura de pesos"
 
 
+msgid "Paint across the weights of all selected bones, maintaining their relative influence"
+msgstr "Pinta sobre os pesos de todos os ossos selecionados, mantendo a sua influência relativa"
+
+
 msgid "Proportional Editing Actions"
 msgstr "Edição proporcional para ações"
 
@@ -73526,8 +73654,8 @@ msgid "Mask Non-Group Vertices"
 msgstr "Mascarar os vértices não agrupados"
 
 
-msgid "Display unweighted vertices (multi-paint overrides)"
-msgstr "Mostra os vértices sem pesos (despreza as múltiplas pinturas)"
+msgid "Display unweighted vertices"
+msgstr "Mostra os vértices sem pesos de influência"
 
 
 msgid "Show vertices with no weights in the active group"
@@ -73879,7 +74007,7 @@ msgstr "Alinhar objetos para"
 
 
 msgid "When adding objects from a 3D View menu, either align them with that view or with the world"
-msgstr "Quando adicionar objetos a partir do menu da janela de visualização 3D, ou alinhá-los com a vista ou com o ambiente (mundo)"
+msgstr "Durante as adições de objetos a partir do menu da janela de visualização 3D, define se os alinha com a vista ou com o ambiente (mundo)"
 
 
 msgid "Align newly added objects to the world coordinate system"
@@ -75527,7 +75655,7 @@ msgstr "Travar câmera ao parente"
 
 
 msgid "When the camera is locked to the view and in fly mode, transform the parent rather than the camera"
-msgstr "Quando a câmera está travada para a visão e em modo de voo, transformar o parente ao invés da câmera. "
+msgstr "Quando a câmera está travada para a visão e em modo de voo, transforma o parente ao invés da câmera. "
 
 
 msgid "Contents Follow Opening Direction"
@@ -76798,6 +76926,14 @@ msgstr "Tipo:"
 
 msgid "Curve subdivisions"
 msgstr "Subdivisões de curvas"
+
+
+msgid "Combined Settings:"
+msgstr "Configurações combinadas:"
+
+
+msgid "{0} Settings:"
+msgstr "Configurações {0} :"
 
 
 msgid "The BVH file does not contain frame duration in its MOTION section, assuming the BVH and Blender scene have the same frame rate"
@@ -79609,12 +79745,20 @@ msgid "Behavior:"
 msgstr "Comportamento:"
 
 
+msgid "Data Depth:"
+msgstr "Profundidade de dados:"
+
+
 msgid "Flow Source:"
 msgstr "Fonte de fluxo:"
 
 
 msgid "Initial Values:"
 msgstr "Valores iniciais:"
+
+
+msgid "Built without OpenVDB support"
+msgstr "Construído sem suporte a OpenVDB"
 
 
 msgid "Particle System:"
@@ -83833,6 +83977,11 @@ msgid "Bright/Contrast"
 msgstr "Brilho e contraste"
 
 
+msgctxt "Sequence"
+msgid "Tonemap"
+msgstr "Mapa de tonalidades"
+
+
 msgid "Strips must be the same length"
 msgstr "Faixas devem possuir o mesmo comprimento"
 
@@ -84433,6 +84582,10 @@ msgstr "Sem exclusão do quadro-chave para a curva-f bloqueada '%s' para %s '%s'
 
 msgid "Could not clear keyframe, as RNA path is invalid for the given ID (ID = %s, path = %s)"
 msgstr "Não é possível limpar o quadro-chave, pois o caminho RNA é inválido para o identificador fornecido (ID = %s, Path = %s)"
+
+
+msgid "Not clearing all keyframes from locked F-Curve '%s' for %s '%s'"
+msgstr "Não é possível a limpeza de todos os quadros-chave a partir da curva-f bloqueada '%s' para %s '%s'"
 
 
 msgid "Keying set '%s' - successfully added %d keyframes"
@@ -86125,6 +86278,18 @@ msgid "No valid images found to bake to"
 msgstr "Sem imagens válidas para as quais gerar e gravar"
 
 
+msgid "Combined bake pass Ambient Occlusion contribution requires an enabled light pass (bake the Ambient Occlusion pass type instead)"
+msgstr "A contribuição da geração e gravação do passo de oclusão ambiente para o combinado requer a habilitação de passos de iluminação (ao invés disso, tente gerar e gravar a oclusão ambiente)"
+
+
+msgid "Combined bake pass requires Emit, or a light pass with Direct or Indirect contributions enabled"
+msgstr "O passo de geração e gravação do combinado requer que as contribuições dos passos de emissão ou iluminação com contribuições diretas ou indiretas estejam habilitados "
+
+
+msgid "Bake pass requires Direct, Indirect, or Color contributions to be enabled"
+msgstr "Os passos de geração e gravação requerem que as contribuições diretas, indiretas ou de cores estejam habilitadas"
+
+
 msgid "No valid selected objects"
 msgstr "Sem objetos válidos selecionados"
 
@@ -87129,6 +87294,10 @@ msgid "Mirror group is locked, aborting"
 msgstr "O grupo de espelhamento está bloqueado, abortando"
 
 
+msgid "Multipaint group is locked, aborting"
+msgstr "O grupo de múltipla pintura está bloqueado, abortando"
+
+
 msgid "Warning!"
 msgstr "Aviso !"
 
@@ -87399,10 +87568,6 @@ msgstr "Alguns dados falharam na reconstrução (veja o console para detalhes)"
 
 msgid "Average re-projection error: %.3f"
 msgstr "Média de erro de re-projeção %.3f"
-
-
-msgid "Invoking this operator only supported from Clip Editor space"
-msgstr "A chamada deste operador é somente suportada a partir do espaço do editor de clipes"
 
 
 msgid "Parent Directory"

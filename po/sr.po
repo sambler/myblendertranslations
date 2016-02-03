@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
+"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-19 20:32:10\n"
+"POT-Creation-Date: 2016-02-02 20:42:40\n"
 "PO-Revision-Date: 2012-09-07 22:32+0100\n"
 "Last-Translator: Nikola Radovanovic <cobisimo@gmail.com>\n"
 "Language-Team: Nikola Radovanovic\n"
@@ -7256,6 +7256,10 @@ msgstr "Слот маске текстуре"
 
 msgid "Mask Tool"
 msgstr "Алатке маске"
+
+
+msgid "Rake"
+msgstr "Грабуље"
 
 
 msgid "Rate"
@@ -16872,6 +16876,10 @@ msgid "Select similar bones by property types"
 msgstr "Изабери сличне кости по врсти особине"
 
 
+msgid "Siblings"
+msgstr "Сродници"
+
+
 msgid "Direction (Y axis)"
 msgstr "Смер (Y оса)"
 
@@ -19336,6 +19344,10 @@ msgstr "Бира потезе скице у оквиру правоугаоно�
 
 msgid "Select Grease Pencil strokes using brush selection"
 msgstr "Бира потезе скице користећи избор четкицом"
+
+
+msgid "Shared layers"
+msgstr "Дељени слојеви"
 
 
 msgctxt "Operator"
@@ -22670,20 +22682,12 @@ msgid "Immediate Children"
 msgstr "Непосредни наследници"
 
 
-msgid "Siblings"
-msgstr "Сродници"
-
-
 msgid "Shared Parent"
 msgstr "Дељени родитељ"
 
 
 msgid "Shared object type"
 msgstr "Дељена врста објекта"
-
-
-msgid "Shared layers"
-msgstr "Дељени слојеви"
 
 
 msgid "Shared group"
@@ -31805,10 +31809,6 @@ msgstr "Слот текстуре четкице"
 
 msgid "Tiled"
 msgstr "Поплочано"
-
-
-msgid "Rake"
-msgstr "Грабуље"
 
 
 msgid "Shadow Factor"

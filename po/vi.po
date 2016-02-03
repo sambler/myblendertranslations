@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
+"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-19 20:32:10\n"
+"POT-Creation-Date: 2016-02-02 20:42:40\n"
 "PO-Revision-Date: 2015-04-13 10:11+0700\n"
 "Last-Translator: HỒ NHỰT CHÂU <su_huynh@yahoo.com>\n"
 "Language-Team: Tỉnh An Giang, Đình Bình Phú\n"
@@ -13631,6 +13631,10 @@ msgstr "Cắt Mặt Phẳng"
 
 msgid "If a vertex is further away from offset plane than this, then it is not affected"
 msgstr "Các đỉnh xa hơn dịch mặt phẳng này, nó không bị ảnh hưởng"
+
+
+msgid "Rake"
+msgstr "Càu"
 
 
 msgid "Rate"
@@ -36960,6 +36964,10 @@ msgid "Select similar bones by property types"
 msgstr "Chọn xươgn giống tùy loại đặc trưng"
 
 
+msgid "Siblings"
+msgstr "Anh chị em"
+
+
 msgid "Direction (Y axis)"
 msgstr "Hướng (trục Y)"
 
@@ -38329,10 +38337,6 @@ msgstr "Đuổi Theo Ký Hiệu"
 
 msgid "Track selected markers"
 msgstr "Đuổi theo ký hiệu được chọn"
-
-
-msgid "Movie Clip to be tracked"
-msgstr "Đoạn Phim Cho Đuổi Theo"
 
 
 msgid "Track Sequence"
@@ -41482,6 +41486,10 @@ msgstr "Chọn nét Bút sáp trong vùng chữ nhật"
 
 msgid "Select Grease Pencil strokes using brush selection"
 msgstr "Chọn nét Bút Sáp xài lựa chọn bút"
+
+
+msgid "Shared layers"
+msgstr "Lớp chia sẻ"
 
 
 msgctxt "Operator"
@@ -48858,20 +48866,12 @@ msgid "Immediate Children"
 msgstr "Con Ruột"
 
 
-msgid "Siblings"
-msgstr "Anh chị em"
-
-
 msgid "Shared Parent"
 msgstr "Cùng Phụ Huynh"
 
 
 msgid "Shared object type"
 msgstr "Cũnh lọai"
-
-
-msgid "Shared layers"
-msgstr "Lớp chia sẻ"
 
 
 msgid "Shared group"
@@ -70069,10 +70069,6 @@ msgid "Quad View Regions"
 msgstr "Vùng Tư Màn"
 
 
-msgid "3D regions (the third one defines quad view settings, the forth one is same as 'region_3d')"
-msgstr "Vùng 3 chiều (thứ ba được xác định đặc trưng tư màn, thứ tư cùng giống 'region_3d' (vùng_3c))"
-
-
 msgid "All Object Origins"
 msgstr "Gốc Cho Vật Thể"
 
@@ -70807,10 +70803,6 @@ msgstr "Góc Ngẫu Nhiên"
 
 msgid "Brush texture random angle"
 msgstr "Góc ngẫu nhiên của họa tiết bút"
-
-
-msgid "Rake"
-msgstr "Càu"
 
 
 msgid "Lamp Texture Slot"
@@ -73523,10 +73515,6 @@ msgstr "Nhóm Đỉnh chỉ định cho Xương Không Méo"
 
 msgid "Mask Non-Group Vertices"
 msgstr "Mặt Nạ đỉnh Không Thuộc Nhóm Nào"
-
-
-msgid "Display unweighted vertices (multi-paint overrides)"
-msgstr "Chiếu đỉnh không có quyền lượng (đa-sơn không theo này)"
 
 
 msgid "Show vertices with no weights in the active group"
@@ -87382,10 +87370,6 @@ msgstr "Xây đựng lại một phần của dữ liệu đã bị thất bại
 
 msgid "Average re-projection error: %.3f"
 msgstr "Sai lầm chiếu lại trung bình: %.3f"
-
-
-msgid "Invoking this operator only supported from Clip Editor space"
-msgstr "Chỉ không gian Soạn Thảo Đoạn Phim được hỗ trợ thực hành thao tác này"
 
 
 msgid "Parent Directory"

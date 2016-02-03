@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 8) (b'aeaa0ce')\n"
+"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-19 20:32:10\n"
+"POT-Creation-Date: 2016-02-02 20:42:40\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Bastien Montagne <montagne29@wanadoo.fr>\n"
 "Language-Team: \n"
@@ -13675,6 +13675,14 @@ msgstr "Ajustage de plan (?)"
 
 msgid "If a vertex is further away from offset plane than this, then it is not affected"
 msgstr "Si un vertex est plus éloigné du plan de décalage que cela, alors il n’est pas affecté"
+
+
+msgid "Rake"
+msgstr "Ratisser (?)"
+
+
+msgid "How much grab will follow cursor rotation"
+msgstr "À quel point “attraper” va suivre la rotation du curseur"
 
 
 msgid "Rate"
@@ -37008,6 +37016,14 @@ msgid "Select similar bones by property types"
 msgstr "Sélectionner les os similaires d’après les types de propriétés"
 
 
+msgid "Immediate children"
+msgstr "Enfants immédiats"
+
+
+msgid "Siblings"
+msgstr "Frères"
+
+
 msgid "Direction (Y axis)"
 msgstr "Direction (axe Y)"
 
@@ -38379,10 +38395,6 @@ msgid "Track selected markers"
 msgstr "Suivre les marqueurs sélectionnés"
 
 
-msgid "Movie Clip to be tracked"
-msgstr "Clip vidéo à traquer"
-
-
 msgid "Track Sequence"
 msgstr "Suivre séquence"
 
@@ -39719,6 +39731,15 @@ msgstr "Euler (ZYX)"
 
 msgid "Convert rotations to euler ZYX"
 msgstr "Convertir la rotation en Euler ZYX"
+
+
+msgctxt "Operator"
+msgid "Pack Blend to Archive"
+msgstr "Empaqueter .blend en archive"
+
+
+msgid "Packs a blend file and all its dependencies into an archive for easy redistribution"
+msgstr "Empaquette un fichier .blend et toutes ses dépendances dans une archive, pour faciliter sa redistribution"
 
 
 msgctxt "Operator"
@@ -41530,6 +41551,14 @@ msgstr "Sélectionner les traits de crayon gras au sein d’une région rectangu
 
 msgid "Select Grease Pencil strokes using brush selection"
 msgstr "Sélectionner les traits de crayon gras avec un pinceau"
+
+
+msgid "Select all strokes with similar characteristics"
+msgstr "Sélectionner tous les traits ayant des caractéristiques similaires"
+
+
+msgid "Shared layers"
+msgstr "Calques partagés"
 
 
 msgctxt "Operator"
@@ -48910,20 +48939,12 @@ msgid "Immediate Children"
 msgstr "Enfants immédiats"
 
 
-msgid "Siblings"
-msgstr "Frères"
-
-
 msgid "Shared Parent"
 msgstr "Parent partagé"
 
 
 msgid "Shared object type"
 msgstr "Type d’objet partagé"
-
-
-msgid "Shared layers"
-msgstr "Calques partagés"
 
 
 msgid "Shared group"
@@ -53630,6 +53651,18 @@ msgstr "Copier vers bandes sélectionnées"
 
 msgid "Copy modifiers of the active strip to all selected strips"
 msgstr "Copier les modificateurs de la bande active vers toutes les bandes sélectionnées"
+
+
+msgid "Replace modifiers in destination"
+msgstr "Remplacer les modificateurs dans la destination"
+
+
+msgid "Append"
+msgstr "Ajouter"
+
+
+msgid "Append active modifiers to selected strips"
+msgstr "Ajouter les modificateurs actifs aux bandes sélectionnées"
 
 
 msgctxt "Operator"
@@ -65173,6 +65206,10 @@ msgid "Has Plane Offset"
 msgstr "A décalage de plan"
 
 
+msgid "Has Rake Factor"
+msgstr "A facteur de ratissage (?)"
+
+
 msgid "Has Sculpt Plane"
 msgstr "A plan de sculpture"
 
@@ -67288,6 +67325,22 @@ msgid "Use mask ID as mask input"
 msgstr "Utiliser le masque ID comme entrée de masque"
 
 
+msgid "Mask Time"
+msgstr "Temps du masque"
+
+
+msgid "Time to use for the Mask animation"
+msgstr "Temps à utiliser pour l’animation du masque"
+
+
+msgid "Mask animation is offset to start of strip"
+msgstr "L’animation du masque est décalée au début de la bande"
+
+
+msgid "Mask animation is in sync with scene frame"
+msgstr "L’animation du masque est synchrone avec la scène"
+
+
 msgid "Mute this modifier"
 msgstr "Rendre muet ce modificateur"
 
@@ -67568,6 +67621,14 @@ msgid "Speed of the burning reaction (use larger values for smaller flame)"
 msgstr "Vitesse de la réaction de combustion (utiliser de plus fortes valeurs pour des flammes plus petites)"
 
 
+msgid "Select the file format to be used for caching"
+msgstr "Sélectionner le format de fichier à utiliser pour la mise en cache"
+
+
+msgid "Blender specific point cache file format"
+msgstr "Format de fichier de cache de points spécifique à Blender"
+
+
 msgid "Border Collisions"
 msgstr "Collisions de bord"
 
@@ -67602,6 +67663,30 @@ msgstr "Limiter les collisions à ce groupe"
 
 msgid "Smoke color grid"
 msgstr "Grille de couleur pour la fumée"
+
+
+msgid "Data Depth"
+msgstr "Résolution de données"
+
+
+msgid "Bit depth for writing all scalar (including vector) lower values reduce file size"
+msgstr "Résolution en bits pour enregistrer tous les scalaires (y compris les vecteurs), de plus faibles valeurs réduisent les tailles de fichiers"
+
+
+msgid "Float (Half)"
+msgstr "Flottant (demi)"
+
+
+msgid "Half float (16 bit data)"
+msgstr "Demi-flottant (données 16bits)"
+
+
+msgid "Float (Full)"
+msgstr "Flottant (complet)"
+
+
+msgid "Full float (32 bit data)"
+msgstr "Flottant complet (données 32bits)"
 
 
 msgid "Density Grid"
@@ -67690,6 +67775,14 @@ msgstr "Vaguelette"
 
 msgid "FFT"
 msgstr "FFT"
+
+
+msgid "Zip"
+msgstr "Zip"
+
+
+msgid "Do not use any compression"
+msgstr "N’utiliser aucune compression"
 
 
 msgid "Max Res"
@@ -70133,7 +70226,7 @@ msgid "Quad View Regions"
 msgstr "Régions de vue quad"
 
 
-msgid "3D regions (the third one defines quad view settings, the forth one is same as 'region_3d')"
+msgid "3D regions (the third one defines quad view settings, the fourth one is same as 'region_3d')"
 msgstr "Régions 3D (la troisième définit les réglages de vue quad, la quatrième est la même que 'region_3d')"
 
 
@@ -70871,10 +70964,6 @@ msgstr "Angle aléatoire"
 
 msgid "Brush texture random angle"
 msgstr "Angle aléatoire de texture de brosse"
-
-
-msgid "Rake"
-msgstr "Ratisser (?)"
 
 
 msgid "Lamp Texture Slot"
@@ -72933,6 +73022,14 @@ msgid "Split Normal"
 msgstr "Normales divisées"
 
 
+msgid "Color for indicating Grease Pencil keyframes"
+msgstr "Couleur des images-clé de crayon gras"
+
+
+msgid "Color for indicating Object keyframes"
+msgstr "Couleur des images-clé d’objet"
+
+
 msgid "View Overlay"
 msgstr "Superposition vue"
 
@@ -73593,8 +73690,8 @@ msgid "Mask Non-Group Vertices"
 msgstr "Masquer vertices non-groupés"
 
 
-msgid "Display unweighted vertices (multi-paint overrides)"
-msgstr "Afficher les vertices sans poids (écrase multi-paint)"
+msgid "Display unweighted vertices"
+msgstr "Afficher les vertices non-pondérés"
 
 
 msgid "Show vertices with no weights in the active group"
@@ -76895,6 +76992,14 @@ msgid "Cameras & Markers (.py)"
 msgstr "Caméras et marqueurs (.py)"
 
 
+msgid "Operation aborted by user"
+msgstr "Opération annulée par l’utilisateur"
+
+
+msgid "utf-8surrogateescape"
+msgstr "utf-8surrogateescape"
+
+
 msgid "Unable to parse XML, %s:%s for file %r"
 msgstr "Impossible de parser le XML, %s:%s pour le fichier %r"
 
@@ -79684,12 +79789,20 @@ msgid "Behavior:"
 msgstr "Comportement :"
 
 
+msgid "Data Depth:"
+msgstr "Résolution de données :"
+
+
 msgid "Flow Source:"
 msgstr "Source de flux :"
 
 
 msgid "Initial Values:"
 msgstr "Valeurs initiales :"
+
+
+msgid "Built without OpenVDB support"
+msgstr "Compilé sans support d’OpenVDB"
 
 
 msgid "Particle System:"
@@ -84519,6 +84632,10 @@ msgid "Could not clear keyframe, as RNA path is invalid for the given ID (ID = %
 msgstr "Impossible d’insérer une image clé, car le chemin RNA est invalide pour l’ID donnée (ID : %s, chemin : %s)"
 
 
+msgid "Not clearing all keyframes from locked F-Curve '%s' for %s '%s'"
+msgstr "Pas de nettoyage de toutes les images clé pour la F-courbe verrouillée “%s” pour %s “%s”"
+
+
 msgid "Keying set '%s' - successfully added %d keyframes"
 msgstr "Ensemble d’images clé “%s” – %d images clé ajoutées avec succès (?)"
 
@@ -87501,10 +87618,6 @@ msgid "Average re-projection error: %.3f"
 msgstr "Erreur moyenne de re-projection : %.3f"
 
 
-msgid "Invoking this operator only supported from Clip Editor space"
-msgstr "L’invocation de cet opérateur ne fonctionne que depuis l’espace Éditeur de clip"
-
-
 msgid "Parent Directory"
 msgstr "Dossier parent"
 
@@ -89110,6 +89223,18 @@ msgstr "Trackball : %.2f %.2f %s"
 
 msgid "AutoIK-Len: %d"
 msgstr "Long. IK auto : %d"
+
+
+msgid "right"
+msgstr "droite"
+
+
+msgid "left"
+msgstr "gauche"
+
+
+msgid "Auto-offset set to %s - press %s to toggle direction  |  %s"
+msgstr "Auto-décalage défini à %s – presser %s pour inverser la direction | %s"
 
 
 msgid "Shrink/Fatten:"
