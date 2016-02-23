@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Reininger <martinreininger@gmx.net>\n"
 "Language-Team: German translation team\n"
@@ -22196,6 +22196,10 @@ msgid "Export FBX"
 msgstr "FBX exportieren"
 
 
+msgid "Null"
+msgstr "Null"
+
+
 msgid "All Actions"
 msgstr "Alle Aktionen"
 
@@ -26660,10 +26664,6 @@ msgid "Clear Object Paths"
 msgstr "Objektpfade entfernen"
 
 
-msgid "Clear path caches for selected objects"
-msgstr "Datenblöcke ausgewählter Objekte anzeigen"
-
-
 msgctxt "Operator"
 msgid "Update Object Paths"
 msgstr "Objektpfade aktualisieren"
@@ -29770,10 +29770,6 @@ msgstr "Korrigiere UV's"
 
 msgid "Correct UV coordinates when transforming"
 msgstr "Korrigiere UV Koordinaten beim Transformieren"
-
-
-msgid "Mirror selected vertices around one or more axes"
-msgstr "Ausgewählte Vertices, um eine oder mehr Achsen spiegeln"
 
 
 msgid "Constraint Axis"
@@ -41864,10 +41860,6 @@ msgid "Target:"
 msgstr "Ziel:"
 
 
-msgid "Origin:"
-msgstr "Ursprung:"
-
-
 msgid "Crease:"
 msgstr "Falte:"
 
@@ -43679,10 +43671,6 @@ msgstr "Umdrehen:"
 
 msgid "Colors:"
 msgstr "Farben:"
-
-
-msgid "Open GL Preview"
-msgstr "OpenGL-Vorschau"
 
 
 msgctxt "Operator"
@@ -46365,10 +46353,6 @@ msgid "Can't edit external libdata"
 msgstr "Konnte externe Bibliothekdaten nicht bearbeiten"
 
 
-msgid "Null"
-msgstr "Null"
-
-
 msgid "Pos"
 msgstr "Position"
 
@@ -47209,10 +47193,6 @@ msgstr "Kein Elternverzeichnis vorhanden"
 
 msgid "Could not create new folder name"
 msgstr "Neuer Verzeichnisname kann nicht erstellt werden"
-
-
-msgid "Could not create new folder"
-msgstr "Neues Verzeichnis kann nicht erstellt werden"
 
 
 msgid "Cursor from Selection"

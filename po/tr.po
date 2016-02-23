@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: 2012-05-11 14:55+0200\n"
 "Last-Translator: Fatih EKE <fatiheke@hotmail.com>\n"
 "Language-Team: BLENDIST <fatiheke@hotmail.com>\n"
@@ -14674,6 +14674,10 @@ msgid "Export selected objects only"
 msgstr "Seçili Nesne ve Bilgileri"
 
 
+msgid "Null"
+msgstr "İtme/Çekme"
+
+
 msgid "All Actions"
 msgstr "Tümünü Normalleştir"
 
@@ -18413,10 +18417,6 @@ msgstr "Tüm Nesne Merkezleri"
 msgctxt "Operator"
 msgid "Clear Object Paths"
 msgstr "Tüm Nesne Merkezleri"
-
-
-msgid "Clear path caches for selected objects"
-msgstr "Seçili Nesne ve Bilgileri"
 
 
 msgctxt "Operator"
@@ -29640,10 +29640,6 @@ msgid "Target:"
 msgstr "Hedef değişkeni sil"
 
 
-msgid "Origin:"
-msgstr "Merkez:"
-
-
 msgid "Crease:"
 msgstr "Kırışıklık:"
 
@@ -31165,10 +31161,6 @@ msgstr "Video Sıra Editörü"
 
 msgid "Flip:"
 msgstr "Çevir:"
-
-
-msgid "Open GL Preview"
-msgstr "Önizleme Biçimi: Küp"
 
 
 msgctxt "Operator"
@@ -33292,10 +33284,6 @@ msgid "Make Real"
 msgstr "Gerçek Yap"
 
 
-msgid "Null"
-msgstr "İtme/Çekme"
-
-
 msgid "Pos"
 msgstr "Poz:"
 
@@ -34007,10 +33995,6 @@ msgstr "Ses aramak için varsayılan dizin"
 
 
 msgid "Could not create new folder name"
-msgstr "Yeni dosya oluştur"
-
-
-msgid "Could not create new folder"
 msgstr "Yeni dosya oluştur"
 
 

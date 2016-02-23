@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arvid Rudling <arvid.r@gmail.com>\n"
 "Language-Team: \n"
@@ -23606,10 +23606,6 @@ msgid "Clear Object Paths"
 msgstr "Duplicera"
 
 
-msgid "Clear path caches for selected objects"
-msgstr "Markera Länkad"
-
-
 msgctxt "Operator"
 msgid "Update Object Paths"
 msgstr "Duplicera"
@@ -25398,10 +25394,6 @@ msgstr "Radera"
 msgctxt "Operator"
 msgid "Clear Bone Paths"
 msgstr "Rensa Förälder"
-
-
-msgid "Clear path caches for selected bones"
-msgstr "Markera Länkad"
 
 
 msgctxt "Operator"
@@ -27277,10 +27269,6 @@ msgstr "Markera Länkad"
 
 msgid "Correct UV coordinates when transforming"
 msgstr "Klibbig texturkoordinat för meshvertex"
-
-
-msgid "Mirror selected vertices around one or more axes"
-msgstr "Markera Länkad"
 
 
 msgid "Constraint Axis"
@@ -37438,10 +37426,6 @@ msgid "Target:"
 msgstr "Mål:"
 
 
-msgid "Origin:"
-msgstr "Rensa Ursprung"
-
-
 msgid "Crease:"
 msgstr "Vecka:"
 
@@ -39452,10 +39436,6 @@ msgstr "Vänd:"
 
 msgid "Colors:"
 msgstr "Färger:"
-
-
-msgid "Open GL Preview"
-msgstr "Open GL-förhandsvisning"
 
 
 msgctxt "Operator"
@@ -42264,10 +42244,6 @@ msgstr "Bild Displist"
 
 
 msgid "Could not create new folder name"
-msgstr "Bild Displist"
-
-
-msgid "Could not create new folder"
 msgstr "Bild Displist"
 
 

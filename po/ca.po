@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Santiago Lizardo <santiago.lizardo@gmail.com>\n"
 "Language-Team: Blender Català (http://www.blender.cat)\n"
@@ -16359,6 +16359,10 @@ msgid "Export FBX"
 msgstr "Seleccionar fila"
 
 
+msgid "Null"
+msgstr "Rebuig"
+
+
 msgid "All Actions"
 msgstr "Esborrar Rotació"
 
@@ -20561,10 +20565,6 @@ msgid "Clear Object Paths"
 msgstr "Duplicar"
 
 
-msgid "Clear path caches for selected objects"
-msgstr "Seleccionar connectats"
-
-
 msgctxt "Operator"
 msgid "Update Object Paths"
 msgstr "Duplicar"
@@ -22057,10 +22057,6 @@ msgstr "Amagar Seleccionats"
 msgctxt "Operator"
 msgid "Clear Bone Paths"
 msgstr "Desparentar"
-
-
-msgid "Clear path caches for selected bones"
-msgstr "Seleccionar connectats"
 
 
 msgctxt "Operator"
@@ -32659,10 +32655,6 @@ msgid "AxisOb"
 msgstr "Ampliar"
 
 
-msgid "Origin:"
-msgstr "Esborrar Origen"
-
-
 msgid "Rim"
 msgstr "Superior"
 
@@ -34081,10 +34073,6 @@ msgstr "Image Displist"
 
 msgid "Colors:"
 msgstr "Colors:"
-
-
-msgid "Open GL Preview"
-msgstr "Anterior"
 
 
 msgctxt "Operator"
@@ -35858,10 +35846,6 @@ msgid "Make Real"
 msgstr "Crear aresta/cara"
 
 
-msgid "Null"
-msgstr "Rebuig"
-
-
 msgid "Use Clipping"
 msgstr "Esborrar Rotació"
 
@@ -36442,10 +36426,6 @@ msgstr "Image Displist"
 
 
 msgid "Could not create new folder name"
-msgstr "Esborrar Rotació"
-
-
-msgid "Could not create new folder"
 msgstr "Esborrar Rotació"
 
 

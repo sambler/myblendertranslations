@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: 2015-03-03 16:21+0530\n"
 "Last-Translator: Roshan Lal Gumasta <roshan@anisecrets.com>\n"
 "Language-Team: Hindi <www.anisecrets.com>\n"
@@ -4855,6 +4855,10 @@ msgid "Ascii"
 msgstr "ऐस्की"
 
 
+msgid "Null"
+msgstr "निरर्थक"
+
+
 msgid "Other"
 msgstr "अन्य"
 
@@ -7688,10 +7692,6 @@ msgid "Target:"
 msgstr "लक्ष्य:"
 
 
-msgid "Origin:"
-msgstr "नाभि / धुरी:"
-
-
 msgid "Outer"
 msgstr "बाहरी"
 
@@ -9653,10 +9653,6 @@ msgstr "हेक्स"
 
 msgid "%s parent deform"
 msgstr "%s कारण विरूपण"
-
-
-msgid "Null"
-msgstr "निरर्थक"
 
 
 msgid "Unknown"

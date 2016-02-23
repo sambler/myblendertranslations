@@ -1,11 +1,11 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Ivan paulos Tomé <ivan.paulos.tome@gmail.com>\n"
+"Last-Translator: Ivan Paulos Tomé <ivan.paulos.tome@gmail.com>\n"
 "Language-Team: Ivan Paulos Tomé, Inês Almeida, João Brandão (ULISBOA), Paulo Martins <greylica@gmail.com>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -4852,6 +4852,10 @@ msgstr "Espaço de exibição padrão RGB"
 
 msgid "The simple video conversion from a gamma 2.2 sRGB space"
 msgstr "A conversão simples de vídeo a partir de um espaço padrão de cores (sRGB) usando 2.2 como valor de gama"
+
+
+msgid "Do not perform any color transform on load, treat colors as in scene linear space already"
+msgstr "Não perfaz quaisquer transformações de cores durante o carregamento, e trata as cores como já estando no espaço linear de cena"
 
 
 msgid "Color Space"
@@ -28179,26 +28183,6 @@ msgid "Combine two meshes in a subtractive way"
 msgstr "Combina as duas malhas de maneira subtrativa"
 
 
-msgid "Use BMesh"
-msgstr "Usar malha Blender"
-
-
-msgid "Use BMesh boolean calculation"
-msgstr "Usa os cálculos booleanos para as malhas Blender"
-
-
-msgid "Connect regions (needed for hole filling)"
-msgstr "Conecta as regiões (necessário para o preenchimento de lacunas)"
-
-
-msgid "Dissolve verts created from tessellated intersection"
-msgstr "Dissolve os vértices criados a partir das intersecções das tesselações "
-
-
-msgid "Keep edges separate"
-msgstr "Mantém as arestas separadas"
-
-
 msgid "Build Modifier"
 msgstr "Modificador - Construir"
 
@@ -34691,6 +34675,14 @@ msgid "Normal distribution, multiple can be combined to fit more complex profile
 msgstr "Distribuição normal, múltiplos podem ser combinados para se encaixar em perfis mais complexos"
 
 
+msgid "Christensen-Burley"
+msgstr "Christensen e Burley"
+
+
+msgid "Approximation to physically based volume scattering"
+msgstr "Uma aproximação física do espalhamento de sub-superfície no volume (usando o método proposto por Per H. Christensen e Brent Burley )"
+
+
 msgid "Axis for radial tangents"
 msgstr "Eixo para tangentes radiais"
 
@@ -37016,6 +37008,10 @@ msgstr "Selecionar similares"
 
 msgid "Select similar bones by property types"
 msgstr "Seleciona os ossos similares pelos tipos de propriedades"
+
+
+msgid "Immediate children"
+msgstr "Crianças mais imediatas"
 
 
 msgid "Siblings"
@@ -39732,6 +39728,15 @@ msgstr "Converte rotações para o Euler ZYX"
 
 
 msgctxt "Operator"
+msgid "Pack Blend to Archive"
+msgstr "Empacotar o projeto Blender em um arquivo"
+
+
+msgid "Packs a blend file and all its dependencies into an archive for easy redistribution"
+msgstr "Empacota o projeto Blender e todas as suas dependências em um ficheiro compacto que facilita a sua redistribuição."
+
+
+msgctxt "Operator"
 msgid "Export PLY"
 msgstr "Exportar PLY"
 
@@ -39893,6 +39898,34 @@ msgstr "Aplicar unidades"
 
 msgid "Scale all data according to current Blender size, to match default FBX unit (centimeter, some importers do not handle UnitScaleFactor properly)"
 msgstr "Escalona todos os dados de acordo com o tamanho atual usado no Blender, para combinar com a unidade padrão FBX (em centímetros, pois alguns importadores não manipulam os fatores de unidade de escala de maneira apropriada)"
+
+
+msgid "Armature FBXNode Type"
+msgstr "Tipo de nós para armações FBX"
+
+
+msgid "FBX type of node (object) used to represent Blender's armatures (use Null one unless you experience issues with other app, other choices may no import back perfectly in Blender...)"
+msgstr "O tipo de nós para objetos de armações de ossos em formato FBX, representando as armações de ossos do Blender. Use a opção \"Nulo\" a menos que haja problemas com outros aplicativos. Outras escolhas podem não ser novamente importadas de maneira perfeita no Blender."
+
+
+msgid "Null"
+msgstr "Nulo"
+
+
+msgid "'Null' FBX node, similar to Blender's Empty (default)"
+msgstr "Nós de armações de ossos FBX do tipo \"Nulo\". Similares aos objetos do tipo \"Vazio\" do Blender. (padrão)"
+
+
+msgid "'Root' FBX node, supposed to be the root of chains of bones..."
+msgstr "Nós de armações de ossos FBX do tipo \"Raiz\". Os softwares supõem-nos como sendo as raízes das cadeias de ossos."
+
+
+msgid "LimbNode"
+msgstr "Nós das juntas"
+
+
+msgid "'LimbNode' FBX node, a regular joint between two bones..."
+msgstr "Os nós das juntas para o formato FBX. Representam uma junta regular entre dois ossos. "
 
 
 msgid "Baked Animation"
@@ -41041,15 +41074,6 @@ msgstr "Próximo caractere digitado irá chocar-se através do prévio, para ent
 msgctxt "Operator"
 msgid "Paste Text"
 msgstr "Colar texto"
-
-
-msgctxt "Operator"
-msgid "Paste Clipboard"
-msgstr "Colar da área de transferência"
-
-
-msgid "Paste contents from system clipboard"
-msgstr "Cola os conteúdos a partir da área de transferência"
 
 
 msgctxt "Operator"
@@ -48635,8 +48659,8 @@ msgid "Clear Object Paths"
 msgstr "Limpar caminhos de objeto"
 
 
-msgid "Clear path caches for selected objects"
-msgstr "Limpa os caches de caminho para os objetos selecionados"
+msgid "Clear path caches for all objects"
+msgstr "Limpa os caches de caminho para todos os objetos"
 
 
 msgctxt "Operator"
@@ -50561,12 +50585,16 @@ msgid "Use the mouse to sample a color in the image"
 msgstr "Permite usar o rato para pegar uma amostra de cor dentro da imagem"
 
 
-msgid "Cursor location in region coordinates"
-msgstr "Localização do cursor em coordenadas de região"
+msgid "Sample Merged"
+msgstr "Amostras mescladas"
 
 
-msgid "Add color to palette"
-msgstr "Adiciona uma cor para a paleta"
+msgid "Sample the output display color"
+msgstr "Amostras das cores de exibição de saída"
+
+
+msgid "Add to Palette"
+msgstr "Adicionar para a paleta"
 
 
 msgctxt "Operator"
@@ -51414,8 +51442,8 @@ msgid "Clear Bone Paths"
 msgstr "Limpar os caminhos dos ossos"
 
 
-msgid "Clear path caches for selected bones"
-msgstr "Limpa os caminhos de cache para os ossos selecionados"
+msgid "Clear path caches for all bones"
+msgstr "Limpa os caminhos de cache para todos os ossos"
 
 
 msgctxt "Operator"
@@ -53642,6 +53670,18 @@ msgid "Copy modifiers of the active strip to all selected strips"
 msgstr "Copia os modificadores da faixa ativa para todas as faixas selecionadas"
 
 
+msgid "Replace modifiers in destination"
+msgstr "Substitui os modificadores na destinação"
+
+
+msgid "Append"
+msgstr "Anexar"
+
+
+msgid "Append active modifiers to selected strips"
+msgstr "Anexa os modificadores ativos às faixas selecionadas"
+
+
 msgctxt "Operator"
 msgid "Move Strip Modifier"
 msgstr "Mover modificador de faixa"
@@ -54630,8 +54670,8 @@ msgid "Make the edge loop match the shape of the adjacent edge loop"
 msgstr "Faz com que o anel de arestas combine com o formato do anel de arestas adjacente"
 
 
-msgid "Mirror selected vertices around one or more axes"
-msgstr "Espelha os vértices selecionados em torno de um ou mais eixos"
+msgid "Mirror selected items around one or more axes"
+msgstr "Espelha os itens selecionados em torno de um ou mais eixos"
 
 
 msgid "Constraint Axis"
@@ -57879,6 +57919,14 @@ msgstr "Caminho secundário de dados"
 
 msgid "Secondary path of property to be set by the radial control"
 msgstr "Caminho secundário da propriedade a ser configurada pelo controlo radial "
+
+
+msgid "Fill Color Override Path"
+msgstr "Caminho de cor sobreposição de preenchimento"
+
+
+msgid "Fill Color Override Test"
+msgstr "Teste de sobreposição de preenchimento de cores"
 
 
 msgid "Fill Color Path"
@@ -69499,8 +69547,8 @@ msgid "Display data-blocks in visible layers"
 msgstr "Mostra os blocos de dados dentro das camadas visíveis"
 
 
-msgid "Display data-blocks of selected objects"
-msgstr "Mostra os blocos de dados dos objetos selecionados"
+msgid "Display data-blocks of selected, visible objects"
+msgstr "Mostra os blocos de dados dos objetos selecionados que estão visíveis"
 
 
 msgid "Display data-blocks of active object"
@@ -70201,6 +70249,10 @@ msgstr "Região 3D neste espaço, em caso de visualização de quatro vistas, ve
 
 msgid "Quad View Regions"
 msgstr "Regiões de visualização em quatro vistas"
+
+
+msgid "3D regions (the third one defines quad view settings, the fourth one is same as 'region_3d')"
+msgstr "Regiões 3D (a terceira dentre elas define as definições de visualização em quatro vistas, a quarta é o mesmo que uma \"Região 3D\" normal)"
 
 
 msgid "All Object Origins"
@@ -72995,6 +73047,14 @@ msgid "Split Normal"
 msgstr "Normais divididas"
 
 
+msgid "Color for indicating Grease Pencil keyframes"
+msgstr "A cor para a indicação dos fotogramas chave de lápis de cera"
+
+
+msgid "Color for indicating Object keyframes"
+msgstr "A cor para indicação dos fotogramas chave dos objetos"
+
+
 msgid "View Overlay"
 msgstr "Sobreposição de visualização"
 
@@ -75011,6 +75071,14 @@ msgid "Don't use compute device"
 msgstr "Não usa um dispositivo de computação"
 
 
+msgid "Use CUDA for GPU acceleration"
+msgstr "Usa a API Cuda para aceleração da GPU"
+
+
+msgid "Use OpenCL for GPU acceleration"
+msgstr "Usa OpenCL para aceleração da GPU"
+
+
 msgid "DPI"
 msgstr "PPP"
 
@@ -75157,6 +75225,18 @@ msgstr "Tipo de computação para subdivisão aberta"
 
 msgid "Type of computer back-end used with OpenSubdiv"
 msgstr "O tipo de suporte computacional usado com a subdivisão aberta"
+
+
+msgid "OpenMP"
+msgstr "OpenMP"
+
+
+msgid "GLSL Transform Feedback"
+msgstr "Respostas das transformações GLSL "
+
+
+msgid "GLSL Compute"
+msgstr "Computação GLSL"
 
 
 msgid "Prefetch Frames"
@@ -76895,20 +76975,16 @@ msgid "Not supported, interpreted as sun lamp"
 msgstr "Não suportado, interpretado como lâmpada tipo sol"
 
 
+msgid "Swizzle:"
+msgstr "Deslizamento:"
+
+
 msgid "Extrusion"
 msgstr "Extrusão"
 
 
 msgid "Ray Distance"
 msgstr "Distância dos raios"
-
-
-msgid "Normal Settings:"
-msgstr "Definições das normais:"
-
-
-msgid "Swizzle:"
-msgstr "Deslizamento:"
 
 
 msgctxt "Operator"
@@ -76929,14 +77005,6 @@ msgid "Curve subdivisions"
 msgstr "Subdivisões de curvas"
 
 
-msgid "Combined Settings:"
-msgstr "Definições combinadas:"
-
-
-msgid "{0} Settings:"
-msgstr "Definições {0}:"
-
-
 msgid "The BVH file does not contain frame duration in its MOTION section, assuming the BVH and Blender scene have the same frame rate"
 msgstr "O ficheiro de hierarquias de volume circundante (BVH) não contém a duração de fotogramas na sua seção de movimento (MOTION), assumindo que a cena do Blender e a BVH possuem a mesma taxa de fotogramas"
 
@@ -76955,6 +77023,14 @@ msgstr "%r é um alvo inválido (Para funcionamento adequado, o alvo deve ser do
 
 msgid "Cameras & Markers (.py)"
 msgstr "Câmaras e marcadores (.py)"
+
+
+msgid "Operation aborted by user"
+msgstr "Operação cancelada pelo utilizador"
+
+
+msgid "utf-8surrogateescape"
+msgstr "Escape alternativo ao padrão utf-8"
 
 
 msgid "Unable to parse XML, %s:%s for file %r"
@@ -78159,10 +78235,6 @@ msgid "Target:"
 msgstr "Alvo:"
 
 
-msgid "Origin:"
-msgstr "Origem:"
-
-
 msgid "Crease:"
 msgstr "Vincar:"
 
@@ -78317,10 +78389,6 @@ msgstr "Substituir original"
 msgctxt "Operator"
 msgid "Generate Data Layers"
 msgstr "Gerar camadas de dados"
-
-
-msgid "BMesh Options:"
-msgstr "Opções de malha Blender:"
 
 
 msgid "Bone:"
@@ -81005,7 +81073,7 @@ msgid "Colors:"
 msgstr "Cores:"
 
 
-msgid "Open GL Preview"
+msgid "OpenGL Preview"
 msgstr "Pré-visualização OpenGL"
 
 
@@ -83168,6 +83236,11 @@ msgid "Motion Paths:"
 msgstr "Caminhos de movimento:"
 
 
+msgctxt "Operator"
+msgid "Update"
+msgstr "Atualização"
+
+
 msgid "Action:"
 msgstr "Ação:"
 
@@ -84329,6 +84402,10 @@ msgid "F-Curve is visible in Graph Editor for editing"
 msgstr "A curva-f está visível no editor gráfico para edição"
 
 
+msgid "Grease Pencil layer is visible in the viewport"
+msgstr "A camada de lápis de cera está visível dentro da porta de visão."
+
+
 msgid "Channels are visible in Graph Editor for editing"
 msgstr "Canais são visíveis dentro do editor gráfico para edição"
 
@@ -84359,6 +84436,10 @@ msgstr "As curvas-f contribuem para o resultado"
 
 msgid "Temporarily disable NLA stack evaluation (i.e. only the active action is evaluated)"
 msgstr "Desativa temporariamente a avaliação da pilha de animação não linear (exemplo: quando a ação ativa é avaliada)"
+
+
+msgid "Lock current frame displayed by layer (i.e. disable animation playback)"
+msgstr "Bloqueia o quadro atual exibido pela camada (desabilitando as reproduções das animações como consequência)"
 
 
 msgid "Do channels contribute to result (toggle channel muting)"
@@ -84937,16 +85018,12 @@ msgid "Control point belongs to another spline"
 msgstr "Os pontos de controlo pertencem a outra spline"
 
 
-msgid "Clipboard empty"
-msgstr "Área de transferência vazia"
+msgid "Text too long"
+msgstr "Texto muito grande"
 
 
 msgid "Clipboard too long"
 msgstr "Área de transferência muito grande"
-
-
-msgid "Text too long"
-msgstr "Texto muito grande"
 
 
 msgid "Incorrect context for running font unlink"
@@ -85098,7 +85175,7 @@ msgstr "Atalhos não relacionados ao teclado"
 
 
 msgid "Only keyboard shortcuts can be edited that way, please use User Preferences otherwise"
-msgstr "Somente atalhos relacionados ao teclado podem ser editados desta maneira. Em caso contrário, por favor, utilize as \"Preferências de Utilizador\""
+msgstr "Somente atalhos relacionados ao teclado podem ser editados desta maneira. Em caso contrário, por favor, utilize as \"Preferências de utilizador\""
 
 
 msgctxt "Operator"
@@ -85381,10 +85458,6 @@ msgstr "Deformação de parente %s"
 
 msgid "Make Real"
 msgstr "Tornar real"
-
-
-msgid "Null"
-msgstr "Nulo"
 
 
 msgid "Unknown"
@@ -87615,12 +87688,16 @@ msgid "Could not create new folder name"
 msgstr "Não é possível criar novo nome de pasta"
 
 
-msgid "Could not create new folder"
-msgstr "Não é possível criar nova pasta"
-
-
 msgid "'%s' given path is OS-invalid, creating '%s' path instead"
 msgstr "O caminho fornecido '%s' é inválido no sistema operacional, criando o caminho '%s' em substituição"
+
+
+msgid "Could not create new folder: %s"
+msgstr "Não é possível criar nova pasta: %s"
+
+
+msgid "Could not delete file: %s"
+msgstr "Não é possível apagar o ficheiro: %s"
 
 
 msgid "Cursor from Selection"
@@ -89178,6 +89255,18 @@ msgid "AutoIK-Len: %d"
 msgstr "Comprimento de cinemática inversa automática: %d"
 
 
+msgid "right"
+msgstr "direita"
+
+
+msgid "left"
+msgstr "esquerda"
+
+
+msgid "Auto-offset set to %s - press %s to toggle direction  |  %s"
+msgstr "Deslocamento automático definido à %s - pressione %s para alternar a direção  |  %s"
+
+
 msgid "Shrink/Fatten:"
 msgstr "Encolher ou estufar:"
 
@@ -90603,14 +90692,6 @@ msgstr "Cb"
 
 msgid "Cr"
 msgstr "Cr"
-
-
-msgid "Speed X"
-msgstr "Velocidade em X"
-
-
-msgid "Speed Y"
-msgstr "Velocidade em Y"
 
 
 msgid "Val"

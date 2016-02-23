@@ -1,10 +1,10 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
-"PO-Revision-Date: 2016-01-28 23:12+0000\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
+"PO-Revision-Date: 2016-02-10 12:32+0000\n"
 "Last-Translator: lxlalexlxl <pilipchukap@rambler.ru>\n"
 "Language-Team: Ukrainian (Ukraine) (http://www.transifex.com/lxlalexlxl/blender/language/uk_UA/)\n"
 "MIME-Version: 1.0\n"
@@ -4850,6 +4850,10 @@ msgstr "Стандартний RGB-простір екрану"
 
 msgid "The simple video conversion from a gamma 2.2 sRGB space"
 msgstr "Просте перетворення відео з 2.2-гамми sRGB-простору"
+
+
+msgid "Do not perform any color transform on load, treat colors as in scene linear space already"
+msgstr "Не здійснювати будь-які трансформації кольорів при завантаженні, обробляти кольори, ніби у сцені вже задано лінеарний колірний простір"
 
 
 msgid "Color Space"
@@ -28177,26 +28181,6 @@ msgid "Combine two meshes in a subtractive way"
 msgstr "Об'єднати два каркаси шляхом віднімання"
 
 
-msgid "Use BMesh"
-msgstr "BMesh"
-
-
-msgid "Use BMesh boolean calculation"
-msgstr "Використати BMesh для булевих обчислень"
-
-
-msgid "Connect regions (needed for hole filling)"
-msgstr "З'єднати ділянки (потрібно для заповнення дірок)"
-
-
-msgid "Dissolve verts created from tessellated intersection"
-msgstr "Розчинити вершини створені тесельованими перетинами"
-
-
-msgid "Keep edges separate"
-msgstr "Утримувати ребра розділеними"
-
-
 msgid "Build Modifier"
 msgstr "Модифікатор Побудова"
 
@@ -34689,6 +34673,14 @@ msgid "Normal distribution, multiple can be combined to fit more complex profile
 msgstr "Нормальний розподіл; може об'єднуватися з іншими для отримання складніших профілів"
 
 
+msgid "Christensen-Burley"
+msgstr "Крістенсен-Берлі"
+
+
+msgid "Approximation to physically based volume scattering"
+msgstr "Наближене до фізично-правильного підповерхневе розсіювання на основі розсіювання світла об'ємом"
+
+
 msgid "Axis for radial tangents"
 msgstr "Осі для радіальних дотичних"
 
@@ -37014,6 +37006,10 @@ msgstr "Вибрати подібні"
 
 msgid "Select similar bones by property types"
 msgstr "Вибрати кістки, подібні за типами властивостей"
+
+
+msgid "Immediate children"
+msgstr "Найближчі нащадки"
 
 
 msgid "Siblings"
@@ -39730,6 +39726,15 @@ msgstr "Конвертувати оберти в Ейлерові - ZYX"
 
 
 msgctxt "Operator"
+msgid "Pack Blend to Archive"
+msgstr "Упакувати Blend в архів"
+
+
+msgid "Packs a blend file and all its dependencies into an archive for easy redistribution"
+msgstr "Упакувати blend-файл та всі його залежності в архів для легшого розповсюдження"
+
+
+msgctxt "Operator"
 msgid "Export PLY"
 msgstr "Експорт PLY"
 
@@ -39891,6 +39896,10 @@ msgstr "Застосувати одиниці виміру"
 
 msgid "Scale all data according to current Blender size, to match default FBX unit (centimeter, some importers do not handle UnitScaleFactor properly)"
 msgstr "Масштабувати усі дані відповідно до поточного розміру Blender, для відповідності їх стандартним одиницям виміру FBX (сантиметр, деякі імпортери не обробляють UnitScaleFactor правильно)"
+
+
+msgid "Null"
+msgstr "Null"
 
 
 msgid "Baked Animation"
@@ -41039,15 +41048,6 @@ msgstr "Наступний введений символ замінить поп
 msgctxt "Operator"
 msgid "Paste Text"
 msgstr "Вставити текст"
-
-
-msgctxt "Operator"
-msgid "Paste Clipboard"
-msgstr "Вставити з буферу обміну"
-
-
-msgid "Paste contents from system clipboard"
-msgstr "Вставити вміст системного буфера обміну"
 
 
 msgctxt "Operator"
@@ -48633,8 +48633,8 @@ msgid "Clear Object Paths"
 msgstr "Зчистити шляхи об'єктів"
 
 
-msgid "Clear path caches for selected objects"
-msgstr "Зчистити кеші шляхів для вибраних об'єктів"
+msgid "Clear path caches for all objects"
+msgstr "Очистити кеші шляхів для всіх об'єктів"
 
 
 msgctxt "Operator"
@@ -50559,12 +50559,16 @@ msgid "Use the mouse to sample a color in the image"
 msgstr "Використати мишу, щоб взяти зразок кольору з зображення"
 
 
-msgid "Cursor location in region coordinates"
-msgstr "Розташування курсора в координатах області"
+msgid "Sample Merged"
+msgstr "Вибірка разом"
 
 
-msgid "Add color to palette"
-msgstr "Додати колір до палітри"
+msgid "Sample the output display color"
+msgstr "Вибірка виводу кольору показу"
+
+
+msgid "Add to Palette"
+msgstr "Додати у палітру"
 
 
 msgctxt "Operator"
@@ -51412,8 +51416,8 @@ msgid "Clear Bone Paths"
 msgstr "Зчистити шляхи кісток"
 
 
-msgid "Clear path caches for selected bones"
-msgstr "Зчистити кеші шляхів для вибраних кісток"
+msgid "Clear path caches for all bones"
+msgstr "Очистити кеші шляхів для всіх кісток"
 
 
 msgctxt "Operator"
@@ -53640,6 +53644,18 @@ msgid "Copy modifiers of the active strip to all selected strips"
 msgstr "Скопіювати модифікатори активної смужки до всіх вибраних смужок"
 
 
+msgid "Replace modifiers in destination"
+msgstr "Замінити модифікатори для призначення"
+
+
+msgid "Append"
+msgstr "Прикріплення"
+
+
+msgid "Append active modifiers to selected strips"
+msgstr "Прикріпити активні модифікатори до виділених смужок"
+
+
 msgctxt "Operator"
 msgid "Move Strip Modifier"
 msgstr "Модифікатор пересуву смужки"
@@ -54626,10 +54642,6 @@ msgstr "Затиснути у межах протяжності ребер"
 
 msgid "Make the edge loop match the shape of the adjacent edge loop"
 msgstr "Зробити форму петлю ребер відповідно формі суміжної петлі ребер"
-
-
-msgid "Mirror selected vertices around one or more axes"
-msgstr "Віддзеркалити вибрані вершини відносно однієї або декількох осей"
 
 
 msgid "Constraint Axis"
@@ -57877,6 +57889,14 @@ msgstr "Вторинний шлях до даних"
 
 msgid "Secondary path of property to be set by the radial control"
 msgstr "Вторинний шлях до властивості, що встановлюється радіальним елементом керування"
+
+
+msgid "Fill Color Override Path"
+msgstr "Шлях заміщення кольору заповнення"
+
+
+msgid "Fill Color Override Test"
+msgstr "Тест заміщення кольору заповнення"
 
 
 msgid "Fill Color Path"
@@ -67649,7 +67669,7 @@ msgstr "Бітова глибина для запису всіх скалярн�
 
 
 msgid "Float (Half)"
-msgstr "Дійсне (Половина)"
+msgstr "Дійсне (половина)"
 
 
 msgid "Half float (16 bit data)"
@@ -67657,7 +67677,7 @@ msgstr "Половина дійсночислової глибини даних 
 
 
 msgid "Float (Full)"
-msgstr "Дійсне (Повне)"
+msgstr "Дійсне (повне)"
 
 
 msgid "Full float (32 bit data)"
@@ -69497,10 +69517,6 @@ msgid "Display data-blocks in visible layers"
 msgstr "Показати блоки даних з видимих шарів"
 
 
-msgid "Display data-blocks of selected objects"
-msgstr "Показати блоки даних вибраних об'єктів"
-
-
 msgid "Display data-blocks of active object"
 msgstr "Показати блоки даних активного об'єкта"
 
@@ -70199,6 +70215,10 @@ msgstr "3D-область у цьому просторі; у разі 4-х об�
 
 msgid "Quad View Regions"
 msgstr "Області перегляду 4 виглядів"
+
+
+msgid "3D regions (the third one defines quad view settings, the fourth one is same as 'region_3d')"
+msgstr "3D-області (третя частина визначає параметри чотирибічного вигляду, четверта - те ж саме, що й 'region_3d')"
 
 
 msgid "All Object Origins"
@@ -72993,6 +73013,14 @@ msgid "Split Normal"
 msgstr "Розділити нормаль"
 
 
+msgid "Color for indicating Grease Pencil keyframes"
+msgstr "Колір для показу ключових кадрів Нарисного олівця"
+
+
+msgid "Color for indicating Object keyframes"
+msgstr "Колір для показу ключових кадрів об'єкта"
+
+
 msgid "View Overlay"
 msgstr "Перекривання вигляду"
 
@@ -75009,6 +75037,14 @@ msgid "Don't use compute device"
 msgstr "Не використовувати обчислювальний пристрій"
 
 
+msgid "Use CUDA for GPU acceleration"
+msgstr "Використати CUDA для прискорення GPU"
+
+
+msgid "Use OpenCL for GPU acceleration"
+msgstr "Використати OpenCL для прискорення GPU"
+
+
 msgid "DPI"
 msgstr "DPI"
 
@@ -75155,6 +75191,18 @@ msgstr "Тип обчислення OpenSubdiv"
 
 msgid "Type of computer back-end used with OpenSubdiv"
 msgstr "Тип внуштрішнього обчислювача використовуваний для OpenSubdiv"
+
+
+msgid "OpenMP"
+msgstr "OpenMP"
+
+
+msgid "GLSL Transform Feedback"
+msgstr "GLSL Відклик трансформацій"
+
+
+msgid "GLSL Compute"
+msgstr "GLSL Обчислення"
 
 
 msgid "Prefetch Frames"
@@ -76893,20 +76941,16 @@ msgid "Not supported, interpreted as sun lamp"
 msgstr "Не підтримується; інтерпретується як лампа-Сонце"
 
 
+msgid "Swizzle:"
+msgstr "Помісь:"
+
+
 msgid "Extrusion"
 msgstr "Витискання"
 
 
 msgid "Ray Distance"
 msgstr "Відстань променя"
-
-
-msgid "Normal Settings:"
-msgstr "Параметри нормалей:"
-
-
-msgid "Swizzle:"
-msgstr "Помісь:"
 
 
 msgctxt "Operator"
@@ -76927,14 +76971,6 @@ msgid "Curve subdivisions"
 msgstr "Поділи кривої"
 
 
-msgid "Combined Settings:"
-msgstr "Параметри для «Комбінове»:"
-
-
-msgid "{0} Settings:"
-msgstr "{0} Параметри:"
-
-
 msgid "The BVH file does not contain frame duration in its MOTION section, assuming the BVH and Blender scene have the same frame rate"
 msgstr "Файл BVH не містить значення тривалості кадрів у його секції MOTION, припускається, що файл BVH та файл сцени Blender'а мають однакову частоту кадрів"
 
@@ -76953,6 +76989,14 @@ msgstr "Хибна ціль %r (має бути 'ARMATURE' або 'OBJECT')"
 
 msgid "Cameras & Markers (.py)"
 msgstr "Камери та мітки (.py)"
+
+
+msgid "Operation aborted by user"
+msgstr "Операцію перервано користувачем"
+
+
+msgid "utf-8surrogateescape"
+msgstr "utf-8surrogateescape"
 
 
 msgid "Unable to parse XML, %s:%s for file %r"
@@ -78157,10 +78201,6 @@ msgid "Target:"
 msgstr "Ціль:"
 
 
-msgid "Origin:"
-msgstr "Опорна точка:"
-
-
 msgid "Crease:"
 msgstr "Складка:"
 
@@ -78315,10 +78355,6 @@ msgstr "Замінити оригінал"
 msgctxt "Operator"
 msgid "Generate Data Layers"
 msgstr "Згенерувати шари даних"
-
-
-msgid "BMesh Options:"
-msgstr "Опції BMesh:"
 
 
 msgid "Bone:"
@@ -81007,10 +81043,6 @@ msgid "Colors:"
 msgstr "Кольори:"
 
 
-msgid "Open GL Preview"
-msgstr "Перегляд OpenGL"
-
-
 msgctxt "Operator"
 msgid "View all Sequences"
 msgstr "Показати усі послідовності"
@@ -82394,7 +82426,7 @@ msgstr "Лапласове згладжування"
 
 msgctxt "Operator"
 msgid "Connect Vertex Path"
-msgstr "Шлях з'єднання вершин"
+msgstr "З'єднання вершин по шляху"
 
 
 msgctxt "Operator"
@@ -83164,6 +83196,11 @@ msgstr "Пов'язані об'єкти:"
 
 msgid "Motion Paths:"
 msgstr "Шляхи руху:"
+
+
+msgctxt "Operator"
+msgid "Update"
+msgstr "Оновити"
 
 
 msgid "Action:"
@@ -84327,6 +84364,10 @@ msgid "F-Curve is visible in Graph Editor for editing"
 msgstr "F-крива є видимою у редакторі графіків для редагування"
 
 
+msgid "Grease Pencil layer is visible in the viewport"
+msgstr "Шар Нарисного олівця видимий у вигляді"
+
+
 msgid "Channels are visible in Graph Editor for editing"
 msgstr "Канали видимі у редакторі зображень для редагування"
 
@@ -84357,6 +84398,10 @@ msgstr "Чи впливає F-крива на результат"
 
 msgid "Temporarily disable NLA stack evaluation (i.e. only the active action is evaluated)"
 msgstr "Тимчасово вимкнути розрахунок стеку НЛА (тобто розраховувати лише активну дію)"
+
+
+msgid "Lock current frame displayed by layer (i.e. disable animation playback)"
+msgstr "Заблокувати поточний кадр, показуваний на шарі (тобто, вимкнути відтворення анімації)"
 
 
 msgid "Do channels contribute to result (toggle channel muting)"
@@ -84935,16 +84980,12 @@ msgid "Control point belongs to another spline"
 msgstr "Керувальна точка належить іншому сплайну"
 
 
-msgid "Clipboard empty"
-msgstr "Буфер обміну порожній"
+msgid "Text too long"
+msgstr "Текст занадто довгий"
 
 
 msgid "Clipboard too long"
 msgstr "Буфер обміну задовгий"
-
-
-msgid "Text too long"
-msgstr "Текст занадто довгий"
 
 
 msgid "Incorrect context for running font unlink"
@@ -85379,10 +85420,6 @@ msgstr "Деформація предка %s"
 
 msgid "Make Real"
 msgstr "Зробити справжнім"
-
-
-msgid "Null"
-msgstr "Null"
 
 
 msgid "Unknown"
@@ -87613,12 +87650,16 @@ msgid "Could not create new folder name"
 msgstr "Неможливо створити нову назву теки"
 
 
-msgid "Could not create new folder"
-msgstr "Неможливо створити нову теку"
-
-
 msgid "'%s' given path is OS-invalid, creating '%s' path instead"
 msgstr "заданий шлях '%s'  є хибним, створиться шлях '%s' натомість"
+
+
+msgid "Could not create new folder: %s"
+msgstr "Неможливо створити нову теку: %s"
+
+
+msgid "Could not delete file: %s"
+msgstr "Неможливо видалити файл: %s"
 
 
 msgid "Cursor from Selection"
@@ -89176,6 +89217,18 @@ msgid "AutoIK-Len: %d"
 msgstr "Довжина авто-ІК: %d"
 
 
+msgid "right"
+msgstr "справа"
+
+
+msgid "left"
+msgstr "зліва"
+
+
+msgid "Auto-offset set to %s - press %s to toggle direction  |  %s"
+msgstr "Авто-зсув задано на %s - натисніть %s для перемикання напряму  | %s"
+
+
 msgid "Shrink/Fatten:"
 msgstr "Стиснути/Розширити:"
 
@@ -90601,14 +90654,6 @@ msgstr "Cb"
 
 msgid "Cr"
 msgstr "Cr"
-
-
-msgid "Speed X"
-msgstr "Швидкість X"
-
-
-msgid "Speed Y"
-msgstr "Швидкість Y"
 
 
 msgid "Val"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: 2015-06-13 14:19+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: chinese-l10n <chinese-l10n@googlegroups.com>\n"
@@ -36147,6 +36147,10 @@ msgid "Tolerance for comparing double keyframes (higher for greater accuracy)"
 msgstr "比較雙鍵幀用的忍差 (較高可取得較佳精確度)"
 
 
+msgid "Null"
+msgstr "空無"
+
+
 msgid "All Actions"
 msgstr "全部動作"
 
@@ -43491,10 +43495,6 @@ msgid "Clear Object Paths"
 msgstr "清除物體路徑"
 
 
-msgid "Clear path caches for selected objects"
-msgstr "清除所選物體的路徑快取"
-
-
 msgctxt "Operator"
 msgid "Update Object Paths"
 msgstr "更新物體路徑"
@@ -45185,14 +45185,6 @@ msgid "Use the mouse to sample a color in the image"
 msgstr "使用滑鼠取樣影像中的色彩"
 
 
-msgid "Cursor location in region coordinates"
-msgstr "區塊座標系內的游標位置"
-
-
-msgid "Add color to palette"
-msgstr "將色彩加入色版中"
-
-
 msgctxt "Operator"
 msgid "Texture Paint Toggle"
 msgstr "紋理繪製切換"
@@ -45999,10 +45991,6 @@ msgstr "要計算骨骼路徑的首幀"
 msgctxt "Operator"
 msgid "Clear Bone Paths"
 msgstr "清除骨骼路徑"
-
-
-msgid "Clear path caches for selected bones"
-msgstr "清除所選骨骼的路徑快取"
 
 
 msgctxt "Operator"
@@ -49087,10 +49075,6 @@ msgstr "校正 UV"
 
 msgid "Correct UV coordinates when transforming"
 msgstr "當變換時校正 UV 座標"
-
-
-msgid "Mirror selected vertices around one or more axes"
-msgstr "對一個或多個軸鏡像選取的頂點"
 
 
 msgid "Constraint Axis"
@@ -69223,10 +69207,6 @@ msgid "Ray Distance"
 msgstr "光線距離"
 
 
-msgid "Normal Settings:"
-msgstr "一般設定："
-
-
 msgctxt "Operator"
 msgid "Assign"
 msgstr "指派"
@@ -70416,10 +70396,6 @@ msgstr "軸物體"
 
 msgid "Target:"
 msgstr "目標："
-
-
-msgid "Origin:"
-msgstr "原始："
 
 
 msgid "Crease:"
@@ -73139,10 +73115,6 @@ msgstr "翻轉："
 
 msgid "Colors:"
 msgstr "色彩："
-
-
-msgid "Open GL Preview"
-msgstr "OpenGL 預覽"
 
 
 msgctxt "Operator"
@@ -76635,16 +76607,12 @@ msgid "Curve has not got active point"
 msgstr "曲線未取得使用中的點"
 
 
-msgid "Clipboard empty"
-msgstr "剪貼簿空白"
+msgid "Text too long"
+msgstr "文字過長"
 
 
 msgid "Clipboard too long"
 msgstr "剪貼簿過長"
-
-
-msgid "Text too long"
-msgstr "文字過長"
 
 
 msgid "Incorrect context for running font unlink"
@@ -77011,10 +76979,6 @@ msgstr "%s 親代變形"
 
 msgid "Make Real"
 msgstr "轉為真實"
-
-
-msgid "Null"
-msgstr "空無"
 
 
 msgid "Unknown"
@@ -78510,10 +78474,6 @@ msgstr "未給定上層目錄"
 
 msgid "Could not create new folder name"
 msgstr "無法建立新的資料夾名稱"
-
-
-msgid "Could not create new folder"
-msgstr "無法建立新的資料夾"
 
 
 msgid "Cursor from Selection"

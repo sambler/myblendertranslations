@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: 2015-05-10 14:41+0100\n"
 "Last-Translator: Piotr Arlukowicz <piotao@polskikursblendera.pl>\n"
 "Language: pl\n"
@@ -9065,6 +9065,10 @@ msgid "GPencil"
 msgstr "Szkicownik"
 
 
+msgid "Null"
+msgstr "Żaden"
+
+
 msgid "Add a constraint to the active object"
 msgstr "Dodaj ogranicznik do aktywnego obiektu"
 
@@ -10289,16 +10293,12 @@ msgid "Curve has not got active point"
 msgstr "Krzywa nie otrzymała aktywnego punktu"
 
 
-msgid "Clipboard empty"
-msgstr "Schowek pusty"
+msgid "Text too long"
+msgstr "Za długi tekst"
 
 
 msgid "Clipboard too long"
 msgstr "Schowek za długi"
-
-
-msgid "Text too long"
-msgstr "Za długi tekst"
 
 
 msgid "Incorrect context for running font unlink"
@@ -10693,10 +10693,6 @@ msgstr "%s zniekształcenie rodzicem"
 
 msgid "Make Real"
 msgstr "Utwórz prawdziwy"
-
-
-msgid "Null"
-msgstr "Żaden"
 
 
 msgid "Unknown"
@@ -12821,10 +12817,6 @@ msgstr "Nie podano nadrzędnego katalogu"
 
 msgid "Could not create new folder name"
 msgstr "Nie można było utworzyć nowej nazwy folderu"
-
-
-msgid "Could not create new folder"
-msgstr "Nie można było utworzyć nowego folderu"
 
 
 msgid "Cursor from Selection"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: 2012-09-07 22:32+0100\n"
 "Last-Translator: Nikola Radovanovic <cobisimo@gmail.com>\n"
 "Language-Team: Nikola Radovanovic\n"
@@ -18446,6 +18446,10 @@ msgid "Export FBX"
 msgstr "Извоз FBX"
 
 
+msgid "Null"
+msgstr "Ништа"
+
+
 msgid "Baked Animation"
 msgstr "Испечена анимација"
 
@@ -19020,15 +19024,6 @@ msgstr "Уметни текст"
 msgctxt "Operator"
 msgid "Paste Text"
 msgstr "Убаци текст"
-
-
-msgctxt "Operator"
-msgid "Paste Clipboard"
-msgstr "Убаци из оставе"
-
-
-msgid "Paste contents from system clipboard"
-msgstr "Убаци садржај из системске оставе"
 
 
 msgctxt "Operator"
@@ -25256,10 +25251,6 @@ msgstr "Исправи UV-е"
 
 msgid "Correct UV coordinates when transforming"
 msgstr "Исправи UV координате приликом трансформације"
-
-
-msgid "Mirror selected vertices around one or more axes"
-msgstr "Обрни изабрана темена у огледалу око једне или више оса"
 
 
 msgid "Constraint Axis"
@@ -34319,10 +34310,6 @@ msgid "Mesh Light"
 msgstr "Меш светло"
 
 
-msgid "Normal Settings:"
-msgstr "Подешавања нормала:"
-
-
 msgctxt "Operator"
 msgid "Assign"
 msgstr "Придружи"
@@ -35107,10 +35094,6 @@ msgstr "Направи дуж путања"
 
 msgid "Target:"
 msgstr "Одредиште:"
-
-
-msgid "Origin:"
-msgstr "Центар:"
 
 
 msgid "Crease:"
@@ -36926,10 +36909,6 @@ msgstr "Изврни:"
 
 msgid "Colors:"
 msgstr "Боје:"
-
-
-msgid "Open GL Preview"
-msgstr "OpenGL преглед"
 
 
 msgctxt "Operator"
@@ -39161,10 +39140,6 @@ msgid "Can't edit external libdata"
 msgstr "Читај складиште са спољне локације"
 
 
-msgid "Null"
-msgstr "Ништа"
-
-
 msgid "Unknown"
 msgstr "Непознато"
 
@@ -39975,10 +39950,6 @@ msgstr "Иди на претходни каталог (PKEY)"
 
 msgid "Could not create new folder name"
 msgstr "Не могу да направим име новог директоријума"
-
-
-msgid "Could not create new folder"
-msgstr "Не могу да направим нови директоријум"
 
 
 msgid "Cursor from Selection"

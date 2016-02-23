@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: 2015-06-08 11:49+0300\n"
 "Last-Translator: Lockal S <lockalsash@gmail.com>\n"
 "Language-Team: Russian <http://translateblender.ru/projects/blender/blender/ru/>\n"
@@ -37754,6 +37754,10 @@ msgid "Tolerance for comparing double keyframes (higher for greater accuracy)"
 msgstr "Допустимое отклонение для сравнения сдвоенных ключевых кадров (чем выше, тем точнее)"
 
 
+msgid "Null"
+msgstr "Null"
+
+
 msgid "Baked Animation"
 msgstr "Запечённая анимация"
 
@@ -38834,15 +38838,6 @@ msgstr "Следующий введённый символ будет запис
 msgctxt "Operator"
 msgid "Paste Text"
 msgstr "Вставить текст"
-
-
-msgctxt "Operator"
-msgid "Paste Clipboard"
-msgstr "Вставить из буфера обмена"
-
-
-msgid "Paste contents from system clipboard"
-msgstr "Вставить содержимое буфера обмена"
 
 
 msgctxt "Operator"
@@ -46057,10 +46052,6 @@ msgid "Clear Object Paths"
 msgstr "Очистить пути объектов"
 
 
-msgid "Clear path caches for selected objects"
-msgstr "Очистить кэш путей для выделенных объектов"
-
-
 msgctxt "Operator"
 msgid "Update Object Paths"
 msgstr "Обновить пути объектов"
@@ -47911,14 +47902,6 @@ msgid "Use the mouse to sample a color in the image"
 msgstr "Взять образец цвета с изображения с помощью мыши"
 
 
-msgid "Cursor location in region coordinates"
-msgstr "Положение курсора в координатах региона"
-
-
-msgid "Add color to palette"
-msgstr "Добавить цвет в палитру"
-
-
 msgctxt "Operator"
 msgid "Texture Paint Toggle"
 msgstr "Переключить режим рисования на текстуре"
@@ -48762,10 +48745,6 @@ msgstr "Первый кадр для вычисления путей кости"
 msgctxt "Operator"
 msgid "Clear Bone Paths"
 msgstr "Очистить пути костей"
-
-
-msgid "Clear path caches for selected bones"
-msgstr "Очистить кэш путей для выделенных костей"
 
 
 msgctxt "Operator"
@@ -51903,10 +51882,6 @@ msgstr "Исправить UV"
 
 msgid "Correct UV coordinates when transforming"
 msgstr "Исправить UV-координаты при преобразовании"
-
-
-msgid "Mirror selected vertices around one or more axes"
-msgstr "Отразить выбранные вершины относительно одной или нескольких осей"
 
 
 msgid "Constraint Axis"
@@ -73294,20 +73269,16 @@ msgid "Not supported, interpreted as sun lamp"
 msgstr "Не поддерживается, заменяется на лампу-солнце"
 
 
+msgid "Swizzle:"
+msgstr "Смешение:"
+
+
 msgid "Extrusion"
 msgstr "Выдавливание"
 
 
 msgid "Ray Distance"
 msgstr "Расстояние луча"
-
-
-msgid "Normal Settings:"
-msgstr "Настройки нормалей:"
-
-
-msgid "Swizzle:"
-msgstr "Смешение:"
 
 
 msgctxt "Operator"
@@ -74515,10 +74486,6 @@ msgstr "Оси объекта"
 
 msgid "Target:"
 msgstr "Целевой объект:"
-
-
-msgid "Origin:"
-msgstr "Источник:"
 
 
 msgid "Crease:"
@@ -77299,10 +77266,6 @@ msgstr "Разворот:"
 
 msgid "Colors:"
 msgstr "Расцветка:"
-
-
-msgid "Open GL Preview"
-msgstr "Просмотр в OpenGL"
 
 
 msgctxt "Operator"
@@ -81070,16 +81033,12 @@ msgid "Curve has not got active point"
 msgstr "Нет активной точки на кривой"
 
 
-msgid "Clipboard empty"
-msgstr "Буфер обмена пуст"
+msgid "Text too long"
+msgstr "Текст слишком длинный"
 
 
 msgid "Clipboard too long"
 msgstr "Слишком большой буфер обмена"
-
-
-msgid "Text too long"
-msgstr "Текст слишком длинный"
 
 
 msgid "Incorrect context for running font unlink"
@@ -81478,10 +81437,6 @@ msgstr "Деформация родителя %s"
 
 msgid "Make Real"
 msgstr "Сделать реальным"
-
-
-msgid "Null"
-msgstr "Null"
 
 
 msgid "Unknown"
@@ -83622,10 +83577,6 @@ msgstr "Не задана родительская папка"
 
 msgid "Could not create new folder name"
 msgstr "Ошибка при создании папки с заданным именем"
-
-
-msgid "Could not create new folder"
-msgstr "Ошибка при создании папки"
 
 
 msgid "Cursor from Selection"

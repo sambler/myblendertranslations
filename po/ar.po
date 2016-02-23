@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 9) (b'e3f48bd')\n"
+"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 20:42:40\n"
+"POT-Creation-Date: 2016-02-22 21:53:41\n"
 "PO-Revision-Date: 2015-10-22 17:40+0200\n"
 "Last-Translator: Yousef Harfoush <bat3a@msn.com>\n"
 "Language-Team: Yousef Harfoush, Amine Moussaoui <bat3a@msn.com>\n"
@@ -31939,6 +31939,10 @@ msgid "Apply Unit"
 msgstr "ﺓﺪﺣﻮﻟﺍ ﻖﺒﻃ"
 
 
+msgid "Null"
+msgstr "ﻼ﻿ﻣﺎﻛ"
+
+
 msgid "Baked Animation"
 msgstr "ﺯﻮﺒﺨﻣ ﻚﻳﺮﺤﺗ"
 
@@ -32365,11 +32369,6 @@ msgstr "ﺔﻴﻘﻄﻨﻟﺍ ﺔﻣﻼ﻿ﻌﻟﺍ ﻊﺿﻭ"
 msgctxt "Operator"
 msgid "Paste Text"
 msgstr "ﺺﻨﻟﺍ ﻖﺼﻟﺍ"
-
-
-msgctxt "Operator"
-msgid "Paste Clipboard"
-msgstr "ﺓﺮﻛﺍﺬﻟﺍ ﻦﻣ ﻖﺼﻟﺍ"
 
 
 msgctxt "Operator"
@@ -35935,10 +35934,6 @@ msgstr "ﻦﺋﺎﻜﻟﺍ ﺕﺍﺭﺎﺴﻣ ﺐﺴﺤﻟ ﺔﻳﺍﺪﺒﻟﺍ
 msgctxt "Operator"
 msgid "Clear Object Paths"
 msgstr "ﻦﺋﺎﻜﻟﺍ ﺕﺍﺭﺎﺴﻣ ﻑﺬﺣﺃ"
-
-
-msgid "Clear path caches for selected objects"
-msgstr "ﺓﺭﺎﺘﺨﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻠﻟ ﺭﺎﺴﻤﻠﻟ ﺔﻘﺒﺴﻤﻟﺍ ﺕﺎﺑﺎﺴﺤﻟﺍ ﻑﺬﺣﺍ"
 
 
 msgctxt "Operator"
@@ -52245,20 +52240,16 @@ msgid "Not supported, interpreted as sun lamp"
 msgstr "ﺲﻤﺷ ﺡﺎﺒﺼﻤﻛ ﺮﻴّﺼﻳ ,ﻢﻋﺪﻣ ﺮﻴﻏ"
 
 
+msgid "Swizzle:"
+msgstr ":ﻁﺍﺮﻓﺃ"
+
+
 msgid "Extrusion"
 msgstr "ﻖﺜﺑ"
 
 
 msgid "Ray Distance"
 msgstr "ﻉﺎﻌﺸﻟﺍ ﺪﻌﺑ"
-
-
-msgid "Normal Settings:"
-msgstr ":ﻢﻇﺎﻨﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ"
-
-
-msgid "Swizzle:"
-msgstr ":ﻁﺍﺮﻓﺃ"
 
 
 msgctxt "Operator"
@@ -53191,10 +53182,6 @@ msgstr "ﺭﻮﺤﻤﻟﺍ ﻢﺴﺟ"
 
 msgid "Target:"
 msgstr ":ﻑﺪﻬﻟﺍ"
-
-
-msgid "Origin:"
-msgstr ":ﻞﺻﻷ﻿ﺍ"
 
 
 msgid "Crease:"
@@ -55674,10 +55661,6 @@ msgstr ":ﺐﻠﻗﺇ"
 
 msgid "Colors:"
 msgstr ":ﻥﺍﻮﻟﺃ"
-
-
-msgid "Open GL Preview"
-msgstr "Open GL ﺔﻨﻳﺎﻌﻣ"
 
 
 msgctxt "Operator"
@@ -58617,10 +58600,6 @@ msgid "Make Real"
 msgstr "ﺎﻴﻘﻴﻘﺣ ﻞﻌﺟﺇ"
 
 
-msgid "Null"
-msgstr "ﻼ﻿ﻣﺎﻛ"
-
-
 msgid "Pos"
 msgstr ":ﺔﻔﻗﻭ"
 
@@ -59636,10 +59615,6 @@ msgstr "ﻁﻮﻄﺨﻟﺍ ﺪﻠﺠﻣ"
 
 
 msgid "Could not create new folder name"
-msgstr "ﺓﺪﻳﺪﺟ ﺪﻘﻋ ﺓﺮﺠﺷ ﺊﺸﻧﺍ"
-
-
-msgid "Could not create new folder"
 msgstr "ﺓﺪﻳﺪﺟ ﺪﻘﻋ ﺓﺮﺠﺷ ﺊﺸﻧﺍ"
 
 
