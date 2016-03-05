@@ -1,10 +1,10 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.76 (sub 11) (b'adab35b')\n"
+"Project-Id-Version: Blender 2.77 (sub 0) (b'3636693')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-22 21:53:41\n"
-"PO-Revision-Date: 2016-02-19 03:53+0900\n"
+"POT-Creation-Date: 2016-03-04 17:49:58\n"
+"PO-Revision-Date: 2016-03-04 12:52+0900\n"
 "Last-Translator: \n"
 "Language-Team: Japanese Translation Team (https://sites.google.com/site/blugjp/blender-translators)\n"
 "MIME-Version: 1.0\n"
@@ -39227,7 +39227,7 @@ msgstr "テーパーベベルに使われるポイント当たりの半径を設
 
 msgctxt "Operator"
 msgid "Reveal Hidden"
-msgstr "非表示のものを再表示"
+msgstr "隠したものを表示"
 
 
 msgid "Show again hidden control points"
@@ -39920,6 +39920,10 @@ msgstr "アーマチュアFBXノードタイプ"
 
 msgid "FBX type of node (object) used to represent Blender's armatures (use Null one unless you experience issues with other app, other choices may no import back perfectly in Blender...)"
 msgstr "Blender のアーマチュアで表示されるのに使用されるノード（オブジェクト）の FBX タイプ（Null）"
+
+
+msgid "Null"
+msgstr "Null"
 
 
 msgid "'Null' FBX node, similar to Blender's Empty (default)"
@@ -48687,8 +48691,14 @@ msgid "Clear Object Paths"
 msgstr "オブジェクトパスをクリア"
 
 
-msgid "Clear path caches for all objects"
-msgstr "全オブジェクトのパスのキャッシュをクリアします"
+msgid "Clear path caches for all objects, hold Shift key for selected objects only"
+msgstr ""
+"全オブジェクトのパスのキャッシュをクリアします\n"
+"[Shift]キーを押しながらで選択オブジェクトのみクリア"
+
+
+msgid "Only clear paths from selected objects"
+msgstr "選択オブジェクトのパスのみクリアします"
 
 
 msgctxt "Operator"
@@ -51472,8 +51482,14 @@ msgid "Clear Bone Paths"
 msgstr "ボーンのパスをクリア"
 
 
-msgid "Clear path caches for all bones"
-msgstr "全ボーンのパスのキャッシュをクリアします"
+msgid "Clear path caches for all bones, hold Shift key for selected bones only"
+msgstr ""
+"全ボーンのパスのキャッシュをクリアします\n"
+"[Shift]キーを押しながらで選択ボーンのみクリア"
+
+
+msgid "Only clear paths from selected bones"
+msgstr "選択ボーンのパスのみクリアします"
 
 
 msgctxt "Operator"
@@ -54906,6 +54922,15 @@ msgstr "このプロパティのRNAデータパスをクリップボードにコ
 
 
 msgctxt "Operator"
+msgid "Copy Python Command"
+msgstr "Pythonコマンドをコピー"
+
+
+msgid "Copy the Python command matching this button"
+msgstr "このボタンに適合する Python コマンドをコピーします"
+
+
+msgctxt "Operator"
 msgid "Copy To Selected"
 msgstr "選択にコピー"
 
@@ -55840,7 +55865,7 @@ msgstr "マウスの下の繋がったUV頂点をすべて選択します"
 
 
 msgid "Select a loop of connected UV vertices"
-msgstr "繋がったUV頂点のループを選択"
+msgstr "繋がったUV頂点のループを選択します"
 
 
 msgid "Select more UV vertices connected to initial selection"
@@ -55849,11 +55874,11 @@ msgstr "最初の選択部分に繋がるUV頂点を追加で選択します"
 
 msgctxt "Operator"
 msgid "Selected Pinned"
-msgstr "選択されたピン打ちされたもの"
+msgstr "ピン止め頂点を選択"
 
 
 msgid "Select all pinned UV vertices"
-msgstr "ピン止めされたUV頂点をすべて選択"
+msgstr "ピン止めされたUV頂点をすべて選択します"
 
 
 msgctxt "Operator"
@@ -55979,7 +56004,9 @@ msgstr "島にスナップ"
 
 
 msgid "Snap islands together (on edge stitch mode, rotates the islands too)"
-msgstr "島を一緒にスナップ（エッジスティッチモードでは島の回転も行う）"
+msgstr ""
+"島も一緒にスナップします\n"
+"（辺のスティッチモードでは島の回転も）"
 
 
 msgid "Static Island"
@@ -55987,7 +56014,7 @@ msgstr "固定の島"
 
 
 msgid "Island that stays in place when stitching islands"
-msgstr "島のスティッチ時に位置をそのままにしておく島"
+msgstr "スティッチ時に位置を固定しておく島"
 
 
 msgid "Stored Operation Mode"
@@ -55995,7 +56022,7 @@ msgstr "格納済操作モード"
 
 
 msgid "Use Limit"
-msgstr "制限を使用"
+msgstr "範囲を制限"
 
 
 msgid "Stitch UVs within a specified limit distance"
@@ -57894,6 +57921,10 @@ msgstr "ツールチップ"
 
 msgid "Property name edit"
 msgstr "プロパティ名の編集"
+
+
+msgid "Use Soft Limits"
+msgstr "ソフトリミットを使用"
 
 
 msgid "Property value edit"
@@ -63470,14 +63501,6 @@ msgstr "画像テクスチャを解放"
 
 msgid "Free all image textures from memory after render, to save memory before compositing"
 msgstr "レンダリング後メモリから全画像テクスチャを解放し、コンポジティング前にメモリを節約します"
-
-
-msgid "Free Unused Nodes"
-msgstr "未使用のノードを解放"
-
-
-msgid "Free Nodes that are not used while compositing, to save memory"
-msgstr "コンポジティング中に使用されないノードを解放し、メモリ節約します"
 
 
 msgid "Draw stylized strokes using Freestyle"
@@ -73079,8 +73102,16 @@ msgid "Split Normal"
 msgstr "分割法線"
 
 
+msgid "Grease Pencil Keyframe"
+msgstr "グリースペンシルキーフレーム"
+
+
 msgid "Color for indicating Grease Pencil keyframes"
 msgstr "グリースペンシルキーフレームの色"
+
+
+msgid "Object Keyframe"
+msgstr "オブジェクトキーフレーム"
 
 
 msgid "Color for indicating Object keyframes"
@@ -76156,7 +76187,9 @@ msgstr "スピードに合わせる"
 
 
 msgid "Use the speed vector pass to reduce AO samples in fast moving pixels - higher values result in more aggressive sample reduction (requires Vec pass enabled, for Raytrace Adaptive QMC)"
-msgstr "高速移動するピクセルのAOサンプルを減らしてスピードベクトルパスを使用します。値が大きいほど積極的にサンプルを減らします。(ベクトルパスが有効になっている必要があります。 レイトレース適応QMC用)"
+msgstr ""
+"高速移動するピクセルのAOサンプルを減らし、スピードベクトルパスを使用します。値が大きいほど積極的にサンプルを減らします。\n"
+"(ベクトルパスが有効になっている必要があります。 レイトレースアダプティブQMC用)"
 
 
 msgid "Defines how AO mixes with material shading"
@@ -76288,7 +76321,7 @@ msgstr "光線のサンプル量。値が大きいほど滑らかな結果にな
 
 
 msgid "Samples below this threshold will be considered fully shadowed/unshadowed and skipped (for Raytrace Adaptive QMC)"
-msgstr "このしきい値以下のサンプルは、完全に影付き/影無しとみなされスキップされます (レイトレース適応QMC用)"
+msgstr "このしきい値以下のサンプルは、完全に影付き/影無しとみなされスキップされます (レイトレースアダプティブQMC用)"
 
 
 msgid "Use Ambient Occlusion"
@@ -78271,6 +78304,10 @@ msgstr "軸オブジェクト"
 
 msgid "Target:"
 msgstr "ターゲット:"
+
+
+msgid "Axis, Origin:"
+msgstr "軸、原点:"
 
 
 msgid "Crease:"
@@ -81007,10 +81044,6 @@ msgid "Backdrop zoom out"
 msgstr "背景のズームアウト"
 
 
-msgid "Free Unused"
-msgstr "未使用ノードを解放"
-
-
 msgid "No Keying Set active"
 msgstr "アクティブなキーイングセットはありません"
 
@@ -82250,11 +82283,6 @@ msgstr "ローカル化..."
 
 
 msgctxt "Operator"
-msgid "Move to Layer..."
-msgstr "レイヤー移動..."
-
-
-msgctxt "Operator"
 msgid "Insert Keyframe..."
 msgstr "キーフレーム挿入..."
 
@@ -82710,6 +82738,16 @@ msgstr "グループインスタンス..."
 msgctxt "Operator"
 msgid "Group Instance"
 msgstr "グループのインスタンス"
+
+
+msgctxt "Operator"
+msgid "Move out of Local View"
+msgstr "ローカルビューを出る"
+
+
+msgctxt "Operator"
+msgid "Move to Layer..."
+msgstr "レイヤー移動..."
 
 
 msgctxt "Operator"
@@ -83278,11 +83316,6 @@ msgid "Motion Paths:"
 msgstr "モーションパス:"
 
 
-msgctxt "Operator"
-msgid "Update"
-msgstr "更新"
-
-
 msgid "Action:"
 msgstr "アクション:"
 
@@ -83501,6 +83534,11 @@ msgstr "スペシャル:"
 
 msgid "Nurbs:"
 msgstr "NURBS:"
+
+
+msgctxt "Operator"
+msgid "Update"
+msgstr "更新"
 
 
 msgctxt "Operator"
@@ -85926,6 +85964,10 @@ msgstr "エクスポートファイルを上書きできません"
 
 msgid "Export file is empty"
 msgstr "エクスポートファイルが空です"
+
+
+msgid "Error during export (see Console)"
+msgstr "エクスポート中にエラー（コンソール表示）"
 
 
 msgid "Errors found during parsing COLLADA document (see console for details)"
@@ -91611,6 +91653,10 @@ msgstr "ヒンディー語 (मानक हिन्दी)"
 
 msgid "Vietnamese (tiếng Việt)"
 msgstr "ベトナム語 (tiếng Việt)"
+
+
+msgid "Basque (Euskara)"
+msgstr "バスク語 (Euskara)"
 
 
 msgid "Complete"
