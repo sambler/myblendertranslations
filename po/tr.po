@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: 2012-05-11 14:55+0200\n"
 "Last-Translator: Fatih EKE <fatiheke@hotmail.com>\n"
 "Language-Team: BLENDIST <fatiheke@hotmail.com>\n"
@@ -974,10 +974,6 @@ msgstr "Çocuk Nesne"
 
 msgid "Module name"
 msgstr "Dosya adı"
-
-
-msgid "Addon Preferences"
-msgstr "Kullanıcı Tercihleri "
 
 
 msgid "Source Root"
@@ -3045,6 +3041,26 @@ msgid "White Level"
 msgstr "Üst seviye"
 
 
+msgid "Bezier"
+msgstr "Bezier Çember"
+
+
+msgid "Cursor"
+msgstr "İmleç"
+
+
+msgid "Surface"
+msgstr "Yüzey"
+
+
+msgid "Plane"
+msgstr "Düzlem"
+
+
+msgid "View"
+msgstr "Görünüş"
+
+
 msgid "Safe Areas"
 msgstr "Yüzey Alanı"
 
@@ -3773,10 +3789,6 @@ msgid "Cube"
 msgstr "Küp"
 
 
-msgid "Plane"
-msgstr "Düzlem"
-
-
 msgid "Static"
 msgstr "Statik"
 
@@ -4159,10 +4171,6 @@ msgstr "Izgara çizgileri arasındaki mesafeyi ayarlayın"
 
 msgid "Rest Length"
 msgstr "Kenar Uzunluğu"
-
-
-msgid "Surface"
-msgstr "Yüzey"
 
 
 msgid "Every Point"
@@ -7513,10 +7521,6 @@ msgid "Align to"
 msgstr "Görüntüyü Seçili Olana Hizala"
 
 
-msgid "View"
-msgstr "Görünüş"
-
-
 msgid "Angle"
 msgstr "Açı"
 
@@ -8827,10 +8831,6 @@ msgstr "Sağ Tutamak:"
 
 msgid "Right Handle Type"
 msgstr "Nesne Tipini Değiştir..."
-
-
-msgid "Bezier"
-msgstr "Bezier Çember"
 
 
 msgid "Left handle selection status"
@@ -12434,6 +12434,10 @@ msgid "Object Vertices"
 msgstr "Yalnız Noktalar"
 
 
+msgid "Vertex Weight"
+msgstr "Ağırlık Ortalaması:"
+
+
 msgid "Sky Texture"
 msgstr "Doku Boyama"
 
@@ -12707,6 +12711,11 @@ msgstr "Kare Sil"
 
 msgid "No Offset"
 msgstr "Grup yok"
+
+
+msgctxt "Operator"
+msgid "Properties"
+msgstr "Özellikler"
 
 
 msgctxt "Operator"
@@ -13118,10 +13127,6 @@ msgstr "Aktif Kemik Yok"
 
 msgid "View Axis"
 msgstr "Yatay Eksen"
-
-
-msgid "Cursor"
-msgstr "İmleç"
 
 
 msgctxt "Operator"
@@ -13667,11 +13672,6 @@ msgstr "Paste name"
 
 
 msgctxt "Operator"
-msgid "Properties"
-msgstr "Özellikler"
-
-
-msgctxt "Operator"
 msgid "Reload Clip"
 msgstr "Film Klibi"
 
@@ -14181,6 +14181,10 @@ msgstr "Anahtarları Seç"
 msgctxt "Operator"
 msgid "(De)select Last"
 msgstr "Son Oturumu Kurtar"
+
+
+msgid "Stroke"
+msgstr "Kontur Metodu:"
 
 
 msgctxt "Operator"
@@ -15207,10 +15211,6 @@ msgid "Delete Active Frame"
 msgstr "Aktif pozisyonu sil"
 
 
-msgid "Stroke"
-msgstr "Kontur Metodu:"
-
-
 msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "Eğriyi buna Çevir"
@@ -15488,6 +15488,11 @@ msgstr "Tüm grupları sil"
 
 
 msgctxt "Operator"
+msgid "Clear Render Border"
+msgstr "Render Sınırını Ayarla"
+
+
+msgctxt "Operator"
 msgid "Set Curves Point"
 msgstr "Eğrileri sil"
 
@@ -15707,6 +15712,11 @@ msgstr "İmleci Ortala ve Tümünü Göster"
 
 msgid "Zoom in/out the image"
 msgstr "Ön Görünümde Olmalısınız (NumPad1)"
+
+
+msgctxt "Operator"
+msgid "Zoom to Border"
+msgstr "Anahtarları Seç"
 
 
 msgid "Set zoom ratio of the view"
@@ -21646,11 +21656,6 @@ msgstr "Görüntü çevirme metodu:"
 
 
 msgctxt "Operator"
-msgid "Zoom to Border"
-msgstr "Anahtarları Seç"
-
-
-msgctxt "Operator"
 msgid "Zoom In"
 msgstr "Yaklaş"
 
@@ -21693,11 +21698,6 @@ msgstr "Kamerayı Görüntüye Hizala"
 msgctxt "Operator"
 msgid "Camera Fit Frame to Selected"
 msgstr "Aktif Kamerayı Seçilene Hizala"
-
-
-msgctxt "Operator"
-msgid "Clear Render Border"
-msgstr "Render Sınırını Ayarla"
 
 
 msgctxt "Operator"
@@ -22091,16 +22091,6 @@ msgstr "Kamerayı 1:1 Yap"
 
 
 msgctxt "Operator"
-msgid "Disable Addon"
-msgstr "Ses Pasif"
-
-
-msgctxt "Operator"
-msgid "Enable Addon"
-msgstr "Etkin/Pasif"
-
-
-msgctxt "Operator"
 msgid "Install from File..."
 msgstr "Anahtarkare Ekle..."
 
@@ -22116,11 +22106,6 @@ msgstr "Kullanıcı Toplulukları"
 msgctxt "Operator"
 msgid "Refresh"
 msgstr "Otomatik Yenile"
-
-
-msgctxt "Operator"
-msgid "Remove Addon"
-msgstr "Pozu Sil..."
 
 
 msgctxt "Operator"
@@ -23677,14 +23662,6 @@ msgstr "Kontur Metodu:"
 
 msgid "Method to use for the displacement"
 msgstr "Hesaplama için kullanılacak aygıt"
-
-
-msgid "Use Subdivision"
-msgstr "Kırpma Kullan"
-
-
-msgid "Subdivide mesh for rendering"
-msgstr "Merkezi İşlem Birimi Kullanılıyor"
 
 
 msgid "Number of antialiasing samples to render for each pixel"
@@ -28223,10 +28200,6 @@ msgid "Global Undo"
 msgstr "Genel İşlem Geçmişi"
 
 
-msgid "Smooth the final stroke"
-msgstr "Eğrileri yumuşat"
-
-
 msgid "Automatic keyframe insertion in available F-Curves"
 msgstr "Eylem Ipo eğrisine otomatik anahtarkare yerleştir"
 
@@ -28871,10 +28844,6 @@ msgid "Group Index"
 msgstr "Yeni Gurup"
 
 
-msgid "Vertex Weight"
-msgstr "Ağırlık Ortalaması:"
-
-
 msgid "Voxel data settings"
 msgstr "Fabrika Ayarlarını Yükle"
 
@@ -29284,10 +29253,6 @@ msgstr "Ebeveyn Nesne"
 
 msgid "Envelope:"
 msgstr "Ölçek Zarfı/BBone"
-
-
-msgid "Radius:"
-msgstr "Yarıçap:"
 
 
 msgid "Bone Group:"
@@ -30541,12 +30506,12 @@ msgid "Feature Weights:"
 msgstr "Özellik Seti"
 
 
-msgid "Mirror:"
-msgstr "Aynala:"
-
-
 msgid "Color Source:"
 msgstr "Arkaplan Kaynağı"
+
+
+msgid "Mirror:"
+msgstr "Aynala:"
 
 
 msgid "Coordinates:"
@@ -33159,11 +33124,6 @@ msgstr "Sürücüyü Kaldır"
 
 
 msgctxt "Operator"
-msgid "Add Single Driver"
-msgstr "Sürücüyü Kaldır"
-
-
-msgctxt "Operator"
 msgid "Add All to Keying Set"
 msgstr "Gruba ekle"
 
@@ -33682,10 +33642,6 @@ msgid "Failed to erode walkable area"
 msgstr "Dosya kaydı olanaksız"
 
 
-msgid "Failed to build regions"
-msgstr "Normale Çevir "
-
-
 msgid "Failed to build contours"
 msgstr "Dosya kaydı olanaksız"
 
@@ -33938,6 +33894,14 @@ msgid "OK"
 msgstr "TAMAM"
 
 
+msgid "Active F-Curve"
+msgstr "Aktif F-Eğrisi"
+
+
+msgid "Active Keyframe"
+msgstr "Aktif Anahtarkare"
+
+
 msgid "Track is locked"
 msgstr "Seçili İşaretler arasında"
 
@@ -34030,26 +33994,6 @@ msgid "Right Handle:"
 msgstr "Sağ Tutamak:"
 
 
-msgid "Bone 1:"
-msgstr "Kemik 1:"
-
-
-msgid "Bone 2:"
-msgstr "Kemik 2:"
-
-
-msgid "Ob/Bone 1:"
-msgstr "Ob/Kemik 1:"
-
-
-msgid "Ob/Bone 2:"
-msgstr "Ob/Kemik 2:"
-
-
-msgid "Ob/Bone:"
-msgstr "Ob/Kemik:"
-
-
 msgid "Update Dependencies"
 msgstr "Güncelleme Bağımlılıkları"
 
@@ -34080,14 +34024,6 @@ msgstr "İşi durdur"
 
 msgid "View Properties"
 msgstr "Görünüm Özellikleri"
-
-
-msgid "Active F-Curve"
-msgstr "Aktif F-Eğrisi"
-
-
-msgid "Active Keyframe"
-msgstr "Aktif Anahtarkare"
 
 
 msgid "Active F-Curve is not editable"
@@ -34388,6 +34324,10 @@ msgstr "Yarıçap Ortalaması:"
 
 msgid "Mean Crease:"
 msgstr "AltYüzeyi Buruştur"
+
+
+msgid "Radius:"
+msgstr "Yarıçap:"
 
 
 msgid "Mean Weight:"
@@ -34882,6 +34822,10 @@ msgid "unable to open the file"
 msgstr "Dosya kaydı olanaksız"
 
 
+msgid "Context window not set"
+msgstr "Ayarlı Değil"
+
+
 msgid "Donations"
 msgstr "Bağışlar"
 
@@ -34921,10 +34865,6 @@ msgstr "Küçük Harf Yap"
 
 msgid "No operator in context"
 msgstr "Tüm Nesne Merkezleri"
-
-
-msgid "Context window not set"
-msgstr "Ayarlı Değil"
 
 
 msgid "Blender User Preferences"

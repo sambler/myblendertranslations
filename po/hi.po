@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: 2015-03-03 16:21+0530\n"
 "Last-Translator: Roshan Lal Gumasta <roshan@anisecrets.com>\n"
 "Language-Team: Hindi <www.anisecrets.com>\n"
@@ -1545,6 +1545,26 @@ msgid "Clip"
 msgstr "छांटन"
 
 
+msgid "Poly"
+msgstr "बहु"
+
+
+msgid "Cursor"
+msgstr "प्रसंकेतक"
+
+
+msgid "Surface"
+msgstr "सतह"
+
+
+msgid "Plane"
+msgstr "समतल"
+
+
+msgid "View"
+msgstr "दृश्य"
+
+
 msgid "Filtering Group"
 msgstr "समूह निस्पादन"
 
@@ -1881,10 +1901,6 @@ msgid "Cube"
 msgstr "घन"
 
 
-msgid "Plane"
-msgstr "समतल"
-
-
 msgid "Zoom"
 msgstr "निकट करें"
 
@@ -1999,10 +2015,6 @@ msgstr "लहर"
 
 msgid "Rest Length"
 msgstr "शेष लंबाई"
-
-
-msgid "Surface"
-msgstr "सतह"
 
 
 msgid "Texture Mode"
@@ -3203,10 +3215,6 @@ msgid "Global Z"
 msgstr "वैश्विक z"
 
 
-msgid "View"
-msgstr "दृश्य"
-
-
 msgid "Age"
 msgstr "आयु"
 
@@ -4291,6 +4299,10 @@ msgid "Lift"
 msgstr "उत्थापन"
 
 
+msgid "Basis"
+msgstr "आधार"
+
+
 msgid "Power"
 msgstr "शक्ति"
 
@@ -4560,10 +4572,6 @@ msgid "Paste Driver"
 msgstr "चिपकाएँ यंत्र-संवादी"
 
 
-msgid "Cursor"
-msgstr "प्रसंकेतक"
-
-
 msgctxt "Operator"
 msgid "Extrude"
 msgstr "बिहर्वेधन"
@@ -4789,10 +4797,6 @@ msgstr "चिकना"
 msgctxt "Operator"
 msgid "Spin"
 msgstr "चक्रण"
-
-
-msgid "Poly"
-msgstr "बहु"
 
 
 msgctxt "Operator"
@@ -5709,10 +5713,6 @@ msgstr "विकृति"
 msgctxt "Operator"
 msgid "Copy Data Path"
 msgstr "सामग्री पथ की प्रतिलिपि बनाएँ"
-
-
-msgid "Addon"
-msgstr "सह्-युक्ति"
 
 
 msgctxt "Operator"
@@ -7285,10 +7285,6 @@ msgid "Could not write to po file ({})"
 msgstr "पो संचिका (()) करने के लिए नहीं लिख सकता है"
 
 
-msgid "WARNING: preferences are lost when addon is disabled, be sure to use \"Save Persistent\" if you want to keep your settings!"
-msgstr "चेतावनी: जब सह्-युक्ति अक्षम है प्राथमिकताएँ खो रहे हैं, यकीन है कि अगर आप अपनी सेटिंग्स को रखना चाहते हैं \"लगातार सहेजें\" का उपयोग करने के लिए!"
-
-
 msgctxt "Operator"
 msgid "Save Persistent To..."
 msgstr "सहेजें करने के लिए लगातार..."
@@ -7310,10 +7306,6 @@ msgstr "संदेश निष्कर्षण प्रक्रिया 
 
 msgid "Could not init languages data!"
 msgstr "नहीं init भाषाओं डेटा सकता है!"
-
-
-msgid "Please edit the preferences of the UI Translate addon"
-msgstr "कृपया UI का अनुवाद एडऑन की प्राथमिकताएं संपादित करें"
 
 
 msgctxt "Operator"
@@ -7487,6 +7479,10 @@ msgid "Eps"
 msgstr "ईपीएस"
 
 
+msgid "Roll:"
+msgstr "पंजी:"
+
+
 msgid "Parent:"
 msgstr "कारण"
 
@@ -7497,18 +7493,6 @@ msgstr "खिंचाव:"
 
 msgid "Envelope:"
 msgstr "लिफाफा:"
-
-
-msgid "Radius:"
-msgstr "त्रिज्या"
-
-
-msgid "Curved Bones:"
-msgstr "घुमावदार हड्डियाँ:"
-
-
-msgid "Roll:"
-msgstr "पंजी:"
 
 
 msgid "Shift:"
@@ -8251,10 +8235,6 @@ msgid "Filter:"
 msgstr "निस्पादक:"
 
 
-msgid "Basis"
-msgstr "आधार"
-
-
 msgid "Calculate"
 msgstr "गणना"
 
@@ -8263,16 +8243,16 @@ msgid "Dimension"
 msgstr "आयाम"
 
 
+msgid "Color Source:"
+msgstr "रंग स्रोत:"
+
+
 msgid "Repeat:"
 msgstr "दोहराएँ:"
 
 
 msgid "Mirror:"
 msgstr "दर्पण:"
-
-
-msgid "Color Source:"
-msgstr "रंग स्रोत:"
 
 
 msgid "System:"
@@ -9604,11 +9584,6 @@ msgstr "यंत्र-संवादी जोड़ें"
 
 
 msgctxt "Operator"
-msgid "Add Single Driver"
-msgstr "एकल यंत्र-संवादी जोड़ें"
-
-
-msgctxt "Operator"
 msgid "Add All to Keying Set"
 msgstr "सब कुंजीयन स्थापित करने के लिए जोड़ें"
 
@@ -10181,6 +10156,10 @@ msgstr "संचिका पुन: बनाएँ"
 
 msgid "W:"
 msgstr "डब्ल्यु:"
+
+
+msgid "Radius:"
+msgstr "त्रिज्या"
 
 
 msgid "4L"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Santiago Lizardo <santiago.lizardo@gmail.com>\n"
 "Language-Team: Blender Català (http://www.blender.cat)\n"
@@ -1086,10 +1086,6 @@ msgstr "Calcular Tangents"
 
 msgid "Module name"
 msgstr "Arxiu"
-
-
-msgid "Addon Preferences"
-msgstr "Començar a renderitzar una seqüència"
 
 
 msgid "Translation Root"
@@ -3377,6 +3373,26 @@ msgid "Clip Min Y"
 msgstr "Esborrar Rotació"
 
 
+msgid "Bezier"
+msgstr "Corba de Bezier"
+
+
+msgid "Surface"
+msgstr "Superfície"
+
+
+msgid "Tolerance"
+msgstr "Afegir"
+
+
+msgid "Plane"
+msgstr "Pla"
+
+
+msgid "View"
+msgstr "Vista"
+
+
 msgid "Safe Areas"
 msgstr "Corba NURBS"
 
@@ -4133,10 +4149,6 @@ msgid "Cube"
 msgstr "Cub"
 
 
-msgid "Plane"
-msgstr "Pla"
-
-
 msgid "Static"
 msgstr "Rotar"
 
@@ -4515,10 +4527,6 @@ msgstr "Esborrar Origen"
 
 msgid "Rest length of the harmonic force"
 msgstr "Seleccionar connectats"
-
-
-msgid "Surface"
-msgstr "Superfície"
 
 
 msgid "Size of the turbulence"
@@ -8153,10 +8161,6 @@ msgid "Align to"
 msgstr "Duplicar"
 
 
-msgid "View"
-msgstr "Vista"
-
-
 msgid "Animate"
 msgstr "Finestra de Render"
 
@@ -9454,10 +9458,6 @@ msgid "Vector font for Text objects"
 msgstr "Comprimir Dades"
 
 
-msgid "Filter addons by category"
-msgstr "Duplicar"
-
-
 msgid "Search within the selected filter"
 msgstr "Amagar Seleccionats"
 
@@ -9754,10 +9754,6 @@ msgid "Right Handle Type"
 msgstr "Autotangents"
 
 
-msgid "Bezier"
-msgstr "Corba de Bezier"
-
-
 msgid "Circular"
 msgstr "Cercle"
 
@@ -9952,10 +9948,6 @@ msgstr "Partir"
 
 msgid "Rotation Angle"
 msgstr "Esborrar Rotació"
-
-
-msgid "Tolerance"
-msgstr "Afegir"
 
 
 msgid "Orientation"
@@ -13803,6 +13795,10 @@ msgid "Object Vertices"
 msgstr "Corba"
 
 
+msgid "Vertex Weight"
+msgstr "Dreta"
+
+
 msgid "Sky Texture"
 msgstr "Texte"
 
@@ -14158,6 +14154,15 @@ msgstr "Guardar imatge"
 
 msgid "Set Preview Range based on extents of selected Keyframes"
 msgstr "Seleccionar connectats"
+
+
+msgctxt "Operator"
+msgid "Properties"
+msgstr "Image Displist"
+
+
+msgid "Toggle display properties panel"
+msgstr "Amagar Seleccionats"
 
 
 msgctxt "Operator"
@@ -15278,11 +15283,6 @@ msgstr "Arxiu"
 msgctxt "Operator"
 msgid "Paste Tracks"
 msgstr "Crear Pista"
-
-
-msgctxt "Operator"
-msgid "Properties"
-msgstr "Image Displist"
 
 
 msgid "Toggle clip properties panel"
@@ -17114,10 +17114,6 @@ msgid "Flip times of selected keyframes, effectively reversing the order they ap
 msgstr "Seleccionar connectats"
 
 
-msgid "Toggle display properties panel"
-msgstr "Amagar Seleccionats"
-
-
 msgid "Include Handles"
 msgstr "Calcular Tangents"
 
@@ -17183,6 +17179,11 @@ msgstr "Seleccionar connectats"
 msgctxt "Operator"
 msgid "Remove From All Groups"
 msgstr "Seleccionar fila"
+
+
+msgctxt "Operator"
+msgid "Clear Render Border"
+msgstr "Fixar Límits"
 
 
 msgctxt "Operator"
@@ -17365,6 +17366,11 @@ msgstr "Començar a renderitzar una seqüència"
 
 msgid "Zoom in/out the image"
 msgstr "Amagar Seleccionats"
+
+
+msgctxt "Operator"
+msgid "Zoom to Border"
+msgstr "Seleccionar amb límit"
 
 
 msgid "Set zoom ratio of the view"
@@ -19348,10 +19354,6 @@ msgstr "Duplicar"
 msgctxt "Operator"
 msgid "Add F-Modifier"
 msgstr "Esborrar tot"
-
-
-msgid "Add a F-Modifier of the specified type to the selected NLA-Strips"
-msgstr "Amagar Seleccionats"
 
 
 msgctxt "Operator"
@@ -24202,11 +24204,6 @@ msgstr "Ampliar"
 
 
 msgctxt "Operator"
-msgid "Zoom to Border"
-msgstr "Seleccionar amb límit"
-
-
-msgctxt "Operator"
 msgid "Zoom In"
 msgstr "Ampliar"
 
@@ -24249,11 +24246,6 @@ msgstr "Amagar Seleccionats"
 
 msgid "Move the camera so selected objects are framed"
 msgstr "Seleccionar connectats"
-
-
-msgctxt "Operator"
-msgid "Clear Render Border"
-msgstr "Fixar Límits"
 
 
 msgctxt "Operator"
@@ -24556,16 +24548,6 @@ msgstr "Càmera"
 
 
 msgctxt "Operator"
-msgid "Disable Addon"
-msgstr "Vista"
-
-
-msgctxt "Operator"
-msgid "Enable Addon"
-msgstr "Vista"
-
-
-msgctxt "Operator"
 msgid "Install from File..."
 msgstr "Vista"
 
@@ -24576,11 +24558,6 @@ msgstr "Camí"
 
 msgid "User Prefs"
 msgstr "Superfície"
-
-
-msgctxt "Operator"
-msgid "Remove Addon"
-msgstr "Seleccionar fila"
 
 
 msgctxt "Operator"
@@ -26501,10 +26478,6 @@ msgstr "Esborrar Rotació"
 
 msgid "True"
 msgstr "Veritable"
-
-
-msgid "Subdivide mesh for rendering"
-msgstr "Guardar com"
 
 
 msgid "AA Samples"
@@ -31887,10 +31860,6 @@ msgid "Group Index"
 msgstr "Seleccionar fila"
 
 
-msgid "Vertex Weight"
-msgstr "Dreta"
-
-
 msgid "Voxel data settings"
 msgstr "Guardar preferències"
 
@@ -32305,6 +32274,10 @@ msgid "Reiteration:"
 msgstr "Esborrar Rotació"
 
 
+msgid "Roll:"
+msgstr "Seleccionar fila"
+
+
 msgid "Parent:"
 msgstr "Seleccionar fila"
 
@@ -32323,10 +32296,6 @@ msgstr "Seleccionar fila"
 
 msgid "Control Rotation"
 msgstr "Esborrar Rotació"
-
-
-msgid "Roll:"
-msgstr "Seleccionar fila"
 
 
 msgid "Shift:"
@@ -33506,12 +33475,12 @@ msgid "Feature Weights:"
 msgstr "Dreta"
 
 
-msgid "Mirror:"
-msgstr "Seleccionar fila"
-
-
 msgid "Color Source:"
 msgstr "Comprimir Dades"
+
+
+msgid "Mirror:"
+msgstr "Seleccionar fila"
 
 
 msgid "Coordinates:"
@@ -35774,11 +35743,6 @@ msgstr "Corba de Bezier"
 
 
 msgctxt "Operator"
-msgid "Add Single Driver"
-msgstr "Corba de Bezier"
-
-
-msgctxt "Operator"
 msgid "Add All to Keying Set"
 msgstr "Moure a Capa"
 
@@ -36145,10 +36109,6 @@ msgid "Failed to build distance field"
 msgstr "Mostrar propietats de les arestes"
 
 
-msgid "Failed to build regions"
-msgstr "Seleccionar fila"
-
-
 msgid "No mesh objects found"
 msgstr "Duplicar"
 
@@ -36381,6 +36341,14 @@ msgid "Active group is locked, aborting"
 msgstr "Seleccionar fila"
 
 
+msgid "Active F-Curve"
+msgstr "Moure a Capa"
+
+
+msgid "Active Keyframe"
+msgstr "Moure a Capa"
+
+
 msgid "Track is locked"
 msgstr "Seleccionar fila"
 
@@ -36469,26 +36437,6 @@ msgid "Prop:"
 msgstr "Image Displist"
 
 
-msgid "Bone 1:"
-msgstr "Corba de Bezier"
-
-
-msgid "Bone 2:"
-msgstr "Corba de Bezier"
-
-
-msgid "Ob/Bone 1:"
-msgstr "Corba de Bezier"
-
-
-msgid "Ob/Bone 2:"
-msgstr "Corba de Bezier"
-
-
-msgid "Ob/Bone:"
-msgstr "Corba de Bezier"
-
-
 msgid "Update Dependencies"
 msgstr "Finestra de Render"
 
@@ -36519,14 +36467,6 @@ msgstr "Seleccionar fila"
 
 msgid "View Properties"
 msgstr "Image Displist"
-
-
-msgid "Active F-Curve"
-msgstr "Moure a Capa"
-
-
-msgid "Active Keyframe"
-msgstr "Moure a Capa"
 
 
 msgid "Active F-Curve is not editable"
@@ -37313,6 +37253,10 @@ msgid "unable to open the file"
 msgstr "Seleccionar amb límit"
 
 
+msgid "Context window not set"
+msgstr "Pintura Vectorial"
+
+
 msgid "unsupported format"
 msgstr "Començar a renderitzar una seqüència"
 
@@ -37328,10 +37272,6 @@ msgstr "Cíclic"
 
 msgid "No operator in context"
 msgstr "Canviar Str"
-
-
-msgid "Context window not set"
-msgstr "Pintura Vectorial"
 
 
 msgid "Simplified Chinese (简体中文)"

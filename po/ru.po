@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: 2015-06-08 11:49+0300\n"
 "Last-Translator: Lockal S <lockalsash@gmail.com>\n"
 "Language-Team: Russian <http://translateblender.ru/projects/blender/blender/ru/>\n"
@@ -1935,20 +1935,12 @@ msgid "Set the objects visible (initialized from the object render restriction t
 msgstr "Установить видимость объектов (инициализируется по состоянию переключателя видимости объекта на панели физики)"
 
 
-msgid "Python addons to be loaded automatically"
-msgstr "Автоматически загружаемые дополнения на языке Python"
-
-
 msgid "Module"
 msgstr "Модуль"
 
 
 msgid "Module name"
 msgstr "Имя модуля"
-
-
-msgid "Addon Preferences"
-msgstr "Настройки дополнения"
 
 
 msgid "Fribidi Library"
@@ -7264,6 +7256,34 @@ msgid "For RGB curves, the color that white is mapped to"
 msgstr "Цвет, на который отображается белый для RGB-кривых"
 
 
+msgid "Poly"
+msgstr "Полилиния"
+
+
+msgid "Bezier"
+msgstr "Безье"
+
+
+msgid "Cursor"
+msgstr "Курсор"
+
+
+msgid "Surface"
+msgstr "Поверхность"
+
+
+msgid "Tolerance"
+msgstr "Отклонение"
+
+
+msgid "Plane"
+msgstr "Плоскость"
+
+
+msgid "View"
+msgstr "Вид"
+
+
 msgid "Dependency Graph"
 msgstr "Граф зависимостей"
 
@@ -8852,10 +8872,6 @@ msgid "Use environment map with six cube sides"
 msgstr "Использовать карту окружения, состоящую из шести сторон куба"
 
 
-msgid "Plane"
-msgstr "Плоскость"
-
-
 msgid "Only one side is rendered, with Z axis pointing in direction of image"
 msgstr "Визуализировать только одну сторону, направленную осью Z в сторону изображения"
 
@@ -9950,10 +9966,6 @@ msgstr "Вариация шума"
 
 msgid "Which direction is used to calculate the effector force"
 msgstr "Направление, используемое для расчёта силы эффектора"
-
-
-msgid "Surface"
-msgstr "Поверхность"
 
 
 msgid "Every Point"
@@ -11604,16 +11616,8 @@ msgid "Frames After"
 msgstr "Кадры после"
 
 
-msgid "Maximum number of frames to show after current frame (0 = show only the next sketch)"
-msgstr "Максимальное количество кадров для показа после текущего кадра (0 = показать только следующий эскиз)"
-
-
 msgid "Frames Before"
 msgstr "Кадры до"
-
-
-msgid "Maximum number of frames to show before current frame (0 = show only the previous sketch)"
-msgstr "Максимальное количество кадров для показа перед текущим кадром (0 = показать только предыдущий эскиз)"
 
 
 msgid "Set layer Visibility"
@@ -14298,10 +14302,6 @@ msgstr "Настройки редактирования форматирован
 
 msgid "Object Font"
 msgstr "Объект-шрифт"
-
-
-msgid "Use Objects as font characters (give font objects a common name followed by the character they represent, eg. 'family_a', 'family_b', etc, set this setting to 'family_', and turn on Vertex Duplication)"
-msgstr "Использовать объекты в качестве символов шрифта (задайте объектам шрифта общее имя, за которым следует символ, который они обозначают, например, для «family_a», «family_b» и т. д. установите значение «family_» и включите дублирование вершин)"
 
 
 msgid "Text on Curve"
@@ -18758,10 +18758,6 @@ msgid "In respect to what the billboards are aligned"
 msgstr "Установка, определяющая направление билбордов"
 
 
-msgid "View"
-msgstr "Вид"
-
-
 msgid "Animate"
 msgstr "Анимация"
 
@@ -21555,10 +21551,6 @@ msgid "Category"
 msgstr "Категория"
 
 
-msgid "Filter addons by category"
-msgstr "Фильтровать дополнения по категории"
-
-
 msgid "Search"
 msgstr "Поиск"
 
@@ -22541,10 +22533,6 @@ msgstr "Без интерполяции, значение А остаётся н
 
 msgid "Straight-line interpolation between A and B (i.e. no ease in/out)"
 msgstr "Интерполяция с помощью отрезка, соединяющего A и Б напрямую (т. е. без плавного перехода в начале или конце)"
-
-
-msgid "Bezier"
-msgstr "Безье"
 
 
 msgid "Smooth interpolation between A and B, with some control over curve shape"
@@ -23565,10 +23553,6 @@ msgstr "Определить новое расстояние выборки то
 
 msgid "New sampling value to be used for subsequent modifiers"
 msgstr "Новое расстояние выборки точек для нижестоящих модификаторов"
-
-
-msgid "Tolerance"
-msgstr "Отклонение"
 
 
 msgid "Add sinus displacement to stroke backbone geometry"
@@ -30863,6 +30847,10 @@ msgid "Correction for Shadows"
 msgstr "Коррекция теней"
 
 
+msgid "Basis"
+msgstr "Основа"
+
+
 msgid "Power"
 msgstr "Степень"
 
@@ -32808,6 +32796,10 @@ msgid "Musgrave Texture"
 msgstr "Текстура «Масгрейв»"
 
 
+msgid "Object to take point data from"
+msgstr "Объект, от которого принимаются данные о точках"
+
+
 msgid "Color Source"
 msgstr "Источник цвета"
 
@@ -32840,10 +32832,6 @@ msgid "XYZ velocity mapped to RGB colors"
 msgstr "XYZ-скорость на шкале RGB-цветов"
 
 
-msgid "Object to take point data from"
-msgstr "Объект, от которого принимаются данные о точках"
-
-
 msgid "Particle System to render as points"
 msgstr "Система частиц, визуализируемая в виде точек"
 
@@ -32870,6 +32858,10 @@ msgstr "Генерация плотности точек на основе ве�
 
 msgid "Radius from the shaded sample to look for points within"
 msgstr "Радиус затенённого сэмпла, внутри которого производить поиск точек"
+
+
+msgid "Vertex Weight"
+msgstr "Вес вершины"
 
 
 msgid "Sky Texture"
@@ -33772,6 +33764,15 @@ msgstr "Установить диапазон предпросмотра на о
 
 
 msgctxt "Operator"
+msgid "Properties"
+msgstr "Свойства"
+
+
+msgid "Toggle display properties panel"
+msgstr "Переключить отображение панели свойств"
+
+
+msgctxt "Operator"
 msgid "Push Down Action"
 msgstr "Выдвинуть действие"
 
@@ -34229,14 +34230,6 @@ msgid "Add Driver"
 msgstr "Добавить драйвер"
 
 
-msgid "Add driver(s) for the property(s) connected represented by the highlighted button"
-msgstr "Добавить драйвер(ы) для свойств, представляемых выделенных кнопкой"
-
-
-msgid "Create drivers for all elements of the array"
-msgstr "Создать драйверы для всех элементов массива"
-
-
 msgctxt "Operator"
 msgid "Remove Driver"
 msgstr "Удалить драйвер"
@@ -34634,10 +34627,6 @@ msgstr "Активная кость"
 
 msgid "View Axis"
 msgstr "Оси вида"
-
-
-msgid "Cursor"
-msgstr "Курсор"
 
 
 msgctxt "Operator"
@@ -35900,11 +35889,6 @@ msgid "Prefetch frames from disk for faster playback/tracking"
 msgstr "Выполнить предзагрузку кадров для ускорения воспроизведения/трекинга"
 
 
-msgctxt "Operator"
-msgid "Properties"
-msgstr "Свойства"
-
-
 msgid "Toggle clip properties panel"
 msgstr "Переключить панель свойств видеофрагмента"
 
@@ -36849,6 +36833,24 @@ msgstr "Удаляемые элементы"
 
 
 msgctxt "Operator"
+msgid "Dissolve Vertices"
+msgstr "Растворить вершины"
+
+
+msgctxt "Operator"
+msgid "Draw Curve"
+msgstr "Нарисовать кривую"
+
+
+msgid "Stroke"
+msgstr "Штрих"
+
+
+msgid "Wait for Input"
+msgstr "Ожидать ввода"
+
+
+msgctxt "Operator"
 msgid "Duplicate Curve"
 msgstr "Дублировать кривую"
 
@@ -37312,10 +37314,6 @@ msgstr "Установить тип сплайна"
 
 msgid "Set type of active spline"
 msgstr "Установить тип активного сплайна"
-
-
-msgid "Poly"
-msgstr "Полилиния"
 
 
 msgid "Handles"
@@ -38889,14 +38887,6 @@ msgid "Delete the active frame for the active Grease Pencil datablock"
 msgstr "Удалить активный кадр из блока данных активного эскизного карандаша"
 
 
-msgid "Stroke"
-msgstr "Штрих"
-
-
-msgid "Wait for Input"
-msgstr "Ожидать ввода"
-
-
 msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "Преобразовать эскизный карандаш"
@@ -39344,10 +39334,6 @@ msgid "Add F-Curve Modifier"
 msgstr "Добавить модификатор F-кривой"
 
 
-msgid "Add F-Modifiers to the selected F-Curves"
-msgstr "Добавить F-модификаторы к выбранным F-кривым"
-
-
 msgid "Only Active"
 msgstr "Только к активной"
 
@@ -39431,10 +39417,6 @@ msgstr "Отразить выделенные ключевые кадры по �
 
 msgid "Automatically set Preview Range based on range of keyframes"
 msgstr "Автоматическая установка диапазона предпросмотра на основе диапазона ключевых кадров"
-
-
-msgid "Toggle display properties panel"
-msgstr "Переключить отображение панели свойств"
 
 
 msgctxt "Operator"
@@ -39630,8 +39612,8 @@ msgstr "Удалить выделенные объекты из всех гру�
 
 
 msgctxt "Operator"
-msgid "Render Border"
-msgstr "Границы визуализации"
+msgid "Clear Render Border"
+msgstr "Очистить границы визуализации"
 
 
 msgid "Clear the boundaries of the border render and disable border render"
@@ -39834,6 +39816,11 @@ msgid "Reload current image from disk"
 msgstr "Перезагрузить это изображение с диска"
 
 
+msgctxt "Operator"
+msgid "Render Border"
+msgstr "Границы визуализации"
+
+
 msgid "Set the boundaries of the border render and enable border render"
 msgstr "Установить границы визуализации и включить граничную визуализацию"
 
@@ -39990,6 +39977,15 @@ msgstr "Показать все выбранные UV"
 
 msgid "Zoom in/out the image"
 msgstr "Приблизить/отдалить изображение"
+
+
+msgctxt "Operator"
+msgid "Zoom to Border"
+msgstr "Масштабировать до границ"
+
+
+msgid "Zoom in the view to the nearest item contained in the border"
+msgstr "Увеличить область просмотра до ближайшего элемента, находящегося внутри границ"
 
 
 msgid "Zoom in the image (centered around 2D cursor)"
@@ -41667,11 +41663,6 @@ msgstr "Разрывать на границах"
 
 msgid "Split off face corners instead of merging faces"
 msgstr "Разделять углы граней, а не объединять грани"
-
-
-msgctxt "Operator"
-msgid "Dissolve Vertices"
-msgstr "Растворить вершины"
 
 
 msgid "Dissolve verts, merge edges and faces"
@@ -43891,10 +43882,6 @@ msgstr "Назначать новые копии действий, исполь�
 msgctxt "Operator"
 msgid "Add F-Modifier"
 msgstr "Добавить F-модификатор"
-
-
-msgid "Add a F-Modifier of the specified type to the selected NLA-Strips"
-msgstr "Добавить F-модификатор заданного типа к выделенным лентам NLA"
 
 
 msgid "Only add a F-Modifier of the specified type to the active strip"
@@ -47581,11 +47568,6 @@ msgstr "Удалить точку кривой рисования"
 
 msgid "Remove Paint Curve Point"
 msgstr "Удалить точку кривой рисования"
-
-
-msgctxt "Operator"
-msgid "Draw Curve"
-msgstr "Нарисовать кривую"
 
 
 msgid "Draw curve"
@@ -52085,10 +52067,6 @@ msgid "Copy property from this object to selected objects or bones"
 msgstr "Копировать свойство объекта на выделенные объекты или кости"
 
 
-msgid "Reset to default values all elements of the array"
-msgstr "Сбросить все элементы массива на значения по умолчанию"
-
-
 msgctxt "Operator"
 msgid "Drop Color"
 msgstr "Перетащить цвет"
@@ -52257,8 +52235,8 @@ msgid "Eyedropper"
 msgstr "Пипетка"
 
 
-msgid "Sample a data-block from the 3D view"
-msgstr "Взять цвет с блока данных 3D-вида"
+msgid "Sample a color from the Blender Window to store in a property"
+msgstr "Взять образец цвета из окна Blender, чтобы сохранить его в свойстве"
 
 
 msgctxt "Operator"
@@ -52273,27 +52251,6 @@ msgstr "Глубина выборки из 3D-вида"
 msgctxt "Operator"
 msgid "Eyedropper Datablock"
 msgstr "Пипетка для блоков данных"
-
-
-msgid "Sample a datablock from the Blender Window to store in a property"
-msgstr "Сэмплировать блок данных окна Blender для сохранения в свойстве"
-
-
-msgctxt "Operator"
-msgid "I18n Addon Export"
-msgstr "Экспортировать переводы дополнения"
-
-
-msgid "Export given addon's translation data as PO files"
-msgstr "Экспортировать данные переводов указанного дополнения в файлы PO"
-
-
-msgid "Addon"
-msgstr "Дополнение"
-
-
-msgid "Addon to process"
-msgstr "Обрабатываемое дополнение"
 
 
 msgid "Export POT"
@@ -52312,20 +52269,6 @@ msgid "Update existing po files, if any, instead of overwriting them"
 msgstr "Обновить существующие файлы *.po, перезаписав их содержимое, если они существуют"
 
 
-msgctxt "Operator"
-msgid "I18n Addon Import"
-msgstr "Импортировать переводы дополнения"
-
-
-msgid "Import given addon's translation data from PO files"
-msgstr "Импортировать данные переводов указанного дополнения из файлов PO"
-
-
-msgctxt "Operator"
-msgid "Update I18n Addon"
-msgstr "Обновить переводы дополнения"
-
-
 msgid "Wrapper operator which will invoke given op after setting its module_name"
 msgstr "Оператор-обёртка, выполняемый заданную операцию после установки module_name"
 
@@ -52336,10 +52279,6 @@ msgstr "Имя оператора"
 
 msgid "Name (id) of the operator to invoke"
 msgstr "Имя (идентификатор) вызываемого оператора"
-
-
-msgid "Update given addon's translation data (found as a py tuple in the addon's source code)"
-msgstr "Обновить данные переводов выбранного дополнения (python-кортежи, найденные в исходном коде дополнения)"
 
 
 msgctxt "Operator"
@@ -52479,6 +52418,10 @@ msgstr "Сбросить на значение по умолчанию"
 
 msgid "Reset this property's value to its default value"
 msgstr "Сбросить значение свойства на значение по умолчанию"
+
+
+msgid "Reset to default values all elements of the array"
+msgstr "Сбросить все элементы массива на значения по умолчанию"
 
 
 msgctxt "Operator"
@@ -53306,15 +53249,6 @@ msgstr "Масштабировать 2D-вид"
 
 
 msgctxt "Operator"
-msgid "Zoom to Border"
-msgstr "Масштабировать до границ"
-
-
-msgid "Zoom in the view to the nearest item contained in the border"
-msgstr "Увеличить область просмотра до ближайшего элемента, находящегося внутри границ"
-
-
-msgctxt "Operator"
 msgid "Zoom In"
 msgstr "Увеличить"
 
@@ -53370,11 +53304,6 @@ msgstr "Фокусировать камеру на выделенном"
 
 msgid "Move the camera so selected objects are framed"
 msgstr "Переместить камеру таким образом, чтобы выделенные объекты попали в кадр"
-
-
-msgctxt "Operator"
-msgid "Clear Render Border"
-msgstr "Очистить границы визуализации"
 
 
 msgctxt "Operator"
@@ -54026,22 +53955,8 @@ msgstr "Установить масштаб камеры 1:1 по отношен
 
 
 msgctxt "Operator"
-msgid "Disable Addon"
-msgstr "Отключить дополнение"
-
-
-msgctxt "Operator"
-msgid "Enable Addon"
-msgstr "Включить дополнение"
-
-
-msgctxt "Operator"
 msgid "Install from File..."
 msgstr "Установить из файла..."
-
-
-msgid "Remove existing addons with the same ID"
-msgstr "Удалить существующие дополнения с тем же идентификатором"
 
 
 msgid "Target Path"
@@ -54055,11 +53970,6 @@ msgstr "Пользовательские настройки"
 msgctxt "Operator"
 msgid "Refresh"
 msgstr "Обновить"
-
-
-msgctxt "Operator"
-msgid "Remove Addon"
-msgstr "Удалить дополнение"
 
 
 msgctxt "Operator"
@@ -55936,10 +55846,6 @@ msgstr "Производительность"
 
 msgid "Views"
 msgstr "Виды"
-
-
-msgid "Volume Sampling"
-msgstr "Сэмплирование объёма"
 
 
 msgid "Mist Pass"
@@ -58110,6 +58016,10 @@ msgid "Smoothed high quality interpolation, but slower"
 msgstr "Сглаженная интерполяция с высоким качеством, но медленнее"
 
 
+msgid "Volume Sampling"
+msgstr "Сэмплирование объёма"
+
+
 msgid "Sampling method to use for volumes"
 msgstr "Метод выборки для объёмов"
 
@@ -58160,14 +58070,6 @@ msgstr "Использовать фактическое смещение, что
 
 msgid "Combination of displacement and bump mapping"
 msgstr "Комбинация смещения и рельефного текстурирования"
-
-
-msgid "Use Subdivision"
-msgstr "Использовать подразделение"
-
-
-msgid "Subdivide mesh for rendering"
-msgstr "Подразделять полисетку при визуализации"
 
 
 msgid "Motion Steps"
@@ -70604,14 +70506,6 @@ msgid "Simplify the final stroke"
 msgstr "Упрощение заключительного штриха"
 
 
-msgid "Grease Pencil Smooth Stroke"
-msgstr "Сглаживать штрихи эскизного карандаша"
-
-
-msgid "Smooth the final stroke"
-msgstr "Сглаживание заключительного штриха"
-
-
 msgid "New F-Curve Colors - XYZ to RGB"
 msgstr "Новые цвета F-кривой - XYZ в RGB"
 
@@ -70782,10 +70676,6 @@ msgstr "Число оставляемых старых версий в теку�
 
 msgid "Python Scripts Directory"
 msgstr "Папка скриптов Python"
-
-
-msgid "Alternate script path, matching the default layout with subdirs: startup, addons & modules (requires restart)"
-msgstr "Альтернативный путь к дереву папок скриптов с подпапками по умолчанию: startup, addons и modules (необходим перезапуск)"
 
 
 msgid "Hide Dot Files/Datablocks"
@@ -72212,10 +72102,6 @@ msgid "Group Index"
 msgstr "Индекс группы"
 
 
-msgid "Vertex Weight"
-msgstr "Вес вершины"
-
-
 msgid "Scroll and zoom for a 2D region"
 msgstr "Прокрутка и масштабирование для 2D-региона"
 
@@ -73072,10 +72958,6 @@ msgid "Settings:"
 msgstr "Настройки:"
 
 
-msgid "Heterogeneous:"
-msgstr "Неоднородные:"
-
-
 msgid "Transparency:"
 msgstr "Прозрачность:"
 
@@ -73515,10 +73397,6 @@ msgid "Could not write to po file ({})"
 msgstr "Ошибка записи в файл .po ({})"
 
 
-msgid "WARNING: preferences are lost when addon is disabled, be sure to use \"Save Persistent\" if you want to keep your settings!"
-msgstr "Предупреждение: настройки будут потеряны при отключении дополнения, поэтому используйте функцию постоянного сохранения, если вы хотите сохранить настройки!"
-
-
 msgctxt "Operator"
 msgid "Save Persistent To..."
 msgstr "Сохранить настройки в..."
@@ -73534,14 +73412,6 @@ msgid "Load"
 msgstr "Загрузить"
 
 
-msgid "No addon module given!"
-msgstr "Не задан модуль дополнения!"
-
-
-msgid "Addon '{}' not found!"
-msgstr "Дополнение '{}' не найдено!"
-
-
 msgid "Info written to {} text datablock!"
 msgstr "Информация записана в текстовой блок данных {}!"
 
@@ -73552,10 +73422,6 @@ msgstr "Ошибка в процессе извлечения сообщений
 
 msgid "Could not init languages data!"
 msgstr "Ошибка инициализации данных языков!"
-
-
-msgid "Please edit the preferences of the UI Translate addon"
-msgstr "Измените настройки расширения перевода интерфейса"
 
 
 msgctxt "Operator"
@@ -73581,10 +73447,6 @@ msgstr "Обновить trunk"
 msgctxt "Operator"
 msgid "Statistics"
 msgstr "Статистика"
-
-
-msgid "Addons:"
-msgstr "Дополнения:"
 
 
 msgctxt "Operator"
@@ -73940,6 +73802,10 @@ msgid "Eps"
 msgstr "Eps"
 
 
+msgid "Roll:"
+msgstr "Крен:"
+
+
 msgid "Parent:"
 msgstr "Родитель:"
 
@@ -73952,14 +73818,6 @@ msgid "Envelope:"
 msgstr "Обёртка:"
 
 
-msgid "Radius:"
-msgstr "Радиус:"
-
-
-msgid "Curved Bones:"
-msgstr "Изогнутые кости:"
-
-
 msgid "Bone Group:"
 msgstr "Группа костей:"
 
@@ -73970,10 +73828,6 @@ msgstr "Потомки объекта:"
 
 msgid "Control Rotation"
 msgstr "Управлять вращением"
-
-
-msgid "Roll:"
-msgstr "Крен:"
 
 
 msgid "Custom Shape:"
@@ -76229,10 +76083,6 @@ msgid "Noise:"
 msgstr "Шум:"
 
 
-msgid "Basis"
-msgstr "Основа"
-
-
 msgid "Alpha:"
 msgstr "Полупрозрачность:"
 
@@ -76269,6 +76119,10 @@ msgid "Feature Weights:"
 msgstr "Весовые коэффициенты:"
 
 
+msgid "Color Source:"
+msgstr "Источник цвета:"
+
+
 msgid "Noise Basis:"
 msgstr "Алгоритм шума:"
 
@@ -76287,10 +76141,6 @@ msgstr "Повторение:"
 
 msgid "Mirror:"
 msgstr "Отражение:"
-
-
-msgid "Color Source:"
-msgstr "Источник цвета:"
 
 
 msgid "Coordinates:"
@@ -77646,12 +77496,12 @@ msgid "Euclidean Distance"
 msgstr "Эвклидово расстояние"
 
 
-msgid "Simplify Stroke"
-msgstr "Упрощать штрихи"
-
-
 msgid "Default Color"
 msgstr "Цвет по умолчанию"
+
+
+msgid "Simplify Stroke"
+msgstr "Упрощать штрихи"
 
 
 msgid "Playback:"
@@ -80299,14 +80149,6 @@ msgid "Cannot open file %s for writing: %s"
 msgstr "Ошибка открытия файла %s для записи: %s"
 
 
-msgid "Input faces do not form a contiguous manifold region"
-msgstr "Входные грани не образуют связанный развёртываемый регион"
-
-
-msgid "Invalid boundary region to join faces"
-msgstr "Недопустимый граничный регион для присоединения граней"
-
-
 msgid "Self intersection error"
 msgstr "Ошибка самопересечения"
 
@@ -80341,10 +80183,6 @@ msgstr "Недопустимое выделение"
 
 msgid "Internal mesh error"
 msgstr "Внутренняя ошибка полисетки"
-
-
-msgid "Non-manifold vert while searching region boundary"
-msgstr "Обнаружена вершина с нарушенной топологией при поиске границ участка"
 
 
 msgid "Zero normal given"
@@ -81088,22 +80926,6 @@ msgid "Grease Pencil: Drawing/erasing stroke... Release to end stroke"
 msgstr "Эскизный карандаш: рисование/стирание штриха... Отпустите для завершения штриха"
 
 
-msgid "Grease Pencil Erase Session: Hold and drag LMB or RMB to erase | ESC/Enter to end"
-msgstr "Стирание эскизного карандаша:  нажмите и удерживайте ЛКМ или ПКМ для стирания | Esc/Enter для завершения"
-
-
-msgid "Grease Pencil Line Session: Hold and drag LMB to draw | ESC/Enter to end"
-msgstr "Прямая эскизным карандашом: нажмите и удерживайте ЛКМ или ПКМ для рисования | Esc/Enter для завершения"
-
-
-msgid "Grease Pencil Freehand Session: Hold and drag LMB to draw | ESC/Enter to end"
-msgstr "Свободный режим эскизного карандаша: нажмите и удерживайте ЛКМ для рисования | Esc/Enter для завершения"
-
-
-msgid "Grease Pencil Session: ESC/Enter to end"
-msgstr "Режим эскизного карандаша: Esc/Enter для завершения"
-
-
 msgid "Cannot paint stroke"
 msgstr "Не удалось нарисовать штрих"
 
@@ -81189,11 +81011,6 @@ msgstr "Удалить драйвер"
 msgctxt "Operator"
 msgid "Add Drivers"
 msgstr "Добавить драйверы"
-
-
-msgctxt "Operator"
-msgid "Add Single Driver"
-msgstr "Добавить одиночный драйвер"
 
 
 msgctxt "Operator"
@@ -81284,10 +81101,6 @@ msgstr "Файл «%s» не может быть открыт"
 
 msgid "See '%s' in the text editor"
 msgstr "См. «%s» в текстовом редакторе"
-
-
-msgid "Could not find operator '%s'! Please enable ui_translate addon in the User Preferences"
-msgstr "Не удалось найти оператор «%s»! Включите дополнение ui_translate в настройках Blender"
 
 
 msgid "No valid po found for language '%s' under %s"
@@ -82155,10 +81968,6 @@ msgid "Failed to build distance field"
 msgstr "Ошибка при построении поля расстояний"
 
 
-msgid "Failed to build regions"
-msgstr "Ошибка при построении регионов"
-
-
 msgid "Failed to build contours"
 msgstr "Ошибка при построении контуров"
 
@@ -82766,10 +82575,6 @@ msgid "Removed %d double particles"
 msgstr "Удалено %d сдвоенных частиц"
 
 
-msgid "Can't disconnect hair if particle system modifier is disabled"
-msgstr "Невозможно отсоединить волосы, если модификатор системы частиц отключён"
-
-
 msgid "Copy particle systems to selected: %d done, %d failed"
 msgstr "Копировать системы частиц на выделенные: %d выполнено, %d ошибок"
 
@@ -83310,6 +83115,14 @@ msgid "AutoPack is enabled, so image will be packed again on file save"
 msgstr "Автоупаковка включена, поэтому изображение будет переупаковано при сохранении файла"
 
 
+msgid "Active F-Curve"
+msgstr "Активная F-кривая"
+
+
+msgid "Active Keyframe"
+msgstr "Активный ключевой кадр"
+
+
 msgid "Action must have at least one keyframe or F-Modifier"
 msgstr "У действия должен быть хотя бы один ключевой кадр или F-кривая"
 
@@ -83618,26 +83431,6 @@ msgid "Prop:"
 msgstr "Свойство:"
 
 
-msgid "Bone 1:"
-msgstr "Кость 1:"
-
-
-msgid "Bone 2:"
-msgstr "Кость 2:"
-
-
-msgid "Ob/Bone 1:"
-msgstr "Об./кость 1:"
-
-
-msgid "Ob/Bone 2:"
-msgstr "Об./кость 2:"
-
-
-msgid "Ob/Bone:"
-msgstr "Об./кость:"
-
-
 msgid "Update Dependencies"
 msgstr "Обновить зависимости"
 
@@ -83714,20 +83507,8 @@ msgid "Driver variables ensure that all dependencies will be accounted for and t
 msgstr "Использование переменных в драйверах помогает учитывать зависимости и своевременно обновлять значения"
 
 
-msgid "Adds a new F-Curve Modifier for the active F-Curve"
-msgstr "Добавить новый модификатор F-кривой к активной F-кривой"
-
-
 msgid "View Properties"
 msgstr "Настройки отображения"
-
-
-msgid "Active F-Curve"
-msgstr "Активная F-кривая"
-
-
-msgid "Active Keyframe"
-msgstr "Активный ключевой кадр"
 
 
 msgid "<No ID>"
@@ -84135,10 +83916,6 @@ msgid "Now"
 msgstr "Сейчас"
 
 
-msgid "Adds a new F-Modifier for the active NLA Strip"
-msgstr "Добавить новый F-модификатор к активной ленте NLA"
-
-
 msgid "Active Track"
 msgstr "Активный трек"
 
@@ -84173,10 +83950,6 @@ msgstr "Нет канала анимации с индексом %d"
 
 msgid "Animation channel at index %d is not a NLA 'Active Action' channel"
 msgstr "Канал анимации с индексом %d не является каналом активного действия NLA"
-
-
-msgid "Add F-Modifier"
-msgstr "Добавить F-модификатор"
 
 
 msgid "No AnimData blocks to enter tweak mode for"
@@ -84723,6 +84496,10 @@ msgstr "Данные рёбер:"
 
 msgid "Mean Crease:"
 msgstr "Средняя складка:"
+
+
+msgid "Radius:"
+msgstr "Радиус:"
 
 
 msgid "Mean Weight:"
@@ -86196,16 +85973,8 @@ msgid "Registering menu class: '%s' is too long, maximum length is %d"
 msgstr "Регистрация класса меню: имя «%s» слишком длинное, максимальная длина — %d"
 
 
-msgid "Addon is no longer valid"
-msgstr "Дополнение более не является действительным"
-
-
 msgid "Excluded path is no longer valid"
 msgstr "Исключённый путь недействителен"
-
-
-msgid "Registering addon-prefs class: '%s' is too long, maximum length is %d"
-msgstr "Регистрация класса настроек дополнения: имя «%s» слишком длинное, максимальная длина — %d"
 
 
 msgid "Font not packed"
@@ -86876,6 +86645,14 @@ msgid "Missing 'window' in context"
 msgstr "Отсутствует окно в контексте"
 
 
+msgid "Trusted Source [Untrusted Path]"
+msgstr "Надёжный источник [Ненадёжный путь]"
+
+
+msgid "Save Over?"
+msgstr "Перезаписать файл?"
+
+
 msgid "unable to open the file"
 msgstr "не удалось открыть файл"
 
@@ -86888,8 +86665,8 @@ msgid "Path too long, cannot save"
 msgstr "Путь слишком длинный, сохранить не удалось"
 
 
-msgid "Engine '%s' not available for scene '%s' (an addon may need to be installed or enabled)"
-msgstr "Визуализатор «%s» недоступен для сцены «%s» (необходимо установить или включить соответствующее дополнение)"
+msgid "Context window not set"
+msgstr "Контекстное окно не установлено"
 
 
 msgid "Cannot read file '%s': %s"
@@ -86912,16 +86689,20 @@ msgid "Could not read '%s'"
 msgstr "Не удалось прочитать «%s»"
 
 
-msgid "Can't read alternative start-up file: '%s'"
-msgstr "Не удалось прочитать альтернативный файл запуска: «%s»"
-
-
 msgid "Cannot save blend file, path '%s' is not writable"
 msgstr "Невозможно сохранить blend-файл, так как путь «%s» недоступен для записи"
 
 
 msgid "Cannot overwrite used library '%.240s'"
 msgstr "Невозможно перезаписать используемую библиотеку «%.240s»"
+
+
+msgid "Can't read alternative start-up file: '%s'"
+msgstr "Не удалось прочитать альтернативный файл запуска: «%s»"
+
+
+msgid "Linking or appending from a very old .blend file format (%d.%d), no animation conversion will be done! You may want to re-save your lib file with current Blender"
+msgstr "Связывание или присоединение от .blend-файла в очень старом формате (%d.%d), анимация не будет преобразована! Пересохраните библиотечный файл в текущей версии Blender"
 
 
 msgid "No valid 3D View found, game auto start is not possible"
@@ -86960,14 +86741,6 @@ msgid "Python API Reference"
 msgstr "Справка Python API"
 
 
-msgid "Trusted Source [Untrusted Path]"
-msgstr "Надёжный источник [Ненадёжный путь]"
-
-
-msgid "Save Over?"
-msgstr "Перезаписать файл?"
-
-
 msgid "unsupported format"
 msgstr "неподдерживаемый формат"
 
@@ -86991,10 +86764,6 @@ msgstr "Показать/скрыть системную консоль"
 
 msgid "No operator in context"
 msgstr "Нет оператора в контексте"
-
-
-msgid "Context window not set"
-msgstr "Контекстное окно не установлено"
 
 
 msgid "Property cannot be both boolean and float"
@@ -87035,10 +86804,6 @@ msgstr "Возврат оператора «%s» не включает реги�
 
 msgid "Operator redo '%s': wrong context"
 msgstr "Возврат оператора «%s»: неверный контекст"
-
-
-msgid "Linking or appending from a very old .blend file format (%d.%d), no animation conversion will be done! You may want to re-save your lib file with current Blender"
-msgstr "Связывание или присоединение от .blend-файла в очень старом формате (%d.%d), анимация не будет преобразована! Пересохраните библиотечный файл в текущей версии Blender"
 
 
 msgid "Could not resolve path '%s'"

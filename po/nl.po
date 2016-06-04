@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: 2016-02-27 15:14+0100\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -840,6 +840,18 @@ msgid "Clip"
 msgstr "Clip"
 
 
+msgid "Surface"
+msgstr "Oppervlak"
+
+
+msgid "Plane"
+msgstr "Vlak"
+
+
+msgid "View"
+msgstr "Weergave"
+
+
 msgid "Group"
 msgstr "Groep"
 
@@ -916,10 +928,6 @@ msgid "Cube"
 msgstr "Kubus"
 
 
-msgid "Plane"
-msgstr "Vlak"
-
-
 msgid "Point"
 msgstr "Punt"
 
@@ -930,10 +938,6 @@ msgstr "Bol"
 
 msgid "Cone"
 msgstr "Kegel"
-
-
-msgid "Surface"
-msgstr "Oppervlak"
 
 
 msgid "Path"
@@ -1264,10 +1268,6 @@ msgstr "Star Lichaam Beperking"
 
 msgid "Meta"
 msgstr "Meta"
-
-
-msgid "View"
-msgstr "Weergave"
 
 
 msgid "Grid"
@@ -2005,6 +2005,11 @@ msgstr "Auto-zet Preview Bereik"
 
 
 msgctxt "Operator"
+msgid "Properties"
+msgstr "Eigenschappen"
+
+
+msgctxt "Operator"
 msgid "Push Down Action"
 msgstr "Duw Actie naar Beneden"
 
@@ -2437,11 +2442,6 @@ msgstr "Plak Banen"
 
 
 msgctxt "Operator"
-msgid "Properties"
-msgstr "Eigenschappen"
-
-
-msgctxt "Operator"
 msgid "Set Active Clip"
 msgstr "Zet Actieve Clip"
 
@@ -2526,6 +2526,11 @@ msgstr "Zet Selectie"
 msgctxt "Operator"
 msgid "Delete Constraint"
 msgstr "Verwijder Beperking"
+
+
+msgctxt "Operator"
+msgid "Dissolve Vertices"
+msgstr "Los Punten Op"
 
 
 msgctxt "Operator"
@@ -3338,11 +3343,6 @@ msgstr "Los Vlakken Op"
 msgctxt "Operator"
 msgid "Dissolve Selection"
 msgstr "Los Selectie Op"
-
-
-msgctxt "Operator"
-msgid "Dissolve Vertices"
-msgstr "Los Punten Op"
 
 
 msgid "Duplicate"
@@ -7497,6 +7497,10 @@ msgid "Without Targets"
 msgstr "Zonder Doelen"
 
 
+msgid "Active Keyframe"
+msgstr "Actieve Sleutelframe"
+
+
 msgid "Parent Directory"
 msgstr "Bron Map"
 
@@ -7515,10 +7519,6 @@ msgstr "Voeg Variabele Toe"
 
 msgid "Add Modifier"
 msgstr "Voeg Aanpasser Toe"
-
-
-msgid "Active Keyframe"
-msgstr "Actieve Sleutelframe"
 
 
 msgid "Select Layer"
@@ -7704,6 +7704,10 @@ msgid "Blender Game"
 msgstr "Blender Spel"
 
 
+msgid "Context window not set"
+msgstr "Context scherm niet gezet"
+
+
 msgid "Toggle System Console"
 msgstr "Systeem Console aan/uit"
 
@@ -7715,10 +7719,6 @@ msgstr "Systeem Console aan/uit"
 
 msgid "No operator in context"
 msgstr "Geen operatie in context"
-
-
-msgid "Context window not set"
-msgstr "Context scherm niet gezet"
 
 
 msgid "Property cannot be both boolean and float"

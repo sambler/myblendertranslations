@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: 2013-09-26 14:51+0700\n"
 "Last-Translator: Daffi A. Prabowo <daffi.ap@gmail.com>\n"
 "Language-Team: Indonesian <>\n"
@@ -596,10 +596,6 @@ msgstr "lokasi"
 
 msgid "Target object"
 msgstr "Sunting Objek"
-
-
-msgid "Addon Preferences"
-msgstr "Pengaturan Pengguna"
 
 
 msgid "Translation Root"
@@ -3560,6 +3556,11 @@ msgstr "Partikel"
 
 
 msgctxt "Operator"
+msgid "Properties"
+msgstr "Nama Properti"
+
+
+msgctxt "Operator"
 msgid "Sample Keyframes"
 msgstr "Tekstur"
 
@@ -4006,11 +4007,6 @@ msgstr "Buka"
 msgctxt "Operator"
 msgid "Paste Tracks"
 msgstr "Hapus"
-
-
-msgctxt "Operator"
-msgid "Properties"
-msgstr "Nama Properti"
 
 
 msgctxt "Operator"
@@ -4634,6 +4630,11 @@ msgstr "Grup"
 msgctxt "Operator"
 msgid "Remove From All Groups"
 msgstr "Warna Standar"
+
+
+msgctxt "Operator"
+msgid "Clear Render Border"
+msgstr "Modus Pahat"
 
 
 msgctxt "Operator"
@@ -7383,11 +7384,6 @@ msgid "Background image index to remove"
 msgstr "Tampilkan Gambar Latar pada tampilan atas"
 
 
-msgctxt "Operator"
-msgid "Clear Render Border"
-msgstr "Modus Pahat"
-
-
 msgid "Selected objects are saved in a temp file"
 msgstr "Bahan"
 
@@ -7513,21 +7509,6 @@ msgstr "Hapus"
 msgctxt "Operator"
 msgid "Zoom View"
 msgstr "Perbesar"
-
-
-msgctxt "Operator"
-msgid "Disable Addon"
-msgstr "Matikan"
-
-
-msgctxt "Operator"
-msgid "Enable Addon"
-msgstr "Hidupkan"
-
-
-msgctxt "Operator"
-msgid "Remove Addon"
-msgstr "Induk"
 
 
 msgctxt "Operator"
@@ -10056,11 +10037,6 @@ msgstr "Tambah Gambar"
 
 
 msgctxt "Operator"
-msgid "Add Single Driver"
-msgstr "Tambah Gambar"
-
-
-msgctxt "Operator"
 msgid "Add All to Keying Set"
 msgstr "Tekstur"
 
@@ -10315,10 +10291,6 @@ msgid "Failed to erode walkable area"
 msgstr "Tidak dapat membuka dokumen"
 
 
-msgid "Failed to build regions"
-msgstr "Tidak dapat membuka dokumen"
-
-
 msgid "Failed to build contours"
 msgstr "Tidak dapat membuka dokumen"
 
@@ -10471,6 +10443,14 @@ msgid "OK"
 msgstr "OK"
 
 
+msgid "Active F-Curve"
+msgstr "Tekstur"
+
+
+msgid "Active Keyframe"
+msgstr "Tekstur"
+
+
 msgid "Width:"
 msgstr "Lebar"
 
@@ -10529,30 +10509,6 @@ msgstr "Warna Standar"
 
 msgid "Value:"
 msgstr "Nilai"
-
-
-msgid "Bone 1:"
-msgstr "Tulang"
-
-
-msgid "Bone 2:"
-msgstr "Tulang"
-
-
-msgid "Ob/Bone 2:"
-msgstr "Tulang"
-
-
-msgid "Ob/Bone:"
-msgstr "Tulang"
-
-
-msgid "Active F-Curve"
-msgstr "Tekstur"
-
-
-msgid "Active Keyframe"
-msgstr "Tekstur"
 
 
 msgid "Active F-Curve is not editable"
@@ -11063,6 +11019,10 @@ msgid "unable to open the file"
 msgstr "Tidak dapat membuka dokumen"
 
 
+msgid "Context window not set"
+msgstr "Warna Standar"
+
+
 msgid "Cannot read file '%s': %s"
 msgstr "Tidak dapat membuka: \"%s\",%s."
 
@@ -11082,10 +11042,6 @@ msgstr "Kamera"
 msgctxt "Operator"
 msgid "Toggle System Console"
 msgstr "Kamera"
-
-
-msgid "Context window not set"
-msgstr "Warna Standar"
 
 
 msgid "Blender User Preferences"

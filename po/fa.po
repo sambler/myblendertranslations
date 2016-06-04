@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: 2012-10-31 17:00-0800\n"
 "Last-Translator: Amin Babaeipanah <translate@leomoon.com>\n"
 "Language-Team: LeoMoon Studios <blender@leomoon.com>\n"
@@ -1110,20 +1110,12 @@ msgid "Children"
 msgstr "ﻥﺍﺪﻧﺯﺮﻓ"
 
 
-msgid "Python addons to be loaded automatically"
-msgstr "ﻦﮐ ﺩﻮﻟ ﺭﺎﮐﺩﻮﺧ ﺭﻮﻃ ﻪﺑ ﺍﺭ ﻥﻮﺘﯾﺎﭘ ﯼﺎﻫ‌ﻩﺩﻭﺰﻓﺍ"
-
-
 msgid "Module"
 msgstr "ﻝﻭﮊﺎﻣ"
 
 
 msgid "Module name"
 msgstr "ﻝﻭﮊﺎﻣ ﻡﺎﻧ"
-
-
-msgid "Addon Preferences"
-msgstr "ﺮﺑﺭﺎﮐ ﺕﺎﻤﯿﻈﻨﺗ"
 
 
 msgid "Translation Root"
@@ -2875,6 +2867,22 @@ msgid "Vector Handle"
 msgstr "ﺭﻮﺘﮐﻭ ﻪٔﺘﺳﺩ"
 
 
+msgid "Poly"
+msgstr "ﯼﺍ ﻪﺷﻮﮔ"
+
+
+msgid "Cursor"
+msgstr "ﺎﻤﻧ ﻥﺎﮑﻣ"
+
+
+msgid "Plane"
+msgstr "ﻪﺤﻔﺻ"
+
+
+msgid "View"
+msgstr "ﺶﯾﺎﻤﻧ"
+
+
 msgid "Safe Areas"
 msgstr "ﺢﻄﺳ ﯼﺎﯾﺍﻭﺯ"
 
@@ -3261,10 +3269,6 @@ msgstr "ﺎﻫﺩﺎﻤﻧ:"
 
 msgid "Cube"
 msgstr "ﺐﻌﮑﻣ"
-
-
-msgid "Plane"
-msgstr "ﻪﺤﻔﺻ"
 
 
 msgid "Static"
@@ -4963,10 +4967,6 @@ msgid "Global Z"
 msgstr "(ﯽﻧﺎﻬﺟ)"
 
 
-msgid "View"
-msgstr "ﺶﯾﺎﻤﻧ"
-
-
 msgid "Animate"
 msgstr "ﻦﺸﯿﻤﯿﻧﺍ ﺮﯿﻠﭘ"
 
@@ -5645,10 +5645,6 @@ msgstr "ﯽﻄﺧ"
 
 msgid "Category"
 msgstr "ﺎﻫ ﻪﺘﺳﺩ"
-
-
-msgid "Filter addons by category"
-msgstr "ﯼﺪﻌﺑ 2 ﺮﺘﻠﯿﻓ"
 
 
 msgid "Search"
@@ -8012,6 +8008,11 @@ msgstr "ﺶﯾﺎﻤﻨﺸﯿﭘ"
 
 
 msgctxt "Operator"
+msgid "Properties"
+msgstr "ﺕﺎﻤﯿﻈﻨﺗ"
+
+
+msgctxt "Operator"
 msgid "Sample Keyframes"
 msgstr "ﯼﺪﯿﻠﮐ ﯼﺎﻫ‌ﻢﯾﺮﻓ ﺭﺩ"
 
@@ -8263,10 +8264,6 @@ msgstr "ﺶﺧﺮﭼ ﻪﻄﻘﻧ"
 msgctxt "Operator"
 msgid "Recalculate Roll"
 msgstr "ﻥﺩﺮﮐ‌ﺏﺎﺴﺣ ﻩﺭﺎﺑﻭﺩ"
-
-
-msgid "Cursor"
-msgstr "ﺎﻤﻧ ﻥﺎﮑﻣ"
 
 
 msgctxt "Operator"
@@ -8650,11 +8647,6 @@ msgstr "ﺯﺎﺑ ﭗﯿﻠﮐ"
 msgctxt "Operator"
 msgid "Paste Tracks"
 msgstr "ﺎﻫ ﮎﺮﺗِ ﻥﺪﻧﺎﺒﺴﭼ"
-
-
-msgctxt "Operator"
-msgid "Properties"
-msgstr "ﺕﺎﻤﯿﻈﻨﺗ"
 
 
 msgid "Backwards"
@@ -9197,10 +9189,6 @@ msgid "Set Spline Type"
 msgstr "ﻪﻠﺻﺎﻓ ﻉﻮﻧ"
 
 
-msgid "Poly"
-msgstr "ﯼﺍ ﻪﺷﻮﮔ"
-
-
 msgctxt "Operator"
 msgid "Set Goal Weight"
 msgstr "ﻥﺯﻭ ﻦﯿﯿﻌﺗ"
@@ -9722,6 +9710,11 @@ msgstr "ﺎﻫ ﻩﻭﺮﮔ ﻪﻤﻫ ﻑﺬﺣ"
 
 
 msgctxt "Operator"
+msgid "Clear Render Border"
+msgstr "ﯼﺭﺎﺠﺣ ﺖﻟﺎﺣ"
+
+
+msgctxt "Operator"
 msgid "Set Curves Point"
 msgstr "ﮓﻧﺭ ﯽﻨﺤﻨﻣ"
 
@@ -9860,6 +9853,11 @@ msgstr "ﻡﺎﻧ ﺶﯾﺎﻤﻧ"
 
 msgid "View all selected UVs"
 msgstr "ﺏﺎﺨﺘﻧﺍ"
+
+
+msgctxt "Operator"
+msgid "Zoom to Border"
+msgstr "ﯽﯾﺎﻤﻨﮔﺭﺰﺑ ﺯﺮﻣ..."
 
 
 msgid "Set zoom ratio of the view"
@@ -13832,11 +13830,6 @@ msgstr "ﯼﺪﻌﺑ ﻪﺳ ﺪﯾﺩ"
 
 
 msgctxt "Operator"
-msgid "Zoom to Border"
-msgstr "ﯽﯾﺎﻤﻨﮔﺭﺰﺑ ﺯﺮﻣ..."
-
-
-msgctxt "Operator"
 msgid "Zoom In"
 msgstr "ﯽﯾﺎﻤﻨﮔﺭﺰﺑ"
 
@@ -13858,11 +13851,6 @@ msgstr "ﻻ﻿ﺎﺑ ﻩﺎﮔﺪﯾﺩ ﺭﺩ ﻪﻨﯿﻣﺯ ﺲﭘ ﺮﯾﻮ�
 msgctxt "Operator"
 msgid "Camera Fit Frame to Selected"
 msgstr "ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ ﻪﺑ ﺎﻤﻧ ﻥﺎﮑﻣ"
-
-
-msgctxt "Operator"
-msgid "Clear Render Border"
-msgstr "ﯼﺭﺎﺠﺣ ﺖﻟﺎﺣ"
 
 
 msgctxt "Operator"
@@ -14067,16 +14055,6 @@ msgstr "ﯽﻠﺤﻣ ﻦﯿﺑﺭﻭﺩ:"
 
 
 msgctxt "Operator"
-msgid "Disable Addon"
-msgstr "ﻪﻧﻭﺰﻓﺍ ﻥﺩﺮﮐ‌ﻝﺎﻌﻓ ﺮﯿﻏ"
-
-
-msgctxt "Operator"
-msgid "Enable Addon"
-msgstr "ﻪﻧﻭﺰﻓﺍ ﻥﺩﺮﮐ‌ﻝﺎﻌﻓ ﺮﯿﻏ"
-
-
-msgctxt "Operator"
 msgid "Install from File..."
 msgstr "ﻪﻧﻭﺰﻓﺍ ﻥﺩﺮﮐ‌ﻝﺎﻌﻓ ﺮﯿﻏ"
 
@@ -14084,11 +14062,6 @@ msgstr "ﻪﻧﻭﺰﻓﺍ ﻥﺩﺮﮐ‌ﻝﺎﻌﻓ ﺮﯿﻏ"
 msgctxt "Operator"
 msgid "Refresh"
 msgstr "ﺎﻫ ﻢﺗ"
-
-
-msgctxt "Operator"
-msgid "Remove Addon"
-msgstr "ﻪﻧﻭﺰﻓﺍ ﻑﺬﺣ"
 
 
 msgctxt "Operator"
@@ -16516,10 +16489,6 @@ msgstr "ﻑﺬﺣ"
 
 msgid "Envelope:"
 msgstr "ﺖﮐﺎﭘ:"
-
-
-msgid "Radius:"
-msgstr "ﻉﺎﻌﺷ:"
 
 
 msgid "Object Children:"
@@ -19137,11 +19106,6 @@ msgstr "ﺭﻮﯾﺍﺭﺩ ﻥﺩﺮﮐ ﻪﻓﺎﺿﺍ"
 
 
 msgctxt "Operator"
-msgid "Add Single Driver"
-msgstr "ﺭﻮﯾﺍﺭﺩ ﻥﺩﺮﮐ ﻪﻓﺎﺿﺍ"
-
-
-msgctxt "Operator"
 msgid "Add All to Keying Set"
 msgstr "ﻝﺎﻌﻓ ﯼﺎﻫ‌ﺪﯿﻠﮐ ﻪﻋﻮﻤﺠﻣ"
 
@@ -19673,10 +19637,6 @@ msgid "Failed to erode walkable area"
 msgstr "ﺖﺴﯿﻧ ﺮﯾﺬﭘ ﻥﺎﮑﻣﺍ ﻞﯾﺎﻓ ﻥﺩﺮﮐ‌ﺯﺎﺑ"
 
 
-msgid "Failed to build regions"
-msgstr "ﺖﻬﺟ ﯼﺯﺎﺳ ﻪﻨﯾﺮﻗ"
-
-
 msgid "Failed to build contours"
 msgstr "ﺖﺴﯿﻧ ﺮﯾﺬﭘ ﻥﺎﮑﻣﺍ ﻞﯾﺎﻓ ﻥﺩﺮﮐ‌ﺯﺎﺑ"
 
@@ -19897,6 +19857,14 @@ msgid "Compiled without sound support"
 msgstr "ﺍﺪﺻ ﺯﺍ ﯽﻧﺎﺒﯿﺘﺸﭘ ﻥﻭﺪﺑ ﻩﺪﺷ ﻞﯾﺎﭙﻣﺎﮐ"
 
 
+msgid "Active F-Curve"
+msgstr "ﻝﺎﻌﻓ ﻦﯿﺑﺭﻭﺩ"
+
+
+msgid "Active Keyframe"
+msgstr "ﺭﺍﺩﺮﮐ ﯼﺪﯿﻠﮐ ﯼﺎﻫ‌ﻢﯾﺮﻓ ﻪﻤﻫ"
+
+
 msgid "Track is locked"
 msgstr "ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ ﮎﺮﺗ"
 
@@ -19997,26 +19965,6 @@ msgid "Prop:"
 msgstr "ﯽﮔﮋﯾﻭ"
 
 
-msgid "Bone 1:"
-msgstr "1 ﻥﺍﻮﺨﺘﺳﺍ:"
-
-
-msgid "Bone 2:"
-msgstr "2 ﻥﺍﻮﺨﺘﺳﺍ:"
-
-
-msgid "Ob/Bone 1:"
-msgstr "ﺎﻬﻧﺍﻮﺨﺘﺳﺍ:"
-
-
-msgid "Ob/Bone 2:"
-msgstr "(2) ﻥﺍﻮﺨﺘﺳﺍ"
-
-
-msgid "Ob/Bone:"
-msgstr "ﺎﻬﻧﺍﻮﺨﺘﺳﺍ:"
-
-
 msgid "Update Dependencies"
 msgstr "ﺎﻫ‌ﯽﮕﺘﺴﺑﺍﻭ ﯽﻧﺎﺳﺭ ﺯﻭﺭ‌ﻪﺑ"
 
@@ -20053,20 +20001,8 @@ msgid "Remove this driver"
 msgstr "ﻝﺎﻌﻓ ﻩﻭﺮﮔ ﻑﺬﺣ"
 
 
-msgid "Adds a new F-Curve Modifier for the active F-Curve"
-msgstr "ﺪﯾﺍﺰﻓﺍ‌ﯽﻣ ﻝﺎﻌﻓ F-ﯽﻨﺤﻨﻣ ﻪﺑ ﺍﺭ F-ﯽﻨﺤﻨﻣ ﺮﮕﺣﻼ﻿ﺻﺍ"
-
-
 msgid "View Properties"
 msgstr "ﺕﺎﻤﯿﻈﻨﺗ"
-
-
-msgid "Active F-Curve"
-msgstr "ﻝﺎﻌﻓ ﻦﯿﺑﺭﻭﺩ"
-
-
-msgid "Active Keyframe"
-msgstr "ﺭﺍﺩﺮﮐ ﯼﺪﯿﻠﮐ ﯼﺎﻫ‌ﻢﯾﺮﻓ ﻪﻤﻫ"
 
 
 msgid "Active F-Curve is not editable"
@@ -20203,10 +20139,6 @@ msgstr "ﻥﺯ ﻪﯾﺎﺳ ﻥﺩﺮﮐ ﻪﻓﺎﺿﺍ"
 
 msgid "Add Actuator"
 msgstr "ﺭﺍﺩﺮﮐ ﮎﺮﺤﻣ"
-
-
-msgid "Adds a new F-Modifier for the active NLA Strip"
-msgstr ".ﺪﻳﺍﺰﻓﺍ ﯽﻣ NLA ﻝﺎﻌﻓ ﺭﺍﻮﻧ ﻱﺍﺮﺑ ﺪﻳﺪﺟ ﻩﺪﻨﻨﮐ ﺡﻼ﻿ﺻﺍ-F ﮏﯾ"
 
 
 msgid "No valid action to add"
@@ -20379,6 +20311,10 @@ msgstr "ﯽﻨﺤﻨﻣ ﯼﺎﻫﺭﺍﺰﺑﺍ"
 
 msgid "Mean Crease:"
 msgstr "ﺎﻫ‌ﻦﯿﭼ"
+
+
+msgid "Radius:"
+msgstr "ﻉﺎﻌﺷ:"
 
 
 msgid "Mean Weight:"
@@ -20789,6 +20725,10 @@ msgid "unable to open the file"
 msgstr "ﺖﺴﯿﻧ ﺮﯾﺬﭘ ﻥﺎﮑﻣﺍ ﻞﯾﺎﻓ ﻥﺩﺮﮐ‌ﺯﺎﺑ"
 
 
+msgid "Context window not set"
+msgstr "ﻩﺪﺸﻧ ﺺﺨﺸﻣ"
+
+
 msgid "Cannot read file '%s': %s"
 msgstr "‬.\"‪%s‬\", ‪%s‪ :ﺖﺴﯿﻧ ﻥﺪﻧﺍﻮﺧ ﻞﺑﺎﻗ ﻞﯾﺎﻓ"
 
@@ -20848,10 +20788,6 @@ msgstr "ﭻﯾﻮﺳ"
 
 msgid "No operator in context"
 msgstr "ﺮﯿﺜﮑﺗ ﻝﺎﺣ ﺭﺩ ءﯽﺷ"
-
-
-msgid "Context window not set"
-msgstr "ﻩﺪﺸﻧ ﺺﺨﺸﻣ"
 
 
 msgid "Blender User Preferences"

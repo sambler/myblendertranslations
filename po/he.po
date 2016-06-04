@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: 2012-10-07 13:56+0300\n"
 "Last-Translator: Barak Itkin <lightningismyname@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,10 +57,6 @@ msgstr "בוביס"
 
 msgid "Mean"
 msgstr "עצוממ"
-
-
-msgid "Addon Preferences"
-msgstr "Blender שמתשמ תופדעה"
 
 
 msgid "Width"
@@ -139,6 +135,14 @@ msgid "White Level"
 msgstr "ןבל תמר"
 
 
+msgid "Surface"
+msgstr "חטשמ"
+
+
+msgid "View"
+msgstr "הגוצת"
+
+
 msgid "Lamp"
 msgstr "הרונמ"
 
@@ -173,10 +177,6 @@ msgstr "םינשמ"
 
 msgid "Frequency"
 msgstr "תורידת"
-
-
-msgid "Surface"
-msgstr "חטשמ"
 
 
 msgid "Apply Density"
@@ -285,10 +285,6 @@ msgstr "םידוקדוק תעיבצ"
 
 msgid "Weight Paint"
 msgstr "לקשמ תעיבצ"
-
-
-msgid "View"
-msgstr "הגוצת"
 
 
 msgid "Quadratic"
@@ -656,10 +652,6 @@ msgstr ":לקשמ"
 msgctxt "Operator"
 msgid "Remove"
 msgstr "רסה"
-
-
-msgid "Radius:"
-msgstr ":סוידר"
 
 
 msgid "Color Space:"
@@ -1075,14 +1067,6 @@ msgid "Right Handle:"
 msgstr ":תינמי תידי"
 
 
-msgid "Bone 1:"
-msgstr ":1 םצע"
-
-
-msgid "Bone 2:"
-msgstr ":2 םצע"
-
-
 msgid "ERROR: Invalid Python expression"
 msgstr "ןיקת אל Python יוטיב :האיגש"
 
@@ -1189,6 +1173,10 @@ msgstr ":X סוידר"
 
 msgid "Radius Y:"
 msgstr ":Y סוידר"
+
+
+msgid "Radius:"
+msgstr ":סוידר"
 
 
 msgid "Mean Radius:"

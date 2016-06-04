@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arvid Rudling <arvid.r@gmail.com>\n"
 "Language-Team: \n"
@@ -1249,10 +1249,6 @@ msgstr "Gallra skymda"
 
 msgid "Module name"
 msgstr "Arkiv"
-
-
-msgid "Addon Preferences"
-msgstr "Spara användarinställn."
 
 
 msgid "Translation Root"
@@ -3908,6 +3904,26 @@ msgid "White Level"
 msgstr "Nivå"
 
 
+msgid "Bezier"
+msgstr "Bezierkurva"
+
+
+msgid "Surface"
+msgstr "Yta"
+
+
+msgid "Tolerance"
+msgstr "Infoga"
+
+
+msgid "Plane"
+msgstr "Plan"
+
+
+msgid "View"
+msgstr "Visa"
+
+
 msgid "Safe Areas"
 msgstr "NURBS Kurva"
 
@@ -4744,10 +4760,6 @@ msgid "Cube"
 msgstr "Kub"
 
 
-msgid "Plane"
-msgstr "Plan"
-
-
 msgid "Static"
 msgstr "Rotera"
 
@@ -5190,10 +5202,6 @@ msgstr "Visa inställningar för kant"
 
 msgid "Rest length of the harmonic force"
 msgstr "Markera Länkad"
-
-
-msgid "Surface"
-msgstr "Yta"
 
 
 msgid "Every Point"
@@ -9300,10 +9308,6 @@ msgid "Align to"
 msgstr "Duplicera"
 
 
-msgid "View"
-msgstr "Visa"
-
-
 msgid "Animate"
 msgstr "Animerad"
 
@@ -10889,10 +10893,6 @@ msgid "Vector font for Text objects"
 msgstr "Packa Data"
 
 
-msgid "Filter addons by category"
-msgstr "Filter"
-
-
 msgid "Search"
 msgstr "Sök"
 
@@ -11229,10 +11229,6 @@ msgid "Interpolation method to use for segment of the F-Curve from this Keyframe
 msgstr "Markera Länkad"
 
 
-msgid "Bezier"
-msgstr "Bezierkurva"
-
-
 msgid "Circular"
 msgstr "Cirkel"
 
@@ -11447,10 +11443,6 @@ msgstr "Sampling:"
 
 msgid "Rotation Angle"
 msgstr "Rotationsvinkel"
-
-
-msgid "Tolerance"
-msgstr "Infoga"
 
 
 msgid "Orientation"
@@ -14678,6 +14670,10 @@ msgid "Correction for Shadows"
 msgstr "Markera Länkad"
 
 
+msgid "Basis"
+msgstr "Bas"
+
+
 msgid "Power"
 msgstr "Styrka"
 
@@ -15734,6 +15730,10 @@ msgid "Object Vertices"
 msgstr "Bana"
 
 
+msgid "Vertex Weight"
+msgstr "Höger"
+
+
 msgid "Sky Texture"
 msgstr "Text"
 
@@ -16145,6 +16145,15 @@ msgstr "Spara Bild"
 
 msgid "Set Preview Range based on extents of selected Keyframes"
 msgstr "Markera Länkad"
+
+
+msgctxt "Operator"
+msgid "Properties"
+msgstr "Egenskaper"
+
+
+msgid "Toggle display properties panel"
+msgstr "Visa/göm egenskapspanelen"
 
 
 msgctxt "Operator"
@@ -17520,11 +17529,6 @@ msgid "Paste tracks from clipboard"
 msgstr "Ram Markering"
 
 
-msgctxt "Operator"
-msgid "Properties"
-msgstr "Egenskaper"
-
-
 msgid "Toggle clip properties panel"
 msgstr "Visa/göm egenskapspanelen"
 
@@ -18173,6 +18177,10 @@ msgstr "Raderings Meny"
 
 msgid "Delete selected control points or segments"
 msgstr "Markera Länkad"
+
+
+msgid "Stroke"
+msgstr "Penselavtryck"
 
 
 msgctxt "Operator"
@@ -19419,10 +19427,6 @@ msgid "Delete Active Frame"
 msgstr "Flytta Till Lager"
 
 
-msgid "Stroke"
-msgstr "Penselavtryck"
-
-
 msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "Starta Spel"
@@ -19627,10 +19631,6 @@ msgid "Add F-Curve Modifier"
 msgstr "Modifierare för F-kurva"
 
 
-msgid "Add F-Modifiers to the selected F-Curves"
-msgstr "Göm Markerad"
-
-
 msgid "Only Active"
 msgstr "Flytta Till Lager"
 
@@ -19693,10 +19693,6 @@ msgstr "Markera Länkad"
 
 msgid "Automatically set Preview Range based on range of keyframes"
 msgstr "Markera Länkad"
-
-
-msgid "Toggle display properties panel"
-msgstr "Visa/göm egenskapspanelen"
 
 
 msgid "Include Handles"
@@ -19792,6 +19788,11 @@ msgstr "Markera Länkad"
 msgctxt "Operator"
 msgid "Remove From All Groups"
 msgstr "Ta bort alla grupper"
+
+
+msgctxt "Operator"
+msgid "Clear Render Border"
+msgstr "Sätt Ram"
 
 
 msgctxt "Operator"
@@ -20022,6 +20023,11 @@ msgstr "Visa alla sekvenser"
 
 msgid "Zoom in/out the image"
 msgstr "Göm Markerad"
+
+
+msgctxt "Operator"
+msgid "Zoom to Border"
+msgstr "Ram Markering"
 
 
 msgid "Set zoom ratio of the view"
@@ -22168,10 +22174,6 @@ msgstr "Duplicera"
 msgctxt "Operator"
 msgid "Add F-Modifier"
 msgstr "Radera Allt"
-
-
-msgid "Add a F-Modifier of the specified type to the selected NLA-Strips"
-msgstr "Göm Markerad"
 
 
 msgid "Add copied F-Modifiers to the selected NLA-Strips"
@@ -28021,11 +28023,6 @@ msgstr "Zooma In"
 
 
 msgctxt "Operator"
-msgid "Zoom to Border"
-msgstr "Ram Markering"
-
-
-msgctxt "Operator"
 msgid "Zoom In"
 msgstr "Zooma In"
 
@@ -28072,11 +28069,6 @@ msgstr "Markör till markerade"
 
 msgid "Move the camera so selected objects are framed"
 msgstr "Markera Länkad"
-
-
-msgctxt "Operator"
-msgid "Clear Render Border"
-msgstr "Sätt Ram"
 
 
 msgctxt "Operator"
@@ -28516,16 +28508,6 @@ msgstr "Kamera"
 
 
 msgctxt "Operator"
-msgid "Disable Addon"
-msgstr "Visa"
-
-
-msgctxt "Operator"
-msgid "Enable Addon"
-msgstr "Visa"
-
-
-msgctxt "Operator"
 msgid "Install from File..."
 msgstr "Visa"
 
@@ -28541,11 +28523,6 @@ msgstr "Yta"
 msgctxt "Operator"
 msgid "Refresh"
 msgstr "Uppdatera"
-
-
-msgctxt "Operator"
-msgid "Remove Addon"
-msgstr "Ta bort tillägg"
 
 
 msgctxt "Operator"
@@ -30697,14 +30674,6 @@ msgstr "Visa inställningar för kant"
 
 msgid "Method to use for the displacement"
 msgstr "Rörelsebanor"
-
-
-msgid "Use Subdivision"
-msgstr "Uppdelning"
-
-
-msgid "Subdivide mesh for rendering"
-msgstr "Renderingsmotor"
 
 
 msgid "AA Samples"
@@ -36455,10 +36424,6 @@ msgid "Group Index"
 msgstr "Gruppinstans"
 
 
-msgid "Vertex Weight"
-msgstr "Höger"
-
-
 msgid "Voxel data settings"
 msgstr "Spara användarinställn."
 
@@ -36974,6 +36939,10 @@ msgid "Reiteration:"
 msgstr "Rotation:"
 
 
+msgid "Roll:"
+msgstr "Markera Rad"
+
+
 msgid "Parent:"
 msgstr "Förälder"
 
@@ -36986,14 +36955,6 @@ msgid "Envelope:"
 msgstr "Omslutning:"
 
 
-msgid "Radius:"
-msgstr "Radie:"
-
-
-msgid "Curved Bones:"
-msgstr "Böjda ben:"
-
-
 msgid "Bone Group:"
 msgstr "Bengrupp:"
 
@@ -37004,10 +36965,6 @@ msgstr "Dotterförskjutning"
 
 msgid "Control Rotation"
 msgstr "Rensa Rotation"
-
-
-msgid "Roll:"
-msgstr "Markera Rad"
 
 
 msgid "Custom Shape:"
@@ -38703,10 +38660,6 @@ msgid "Noise:"
 msgstr "Brus:"
 
 
-msgid "Basis"
-msgstr "Bas"
-
-
 msgid "Alpha:"
 msgstr "Redigerings Läge"
 
@@ -38743,6 +38696,10 @@ msgid "Feature Weights:"
 msgstr "Höger"
 
 
+msgid "Color Source:"
+msgstr "Färgkälla"
+
+
 msgid "Noise Basis:"
 msgstr "Brusbas:"
 
@@ -38761,10 +38718,6 @@ msgstr "Upprepa:"
 
 msgid "Mirror:"
 msgstr "Markera Rad"
-
-
-msgid "Color Source:"
-msgstr "Färgkälla"
 
 
 msgid "Coordinates:"
@@ -41547,11 +41500,6 @@ msgstr "Bezier Kurva"
 
 
 msgctxt "Operator"
-msgid "Add Single Driver"
-msgstr "Bezier Kurva"
-
-
-msgctxt "Operator"
 msgid "Add All to Keying Set"
 msgstr "Flytta Till Lager"
 
@@ -41935,10 +41883,6 @@ msgid "Failed to build distance field"
 msgstr "Visa inställningar för kant"
 
 
-msgid "Failed to build regions"
-msgstr "Markera Rad"
-
-
 msgid "Failed to build contours"
 msgstr "Filtrera Python"
 
@@ -42187,6 +42131,14 @@ msgid "Active group is locked, aborting"
 msgstr "Markera Rad"
 
 
+msgid "Active F-Curve"
+msgstr "Flytta Till Lager"
+
+
+msgid "Active Keyframe"
+msgstr "Flytta Till Lager"
+
+
 msgid "Track is locked"
 msgstr "Markera Rad"
 
@@ -42283,26 +42235,6 @@ msgid "Prop:"
 msgstr "Bild Displist"
 
 
-msgid "Bone 1:"
-msgstr "Ben:"
-
-
-msgid "Bone 2:"
-msgstr "Ben:"
-
-
-msgid "Ob/Bone 1:"
-msgstr "Ben:"
-
-
-msgid "Ob/Bone 2:"
-msgstr "Ben"
-
-
-msgid "Ob/Bone:"
-msgstr "Ben:"
-
-
 msgid "Update Dependencies"
 msgstr "Renderings Fönster"
 
@@ -42333,14 +42265,6 @@ msgstr "Markera Rad"
 
 msgid "View Properties"
 msgstr "Lägg till spelegenskap"
-
-
-msgid "Active F-Curve"
-msgstr "Flytta Till Lager"
-
-
-msgid "Active Keyframe"
-msgstr "Flytta Till Lager"
 
 
 msgid "Active F-Curve is not editable"
@@ -42685,6 +42609,10 @@ msgstr "Zooma Ut"
 
 msgid "Mean Crease:"
 msgstr "Vecka:"
+
+
+msgid "Radius:"
+msgstr "Radie:"
 
 
 msgid "Mean Weight:"
@@ -43195,6 +43123,10 @@ msgid "unable to open the file"
 msgstr "Filtrera Python"
 
 
+msgid "Context window not set"
+msgstr "Kontext"
+
+
 msgid "Credits"
 msgstr "redigera"
 
@@ -43226,10 +43158,6 @@ msgstr "Växla stil"
 
 msgid "No operator in context"
 msgstr "Byta Stripp"
-
-
-msgid "Context window not set"
-msgstr "Kontext"
 
 
 msgid "English (English)"

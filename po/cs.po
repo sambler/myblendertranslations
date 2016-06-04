@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Tabačan <tabycz@gmail.com>\n"
 "Language-Team: Taby <tabycz@gmail.com>\n"
@@ -1417,20 +1417,12 @@ msgid "Occlusion"
 msgstr "Auto Úchop"
 
 
-msgid "Python addons to be loaded automatically"
-msgstr "Rozšíření pythonu jsou načítána automaticky"
-
-
 msgid "Module"
 msgstr "Modul"
 
 
 msgid "Module name"
 msgstr "Název modulu"
-
-
-msgid "Addon Preferences"
-msgstr "Uživateslká nastavení"
 
 
 msgid "Translation Root"
@@ -4454,6 +4446,30 @@ msgid "White Level"
 msgstr "Bílá úroveň"
 
 
+msgid "Bezier"
+msgstr "Bezierova"
+
+
+msgid "Cursor"
+msgstr "Kurzor"
+
+
+msgid "Surface"
+msgstr "Povrch"
+
+
+msgid "Tolerance"
+msgstr "Přidat"
+
+
+msgid "Plane"
+msgstr "Plocha"
+
+
+msgid "View"
+msgstr "Pohled"
+
+
 msgid "Safe Areas"
 msgstr "Velikost plošek"
 
@@ -5430,10 +5446,6 @@ msgid "Cube"
 msgstr "Krychle"
 
 
-msgid "Plane"
-msgstr "Plocha"
-
-
 msgid "Static"
 msgstr "Rotace"
 
@@ -5972,10 +5984,6 @@ msgstr "Velikost štětce"
 
 msgid "Seed of the noise"
 msgstr "Nelze uložit soubor"
-
-
-msgid "Surface"
-msgstr "Povrch"
 
 
 msgid "Every Point"
@@ -10510,10 +10518,6 @@ msgid "Align to"
 msgstr "Automatické zarovnání"
 
 
-msgid "View"
-msgstr "Pohled"
-
-
 msgid "Animate"
 msgstr "Armatura"
 
@@ -12131,10 +12135,6 @@ msgid "Category"
 msgstr "kategorie"
 
 
-msgid "Filter addons by category"
-msgstr "2D Filtr"
-
-
 msgid "Search"
 msgstr "Hledat"
 
@@ -12563,10 +12563,6 @@ msgid "Right Handle Type"
 msgstr "Mód Úchopu"
 
 
-msgid "Bezier"
-msgstr "Bezierova"
-
-
 msgid "Smooth interpolation between A and B, with some control over curve shape"
 msgstr "Nastavit přechod mezi barevnými zarážkami"
 
@@ -12805,10 +12801,6 @@ msgstr "Změna velikosti"
 
 msgid "Rotation Angle"
 msgstr "Úhel otáčení"
-
-
-msgid "Tolerance"
-msgstr "Přidat"
 
 
 msgid "Orientation"
@@ -17468,6 +17460,10 @@ msgid "Object Vertices"
 msgstr "Odstranit vertexy"
 
 
+msgid "Vertex Weight"
+msgstr "Nastavit váhu"
+
+
 msgid "Sky Texture"
 msgstr "Textura oblohy"
 
@@ -17878,6 +17874,15 @@ msgstr "Vyrovná úhly označených plošek"
 
 
 msgctxt "Operator"
+msgid "Properties"
+msgstr "Vlastnosti"
+
+
+msgid "Toggle display properties panel"
+msgstr "Přesunout do vrstvy"
+
+
+msgctxt "Operator"
 msgid "Sample Keyframes"
 msgstr "Vybrat následující klíč"
 
@@ -18154,10 +18159,6 @@ msgid "Add Driver"
 msgstr "Ovladače"
 
 
-msgid "Create drivers for all elements of the array"
-msgstr "Vytvořit spouštěč pro tento Ipo kanál"
-
-
 msgctxt "Operator"
 msgid "Remove Driver"
 msgstr "Odstranit ze skupiny"
@@ -18410,10 +18411,6 @@ msgstr "Aktivní kosti"
 
 msgid "View Axis"
 msgstr "Zobrazení osy"
-
-
-msgid "Cursor"
-msgstr "Kurzor"
 
 
 msgctxt "Operator"
@@ -19227,11 +19224,6 @@ msgid "Paste Tracks"
 msgstr "Vytvořit sledování"
 
 
-msgctxt "Operator"
-msgid "Properties"
-msgstr "Vlastnosti"
-
-
 msgid "Toggle clip properties panel"
 msgstr "Přesunout do vrstvy"
 
@@ -19898,6 +19890,10 @@ msgstr "Odstranit vybrané kontrolní body nebo úseky"
 
 msgid "Which elements to delete"
 msgstr "Označený objekt"
+
+
+msgid "Stroke"
+msgstr "Tah (štětcem)"
 
 
 msgctxt "Operator"
@@ -21217,10 +21213,6 @@ msgid "Delete the active frame for the active Grease Pencil datablock"
 msgstr "Vymaže aktivní snímek pro aktivní datový blok skicovací tužky"
 
 
-msgid "Stroke"
-msgstr "Tah (štětcem)"
-
-
 msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "Převést skicovací tužku"
@@ -21485,10 +21477,6 @@ msgid "Flip times of selected keyframes, effectively reversing the order they ap
 msgstr "Převede označené hrany na plošky a označí nové vertexy"
 
 
-msgid "Toggle display properties panel"
-msgstr "Přesunout do vrstvy"
-
-
 msgid "Include Handles"
 msgstr "Auto Úchop"
 
@@ -21578,6 +21566,11 @@ msgstr "Odstraní objekt z objektové skupiny, která obsahuje aktivní objekt"
 msgctxt "Operator"
 msgid "Remove From All Groups"
 msgstr "Odstranit ze skupin"
+
+
+msgctxt "Operator"
+msgid "Clear Render Border"
+msgstr "Nastavit okraje renderování"
 
 
 msgctxt "Operator"
@@ -21804,6 +21797,15 @@ msgstr "Sekvence "
 
 msgid "Zoom in/out the image"
 msgstr "Přiblíží/oddálí pohled"
+
+
+msgctxt "Operator"
+msgid "Zoom to Border"
+msgstr "Označit okraje"
+
+
+msgid "Zoom in the view to the nearest item contained in the border"
+msgstr "Zobrazí pohled na nejbližší předměty obsažených v ohraničení"
 
 
 msgid "Set zoom ratio of the view"
@@ -24078,10 +24080,6 @@ msgstr "Duplikovat značku"
 msgctxt "Operator"
 msgid "Add F-Modifier"
 msgstr "Přidat modifikátor"
-
-
-msgid "Add a F-Modifier of the specified type to the selected NLA-Strips"
-msgstr "Nelze kopírovat modifikátory do objektu jiného typu"
 
 
 msgid "Only add a F-Modifier of the specified type to the active strip"
@@ -29378,10 +29376,6 @@ msgid "Eyedropper"
 msgstr "Editační skupina"
 
 
-msgid "Addon"
-msgstr "Rozšíření"
-
-
 msgctxt "Operator"
 msgid "Edit Translation Update Mo"
 msgstr "Překlad"
@@ -29934,15 +29928,6 @@ msgstr "Z Pohled"
 
 
 msgctxt "Operator"
-msgid "Zoom to Border"
-msgstr "Označit okraje"
-
-
-msgid "Zoom in the view to the nearest item contained in the border"
-msgstr "Zobrazí pohled na nejbližší předměty obsažených v ohraničení"
-
-
-msgctxt "Operator"
 msgid "Zoom In"
 msgstr "Přiblížit"
 
@@ -29993,11 +29978,6 @@ msgstr "Kurzor k výběru"
 
 msgid "Move the camera so selected objects are framed"
 msgstr "Zarovná kameru tak, aby byly zobrazeny vyrbané objekty"
-
-
-msgctxt "Operator"
-msgid "Clear Render Border"
-msgstr "Nastavit okraje renderování"
 
 
 msgctxt "Operator"
@@ -30497,22 +30477,8 @@ msgstr "Nastaví kameru 1:1 k výstupnímu renderu"
 
 
 msgctxt "Operator"
-msgid "Disable Addon"
-msgstr "Zakázat rozšíření"
-
-
-msgctxt "Operator"
-msgid "Enable Addon"
-msgstr "Povoleno"
-
-
-msgctxt "Operator"
 msgid "Install from File..."
 msgstr "Instalovat rozšíření"
-
-
-msgid "Remove existing addons with the same ID"
-msgstr "Odstranit existující rozšíření se stejným ID"
 
 
 msgid "Target Path"
@@ -30526,11 +30492,6 @@ msgstr "Uložit nastaveni"
 msgctxt "Operator"
 msgid "Refresh"
 msgstr "Obnovit"
-
-
-msgctxt "Operator"
-msgid "Remove Addon"
-msgstr "Odstraněno "
 
 
 msgctxt "Operator"
@@ -32851,14 +32812,6 @@ msgstr "Zobrazit:"
 
 msgid "Method to use for the displacement"
 msgstr "Skript linky pro tuto událost"
-
-
-msgid "Use Subdivision"
-msgstr "Rozdělení:"
-
-
-msgid "Subdivide mesh for rendering"
-msgstr "Engine použitý pro render"
 
 
 msgid "AA Samples"
@@ -38993,14 +38946,6 @@ msgid "Grease Pencil Simplify Stroke"
 msgstr "Zjednodušení tahu skicovací tužky"
 
 
-msgid "Grease Pencil Smooth Stroke"
-msgstr "Vyhlazení tahu skicovací tužky"
-
-
-msgid "Smooth the final stroke"
-msgstr "Vyhlazení konečného tahu"
-
-
 msgid "Auto Keyframe Insert Available"
 msgstr "Vložit hodnotu"
 
@@ -39573,10 +39518,6 @@ msgid "Group Index"
 msgstr "Název skupiny vertexů"
 
 
-msgid "Vertex Weight"
-msgstr "Nastavit váhu"
-
-
 msgid "Voxel data settings"
 msgstr "SoftBody nastavení"
 
@@ -40076,6 +40017,10 @@ msgid "Reiteration:"
 msgstr "Rotace"
 
 
+msgid "Roll:"
+msgstr "Vybrat řádek"
+
+
 msgid "Parent:"
 msgstr "Rodič:"
 
@@ -40088,14 +40033,6 @@ msgid "Envelope:"
 msgstr "Plášť"
 
 
-msgid "Radius:"
-msgstr "Nastavit poloměr"
-
-
-msgid "Curved Bones:"
-msgstr "Sloučit "
-
-
 msgid "Bone Group:"
 msgstr "Přidat do skupiny"
 
@@ -40106,10 +40043,6 @@ msgstr "Potomek"
 
 msgid "Control Rotation"
 msgstr "Původni rotace"
-
-
-msgid "Roll:"
-msgstr "Vybrat řádek"
 
 
 msgid "Custom Shape:"
@@ -41685,16 +41618,16 @@ msgid "Feature Weights:"
 msgstr "Nastavit váhu"
 
 
+msgid "Color Source:"
+msgstr "Zdroj barvy:"
+
+
 msgid "Repeat:"
 msgstr "Opakovat:"
 
 
 msgid "Mirror:"
 msgstr "Zrcadlit:"
-
-
-msgid "Color Source:"
-msgstr "Zdroj barvy:"
 
 
 msgid "Coordinates:"
@@ -44504,11 +44437,6 @@ msgstr "Ovladače"
 
 
 msgctxt "Operator"
-msgid "Add Single Driver"
-msgstr "Ovladače"
-
-
-msgctxt "Operator"
 msgid "Add All to Keying Set"
 msgstr "Přidat ke klíčovací sestavě"
 
@@ -45056,10 +44984,6 @@ msgid "Failed to build distance field"
 msgstr "Zobrazit:"
 
 
-msgid "Failed to build regions"
-msgstr "Smyčka do oblasti"
-
-
 msgid "Failed to build contours"
 msgstr "Není možné otevřít soubor"
 
@@ -45332,6 +45256,14 @@ msgid "OK"
 msgstr "OK"
 
 
+msgid "Active F-Curve"
+msgstr "Aktivní snímek"
+
+
+msgid "Active Keyframe"
+msgstr "Aktivní snímek"
+
+
 msgid "Track is locked"
 msgstr "Akce"
 
@@ -45436,26 +45368,6 @@ msgid "Prop:"
 msgstr "Vlastnost"
 
 
-msgid "Bone 1:"
-msgstr "Kost:"
-
-
-msgid "Bone 2:"
-msgstr "Kost:"
-
-
-msgid "Ob/Bone 1:"
-msgstr "Kost:"
-
-
-msgid "Ob/Bone 2:"
-msgstr "Kost"
-
-
-msgid "Ob/Bone:"
-msgstr "Kost:"
-
-
 msgid "Update Dependencies"
 msgstr "Přehrát animaci"
 
@@ -45484,20 +45396,8 @@ msgid "Remove this driver"
 msgstr "Odstranit ze skupiny"
 
 
-msgid "Adds a new F-Curve Modifier for the active F-Curve"
-msgstr "Nelze kopírovat modifikátory do objektu jiného typu"
-
-
 msgid "View Properties"
 msgstr "Vlastnosti..."
-
-
-msgid "Active F-Curve"
-msgstr "Aktivní snímek"
-
-
-msgid "Active Keyframe"
-msgstr "Aktivní snímek"
 
 
 msgid "Active F-Curve is not editable"
@@ -45642,10 +45542,6 @@ msgstr "Označený objekt"
 
 msgid "Object name, click to show/hide actuators"
 msgstr "Označený objekt"
-
-
-msgid "Adds a new F-Modifier for the active NLA Strip"
-msgstr "Nelze kopírovat modifikátory do objektu jiného typu"
 
 
 msgid "No valid action to add"
@@ -45854,6 +45750,10 @@ msgstr "Hlavní poloměr"
 
 msgid "Mean Crease:"
 msgstr "Ostrost: "
+
+
+msgid "Radius:"
+msgstr "Nastavit poloměr"
 
 
 msgid "Mean Weight:"
@@ -46388,6 +46288,10 @@ msgid "unable to open the file"
 msgstr "Není možné otevřít soubor"
 
 
+msgid "Context window not set"
+msgstr "Pohled & Ovládání"
+
+
 msgid "Cannot read file '%s': %s"
 msgstr "Nelze přečíst soubor: \"%s\", %s."
 
@@ -46443,10 +46347,6 @@ msgstr "Uzavřený/otevřený"
 
 msgid "No operator in context"
 msgstr "Aktivovat materiálové uzly"
-
-
-msgid "Context window not set"
-msgstr "Pohled & Ovládání"
 
 
 msgid "Blender User Preferences"

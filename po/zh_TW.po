@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 0) (b'870f911')\n"
+"Project-Id-Version: Blender 2.77 (sub 1) (b'24712b1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:04:16\n"
+"POT-Creation-Date: 2016-06-01 20:43:11\n"
 "PO-Revision-Date: 2015-06-13 14:19+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: chinese-l10n <chinese-l10n@googlegroups.com>\n"
@@ -1930,20 +1930,12 @@ msgid "Set the objects visible (initialized from the object render restriction t
 msgstr "將物體設為可見 (從物理按鈕中的算繪限制切換來初始化)"
 
 
-msgid "Python addons to be loaded automatically"
-msgstr "自動載入的 Python 附加元件"
-
-
 msgid "Module"
 msgstr "模組"
 
 
 msgid "Module name"
 msgstr "模組名稱"
-
-
-msgid "Addon Preferences"
-msgstr "附加元件偏好設定"
 
 
 msgid "Fribidi Library"
@@ -7243,6 +7235,34 @@ msgid "For RGB curves, the color that white is mapped to"
 msgstr "用於 RGB 曲線，白色所映射至的色彩"
 
 
+msgid "Poly"
+msgstr "多角形"
+
+
+msgid "Bezier"
+msgstr "貝茲"
+
+
+msgid "Cursor"
+msgstr "游標"
+
+
+msgid "Surface"
+msgstr "表面"
+
+
+msgid "Tolerance"
+msgstr "忍差"
+
+
+msgid "Plane"
+msgstr "平面"
+
+
+msgid "View"
+msgstr "檢視"
+
+
 msgid "Dependency Graph"
 msgstr "依賴圖表"
 
@@ -8827,10 +8847,6 @@ msgid "Use environment map with six cube sides"
 msgstr "使用 6 個方形面為環境映射"
 
 
-msgid "Plane"
-msgstr "平面"
-
-
 msgid "Only one side is rendered, with Z axis pointing in direction of image"
 msgstr "僅算繪一面，Z 軸指向為影像方向"
 
@@ -9925,10 +9941,6 @@ msgstr "噪訊的種子"
 
 msgid "Which direction is used to calculate the effector force"
 msgstr "用於計算作用器的力其方向"
-
-
-msgid "Surface"
-msgstr "表面"
 
 
 msgid "Every Point"
@@ -11579,16 +11591,8 @@ msgid "Frames After"
 msgstr "之後幀數"
 
 
-msgid "Maximum number of frames to show after current frame (0 = show only the next sketch)"
-msgstr "在目前框幀之前要顯示的最大幀數 (0 = 僅顯示下個草圖)"
-
-
 msgid "Frames Before"
 msgstr "之前幀數"
-
-
-msgid "Maximum number of frames to show before current frame (0 = show only the previous sketch)"
-msgstr "在目前框幀之前要顯示的最大幀數 (0 = 僅顯示上個草圖)"
 
 
 msgid "Set layer Visibility"
@@ -14217,10 +14221,6 @@ msgstr "編輯字元格式設定"
 
 msgid "Object Font"
 msgstr "物體字型"
-
-
-msgid "Use Objects as font characters (give font objects a common name followed by the character they represent, eg. 'family_a', 'family_b', etc, set this setting to 'family_', and turn on Vertex Duplication)"
-msgstr "將物體用為字型字元 (根據物體代表的字元給予字型物體通用名稱，例如 family_a、family_b 等等，將其設定設為「family_」，並開啟「頂點複本製作」)"
 
 
 msgid "Text on Curve"
@@ -18621,10 +18621,6 @@ msgid "In respect to what the billboards are aligned"
 msgstr "尊重方塊板要對齊何物"
 
 
-msgid "View"
-msgstr "檢視"
-
-
 msgid "Animate"
 msgstr "動畫"
 
@@ -21318,10 +21314,6 @@ msgid "Category"
 msgstr "分類"
 
 
-msgid "Filter addons by category"
-msgstr "依分類過濾附加元件"
-
-
 msgid "Search"
 msgstr "搜尋"
 
@@ -22254,10 +22246,6 @@ msgid "Straight-line interpolation between A and B (i.e. no ease in/out)"
 msgstr "A 與 B 之間直線插補 (例：無緩入/緩出)"
 
 
-msgid "Bezier"
-msgstr "貝茲"
-
-
 msgid "Smooth interpolation between A and B, with some control over curve shape"
 msgstr "A 與 B 之間平滑插補，以曲線外形做些微控制"
 
@@ -23068,10 +23056,6 @@ msgstr "多角形化"
 
 msgid "Modify the stroke geometry so that it looks more 'polygonal'"
 msgstr "修改筆觸幾何使其看起來更像「多角形」"
-
-
-msgid "Tolerance"
-msgstr "忍差"
 
 
 msgid "Wavelength"
@@ -29677,6 +29661,10 @@ msgid "Correction for Shadows"
 msgstr "陰影校正"
 
 
+msgid "Basis"
+msgstr "基礎"
+
+
 msgid "Power"
 msgstr "次方"
 
@@ -31530,6 +31518,10 @@ msgid "Musgrave Texture"
 msgstr "馬斯格雷夫紋理"
 
 
+msgid "Object to take point data from"
+msgstr "獲取點資料的物體來源"
+
+
 msgid "Color Source"
 msgstr "色彩來源"
 
@@ -31562,10 +31554,6 @@ msgid "XYZ velocity mapped to RGB colors"
 msgstr "XYZ 速度映射至 RGB 色彩"
 
 
-msgid "Object to take point data from"
-msgstr "獲取點資料的物體來源"
-
-
 msgid "Particle System to render as points"
 msgstr "將粒子系統算繪為點"
 
@@ -31592,6 +31580,10 @@ msgstr "從一個物體的頂點生成點密度"
 
 msgid "Radius from the shaded sample to look for points within"
 msgstr "在與著色樣本之間的半徑內查詢點"
+
+
+msgid "Vertex Weight"
+msgstr "頂點權重"
 
 
 msgid "Sky Texture"
@@ -32412,6 +32404,15 @@ msgstr "根據選取鍵幀的範圍設定預覽範圍"
 
 
 msgctxt "Operator"
+msgid "Properties"
+msgstr "屬性"
+
+
+msgid "Toggle display properties panel"
+msgstr "切換顯示屬性面板"
+
+
+msgctxt "Operator"
 msgid "Sample Keyframes"
 msgstr "取樣鍵幀"
 
@@ -32796,14 +32797,6 @@ msgid "Add Driver"
 msgstr "添加驅動器"
 
 
-msgid "Add driver(s) for the property(s) connected represented by the highlighted button"
-msgstr "為連接至以突顯按鈕呈現的屬性添加驅動器"
-
-
-msgid "Create drivers for all elements of the array"
-msgstr "為所有的陣列元素建立驅動器"
-
-
 msgctxt "Operator"
 msgid "Remove Driver"
 msgstr "移除驅動器"
@@ -33157,10 +33150,6 @@ msgstr "使用中骨骼"
 
 msgid "View Axis"
 msgstr "檢視軸"
-
-
-msgid "Cursor"
-msgstr "游標"
 
 
 msgctxt "Operator"
@@ -34345,11 +34334,6 @@ msgid "Prefetch frames from disk for faster playback/tracking"
 msgstr "從磁碟預取框幀可加快回放或追蹤的速度"
 
 
-msgctxt "Operator"
-msgid "Properties"
-msgstr "屬性"
-
-
 msgid "Toggle clip properties panel"
 msgstr "切換剪輯屬性面板"
 
@@ -35266,6 +35250,15 @@ msgstr "要刪除的元素"
 
 
 msgctxt "Operator"
+msgid "Dissolve Vertices"
+msgstr "消融頂點"
+
+
+msgid "Stroke"
+msgstr "筆觸"
+
+
+msgctxt "Operator"
 msgid "Duplicate Curve"
 msgstr "製作曲線複本"
 
@@ -35725,10 +35718,6 @@ msgstr "設定樣條類型"
 
 msgid "Set type of active spline"
 msgstr "設定使用中樣條的類型"
-
-
-msgid "Poly"
-msgstr "多角形"
 
 
 msgid "Handles"
@@ -37144,10 +37133,6 @@ msgid "Delete the active frame for the active Grease Pencil datablock"
 msgstr "為使用中蠟筆資料塊刪除使用中框幀"
 
 
-msgid "Stroke"
-msgstr "筆觸"
-
-
 msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "轉換蠟筆"
@@ -37429,10 +37414,6 @@ msgid "Add F-Curve Modifier"
 msgstr "添加 F 修改器"
 
 
-msgid "Add F-Modifiers to the selected F-Curves"
-msgstr "對所選的 F 曲線添加 F 修改器"
-
-
 msgid "Only Active"
 msgstr "僅使用中"
 
@@ -37503,10 +37484,6 @@ msgstr "翻轉所選框幀的時間，可有效反轉它們出現的順序"
 
 msgid "Automatically set Preview Range based on range of keyframes"
 msgstr "自動基於鍵幀區間設定預覽範圍"
-
-
-msgid "Toggle display properties panel"
-msgstr "切換顯示屬性面板"
 
 
 msgid "Include Handles"
@@ -37678,6 +37655,11 @@ msgstr "從所有群組移除"
 
 msgid "Remove selected objects from all groups"
 msgstr "從所有群組中移除所選物體"
+
+
+msgctxt "Operator"
+msgid "Clear Render Border"
+msgstr "清除算繪邊緣"
 
 
 msgid "Clear the boundaries of the border render and disable border render"
@@ -38012,6 +37994,15 @@ msgstr "檢視所有選取的 UV"
 
 msgid "Zoom in/out the image"
 msgstr "拉近/拉遠影像"
+
+
+msgctxt "Operator"
+msgid "Zoom to Border"
+msgstr "調焦至邊緣"
+
+
+msgid "Zoom in the view to the nearest item contained in the border"
+msgstr "將視圖拉近至邊緣內最近的項目"
 
 
 msgid "Zoom in the image (centered around 2D cursor)"
@@ -39362,11 +39353,6 @@ msgstr "消融選取項"
 
 msgid "Dissolve geometry based on the selection mode"
 msgstr "根據選取模式消融幾何"
-
-
-msgctxt "Operator"
-msgid "Dissolve Vertices"
-msgstr "消融頂點"
 
 
 msgid "Dissolve verts, merge edges and faces"
@@ -41488,10 +41474,6 @@ msgstr "製作所選 NLA 片段的複本，並在新的軌道中將新的片段�
 msgctxt "Operator"
 msgid "Add F-Modifier"
 msgstr "添加 F 修改器"
-
-
-msgid "Add a F-Modifier of the specified type to the selected NLA-Strips"
-msgstr "添加指定類型的 F 修改器至選取的 NLA 片段"
 
 
 msgid "Only add a F-Modifier of the specified type to the active strip"
@@ -49270,10 +49252,6 @@ msgid "Copy property from this object to selected objects or bones"
 msgstr "將來自此物體的屬性複製至選取的物體或骨骼上"
 
 
-msgid "Reset to default values all elements of the array"
-msgstr "將陣列中的所有元素重設回預設值"
-
-
 msgctxt "Operator"
 msgid "Drop Color"
 msgstr "拖放色彩"
@@ -49442,21 +49420,8 @@ msgid "Eyedropper"
 msgstr "汲吸器"
 
 
-msgctxt "Operator"
-msgid "I18n Addon Export"
-msgstr "I18n 附加元件匯出"
-
-
-msgid "Export given addon's translation data as PO files"
-msgstr "將給定的附加元件之翻譯資料匯出為 PO 檔"
-
-
-msgid "Addon"
-msgstr "附加元件"
-
-
-msgid "Addon to process"
-msgstr "要處理的附加元件"
+msgid "Sample a color from the Blender Window to store in a property"
+msgstr "從 Blender 視窗取樣個色彩並儲存在屬性中"
 
 
 msgid "Export POT"
@@ -49475,20 +49440,6 @@ msgid "Update existing po files, if any, instead of overwriting them"
 msgstr "若已有檔案的話即更新既有的 po 檔，而不是覆寫檔案"
 
 
-msgctxt "Operator"
-msgid "I18n Addon Import"
-msgstr "I18n 附加元件匯入"
-
-
-msgid "Import given addon's translation data from PO files"
-msgstr "從 PO 檔匯入給定的附加元件之翻譯資料"
-
-
-msgctxt "Operator"
-msgid "Update I18n Addon"
-msgstr "更新 I18n 附加元件"
-
-
 msgid "Wrapper operator which will invoke given op after setting its module_name"
 msgstr "包覆器型操作器，在設定其模組名稱後會喚起指定操作器"
 
@@ -49499,10 +49450,6 @@ msgstr "操作器名稱"
 
 msgid "Name (id) of the operator to invoke"
 msgstr "要喚起的操作器名稱 (id)"
-
-
-msgid "Update given addon's translation data (found as a py tuple in the addon's source code)"
-msgstr "更新給定的附加元件之翻譯資料 (在附加元件的源碼中找到為 python 的元組 [tuple])"
 
 
 msgctxt "Operator"
@@ -49642,6 +49589,10 @@ msgstr "重設回預設值"
 
 msgid "Reset this property's value to its default value"
 msgstr "將此屬性值重設回其預設值"
+
+
+msgid "Reset to default values all elements of the array"
+msgstr "將陣列中的所有元素重設回預設值"
 
 
 msgctxt "Operator"
@@ -50461,15 +50412,6 @@ msgstr "調焦 2D 視圖"
 
 
 msgctxt "Operator"
-msgid "Zoom to Border"
-msgstr "調焦至邊緣"
-
-
-msgid "Zoom in the view to the nearest item contained in the border"
-msgstr "將視圖拉近至邊緣內最近的項目"
-
-
-msgctxt "Operator"
 msgid "Zoom In"
 msgstr "拉近"
 
@@ -50525,11 +50467,6 @@ msgstr "攝影機適應框幀至所選項"
 
 msgid "Move the camera so selected objects are framed"
 msgstr "移動攝影機來讓選取的物體被加入框幀"
-
-
-msgctxt "Operator"
-msgid "Clear Render Border"
-msgstr "清除算繪邊緣"
 
 
 msgctxt "Operator"
@@ -51132,22 +51069,8 @@ msgstr "讓攝影機與算繪輸出之間的比符合 1:1"
 
 
 msgctxt "Operator"
-msgid "Disable Addon"
-msgstr "停用附加元件"
-
-
-msgctxt "Operator"
-msgid "Enable Addon"
-msgstr "啟用附加元件"
-
-
-msgctxt "Operator"
 msgid "Install from File..."
 msgstr "從檔案安裝..."
-
-
-msgid "Remove existing addons with the same ID"
-msgstr "移除具有相同 ID 的既有附加元件"
 
 
 msgid "Target Path"
@@ -51161,11 +51084,6 @@ msgstr "使用者偏好設定"
 msgctxt "Operator"
 msgid "Refresh"
 msgstr "重新整理"
-
-
-msgctxt "Operator"
-msgid "Remove Addon"
-msgstr "移除附加元件"
 
 
 msgctxt "Operator"
@@ -52725,10 +52643,6 @@ msgstr "光徑"
 
 msgid "Performance"
 msgstr "效能"
-
-
-msgid "Volume Sampling"
-msgstr "體積取樣"
 
 
 msgid "Mist Pass"
@@ -54771,6 +54685,10 @@ msgid "Smoothed high quality interpolation, but slower"
 msgstr "平滑的高品質插補，但較緩慢"
 
 
+msgid "Volume Sampling"
+msgstr "體積取樣"
+
+
 msgid "Dicing Rate"
 msgstr "切塊率"
 
@@ -54797,14 +54715,6 @@ msgstr "僅使用真錯置，需要有精細的細分"
 
 msgid "Combination of displacement and bump mapping"
 msgstr "錯置與凹凸映射處理的結合"
-
-
-msgid "Use Subdivision"
-msgstr "使用細分"
-
-
-msgid "Subdivide mesh for rendering"
-msgstr "用於算繪的細分網格"
 
 
 msgid "Motion Steps"
@@ -66598,14 +66508,6 @@ msgid "Simplify the final stroke"
 msgstr "簡化最終筆觸"
 
 
-msgid "Grease Pencil Smooth Stroke"
-msgstr "蠟筆平滑筆觸"
-
-
-msgid "Smooth the final stroke"
-msgstr "平滑最終筆觸"
-
-
 msgid "New F-Curve Colors - XYZ to RGB"
 msgstr "新 F 曲線色彩 - XYZ 至 RGB"
 
@@ -66776,10 +66678,6 @@ msgstr "手動儲存時，在目前目錄中要維護的舊版本數"
 
 msgid "Python Scripts Directory"
 msgstr "Python 指令稿目錄"
-
-
-msgid "Alternate script path, matching the default layout with subdirs: startup, addons & modules (requires restart)"
-msgstr "備用指令稿路徑，會比對次目錄的配置：包括 startup、addons 與 modules (需要重新啟動)"
 
 
 msgid "Hide Dot Files/Datablocks"
@@ -68154,10 +68052,6 @@ msgid "Group Index"
 msgstr "群組索引"
 
 
-msgid "Vertex Weight"
-msgstr "頂點權重"
-
-
 msgid "Scroll and zoom for a 2D region"
 msgstr "捲動並為某 2D 區塊調整遠近焦距"
 
@@ -69006,10 +68900,6 @@ msgid "Settings:"
 msgstr "設定："
 
 
-msgid "Heterogeneous:"
-msgstr "異質："
-
-
 msgid "Transparency:"
 msgstr "透明："
 
@@ -69425,10 +69315,6 @@ msgid "Could not write to po file ({})"
 msgstr "無法寫入 po 檔 ({})"
 
 
-msgid "WARNING: preferences are lost when addon is disabled, be sure to use \"Save Persistent\" if you want to keep your settings!"
-msgstr "警告：當停用附加元件時遺失偏好設定。若您想維持住您的設定值，請務必使用「儲存永恆設定」！"
-
-
 msgctxt "Operator"
 msgid "Save Persistent To..."
 msgstr "儲存永恆設定至..."
@@ -69444,14 +69330,6 @@ msgid "Load"
 msgstr "載入"
 
 
-msgid "No addon module given!"
-msgstr "未給予附加元件模組！"
-
-
-msgid "Addon '{}' not found!"
-msgstr "找不到附加元件「{}」！"
-
-
 msgid "Info written to {} text datablock!"
 msgstr "資訊已寫入至 {} 文字資料塊！"
 
@@ -69462,10 +69340,6 @@ msgstr "訊息抽出程序失敗！"
 
 msgid "Could not init languages data!"
 msgstr "無法初始化語言資料！"
-
-
-msgid "Please edit the preferences of the UI Translate addon"
-msgstr "請編輯「使用介面翻譯附加元件」的偏好設定"
 
 
 msgctxt "Operator"
@@ -69491,10 +69365,6 @@ msgstr "更新主幹"
 msgctxt "Operator"
 msgid "Statistics"
 msgstr "統計數據"
-
-
-msgid "Addons:"
-msgstr "附加元件："
 
 
 msgctxt "Operator"
@@ -69850,6 +69720,10 @@ msgid "Eps"
 msgstr "Eps"
 
 
+msgid "Roll:"
+msgstr "滾動："
+
+
 msgid "Parent:"
 msgstr "親代："
 
@@ -69862,14 +69736,6 @@ msgid "Envelope:"
 msgstr "封套："
 
 
-msgid "Radius:"
-msgstr "半徑："
-
-
-msgid "Curved Bones:"
-msgstr "曲線的骨骼："
-
-
 msgid "Bone Group:"
 msgstr "骨骼群組："
 
@@ -69880,10 +69746,6 @@ msgstr "物體子代："
 
 msgid "Control Rotation"
 msgstr "控制旋轉"
-
-
-msgid "Roll:"
-msgstr "滾動："
 
 
 msgid "Custom Shape:"
@@ -72123,10 +71985,6 @@ msgid "Noise:"
 msgstr "噪訊："
 
 
-msgid "Basis"
-msgstr "基礎"
-
-
 msgid "Alpha:"
 msgstr "Alpha："
 
@@ -72163,6 +72021,10 @@ msgid "Feature Weights:"
 msgstr "特徵權重："
 
 
+msgid "Color Source:"
+msgstr "色源："
+
+
 msgid "Noise Basis:"
 msgstr "噪訊基礎："
 
@@ -72181,10 +72043,6 @@ msgstr "重復："
 
 msgid "Mirror:"
 msgstr "鏡像："
-
-
-msgid "Color Source:"
-msgstr "色源："
 
 
 msgid "Coordinates:"
@@ -73491,12 +73349,12 @@ msgid "Euclidean Distance"
 msgstr "歐幾里德距離"
 
 
-msgid "Simplify Stroke"
-msgstr "簡化筆觸"
-
-
 msgid "Default Color"
 msgstr "預設色彩"
+
+
+msgid "Simplify Stroke"
+msgstr "簡化筆觸"
 
 
 msgid "Playback:"
@@ -75961,14 +75819,6 @@ msgid "Cannot open file %s for writing: %s"
 msgstr "無法開啟檔案「%s」以寫入：%s"
 
 
-msgid "Input faces do not form a contiguous manifold region"
-msgstr "輸入面不構成連續相接的流形區塊"
-
-
-msgid "Invalid boundary region to join faces"
-msgstr "欲接合面的邊界區塊無效"
-
-
 msgid "Self intersection error"
 msgstr "自身交錯錯誤"
 
@@ -76003,10 +75853,6 @@ msgstr "無效選項"
 
 msgid "Internal mesh error"
 msgstr "內部網格錯誤"
-
-
-msgid "Non-manifold vert while searching region boundary"
-msgstr "搜尋區塊邊界時發現非流形頂點"
 
 
 msgid "Zero normal given"
@@ -76638,22 +76484,6 @@ msgid "Grease Pencil: Drawing/erasing stroke... Release to end stroke"
 msgstr "蠟筆：描繪/擦除筆觸... 放開可結束筆觸"
 
 
-msgid "Grease Pencil Erase Session: Hold and drag LMB or RMB to erase | ESC/Enter to end"
-msgstr "蠟筆擦除作業階段：按住並拖曳左鼠鍵或右鼠鍵來擦除 | 按 ESC/Enter 鍵結束"
-
-
-msgid "Grease Pencil Line Session: Hold and drag LMB to draw | ESC/Enter to end"
-msgstr "蠟筆線段作業階段：按住並拖曳左鼠鍵來描繪 | 按 ESC/Enter 鍵結束"
-
-
-msgid "Grease Pencil Freehand Session: Hold and drag LMB to draw | ESC/Enter to end"
-msgstr "蠟筆隨手畫作業階段：按住並拖曳左鼠鍵來描繪 | 按 ESC/Enter 鍵結束"
-
-
-msgid "Grease Pencil Session: ESC/Enter to end"
-msgstr "蠟筆工作階段：ESC/Enter 結束"
-
-
 msgid "Cannot paint stroke"
 msgstr "無法繪製筆觸"
 
@@ -76739,11 +76569,6 @@ msgstr "刪除驅動器"
 msgctxt "Operator"
 msgid "Add Drivers"
 msgstr "添加驅動器"
-
-
-msgctxt "Operator"
-msgid "Add Single Driver"
-msgstr "添加單一驅動器"
 
 
 msgctxt "Operator"
@@ -76834,10 +76659,6 @@ msgstr "無法開啟檔案「%s」"
 
 msgid "See '%s' in the text editor"
 msgstr "在文字編輯器中查看「%s」"
-
-
-msgid "Could not find operator '%s'! Please enable ui_translate addon in the User Preferences"
-msgstr "找不到操作器「%s」！請啟用使用者偏好設定中的 ui_translate 附加元件"
 
 
 msgid "No valid po found for language '%s' under %s"
@@ -77589,10 +77410,6 @@ msgid "Failed to build distance field"
 msgstr "距離欄位建置失敗"
 
 
-msgid "Failed to build regions"
-msgstr "區塊建置失敗"
-
-
 msgid "Failed to build contours"
 msgstr "輪廓建置失敗"
 
@@ -77885,10 +77702,6 @@ msgstr "烘焙失敗：無效的畫布"
 
 msgid "Removed %d double particles"
 msgstr "移除 %d 個重疊粒子"
-
-
-msgid "Can't disconnect hair if particle system modifier is disabled"
-msgstr "若粒子系統修改器停用則無法斷開毛髮連接"
 
 
 msgid "There should be only one domain object"
@@ -78299,6 +78112,14 @@ msgid "Compiled without sound support"
 msgstr "不使用音效支援編譯"
 
 
+msgid "Active F-Curve"
+msgstr "使用中 F 曲線"
+
+
+msgid "Active Keyframe"
+msgstr "使用中鍵幀"
+
+
 msgid "Not implemented"
 msgstr "尚未實作"
 
@@ -78515,26 +78336,6 @@ msgid "Prop:"
 msgstr "屬性："
 
 
-msgid "Bone 1:"
-msgstr "骨骼 1："
-
-
-msgid "Bone 2:"
-msgstr "骨骼 2："
-
-
-msgid "Ob/Bone 1:"
-msgstr "物體/骨骼 1："
-
-
-msgid "Ob/Bone 2:"
-msgstr "物體/骨骼 2："
-
-
-msgid "Ob/Bone:"
-msgstr "物體/骨骼："
-
-
 msgid "Update Dependencies"
 msgstr "更新相依關係"
 
@@ -78583,20 +78384,8 @@ msgid "Remove this driver"
 msgstr "移除這個驅動器"
 
 
-msgid "Adds a new F-Curve Modifier for the active F-Curve"
-msgstr "為使用中的 F 曲線添加一個新的 F 曲線修改器"
-
-
 msgid "View Properties"
 msgstr "檢視屬性"
-
-
-msgid "Active F-Curve"
-msgstr "使用中 F 曲線"
-
-
-msgid "Active Keyframe"
-msgstr "使用中鍵幀"
 
 
 msgid "<No ID>"
@@ -78968,10 +78757,6 @@ msgid "Now"
 msgstr "現在"
 
 
-msgid "Adds a new F-Modifier for the active NLA Strip"
-msgstr "為使用中的 NLA 片段添加一個新的 F 曲線修改器"
-
-
 msgid "Active Track"
 msgstr "使用中軌道"
 
@@ -78986,10 +78771,6 @@ msgstr "沒有要用的使用中 AnimData 塊 (請先選取資料塊擴展器，
 
 msgid "Internal Error - AnimData block is not valid"
 msgstr "內部錯誤 - AnimData 塊無效"
-
-
-msgid "Add F-Modifier"
-msgstr "添加 F 修改器"
 
 
 msgid "No valid action to add"
@@ -79468,6 +79249,10 @@ msgstr "邊線資料："
 
 msgid "Mean Crease:"
 msgstr "平均皺摺："
+
+
+msgid "Radius:"
+msgstr "半徑："
 
 
 msgid "Mean Weight:"
@@ -80725,10 +80510,6 @@ msgid "Region not found in space type"
 msgstr "空間類型中找不到區塊"
 
 
-msgid "Addon is no longer valid"
-msgstr "附加元件不再有效"
-
-
 msgid "Not a non-modal keymap"
 msgstr "不是非典範按鍵對應表"
 
@@ -81325,6 +81106,14 @@ msgid "Missing 'window' in context"
 msgstr "情境中遺失「window」"
 
 
+msgid "Trusted Source [Untrusted Path]"
+msgstr "信任的來源 [未受信任的路徑]"
+
+
+msgid "Save Over?"
+msgstr "儲存覆蓋舊檔？"
+
+
 msgid "unable to open the file"
 msgstr "無法開啟檔案"
 
@@ -81337,8 +81126,8 @@ msgid "Path too long, cannot save"
 msgstr "路徑過長，無法儲存"
 
 
-msgid "Engine '%s' not available for scene '%s' (an addon may need to be installed or enabled)"
-msgstr "引擎「%s」無法用於場景「%s」(可能需要安裝或啟用某項附加元件)"
+msgid "Context window not set"
+msgstr "未設定情境視窗"
 
 
 msgid "Cannot read file '%s': %s"
@@ -81361,16 +81150,16 @@ msgid "Could not read '%s'"
 msgstr "無法讀取「%s」"
 
 
-msgid "Can't read alternative start-up file: '%s'"
-msgstr "無法讀取替代性初始啟動檔：「%s」"
-
-
 msgid "Cannot save blend file, path '%s' is not writable"
 msgstr "無法儲存 blend 檔，路徑「%s」無法寫入"
 
 
 msgid "Cannot overwrite used library '%.240s'"
 msgstr "無法覆寫已使用的函式庫「%.240s」"
+
+
+msgid "Can't read alternative start-up file: '%s'"
+msgstr "無法讀取替代性初始啟動檔：「%s」"
 
 
 msgid "No valid 3D View found, game auto start is not possible"
@@ -81409,14 +81198,6 @@ msgid "Python API Reference"
 msgstr "Python API 參照"
 
 
-msgid "Trusted Source [Untrusted Path]"
-msgstr "信任的來源 [未受信任的路徑]"
-
-
-msgid "Save Over?"
-msgstr "儲存覆蓋舊檔？"
-
-
 msgid "unsupported format"
 msgstr "尚未支援的格式"
 
@@ -81440,10 +81221,6 @@ msgstr "切換系統主控臺"
 
 msgid "No operator in context"
 msgstr "情境中無操作器"
-
-
-msgid "Context window not set"
-msgstr "未設定情境視窗"
 
 
 msgid "Property cannot be both boolean and float"
