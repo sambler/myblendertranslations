@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 1) (b'eeedcf3')\n"
+"Project-Id-Version: Blender 2.78 (sub 0) (b'0e5089c')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-19 15:42:03\n"
+"POT-Creation-Date: 2016-09-06 22:12:25\n"
 "PO-Revision-Date: 2013-09-26 14:51+0700\n"
 "Last-Translator: Daffi A. Prabowo <daffi.ap@gmail.com>\n"
 "Language-Team: Indonesian <>\n"
@@ -1291,6 +1291,14 @@ msgid "Attenuation"
 msgstr "lokasi"
 
 
+msgid "Parent Bone"
+msgstr "Induk"
+
+
+msgid "Parent Type"
+msgstr "Induk"
+
+
 msgid "Draw Mode"
 msgstr "Modus"
 
@@ -1305,6 +1313,10 @@ msgstr "Tekstur"
 
 msgid "2D Image"
 msgstr "Tambah Gambar"
+
+
+msgid "Triangles"
+msgstr "Hapus"
 
 
 msgid "Collision Shape"
@@ -1882,14 +1894,6 @@ msgid "Sculpt Mode"
 msgstr "Modus Pahat"
 
 
-msgid "Parent Bone"
-msgstr "Induk"
-
-
-msgid "Parent Type"
-msgstr "Induk"
-
-
 msgid "3 Vertices"
 msgstr "Partikel"
 
@@ -2394,6 +2398,10 @@ msgstr "Garis Lurus"
 
 msgid "Invert the mask black/white"
 msgstr "Saluran"
+
+
+msgid "Mask Layers"
+msgstr "Lapisan"
 
 
 msgid "Mask Parent"
@@ -3481,6 +3489,10 @@ msgid "String Node Socket"
 msgstr "String Node Socket"
 
 
+msgid "Active Node"
+msgstr "Tambah Baru"
+
+
 msgid "Modifier Object"
 msgstr "Sunting Objek"
 
@@ -4087,11 +4099,6 @@ msgstr "Kamera"
 
 
 msgctxt "Operator"
-msgid "Set Rotation Track"
-msgstr "lokasi"
-
-
-msgctxt "Operator"
 msgid "Tools"
 msgstr "Alat"
 
@@ -4518,6 +4525,11 @@ msgid "Delete Active Frame"
 msgstr "Hapus"
 
 
+msgctxt "Operator"
+msgid "Remove Brush"
+msgstr "Setel Ulang"
+
+
 msgid "Gap Duration"
 msgstr "lokasi"
 
@@ -4546,11 +4558,6 @@ msgid "Normalize Weight"
 msgstr "Orientasi Transformasi"
 
 
-msgctxt "Operator"
-msgid "Delete..."
-msgstr "Hapus"
-
-
 msgid "Hide unselected rather than selected layers"
 msgstr "Warna Standar"
 
@@ -4570,6 +4577,11 @@ msgstr "Hapus"
 
 msgid "Toggle the selection"
 msgstr "Hapus"
+
+
+msgctxt "Operator"
+msgid "Hide Selection"
+msgstr "Modus Sunting"
 
 
 msgctxt "Operator"
@@ -5224,11 +5236,6 @@ msgstr "Tipe"
 
 msgctxt "Operator"
 msgid "Fill"
-msgstr "Modus Sunting"
-
-
-msgctxt "Operator"
-msgid "Hide Selection"
 msgstr "Modus Sunting"
 
 
@@ -7742,10 +7749,6 @@ msgid "Mask Display"
 msgstr "Grup"
 
 
-msgid "Mask Layers"
-msgstr "Lapisan"
-
-
 msgid "Mask Tools"
 msgstr "Grup"
 
@@ -7812,10 +7815,6 @@ msgstr "lokasi"
 
 msgid "Ideal for fulldomes, ignore the sensor dimensions"
 msgstr "Saluran"
-
-
-msgid "Triangles"
-msgstr "Hapus"
 
 
 msgid "Line Segments"
@@ -8492,10 +8491,6 @@ msgid "Frame Node"
 msgstr "Dalam Jarak"
 
 
-msgid "Active Node"
-msgstr "Tambah Baru"
-
-
 msgid "Node Selected"
 msgstr "Modus Sunting"
 
@@ -8847,6 +8842,11 @@ msgid "Select Inverse"
 msgstr "Seleksi"
 
 
+msgctxt "Operator"
+msgid "Delete..."
+msgstr "Hapus"
+
+
 msgid "Spline:"
 msgstr "Modus Pahat"
 
@@ -8900,6 +8900,10 @@ msgid "Split UVs:"
 msgstr "Modus Pahat"
 
 
+msgid "Speed:"
+msgstr "Ukurang"
+
+
 msgid "Filename:"
 msgstr "Nama file"
 
@@ -8910,11 +8914,6 @@ msgstr "Partikel"
 
 msgid "Use Particle's Radius"
 msgstr "Partikel"
-
-
-msgctxt "Operator"
-msgid "Remove Brush"
-msgstr "Setel Ulang"
 
 
 msgid "Domain Object:"
@@ -9321,10 +9320,6 @@ msgid "Mouse:"
 msgstr "Tetikus:"
 
 
-msgid "NDOF Orbit Sensitivity"
-msgstr "Tampilan 3D"
-
-
 msgid "Text:"
 msgstr "Teks:"
 
@@ -9339,6 +9334,10 @@ msgstr "Alat"
 
 msgid "Axis Colors:"
 msgstr "Warna Standar"
+
+
+msgid "NDOF Orbit Sensitivity"
+msgstr "Tampilan 3D"
 
 
 msgid "Description:"
@@ -10621,10 +10620,6 @@ msgstr "Internet:"
 
 msgid "Bokeh Type:"
 msgstr "Gambar"
-
-
-msgid "Speed:"
-msgstr "Ukurang"
 
 
 msgid "Buffer Edge:"

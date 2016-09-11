@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 1) (b'eeedcf3')\n"
+"Project-Id-Version: Blender 2.78 (sub 0) (b'0e5089c')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-19 15:42:03\n"
+"POT-Creation-Date: 2016-09-06 22:12:25\n"
 "PO-Revision-Date: \n"
 "Last-Translator: congcong009 <congcong009@gmail.com>\n"
 "Language-Team: \n"
@@ -1947,6 +1947,10 @@ msgid "The name of a json file storing those settings (unfortunately, Blender's 
 msgstr "存储这些设置的 JSon 文件的名称 (但 Blender 的系统对此不支持)"
 
 
+msgid "Path"
+msgstr "路径"
+
+
 msgid "Animation Data"
 msgstr "动画数据"
 
@@ -2455,6 +2459,10 @@ msgid "The window relative horizontal location of the area"
 msgstr "区域窗口的相对水平位置"
 
 
+msgid "Active Bone"
+msgstr "激活的骨骼"
+
+
 msgid "Background Image"
 msgstr "背景图"
 
@@ -2677,6 +2685,10 @@ msgstr "在所有视图中显示背景图像"
 
 msgid "Show background image in camera view"
 msgstr "在摄像机视角中显示背景图"
+
+
+msgid "Background Images"
+msgstr "背景图"
 
 
 msgid "Bake Pixel"
@@ -3985,6 +3997,10 @@ msgstr "骨骼组"
 
 msgid "Groups of Pose Channels (Bones)"
 msgstr "姿态通道的组"
+
+
+msgid "Bone Groups"
+msgstr "骨骼组"
 
 
 msgid "Brush Capabilities"
@@ -7084,12 +7100,24 @@ msgid "Tolerance"
 msgstr "容差"
 
 
+msgid "Method"
+msgstr "方法"
+
+
+msgid "Split"
+msgstr "拆分"
+
+
 msgid "Plane"
 msgstr "平面"
 
 
 msgid "View"
 msgstr "视图"
+
+
+msgid "Active Spline"
+msgstr "激活的样条"
 
 
 msgid "Safe Areas"
@@ -7480,11 +7508,11 @@ msgid "Mask"
 msgstr "遮罩"
 
 
-msgid "MetaBall"
+msgid "Metaball"
 msgstr "融球"
 
 
-msgid "NodeTree"
+msgid "Node Tree"
 msgstr "节点树"
 
 
@@ -9924,10 +9952,6 @@ msgid "File Select Parameters"
 msgstr "文件选择参数"
 
 
-msgid "Path"
-msgstr "路径"
-
-
 msgid "Save"
 msgstr "保存"
 
@@ -10920,6 +10944,14 @@ msgid "Enable or disable this style module during stroke rendering"
 msgstr "在渲染笔触时启用或禁用此样式模块"
 
 
+msgid "Style Modules"
+msgstr "样式模块"
+
+
+msgid "A list of style modules (to be applied from top to bottom)"
+msgstr "样式模块列表 (从上至下应用)"
+
+
 msgid "Freestyle Settings"
 msgstr "Freestyle 设置"
 
@@ -10966,14 +10998,6 @@ msgstr "参数编辑器模式"
 
 msgid "Basic mode for interactive style parameter editing"
 msgstr "基本模式, 用于交互式样式参数编辑"
-
-
-msgid "Style Modules"
-msgstr "样式模块"
-
-
-msgid "A list of style modules (to be applied from top to bottom)"
-msgstr "样式模块列表 (从上至下应用)"
 
 
 msgid "Sphere Radius"
@@ -11092,6 +11116,22 @@ msgid "Number of samples"
 msgstr "采样数"
 
 
+msgid "Angle"
+msgstr "角度"
+
+
+msgid "Jitter"
+msgstr "抖动"
+
+
+msgid "Thickness"
+msgstr "厚度"
+
+
+msgid "Thickness of strokes (in pixels)"
+msgstr "笔触的粗细程度 (像素)"
+
+
 msgid "Grease Pencil Frame"
 msgstr "蜡笔绘制帧"
 
@@ -11144,22 +11184,6 @@ msgid "Frame currently being displayed for this layer"
 msgstr "当前图层上显示的帧"
 
 
-msgid "Layer Opacity"
-msgstr "图层不透明度"
-
-
-msgid "Color for all strokes in this layer"
-msgstr "这层中所有草图的色彩"
-
-
-msgid "Fill Opacity"
-msgstr "填充的不透明度"
-
-
-msgid "Fill Color"
-msgstr "填充色"
-
-
 msgid "Sketches for this layer on different frames"
 msgstr "在该图层上不同帧的示意"
 
@@ -11170,14 +11194,6 @@ msgstr "设置层的可见性"
 
 msgid "Layer name"
 msgstr "图层名称"
-
-
-msgid "Thickness"
-msgstr "厚度"
-
-
-msgid "Thickness of strokes (in pixels)"
-msgstr "笔触的粗细程度 (像素)"
 
 
 msgid "Locked"
@@ -11194,6 +11210,26 @@ msgstr "帧已锁定"
 
 msgid "Lock current frame displayed by layer"
 msgstr "锁定当前层的显示帧"
+
+
+msgid "Layer Opacity"
+msgstr "图层不透明度"
+
+
+msgid "Parent Bone"
+msgstr "父级骨骼"
+
+
+msgid "Name of parent bone in case of a bone parenting relation"
+msgstr "父级骨骼名称, 用于顶点父子关系中"
+
+
+msgid "Parent Type"
+msgstr "父级类型"
+
+
+msgid "Type of parent relation"
+msgstr "父子关系类型"
 
 
 msgid "Layer is selected for editing in the Dope Sheet"
@@ -11218,6 +11254,14 @@ msgstr "在物体的前侧显示层"
 
 msgid "Ghost frames on either side of frame"
 msgstr "在帧的两侧显示残影帧效果"
+
+
+msgid "Fill Opacity"
+msgstr "填充的不透明度"
+
+
+msgid "Fill Color"
+msgstr "填充色"
 
 
 msgid "Add effect of brush"
@@ -11284,6 +11328,10 @@ msgid "Freehand curve defining part of a sketch"
 msgstr "用于定义部分示意的曲线自由控制柄"
 
 
+msgid "Palette Color"
+msgstr "调色板"
+
+
 msgid "Draw Mode"
 msgstr "绘制模式"
 
@@ -11322,6 +11370,10 @@ msgstr "笔触控制点"
 
 msgid "Stroke data points"
 msgstr "笔触数据点"
+
+
+msgid "Triangles"
+msgstr "三角形"
 
 
 msgid "Grease Pencil Stroke Point"
@@ -11948,6 +12000,14 @@ msgid "Welding threshold: distance between nearby vertices to be considered equa
 msgstr "权重阈值: 被视作等距的邻近顶点间的距离 => 若设为0.0, 则关闭焊接检测, 并可加快场景读取 (前提是网格未携带副本)"
 
 
+msgid "Active Brush"
+msgstr "激活的笔刷"
+
+
+msgid "Active Layer"
+msgstr "激活层"
+
+
 msgid "Statistical view of the levels of color in an image"
 msgstr "图像统计视图范围"
 
@@ -12552,10 +12612,6 @@ msgid "Fill"
 msgstr "填充"
 
 
-msgid "Jitter"
-msgstr "抖动"
-
-
 msgid "Jitter the position of the brush while painting"
 msgstr "绘图时抖动笔刷的位置"
 
@@ -13058,6 +13114,22 @@ msgstr "将颜色与邻近值进行模糊"
 
 msgid "Vertex weight when brush is applied"
 msgstr "应用笔刷后的顶点权重"
+
+
+msgid "Path to external displacements file"
+msgstr "外部置换文件的路径"
+
+
+msgid "Forward"
+msgstr "前进"
+
+
+msgid "Sequence"
+msgstr "序列"
+
+
+msgid "Up"
+msgstr "向上"
 
 
 msgid "Field of View"
@@ -13986,10 +14058,6 @@ msgstr "最短平面长度"
 
 msgid "If true, chains of feature edges are split at material boundaries"
 msgstr "如果为真, 则特征边"
-
-
-msgid "Node Tree"
-msgstr "节点树"
 
 
 msgid "Panel"
@@ -15738,10 +15806,6 @@ msgid "Pass Index"
 msgstr "通道索引"
 
 
-msgid "Index number for the IndexMA render pass"
-msgstr "材质索引的索引编号"
-
-
 msgid "Physics"
 msgstr "物理"
 
@@ -17486,22 +17550,6 @@ msgid "Motion Path for this element"
 msgstr "元素的运动路径"
 
 
-msgid "Parent Bone"
-msgstr "父级骨骼"
-
-
-msgid "Name of parent bone in case of a bone parenting relation"
-msgstr "父级骨骼名称, 用于顶点父子关系中"
-
-
-msgid "Parent Type"
-msgstr "父级类型"
-
-
-msgid "Type of parent relation"
-msgstr "父子关系类型"
-
-
 msgid "The object is parented to an object"
 msgstr "该物体已与一个物体建立了父子关系"
 
@@ -17532,10 +17580,6 @@ msgstr "顶点编号, 用于顶点父子关系中"
 
 msgid "Particle systems emitted from the object"
 msgstr "粒子系统直接由物体发射"
-
-
-msgid "Index number for the IndexOB render pass"
-msgstr "物体索引(IndexOB)渲染通道的编号"
 
 
 msgid "Pose"
@@ -17928,10 +17972,6 @@ msgstr "方板的纹理动画方式"
 
 msgid "Age"
 msgstr "年龄"
-
-
-msgid "Angle"
-msgstr "角度"
 
 
 msgid "Billboard Object"
@@ -18940,10 +18980,6 @@ msgstr "激活的影片剪辑"
 
 msgid "Active movie clip used for constraints and viewport drawing"
 msgstr "激活的影片剪辑, 用于约束及视口显示"
-
-
-msgid "Active Layer"
-msgstr "激活层"
 
 
 msgid "Active scene layer index"
@@ -21779,6 +21815,14 @@ msgid "When an 'array/vector' type is chosen (Location, Rotation, Color, etc.), 
 msgstr "当选择了一个 '阵列/矢量'类型(位置、旋转、颜色等)时, 将使用整个阵列"
 
 
+msgid "Active Keying Set"
+msgstr "激活的插帧集"
+
+
+msgid "Keying Sets"
+msgstr "插帧集"
+
+
 msgid "Lamp Sky Settings"
 msgstr "灯光的天空设置"
 
@@ -22552,6 +22596,10 @@ msgstr "计算孔洞"
 
 msgid "Calculate Overlap"
 msgstr "计算重叠"
+
+
+msgid "Mask Layers"
+msgstr "遮罩层"
 
 
 msgid "Mask Parent"
@@ -23408,16 +23456,16 @@ msgid "Select Grouped"
 msgstr "按组选择"
 
 
-msgid "Track Color Specials"
-msgstr "轨迹颜色指定"
-
-
 msgid "Predefined track color"
 msgstr "预定义的轨迹色"
 
 
 msgid "Color Presets"
 msgstr "颜色预设"
+
+
+msgid "Track Color Specials"
+msgstr "轨迹颜色指定"
 
 
 msgid "Transform"
@@ -23538,10 +23586,6 @@ msgstr "数据预览"
 
 msgid "Help"
 msgstr "帮助"
-
-
-msgid "Metaball"
-msgstr "融球"
 
 
 msgid "OpenGL Render Options"
@@ -23766,10 +23810,6 @@ msgstr "应用"
 
 msgid "Quick Effects"
 msgstr "快速效果"
-
-
-msgid "Bone Groups"
-msgstr "骨骼组"
 
 
 msgid "Propagate"
@@ -24290,6 +24330,10 @@ msgstr "网格多边形字符串型属性"
 
 msgid "Mesh Vertex String Property Layer"
 msgstr "网格多边形字符串型属性层"
+
+
+msgid "Active Element"
+msgstr "活动元素"
 
 
 msgid "Meta Element"
@@ -25628,14 +25672,6 @@ msgid "Influence of the deformation"
 msgstr "形变影响量"
 
 
-msgid "Path to external displacements file"
-msgstr "外部置换文件的路径"
-
-
-msgid "Forward"
-msgstr "前进"
-
-
 msgid "Frame Scale"
 msgstr "帧缩放"
 
@@ -25682,10 +25718,6 @@ msgstr "使用时间控制回放, 单位为秒"
 
 msgid "Control playback using a value between [0, 1]"
 msgstr "使用值控制回放, 区间为 [0, 1]"
-
-
-msgid "Up"
-msgstr "向上"
 
 
 msgid "MeshDeform Modifier"
@@ -27775,6 +27807,14 @@ msgid "Scale of object solution in camera space"
 msgstr "摄像机空间中的物体解算缩放"
 
 
+msgid "Active Track"
+msgstr "活动的轨"
+
+
+msgid "Active Object"
+msgstr "活动物体"
+
+
 msgid "Movie Tracking Plane Marker Data"
 msgstr "影片追踪平面标记数据"
 
@@ -27827,16 +27867,16 @@ msgid "Automatic keyframe insertion when moving plane corners"
 msgstr "自动在可用的函数曲线中插入关键帧"
 
 
+msgid "Collection of solved cameras"
+msgstr "已解算摄像机集合"
+
+
 msgid "Movie tracking reconstruction data"
 msgstr "影片追踪重建数据"
 
 
 msgid "Match-moving reconstruction data from tracker"
 msgstr "源自轨迹的运动匹配重建数据"
-
-
-msgid "Collection of solved cameras"
-msgstr "已解算摄像机集合"
 
 
 msgid "Reconstructed"
@@ -28151,20 +28191,12 @@ msgid "Movie tracking stabilization data"
 msgstr "运动追踪稳像数据"
 
 
-msgid "Match-moving stabilization data for tracking"
-msgstr "用于追踪的运动匹配稳像数据"
-
-
 msgid "Active Track Index"
 msgstr "激活轨迹的索引"
 
 
-msgid "Index of active track in stabilization tracks list"
-msgstr "稳像轨迹列表中的激活轨迹索引"
-
-
-msgid "Method to use to filter stabilization"
-msgstr "用于过滤稳像的方法"
+msgid "Interpolate"
+msgstr "插值"
 
 
 msgid "Nearest"
@@ -28203,24 +28235,12 @@ msgid "Influence of stabilization algorithm on footage scale"
 msgstr "针对镜头缩放的稳像算法影响量"
 
 
-msgid "Rotation Track"
-msgstr "旋转轨迹"
-
-
-msgid "Track used to compensate rotation"
-msgstr "用于补偿旋转的轨迹"
-
-
 msgid "Maximal Scale"
 msgstr "比例上限"
 
 
 msgid "Limit the amount of automatic scaling"
 msgstr "限制自动缩放量"
-
-
-msgid "Collection of tracks used for stabilization"
-msgstr "用于稳像的轨迹集合"
 
 
 msgid "Use 2D stabilization"
@@ -28241,10 +28261,6 @@ msgstr "执行稳像时, 自动缩放镜头以覆盖未填充区域"
 
 msgid "Stabilize Rotation"
 msgstr "稳定旋转"
-
-
-msgid "Stabilize horizon line on the shot"
-msgstr "针对镜头中的水平线执行稳像"
 
 
 msgid "Movie tracking track data"
@@ -30100,6 +30116,10 @@ msgid "Stabilize 2D"
 msgstr "平面稳像"
 
 
+msgid "Method to use to filter stabilization"
+msgstr "用于过滤稳像的方法"
+
+
 msgid "Ray Length"
 msgstr "光线长度"
 
@@ -31340,6 +31360,10 @@ msgid "Base node tree from context"
 msgstr "根据环境生成的基础节点树"
 
 
+msgid "Active Node"
+msgstr "激活的节点"
+
+
 msgid "Object Base"
 msgstr "物体基础"
 
@@ -31362,6 +31386,10 @@ msgstr "链接的物体基础"
 
 msgid "Object base selection state"
 msgstr "基础物体的选择状态"
+
+
+msgid "Object Constraints"
+msgstr "物体约束"
 
 
 msgid "Ocean Texture settings"
@@ -31758,10 +31786,6 @@ msgstr "根据选择的关键帧设置预览区间"
 msgctxt "Operator"
 msgid "Properties"
 msgstr "属性"
-
-
-msgid "Toggle display properties panel"
-msgstr "切换属性面板的显示"
 
 
 msgctxt "Operator"
@@ -32572,10 +32596,6 @@ msgid "Global -Z Axis"
 msgstr "全局-Z坐标"
 
 
-msgid "Active Bone"
-msgstr "激活的骨骼"
-
-
 msgid "View Axis"
 msgstr "查看轴向"
 
@@ -33259,6 +33279,14 @@ msgid "Display button panel toolbox"
 msgstr "显示按钮工具箱面板"
 
 
+msgid "Check Existing"
+msgstr "检查是否存在"
+
+
+msgid "Check and warn on overwriting existing files"
+msgstr "检查并提醒是否需要覆盖现有文件"
+
+
 msgctxt "Operator"
 msgid "Add Camera Preset"
 msgstr "添加摄像机预设"
@@ -33775,10 +33803,6 @@ msgid "Prefetch Frames"
 msgstr "预读取帧"
 
 
-msgid "Toggle clip properties panel"
-msgstr "切换显示剪辑属性面板"
-
-
 msgctxt "Operator"
 msgid "Rebuild Proxy and Timecode Indices"
 msgstr "重建代理及时间码索引"
@@ -34045,35 +34069,14 @@ msgid "Add Stabilization Tracks"
 msgstr "添加稳像轨迹"
 
 
-msgid "Add selected tracks to 2D stabilization tool"
-msgstr "将所选的轨迹添加到 2D 稳像工具中"
-
-
 msgctxt "Operator"
 msgid "Remove Stabilization Track"
 msgstr "移除稳像轨"
 
 
-msgid "Remove selected track from stabilization"
-msgstr "从稳像轨中移除选中轨"
-
-
 msgctxt "Operator"
 msgid "Select Stabilization Tracks"
 msgstr "选择稳像轨"
-
-
-msgid "Select tracks which are used for stabilization"
-msgstr "选择用于稳像的轨迹"
-
-
-msgctxt "Operator"
-msgid "Set Rotation Track"
-msgstr "设置旋转轨"
-
-
-msgid "Use active track to compensate rotation when doing 2D stabilization"
-msgstr "进行二维稳像时使用激活的轨迹抵消旋转"
 
 
 msgctxt "Operator"
@@ -35289,14 +35292,6 @@ msgid "Save a python script which re-creates cameras and markers elsewhere"
 msgstr "保存一个 python 脚本, 可将摄像机及标记重建到其他地方"
 
 
-msgid "Check Existing"
-msgstr "检查是否存在"
-
-
-msgid "Check and warn on overwriting existing files"
-msgstr "检查并提醒是否需要覆盖现有文件"
-
-
 msgid "Filepath used for exporting the file"
 msgstr "输出文件的文件路径"
 
@@ -36210,10 +36205,6 @@ msgid "Unpack all files packed into this .blend to external ones"
 msgstr "将所有打包到此 .blend 文件中的文件解包为外部文件"
 
 
-msgid "Method"
-msgstr "方法"
-
-
 msgid "How to unpack"
 msgstr "如何解包"
 
@@ -36549,6 +36540,11 @@ msgstr "删除活动帧"
 
 
 msgctxt "Operator"
+msgid "Remove Brush"
+msgstr "移除笔刷"
+
+
+msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "转换蜡笔"
 
@@ -36688,11 +36684,6 @@ msgstr "取消关联活动的蜡笔数据块"
 
 
 msgctxt "Operator"
-msgid "Delete..."
-msgstr "删除..."
-
-
-msgctxt "Operator"
 msgid "Dissolve"
 msgstr "消融"
 
@@ -36788,6 +36779,10 @@ msgid "Paste Strokes"
 msgstr "粘贴笔触"
 
 
+msgid "Merge"
+msgstr "合并"
+
+
 msgid "Show all Grease Pencil layers"
 msgstr "显示所有的蜡笔层"
 
@@ -36828,6 +36823,11 @@ msgstr "用套索选择笔触"
 
 msgid "Select Grease Pencil strokes using lasso selection"
 msgstr "用套索选择蜡笔笔触"
+
+
+msgctxt "Operator"
+msgid "Hide Selection"
+msgstr "隐藏所选项"
 
 
 msgctxt "Operator"
@@ -37726,10 +37726,6 @@ msgstr "夹固尺寸"
 
 msgid "Clamp bounds under this value (zero to disable)"
 msgstr "低于此值的界限夹位置 (0为禁用)"
-
-
-msgid "Split"
-msgstr "拆分"
 
 
 msgid "Split geometry, omits unused verts"
@@ -38689,10 +38685,6 @@ msgid "Loop Pairs"
 msgstr "循环对"
 
 
-msgid "Merge"
-msgstr "合并"
-
-
 msgid "Merge rather than creating faces"
 msgstr "将面合并, 而非创建"
 
@@ -39245,11 +39237,6 @@ msgid "Flip the direction of selected faces' normals (and of their vertices)"
 msgstr "翻转所选面的法线方向 (以及顶点的法线方向)"
 
 
-msgctxt "Operator"
-msgid "Hide Selection"
-msgstr "隐藏所选项"
-
-
 msgid "Hide (un)selected vertices, edges or faces"
 msgstr "隐藏(未)选中的顶点、边或面"
 
@@ -39277,10 +39264,6 @@ msgstr "沿已有的边线内插区域"
 
 msgid "Individual Face Inset"
 msgstr "各面分别执行内插"
-
-
-msgid "Interpolate"
-msgstr "插值"
 
 
 msgid "Blend face data across the inset"
@@ -41626,10 +41609,6 @@ msgstr "切换节点预览"
 
 msgid "Toggle preview display for selected nodes"
 msgstr "切换选择节点的预览"
-
-
-msgid "Toggles the properties panel display"
-msgstr "切换属性面板的显示"
 
 
 msgctxt "Operator"
@@ -47026,10 +47005,6 @@ msgid "Paste"
 msgstr "粘贴"
 
 
-msgid "Open sequencer properties panel"
-msgstr "开启序列属性面板"
-
-
 msgctxt "Operator"
 msgid "Reassign Inputs"
 msgstr "重新指定输入项"
@@ -47914,10 +47889,6 @@ msgstr "输入时切换覆盖"
 
 msgid "Paste text selected elsewhere rather than copied (X11 only)"
 msgstr "粘贴选定文本而不是在其他地方复制 (仅用于X11系统)"
-
-
-msgid "Toggle text properties panel"
-msgstr "切换文本属性栏显示"
 
 
 msgctxt "Operator"
@@ -49534,10 +49505,6 @@ msgstr "缩小"
 msgctxt "Operator"
 msgid "Add Background Image (Ctrl for Empty Object)"
 msgstr "添加背景图 (按住 Ctrl 可添加空物体)"
-
-
-msgid "Add a new background image"
-msgstr "新增一个背景图"
 
 
 msgctxt "Operator"
@@ -51291,10 +51258,6 @@ msgid "Size of packed file in bytes"
 msgstr "已打包文件的大小 (字节)"
 
 
-msgid "Active Brush"
-msgstr "激活的笔刷"
-
-
 msgid "Input Samples"
 msgstr "输入采样"
 
@@ -51571,10 +51534,6 @@ msgid "Keep applying paint effect while holding mouse"
 msgstr "在按住鼠标时持续应用绘画效果"
 
 
-msgid "Palette Color"
-msgstr "调色板"
-
-
 msgid "Bone Constraints"
 msgstr "骨骼约束"
 
@@ -51591,10 +51550,6 @@ msgid "Active Point"
 msgstr "激活的点"
 
 
-msgid "Active Spline"
-msgstr "激活的样条"
-
-
 msgid "Footage Settings"
 msgstr "镜头设定"
 
@@ -51609,10 +51564,6 @@ msgstr "遮罩设置"
 
 msgid "Mask Display"
 msgstr "遮罩显示"
-
-
-msgid "Mask Layers"
-msgstr "遮罩层"
 
 
 msgid "Stabilization"
@@ -51716,10 +51667,6 @@ msgstr "纹理空间"
 
 msgid "Geometry Data"
 msgstr "几何数据"
-
-
-msgid "Active Element"
-msgstr "活动元素"
 
 
 msgid "Paragraph"
@@ -51840,10 +51787,6 @@ msgstr "动作捕捉工具"
 
 msgid "Backdrop"
 msgstr "背景图"
-
-
-msgid "Object Constraints"
-msgstr "物体约束"
 
 
 msgid "Delta Transform"
@@ -52046,14 +51989,6 @@ msgid "Level of Detail"
 msgstr "细节级"
 
 
-msgid "Active Keying Set"
-msgstr "激活的插帧集"
-
-
-msgid "Keying Sets"
-msgstr "插帧集"
-
-
 msgid "Rigid Body Cache"
 msgstr "刚体缓存"
 
@@ -52104,10 +52039,6 @@ msgstr "插件"
 
 msgid "Themes"
 msgstr "主题"
-
-
-msgid "Background Images"
-msgstr "背景图"
 
 
 msgid "Skeleton Sketching"
@@ -53586,10 +53517,6 @@ msgid "Type of primitive used for hair rendering"
 msgstr "用于毛发渲染的简单几何体类型"
 
 
-msgid "Triangles"
-msgstr "三角形"
-
-
 msgid "Create triangle geometry around strands"
 msgstr "在发股周围创建三角几何体"
 
@@ -53682,6 +53609,30 @@ msgid "Use multiple importance sampling for the lamp, reduces noise for area lam
 msgstr "为灯光使用多重重要性采样, 用于减少由面光和高光材质所产生的噪点"
 
 
+msgid "Displacement Method"
+msgstr "置换方法"
+
+
+msgid "Method to use for the displacement"
+msgstr "置换方式"
+
+
+msgid "Bump mapping to simulate the appearance of displacement"
+msgstr "用于模拟置换效果的凹凸映射"
+
+
+msgid "True"
+msgstr "准确型"
+
+
+msgid "Use true displacement only, requires fine subdivision"
+msgstr "仅适用准确型置换, 需要良好的细分"
+
+
+msgid "Combination of displacement and bump mapping"
+msgstr "置换与凹凸映射相结合"
+
+
 msgid "Homogeneous Volume"
 msgstr "均质体积"
 
@@ -53712,34 +53663,6 @@ msgstr "等角"
 
 msgid "Multiple Importance"
 msgstr "多重重要性采样"
-
-
-msgid "Dicing Rate"
-msgstr "分块率"
-
-
-msgid "Displacement Method"
-msgstr "置换方法"
-
-
-msgid "Method to use for the displacement"
-msgstr "置换方式"
-
-
-msgid "Bump mapping to simulate the appearance of displacement"
-msgstr "用于模拟置换效果的凹凸映射"
-
-
-msgid "True"
-msgstr "准确型"
-
-
-msgid "Use true displacement only, requires fine subdivision"
-msgstr "仅适用准确型置换, 需要良好的细分"
-
-
-msgid "Combination of displacement and bump mapping"
-msgstr "置换与凹凸映射相结合"
 
 
 msgid "Motion Steps"
@@ -53864,6 +53787,10 @@ msgstr "GPU 计算"
 
 msgid "Use GPU compute device for rendering, configured in user preferences"
 msgstr "使用 GPU 计算设备进行渲染, 在用户设置面板中进行配置"
+
+
+msgid "Dicing Rate"
+msgstr "分块率"
 
 
 msgid "Diffuse Bounces"
@@ -61249,10 +61176,6 @@ msgid "Same Types"
 msgstr "相同类型"
 
 
-msgid "Sequence"
-msgstr "序列"
-
-
 msgid "Blender File"
 msgstr "Blender 文件"
 
@@ -63885,10 +63808,6 @@ msgid "Matte Node"
 msgstr "遮片节点"
 
 
-msgid "Active Node"
-msgstr "激活的节点"
-
-
 msgid "Node Backdrop"
 msgstr "节点背景图像"
 
@@ -64355,10 +64274,6 @@ msgstr "U 向 NURBS 线"
 
 msgid "NURBS V-lines"
 msgstr "V 向 NURBS 线"
-
-
-msgid "Active Object"
-msgstr "活动物体"
 
 
 msgid "Object Grouped"
@@ -69000,10 +68915,6 @@ msgid "Material Index Offset:"
 msgstr "材质索引偏移"
 
 
-msgid "Subdivisions:"
-msgstr "细分:"
-
-
 msgid "Image:"
 msgstr "图像:"
 
@@ -69160,6 +69071,10 @@ msgstr "不使用洋面修改器进行构建"
 
 msgid "Cull Faces:"
 msgstr "剔除面:"
+
+
+msgid "Subdivisions:"
+msgstr "细分:"
 
 
 msgid "Vertex Group Mask:"
@@ -69490,6 +69405,11 @@ msgid "Edit:"
 msgstr "编辑"
 
 
+msgctxt "Operator"
+msgid "Flip Direction"
+msgstr "反转方向"
+
+
 msgid "Active Layer:      "
 msgstr "激活层"
 
@@ -69597,6 +69517,11 @@ msgstr "设置"
 msgctxt "Operator"
 msgid "Select Inverse"
 msgstr "反选"
+
+
+msgctxt "Operator"
+msgid "Delete..."
+msgstr "删除..."
 
 
 msgid "Transform:"
@@ -70048,6 +69973,10 @@ msgid "Presets:"
 msgstr "预设:"
 
 
+msgid "Speed:"
+msgstr "速度:"
+
+
 msgid "Structural"
 msgstr "结构"
 
@@ -70227,11 +70156,6 @@ msgstr "置换类型"
 
 msgid "Color Layer"
 msgstr "颜色层"
-
-
-msgctxt "Operator"
-msgid "Remove Brush"
-msgstr "移除笔刷"
 
 
 msgid "Wave Clamp"
@@ -72206,18 +72130,6 @@ msgid "View Navigation:"
 msgstr "视图浏览:"
 
 
-msgid "NDOF Device:"
-msgstr "NDOF 控制器:"
-
-
-msgid "NDOF Sensitivity"
-msgstr "NDOF 敏感度"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "NDOF 环绕敏感度"
-
-
 msgid "Supported Level"
 msgstr "支持级别"
 
@@ -72340,6 +72252,18 @@ msgstr "反转鼠标缩放方向"
 
 msgid "Natural Trackpad Direction"
 msgstr "触控板的固有方向"
+
+
+msgid "NDOF Device:"
+msgstr "NDOF 控制器:"
+
+
+msgid "NDOF Sensitivity"
+msgstr "NDOF 敏感度"
+
+
+msgid "NDOF Orbit Sensitivity"
+msgstr "NDOF 环绕敏感度"
 
 
 msgctxt "Operator"
@@ -73690,11 +73614,6 @@ msgstr "顶点:"
 msgctxt "Operator"
 msgid "Recalculate"
 msgstr "重计算"
-
-
-msgctxt "Operator"
-msgid "Flip Direction"
-msgstr "反转方向"
 
 
 msgid "UV Mapping:"
@@ -75713,6 +75632,10 @@ msgid "%d items"
 msgstr "%d 项"
 
 
+msgid "No filename given"
+msgstr "未指定文件名"
+
+
 msgid "Export Data Options:"
 msgstr "导出数据选项:"
 
@@ -75735,10 +75658,6 @@ msgstr "转换类型"
 
 msgid "Import Data Options:"
 msgstr "导出数据选项:"
-
-
-msgid "No filename given"
-msgstr "未指定文件名"
 
 
 msgid "Can't create export file"
@@ -77666,10 +77585,6 @@ msgid "Now"
 msgstr "当前时间点"
 
 
-msgid "Active Track"
-msgstr "活动的轨"
-
-
 msgid "Evaluation"
 msgstr "解算"
 
@@ -77746,10 +77661,6 @@ msgid "Bokeh Type:"
 msgstr "散景类型:"
 
 
-msgid "Speed:"
-msgstr "速度:"
-
-
 msgid "Inner Edge:"
 msgstr "内侧边:"
 
@@ -77800,6 +77711,10 @@ msgstr "中间调"
 
 msgid "Undefined Socket Type"
 msgstr "未定义的接口类型"
+
+
+msgid "NodeTree"
+msgstr "节点树"
 
 
 msgid "Could not add an image node"

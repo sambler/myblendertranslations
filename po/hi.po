@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 1) (b'eeedcf3')\n"
+"Project-Id-Version: Blender 2.78 (sub 0) (b'0e5089c')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-19 15:42:03\n"
+"POT-Creation-Date: 2016-09-06 22:12:25\n"
 "PO-Revision-Date: 2015-03-03 16:21+0530\n"
 "Last-Translator: Roshan Lal Gumasta <roshan@anisecrets.com>\n"
 "Language-Team: Hindi <www.anisecrets.com>\n"
@@ -772,6 +772,10 @@ msgid "The name of a json file storing those settings (unfortunately, Blender's 
 msgstr "एक json उन सेटिंग्स भंडारण संचिका का नाम (दुर्भाग्य से, ब्लेंडर की व्यवस्था यहां काम नहीं करता है)"
 
 
+msgid "Path"
+msgstr "पथ"
+
+
 msgid "Animation Data"
 msgstr "अनुप्राणन सामग्री"
 
@@ -966,6 +970,10 @@ msgstr "नीचे"
 
 msgid "Top"
 msgstr "शीर्ष"
+
+
+msgid "Background Images"
+msgstr "पृष्ठभूमि छवियाँ"
 
 
 msgid "Image Format"
@@ -1250,6 +1258,10 @@ msgstr "विरूपण"
 
 msgid "Local Location"
 msgstr "स्थानीय स्थिति"
+
+
+msgid "Bone Groups"
+msgstr "अस्थि समूह"
 
 
 msgid "Pivot"
@@ -1555,6 +1567,14 @@ msgstr "प्रसंकेतक"
 
 msgid "Surface"
 msgstr "सतह"
+
+
+msgid "Method"
+msgstr "विधि"
+
+
+msgid "Split"
+msgstr "विभक्त करें"
 
 
 msgid "Plane"
@@ -2025,10 +2045,6 @@ msgid "2D"
 msgstr "द्वि-आयाम"
 
 
-msgid "Path"
-msgstr "पथ"
-
-
 msgid "Save"
 msgstr "सहेजें"
 
@@ -2183,6 +2199,10 @@ msgstr "संवेदक"
 
 msgid "Attenuation"
 msgstr "क्षीणन"
+
+
+msgid "Angle"
+msgstr "कोण"
 
 
 msgid "Grease Pencil Frame"
@@ -2499,6 +2519,14 @@ msgstr "निरपेक्ष घबराना"
 
 msgid "Jittering happens in screen space, not relative to brush size"
 msgstr "नहीं तूलिका आकार के सापेक्ष चित्रपट रिक्त स्थान में jittering होता है"
+
+
+msgid "Sequence"
+msgstr "अनुक्रम"
+
+
+msgid "Up"
+msgstr "ऊपर"
 
 
 msgid "Cycles Camera Settings"
@@ -3217,10 +3245,6 @@ msgstr "वैश्विक z"
 
 msgid "Age"
 msgstr "आयु"
-
-
-msgid "Angle"
-msgstr "कोण"
 
 
 msgid "Clump"
@@ -4013,10 +4037,6 @@ msgid "Quick Effects"
 msgstr "त्वरित प्रभाव"
 
 
-msgid "Bone Groups"
-msgstr "अस्थि समूह"
-
-
 msgid "Sculpt"
 msgstr "शिल्प"
 
@@ -4168,10 +4188,6 @@ msgstr "बाध्य"
 
 msgid "None "
 msgstr "कोई नहीं "
-
-
-msgid "Up"
-msgstr "ऊपर"
 
 
 msgid "Flip"
@@ -4910,10 +4926,6 @@ msgid "Next"
 msgstr "अगला"
 
 
-msgid "Method"
-msgstr "विधि"
-
-
 msgid "Case"
 msgstr "प्रकरण"
 
@@ -4943,6 +4955,11 @@ msgstr "तिर्यगक्षर"
 
 
 msgctxt "Operator"
+msgid "Remove Brush"
+msgstr "तूलिका हटाएँ"
+
+
+msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "तैलीय पेंसिल में परिवर्तित"
 
@@ -4952,9 +4969,8 @@ msgid "Grease Pencil Add New"
 msgstr "तैलीय पेंसिल नया जोड़ें"
 
 
-msgctxt "Operator"
-msgid "Delete..."
-msgstr "मिटाएँ..."
+msgid "Merge"
+msgstr "विलय करें"
 
 
 msgid "Highest frequency"
@@ -4984,10 +5000,6 @@ msgstr "कुण्डली"
 
 msgid "Modifier"
 msgstr "संशोधक"
-
-
-msgid "Split"
-msgstr "विभक्त करें"
 
 
 msgid "Report"
@@ -5078,10 +5090,6 @@ msgstr "कटाव"
 
 msgid "Smoothness factor"
 msgstr "चिकनाई कारक"
-
-
-msgid "Merge"
-msgstr "विलय करें"
 
 
 msgid "Delete Unused"
@@ -6128,10 +6136,6 @@ msgid "Find"
 msgstr "खोजें"
 
 
-msgid "Background Images"
-msgstr "पृष्ठभूमि छवियाँ"
-
-
 msgid "Curve Tools"
 msgstr "वक्र यंत्र"
 
@@ -6784,10 +6788,6 @@ msgstr "वर्तमान दृश्य"
 
 msgid "Same Types"
 msgstr "इसी प्रकार"
-
-
-msgid "Sequence"
-msgstr "अनुक्रम"
 
 
 msgid "Blender File"
@@ -7783,6 +7783,11 @@ msgstr "चित्रण:"
 
 
 msgctxt "Operator"
+msgid "Flip Direction"
+msgstr "दिशा पलटें"
+
+
+msgctxt "Operator"
 msgid "Show All"
 msgstr "सभी दिखाएँ"
 
@@ -7820,6 +7825,11 @@ msgstr "प्रसंकेतक के लिए चयन"
 msgctxt "Operator"
 msgid "Select Inverse"
 msgstr "व्युत्क्रम चयन करें"
+
+
+msgctxt "Operator"
+msgid "Delete..."
+msgstr "मिटाएँ..."
 
 
 msgid "Transform:"
@@ -7997,6 +8007,10 @@ msgid "Presets:"
 msgstr "पूर्वनिश्चित:"
 
 
+msgid "Speed:"
+msgstr "गति:"
+
+
 msgid "Structural"
 msgstr "संरचनात्मक"
 
@@ -8091,11 +8105,6 @@ msgstr "नमी"
 
 msgid "Displace Type"
 msgstr "विस्थापन प्रकार"
-
-
-msgctxt "Operator"
-msgid "Remove Brush"
-msgstr "तूलिका हटाएँ"
 
 
 msgid "Shape:"
@@ -9075,11 +9084,6 @@ msgstr "समतल"
 msgctxt "Operator"
 msgid "Recalculate"
 msgstr "फिर से परिकलित करें"
-
-
-msgctxt "Operator"
-msgid "Flip Direction"
-msgstr "दिशा पलटें"
 
 
 msgid "UV Mapping:"
@@ -10100,10 +10104,6 @@ msgstr "कुंजी:"
 
 msgid "Playback Settings:"
 msgstr "प्लेबैक सेटिंग्स:"
-
-
-msgid "Speed:"
-msgstr "गति:"
 
 
 msgid "Layer:"

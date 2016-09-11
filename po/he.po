@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 1) (b'eeedcf3')\n"
+"Project-Id-Version: Blender 2.78 (sub 0) (b'0e5089c')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-19 15:42:03\n"
+"POT-Creation-Date: 2016-09-06 22:12:25\n"
 "PO-Revision-Date: 2012-10-07 13:56+0300\n"
 "Last-Translator: Barak Itkin <lightningismyname@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,6 +57,10 @@ msgstr "בוביס"
 
 msgid "Mean"
 msgstr "עצוממ"
+
+
+msgid "Path"
+msgstr "ביתנ"
 
 
 msgid "Width"
@@ -183,10 +187,6 @@ msgid "Apply Density"
 msgstr "תופיפצ"
 
 
-msgid "Path"
-msgstr "ביתנ"
-
-
 msgid "Environment"
 msgstr "הביבס"
 
@@ -237,6 +237,10 @@ msgstr "לקשמ תעיבצ"
 
 msgid "Off"
 msgstr "יובכ"
+
+
+msgid "Up"
+msgstr "הלעמ"
 
 
 msgid "Straight"
@@ -321,10 +325,6 @@ msgstr "הארמ"
 
 msgid "Apply"
 msgstr "לחה"
-
-
-msgid "Up"
-msgstr "הלעמ"
 
 
 msgid "Triangulate Modifier"

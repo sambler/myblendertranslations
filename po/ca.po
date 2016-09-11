@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 1) (b'eeedcf3')\n"
+"Project-Id-Version: Blender 2.78 (sub 0) (b'0e5089c')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-19 15:42:03\n"
+"POT-Creation-Date: 2016-09-06 22:12:25\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Santiago Lizardo <santiago.lizardo@gmail.com>\n"
 "Language-Team: Blender Català (http://www.blender.cat)\n"
@@ -1100,6 +1100,10 @@ msgid "Persistent Data Path"
 msgstr "Seleccionar fila"
 
 
+msgid "Path"
+msgstr "Camí"
+
+
 msgid "Animation Data"
 msgstr "Finestra de Render"
 
@@ -1298,6 +1302,10 @@ msgstr "Seleccionar connectats"
 
 msgid "Y Position"
 msgstr "Esborrar Posició"
+
+
+msgid "Active Bone"
+msgstr "Moure a Capa"
 
 
 msgid "Background Image"
@@ -1789,6 +1797,10 @@ msgstr "Esborrar Rotació"
 
 
 msgid "Bone Group"
+msgstr "Afegir Tira"
+
+
+msgid "Bone Groups"
 msgstr "Afegir Tira"
 
 
@@ -3385,12 +3397,20 @@ msgid "Tolerance"
 msgstr "Afegir"
 
 
+msgid "Split"
+msgstr "Partir"
+
+
 msgid "Plane"
 msgstr "Pla"
 
 
 msgid "View"
 msgstr "Vista"
+
+
+msgid "Active Spline"
+msgstr "Moure a Capa"
 
 
 msgid "Safe Areas"
@@ -3557,11 +3577,11 @@ msgid "Lattice"
 msgstr "Lattice"
 
 
-msgid "MetaBall"
+msgid "Metaball"
 msgstr "MetaBall"
 
 
-msgid "NodeTree"
+msgid "Node Tree"
 msgstr "Image Displist"
 
 
@@ -4589,10 +4609,6 @@ msgid "File Select Parameters"
 msgstr "Seleccionar fila"
 
 
-msgid "Path"
-msgstr "Camí"
-
-
 msgid "Save"
 msgstr "Guardar"
 
@@ -5025,6 +5041,18 @@ msgid "Frame Locked"
 msgstr "Joc"
 
 
+msgid "Parent Bone"
+msgstr "Seleccionar fila"
+
+
+msgid "Parent Type"
+msgstr "Seleccionar fila"
+
+
+msgid "Type of parent relation"
+msgstr "Image Displist"
+
+
 msgid "Show Points"
 msgstr "Esborrar Str"
 
@@ -5091,6 +5119,10 @@ msgstr "Zoom d'Imatge"
 
 msgid "Stroke Points"
 msgstr "Seleccionar connectats"
+
+
+msgid "Triangles"
+msgstr "Duplicar"
 
 
 msgid "Grease Pencil Stroke Point"
@@ -5431,6 +5463,14 @@ msgstr "Eines"
 
 msgid "Welding"
 msgstr "Duplicar"
+
+
+msgid "Active Brush"
+msgstr "Moure a Capa"
+
+
+msgid "Active Layer"
+msgstr "Moure a Capa"
 
 
 msgid "Red"
@@ -5869,6 +5909,10 @@ msgid "Vertex weight when brush is applied"
 msgstr "Pintura Vectorial"
 
 
+msgid "Path to external displacements file"
+msgstr "Mostrar fotogrames per segon i perfil"
+
+
 msgid "Camera lens field of view"
 msgstr "Desparentar"
 
@@ -6263,10 +6307,6 @@ msgstr "Canviar Str"
 
 msgid "Index of active texture slot"
 msgstr "Seleccionar connectats"
-
-
-msgid "Node Tree"
-msgstr "Image Displist"
 
 
 msgid "Relative"
@@ -6915,10 +6955,6 @@ msgstr "Joc"
 
 msgid "Pass Index"
 msgstr "Render"
-
-
-msgid "Index number for the IndexMA render pass"
-msgstr "Seleccionar fila"
 
 
 msgid "Physics"
@@ -7921,18 +7957,6 @@ msgid "Motion Path for this element"
 msgstr "Esborrar Rotació"
 
 
-msgid "Parent Bone"
-msgstr "Seleccionar fila"
-
-
-msgid "Parent Type"
-msgstr "Seleccionar fila"
-
-
-msgid "Type of parent relation"
-msgstr "Image Displist"
-
-
 msgid "The object is parented to an object"
 msgstr "Seleccionar connectats"
 
@@ -7951,10 +7975,6 @@ msgstr "Duplicar"
 
 msgid "Parent Vertices"
 msgstr "Corba"
-
-
-msgid "Index number for the IndexOB render pass"
-msgstr "Seleccionar fila"
 
 
 msgid "Current pose for armatures"
@@ -8699,10 +8719,6 @@ msgstr "Centre"
 
 msgid "Active Movie Clip"
 msgstr "Seleccionar fila"
-
-
-msgid "Active Layer"
-msgstr "Moure a Capa"
 
 
 msgid "Active scene layer index"
@@ -9862,6 +9878,14 @@ msgid "Keying Set Name"
 msgstr "Moure a Capa"
 
 
+msgid "Active Keying Set"
+msgstr "Canviar Str"
+
+
+msgid "Keying Sets"
+msgstr "Moure a Capa"
+
+
 msgid "Lamp Sky Settings"
 msgstr "Eines"
 
@@ -9988,6 +10012,10 @@ msgstr "Duplicar"
 
 msgid "Collection of splines which defines this layer"
 msgstr "Seleccionar connectats"
+
+
+msgid "Mask Layers"
+msgstr "Moure a Capa"
 
 
 msgid "Mask Parent"
@@ -10319,12 +10347,12 @@ msgid "Select Grouped"
 msgstr "Seleccionar fila"
 
 
-msgid "Track Color Specials"
-msgstr "Guardar com"
-
-
 msgid "Color Presets"
 msgstr "Render"
+
+
+msgid "Track Color Specials"
+msgstr "Guardar com"
 
 
 msgid "Show/Hide"
@@ -10377,10 +10405,6 @@ msgstr "Mostrar"
 
 msgid "Weld/Align"
 msgstr "Duplicar"
-
-
-msgid "Metaball"
-msgstr "MetaBall"
 
 
 msgid "Material Specials"
@@ -10508,10 +10532,6 @@ msgstr "Guardar com"
 
 
 msgid "Quick Effects"
-msgstr "Afegir Tira"
-
-
-msgid "Bone Groups"
 msgstr "Afegir Tira"
 
 
@@ -10685,6 +10705,10 @@ msgstr "Seleccionar fila"
 
 msgid "Mesh Vertex"
 msgstr "Pintura Vectorial"
+
+
+msgid "Active Element"
+msgstr "Moure a Capa"
 
 
 msgid "Meta Element"
@@ -11245,10 +11269,6 @@ msgstr "Esborrar Rotació"
 
 msgid "Evaluation Frame"
 msgstr "Seleccionar connectats"
-
-
-msgid "Path to external displacements file"
-msgstr "Mostrar fotogrames per segon i perfil"
 
 
 msgid "Frame Scale"
@@ -12323,6 +12343,10 @@ msgid "Unique name of object"
 msgstr "Duplicar"
 
 
+msgid "Active Object"
+msgstr "Moure a Capa"
+
+
 msgid "Collection of markers in track"
 msgstr "Seleccionar connectats"
 
@@ -12455,7 +12479,7 @@ msgid "Active Track Index"
 msgstr "Canviar Str"
 
 
-msgid "Method to use to filter stabilization"
+msgid "Interpolate"
 msgstr "Esborrar Rotació"
 
 
@@ -12477,14 +12501,6 @@ msgstr "Seleccionar fila"
 
 msgid "Scale Influence"
 msgstr "Mostrar propietats de les arestes"
-
-
-msgid "Rotation Track"
-msgstr "Esborrar Rotació"
-
-
-msgid "Track used to compensate rotation"
-msgstr "Pintura Vectorial"
 
 
 msgid "Maximal Scale"
@@ -13427,6 +13443,10 @@ msgid "Stabilize 2D"
 msgstr "Seleccionar fila"
 
 
+msgid "Method to use to filter stabilization"
+msgstr "Esborrar Rotació"
+
+
 msgid "Ray Length"
 msgstr "Seleccionar fila"
 
@@ -13891,6 +13911,10 @@ msgid "Boolean Node Socket"
 msgstr "Seleccionar fila"
 
 
+msgid "Active Node"
+msgstr "Moure a Capa"
+
+
 msgid "Object Base"
 msgstr "Comprimir Dades"
 
@@ -13909,6 +13933,10 @@ msgstr "Duplicar"
 
 msgid "Object base selection state"
 msgstr "Amagar Seleccionats"
+
+
+msgid "Object Constraints"
+msgstr "Afegir Tira"
 
 
 msgid "Ocean Texture settings"
@@ -14151,10 +14179,6 @@ msgstr "Seleccionar connectats"
 msgctxt "Operator"
 msgid "Properties"
 msgstr "Image Displist"
-
-
-msgid "Toggle display properties panel"
-msgstr "Amagar Seleccionats"
 
 
 msgctxt "Operator"
@@ -14594,10 +14618,6 @@ msgstr "Duplicar"
 
 msgid "Shortest Rotation"
 msgstr "Esborrar Rotació"
-
-
-msgid "Active Bone"
-msgstr "Moure a Capa"
 
 
 msgid "View Axis"
@@ -15291,10 +15311,6 @@ msgid "Paste Tracks"
 msgstr "Crear Pista"
 
 
-msgid "Toggle clip properties panel"
-msgstr "Amagar Seleccionats"
-
-
 msgctxt "Operator"
 msgid "Rebuild Proxy and Timecode Indices"
 msgstr "Reduir"
@@ -15499,18 +15515,9 @@ msgid "Remove Stabilization Track"
 msgstr "Afegir Tira"
 
 
-msgid "Remove selected track from stabilization"
-msgstr "Seleccionar connectats"
-
-
 msgctxt "Operator"
 msgid "Select Stabilization Tracks"
 msgstr "Seleccionar connectats"
-
-
-msgctxt "Operator"
-msgid "Set Rotation Track"
-msgstr "Esborrar Rotació"
 
 
 msgctxt "Operator"
@@ -16883,6 +16890,11 @@ msgstr "Finestra de Render"
 
 
 msgctxt "Operator"
+msgid "Remove Brush"
+msgstr "Seleccionar fila"
+
+
+msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "Començar Joc"
 
@@ -16962,11 +16974,6 @@ msgstr "Començar Joc"
 
 
 msgctxt "Operator"
-msgid "Delete..."
-msgstr "Esborrar"
-
-
-msgctxt "Operator"
 msgid "Grease Pencil Draw"
 msgstr "Començar Joc"
 
@@ -17004,6 +17011,10 @@ msgid "Add New Layer"
 msgstr "Render"
 
 
+msgid "Merge"
+msgstr "Unir"
+
+
 msgid "Remove from selection"
 msgstr "Seleccionar fila"
 
@@ -17022,6 +17033,11 @@ msgstr "Seleccionar amb límit"
 
 msgid "Shared layers"
 msgstr "Moure a Capa"
+
+
+msgctxt "Operator"
+msgid "Hide Selection"
+msgstr "Amagar Seleccionats"
 
 
 msgctxt "Operator"
@@ -17427,10 +17443,6 @@ msgstr "Seleccionar fila"
 
 msgid "Clamp Size"
 msgstr "Desparentar"
-
-
-msgid "Split"
-msgstr "Partir"
 
 
 msgid "Poly Groups"
@@ -18045,10 +18057,6 @@ msgid "Smoothness factor"
 msgstr "Reduir"
 
 
-msgid "Merge"
-msgstr "Unir"
-
-
 msgid "Merge rather than creating faces"
 msgstr "Seleccionar connectats"
 
@@ -18392,11 +18400,6 @@ msgstr "Calcular Normals"
 
 
 msgctxt "Operator"
-msgid "Hide Selection"
-msgstr "Amagar Seleccionats"
-
-
-msgctxt "Operator"
 msgid "Inset Faces"
 msgstr "Superfície"
 
@@ -18407,10 +18410,6 @@ msgstr "Amagar Seleccionats"
 
 msgid "Inset face boundaries"
 msgstr "Superfície"
-
-
-msgid "Interpolate"
-msgstr "Esborrar Rotació"
 
 
 msgid "Outset"
@@ -22817,10 +22816,6 @@ msgid "Paste"
 msgstr "Esborrar tot"
 
 
-msgid "Open sequencer properties panel"
-msgstr "Amagar Seleccionats"
-
-
 msgctxt "Operator"
 msgid "Reassign Inputs"
 msgstr "Texte"
@@ -23346,10 +23341,6 @@ msgstr "Esborrar Rotació"
 msgctxt "Operator"
 msgid "Toggle Overwrite"
 msgstr "Render"
-
-
-msgid "Toggle text properties panel"
-msgstr "Amagar Seleccionats"
 
 
 msgctxt "Operator"
@@ -24211,10 +24202,6 @@ msgstr "Reduir"
 msgctxt "Operator"
 msgid "Zoom Out"
 msgstr "Reduir"
-
-
-msgid "Add a new background image"
-msgstr "Afegir una nova imatge de fons"
 
 
 msgctxt "Operator"
@@ -25092,10 +25079,6 @@ msgid "Add a new world"
 msgstr "Afegir un nou món"
 
 
-msgid "Active Brush"
-msgstr "Moure a Capa"
-
-
 msgid "Input Samples"
 msgstr "Esborrar"
 
@@ -25216,10 +25199,6 @@ msgid "Active Point"
 msgstr "Moure a Capa"
 
 
-msgid "Active Spline"
-msgstr "Moure a Capa"
-
-
 msgid "Footage Settings"
 msgstr "Eines"
 
@@ -25234,10 +25213,6 @@ msgstr "Eines"
 
 msgid "Mask Display"
 msgstr "Mostrar propietats de les arestes"
-
-
-msgid "Mask Layers"
-msgstr "Moure a Capa"
 
 
 msgid "2D Stabilization"
@@ -25302,10 +25277,6 @@ msgstr "Texte"
 
 msgid "Geometry Data"
 msgstr "Mostrar propietats de les arestes"
-
-
-msgid "Active Element"
-msgstr "Moure a Capa"
 
 
 msgid "Path Animation"
@@ -25386,10 +25357,6 @@ msgstr "Moure a Capa"
 
 msgid "Mocap tools"
 msgstr "Eines"
-
-
-msgid "Object Constraints"
-msgstr "Afegir Tira"
 
 
 msgid "Delta Transform"
@@ -25542,14 +25509,6 @@ msgstr "Duplicar"
 
 msgid "Color Management"
 msgstr "Desparentar"
-
-
-msgid "Active Keying Set"
-msgstr "Canviar Str"
-
-
-msgid "Keying Sets"
-msgstr "Moure a Capa"
 
 
 msgid "Rigid Body Field Weights"
@@ -26400,10 +26359,6 @@ msgid "Type of primitive used for hair rendering"
 msgstr "Finestra de Render"
 
 
-msgid "Triangles"
-msgstr "Duplicar"
-
-
 msgid "Line Segments"
 msgstr "Crea Segment"
 
@@ -26448,14 +26403,6 @@ msgid "Number of light samples to render for each AA sample"
 msgstr "Seleccionar connectats"
 
 
-msgid "Transparent Shadows"
-msgstr "Esborrar Rotació"
-
-
-msgid "Dicing Rate"
-msgstr "Rotar"
-
-
 msgid "Displacement Method"
 msgstr "Mostrar propietats de les arestes"
 
@@ -26466,6 +26413,10 @@ msgstr "Esborrar Rotació"
 
 msgid "True"
 msgstr "Veritable"
+
+
+msgid "Transparent Shadows"
+msgstr "Esborrar Rotació"
 
 
 msgid "AA Samples"
@@ -26530,6 +26481,10 @@ msgstr "Guardar com"
 
 msgid "GPU Compute"
 msgstr "Seleccionar fila"
+
+
+msgid "Dicing Rate"
+msgstr "Rotar"
 
 
 msgid "Diffuse Bounces"
@@ -30656,10 +30611,6 @@ msgid "Group Node"
 msgstr "Seleccionar fila"
 
 
-msgid "Active Node"
-msgstr "Moure a Capa"
-
-
 msgid "Node Backdrop"
 msgstr "Seleccionar amb límit"
 
@@ -31026,10 +30977,6 @@ msgstr "Cilindre"
 
 msgid "NURBS V-lines"
 msgstr "Cilindre"
-
-
-msgid "Active Object"
-msgstr "Moure a Capa"
 
 
 msgid "Object Grouped"
@@ -32859,6 +32806,11 @@ msgstr "Seleccionar fila"
 
 
 msgctxt "Operator"
+msgid "Flip Direction"
+msgstr "Seleccionar connectats"
+
+
+msgctxt "Operator"
 msgid "Selection to Grid"
 msgstr "Seleccionar connectats"
 
@@ -32911,6 +32863,11 @@ msgstr "Seleccionar connectats"
 msgctxt "Operator"
 msgid "Select Inverse"
 msgstr "Seleccionar fila"
+
+
+msgctxt "Operator"
+msgid "Delete..."
+msgstr "Esborrar"
 
 
 msgid "Spline:"
@@ -33124,6 +33081,10 @@ msgid "Velocity Scale:"
 msgstr "Desparentar"
 
 
+msgid "Speed:"
+msgstr "Seleccionar fila"
+
+
 msgid "Repel"
 msgstr "Obrir l'últim"
 
@@ -33221,11 +33182,6 @@ msgstr "Arxiu"
 
 
 msgid "Displace Type"
-msgstr "Seleccionar fila"
-
-
-msgctxt "Operator"
-msgid "Remove Brush"
 msgstr "Seleccionar fila"
 
 
@@ -34341,18 +34297,6 @@ msgid "Zoom Style:"
 msgstr "Reduir"
 
 
-msgid "NDOF Device:"
-msgstr "Mostrar propietats de les arestes"
-
-
-msgid "NDOF Sensitivity"
-msgstr "Seleccionar connectats"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "Seleccionar connectats"
-
-
 msgid "Tool:"
 msgstr "Eines"
 
@@ -34387,6 +34331,18 @@ msgstr "Mostrar propietats de les arestes"
 
 msgid "Orbit options"
 msgstr "Esborrar Rotació"
+
+
+msgid "NDOF Device:"
+msgstr "Mostrar propietats de les arestes"
+
+
+msgid "NDOF Sensitivity"
+msgstr "Seleccionar connectats"
+
+
+msgid "NDOF Orbit Sensitivity"
+msgstr "Seleccionar connectats"
 
 
 msgid "Panel Title:"
@@ -35182,11 +35138,6 @@ msgid "Recalculate"
 msgstr "Duplicar"
 
 
-msgctxt "Operator"
-msgid "Flip Direction"
-msgstr "Seleccionar connectats"
-
-
 msgid "UV Mapping:"
 msgstr "Image Displist"
 
@@ -35969,6 +35920,10 @@ msgid "%d items"
 msgstr "%d elements"
 
 
+msgid "No filename given"
+msgstr "Arxiu"
+
+
 msgid "Export Data Options:"
 msgstr "Esborrar Rotació"
 
@@ -35987,10 +35942,6 @@ msgstr "Esborrar Rotació"
 
 msgid "Import Data Options:"
 msgstr "Esborrar Rotació"
-
-
-msgid "No filename given"
-msgstr "Arxiu"
 
 
 msgid "Not a valid selection for extrude"
@@ -36597,10 +36548,6 @@ msgid "Bokeh Type:"
 msgstr "Arxiu"
 
 
-msgid "Speed:"
-msgstr "Seleccionar fila"
-
-
 msgid "Inner Edge:"
 msgstr "Mode d'Edició"
 
@@ -36643,6 +36590,10 @@ msgstr "Partir"
 
 msgid "Midtones"
 msgstr "Seleccionar fila"
+
+
+msgid "NodeTree"
+msgstr "Image Displist"
 
 
 msgid "Cannot ungroup"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 1) (b'eeedcf3')\n"
+"Project-Id-Version: Blender 2.78 (sub 0) (b'0e5089c')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-19 15:42:03\n"
+"POT-Creation-Date: 2016-09-06 22:12:25\n"
 "PO-Revision-Date: 2012-10-31 17:00-0800\n"
 "Last-Translator: Amin Babaeipanah <translate@leomoon.com>\n"
 "Language-Team: LeoMoon Studios <blender@leomoon.com>\n"
@@ -1124,6 +1124,10 @@ msgstr "ﯽﯾﺎﺠﺑﺎﺟ ﺪﺣﺍﻭ"
 
 msgid "Persistent Data Path"
 msgstr "ﻊﺒﻨﻣ"
+
+
+msgid "Path"
+msgstr "ﺮﯿﺴﻣ"
 
 
 msgid "Animation Data"
@@ -2939,14 +2943,6 @@ msgid "Lattice"
 msgstr "ﻪﮑﺒﺷ"
 
 
-msgid "MetaBall"
-msgstr "MetaBall"
-
-
-msgid "NodeTree"
-msgstr "ﻩﺮﮔ ﺖﺧﺭﺩ"
-
-
 msgid "Paint Curve"
 msgstr "ﮓﻧﺭ ﯽﻨﺤﻨﻣ"
 
@@ -3407,10 +3403,6 @@ msgid "Select domain object of the smoke simulation"
 msgstr "ﺖﮐﺮﺣ ﻢﺴﺠﺗ ﯼﺍﺮﺑ ﺕﺎﻤﯿﻈﻨﺗ"
 
 
-msgid "Path"
-msgstr "ﺮﯿﺴﻣ"
-
-
 msgid "Save"
 msgstr "ﻩﺮﯿﺧﺫ"
 
@@ -3551,6 +3543,18 @@ msgid "Attenuation"
 msgstr "ﺖﻬﺟ"
 
 
+msgid "Parent Bone"
+msgstr "ﺪﻟﺍﻭ ﻥﺍﻮﺨﺘﺳﺍ"
+
+
+msgid "Parent Type"
+msgstr "ﺪﻟﺍﻭ ﻉﻮﻧ"
+
+
+msgid "Type of parent relation"
+msgstr "ﺖﯾﺩﻭﺪﺤﻣ ﻉﻮﻧ"
+
+
 msgid "Draw Mode"
 msgstr "ﯽﺷﺎﻘﻧ ﺖﻟﺎﺣ"
 
@@ -3565,6 +3569,10 @@ msgstr "ﺎﻀﻓ"
 
 msgid "2D Image"
 msgstr "ﺮﯾﻮﺼﺗ ﻥﺩﺮﮐ‌ﻪﻓﺎﺿﺍ"
+
+
+msgid "Triangles"
+msgstr "ﺎﻫ‌ﮎﺮﺗ ﻦﺘﺳﻮﯿﭘ"
 
 
 msgid "Collision Shape"
@@ -4847,18 +4855,6 @@ msgid "Motion Path"
 msgstr "ﺖﮐﺮﺣ ﺮﯿﺴﻣ"
 
 
-msgid "Parent Bone"
-msgstr "ﺪﻟﺍﻭ ﻥﺍﻮﺨﺘﺳﺍ"
-
-
-msgid "Parent Type"
-msgstr "ﺪﻟﺍﻭ ﻉﻮﻧ"
-
-
-msgid "Type of parent relation"
-msgstr "ﺖﯾﺩﻭﺪﺤﻣ ﻉﻮﻧ"
-
-
 msgid "3 Vertices"
 msgstr "ﺱﻮﺋﺭ ﻂﻘﻓ"
 
@@ -5831,6 +5827,14 @@ msgid "Whole Character"
 msgstr "ﻢﯾﺮﻓ ﻥﺎﯾﺎﭘ"
 
 
+msgid "Active Keying Set"
+msgstr "ﻝﺎﻌﻓ ﯼﺎﻫ‌ﺪﯿﻠﮐ ﻪﻋﻮﻤﺠﻣ"
+
+
+msgid "Keying Sets"
+msgstr "ﺪﯿﻠﮐ ﯼﺎﻫ‌ﻪﻋﻮﻤﺠﻣ"
+
+
 msgid "Point selected"
 msgstr "ﻩﺪﺸﻧ ﺏﺎﺨﺘﻧﺍ ﺰﯿﭼ ﭻﯿﻫ"
 
@@ -5861,6 +5865,10 @@ msgstr "falloff ﻪﻠﺻﺎﻓ"
 
 msgid "Invert the mask black/white"
 msgstr "ﺩﻮﺷ ﻥﻭﺭﺍﻭ x ﺭﻮﺤﻣ"
+
+
+msgid "Mask Layers"
+msgstr "ﺎﻫ‌ﻪﯾﻻ﻿"
 
 
 msgid "Mask Parent"
@@ -6984,10 +6992,6 @@ msgid "Scale Influence"
 msgstr "ﺭﺍﺩﺮﮐ ﺮﯿﺛﺎﺗ"
 
 
-msgid "Rotation Track"
-msgstr "ﯽﻟﺎﻣ ﮏﻤﮐ"
-
-
 msgid "Maximal Scale"
 msgstr "ﻦﯿﺑﺭﻭﺩ ﺰﻨﻟ ﻩﺯﺍﺪﻧﺍ"
 
@@ -7920,8 +7924,16 @@ msgid "Linked"
 msgstr "ﻂﺒﺗﺮﻣ"
 
 
+msgid "Active Node"
+msgstr "ﻝﺎﻌﻓ"
+
+
 msgid "3D local view layers the object base is on"
 msgstr "ﺩﺭﺍﺩ ﺩﻮﺟﻭ ﻥﺁ ﺭﺩ ءﯽﺷ ﻪﮐ ﯽﯾﺎﻫ ﻪﯾﻻ﻿"
+
+
+msgid "Object Constraints"
+msgstr "ءﺎﯿﺷﺍ ﯼﺎﻫ‌ﺖﯾﺩﻭﺪﺤﻣ"
 
 
 msgid "Modifier Object"
@@ -8778,11 +8790,6 @@ msgstr "ﻦﺸﯿﻤﯿﻧﺍ ﯼﺎﻫ‌ﮏﻫ"
 
 
 msgctxt "Operator"
-msgid "Set Rotation Track"
-msgstr "ﯽﻟﺎﻣ ﮏﻤﮐ"
-
-
-msgctxt "Operator"
 msgid "Tools"
 msgstr "ﺭﺍﺰﺑﺍ"
 
@@ -9511,6 +9518,11 @@ msgstr "ﮎﺮﺗ ﻑﺬﺣ"
 
 
 msgctxt "Operator"
+msgid "Remove Brush"
+msgstr "ﻮﻣ ﻢﻠﻗ ﻑﺬﺣ"
+
+
+msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "ﯽﻨﻏﻭﺭ ﺩﺍﺪﻣ ﺶﯾﺎﻤﻧ"
 
@@ -9566,11 +9578,6 @@ msgstr "ﯽﻨﻏﻭﺭ ﺩﺍﺪﻣ"
 
 
 msgctxt "Operator"
-msgid "Delete..."
-msgstr "ﻑﺬﺣ..."
-
-
-msgctxt "Operator"
 msgid "Grease Pencil Draw"
 msgstr "ﯽﻨﻏﻭﺭ ﺩﺍﺪﻣ ﯽﮔﺪﻨﮐﺍﺮﭘ"
 
@@ -9606,6 +9613,11 @@ msgstr "ﻝﺎﻌﻓ ﻉﻮﻧ ﭻﯾﻮﺳ"
 
 msgid "Toggle the selection"
 msgstr "ﻝﺎﻌﻓ ﻉﻮﻧ ﭻﯾﻮﺳ"
+
+
+msgctxt "Operator"
+msgid "Hide Selection"
+msgstr "ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ ﻪﺑ ﻞﻔﻗ"
 
 
 msgctxt "Operator"
@@ -10482,11 +10494,6 @@ msgstr "ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ ءﺎﯿﺷﺍ ﺮﯿﺜﮑﺗ"
 msgctxt "Operator"
 msgid "Flip Normals"
 msgstr "ﺭﺎﮐﺩﻮﺧ ﯼﺯﺎﺳ ﯼﺩﺎﻋ"
-
-
-msgctxt "Operator"
-msgid "Hide Selection"
-msgstr "ﻩﺪﺷ ﺏﺎﺨﺘﻧﺍ ﻪﺑ ﻞﻔﻗ"
 
 
 msgid "Inset face boundaries"
@@ -14496,10 +14503,6 @@ msgid "Mask Display"
 msgstr "ﯽﯾﺎﺠﺑﺎﺟ ﻪﻨﯿﺸﯿﺑ"
 
 
-msgid "Mask Layers"
-msgstr "ﺎﻫ‌ﻪﯾﻻ﻿"
-
-
 msgid "Mask Tools"
 msgstr "ﺎﺘﻣ ﯼﺎﻫﺭﺍﺰﺑﺍ"
 
@@ -14580,10 +14583,6 @@ msgid "Mocap tools"
 msgstr "Mocap ﯼﺎﻫﺭﺍﺰﺑﺍ"
 
 
-msgid "Object Constraints"
-msgstr "ءﺎﯿﺷﺍ ﯼﺎﻫ‌ﺖﯾﺩﻭﺪﺤﻣ"
-
-
 msgid "Duplication"
 msgstr "ﺭﺍﺮﮑﺗ"
 
@@ -14642,14 +14641,6 @@ msgstr "ﯽﺗﻮﺻ"
 
 msgid "Color Management"
 msgstr "ﮓﻧﺭ ﺖﯾﺮﯾﺪﻣ"
-
-
-msgid "Active Keying Set"
-msgstr "ﻝﺎﻌﻓ ﯼﺎﻫ‌ﺪﯿﻠﮐ ﻪﻋﻮﻤﺠﻣ"
-
-
-msgid "Keying Sets"
-msgstr "ﺪﯿﻠﮐ ﯼﺎﻫ‌ﻪﻋﻮﻤﺠﻣ"
 
 
 msgid "Strip Input"
@@ -14758,10 +14749,6 @@ msgstr "ﺱﻭﺎﻣ ﻥﺎﮑﻣ"
 
 msgid "Ideal for fulldomes, ignore the sensor dimensions"
 msgstr "X ﻞﺤﻣ ﻥﺩﺮﮐ ﻥﻭﺭﺍﻭ"
-
-
-msgid "Triangles"
-msgstr "ﺎﻫ‌ﮎﺮﺗ ﻦﺘﺳﻮﯿﭘ"
 
 
 msgid "Line Segments"
@@ -15964,10 +15951,6 @@ msgid "Frame Node"
 msgstr "ﻢﯾﺮﻓ ﯽﮔﮋﯾﻭ"
 
 
-msgid "Active Node"
-msgstr "ﻝﺎﻌﻓ"
-
-
 msgid "Node Selected"
 msgstr "ﻪﺒﻟ ﺏﺎﺨﺘﻧﺍ ﺖﻟﺎﺣ:"
 
@@ -16605,6 +16588,11 @@ msgstr "ﺩﺍﺯﺁ:"
 
 
 msgctxt "Operator"
+msgid "Flip Direction"
+msgstr "ﺖﻬﺟ ﯼﺯﺎﺳ ﻪﻨﯾﺮﻗ"
+
+
+msgctxt "Operator"
 msgid "Selection to Grid"
 msgstr "ﻪﮑﺒﺷ ﻪﺑ ﺏﺎﺨﺘﻧﺍ"
 
@@ -16662,6 +16650,11 @@ msgstr "ﺎﻤﻧ ﻥﺎﮑﻣ ﺏﺎﺨﺘﻧﺍ"
 msgctxt "Operator"
 msgid "Select Inverse"
 msgstr "ﺎﺑ ﺏﺎﺨﺘﻧﺍ:"
+
+
+msgctxt "Operator"
+msgid "Delete..."
+msgstr "ﻑﺬﺣ..."
 
 
 msgid "Transform:"
@@ -16781,6 +16774,10 @@ msgid "Split UVs:"
 msgstr "ﺎﻫUV ﻥﺩﺮﮐ ﺍﺪﺟ:"
 
 
+msgid "Speed:"
+msgstr "ﺖﻋﺮﺳ"
+
+
 msgid "Air"
 msgstr "ﺍﻮﻫ"
 
@@ -16827,11 +16824,6 @@ msgstr "ﺎﻫ‌ﻢﯾﺮﻓ:"
 
 msgid "Displace Type"
 msgstr "ﯽﯾﺎﺠﺑﺎﺟ ﻉﻮﻧ"
-
-
-msgctxt "Operator"
-msgid "Remove Brush"
-msgstr "ﻮﻣ ﻢﻠﻗ ﻑﺬﺣ"
 
 
 msgid "Domain Object:"
@@ -17682,18 +17674,6 @@ msgid "Zoom Style:"
 msgstr "ﻡﻭﺯ ﻩﻮﯿﺷ:"
 
 
-msgid "NDOF Device:"
-msgstr "NDOF ﻩﺎﮕﺘﺳﺩ:"
-
-
-msgid "NDOF Sensitivity"
-msgstr "NDOF ﺖﯿﺳﺎﺴﺣ"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "NDOF ﺖﯿﺳﺎﺴﺣ"
-
-
 msgid "Supported Level"
 msgstr "ﯽﻧﺎﺒﯿﺘﺸﭘ ﺢﻄﺳ"
 
@@ -17772,6 +17752,18 @@ msgstr "ﺎﻫ ﮓﻧﺭ:"
 
 msgid "Orbit options"
 msgstr "ﺭﺍﺪﻣ ﯼﺎﻫ‌ﻪﻨﯾﺰﮔ"
+
+
+msgid "NDOF Device:"
+msgstr "NDOF ﻩﺎﮕﺘﺳﺩ:"
+
+
+msgid "NDOF Sensitivity"
+msgstr "NDOF ﺖﯿﺳﺎﺴﺣ"
+
+
+msgid "NDOF Orbit Sensitivity"
+msgstr "NDOF ﺖﯿﺳﺎﺴﺣ"
 
 
 msgctxt "Operator"
@@ -18585,11 +18577,6 @@ msgstr "ﺖﺨﺗ"
 msgctxt "Operator"
 msgid "Recalculate"
 msgstr "ﻥﺩﺮﮐ‌ﺏﺎﺴﺣ ﻩﺭﺎﺑﻭﺩ"
-
-
-msgctxt "Operator"
-msgid "Flip Direction"
-msgstr "ﺖﻬﺟ ﯼﺯﺎﺳ ﻪﻨﯾﺮﻗ"
 
 
 msgid "UV Mapping:"
@@ -20153,10 +20140,6 @@ msgid "Bokeh Type:"
 msgstr "ﺮﯿﺴﻣ ﻉﻮﻧ"
 
 
-msgid "Speed:"
-msgstr "ﺖﻋﺮﺳ"
-
-
 msgid "Inner Edge:"
 msgstr "ﯽﻠﺒﻗ ﺖﻟﺎﺣ"
 
@@ -20199,6 +20182,10 @@ msgstr "ﺖﺳﺍﺭ ﺖﻔﯿﺷ ﺪﯿﻠﮐ"
 
 msgid "Midtones"
 msgstr "ﯼﺮﺑﺯ ﻥﺎﯾﺎﭘ"
+
+
+msgid "NodeTree"
+msgstr "ﻩﺮﮔ ﺖﺧﺭﺩ"
 
 
 msgid "Cannot ungroup"

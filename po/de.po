@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.77 (sub 1) (b'eeedcf3')\n"
+"Project-Id-Version: Blender 2.78 (sub 0) (b'0e5089c')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-19 15:42:03\n"
+"POT-Creation-Date: 2016-09-06 22:12:25\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Reininger <martinreininger@gmx.net>\n"
 "Language-Team: German translation team\n"
@@ -1676,6 +1676,10 @@ msgid "Persistent Data Path"
 msgstr "Elternteil setzen"
 
 
+msgid "Path"
+msgstr "Pfad"
+
+
 msgid "Animation Data"
 msgstr "Animationsdaten"
 
@@ -2024,6 +2028,10 @@ msgid "The window relative horizontal location of the area"
 msgstr "Die relative horizontale Fensterposition des Bereiches"
 
 
+msgid "Active Bone"
+msgstr "Aktiver Knochen"
+
+
 msgid "Background Image"
 msgstr "Hintergrundbild"
 
@@ -2202,6 +2210,10 @@ msgstr "Hintergrundbild in allen Ansichten zeigen"
 
 msgid "Show background image in camera view"
 msgstr "Hintergrundbild in Kameraansicht zeigen"
+
+
+msgid "Background Images"
+msgstr "Hintergrundbilder"
 
 
 msgid "Bake Pixel"
@@ -3258,6 +3270,10 @@ msgstr "Knochengruppe"
 
 msgid "Groups of Pose Channels (Bones)"
 msgstr "Gruppen von Posenkanälen (Knochen)"
+
+
+msgid "Bone Groups"
+msgstr "Knochengruppen"
 
 
 msgid "Has Overlay"
@@ -5433,12 +5449,24 @@ msgid "Tolerance"
 msgstr "Toleranz"
 
 
+msgid "Method"
+msgstr "Methode"
+
+
+msgid "Split"
+msgstr "Teilen"
+
+
 msgid "Plane"
 msgstr "Fläche"
 
 
 msgid "View"
 msgstr "Ansicht"
+
+
+msgid "Active Spline"
+msgstr "Aktiver Spline"
 
 
 msgid "Safe Areas"
@@ -5769,11 +5797,11 @@ msgid "Mask"
 msgstr "Maske"
 
 
-msgid "MetaBall"
+msgid "Metaball"
 msgstr "Metaball"
 
 
-msgid "NodeTree"
+msgid "Node Tree"
 msgstr "Knotenbaum"
 
 
@@ -7241,10 +7269,6 @@ msgid "File Select Parameters"
 msgstr "Dateiauswahl-Paramenter"
 
 
-msgid "Path"
-msgstr "Pfad"
-
-
 msgid "Save"
 msgstr "Speichern"
 
@@ -8065,6 +8089,22 @@ msgid "Samples"
 msgstr "Abtastwerte"
 
 
+msgid "Angle"
+msgstr "Winkel"
+
+
+msgid "Jitter"
+msgstr "Flimmern"
+
+
+msgid "Thickness"
+msgstr "Dicke"
+
+
+msgid "Thickness of strokes (in pixels)"
+msgstr "Strichstärke (in Pixel)"
+
+
 msgid "Grease Pencil Frame"
 msgstr "Wachsstift-Rahmen"
 
@@ -8089,10 +8129,6 @@ msgid "Active Frame"
 msgstr "Aktives Einzelbild"
 
 
-msgid "Layer Opacity"
-msgstr "Ebenendeckkraft"
-
-
 msgid "Set layer Visibility"
 msgstr "Ebensichtbarkeit festlegen"
 
@@ -8101,20 +8137,28 @@ msgid "Layer name"
 msgstr "Ebenenname"
 
 
-msgid "Thickness"
-msgstr "Dicke"
-
-
-msgid "Thickness of strokes (in pixels)"
-msgstr "Strichstärke (in Pixel)"
-
-
 msgid "Locked"
 msgstr "Gesperrt"
 
 
 msgid "Frame Locked"
 msgstr "Rahmen sperren"
+
+
+msgid "Layer Opacity"
+msgstr "Ebenendeckkraft"
+
+
+msgid "Parent Bone"
+msgstr "Elternknochen"
+
+
+msgid "Parent Type"
+msgstr "Elterntyp"
+
+
+msgid "Type of parent relation"
+msgstr "Typ der Eltern-Beziehung"
 
 
 msgid "Show Points"
@@ -8219,6 +8263,10 @@ msgstr "Strickpunkte"
 
 msgid "Stroke data points"
 msgstr "Strich-Datenpunkte"
+
+
+msgid "Triangles"
+msgstr "Triangulieren"
 
 
 msgid "Grease Pencil Stroke Point"
@@ -8597,6 +8645,14 @@ msgid "Welding"
 msgstr "Verschweißen"
 
 
+msgid "Active Brush"
+msgstr "Aktiver Pinsel"
+
+
+msgid "Active Layer"
+msgstr "Aktive Ebene"
+
+
 msgid "Channels to display when drawing the histogram"
 msgstr "Im Histogramm anzuzeigende Kanäle"
 
@@ -8933,10 +8989,6 @@ msgid "Fill"
 msgstr "Füllen"
 
 
-msgid "Jitter"
-msgstr "Flimmern"
-
-
 msgid "Jitter the position of the brush while painting"
 msgstr "Flimmern der Pinselposition während des Malens"
 
@@ -9251,6 +9303,14 @@ msgstr "Weicher Strich"
 
 msgid "Blur the color with surrounding values"
 msgstr "Farbe mit umliegenden Werten weichzeichnen"
+
+
+msgid "Sequence"
+msgstr "Sequenz"
+
+
+msgid "Up"
+msgstr "Hoch"
 
 
 msgid "Field of View"
@@ -9839,10 +9899,6 @@ msgstr "Minimale Krümmung der 2D Länge für die Auswahl von Ketten"
 
 msgid "If true, chains of feature edges are split at material boundaries"
 msgstr "Wenn aktiv, Ketten von besonderen Kanten trennen sich an Materialgrenzen"
-
-
-msgid "Node Tree"
-msgstr "Knotenbaum"
 
 
 msgid "Panel"
@@ -10933,10 +10989,6 @@ msgstr "Flächen einen künstlichen Versatz im Z-Puffer für die Z-Durchsichtigk
 
 msgid "Pass Index"
 msgstr "Durchgangsindex"
-
-
-msgid "Index number for the IndexMA render pass"
-msgstr "Indexnummer für den IndexMA-Renderdurchgang"
 
 
 msgid "Physics"
@@ -12103,18 +12155,6 @@ msgid "Motion Path for this element"
 msgstr "Bewegungspfad für dieses Element"
 
 
-msgid "Parent Bone"
-msgstr "Elternknochen"
-
-
-msgid "Parent Type"
-msgstr "Elterntyp"
-
-
-msgid "Type of parent relation"
-msgstr "Typ der Eltern-Beziehung"
-
-
 msgid "The object is parented to an object"
 msgstr "Objekt ist einem anderen Objekt übergeordnet"
 
@@ -12129,10 +12169,6 @@ msgstr "Partikel"
 
 msgid "Particle systems emitted from the object"
 msgstr "Vom Objekt emittierte Partikelsysteme"
-
-
-msgid "Index number for the IndexOB render pass"
-msgstr "Indexnummer für den IndexOB-Renderdurchgang"
 
 
 msgid "Pose"
@@ -12393,10 +12429,6 @@ msgstr "Animieren"
 
 msgid "Age"
 msgstr "Alter"
-
-
-msgid "Angle"
-msgstr "Winkel"
 
 
 msgid "Billboard Object"
@@ -12949,10 +12981,6 @@ msgstr "Aktiver Filmclip"
 
 msgid "Active movie clip used for constraints and viewport drawing"
 msgstr "Aktiver Filmclip, der für Beschränkungen und Ansichtsfenster-Darstellung verwendet wird"
-
-
-msgid "Active Layer"
-msgstr "Aktive Ebene"
 
 
 msgid "Active scene layer index"
@@ -14556,6 +14584,10 @@ msgid "ID-Block"
 msgstr "ID-Block"
 
 
+msgid "Active Keying Set"
+msgstr "Aktiver Schlüsselbildsatz"
+
+
 msgid "Atmosphere Turbidity"
 msgstr "Atmospherische Trübung"
 
@@ -14824,6 +14856,10 @@ msgstr "S/W Maske invertieren"
 
 msgid "Unique name of layer"
 msgstr "Eindeutiger Ebenenname"
+
+
+msgid "Mask Layers"
+msgstr "Masken-Ebenen"
 
 
 msgid "Mask Parent"
@@ -15235,10 +15271,6 @@ msgid "Help"
 msgstr "Hilfe"
 
 
-msgid "Metaball"
-msgstr "Metaball"
-
-
 msgid "Edit"
 msgstr "Bearbeiten"
 
@@ -15353,10 +15385,6 @@ msgstr "Anwenden"
 
 msgid "Quick Effects"
 msgstr "Schnelle Effekte"
-
-
-msgid "Bone Groups"
-msgstr "Knochengruppen"
 
 
 msgid "In-Betweens"
@@ -15537,6 +15565,10 @@ msgstr "Mesh-Vertex"
 
 msgid "Undeformed Location"
 msgstr "Unverformte Position"
+
+
+msgid "Active Element"
+msgstr "Aktives Element"
 
 
 msgid "Meta Element"
@@ -16209,10 +16241,6 @@ msgstr "Versatz der Wandstärke vom Zentrum aus"
 
 msgid "Custom"
 msgstr "Benutzerdefiniert"
-
-
-msgid "Up"
-msgstr "Hoch"
 
 
 msgid "MeshDeform Modifier"
@@ -17386,6 +17414,14 @@ msgid "Unique name of object"
 msgstr "Eindeutiger Objektname"
 
 
+msgid "Active Track"
+msgstr "Aktive Spur"
+
+
+msgid "Active Object"
+msgstr "Aktives Objekt"
+
+
 msgid "Image Opacity"
 msgstr "Bildtransparenz"
 
@@ -17642,10 +17678,6 @@ msgid "Active Track Index"
 msgstr "Aktiver Spurenindex"
 
 
-msgid "Method to use to filter stabilization"
-msgstr "Zu benutzende Methode zur Filterstabilisierung"
-
-
 msgid "Nearest"
 msgstr "Nächster"
 
@@ -17682,14 +17714,6 @@ msgid "Influence of stabilization algorithm on footage scale"
 msgstr "Einfluss des Stabilisierungsalgorythmus auf die Filmmaterialskalierung"
 
 
-msgid "Rotation Track"
-msgstr "Rotation:"
-
-
-msgid "Track used to compensate rotation"
-msgstr "Spur, die zur Rotationskompensierung verwendet wird"
-
-
 msgid "Maximal Scale"
 msgstr "Maximale Skalierung"
 
@@ -17716,10 +17740,6 @@ msgstr "Automatische Skalierung von Filmmaterial, um ungefüllte Bereiche beim S
 
 msgid "Stabilize Rotation"
 msgstr "Rotation stabilisieren"
-
-
-msgid "Stabilize horizon line on the shot"
-msgstr "Stabilisiert Horizontlinie in einer Aufnahme"
 
 
 msgid "Average error of re-projection"
@@ -18943,6 +18963,10 @@ msgid "Stabilize 2D"
 msgstr "2D stabilisieren"
 
 
+msgid "Method to use to filter stabilization"
+msgstr "Zu benutzende Methode zur Filterstabilisierung"
+
+
 msgid "Ray Length"
 msgstr "Strahlenlänge"
 
@@ -19631,12 +19655,20 @@ msgid "Node Tree Path"
 msgstr "Knotenbaumpfad"
 
 
+msgid "Active Node"
+msgstr "Aktiver Knoten"
+
+
 msgid "Object Base"
 msgstr "Objektbasis"
 
 
 msgid "3D local view layers the object base is on"
 msgstr "Ebenen, auf denen sich das Objekt befindet"
+
+
+msgid "Object Constraints"
+msgstr "Objektbeschränkungen"
 
 
 msgid "Ocean Texture settings"
@@ -19847,10 +19879,6 @@ msgstr "Vorschaubereich automatisch setzen"
 msgctxt "Operator"
 msgid "Properties"
 msgstr "Eigenschaften"
-
-
-msgid "Toggle display properties panel"
-msgstr "Eigenschaften-Panel-Anzeige ein/aus"
 
 
 msgctxt "Operator"
@@ -20322,10 +20350,6 @@ msgstr "Knochen hinzufügen"
 msgctxt "Operator"
 msgid "Recalculate Roll"
 msgstr "Rollwinkel neu berechnen"
-
-
-msgid "Active Bone"
-msgstr "Aktiver Knochen"
 
 
 msgctxt "Operator"
@@ -21034,10 +21058,6 @@ msgid "Prefetch frames from disk for faster playback/tracking"
 msgstr "Vorgeladene Einzelbilder von der Festplatte für schnelleres Abspielen/Verfolgen"
 
 
-msgid "Toggle clip properties panel"
-msgstr "Clipeigenschafts-Panel ein/aus"
-
-
 msgctxt "Operator"
 msgid "Rebuild Proxy and Timecode Indices"
 msgstr "Stellvertreter und Zeitcode-Indicies erneuern"
@@ -21246,31 +21266,14 @@ msgid "Add Stabilization Tracks"
 msgstr "Stabilisierungsverfolger hinzufügen"
 
 
-msgid "Add selected tracks to 2D stabilization tool"
-msgstr "Ausgewählte Verfolger zum 2D-Stabilisator hinzufügen"
-
-
 msgctxt "Operator"
 msgid "Remove Stabilization Track"
 msgstr "Stabilisierungsverfolger entfernen"
 
 
-msgid "Remove selected track from stabilization"
-msgstr "Ausgewählte Verfolger von der Stabilisierung entfernen"
-
-
 msgctxt "Operator"
 msgid "Select Stabilization Tracks"
 msgstr "Stabilisierungsverfolger auswählen"
-
-
-msgctxt "Operator"
-msgid "Set Rotation Track"
-msgstr "Rotationsverfolger setzen"
-
-
-msgid "Use active track to compensate rotation when doing 2D stabilization"
-msgstr "Aktive Spur zur Rotationskompensierung verwenden, wenn 2D Stabilisierung aktiv ist"
 
 
 msgctxt "Operator"
@@ -22504,10 +22507,6 @@ msgid "Smooth Scroll"
 msgstr "Weich scrollen"
 
 
-msgid "Method"
-msgstr "Methode"
-
-
 msgid "How to unpack"
 msgstr "Wie entpackt werden soll"
 
@@ -22711,6 +22710,11 @@ msgstr "Aktiven Rahmen löschen"
 
 
 msgctxt "Operator"
+msgid "Remove Brush"
+msgstr "Pinsel entfernen"
+
+
+msgctxt "Operator"
 msgid "Convert Grease Pencil"
 msgstr "Wachsstift umwandeln"
 
@@ -22786,11 +22790,6 @@ msgstr "Aktive Wachsstift-Datenblock-Verknüpfung aufheben"
 
 
 msgctxt "Operator"
-msgid "Delete..."
-msgstr "Löschen..."
-
-
-msgctxt "Operator"
 msgid "Grease Pencil Draw"
 msgstr "Mit Wachsstift zeichnen"
 
@@ -22848,6 +22847,10 @@ msgid "Add new Grease Pencil layer for the active Grease Pencil datablock"
 msgstr "Neue Wachsstift-Ebene für dan aktiven Wachsstift-Datenblock hinzufügen"
 
 
+msgid "Merge"
+msgstr "Zusammenführen"
+
+
 msgid "Remove from selection"
 msgstr "Von Auswahl entfernen"
 
@@ -22866,6 +22869,11 @@ msgstr "Auswählbar ein/aus"
 
 msgid "Shared layers"
 msgstr "Gemeinsame Ebenen"
+
+
+msgctxt "Operator"
+msgid "Hide Selection"
+msgstr "Auswahl verbergen"
 
 
 msgctxt "Operator"
@@ -23328,10 +23336,6 @@ msgstr "OBJ importieren"
 
 msgid "Clamp Size"
 msgstr "Schrittweite"
-
-
-msgid "Split"
-msgstr "Teilen"
 
 
 msgid "Keep vertex order from file"
@@ -23997,10 +24001,6 @@ msgid "Smoothness factor"
 msgstr "Glättungsfaktor"
 
 
-msgid "Merge"
-msgstr "Zusammenführen"
-
-
 msgctxt "Operator"
 msgid "Reverse Colors"
 msgstr "Farben umkehren"
@@ -24322,11 +24322,6 @@ msgstr "Seiten"
 msgctxt "Operator"
 msgid "Flip Normals"
 msgstr "Normalen umkehren"
-
-
-msgctxt "Operator"
-msgid "Hide Selection"
-msgstr "Auswahl verbergen"
 
 
 msgid "Inset new faces into selected faces"
@@ -25675,10 +25670,6 @@ msgstr "Knotenvorschau an-/ausschalten"
 
 msgid "Toggle preview display for selected nodes"
 msgstr "Vorschau des ausgewählten Knoten anzeigen/ausblenden"
-
-
-msgid "Toggles the properties panel display"
-msgstr "Eigenschafts-Panel-Anzeige ein/aus"
 
 
 msgctxt "Operator"
@@ -29550,10 +29541,6 @@ msgid "Toggle Overwrite"
 msgstr "Überschreiben"
 
 
-msgid "Toggle text properties panel"
-msgstr "Texteigenschafts-Panel ein/aus"
-
-
 msgctxt "Operator"
 msgid "Refresh PyConstraints"
 msgstr "Beschränkungen"
@@ -30377,10 +30364,6 @@ msgstr "Zoom Factor Y"
 msgctxt "Operator"
 msgid "Zoom Out"
 msgstr "Herauszoomen"
-
-
-msgid "Add a new background image"
-msgstr "Neues Hintergrundbild hinzufügen"
 
 
 msgctxt "Operator"
@@ -31451,10 +31434,6 @@ msgid "Add a new world"
 msgstr "Neue Welt hinzufügen"
 
 
-msgid "Active Brush"
-msgstr "Aktiver Pinsel"
-
-
 msgid "Input Samples"
 msgstr "Oszilloskop-Abtastung"
 
@@ -31623,10 +31602,6 @@ msgid "Active Point"
 msgstr "Aktive Punkte"
 
 
-msgid "Active Spline"
-msgstr "Aktiver Spline"
-
-
 msgid "Footage Settings"
 msgstr "Filmmaterial-Einstellungen"
 
@@ -31641,10 +31616,6 @@ msgstr "Maskeneinstellungen"
 
 msgid "Mask Display"
 msgstr "Marker anzeigen"
-
-
-msgid "Mask Layers"
-msgstr "Masken-Ebenen"
 
 
 msgid "2D Stabilization"
@@ -31709,10 +31680,6 @@ msgstr "Texturraum"
 
 msgid "Geometry Data"
 msgstr "Geometrieabstand"
-
-
-msgid "Active Element"
-msgstr "Aktives Element"
 
 
 msgid "Paragraph"
@@ -31809,10 +31776,6 @@ msgstr "Mocap Werkzeuge"
 
 msgid "Backdrop"
 msgstr "Kulisse"
-
-
-msgid "Object Constraints"
-msgstr "Objektbeschränkungen"
 
 
 msgid "Delta Transform"
@@ -31951,10 +31914,6 @@ msgid "Color Management"
 msgstr "Farbmanagement"
 
 
-msgid "Active Keying Set"
-msgstr "Aktiver Schlüsselbildsatz"
-
-
 msgid "Rigid Body Field Weights"
 msgstr "Weicher Körper Feld Gewichtung"
 
@@ -31981,10 +31940,6 @@ msgstr "Suchen"
 
 msgid "Themes"
 msgstr "Themen"
-
-
-msgid "Background Images"
-msgstr "Hintergrundbilder"
 
 
 msgid "Add Curves"
@@ -32599,10 +32554,6 @@ msgid "Type of primitive used for hair rendering"
 msgstr "Zum Rendern zu verwendende Engine"
 
 
-msgid "Triangles"
-msgstr "Triangulieren"
-
-
 msgid "Line Segments"
 msgstr "Nebensegmente"
 
@@ -32655,20 +32606,20 @@ msgid "Max Bounces"
 msgstr "Maximaler Aufprall"
 
 
-msgid "Transparent Shadows"
-msgstr "Transparente Schatten"
-
-
-msgid "Volume Sampling"
-msgstr "Volumenabtastung"
-
-
 msgid "Displacement Method"
 msgstr "Versatzmethode"
 
 
 msgid "True"
 msgstr "True"
+
+
+msgid "Transparent Shadows"
+msgstr "Transparente Schatten"
+
+
+msgid "Volume Sampling"
+msgstr "Volumenabtastung"
 
 
 msgid "AA Samples"
@@ -37224,10 +37175,6 @@ msgid "Same Types"
 msgstr "Selbe Typen"
 
 
-msgid "Sequence"
-msgstr "Sequenz"
-
-
 msgid "Blender File"
 msgstr "Blender-Dateibetrachter"
 
@@ -38628,10 +38575,6 @@ msgid "Matte Node"
 msgstr "Maskenknoten"
 
 
-msgid "Active Node"
-msgstr "Aktiver Knoten"
-
-
 msgid "Node Backdrop"
 msgstr "Knoten-Kulisse"
 
@@ -38982,10 +38925,6 @@ msgstr "NURBS-U-Linie"
 
 msgid "NURBS V-lines"
 msgstr "NURBS-V-Linie"
-
-
-msgid "Active Object"
-msgstr "Aktives Objekt"
 
 
 msgid "Object Grouped"
@@ -41789,10 +41728,6 @@ msgid "Material Index Offset:"
 msgstr "Materialindex-Versatz:"
 
 
-msgid "Subdivisions:"
-msgstr "Unterteilungen:"
-
-
 msgid "Image:"
 msgstr "Bild:"
 
@@ -41886,6 +41821,10 @@ msgstr "Neu zentrieren"
 
 msgid "Armature:"
 msgstr "Skelett:"
+
+
+msgid "Subdivisions:"
+msgstr "Unterteilungen:"
 
 
 msgid "Vertex Group Mask:"
@@ -42103,6 +42042,11 @@ msgstr "Zeichnen:"
 
 
 msgctxt "Operator"
+msgid "Flip Direction"
+msgstr "Richtung umdrehen"
+
+
+msgctxt "Operator"
 msgid "Selection to Grid"
 msgstr "Auswahl an Raster"
 
@@ -42165,6 +42109,11 @@ msgstr "Auswahl an Cursor (Versatz)"
 msgctxt "Operator"
 msgid "Select Inverse"
 msgstr "Auswahl umkehren"
+
+
+msgctxt "Operator"
+msgid "Delete..."
+msgstr "Löschen..."
 
 
 msgid "Transform:"
@@ -42450,6 +42399,10 @@ msgid "Presets:"
 msgstr "Vorlagen:"
 
 
+msgid "Speed:"
+msgstr "Geschwindigkeit"
+
+
 msgid "Structural"
 msgstr "Struktur"
 
@@ -42567,11 +42520,6 @@ msgstr "Feuchtigkeit"
 
 msgid "Displace Type"
 msgstr "Versatzart"
-
-
-msgctxt "Operator"
-msgid "Remove Brush"
-msgstr "Pinsel entfernen"
 
 
 msgid "Shape:"
@@ -44068,18 +44016,6 @@ msgid "View Navigation:"
 msgstr "Ansicht-Navigation:"
 
 
-msgid "NDOF Device:"
-msgstr "NDOF Gerät:"
-
-
-msgid "NDOF Sensitivity"
-msgstr "NDOF-Empfindlichkeit"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "NDOF-Orbit-Empfindlichkeit"
-
-
 msgid "Supported Level"
 msgstr "Unterstützte Stufen"
 
@@ -44170,6 +44106,18 @@ msgstr "Achsenfarben:"
 
 msgid "Orbit options"
 msgstr "Orbit-Optionen"
+
+
+msgid "NDOF Device:"
+msgstr "NDOF Gerät:"
+
+
+msgid "NDOF Sensitivity"
+msgstr "NDOF-Empfindlichkeit"
+
+
+msgid "NDOF Orbit Sensitivity"
+msgstr "NDOF-Orbit-Empfindlichkeit"
 
 
 msgctxt "Operator"
@@ -45233,11 +45181,6 @@ msgstr "Flach"
 msgctxt "Operator"
 msgid "Recalculate"
 msgstr "Neu berechnen"
-
-
-msgctxt "Operator"
-msgid "Flip Direction"
-msgstr "Richtung umdrehen"
 
 
 msgid "UV Mapping:"
@@ -46572,6 +46515,10 @@ msgid "%d items"
 msgstr "%d Gegenstände"
 
 
+msgid "No filename given"
+msgstr "Kein Dateiname vergeben"
+
+
 msgid "Export Data Options:"
 msgstr "Exportdaten Optionen:"
 
@@ -46594,10 +46541,6 @@ msgstr "Transformationstyp"
 
 msgid "Import Data Options:"
 msgstr "Importdaten Optionen:"
-
-
-msgid "No filename given"
-msgstr "Kein Dateiname vergeben"
 
 
 msgctxt "Mesh"
@@ -47459,10 +47402,6 @@ msgid "Sync Length"
 msgstr "Länge synchronisieren"
 
 
-msgid "Active Track"
-msgstr "Aktive Spur"
-
-
 msgid "No valid action to add"
 msgstr "Keine gültige Aktion zum Hinzufügen"
 
@@ -47485,10 +47424,6 @@ msgstr "Mittelpunkt:"
 
 msgid "Bokeh Type:"
 msgstr "Bokeh Typ:"
-
-
-msgid "Speed:"
-msgstr "Geschwindigkeit"
 
 
 msgid "Inner Edge:"
@@ -47533,6 +47468,10 @@ msgstr "Glanzpunkte"
 
 msgid "Midtones"
 msgstr "Mitteltöne"
+
+
+msgid "NodeTree"
+msgstr "Knotenbaum"
 
 
 msgid "Could not add an image node"
