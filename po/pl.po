@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 3) (b'2a2eb0c')\n"
+"Project-Id-Version: Blender 2.78 (sub 4) (b'0507b3e4c4')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 16:31:11\n"
+"POT-Creation-Date: 2017-01-11 19:09:51\n"
 "PO-Revision-Date: 2015-05-10 14:41+0100\n"
 "Last-Translator: Piotr Arlukowicz <piotao@polskikursblendera.pl>\n"
 "Language: pl\n"
@@ -3154,10 +3154,6 @@ msgstr "Automatycznie pakuj wszystkie zewnętrzne pliki do wnętrza pliku .blend
 
 msgid "Version"
 msgstr "Wersja"
-
-
-msgid "Version of the blender the .blend was saved with"
-msgstr "Wersja Blendera, która zapisała plik .blend "
 
 
 msgid "Window Managers"
@@ -13709,14 +13705,6 @@ msgid "Edge weight used by Bevel modifier"
 msgstr "Waga krawędzi użyta przez modyfikator Skos"
 
 
-msgid "Weight used by SubSurf modifier"
-msgstr "Waga użyta przez modyfikator SubSurf"
-
-
-msgid "Weight used for SoftBody Goal"
-msgstr "Waga użyta dla Celu SoftBody"
-
-
 msgid "Radius of curve control points"
 msgstr "Promień punktów kontrolnych krzywej"
 
@@ -14336,10 +14324,6 @@ msgstr "Obiekt ma niejednolitą skalę, odwijanie (unwrap) będzie używało nie
 
 msgid "Object has negative scale, unwrap will operate on a non-flipped version of the mesh"
 msgstr "Obiekt posiada ujemną skalę, odwijanie (unwrap) będzie używało nie odwróconej wersji siatki"
-
-
-msgid "Subsurf modifier needs to be first to work with unwrap"
-msgstr "Modyfikator subsurf musi być pierwszy by działał z odwijaniem (unwrap)"
 
 
 msgid "Cannot open file: %s"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 3) (b'2a2eb0c')\n"
+"Project-Id-Version: Blender 2.78 (sub 4) (b'0507b3e4c4')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 16:31:11\n"
+"POT-Creation-Date: 2017-01-11 19:09:51\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arvid Rudling <arvid.r@gmail.com>\n"
 "Language-Team: \n"
@@ -12098,6 +12098,10 @@ msgid "Bone Roll"
 msgstr "Massiv"
 
 
+msgid "Interpolate"
+msgstr "Interpolering:"
+
+
 msgid "Clean up"
 msgstr "Rensa"
 
@@ -14280,10 +14284,6 @@ msgstr "Rensa Rotation"
 
 msgid "Active Track Index"
 msgstr "Byta Stripp"
-
-
-msgid "Interpolate"
-msgstr "Interpolering:"
 
 
 msgid "Nearest"
@@ -32340,10 +32340,6 @@ msgid "Use Crop"
 msgstr "Använd dimma"
 
 
-msgid "De-Interlace"
-msgstr "Yta"
-
-
 msgid "Flip on the X axis"
 msgstr "Visa inställningar för kant"
 
@@ -34018,10 +34014,6 @@ msgstr "Rendera"
 
 msgid "Transform Orientation"
 msgstr "Rensa Rotation"
-
-
-msgid "Manipulate center points (object and pose mode only)"
-msgstr "Markera Länkad"
 
 
 msgid "Render Border"
@@ -36448,10 +36440,6 @@ msgid "Subdivision"
 msgstr "Uppdelning"
 
 
-msgid "Render:"
-msgstr "Rendera"
-
-
 msgid "Samples:"
 msgstr "Samplar"
 
@@ -37334,6 +37322,10 @@ msgstr "Spara extern data…"
 
 msgid "Built without OceanSim modifier"
 msgstr "byggd utan vätskor"
+
+
+msgid "Render:"
+msgstr "Rendera"
 
 
 msgid "Subdivisions:"
@@ -39814,14 +39806,6 @@ msgstr "Flytta Till Lager"
 
 msgid "NDOF Device:"
 msgstr "Fokusavstånd"
-
-
-msgid "NDOF Sensitivity"
-msgstr "Markera Länkad"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "Markera Länkad"
 
 
 msgctxt "Operator"
@@ -42465,14 +42449,6 @@ msgstr "Vektor Måla"
 
 msgid "Y radius used by Skin modifier"
 msgstr "Vektor Måla"
-
-
-msgid "Weight used by SubSurf modifier"
-msgstr "Vektor Måla"
-
-
-msgid "Weight used for SoftBody Goal"
-msgstr "Mjuk kropp och tyg:"
 
 
 msgid "Radius of curve control points"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 3) (b'2a2eb0c')\n"
+"Project-Id-Version: Blender 2.78 (sub 4) (b'0507b3e4c4')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 16:31:11\n"
+"POT-Creation-Date: 2017-01-11 19:09:51\n"
 "PO-Revision-Date: \n"
 "Last-Translator: congcong009 <congcong009@gmail.com>\n"
 "Language-Team: \n"
@@ -3149,10 +3149,6 @@ msgstr "自动将所有外部数据打包到 .blend 文件中"
 
 msgid "Version"
 msgstr "版本"
-
-
-msgid "Version of the blender the .blend was saved with"
-msgstr "该.blend文件保存于对应版本的Blender"
 
 
 msgid "Window Managers"
@@ -16246,10 +16242,6 @@ msgid "Draw Creases"
 msgstr "显示折痕"
 
 
-msgid "Display creases created for subsurf weighting"
-msgstr "显示为表面细分加权而创建的折痕"
-
-
 msgid "Draw Seams"
 msgstr "显示缝合线"
 
@@ -16260,10 +16252,6 @@ msgstr "显示 UV 展开缝合边"
 
 msgid "Draw Sharp"
 msgstr "显示锐边"
-
-
-msgid "Display sharp edges, used with the EdgeSplit modifier"
-msgstr "显示锐边, 使用锐边修改器"
 
 
 msgid "Draw Edges"
@@ -23588,6 +23576,10 @@ msgid "GPencil"
 msgstr "蜡笔"
 
 
+msgid "Interpolate"
+msgstr "插值"
+
+
 msgid "Clean up"
 msgstr "清理"
 
@@ -23728,10 +23720,6 @@ msgid "Weight used by the Bevel modifier"
 msgstr "应用于倒角修改器创建的权重"
 
 
-msgid "Weight used by the Subsurf modifier for creasing"
-msgstr "用于表面细分修改器的折痕权重"
-
-
 msgid "Index of this edge"
 msgstr "此条边线的索引"
 
@@ -23742,10 +23730,6 @@ msgstr "松散"
 
 msgid "Loose edge"
 msgstr "松散边"
-
-
-msgid "Sharp edge for the EdgeSplit modifier"
-msgstr "用于拆边修改器的锐边"
 
 
 msgid "Freestyle Edge Mark"
@@ -28013,10 +27997,6 @@ msgstr "运动追踪稳像数据"
 
 msgid "Active Track Index"
 msgstr "激活轨迹的索引"
-
-
-msgid "Interpolate"
-msgstr "插值"
 
 
 msgid "Nearest"
@@ -49127,10 +49107,6 @@ msgid "Use Subsurf Modifier"
 msgstr "使用表面细分修改器"
 
 
-msgid "Map UVs taking vertex position after subsurf into account"
-msgstr "映射UV, 参考细分后的顶点位置"
-
-
 msgctxt "Operator"
 msgid "Weld"
 msgstr "焊接"
@@ -53508,10 +53484,6 @@ msgstr "使用 CPU 进行渲染"
 
 msgid "GPU Compute"
 msgstr "GPU 计算"
-
-
-msgid "Use GPU compute device for rendering, configured in user preferences"
-msgstr "使用 GPU 计算设备进行渲染, 在用户设置面板中进行配置"
 
 
 msgid "Dicing Rate"
@@ -58416,14 +58388,6 @@ msgid "Crop image before processing"
 msgstr "在处理前裁切图像"
 
 
-msgid "De-Interlace"
-msgstr "反交错"
-
-
-msgid "For video movies to remove fields"
-msgstr "为摄像机移除场"
-
-
 msgid "Flip on the X axis"
 msgstr "沿 X 轴翻转"
 
@@ -61687,10 +61651,6 @@ msgstr "在活动物体的法线方向上映射并显示图像, 可增强实体�
 
 msgid "Limit selection to visible (clipped with depth buffer)"
 msgstr "仅选择可见的元素 (用视深缓冲进行视图裁剪)"
-
-
-msgid "Manipulate center points (object and pose mode only)"
-msgstr "控制中心点 (仅适用物体和姿态模式)"
 
 
 msgid "Render Border"
@@ -67307,10 +67267,6 @@ msgid "Failed to write .oso file next to external .osl file at "
 msgstr "在外部 .osl 文件路径中写入 .oso 文件失败"
 
 
-msgid "Compute Device:"
-msgstr "计算设备:"
-
-
 msgid "Total Samples:"
 msgstr "总采样:"
 
@@ -67441,10 +67397,6 @@ msgstr "厚度:"
 
 msgid "Subdivision"
 msgstr "细分"
-
-
-msgid "Render:"
-msgstr "渲染:"
 
 
 msgid "%s AA"
@@ -68736,6 +68688,10 @@ msgstr "不使用洋面修改器进行构建"
 
 msgid "Cull Faces:"
 msgstr "剔除面:"
+
+
+msgid "Render:"
+msgstr "渲染:"
 
 
 msgid "Subdivisions:"
@@ -71917,14 +71873,6 @@ msgstr "触控板的固有方向"
 
 msgid "NDOF Device:"
 msgstr "NDOF 控制器:"
-
-
-msgid "NDOF Sensitivity"
-msgstr "NDOF 敏感度"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "NDOF 环绕敏感度"
 
 
 msgctxt "Operator"
@@ -77776,14 +77724,6 @@ msgid "Y radius used by Skin modifier"
 msgstr "用于皮肤修改器的 Y 半径"
 
 
-msgid "Weight used by SubSurf modifier"
-msgstr "用于表面细分修改器的权重值"
-
-
-msgid "Weight used for SoftBody Goal"
-msgstr "用于软体的权重"
-
-
 msgid "Radius of curve control points"
 msgstr "曲线控制点半径"
 
@@ -78339,10 +78279,6 @@ msgstr "当同步开启时无法进行分离"
 
 msgid "Object has non-uniform scale, unwrap will operate on a non-scaled version of the mesh"
 msgstr "物体拥有没有应用的缩放值, 所以展开也会产生一些比例上的偏差"
-
-
-msgid "Subsurf modifier needs to be first to work with unwrap"
-msgstr "细分修改器使用前需要首先展开"
 
 
 msgid "Cannot open file: %s"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 3) (b'2a2eb0c')\n"
+"Project-Id-Version: Blender 2.78 (sub 4) (b'0507b3e4c4')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 16:31:11\n"
+"POT-Creation-Date: 2017-01-11 19:09:51\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Reininger <martinreininger@gmx.net>\n"
 "Language-Team: German translation team\n"
@@ -2586,10 +2586,6 @@ msgstr "Automaisches Verpacken verwenden"
 
 msgid "Automatically pack all external data into .blend file"
 msgstr "Automatisches Verpacken aller externen Daten in die .blend-Datei"
-
-
-msgid "Version of the blender the .blend was saved with"
-msgstr "Version der Blender-Datei, mit welcher die .blend gespeichert wurde"
 
 
 msgid "Window Managers"
@@ -32515,10 +32511,6 @@ msgid "GPU Compute"
 msgstr "Mit GPU berechnen"
 
 
-msgid "Use GPU compute device for rendering, configured in user preferences"
-msgstr "Verwendet die GPU zum Rendern, die in den Benutzereinstellungen konfiguriert wurde"
-
-
 msgid "Diffuse Bounces"
 msgstr "Zerstreuungsbegrenzung"
 
@@ -35568,10 +35560,6 @@ msgid "Use Crop"
 msgstr "Nebel benutzen"
 
 
-msgid "De-Interlace"
-msgstr "Oberfläche"
-
-
 msgid "Flip on the X axis"
 msgstr "Auf der X-Achse umdrehen"
 
@@ -37410,10 +37398,6 @@ msgstr "Jede Achse an der Euler'schen Rotationsachse, die als Eingabe benutzt wi
 
 msgid "Align the transformation axes to the window"
 msgstr "Transformationsachsen an das Fenster ausrichten"
-
-
-msgid "Manipulate center points (object and pose mode only)"
-msgstr "Mittelpunkt manipulieren (Nur Objekt- und Posenmodus"
 
 
 msgid "Render Border"
@@ -40731,10 +40715,6 @@ msgid "Animation Channels"
 msgstr "Animationskanäle"
 
 
-msgid "Compute Device:"
-msgstr "Berechnungsgerät:"
-
-
 msgid "Settings:"
 msgstr "Einstellungen:"
 
@@ -40845,10 +40825,6 @@ msgstr "Dicke:"
 
 msgid "Subdivision"
 msgstr "Unterteilung"
-
-
-msgid "Render:"
-msgstr "Rendern"
 
 
 msgid "Samples:"
@@ -41574,6 +41550,10 @@ msgstr "Neu zentrieren"
 
 msgid "Armature:"
 msgstr "Skelett:"
+
+
+msgid "Render:"
+msgstr "Rendern"
 
 
 msgid "Subdivisions:"
@@ -43859,14 +43839,6 @@ msgstr "Orbit-Optionen"
 
 msgid "NDOF Device:"
 msgstr "NDOF Gerät:"
-
-
-msgid "NDOF Sensitivity"
-msgstr "NDOF-Empfindlichkeit"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "NDOF-Orbit-Empfindlichkeit"
 
 
 msgctxt "Operator"
@@ -47467,10 +47439,6 @@ msgstr "X-Radius verwendet von Haut-Modifikator"
 
 msgid "Y radius used by Skin modifier"
 msgstr "Y-Radius verwendet von Haut-Modifikator"
-
-
-msgid "Weight used for SoftBody Goal"
-msgstr "Gewichtung verwendet für Weiche Körper Ziel"
 
 
 msgid "Radius of curve control points"

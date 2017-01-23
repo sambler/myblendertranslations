@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 3) (b'2a2eb0c')\n"
+"Project-Id-Version: Blender 2.78 (sub 4) (b'0507b3e4c4')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 16:31:11\n"
+"POT-Creation-Date: 2017-01-11 19:09:51\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Tabačan <tabycz@gmail.com>\n"
 "Language-Team: Taby <tabycz@gmail.com>\n"
@@ -9538,10 +9538,6 @@ msgid "Draw Sharp"
 msgstr "Zrušit šev"
 
 
-msgid "Display sharp edges, used with the EdgeSplit modifier"
-msgstr "Zobrazí ostré hrany používané 'EdgeSplit' modifikátorem"
-
-
 msgid "Draw Edges"
 msgstr "Zobrazit skryté hrany"
 
@@ -13604,6 +13600,10 @@ msgid "Bone Roll"
 msgstr "Kost"
 
 
+msgid "Interpolate"
+msgstr "Mód Interpolace"
+
+
 msgid "Clean up"
 msgstr "Vyčistit"
 
@@ -13738,10 +13738,6 @@ msgstr "Rozříznout"
 
 msgid "Loose edge"
 msgstr "Pózy kostí"
-
-
-msgid "Sharp edge for the EdgeSplit modifier"
-msgstr "Zobrazí ostré hrany používané 'EdgeSplit' modifikátorem"
 
 
 msgid "Seam"
@@ -15922,10 +15918,6 @@ msgstr "Povolit vypocet stinu"
 
 msgid "Active Track Index"
 msgstr "Další klíč"
-
-
-msgid "Interpolate"
-msgstr "Mód Interpolace"
 
 
 msgid "Nearest"
@@ -34726,10 +34718,6 @@ msgid "Use Crop"
 msgstr "Limity"
 
 
-msgid "De-Interlace"
-msgstr "Font rozhraní:  "
-
-
 msgid "Flip on the X axis"
 msgstr "Zvětšení podél osy"
 
@@ -36716,10 +36704,6 @@ msgstr "Přidat objekt(y) do aktivní vrstvy"
 
 msgid "Limit selection to visible (clipped with depth buffer)"
 msgstr "Omezit výběr na viditelné (ořezání hloubkou pohledu)"
-
-
-msgid "Manipulate center points (object and pose mode only)"
-msgstr "Pracuje pouze se středy objektů"
 
 
 msgid "Render Border"
@@ -39530,10 +39514,6 @@ msgid "Subdivision"
 msgstr "??"
 
 
-msgid "Render:"
-msgstr "Render"
-
-
 msgid "Samples:"
 msgstr "Změna velikosti"
 
@@ -40388,6 +40368,10 @@ msgstr "Uložit hru..."
 
 msgid "Cull Faces:"
 msgstr "Pouze plošky"
+
+
+msgid "Render:"
+msgstr "Render"
 
 
 msgid "Subdivisions:"
@@ -42641,14 +42625,6 @@ msgstr "Možnosti přízraku"
 
 msgid "NDOF Device:"
 msgstr "Zobrazit:"
-
-
-msgid "NDOF Sensitivity"
-msgstr "Citlivost"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "Citlivost"
 
 
 msgctxt "Operator"
@@ -45594,14 +45570,6 @@ msgstr "Zobrazí ostré hrany používané 'EdgeSplit' modifikátorem"
 
 msgid "Y radius used by Skin modifier"
 msgstr "Zobrazí ostré hrany používané 'EdgeSplit' modifikátorem"
-
-
-msgid "Weight used by SubSurf modifier"
-msgstr "Zobrazí ostré hrany používané 'EdgeSplit' modifikátorem"
-
-
-msgid "Weight used for SoftBody Goal"
-msgstr "Označit okraje"
 
 
 msgid "Radius of curve control points"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 3) (b'2a2eb0c')\n"
+"Project-Id-Version: Blender 2.78 (sub 4) (b'0507b3e4c4')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 16:31:11\n"
+"POT-Creation-Date: 2017-01-11 19:09:51\n"
 "PO-Revision-Date: 2016-06-26 13:26+0000\n"
 "Last-Translator: Lockal S <lockalsash@gmail.com>\n"
 "Language-Team: Russian <https://translateblender.ru/projects/blender/blender/ru/>\n"
@@ -3325,10 +3325,6 @@ msgstr "Автоматически упаковать все внешние да
 
 msgid "Version"
 msgstr "Версия"
-
-
-msgid "Version of the blender the .blend was saved with"
-msgstr "Версия Blender, в который сохранён .blend-файл"
 
 
 msgid "Window Managers"
@@ -17846,10 +17842,6 @@ msgid "Draw Creases"
 msgstr "Отображать складки"
 
 
-msgid "Display creases created for subsurf weighting"
-msgstr "Отображать складки, созданные для модификатора подразделения поверхности"
-
-
 msgid "Draw Seams"
 msgstr "Отобразить швы"
 
@@ -17860,10 +17852,6 @@ msgstr "Отобразить швы UV-развёртки"
 
 msgid "Draw Sharp"
 msgstr "Отображать острые грани"
-
-
-msgid "Display sharp edges, used with the EdgeSplit modifier"
-msgstr "Отобразить острые грани, используемые для модификатора выделения граней"
 
 
 msgid "Draw Edges"
@@ -26900,6 +26888,10 @@ msgid "GPencil"
 msgstr "ЭскизныйКарандаш"
 
 
+msgid "Interpolate"
+msgstr "Интерполировать"
+
+
 msgid "Clean up"
 msgstr "Очистка"
 
@@ -27048,10 +27040,6 @@ msgid "Weight used by the Bevel modifier"
 msgstr "Веса, используемые для модификатора скоса"
 
 
-msgid "Weight used by the Subsurf modifier for creasing"
-msgstr "Вес, используемый модификатором подразделения поверхности для создания складок"
-
-
 msgid "Index of this edge"
 msgstr "Индекс этого ребра"
 
@@ -27062,10 +27050,6 @@ msgstr "Свободное"
 
 msgid "Loose edge"
 msgstr "Свободное ребро"
-
-
-msgid "Sharp edge for the EdgeSplit modifier"
-msgstr "Острое ребро для модификатора выделения рёбер"
 
 
 msgid "Freestyle Edge Mark"
@@ -31937,10 +31921,6 @@ msgstr "Данные отслеживания для стабилизации в
 
 msgid "Active Track Index"
 msgstr "Индекс активного трека"
-
-
-msgid "Interpolate"
-msgstr "Интерполировать"
 
 
 msgid "Nearest"
@@ -54961,10 +54941,6 @@ msgid "Use Subsurf Modifier"
 msgstr "Учесть подразделение поверхности"
 
 
-msgid "Map UVs taking vertex position after subsurf into account"
-msgstr "Развёртывать UV с учётом положений вершин после применения подразделения поверхности"
-
-
 msgctxt "Operator"
 msgid "Weld"
 msgstr "Спаять"
@@ -59936,10 +59912,6 @@ msgstr "Использовать CPU для визуализации"
 
 msgid "GPU Compute"
 msgstr "GPU-вычисления"
-
-
-msgid "Use GPU compute device for rendering, configured in user preferences"
-msgstr "Использовать графический процессор для визуализации (настраивается в параметрах blender)"
 
 
 msgid "Dicing Rate"
@@ -65035,14 +65007,6 @@ msgid "Crop image before processing"
 msgstr "Обрезать изображение перед обработкой"
 
 
-msgid "De-Interlace"
-msgstr "Восстановить прогрессивную развёртку"
-
-
-msgid "For video movies to remove fields"
-msgstr "Убрать поля для видео"
-
-
 msgid "Flip on the X axis"
 msgstr "Перевернуть по оси X"
 
@@ -68590,10 +68554,6 @@ msgstr "Отрисовывать активный объект с изображ
 
 msgid "Limit selection to visible (clipped with depth buffer)"
 msgstr "Ограничить выделение по видимости (отбросить по буферу глубины)"
-
-
-msgid "Manipulate center points (object and pose mode only)"
-msgstr "Управлять центральными точками (только для режима объекта или позы)"
 
 
 msgid "Render Border"
@@ -73940,10 +73900,6 @@ msgid "Reverse Mouse"
 msgstr "Инвертировать управление"
 
 
-msgid "Reverse the mouse look"
-msgstr "Инвертировать поворот при перемещении курсора мыши"
-
-
 msgid "View Height"
 msgstr "Высота вида"
 
@@ -74604,10 +74560,6 @@ msgid "Failed to write .oso file next to external .osl file at "
 msgstr "Ошибка записи в файл .oso рядом с внешним файлом .osl в "
 
 
-msgid "Compute Device:"
-msgstr "Устройство расчёта:"
-
-
 msgid "Total Samples:"
 msgstr "Всего сэмплов:"
 
@@ -74746,10 +74698,6 @@ msgstr "Толщина:"
 
 msgid "Subdivision"
 msgstr "Подразделения"
-
-
-msgid "Render:"
-msgstr "Визуализация:"
 
 
 msgid "%s AA"
@@ -76156,6 +76104,10 @@ msgstr "Построено без модификатора океана"
 
 msgid "Cull Faces:"
 msgstr "Скрытие граней:"
+
+
+msgid "Render:"
+msgstr "Визуализация:"
 
 
 msgid "Subdivisions:"
@@ -79519,14 +79471,6 @@ msgid "NDOF Device:"
 msgstr "NDOF устройство:"
 
 
-msgid "NDOF Sensitivity"
-msgstr "NDOF чувствительность"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "NDOF-чувствительность орбиты"
-
-
 msgctxt "Operator"
 msgid "API Concepts"
 msgstr "Концепции API"
@@ -81350,16 +81294,8 @@ msgid "Source and destination meshes do not have the same amount of face corners
 msgstr "У полисеток источника и получателя разное количество углов граней. Сопоставление по топологии невозможно"
 
 
-msgid "Source or destination meshes do not have any polygons, cannot transfer loop data"
-msgstr "У полисеток источника или получателя нет полигонов, перенос данных петель невозможен"
-
-
 msgid "Source and destination meshes do not have the same amount of faces, 'Topology' mapping cannot be used in this case"
 msgstr "У полисеток источника и получателя разное количество граней. Сопоставление по топологии невозможно"
-
-
-msgid "Source or destination meshes do not have any polygons, cannot transfer poly data"
-msgstr "У полисеток источника или получателя нет полигонов, перенос данных полигонов невозможен"
 
 
 msgid "Not enough free memory"
@@ -86130,14 +86066,6 @@ msgid "Edge weight used by Bevel modifier"
 msgstr "Вес ребра, используемый модификатором скоса"
 
 
-msgid "Weight used by SubSurf modifier"
-msgstr "Вес для модификатора подразд. поверхности (SubSurf)"
-
-
-msgid "Weight used for SoftBody Goal"
-msgstr "Вес, используемый для цели мягкого тела"
-
-
 msgid "Radius of curve control points"
 msgstr "Радиус контрольных точек кривой"
 
@@ -86769,10 +86697,6 @@ msgstr "Масштаб объекта различается по осям, ра
 
 msgid "Object has negative scale, unwrap will operate on a non-flipped version of the mesh"
 msgstr "Объект использует отрицательный масштаб, развёртка производится над неотражённой версией полисетки"
-
-
-msgid "Subsurf modifier needs to be first to work with unwrap"
-msgstr "Для учёта в развёртке, модификатор подразделения поверхности должен быть первым"
 
 
 msgid "Cannot open file: %s"

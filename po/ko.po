@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 3) (b'2a2eb0c')\n"
+"Project-Id-Version: Blender 2.78 (sub 4) (b'0507b3e4c4')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 16:31:11\n"
+"POT-Creation-Date: 2017-01-11 19:09:51\n"
 "PO-Revision-Date: 2016-08-31 18:06+0900\n"
 "Last-Translator: Geuntak Jeong <beroberos@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/lxlalexlxl/blender/language/ko/)\n"
@@ -3303,10 +3303,6 @@ msgstr "모든 외부 데이터를 .blend 파일에 자동으로 포장"
 
 msgid "Version"
 msgstr "버전"
-
-
-msgid "Version of the blender the .blend was saved with"
-msgstr "다음과 함께 저장된 블렌더 .blend의 버전"
 
 
 msgid "Window Managers"
@@ -11946,10 +11942,6 @@ msgid "Color for filling region bounded by each stroke"
 msgstr "각각의 스트로크에 따라 경계된 지역을 채우기 위한 색상"
 
 
-msgid "Display the color in onion skinning"
-msgstr "오니온 스키닝의 색상을 표시"
-
-
 msgid "Set color Visibility"
 msgstr "색상 가시성을 설정"
 
@@ -17400,10 +17392,6 @@ msgid "Draw Creases"
 msgstr "주름을 그리기"
 
 
-msgid "Display creases created for subsurf weighting"
-msgstr "썹서프 웨이팅에 대해 작성된 주름을 표시"
-
-
 msgid "Draw Seams"
 msgstr "씨임을 그리기"
 
@@ -17414,10 +17402,6 @@ msgstr "UV 펼치는 씨임 화면을 표시"
 
 msgid "Draw Sharp"
 msgstr "샤프를 그리기"
-
-
-msgid "Display sharp edges, used with the EdgeSplit modifier"
-msgstr "에지 분할 변형과 함께 사용할 샤프 에지를 표시"
 
 
 msgid "Draw Edges"
@@ -25994,6 +25978,10 @@ msgid "GPencil"
 msgstr "G펜슬"
 
 
+msgid "Interpolate"
+msgstr "보간"
+
+
 msgid "Clean up"
 msgstr "정리"
 
@@ -26150,10 +26138,6 @@ msgid "Weight used by the Bevel modifier"
 msgstr "베벨 모디파이어에 의해 사용된 웨이트"
 
 
-msgid "Weight used by the Subsurf modifier for creasing"
-msgstr "주름 잡기에 대해 썹서프 모디파이어에 의해 사용된 웨이트"
-
-
 msgid "Index of this edge"
 msgstr "이 에지의 인덱스"
 
@@ -26164,10 +26148,6 @@ msgstr "루즈"
 
 msgid "Loose edge"
 msgstr "루즈 에지"
-
-
-msgid "Sharp edge for the EdgeSplit modifier"
-msgstr "에지 분할 모디파이어에 대해 에지를 샤프"
 
 
 msgid "Freestyle Edge Mark"
@@ -30651,10 +30631,6 @@ msgstr "활성 트랙 인덱스"
 
 msgid "Anchor Frame"
 msgstr "고정 프레임"
-
-
-msgid "Interpolate"
-msgstr "보간"
 
 
 msgid "Nearest"
@@ -58894,10 +58870,6 @@ msgid "GPU Compute"
 msgstr "GPU 계산"
 
 
-msgid "Use GPU compute device for rendering, configured in user preferences"
-msgstr "렌더링에 GPU 컴퓨팅 장치를 사용, 사용자 환경 설정에서 설정된"
-
-
 msgid "Dicing Rate"
 msgstr "다이싱 비율"
 
@@ -63899,14 +63871,6 @@ msgid "Crop image before processing"
 msgstr "처리하기 이전에 이미지를 자르기"
 
 
-msgid "De-Interlace"
-msgstr "디인터레이스"
-
-
-msgid "For video movies to remove fields"
-msgstr "필드를 제거하는 비디오 동영상에 대해"
-
-
 msgid "Flip on the X axis"
 msgstr "X 축에 뒤집기"
 
@@ -67562,10 +67526,6 @@ msgstr "활성 오브젝트의 노멀에 맵된 이미지를 그리기, 솔리�
 
 msgid "Limit selection to visible (clipped with depth buffer)"
 msgstr "보이기로 선택을 제한 (깊이 버퍼와 함께 클립 )"
-
-
-msgid "Manipulate center points (object and pose mode only)"
-msgstr "중심 포인트를 조작 (오브젝트 및 포즈 모드 만)"
 
 
 msgid "Render Border"
@@ -71416,10 +71376,6 @@ msgid "Deadzone"
 msgstr "데드존"
 
 
-msgid "Deadzone of the 3D Mouse"
-msgstr "3D 마우스의 데드존"
-
-
 msgid "Helicopter Mode"
 msgstr "헬리콥터 모드"
 
@@ -72748,10 +72704,6 @@ msgid "Reverse Mouse"
 msgstr "마우스를 반전"
 
 
-msgid "Reverse the mouse look"
-msgstr "마우스 모습을 반전"
-
-
 msgid "View Height"
 msgstr "뷰 높이"
 
@@ -73395,10 +73347,6 @@ msgid "OSL query failed to open "
 msgstr "OSL 쿼리를 열지 못했음"
 
 
-msgid "Compute Device:"
-msgstr "연산 장치:"
-
-
 msgid "Total Samples:"
 msgstr "전체 샘플:"
 
@@ -73573,10 +73521,6 @@ msgstr "두께:"
 
 msgid "Subdivision"
 msgstr "하위 분할"
-
-
-msgid "Render:"
-msgstr "렌더:"
 
 
 msgid "%s AA"
@@ -75080,6 +75024,10 @@ msgstr "오션심 변형없이 작성"
 
 msgid "Cull Faces:"
 msgstr "페이스 도태:"
+
+
+msgid "Render:"
+msgstr "렌더:"
 
 
 msgid "Subdivisions:"
@@ -78676,18 +78624,6 @@ msgid "NDOF Device:"
 msgstr "NDOF 장치:"
 
 
-msgid "NDOF Sensitivity"
-msgstr "NDOF 감도"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "NDOF 오비트 민감도"
-
-
-msgid "NDOF Deadzone"
-msgstr "NDOF 데드존"
-
-
 msgctxt "Operator"
 msgid "Add-ons Catalog"
 msgstr "에드온 카탈로그"
@@ -80632,16 +80568,8 @@ msgid "Source and destination meshes do not have the same amount of face corners
 msgstr "소스 또는 대상 메쉬는 페이스 코너의 총량이 동일하지 않음, '토폴로지' 매핑의 경우에는 사용할 수 없습니다"
 
 
-msgid "Source or destination meshes do not have any polygons, cannot transfer loop data"
-msgstr "소스 또는 대상 메쉬는 어떠한 폴리곤도 없음, 루프 데이터를 전송할 수 없습니다"
-
-
 msgid "Source and destination meshes do not have the same amount of faces, 'Topology' mapping cannot be used in this case"
 msgstr "소스 또는 대상 메쉬는 페이스의 총량이 동일하지 않음, '토폴로지' 매핑의 경우에는 사용할 수 없습니다"
-
-
-msgid "Source or destination meshes do not have any polygons, cannot transfer poly data"
-msgstr "소스 또는 대상 메쉬는 어떠한 폴리곤도 없음, 폴리 데이터를 전송할 수 없습니다"
 
 
 msgid "Not enough free memory"
@@ -85331,14 +85259,6 @@ msgstr "스킨 모디파이어에 의해 사용된 Y 반경"
 
 msgid "Edge weight used by Bevel modifier"
 msgstr "베벨 모디파이어에 의해 사용된 에지 웨이트"
-
-
-msgid "Weight used by SubSurf modifier"
-msgstr "섭써프 모디파이어에 의해 사용된 웨이트"
-
-
-msgid "Weight used for SoftBody Goal"
-msgstr "소프트 바디 목표에 사용되는 웨이트"
 
 
 msgid "Radius of curve control points"

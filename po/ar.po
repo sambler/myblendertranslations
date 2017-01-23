@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 3) (b'2a2eb0c')\n"
+"Project-Id-Version: Blender 2.78 (sub 4) (b'0507b3e4c4')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-16 16:31:11\n"
+"POT-Creation-Date: 2017-01-11 19:09:51\n"
 "PO-Revision-Date: 2016-04-23 22:41+0300\n"
 "Last-Translator: Yousef Harfoush <bat3a@msn.com>\n"
 "Language-Team: Yousef Harfoush, Amine Moussaoui <bat3a@msn.com>\n"
@@ -3223,10 +3223,6 @@ msgstr "blend. ﻒﻠﻣ ﻲﻓ ﺔﻴﺟﺭﺎﺨﻟﺍ ﺕﺎﻧﺎﻴﺒﻟ�
 
 msgid "Version"
 msgstr "ﺔﺨﺴﻧ"
-
-
-msgid "Version of the blender the .blend was saved with"
-msgstr "ﺎﻬﺑ ﻥﺰﺧ ﻲﺘﻟﺍ blend. ﻒﻠﻤﻟ ﺭﺪﻨﻠﺑ ﺔﺨﺴﻧ"
 
 
 msgid "Window Managers"
@@ -17248,10 +17244,6 @@ msgid "Draw Creases"
 msgstr "ﺕﺍﺪﻌﺠﺘﻟﺍ ﻢﺳﺭﺍ"
 
 
-msgid "Display creases created for subsurf weighting"
-msgstr "ﻢﻌّﻨﻤﻟﺍ ﻦﻳﺯﻮﺘﻟ ﺔﺌﺸﻨﻤﻟﺍ ﺕﺍﺪﻌﺠﺘﻟﺍ ﺽﺮﻋﺇ"
-
-
 msgid "Draw Seams"
 msgstr "ﺕﺍﺯﺭﺪﻟﺍ ﻢﺳﺭﺍ"
 
@@ -17262,10 +17254,6 @@ msgstr "UVـﻟﺍ ﺾﻓ ﺕﺍﺯﺭﺩ ﺮﻬﻇﺃ"
 
 msgid "Draw Sharp"
 msgstr "ﺩﺎﺣ ﻢﺳﺭ"
-
-
-msgid "Display sharp edges, used with the EdgeSplit modifier"
-msgstr "ﻑﺍﻮﺤﻟﺍ ﻞﺼﻓ ﺮﻴﻐﻣ ﻊﻣ ﻡﺪﺨﺘﺴﻣ ,ﺓﺩﺎﺤﻟﺍ ﻑﺍﻮﺤﻟﺍ ﺮﻬﻇﺍ"
 
 
 msgid "Draw Edges"
@@ -24789,6 +24777,10 @@ msgid "Bone Roll"
 msgstr "ﺔﻤﻈﻌﻟﺍ ءﺍﻮﺘﻟﺍ"
 
 
+msgid "Interpolate"
+msgstr "ﺪﻟّﻭ"
+
+
 msgid "Normals"
 msgstr "ﺕﺎﻤﻇﺎﻨﻟﺍ"
 
@@ -24921,20 +24913,12 @@ msgid "Weight used by the Bevel modifier"
 msgstr "ﺔﻔﻄﺸﻟﺍ ﺮﻴﻐﻣ ﻞﺒﻗ ﻦﻣ ﻡﺪﺨﺘﺴﻤﻟﺍ ﻥﺯﻮﻟﺍ"
 
 
-msgid "Weight used by the Subsurf modifier for creasing"
-msgstr "ﺪﻴﻌﺠﺘﻠﻟ ﻢﻴﻌﻨﺘﻟﺍ ﺮﻴﻐﻣ ﻞﺒﻗ ﻦﻣ ﻡﺪﺨﺘﺴﻤﻟﺍ ﻥﺯﻮﻟﺍ"
-
-
 msgid "Loose"
 msgstr "ﻖﻠﻄﻣ"
 
 
 msgid "Loose edge"
 msgstr "ﺔﻘﻠﻄﻤﻟﺍ ﺔﻓﺎﺤﻟﺍ"
-
-
-msgid "Sharp edge for the EdgeSplit modifier"
-msgstr " ﺔﻓﺎﺤﻟﺍ ﻞﺼﻓ ﺮﻴﻐﻤﻟ ﺓﺩﺎﺤﻟﺍ ﺔﻓﺎﺤﻟﺍ"
 
 
 msgid "Seam"
@@ -27554,10 +27538,6 @@ msgstr "ﻢﺋﺍﻮﻘﻟﺍ ﻲﺛﻼ﻿ﺛ ﺔﻛﺮﺣ"
 
 msgid "Active Track Index"
 msgstr "ﻝﺎﻌﻔﻟﺍ ﺭﺎﺴﻤﻟﺍ ﻞﻴﻟﺩ"
-
-
-msgid "Interpolate"
-msgstr "ﺪﻟّﻭ"
 
 
 msgid "Bilinear"
@@ -39453,10 +39433,6 @@ msgid "Use Subsurf Modifier"
 msgstr "ﻢﻴﻌﻨﺘﻟﺍ ﺮﻴﻐﻣ"
 
 
-msgid "Map UVs taking vertex position after subsurf into account"
-msgstr "ﻢﻴﻌﻨﺘﻟﺍ ﺪﻌﺑ ﻂﻘﻨﻟﺍ ﻊﻗﻮﻤﻟ ﺏﺎﺴﺤﻟﺎﺑ ﺬﺧﻻ﻿ﺍ ﻊﻣ UV's ـﻟﺍ ﻂﻘﺳﺍ"
-
-
 msgctxt "Operator"
 msgid "Weld"
 msgstr "ﻡﺎﺤﻠﻟﺍ"
@@ -46373,14 +46349,6 @@ msgid "Use Crop"
 msgstr "ﺺﻘﻟﺍ ﻡﺪﺨﺘﺳﺍ"
 
 
-msgid "De-Interlace"
-msgstr "ﻚﺑﺎﺸﺘﻟﺍ ﻞﻠﻗ"
-
-
-msgid "For video movies to remove fields"
-msgstr "ﻡﻼ﻿ﻓﻻ﻿ﺍ ﻦﻣ ﻝﻮﻘﺤﻟﺍ ﺔﻟﺍﺯﻻ﻿"
-
-
 msgid "Flip on the X axis"
 msgstr "X ﺭﻮﺤﻣ ﻰﻠﻋ ﺐﻠﻗﺍ"
 
@@ -47667,10 +47635,6 @@ msgstr "ﺓﺭﺎﺘﺨﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻠﻟ ﻲﻠﺤﻤﻟﺍ ء�
 
 msgid "Gimbal"
 msgstr "ﻝﺎﺒﻤﻏ"
-
-
-msgid "Manipulate center points (object and pose mode only)"
-msgstr "(ﻂﻘﻓ ﺔﻔﻗﻮﻟﺍ ﻭ ﻦﺋﺎﻜﻟﺍ ﻊﺿﻮﻟ) ﻒﺼﺘﻨﻤﻟﺍ ﻂﻘﻧ ﺞﻟﺎﻋ"
 
 
 msgid "Render Border"
@@ -51993,10 +51957,6 @@ msgid "Transform Modal Map"
 msgstr "ﺔﻃﻭﺮﺸﻣ ﺔﻟﻮّﺤﺘﻣ ﺔﻄﻳﺮﺧ"
 
 
-msgid "Compute Device:"
-msgstr ":ﺏﺎﺴﺤﻟﺍ ﺯﺎﻬﺟ"
-
-
 msgid "Settings:"
 msgstr ":ﺕﺍﺩﺍﺪﻋﺇ"
 
@@ -52131,10 +52091,6 @@ msgstr ":ﺔﻛﺎﻤﺴﻟﺍ"
 
 msgid "Subdivision"
 msgstr "ﻢﻴﻌﻨﺗ"
-
-
-msgid "Render:"
-msgstr ":ﺮﻴﻴﺼﺗ"
 
 
 msgid "Samples:"
@@ -53245,6 +53201,10 @@ msgstr "ﻂﻴﺤﻤﻟﺍ ﻲﻛﺎﺤﻣ ﺮﻴﻐﻣ ﻥﻭﺪﺑ ﺖﻴﻨ�
 
 msgid "Cull Faces:"
 msgstr ":ﺔﻴﻔﺨﻣ ﻩﻮﺟﻭ"
+
+
+msgid "Render:"
+msgstr ":ﺮﻴﻴﺼﺗ"
 
 
 msgid "Subdivisions:"
@@ -56259,14 +56219,6 @@ msgstr "ﺓﺭﺄﻔﻠﻟ ﺮﻴﺒﻜﺘﻟﺍ ﻩﺎﺠﺗﺇ ﺲﻜﻋﺇ"
 
 msgid "NDOF Device:"
 msgstr ":NDOF ﺯﺎﻬﺟ"
-
-
-msgid "NDOF Sensitivity"
-msgstr "NDOF ﺔﻴﺳﺎﺴﺣ"
-
-
-msgid "NDOF Orbit Sensitivity"
-msgstr "ﻥﺍﺭﻭﺪﻟﺍ ﺔﻴﺳﺎﺴﺣ"
 
 
 msgctxt "Operator"
@@ -60160,14 +60112,6 @@ msgstr "ﺓﺮﺸﻘﻟﺍ ﺮﻴّﻐﻣ ﻦﻣ ﻡﺪﺨﺘﺴﻤﻟﺍ Y ﺮ�
 
 msgid "Edge weight used by Bevel modifier"
 msgstr "ﺔﻔﻄﺸﻟﺍ ﺮﻴّﻐﻣ ﻲﻓ ﻡﺪﺨﺘﺴﻤﻟﺍ ﺔﻓﺎﺤﻟﺍ ﻥﺯﻭ"
-
-
-msgid "Weight used by SubSurf modifier"
-msgstr "ﻢﻴﻌﻨﺘﻟﺍ ﻝﺪﻌﻣ ﻦﻣ ﻡﺪﺨﺘﺴﻤﻟﺍ ﻥﺯﻮﻟﺍ"
-
-
-msgid "Weight used for SoftBody Goal"
-msgstr "ﻦﻴﻠﻟﺍ ﻢﺴﺠﻟﺍ ﻑﺪﻬﻟ ﻡﺪﺨﺘﺴﻤﻟﺍ ﻥﺯﻮﻟﺍ"
 
 
 msgid "Radius of curve control points"
