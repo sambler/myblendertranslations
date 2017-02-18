@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 4) (b'0507b3e4c4')\n"
+"Project-Id-Version: Blender 2.78 (sub 4) (b'd2f4900d1a9')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 19:09:51\n"
+"POT-Creation-Date: 2017-02-09 11:55:44\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arvid Rudling <arvid.r@gmail.com>\n"
 "Language-Team: \n"
@@ -5792,6 +5792,26 @@ msgid "Strokes"
 msgstr "Penselavtryck"
 
 
+msgid "Ease In"
+msgstr "Mjuk ingång"
+
+
+msgid "Ease Out"
+msgstr "Mjukt avslut"
+
+
+msgid "Custom"
+msgstr "Anpassad"
+
+
+msgid "Quadratic"
+msgstr "Kvadratisk"
+
+
+msgid "Circular"
+msgstr "Cirkel"
+
+
 msgid "Grease Pencil Layer"
 msgstr "Starta Spel"
 
@@ -10409,10 +10429,6 @@ msgid "Create a linear progression"
 msgstr "Rensa Rotation"
 
 
-msgid "Quadratic"
-msgstr "Kvadratisk"
-
-
 msgid "Spherical"
 msgstr "UVsfär"
 
@@ -11185,14 +11201,6 @@ msgid "Double Click"
 msgstr "Cyclist"
 
 
-msgid "Ease In"
-msgstr "Mjuk ingång"
-
-
-msgid "Ease Out"
-msgstr "Mjukt avslut"
-
-
 msgid "Left Handle"
 msgstr "Vänster handtag"
 
@@ -11227,10 +11235,6 @@ msgstr "Höger handtag"
 
 msgid "Interpolation method to use for segment of the F-Curve from this Keyframe until the next Keyframe"
 msgstr "Markera Länkad"
-
-
-msgid "Circular"
-msgstr "Cirkel"
 
 
 msgid "Left handle selection status"
@@ -12976,10 +12980,6 @@ msgstr "Tid"
 
 msgid "Use the time from the scene"
 msgstr "Markera Länkad"
-
-
-msgid "Custom"
-msgstr "Anpassad"
 
 
 msgid "MeshDeform Modifier"
@@ -29268,10 +29268,6 @@ msgid "Spot Shape"
 msgstr "Beräkna Normaler"
 
 
-msgid "Cycles Hair Rendering"
-msgstr "Visa"
-
-
 msgid "Passes"
 msgstr "Rendera"
 
@@ -29654,10 +29650,6 @@ msgstr "Rensa Rotation"
 
 msgid "Environment Lighting"
 msgstr "Rensa Förälder"
-
-
-msgid "Obstacle simulation"
-msgstr "Renderings Fönster"
 
 
 msgid "Gather"
@@ -31722,6 +31714,10 @@ msgstr "Duplicera"
 
 msgid "Multitexture materials"
 msgstr "Duplicera"
+
+
+msgid "Obstacle simulation"
+msgstr "Renderings Fönster"
 
 
 msgid "Occlusion Resolution"
@@ -36452,6 +36448,10 @@ msgid "Mesh Light"
 msgstr "Ljus"
 
 
+msgid "Curve subdivisions"
+msgstr "Uppdelning X-led"
+
+
 msgctxt "Operator"
 msgid "Assign"
 msgstr "Tilldela"
@@ -36464,10 +36464,6 @@ msgstr "Avmarkera"
 
 msgid "Type:"
 msgstr "Typ:"
-
-
-msgid "Curve subdivisions"
-msgstr "Uppdelning X-led"
 
 
 msgid "Output:"
@@ -37402,11 +37398,6 @@ msgstr "Muspekare"
 
 msgid "Framing:"
 msgstr "Dämpning:"
-
-
-msgctxt "Operator"
-msgid "Build navigation mesh"
-msgstr "Renderings Fönster"
 
 
 msgid "Rasterization:"
@@ -38420,6 +38411,10 @@ msgid "Instances"
 msgstr "Instanser"
 
 
+msgid "Sequencer:"
+msgstr "Starta rendering av sekvens"
+
+
 msgid "Video Codec"
 msgstr "Videokodek"
 
@@ -38430,10 +38425,6 @@ msgstr "Inkludera:"
 
 msgid "Paths:"
 msgstr "Bana"
-
-
-msgid "Sequencer:"
-msgstr "Starta rendering av sekvens"
 
 
 msgid "Doppler"
@@ -40087,16 +40078,6 @@ msgstr "Baka position"
 
 
 msgctxt "Operator"
-msgid "Location"
-msgstr "Position"
-
-
-msgctxt "Operator"
-msgid "Rotation"
-msgstr "Rotation"
-
-
-msgctxt "Operator"
 msgid "Origin"
 msgstr "Rensa Ursprung"
 
@@ -40228,6 +40209,16 @@ msgstr "Verktyg"
 msgctxt "Operator"
 msgid "All"
 msgstr "Alla"
+
+
+msgctxt "Operator"
+msgid "Location"
+msgstr "Position"
+
+
+msgctxt "Operator"
+msgid "Rotation"
+msgstr "Rotation"
 
 
 msgctxt "Operator"

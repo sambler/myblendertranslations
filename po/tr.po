@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 4) (b'0507b3e4c4')\n"
+"Project-Id-Version: Blender 2.78 (sub 4) (b'd2f4900d1a9')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-11 19:09:51\n"
+"POT-Creation-Date: 2017-02-09 11:55:44\n"
 "PO-Revision-Date: 2012-05-11 14:55+0200\n"
 "Last-Translator: Fatih EKE <fatiheke@hotmail.com>\n"
 "Language-Team: BLENDIST <fatiheke@hotmail.com>\n"
@@ -4697,6 +4697,18 @@ msgid "Paint Lock"
 msgstr "Çoklu-Boyama"
 
 
+msgid "Ease In"
+msgstr "Yakınlaştır"
+
+
+msgid "Ease Out"
+msgstr "Bellek yetersiz."
+
+
+msgid "Custom"
+msgstr "Özel"
+
+
 msgid "Grease Pencil Layer"
 msgstr "Eskiz Kalemi Katmanı"
 
@@ -8825,14 +8837,6 @@ msgid "Double Click"
 msgstr "Çift <<|Alt <"
 
 
-msgid "Ease In"
-msgstr "Yakınlaştır"
-
-
-msgid "Ease Out"
-msgstr "Bellek yetersiz."
-
-
 msgid "Left Handle"
 msgstr "Sol Tutamak:"
 
@@ -10312,10 +10316,6 @@ msgstr "İlk Kare"
 
 msgid "None "
 msgstr "Kullanılamaz"
-
-
-msgid "Custom"
-msgstr "Özel"
 
 
 msgid "MeshDeform Modifier"
@@ -22719,10 +22719,6 @@ msgid "Spot Shape"
 msgstr "Şekil Anahtarı Ekle"
 
 
-msgid "Cycles Hair Rendering"
-msgstr "Cycles Sunumu"
-
-
 msgid "Light Paths"
 msgstr "Dosya yolu"
 
@@ -22989,10 +22985,6 @@ msgstr "Ekran Rengi:"
 
 msgid "Motion Tracking"
 msgstr "Parçacık Hareketi"
-
-
-msgid "Obstacle simulation"
-msgstr "Akışkan Simülasyonu"
 
 
 msgid "Particle in a particle system"
@@ -24581,6 +24573,10 @@ msgstr "Düzenleme Modu"
 
 msgid "Multitexture materials"
 msgstr "Malzemeler+Doku"
+
+
+msgid "Obstacle simulation"
+msgstr "Akışkan Simülasyonu"
 
 
 msgid "Physics Engine"
@@ -28903,6 +28899,10 @@ msgid "Mesh Light"
 msgstr "Doğrusal Bozulma"
 
 
+msgid "Curve subdivisions"
+msgstr "NURBS Yüzey"
+
+
 msgctxt "Operator"
 msgid "Assign"
 msgstr "Ata"
@@ -28915,10 +28915,6 @@ msgstr "Kaldır"
 
 msgid "Type:"
 msgstr "Kesme Biçimi "
-
-
-msgid "Curve subdivisions"
-msgstr "NURBS Yüzey"
 
 
 msgid "Output:"
@@ -29697,11 +29693,6 @@ msgid "Mouse Cursor"
 msgstr "İmleç: Sol Fare ile"
 
 
-msgctxt "Operator"
-msgid "Build navigation mesh"
-msgstr "Mesh Gölgesini Çiz"
-
-
 msgid "Region:"
 msgstr "Bölge:"
 
@@ -30341,6 +30332,10 @@ msgid "Animation"
 msgstr "Animasyon"
 
 
+msgid "Sequencer:"
+msgstr "Sıralayıcı:"
+
+
 msgid "Video Codec"
 msgstr "Kaydet AVI Codec"
 
@@ -30351,10 +30346,6 @@ msgstr "Dahil:"
 
 msgid "Paths:"
 msgstr "Yollar:"
-
-
-msgid "Sequencer:"
-msgstr "Sıralayıcı:"
 
 
 msgid "Format:"
@@ -31806,16 +31797,6 @@ msgstr "Eylem Pişir..."
 
 
 msgctxt "Operator"
-msgid "Location"
-msgstr "Konum"
-
-
-msgctxt "Operator"
-msgid "Rotation"
-msgstr "Dönme"
-
-
-msgctxt "Operator"
 msgid "Origin"
 msgstr "Merkez"
 
@@ -31951,6 +31932,16 @@ msgstr "Kemik Ayarları"
 msgctxt "Operator"
 msgid "All"
 msgstr "Tümü"
+
+
+msgctxt "Operator"
+msgid "Location"
+msgstr "Konum"
+
+
+msgctxt "Operator"
+msgid "Rotation"
+msgstr "Dönme"
 
 
 msgctxt "Operator"
