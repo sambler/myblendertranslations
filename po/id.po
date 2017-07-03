@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 4) (b'd2f4900d1a9')\n"
+"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-09 11:55:44\n"
+"POT-Creation-Date: 2017-06-16 12:51:46\n"
 "PO-Revision-Date: 2013-09-26 14:51+0700\n"
 "Last-Translator: Daffi A. Prabowo <daffi.ap@gmail.com>\n"
 "Language-Team: Indonesian <>\n"
@@ -1083,18 +1083,6 @@ msgid "Show Errors"
 msgstr "Warna"
 
 
-msgid "Group"
-msgstr "Grup"
-
-
-msgid "Lamp"
-msgstr "Lampu"
-
-
-msgid "Texture"
-msgstr "Tekstur"
-
-
 msgid "Generated Coordinates"
 msgstr "Partikel"
 
@@ -1105,6 +1093,10 @@ msgstr "Induk"
 
 msgid "Dupli Type"
 msgstr "Tipe"
+
+
+msgid "Group"
+msgstr "Grup"
 
 
 msgid "Paint Color"
@@ -1157,6 +1149,10 @@ msgstr "Data Animasi"
 
 msgid "Vertex Color"
 msgstr "Warna Standar"
+
+
+msgid "Texture"
+msgstr "Tekstur"
 
 
 msgid "Use Color Preview"
@@ -1341,10 +1337,6 @@ msgstr "Orientasi Transformasi"
 
 msgid "Frame Range"
 msgstr "Dalam Jarak"
-
-
-msgid "ID Root Type"
-msgstr "Tipe"
 
 
 msgid "Bones"
@@ -1916,6 +1908,10 @@ msgstr "Tekstur"
 
 msgid "Type of Object"
 msgstr "Sunting Objek"
+
+
+msgid "Lamp"
+msgstr "Lampu"
 
 
 msgid "Shape Key Edit Mode"
@@ -7829,6 +7825,14 @@ msgid "Strand shape parameter"
 msgstr "Partikel"
 
 
+msgid "Transmission Direct"
+msgstr "Orientasi Transformasi"
+
+
+msgid "Transmission Indirect"
+msgstr "Orientasi Transformasi"
+
+
 msgid "Cancel timeout"
 msgstr "Batal"
 
@@ -7946,14 +7950,6 @@ msgstr "Warna"
 
 
 msgid "Deliver transmission color pass"
-msgstr "Orientasi Transformasi"
-
-
-msgid "Transmission Direct"
-msgstr "Orientasi Transformasi"
-
-
-msgid "Transmission Indirect"
 msgstr "Orientasi Transformasi"
 
 
@@ -8337,10 +8333,6 @@ msgstr "Penyunting Grafik"
 
 msgid "Edit Tree"
 msgstr "Gambar Latar"
-
-
-msgid "Highlight"
-msgstr "Penyunting Logika"
 
 
 msgid "Blender File"
@@ -9427,13 +9419,13 @@ msgstr "Semua Tampilan"
 
 
 msgctxt "Operator"
-msgid "Speaker"
-msgstr "Tambah Gambar"
+msgid "Camera"
+msgstr "Kamera"
 
 
 msgctxt "Operator"
-msgid "Camera"
-msgstr "Kamera"
+msgid "Speaker"
+msgstr "Tambah Gambar"
 
 
 msgctxt "Operator"
@@ -10864,10 +10856,6 @@ msgstr "Gambar"
 
 msgid "ID value"
 msgstr "Nilai"
-
-
-msgid "Reflect"
-msgstr "Seleksi"
 
 
 msgid "Dispersion"

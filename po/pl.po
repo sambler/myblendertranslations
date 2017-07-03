@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 4) (b'd2f4900d1a9')\n"
+"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-09 11:55:44\n"
+"POT-Creation-Date: 2017-06-16 12:51:46\n"
 "PO-Revision-Date: 2015-05-10 14:41+0100\n"
 "Last-Translator: Piotr Arlukowicz <piotao@polskikursblendera.pl>\n"
 "Language: pl\n"
@@ -2408,14 +2408,6 @@ msgid "View and edit images and UV Maps"
 msgstr "Wyświetlaj oraz edytuj obrazy oraz mapy UV"
 
 
-msgid "Video Sequence Editor"
-msgstr "Edytor Sekwencji Wideo"
-
-
-msgid "Video editing tools"
-msgstr "Narzędzia do edycji wideo"
-
-
 msgid "Movie Clip Editor"
 msgstr "Edytor klipów filmowych"
 
@@ -2424,12 +2416,12 @@ msgid "Motion tracking tools"
 msgstr "Narzędzia do śledzenia ruchu"
 
 
-msgid "Text Editor"
-msgstr "Edytor tekstu"
+msgid "Video Sequence Editor"
+msgstr "Edytor Sekwencji Wideo"
 
 
-msgid "Edit scripts and in-file documentation"
-msgstr "Edytuj skrypty oraz dokumentację 'w pliku'"
+msgid "Video editing tools"
+msgstr "Narzędzia do edycji wideo"
 
 
 msgid "Node Editor"
@@ -2438,6 +2430,14 @@ msgstr "Edytor nodów"
 
 msgid "Editor for node-based shading and compositing tools"
 msgstr "Edytor z narzędziami do nieliniowego cieniowania i kompozycji"
+
+
+msgid "Text Editor"
+msgstr "Edytor tekstu"
+
+
+msgid "Edit scripts and in-file documentation"
+msgstr "Edytuj skrypty oraz dokumentację 'w pliku'"
 
 
 msgid "Logic Editor"
@@ -7449,76 +7449,8 @@ msgid "ID-block that the specific property used can be found from (id_type prope
 msgstr "Blok ID dla użytej własności (wcześniej trzeba ustawić id_type)"
 
 
-msgid "ID Type"
-msgstr "Typ ID"
-
-
 msgid "Type of ID-block that can be used"
 msgstr "Rodzaj bloku ID który może być użyty"
-
-
-msgid "Brush"
-msgstr "Pędzel"
-
-
-msgid "Font"
-msgstr "Czcionka"
-
-
-msgid "Group"
-msgstr "Grupa"
-
-
-msgid "Key"
-msgstr "Klucz"
-
-
-msgid "Lamp"
-msgstr "Lampa"
-
-
-msgid "Library"
-msgstr "Biblioteka"
-
-
-msgid "Line Style"
-msgstr "Styl linii"
-
-
-msgid "Lattice"
-msgstr "Kratownica"
-
-
-msgid "Mask"
-msgstr "Maska"
-
-
-msgid "Paint Curve"
-msgstr "Krzywa graficzna"
-
-
-msgid "Palette"
-msgstr "Paleta"
-
-
-msgid "Particle"
-msgstr "Cząstka"
-
-
-msgid "Speaker"
-msgstr "Głośnik"
-
-
-msgid "Texture"
-msgstr "Tekstura"
-
-
-msgid "Window Manager"
-msgstr "Zarządca okien"
-
-
-msgid "World"
-msgstr "Świat"
 
 
 msgid "Transform Space"
@@ -7671,6 +7603,10 @@ msgstr "Ściany"
 
 msgid "Duplicate child objects on all faces"
 msgstr "Duplikuj obiekty potomne na wszystkich ścianach"
+
+
+msgid "Group"
+msgstr "Grupa"
 
 
 msgid "Enable group instancing"
@@ -7875,6 +7811,10 @@ msgstr "Przeszkoda"
 
 msgid "Reflect Only"
 msgstr "Tylko odbicie"
+
+
+msgid "Texture"
+msgstr "Tekstura"
 
 
 msgid "Edit Bone"
@@ -8897,6 +8837,62 @@ msgid "Scaling (in time) of the noise"
 msgstr "Skalowanie (w czasie) szumu"
 
 
+msgid "Particle"
+msgstr "Cząstka"
+
+
+msgid "Line Style"
+msgstr "Styl linii"
+
+
+msgid "Brush"
+msgstr "Pędzel"
+
+
+msgid "Library"
+msgstr "Biblioteka"
+
+
+msgid "Mask"
+msgstr "Maska"
+
+
+msgid "Paint Curve"
+msgstr "Krzywa graficzna"
+
+
+msgid "Font"
+msgstr "Czcionka"
+
+
+msgid "Lattice"
+msgstr "Kratownica"
+
+
+msgid "Lamp"
+msgstr "Lampa"
+
+
+msgid "Speaker"
+msgstr "Głośnik"
+
+
+msgid "World"
+msgstr "Świat"
+
+
+msgid "Window Manager"
+msgstr "Zarządca okien"
+
+
+msgid "ID Type"
+msgstr "Typ ID"
+
+
+msgid "Key"
+msgstr "Klucz"
+
+
 msgid "GPencil"
 msgstr "Szkicownik"
 
@@ -8915,6 +8911,10 @@ msgstr "Dodaj ogranicznik do aktywnego obiektu"
 
 msgid "Clear all the constraints for the active Object only"
 msgstr "Usuń ograniczniki tylko z aktywnego obiektu"
+
+
+msgid "Palette"
+msgstr "Paleta"
 
 
 msgid "Speed:"
@@ -11402,10 +11402,6 @@ msgid "No active image found in material \"%s\" (%d) for object \"%s\""
 msgstr "Nie odnaleziono aktywnego obrazu w materiale \"%s\" (%d) dla obiektu \"%s\""
 
 
-msgid "No active image found in material (%d) for object \"%s\""
-msgstr "Nie odnaleziono aktywnego obrazu w materiale (%d) dla obiektu \"%s\""
-
-
 msgid "Object \"%s\" is not a mesh or can't be converted to a mesh (Curve, Text, Surface or Metaball)"
 msgstr "Obiekt \"%s\" nie jest siatką lub nie może być przekształcony na siatkę (Krzywa, Tekst, Powierzchnia lub Metaball)"
 
@@ -13809,10 +13805,6 @@ msgid "fps: %i"
 msgstr "klatkaż: %i"
 
 
-msgid "View offset is locked"
-msgstr "Przesunięcie widoku zablokowane"
-
-
 msgid "Depth too large"
 msgstr "Za duża głębia"
 
@@ -15150,22 +15142,6 @@ msgstr "Obraz 2"
 
 msgid "ID value"
 msgstr "Wartość ID"
-
-
-msgid "Reflect"
-msgstr "Odbicia"
-
-
-msgid "Refract"
-msgstr "Refrakcja"
-
-
-msgid "IndexOB"
-msgstr "IndexOB"
-
-
-msgid "IndexMA"
-msgstr "IndexMA"
 
 
 msgid "Dispersion"

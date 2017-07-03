@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 4) (b'd2f4900d1a9')\n"
+"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-09 11:55:44\n"
+"POT-Creation-Date: 2017-06-16 12:51:46\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arvid Rudling <arvid.r@gmail.com>\n"
 "Language-Team: \n"
@@ -1463,12 +1463,12 @@ msgid "Movie Clip Editor"
 msgstr "Bild Displist"
 
 
-msgid "Text Editor"
-msgstr "Textredigerare"
-
-
 msgid "Node Editor"
 msgstr "Bild Displist"
+
+
+msgid "Text Editor"
+msgstr "Textredigerare"
 
 
 msgid "Logic Editor"
@@ -4108,50 +4108,6 @@ msgid "Data Path"
 msgstr "Bana"
 
 
-msgid "ID Type"
-msgstr "Kupoltyp"
-
-
-msgid "Font"
-msgstr "Typsnitt"
-
-
-msgid "Group"
-msgstr "Grupp"
-
-
-msgid "Lamp"
-msgstr "Lampa"
-
-
-msgid "Lattice"
-msgstr "Lattice"
-
-
-msgid "Metaball"
-msgstr "Metaball"
-
-
-msgid "Node Tree"
-msgstr "Bild Displist"
-
-
-msgid "Paint Curve"
-msgstr "Rotera"
-
-
-msgid "Texture"
-msgstr "Textur"
-
-
-msgid "Window Manager"
-msgstr "Duplicera"
-
-
-msgid "World"
-msgstr "Värld"
-
-
 msgid "Transform Space"
 msgstr "Rensa Rotation"
 
@@ -4238,6 +4194,10 @@ msgstr "Yta"
 
 msgid "Duplicate child objects on all faces"
 msgstr "Markera Länkad"
+
+
+msgid "Group"
+msgstr "Grupp"
 
 
 msgid "Enable group instancing"
@@ -4562,6 +4522,10 @@ msgstr "Vertexfärger"
 
 msgid "Data Layer"
 msgstr "Maskera lager:"
+
+
+msgid "Texture"
+msgstr "Textur"
 
 
 msgid "Is Active"
@@ -6372,10 +6336,6 @@ msgid "Convenient groupings of F-Curves"
 msgstr "Lägg till Stripp"
 
 
-msgid "ID Root Type"
-msgstr "Kupoltyp"
-
-
 msgid "Pose Markers"
 msgstr "Spara Bild"
 
@@ -6598,6 +6558,10 @@ msgstr "Verktyg"
 
 msgid "Normal Weight"
 msgstr "Bild Aspekt"
+
+
+msgid "Paint Curve"
+msgstr "Rotera"
 
 
 msgid "Plane Offset"
@@ -7188,6 +7152,10 @@ msgid "Text on Curve"
 msgstr "Text på kurva"
 
 
+msgid "Font"
+msgstr "Typsnitt"
+
+
 msgid "Font Bold"
 msgstr "Markera Länkad"
 
@@ -7266,6 +7234,10 @@ msgstr "Materialets volym-inställningar"
 
 msgid "Round"
 msgstr "Ljud"
+
+
+msgid "Node Tree"
+msgstr "Bild Displist"
 
 
 msgid "Reverse"
@@ -7446,10 +7418,6 @@ msgstr "Färguppsättning:"
 
 msgid "Generated image width"
 msgstr "Visa inställningar för kant"
-
-
-msgid "Has data"
-msgstr "Använd maximum"
 
 
 msgid "Dirty"
@@ -9120,6 +9088,10 @@ msgid "The object is parented to an object"
 msgstr "Markera Länkad"
 
 
+msgid "Lattice"
+msgstr "Lattice"
+
+
 msgid "The object is parented to a vertex"
 msgstr "Duplicera"
 
@@ -9258,6 +9230,10 @@ msgstr "Tänjningsobjekt:"
 
 msgid "Meta"
 msgstr "Metaball"
+
+
+msgid "Lamp"
+msgstr "Lampa"
 
 
 msgid "Dupli Faces Inherit Scale"
@@ -9920,10 +9896,6 @@ msgid "Start/End"
 msgstr "Starta"
 
 
-msgid "Adaptive render"
-msgstr "Flytta Till Lager"
-
-
 msgid "Draw steps of the particle path"
 msgstr "Markera Länkad"
 
@@ -9962,10 +9934,6 @@ msgstr "Göm Markerad"
 
 msgid "Use particle's size in deflection"
 msgstr "Bild Displist"
-
-
-msgid "Strand render"
-msgstr "Strå"
 
 
 msgid "Use the strand primitive for rendering"
@@ -10092,6 +10060,10 @@ msgid "Final frame of the playback/rendering range"
 msgstr "Starta rendering av sekvens"
 
 
+msgid "Current Sub-Frame"
+msgstr "Starta Spel"
+
+
 msgid "Preview Range End Frame"
 msgstr "Spara Bild"
 
@@ -10102,10 +10074,6 @@ msgstr "Starta Spel"
 
 msgid "First frame of the playback/rendering range"
 msgstr "Starta rendering av sekvens"
-
-
-msgid "Current Sub-Frame"
-msgstr "Starta Spel"
 
 
 msgid "Game Data"
@@ -10222,6 +10190,10 @@ msgstr "Renderingsmotor"
 
 msgid "View Settings"
 msgstr "Verktyg"
+
+
+msgid "World"
+msgstr "Värld"
 
 
 msgid "World used for rendering the scene"
@@ -10909,6 +10881,10 @@ msgid "Vector font for Text objects"
 msgstr "Packa Data"
 
 
+msgid "Window Manager"
+msgstr "Duplicera"
+
+
 msgid "Search"
 msgstr "Sök"
 
@@ -11095,10 +11071,6 @@ msgstr "32-bit Flyttal"
 
 msgid "Compression"
 msgstr "Kompression"
-
-
-msgid "Codec settings for Jpek2000"
-msgstr "Starta rendering av sekvens"
 
 
 msgid "Convert to logarithmic color space"
@@ -11519,6 +11491,10 @@ msgstr "Skapa Förälder"
 
 msgid "Parenting settings for masking element"
 msgstr "Materialets volym-inställningar"
+
+
+msgid "ID Type"
+msgstr "Kupoltyp"
 
 
 msgid "Sub Parent"
@@ -11966,6 +11942,10 @@ msgid "Help"
 msgstr "Hjälp"
 
 
+msgid "Metaball"
+msgstr "Metaball"
+
+
 msgid "Sun & Sky Presets"
 msgstr "Förinställningar för sol & himmel"
 
@@ -12018,8 +11998,8 @@ msgid "Render Presets"
 msgstr "Lägg till renderingsförinställning"
 
 
-msgid "Effect Strip..."
-msgstr "Effektremsa…"
+msgid "Effect Strip"
+msgstr "Lägg till Stripp"
 
 
 msgid "Change"
@@ -21144,6 +21124,10 @@ msgid "Select the new inset faces"
 msgstr "Markera Länkad"
 
 
+msgid "Cut"
+msgstr "Rendera"
+
+
 msgid "Only cut selected geometry"
 msgstr "Markera Länkad"
 
@@ -23300,10 +23284,6 @@ msgid "Add Modifier"
 msgstr "Radera Allt"
 
 
-msgid "Add a modifier to the active object"
-msgstr "Markera Länkad"
-
-
 msgctxt "Operator"
 msgid "Apply Modifier"
 msgstr "Radera Allt"
@@ -25171,10 +25151,6 @@ msgstr "Packa Data"
 
 msgid "Next Keyframe"
 msgstr "Radera"
-
-
-msgid "Weighting factor for the sliding operation"
-msgstr "Starta rendering av sekvens"
 
 
 msgid "Previous Keyframe"
@@ -28411,11 +28387,6 @@ msgid "Zoom Camera 1:1"
 msgstr "Kamera"
 
 
-msgctxt "Operator"
-msgid "Install from File..."
-msgstr "Visa"
-
-
 msgid "Target Path"
 msgstr "Bana"
 
@@ -29088,10 +29059,6 @@ msgid "New World"
 msgstr "Nästa"
 
 
-msgid "Add a new world"
-msgstr "Kamera"
-
-
 msgid "External file packed into the .blend file"
 msgstr "Packa in i .blend-filen"
 
@@ -29324,6 +29291,10 @@ msgid "System"
 msgstr "System"
 
 
+msgid "Options"
+msgstr "Alternativ"
+
+
 msgid "Paint Stroke"
 msgstr "Penselavtryck"
 
@@ -29338,10 +29309,6 @@ msgstr "Samplinglinje"
 
 msgid "Scope Samples"
 msgstr "Rensa Rotation"
-
-
-msgid "Options"
-msgstr "Alternativ"
 
 
 msgid "Appearance"
@@ -29404,7 +29371,7 @@ msgid "Force Field Settings"
 msgstr "Verktyg"
 
 
-msgid "Hair dynamics"
+msgid "Hair Dynamics"
 msgstr "Hårdynamik"
 
 
@@ -29546,10 +29513,6 @@ msgstr "Mjukkroppsmål"
 
 msgid "Edit Strip"
 msgstr "Redigera remsa"
-
-
-msgid "Effect Strip"
-msgstr "Lägg till Stripp"
 
 
 msgid "Strip Input"
@@ -29800,10 +29763,6 @@ msgid "Add hairs"
 msgstr "Bezier Kurva"
 
 
-msgid "Cut"
-msgstr "Rendera"
-
-
 msgid "Cut hairs"
 msgstr "Lägg till Stripp"
 
@@ -30022,10 +29981,6 @@ msgstr "Partikelsystem"
 
 msgid "Target particle systems"
 msgstr "Partikelsystem"
-
-
-msgid "Hair Dynamics"
-msgstr "Hårdynamik"
 
 
 msgid "Keyed timing"
@@ -30536,6 +30491,30 @@ msgid "Transparent Shadows"
 msgstr "Rensa Rotation"
 
 
+msgid "Diffuse Direct"
+msgstr "Visa inställningar för kant"
+
+
+msgid "Diffuse Indirect"
+msgstr "Intensitet"
+
+
+msgid "Glossy Direct"
+msgstr "Glansighet:"
+
+
+msgid "Glossy Indirect"
+msgstr "Mitten"
+
+
+msgid "Transmission Direct"
+msgstr "Markera Länkad"
+
+
+msgid "Transmission Indirect"
+msgstr "Transformationsläge"
+
+
 msgid "AA Samples"
 msgstr "Samplar"
 
@@ -31004,16 +30983,8 @@ msgid "Deliver diffuse color pass"
 msgstr "Diffus färg"
 
 
-msgid "Diffuse Direct"
-msgstr "Visa inställningar för kant"
-
-
 msgid "Deliver diffuse direct pass"
 msgstr "Ram Markering"
-
-
-msgid "Diffuse Indirect"
-msgstr "Intensitet"
 
 
 msgid "Deliver diffuse indirect pass"
@@ -31024,16 +30995,8 @@ msgid "Glossy Color"
 msgstr "Packa Data"
 
 
-msgid "Glossy Direct"
-msgstr "Glansighet:"
-
-
 msgid "Deliver glossy direct pass"
 msgstr "Ram Markering"
-
-
-msgid "Glossy Indirect"
-msgstr "Mitten"
 
 
 msgid "Deliver glossy indirect pass"
@@ -31064,16 +31027,8 @@ msgid "Deliver transmission color pass"
 msgstr "Transformationsläge"
 
 
-msgid "Transmission Direct"
-msgstr "Markera Länkad"
-
-
 msgid "Deliver transmission direct pass"
 msgstr "Byta Stripp"
-
-
-msgid "Transmission Indirect"
-msgstr "Transformationsläge"
 
 
 msgid "Deliver transmission indirect pass"
@@ -33674,10 +33629,6 @@ msgstr "Markera Rad"
 
 msgid "Type of data to take shader from"
 msgstr "Bild Displist"
-
-
-msgid "Highlight"
-msgstr "Dela"
 
 
 msgid "Texture Type"
@@ -39191,14 +39142,6 @@ msgid "Video:"
 msgstr "Video:"
 
 
-msgid "Flip:"
-msgstr "Vänd:"
-
-
-msgid "Colors:"
-msgstr "Färger:"
-
-
 msgctxt "Operator"
 msgid "View all Sequences"
 msgstr "Visa alla sekvenser"
@@ -39245,18 +39188,8 @@ msgstr "Vänd:"
 
 
 msgctxt "Operator"
-msgid "Clip..."
-msgstr "Vänd:"
-
-
-msgctxt "Operator"
 msgid "Masks..."
 msgstr "Spara som"
-
-
-msgctxt "Operator"
-msgid "Mask..."
-msgstr "Maskera lager:"
 
 
 msgctxt "Operator"
@@ -39354,10 +39287,6 @@ msgid "Mute Deselected Strips"
 msgstr "Markera Länkad"
 
 
-msgid "Original Dimension: None"
-msgstr "Orig. dim."
-
-
 msgid "Path:"
 msgstr "Bana:"
 
@@ -39398,10 +39327,6 @@ msgstr "Sträck ut till ingående remsans längd"
 
 msgid "Frame number"
 msgstr "Spel"
-
-
-msgid "Cut To"
-msgstr "Klipp till"
 
 
 msgctxt "Operator"
@@ -39627,8 +39552,8 @@ msgid "Collection Rate"
 msgstr "Markera Länkad"
 
 
-msgid "Solid OpenGL lights:"
-msgstr "Höger"
+msgid "Colors:"
+msgstr "Färger:"
 
 
 msgid "Color Picker Type:"
@@ -40024,6 +39949,11 @@ msgstr "Enstaka ben"
 
 
 msgctxt "Operator"
+msgid "Camera"
+msgstr "Kamera"
+
+
+msgctxt "Operator"
 msgid "Empty"
 msgstr "Tomobjekt"
 
@@ -40031,11 +39961,6 @@ msgstr "Tomobjekt"
 msgctxt "Operator"
 msgid "Speaker"
 msgstr "Högtalare"
-
-
-msgctxt "Operator"
-msgid "Camera"
-msgstr "Kamera"
 
 
 msgctxt "Operator"
@@ -42700,14 +42625,6 @@ msgstr "Bild"
 
 msgid "ID value"
 msgstr "Värde"
-
-
-msgid "Reflect"
-msgstr "Markera Länkad"
-
-
-msgid "Refract"
-msgstr "Rensa Rotation"
 
 
 msgid "Dispersion"
