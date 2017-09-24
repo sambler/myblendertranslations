@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
+"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 12:51:46\n"
+"POT-Creation-Date: 2017-09-04 17:20:25\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Reininger <martinreininger@gmx.net>\n"
 "Language-Team: German translation team\n"
@@ -26345,10 +26345,6 @@ msgid "Move object origin to position of the 3D cursor"
 msgstr "Cursor zu Position bewegen"
 
 
-msgid "Origin to Center of Mass"
-msgstr "Massenzentrum"
-
-
 msgid "Clear the object's parenting"
 msgstr "Elternbeziehung zum Objekt entfernen"
 
@@ -30647,6 +30643,10 @@ msgid "Apply modifier's view settings"
 msgstr "Modifikatoren Anwenden (Vorschau Auflösung)"
 
 
+msgid "Texture Type"
+msgstr "Texturtyp"
+
+
 msgid "Include Armatures"
 msgstr "Skelett einschließen"
 
@@ -30659,24 +30659,12 @@ msgid "Export all children of selected objects (even if not selected)"
 msgstr "Alle Kinder von ausgewählten Objekten exportieren (selbst, wenn die Kinder nicht ausgewählt sind)"
 
 
-msgid "Include Material Textures"
-msgstr "Materialtexturen einschließen"
-
-
-msgid "Export textures assigned to the object Materials"
-msgstr "Text zentriert ausrichten"
-
-
 msgid "Include Shape Keys"
 msgstr "Formschlüssel einfügen"
 
 
 msgid "Export all Shape Keys from Mesh Objects"
 msgstr "Exportiere alle Formschlüssel von Mesh-Objekten"
-
-
-msgid "Include UV Textures"
-msgstr "Einschließlich UV-Texturen"
 
 
 msgid "Export only selected elements"
@@ -36863,10 +36851,6 @@ msgid "Use active Viewer Node output as backdrop for compositing nodes"
 msgstr "Aktive Ansichten-Knotenausgabe als Hintergrundkulisse für Kompositionsknoten verweden"
 
 
-msgid "Texture Type"
-msgstr "Texturtyp"
-
-
 msgid "Type of data to take texture from"
 msgstr "Datentyp, von dem Texturen genommen werden"
 
@@ -39823,10 +39807,6 @@ msgid "DPI"
 msgstr "DPI"
 
 
-msgid "Font size and resolution for display"
-msgstr "Schriftgröße und Anzeigeauflösung"
-
-
 msgid "Clip Alpha"
 msgstr "Alpha abschneiden"
 
@@ -40021,14 +40001,6 @@ msgstr "Text-Kantenglättung"
 
 msgid "Draw user interface text anti-aliased"
 msgstr "Text in der Benutzeroberfläche kantengeglättet zeichnen"
-
-
-msgid "Textured Fonts"
-msgstr "Texturierte Schriften"
-
-
-msgid "Use textures for drawing international fonts"
-msgstr "Texturen zum Zeichnen internationaler Schriftarten verwenden"
 
 
 msgid "Translate Interface"
@@ -44363,11 +44335,6 @@ msgstr "Ursprung zu Geometrie"
 msgctxt "Operator"
 msgid "Origin to 3D Cursor"
 msgstr "Ursprung zu 3D Cursor"
-
-
-msgctxt "Operator"
-msgid "Origin to Center of Mass"
-msgstr "Ursprung zum Mittelpunkt der Masse"
 
 
 msgctxt "Operator"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
+"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 12:51:46\n"
+"POT-Creation-Date: 2017-09-04 17:20:25\n"
 "PO-Revision-Date: 2016-04-23 22:41+0300\n"
 "Last-Translator: Yousef Harfoush <bat3a@msn.com>\n"
 "Language-Team: Yousef Harfoush, Amine Moussaoui <bat3a@msn.com>\n"
@@ -7220,10 +7220,6 @@ msgstr "ﺙﺪﺤﻟﺍ ﻥﺎﻣﺍ ﻒﺼﺘﻨﻣ ﺶﻣﺍﻮﻫ"
 
 msgid "Safe area for general elements in a different aspect ratio"
 msgstr "ﻉﻮّﻨﺘﻣ ﺐﺳﺎﻨﺗ ﻲﻓ ﺔﻣﺎﻌﻟﺍ ﺩﺍﻮﻤﻠﻟ ﺔﻨﻣﺁ ﺔﻘﻄﻨﻣ"
-
-
-msgid "Title Safe margins"
-msgstr "ﻥﺍﻮﻨﻌﻟﺍ ﻥﺎﻣﺍ ﺶﻣﺍﻮﻫ"
 
 
 msgid "Safe area for text and graphics"
@@ -38208,10 +38204,6 @@ msgid "Replace the current selection"
 msgstr "ﻲﻟﺎﺤﻟﺍ ﺭﺎﻴﺘﺧﻹ﻿ﺍ ﻝﺪّﺑ"
 
 
-msgid "Override"
-msgstr "ﻯﺪّﻌﺗ"
-
-
 msgctxt "Operator"
 msgid "Remove Gaps"
 msgstr "ﺕﺍﻮﺠﻔﻟﺍ ﻑﺬﺣﺍ"
@@ -39883,16 +39875,8 @@ msgid "Include Children"
 msgstr "ﻉﻭﺮﻔﻟﺍ ﻦﻤّﺿ"
 
 
-msgid "Include Material Textures"
-msgstr "ﺔﻣﺎﺨﻟﺍ ﺔﺠﺴﻧﺍ ﻦﻤّﺿ"
-
-
 msgid "Include Shape Keys"
 msgstr "ﻞﻜﺷ ﺡﺎﺘﻔﻣ ﻞﺧﺩﺇ"
-
-
-msgid "Include UV Textures"
-msgstr "UV ﺔﺠﺴﻧﺍ ﻦﻤّﺿ"
 
 
 msgid "Export only selected elements"
@@ -44229,10 +44213,6 @@ msgstr "(ﺔﻠﻣﺎﻜﻟﺍ-ﺕﺎﻨﻴﻌﻠﻟ ﻱﺭﻭﺮﺿ ،ﺓﺮﻛ
 
 msgid "Process the render (and composited) result through the video sequence editor pipeline, if sequencer strips exist"
 msgstr " ﻂﺋﺍﺮﺷ ﻪﺑ ﺕﺪﺟﺍﻮﺗ ﺍﺫﺇ ،ﻮﻳﺪﻴﻔﻟﺍ ﺕﻼ﻿ﺴﻠﺴﻣ ﺭﺮﺤﻣ ﺔﻠﺣﺮﻣ ﺮﺒﻋ (ﺐﻛﺮﻤﻟﺍﻭ) ﺮﻴﻴﺼﺘﻟﺍ ﺔﺠﻴﺘﻧ ﺔﺠﻟﺎﻌﻣ"
-
-
-msgid "Sequencer OpenGL"
-msgstr "OpenGL ﻞﺴِﻠﺴﻣ"
 
 
 msgid "Use Shading Nodes"
@@ -50528,10 +50508,6 @@ msgid "DPI"
 msgstr "DPI"
 
 
-msgid "Font size and resolution for display"
-msgstr "ﺽﺮﻌﻠﻟ ﺔﻗﺪﻟﺍ ﻭ ﻂﺨﻟﺍ ﻢﺠﺣ"
-
-
 msgid "Frame Server Port"
 msgstr "ﺮﻃﻷ﻿ﺍ ﻡﺩﺎﺧ ﺬﻔﻨﻣ"
 
@@ -50726,14 +50702,6 @@ msgstr "ﺺﻨﻠﻟ ﺭﻮﻠﺒﺘﻟﺍ ﺪﺿ"
 
 msgid "Draw user interface text anti-aliased"
 msgstr "ﺭﻮﻠﺒﺘﻟﺍ-ﺩﺎﻀﻤﺑ ﻡﺪﺨﺘﺴﻤﻟﺍ ﺔﻬﺟﺍﻭ ﺺﻧ ﻢﺳﺭﺃ"
-
-
-msgid "Textured Fonts"
-msgstr "ﺔﺠﺴﻧﺄﺑ ﻁﻮﻄﺧ"
-
-
-msgid "Use textures for drawing international fonts"
-msgstr " ﺔﻴﻤﻟﺎﻌﻟﺍ ﻁﻮﻄﺨﻟﺍ ﻢﺳﺮﻟ ﺔﺠﺴﻧﻷ﻿ﺍ ﻞﻤﻌﺘﺳﺇ"
 
 
 msgid "Translate Interface"
@@ -57425,10 +57393,6 @@ msgstr "ﻢﻤﻋ"
 msgctxt "Operator"
 msgid "Add To Library"
 msgstr "ﺔﺒﺘﻜﻤﻟﺍ ﻰﻟﺇ ﻒﺿﺃ"
-
-
-msgid "Painting Mode"
-msgstr "ﻢﺳﺮﻟﺍ ﻊﺿﻭ"
 
 
 msgid "Tiling:"

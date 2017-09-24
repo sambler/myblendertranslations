@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
+"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 12:51:46\n"
+"POT-Creation-Date: 2017-09-04 17:20:25\n"
 "PO-Revision-Date: 2012-09-07 22:32+0100\n"
 "Last-Translator: Nikola Radovanovic <cobisimo@gmail.com>\n"
 "Language-Team: Nikola Radovanovic\n"
@@ -22244,24 +22244,12 @@ msgid "Origin to Geometry"
 msgstr "Centar na geometriju"
 
 
-msgid "Move object origin to center of object geometry"
-msgstr "Premešta centar objekta na njegovo geometriju"
-
-
 msgid "Origin to 3D Cursor"
 msgstr "Centar na 3D kursor"
 
 
 msgid "Move object origin to position of the 3D cursor"
 msgstr "Premešta centar objekta na poziciju 3D kursora"
-
-
-msgid "Origin to Center of Mass"
-msgstr "Centar na težište"
-
-
-msgid "Move object origin to the object center of mass (assuming uniform density)"
-msgstr "Premešta centar objekta na njegovo težište"
 
 
 msgid "Clear the object's parenting"
@@ -26135,6 +26123,10 @@ msgid "Apply modifier's render settings"
 msgstr "Primeni podešavanja modifikatora za rendering"
 
 
+msgid "Texture Type"
+msgstr "Lice teksture"
+
+
 msgid "Include Armatures"
 msgstr "Uključi kostur"
 
@@ -26151,24 +26143,12 @@ msgid "Export all children of selected objects (even if not selected)"
 msgstr "Izvozi sve naslednike izabranog objekta (iako nisu izabrani)"
 
 
-msgid "Include Material Textures"
-msgstr "Uključi teksture materijala"
-
-
-msgid "Export textures assigned to the object Materials"
-msgstr "Izvozi teksture pridružene materijalima objekta"
-
-
 msgid "Include Shape Keys"
 msgstr "Uključi ključeve oblika"
 
 
 msgid "Export all Shape Keys from Mesh Objects"
 msgstr "Izvozi sve ključeve oblika meša"
-
-
-msgid "Include UV Textures"
-msgstr "Uključi UV teksture"
 
 
 msgid "Export only selected elements"
@@ -28648,10 +28628,6 @@ msgid "Process the render (and composited) result through the video sequence edi
 msgstr "Obradi rezultat renderovanja (i slaganja) kroz uređivač video isečaka, ako postoje trake sekvencera"
 
 
-msgid "Sequencer OpenGL"
-msgstr "Sekvencer OpenGL"
-
-
 msgid "Textured Solid"
 msgstr "Ispunjeno sa teksturama"
 
@@ -30994,10 +30970,6 @@ msgid "Use active Viewer Node output as backdrop for compositing nodes"
 msgstr "Koristi aktivni čvor izlaza za prikaz slaganja čvorova"
 
 
-msgid "Texture Type"
-msgstr "Lice teksture"
-
-
 msgid "Node tree type to display and edit"
 msgstr "Postavlja prikaz renderovanja u 3D pogledu"
 
@@ -33190,10 +33162,6 @@ msgid "DPI"
 msgstr "TPI"
 
 
-msgid "Font size and resolution for display"
-msgstr "Veličina slova i rezolucija prikaza"
-
-
 msgid "Clip Alpha"
 msgstr "Iseci alfu"
 
@@ -33290,14 +33258,6 @@ msgid "Draw user interface text anti-aliased"
 msgstr "Iscrtava umekšane ivice teksta u interfejsu"
 
 
-msgid "Textured Fonts"
-msgstr "Fontovi kao tekstura"
-
-
-msgid "Use textures for drawing international fonts"
-msgstr "Koristi teksture za iscrtavanje međunarodnih fontova"
-
-
 msgid "Translate Interface"
 msgstr "Prevodi okruženje"
 
@@ -33360,6 +33320,10 @@ msgstr "Umekšaj pogled"
 
 msgid "Only Seconds"
 msgstr "Samo sekunde"
+
+
+msgid "Thin"
+msgstr "Tanko"
 
 
 msgid "Auto Perspective"
@@ -35931,10 +35895,6 @@ msgid "Calibration"
 msgstr "Kalibracija"
 
 
-msgid "Thin"
-msgstr "Tanko"
-
-
 msgctxt "Operator"
 msgid "Clear After"
 msgstr "Očisti posle"
@@ -37482,11 +37442,6 @@ msgstr "Centar na geometriju"
 msgctxt "Operator"
 msgid "Origin to 3D Cursor"
 msgstr "Centar na 3D kursor"
-
-
-msgctxt "Operator"
-msgid "Origin to Center of Mass"
-msgstr "Centar na težište"
 
 
 msgctxt "Operator"

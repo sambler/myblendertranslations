@@ -1,16 +1,16 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
+"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 12:51:46\n"
-"PO-Revision-Date: 2015-05-10 14:41+0100\n"
-"Last-Translator: Piotr Arlukowicz <piotao@polskikursblendera.pl>\n"
+"POT-Creation-Date: 2017-09-04 17:20:25\n"
+"PO-Revision-Date: 2017-08-26 11:13+0200\n"
+"Last-Translator: Mikołaj Juda <mikolaj.juda@gmail.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "Language-Team: Polish Blender Course <piotao@polskikursblendera.pl>"
 
 
@@ -1932,12 +1932,20 @@ msgid "Set the objects visible (initialized from the object render restriction t
 msgstr "Ustawia widoczność obiektu (na podstawie ustawienia ograniczeń renderowania dostępnych w panelu fizyki)"
 
 
+msgid "Add-on"
+msgstr "Dodatek"
+
+
 msgid "Module"
 msgstr "Moduł"
 
 
 msgid "Module name"
 msgstr "Nazwa modułu"
+
+
+msgid "Password"
+msgstr "Hasło"
 
 
 msgid "Fribidi Library"
@@ -2002,6 +2010,10 @@ msgstr "Ścieżka do danych trwałych"
 
 msgid "The name of a json file storing those settings (unfortunately, Blender's system does not work here)"
 msgstr "Nazwa pliku json do przechowywania ustawień (niestety, system Blendera tutaj nie działa)"
+
+
+msgid "User Add-ons"
+msgstr "Dodatki Użytkownika"
 
 
 msgid "Animation Data"
@@ -2510,6 +2522,10 @@ msgstr "Pozycja Y"
 
 msgid "The window relative horizontal location of the area"
 msgstr "Względna pozycja pozioma obszaru w oknie"
+
+
+msgid "Active Bone"
+msgstr "Aktywna Kość"
 
 
 msgid "Background Image"
@@ -7097,10 +7113,6 @@ msgid "Safe area for general elements in a different aspect ratio"
 msgstr "Bezpieczny obszar dla ogólnie pojmowanych elementów o różnych proporcjach"
 
 
-msgid "Title Safe margins"
-msgstr "Bezpieczne marginesy tytułu"
-
-
 msgid "Safe area for text and graphics"
 msgstr "Bezpiecznie marginesy dla tekstu i grafiki"
 
@@ -8837,6 +8849,14 @@ msgid "Scaling (in time) of the noise"
 msgstr "Skalowanie (w czasie) szumu"
 
 
+msgid "Save"
+msgstr "Zapisz"
+
+
+msgid "Shading"
+msgstr "Cieniowanie"
+
+
 msgid "Particle"
 msgstr "Cząstka"
 
@@ -8861,8 +8881,24 @@ msgid "Paint Curve"
 msgstr "Krzywa graficzna"
 
 
+msgid "Rotate"
+msgstr "Obróć"
+
+
+msgid "Dimensions"
+msgstr "Wymiary"
+
+
 msgid "Font"
 msgstr "Czcionka"
+
+
+msgid "Use Nodes"
+msgstr "Używaj Węzłów"
+
+
+msgid "Flat"
+msgstr "Płaskie"
 
 
 msgid "Lattice"
@@ -8881,28 +8917,102 @@ msgid "World"
 msgstr "Świat"
 
 
+msgid "Filter"
+msgstr "Filtr"
+
+
 msgid "Window Manager"
 msgstr "Zarządca okien"
+
+
+msgid "Window"
+msgstr "Okno"
 
 
 msgid "ID Type"
 msgstr "Typ ID"
 
 
+msgid "Transform"
+msgstr "Transformuj"
+
+
+msgid "Delete"
+msgstr "Usuń"
+
+
 msgid "Key"
 msgstr "Klucz"
+
+
+msgid "External Data"
+msgstr "Zewnętrzne Dane"
+
+
+msgid "Edit"
+msgstr "Edytuj"
+
+
+msgid "Distort"
+msgstr "Zniekształć"
 
 
 msgid "GPencil"
 msgstr "Szkicownik"
 
 
+msgid "Overwrite"
+msgstr "Nadpisz"
+
+
+msgid "Smooth Shading"
+msgstr "Gładkie Cieniowanie"
+
+
+msgid "Fixed"
+msgstr "Stałe"
+
+
 msgid "Active Track"
 msgstr "Aktywna Ścieżka"
 
 
+msgid "Pixelate"
+msgstr "Pikselizacja"
+
+
+msgid "Translate"
+msgstr "Przesuń"
+
+
+msgctxt "Operator"
+msgid "Duplicate"
+msgstr "Duplikuj"
+
+
+msgid "Translate (move) selected items"
+msgstr "Przesuń zaznaczone obiekty"
+
+
+msgid "History"
+msgstr "Historia"
+
+
+msgctxt "Operator"
+msgid "Smooth"
+msgstr "Gładkie"
+
+
 msgid "Null"
 msgstr "Żaden"
+
+
+msgid "Open"
+msgstr "Otwórz"
+
+
+msgid "Flat/Smooth"
+msgstr "Płaskie/Gładkie"
 
 
 msgid "Add a constraint to the active object"
@@ -8913,12 +9023,114 @@ msgid "Clear all the constraints for the active Object only"
 msgstr "Usuń ograniczniki tylko z aktywnego obiektu"
 
 
+msgid "Delete selected objects"
+msgstr "Usuń zaznaczone obiekty"
+
+
+msgid "Duplicate selected objects and move them"
+msgstr "Duplikuj zaznaczone obiekty i przesuń je"
+
+
+msgid "New"
+msgstr "Nowy"
+
+
+msgctxt "Operator"
+msgid "Save As"
+msgstr "Zapisz jako"
+
+
+msgctxt "Operator"
+msgid "Rotate"
+msgstr "Obróć"
+
+
+msgid "Rotate selected items"
+msgstr "Obróć zaznaczone obiekty"
+
+
+msgctxt "Operator"
+msgid "Translate"
+msgstr "Przesuń"
+
+
+msgctxt "Operator"
+msgid "Load Factory Settings"
+msgstr "Załaduj Ustawienia Fabryczne"
+
+
+msgctxt "Operator"
+msgid "Recover Auto Save"
+msgstr "Odzyskaj Zapis Automatyczny"
+
+
+msgctxt "Operator"
+msgid "Recover Last Session"
+msgstr "Odzyskaj ostatnią sesję"
+
+
+msgid "Save Copy"
+msgstr "Zapisz Kopię"
+
+
 msgid "Palette"
 msgstr "Paleta"
 
 
+msgid "Performance"
+msgstr "Wydajność"
+
+
+msgid "Auto-detect"
+msgstr "Automatyczne wykrywanie"
+
+
+msgid "Threads:"
+msgstr "Wątki:"
+
+
+msgctxt "Operator"
+msgid "Remove"
+msgstr "Usuń"
+
+
+msgid "Resolution:"
+msgstr "Rozdzielczość:"
+
+
+msgctxt "Operator"
+msgid "Scale"
+msgstr "Skaluj"
+
+
+msgid "Shading:"
+msgstr "Cieniowanie:"
+
+
 msgid "Speed:"
 msgstr "Prędkość:"
+
+
+msgid "Aspect Ratio:"
+msgstr "Format Obrazu:"
+
+
+msgid "Frame Range:"
+msgstr "Zakres Klatek:"
+
+
+msgid "Memory:"
+msgstr "Pamięć:"
+
+
+msgctxt "Operator"
+msgid "Quit"
+msgstr "Wyjdź"
+
+
+msgctxt "Operator"
+msgid "Flat"
+msgstr "Płaskie"
 
 
 msgid "Null cloth object"

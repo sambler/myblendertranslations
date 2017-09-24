@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
+"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 12:51:46\n"
+"POT-Creation-Date: 2017-09-04 17:20:25\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Santiago Lizardo <santiago.lizardo@gmail.com>\n"
 "Language-Team: Blender Català (http://www.blender.cat)\n"
@@ -20454,10 +20454,6 @@ msgid "Move object origin to position of the 3D cursor"
 msgstr "Seleccionar connectats"
 
 
-msgid "Origin to Center of Mass"
-msgstr "Seleccionar connectats"
-
-
 msgid "Clear the object's parenting"
 msgstr "Duplicar"
 
@@ -24552,6 +24548,10 @@ msgid "Apply modifier's render settings"
 msgstr "Seleccionar connectats"
 
 
+msgid "Texture Type"
+msgstr "Texte"
+
+
 msgid "Include Armatures"
 msgstr "Calcular Tangents"
 
@@ -24564,20 +24564,8 @@ msgid "Export all children of selected objects (even if not selected)"
 msgstr "Seleccionar connectats"
 
 
-msgid "Include Material Textures"
-msgstr "Calcular Tangents"
-
-
-msgid "Export textures assigned to the object Materials"
-msgstr "Amagar Seleccionats"
-
-
 msgid "Include Shape Keys"
 msgstr "Desparentar"
-
-
-msgid "Include UV Textures"
-msgstr "Esfera UV"
 
 
 msgid "Export only selected elements"
@@ -29215,10 +29203,6 @@ msgid "Type of data to take shader from"
 msgstr "Image Displist"
 
 
-msgid "Texture Type"
-msgstr "Texte"
-
-
 msgid "Auto Render"
 msgstr "Render"
 
@@ -31597,10 +31581,6 @@ msgstr "Mostrar propietats de les arestes"
 
 msgid "Region Overlap"
 msgstr "Mode d'Edició"
-
-
-msgid "Textured Fonts"
-msgstr "Texte"
 
 
 msgid "Translate Interface"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
+"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 12:51:46\n"
+"POT-Creation-Date: 2017-09-04 17:20:25\n"
 "PO-Revision-Date: 2016-06-26 13:26+0000\n"
 "Last-Translator: Lockal S <lockalsash@gmail.com>\n"
 "Language-Team: Russian <https://translateblender.ru/projects/blender/blender/ru/>\n"
@@ -7522,10 +7522,6 @@ msgstr "Отступы центрального действия"
 
 msgid "Safe area for general elements in a different aspect ratio"
 msgstr "Безопасная область для основных элементов при другом соотношении сторон"
-
-
-msgid "Title Safe margins"
-msgstr "Отступы для заголовка"
 
 
 msgid "Safe area for text and graphics"
@@ -47702,24 +47698,12 @@ msgid "Origin to Geometry"
 msgstr "Опорную точку к объекту"
 
 
-msgid "Move object origin to center of object geometry"
-msgstr "Переместить опорную точку объекта в центр геометрии объекта"
-
-
 msgid "Origin to 3D Cursor"
 msgstr "Опорную точку к 3D-курсору"
 
 
 msgid "Move object origin to position of the 3D cursor"
 msgstr "Переместить опорную точку объекта на место 3D-курсора"
-
-
-msgid "Origin to Center of Mass"
-msgstr "Опорная точка в центр масс"
-
-
-msgid "Move object origin to the object center of mass (assuming uniform density)"
-msgstr "Переместить опорную точку объекта в его центр масс (плотность считается равномерной)"
 
 
 msgid "Clear the object's parenting"
@@ -52278,10 +52262,6 @@ msgid "Enable selected proxies on all selected Movie strips"
 msgstr "Включить выделенные прокси для всех выделенных лент видео"
 
 
-msgid "Override"
-msgstr "Переопределить"
-
-
 msgctxt "Operator"
 msgid "Insert Gaps"
 msgstr "Вставить разрыв"
@@ -55817,6 +55797,10 @@ msgid "Apply modifier's render settings"
 msgstr "Применить настройки визуализации модификаторов"
 
 
+msgid "Texture Type"
+msgstr "Тип текстуры"
+
+
 msgid "Transformation type for translation, scale and rotation"
 msgstr "Тип преобразования для переноса, масштабирования и вращения"
 
@@ -55849,28 +55833,12 @@ msgid "Export all children of selected objects (even if not selected)"
 msgstr "Экспортировать всех потомков выделенных объектов (даже если они не выделены)"
 
 
-msgid "Include Material Textures"
-msgstr "Включить текстуры материалов"
-
-
-msgid "Export textures assigned to the object Materials"
-msgstr "Экспортировать текстуры, назначенные материалам объектов"
-
-
 msgid "Include Shape Keys"
 msgstr "Включить ключи формы"
 
 
 msgid "Export all Shape Keys from Mesh Objects"
 msgstr "Экспортировать все ключи формы полисеточных объектов"
-
-
-msgid "Include UV Textures"
-msgstr "Включить UV-текстуры"
-
-
-msgid "Export textures assigned to the object UV Maps"
-msgstr "Экспортировать текстуры, назначенные на UV-карты объекта"
 
 
 msgid "Export to SL/OpenSim"
@@ -61865,10 +61833,6 @@ msgid "Process the render (and composited) result through the video sequence edi
 msgstr "Обработать результат визуализации (и композитинга) конвейером редактора видеоряда (секвенсора), если в нём есть ленты"
 
 
-msgid "Sequencer OpenGL"
-msgstr "OpenGL-секвенсор"
-
-
 msgid "Textured Solid"
 msgstr "Тело с текстурой"
 
@@ -67511,10 +67475,6 @@ msgid "Use active Viewer Node output as backdrop for compositing nodes"
 msgstr "Использовать активный узел просмотра в качестве фона для узлов композитинга"
 
 
-msgid "Texture Type"
-msgstr "Тип текстуры"
-
-
 msgid "Type of data to take texture from"
 msgstr "Тип данных, с которого берётся текстура"
 
@@ -72847,10 +72807,6 @@ msgid "DPI"
 msgstr "DPI (Точек на дюйм)"
 
 
-msgid "Font size and resolution for display"
-msgstr "Размер шрифта и разрешение для дисплея"
-
-
 msgid "Interface Font"
 msgstr "Шрифт интерфейса"
 
@@ -73105,14 +73061,6 @@ msgstr "Сглаживать текст"
 
 msgid "Draw user interface text anti-aliased"
 msgstr "Отображать текст пользовательского интерфейса со сглаживанием"
-
-
-msgid "Textured Fonts"
-msgstr "Текстурированные шрифты"
-
-
-msgid "Use textures for drawing international fonts"
-msgstr "Использовать текстуры для прорисовки локальных шрифтов"
 
 
 msgid "Translate Interface"
@@ -73437,6 +73385,10 @@ msgstr "Только секунды"
 
 msgid "Direct conversion of frame numbers to seconds"
 msgstr "Прямое преобразование номеров кадров в секунды"
+
+
+msgid "Thin"
+msgstr "Тонкие"
 
 
 msgid "Auto Perspective"
@@ -77773,10 +77725,6 @@ msgid "Calibration"
 msgstr "Калибровка"
 
 
-msgid "Thin"
-msgstr "Тонкие"
-
-
 msgid "Build Original:"
 msgstr "Построение оригинала:"
 
@@ -80005,11 +79953,6 @@ msgstr "Опорную точку к 3D-курсору"
 
 
 msgctxt "Operator"
-msgid "Origin to Center of Mass"
-msgstr "Опорная точка в центр масс"
-
-
-msgctxt "Operator"
 msgid "X Local"
 msgstr "X (локально)"
 
@@ -80785,10 +80728,6 @@ msgid "Add To Library"
 msgstr "Добавить в библиотеку"
 
 
-msgid "Painting Mode"
-msgstr "Режим рисования"
-
-
 msgid "Show Zero Weights:"
 msgstr "Показать нулевые веса:"
 
@@ -80936,14 +80875,6 @@ msgstr "Добавить слот рисования"
 
 msgid "Front Faces Only"
 msgstr "Только передние грани"
-
-
-msgid "Available Paint Slots"
-msgstr "Доступные слоты рисования"
-
-
-msgid "Canvas Image"
-msgstr "Изображение холста"
 
 
 msgid "Missing Canvas"

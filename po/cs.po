@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
+"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 12:51:46\n"
+"POT-Creation-Date: 2017-09-04 17:20:25\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Tabačan <tabycz@gmail.com>\n"
 "Language-Team: Taby <tabycz@gmail.com>\n"
@@ -25353,24 +25353,12 @@ msgid "Origin to Geometry"
 msgstr "Středový bod ke geometrii"
 
 
-msgid "Move object origin to center of object geometry"
-msgstr "Přesune středový bod objektu do středu geometrie objektu"
-
-
 msgid "Origin to 3D Cursor"
 msgstr "Středový bod na 3D kurzor"
 
 
 msgid "Move object origin to position of the 3D cursor"
 msgstr "Přesunout středový bod objektu na umístění 3D kurzoru"
-
-
-msgid "Origin to Center of Mass"
-msgstr "Vzbrat vše podle typu"
-
-
-msgid "Move object origin to the object center of mass (assuming uniform density)"
-msgstr "Přesune středový bod objektu do středu geometrie objektu"
 
 
 msgid "Clear the object's parenting"
@@ -30438,6 +30426,10 @@ msgid "Apply modifier's render settings"
 msgstr "Před kreslením aplikovat normály vertexů"
 
 
+msgid "Texture Type"
+msgstr "Textura: "
+
+
 msgid "Include Armatures"
 msgstr "Auto Úchop"
 
@@ -30450,20 +30442,8 @@ msgid "Export all children of selected objects (even if not selected)"
 msgstr "Konvertuje označené trojúhlníky na čtyřúhelníky"
 
 
-msgid "Include Material Textures"
-msgstr "Auto Úchop"
-
-
-msgid "Export textures assigned to the object Materials"
-msgstr "Definuje vyplnění MetaElementů"
-
-
 msgid "Include Shape Keys"
 msgstr "Následující klíč pro tvar"
-
-
-msgid "Include UV Textures"
-msgstr "UV textura: "
 
 
 msgid "Export only selected elements"
@@ -33577,10 +33557,6 @@ msgid "Save Buffers"
 msgstr "Vložit barvu z bufferu"
 
 
-msgid "Sequencer OpenGL"
-msgstr "Sekvence "
-
-
 msgid "Textured Solid"
 msgstr "Texturovaný "
 
@@ -36195,10 +36171,6 @@ msgstr "Získá koordináty textury z dalšího meshe."
 
 msgid "Edit shader nodes from World"
 msgstr "Získá koordináty textury z dalšího meshe."
-
-
-msgid "Texture Type"
-msgstr "Textura: "
 
 
 msgid "Edit texture nodes from Brush"
@@ -39071,10 +39043,6 @@ msgstr "Překrýt "
 
 msgid "Auto Run Python Scripts"
 msgstr "Spustit Python skript"
-
-
-msgid "Textured Fonts"
-msgstr "Obrázkové fonty"
 
 
 msgid "Translate Interface"

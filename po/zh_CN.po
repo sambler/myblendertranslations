@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.78 (sub 5) (b'794311c92bb')\n"
+"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-16 12:51:46\n"
+"POT-Creation-Date: 2017-09-04 17:20:25\n"
 "PO-Revision-Date: \n"
 "Last-Translator: congcong009 <congcong009@gmail.com>\n"
 "Language-Team: \n"
@@ -7002,10 +7002,6 @@ msgstr "安全区"
 
 msgid "Action Safe Margins"
 msgstr "操作安全框"
-
-
-msgid "Title Safe margins"
-msgstr "标题安全框"
 
 
 msgid "Settings for filtering the channels shown in animation editors"
@@ -42536,24 +42532,12 @@ msgid "Origin to Geometry"
 msgstr "原点 -> 几何中心"
 
 
-msgid "Move object origin to center of object geometry"
-msgstr "将物体的原点移动到几何中心点"
-
-
 msgid "Origin to 3D Cursor"
 msgstr "原点 -> 3D 游标"
 
 
 msgid "Move object origin to position of the 3D cursor"
 msgstr "将物体的原点移动到 3D 游标位置"
-
-
-msgid "Origin to Center of Mass"
-msgstr "原点 -> 质心"
-
-
-msgid "Move object origin to the object center of mass (assuming uniform density)"
-msgstr "将物体的原点移动到物体质心 (假设密度均匀)"
 
 
 msgid "Clear the object's parenting"
@@ -46568,10 +46552,6 @@ msgid "Replace the current selection"
 msgstr "替换当前所选"
 
 
-msgid "Override"
-msgstr "覆盖"
-
-
 msgctxt "Operator"
 msgid "Insert Gaps"
 msgstr "插入间隙"
@@ -49880,6 +49860,10 @@ msgid "Apply modifier's render settings"
 msgstr "应用修改器的渲染设置"
 
 
+msgid "Texture Type"
+msgstr "纹理类型"
+
+
 msgid "Transformation type for translation, scale and rotation"
 msgstr "用于移动, 缩放及旋转的变换操作类型"
 
@@ -49912,24 +49896,12 @@ msgid "Export all children of selected objects (even if not selected)"
 msgstr "导出选定物体的全部子物体(即使没有选择)"
 
 
-msgid "Include Material Textures"
-msgstr "包括材质贴图"
-
-
-msgid "Export textures assigned to the object Materials"
-msgstr "导出指定给物体材质的纹理"
-
-
 msgid "Include Shape Keys"
 msgstr "包含形态键"
 
 
 msgid "Export all Shape Keys from Mesh Objects"
 msgstr "从网格物体中导出所有的形态键"
-
-
-msgid "Include UV Textures"
-msgstr "包括 UV 贴图"
 
 
 msgid "Export only selected elements"
@@ -55337,10 +55309,6 @@ msgid "Process the render (and composited) result through the video sequence edi
 msgstr "将渲染(合成)结果导入至序列编辑器, 需事先开启序列编辑"
 
 
-msgid "Sequencer OpenGL"
-msgstr "序列OpenGL"
-
-
 msgid "Textured Solid"
 msgstr "实色纹理"
 
@@ -60720,10 +60688,6 @@ msgid "Use active Viewer Node output as backdrop for compositing nodes"
 msgstr "在背景上显示激活的视图节点输出"
 
 
-msgid "Texture Type"
-msgstr "纹理类型"
-
-
 msgid "Type of data to take texture from"
 msgstr "调用纹理的数据类型"
 
@@ -65720,10 +65684,6 @@ msgid "DPI"
 msgstr "DPI"
 
 
-msgid "Font size and resolution for display"
-msgstr "字体的显示大小和分辨率"
-
-
 msgid "Interface Font"
 msgstr "界面字体"
 
@@ -65962,14 +65922,6 @@ msgstr "文本抗锯齿"
 
 msgid "Draw user interface text anti-aliased"
 msgstr "使用抗锯齿来绘制用户界面上的文本"
-
-
-msgid "Textured Fonts"
-msgstr "纹理字体"
-
-
-msgid "Use textures for drawing international fonts"
-msgstr "使用纹理来绘制内置的字体"
 
 
 msgid "Translate Interface"
@@ -66262,6 +66214,10 @@ msgstr "仅显示秒"
 
 msgid "Direct conversion of frame numbers to seconds"
 msgstr "将帧数转换为秒数"
+
+
+msgid "Thin"
+msgstr "细"
 
 
 msgid "Auto Perspective"
@@ -70294,10 +70250,6 @@ msgid "Calibration"
 msgstr "校准"
 
 
-msgid "Thin"
-msgstr "细"
-
-
 msgid "Build Original:"
 msgstr "建立原始项:"
 
@@ -72413,11 +72365,6 @@ msgstr "原点 -> 3D 游标"
 
 
 msgctxt "Operator"
-msgid "Origin to Center of Mass"
-msgstr "原点 -> 质心"
-
-
-msgctxt "Operator"
 msgid "X Local"
 msgstr "自身 X 轴"
 
@@ -73171,10 +73118,6 @@ msgstr "姿态:"
 msgctxt "Operator"
 msgid "Add To Library"
 msgstr "添加到库"
-
-
-msgid "Painting Mode"
-msgstr "绘画模式"
 
 
 msgid "Show Zero Weights:"
