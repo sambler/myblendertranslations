@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
+"Project-Id-Version: Blender 2.79 (sub 2) (b'6618852b7f1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-04 17:20:25\n"
+"POT-Creation-Date: 2018-02-23 10:49:02\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Martin Tabačan <tabycz@gmail.com>\n"
 "Language-Team: Taby <tabycz@gmail.com>\n"
@@ -2353,11 +2353,11 @@ msgid "Volume"
 msgstr "Objem"
 
 
-msgid "B-Bone Ease In"
+msgid "Ease In"
 msgstr "Smazat "
 
 
-msgid "B-Bone Ease Out"
+msgid "Ease Out"
 msgstr "Smazat "
 
 
@@ -6646,14 +6646,6 @@ msgid "Strokes"
 msgstr "Vzorkovat:"
 
 
-msgid "Ease In"
-msgstr "Smazat "
-
-
-msgid "Ease Out"
-msgstr "Smazat "
-
-
 msgid "Custom"
 msgstr "Uživatelské"
 
@@ -7796,6 +7788,10 @@ msgstr "Načíst tento soubor"
 
 msgid "Forward"
 msgstr "Dopředu:"
+
+
+msgid "Frame Offset"
+msgstr "Kompenzace:"
 
 
 msgid "Sequence"
@@ -9772,10 +9768,6 @@ msgstr "Invertovat"
 
 msgid "Filename of the movie or sequence file"
 msgstr "Jméno skriptu"
-
-
-msgid "Frame Offset"
-msgstr "Kompenzace:"
 
 
 msgid "Grease pencil data for this movie clip"
@@ -12359,10 +12351,6 @@ msgid "Log"
 msgstr "Logika"
 
 
-msgid "Cinema"
-msgstr "Uložit Cineon"
-
-
 msgid "When rendering animations, save JPG preview images in same directory"
 msgstr "Při renderování animace ukládat náhledy obrázků JPG ve stejném adresáři"
 
@@ -13512,10 +13500,6 @@ msgid "Effect Strip"
 msgstr "NLA Proužky"
 
 
-msgid "Change"
-msgstr "Znak"
-
-
 msgid "Strip"
 msgstr "NLA Proužky"
 
@@ -13592,12 +13576,12 @@ msgid "Interpolate"
 msgstr "Mód Interpolace"
 
 
-msgid "Clean up"
-msgstr "Vyčistit"
-
-
 msgid "Normals"
 msgstr "Normály"
+
+
+msgid "Select Linked"
+msgstr "Vybrat Propojené"
 
 
 msgid "Mesh Select Mode"
@@ -13632,6 +13616,10 @@ msgid "Quick Effects"
 msgstr "Rychlé efekty"
 
 
+msgid "Relations"
+msgstr "Jemnost dělení"
+
+
 msgid "Propagate"
 msgstr "Vložit"
 
@@ -13646,6 +13634,10 @@ msgstr "Tesat"
 
 msgid "Clone Layer"
 msgstr "Vyberte renderovanou vrstvu"
+
+
+msgid "Undo/Redo"
+msgstr "Zpět/Znovu"
 
 
 msgid "UV Mapping"
@@ -17208,6 +17200,10 @@ msgid "Combine RGB"
 msgstr "Kužel"
 
 
+msgid "Object Space"
+msgstr "Objekt"
+
+
 msgid "Extended Material"
 msgstr "Aktivovat materiálové uzly"
 
@@ -17266,10 +17262,6 @@ msgstr "Nastaví umístění 3D kurzoru"
 
 msgid "Tangent Space"
 msgstr "Prostor textury"
-
-
-msgid "Object Space"
-msgstr "Objekt"
 
 
 msgid "Object space normal mapping"
@@ -17909,8 +17901,12 @@ msgid "Axis Range"
 msgstr "Rozsah os"
 
 
-msgid "Gesture Mode"
-msgstr "Pózy kostí"
+msgid "Deselect"
+msgstr "Odznačit"
+
+
+msgid "Deselect rather than select items"
+msgstr "Označí neoznačené plošky a zruší označení označených plošek"
 
 
 msgid "X Max"
@@ -17932,10 +17928,6 @@ msgstr "Y Min"
 msgctxt "Operator"
 msgid "Circle Select"
 msgstr "Kruhový výběr"
-
-
-msgid "Event Type"
-msgstr "Typ textury"
 
 
 msgid "Select all keyframes on the specified frame(s)"
@@ -17961,14 +17953,6 @@ msgstr "Mezi Vybranými Značkami"
 msgctxt "Operator"
 msgid "Lasso Select"
 msgstr "Volný výběr"
-
-
-msgid "Deselect"
-msgstr "Odznačit"
-
-
-msgid "Deselect rather than select items"
-msgstr "Označí neoznačené plošky a zruší označení označených plošek"
 
 
 msgctxt "Operator"
@@ -20099,10 +20083,6 @@ msgstr "Nastavit poloměr "
 msgctxt "Operator"
 msgid "Reveal Hidden"
 msgstr "Odkryje označené plošky"
-
-
-msgid "Show again hidden control points"
-msgstr "Vyrovná úhly označených plošek"
 
 
 msgid "(De)select all control points"
@@ -23452,10 +23432,6 @@ msgid "Deselect vertices, edges or faces at the boundary of each selection regio
 msgstr "Vybrané vertexy již tvoří plošku"
 
 
-msgid "Select all vertices linked to the active mesh"
-msgstr "Vybrané vertexy náleží do aktuální skupiny vertexů"
-
-
 msgid "(De)select all vertices linked to the edge under the mouse cursor"
 msgstr "Vybrané vertexy náleží do aktuální skupiny vertexů"
 
@@ -23529,10 +23505,6 @@ msgstr "Materiál"
 msgctxt "Operator"
 msgid "Shape Propagate"
 msgstr "Vložit"
-
-
-msgid "Selected vertex path between two vertices"
-msgstr "Odstranit aktuální skript link"
 
 
 msgctxt "Operator"
@@ -26229,10 +26201,6 @@ msgid "Unhide"
 msgstr "Odkrýt"
 
 
-msgid "Select Linked"
-msgstr "Vybrat Propojené"
-
-
 msgctxt "Operator"
 msgid "Add Drivers for Selected"
 msgstr "Skrýt označené"
@@ -27744,11 +27712,6 @@ msgstr "Určuje počáteční frame vlny"
 msgctxt "Operator"
 msgid "Frame Offset"
 msgstr "Kompenzace:"
-
-
-msgctxt "Operator"
-msgid "Flip Header Region"
-msgstr "Smyčka do oblasti"
 
 
 msgctxt "Operator"
@@ -29884,14 +29847,6 @@ msgid "Dolly View"
 msgstr "Posunout uzel"
 
 
-msgid "Zoom Position X"
-msgstr "Mezipauza"
-
-
-msgid "Zoom Position Y"
-msgstr "Mezipauza"
-
-
 msgctxt "Operator"
 msgid "Extrude Individual and Move"
 msgstr "Vytáhnout jednotlivé a posunout"
@@ -30936,10 +30891,6 @@ msgid "Animation Playback"
 msgstr "Přehrání animace"
 
 
-msgid "Undo/Redo"
-msgstr "Zpět/Znovu"
-
-
 msgctxt "Operator"
 msgid "Save As Blender File"
 msgstr "Uložit jako Blender soubor"
@@ -31157,16 +31108,8 @@ msgid "Restrict"
 msgstr "Restart"
 
 
-msgid "Apply the vertex normal before painting"
-msgstr "Před kreslením aplikovat normály vertexů"
-
-
 msgid "Bone Constraints"
 msgstr "Vazby kostí"
-
-
-msgid "Relations"
-msgstr "Jemnost dělení"
 
 
 msgid "Transform Locks"
@@ -31195,6 +31138,10 @@ msgstr "Zobrazit"
 
 msgid "2D Stabilization"
 msgstr "Fyzika "
+
+
+msgid "Clean up"
+msgstr "Vyčistit"
 
 
 msgid "Mask Tools"
@@ -31297,6 +31244,14 @@ msgid "Appearance"
 msgstr "Přidat"
 
 
+msgid "UV Sculpt"
+msgstr "Tesat"
+
+
+msgid "UV Sculpt Curve"
+msgstr "Znovu nastavit křivku"
+
+
 msgid "Histogram"
 msgstr "Historie vracení"
 
@@ -31307,14 +31262,6 @@ msgstr "Vektor"
 
 msgid "Waveform"
 msgstr "Orientace manipulátorů (Klávesová zkratka: Alt Space)"
-
-
-msgid "UV Sculpt"
-msgstr "Tesat"
-
-
-msgid "UV Sculpt Curve"
-msgstr "Znovu nastavit křivku"
 
 
 msgid "Render Pipeline Options"
@@ -32773,10 +32720,6 @@ msgid "Number of mesh emission light samples to render for each AA sample"
 msgstr "Počet snímků renderovaných předem během přehrávání"
 
 
-msgid "Min Bounces"
-msgstr "Zvukÿ: "
-
-
 msgid "Number of antialiasing samples to render in the viewport, unlimited if 0"
 msgstr "Počet dělení plošek v 3D pohledu"
 
@@ -32846,10 +32789,6 @@ msgstr "Počet snímků renderovaných předem během přehrávání"
 
 
 msgid "Transparent Max Bounces"
-msgstr "Průhlednost"
-
-
-msgid "Transparent Min Bounces"
 msgstr "Průhlednost"
 
 
@@ -33379,10 +33318,6 @@ msgstr "Formát"
 
 msgid "Motion Samples"
 msgstr "Začátek akce:"
-
-
-msgid "Time taken in frames between shutter open and close"
-msgstr "Zde se nastavuje rozdíl rozsahu rámečků Přízraku"
 
 
 msgid "Octree Resolution"
@@ -34863,14 +34798,6 @@ msgstr "Filtr skriptů"
 
 msgid "Wipe direction"
 msgstr "Překlopit směr"
-
-
-msgid "Transition Type"
-msgstr "Překlad"
-
-
-msgid "Clock"
-msgstr "Blok"
 
 
 msgid "Mask Sequence"
@@ -39377,10 +39304,6 @@ msgid "Tiles:"
 msgstr "Dlaždice:"
 
 
-msgid "Viewport:"
-msgstr "Exportovat"
-
-
 msgid "Final Render:"
 msgstr "Plný render"
 
@@ -39409,6 +39332,14 @@ msgid "Transmission:"
 msgstr "Překlad"
 
 
+msgid "Volume:"
+msgstr "Objem: "
+
+
+msgid "Viewport:"
+msgstr "Exportovat"
+
+
 msgid "Aperture:"
 msgstr "Kostra:"
 
@@ -39417,8 +39348,16 @@ msgid "Surface:"
 msgstr "Povrch:"
 
 
-msgid "Volume:"
-msgstr "Objem: "
+msgid "Geometry:"
+msgstr "Geometrie:"
+
+
+msgid "Color:"
+msgstr "Barva:"
+
+
+msgid "Alpha:"
+msgstr "Alfa:"
 
 
 msgid "Projection:"
@@ -40066,10 +40005,6 @@ msgstr "Obrázkové fonty"
 
 msgid "Sharp Edges"
 msgstr "Ostré hrany..."
-
-
-msgid "Vertex group:"
-msgstr "Skupina vertexů"
 
 
 msgctxt "Operator"
@@ -40724,10 +40659,6 @@ msgid "Initial Orientation:"
 msgstr "Orientace plošky:"
 
 
-msgid "Color:"
-msgstr "Barva:"
-
-
 msgid "Effects:"
 msgstr "Efekty:"
 
@@ -40793,16 +40724,8 @@ msgid "Jittering Amount"
 msgstr "Skrýt skryté soubory"
 
 
-msgid "Fluid properties:"
-msgstr "Vlastnosti..."
-
-
 msgid "Relations:"
 msgstr "Jemnost dělení"
-
-
-msgid "Length in frames"
-msgstr "Označit vrstvu"
 
 
 msgid "available with"
@@ -40828,10 +40751,6 @@ msgstr "Limity"
 
 msgid "Misc:"
 msgstr "Různé:"
-
-
-msgid "Fluid interaction:"
-msgstr "Font rozhraní:  "
 
 
 msgid "Springs:"
@@ -40969,16 +40888,8 @@ msgid "Surface Movement:"
 msgstr "Povrch:"
 
 
-msgid "Particle effect:"
-msgstr "Mřížka"
-
-
 msgid "Use Particle's Radius"
 msgstr "Nastavit poloměr "
-
-
-msgid "Smooth radius"
-msgstr "Font rozhraní:  "
 
 
 msgctxt "Operator"
@@ -41215,18 +41126,6 @@ msgid "Seq. Strip"
 msgstr "NLA Proužky"
 
 
-msgid "Rate:"
-msgstr "Frekvence "
-
-
-msgid "Buffer"
-msgstr "Z-Buffer"
-
-
-msgid "Packet Size"
-msgstr "Přibalit obrázek"
-
-
 msgctxt "Operator"
 msgid "Animation"
 msgstr "Animace"
@@ -41240,8 +41139,16 @@ msgid "Sequencer:"
 msgstr "Sekvence "
 
 
-msgid "Video Codec"
-msgstr "Video kodek"
+msgid "Rate:"
+msgstr "Frekvence "
+
+
+msgid "Buffer"
+msgstr "Z-Buffer"
+
+
+msgid "Packet Size"
+msgstr "Přibalit obrázek"
 
 
 msgid "Include:"
@@ -41295,10 +41202,6 @@ msgstr "Multivrstva"
 
 msgid "Noise:"
 msgstr "Šum"
-
-
-msgid "Alpha:"
-msgstr "Alfa:"
 
 
 msgid "Calculate"
@@ -41361,10 +41264,6 @@ msgid "System:"
 msgstr "Systém:"
 
 
-msgid "Geometry:"
-msgstr "Geometrie:"
-
-
 msgid "Physics:"
 msgstr "Fyzika"
 
@@ -41406,10 +41305,6 @@ msgstr "Renderovvat animaci"
 msgctxt "Operator"
 msgid "Build Proxy"
 msgstr "Přiřadit rodiče..."
-
-
-msgid "Proxy render size:"
-msgstr "Nastavit okraje renderování"
 
 
 msgctxt "Operator"
@@ -41487,11 +41382,6 @@ msgstr "Vybrat řádek"
 msgctxt "Operator"
 msgid "Enable Markers"
 msgstr "Povolit značky"
-
-
-msgctxt "Operator"
-msgid "Disable markers"
-msgstr "Zakázat značky"
 
 
 msgctxt "Operator"
@@ -41898,11 +41788,6 @@ msgstr "Hledat"
 
 
 msgctxt "Operator"
-msgid "Join in new Frame"
-msgstr "Poslední frame"
-
-
-msgctxt "Operator"
 msgid "Remove from Frame"
 msgstr "Odstranit ze všech"
 
@@ -41913,27 +41798,8 @@ msgstr "Posunout"
 
 
 msgctxt "Operator"
-msgid "Backdrop move"
-msgstr "Označit okraje"
-
-
-msgctxt "Operator"
 msgid "Make and Replace Links"
 msgstr "vytvořit a přemístit odkazy"
-
-
-msgctxt "Operator"
-msgid "Backdrop zoom in"
-msgstr "Označit okraje"
-
-
-msgctxt "Operator"
-msgid "Backdrop zoom out"
-msgstr "Označit okraje"
-
-
-msgid "No Keying Set active"
-msgstr "Odstranit z"
 
 
 msgid "Lift:"
@@ -41947,11 +41813,6 @@ msgstr "Hra"
 msgctxt "Operator"
 msgid "Grouped"
 msgstr "Seskupené"
-
-
-msgctxt "Operator"
-msgid "Path/Files"
-msgstr "Cesta/Soubory"
 
 
 msgctxt "Operator"
@@ -42087,16 +41948,6 @@ msgstr "Aktivní vrstva"
 
 
 msgctxt "Operator"
-msgid "Cut (hard) at frame"
-msgstr "První frame"
-
-
-msgctxt "Operator"
-msgid "Cut (soft) at frame"
-msgstr "První frame"
-
-
-msgctxt "Operator"
 msgid "Reload Strips and Adjust Length"
 msgstr "Přidat vazbu aktivní kosti"
 
@@ -42118,10 +41969,6 @@ msgid "Distortion:"
 msgstr "Historie vracení"
 
 
-msgid "Build JPEG quality"
-msgstr "Nejlepší kvalita"
-
-
 msgid "File:"
 msgstr "Soubor:"
 
@@ -42134,10 +41981,6 @@ msgstr "Rozbalit"
 msgctxt "Operator"
 msgid "Pack"
 msgstr "Zabalit"
-
-
-msgid "Frame number"
-msgstr "Číslo snímku"
 
 
 msgctxt "Operator"
@@ -42411,14 +42254,6 @@ msgid "Author:"
 msgstr "Autor:"
 
 
-msgid "Pan options"
-msgstr "Možnosti deformace"
-
-
-msgid "Zoom options"
-msgstr "Nastavení zvětšení/zmenšení"
-
-
 msgid "Mouse:"
 msgstr "Myš:"
 
@@ -42507,10 +42342,6 @@ msgid "Axis Colors:"
 msgstr "Barvy:"
 
 
-msgid "Orbit options"
-msgstr "Možnosti přízraku"
-
-
 msgid "NDOF Device:"
 msgstr "Zobrazit:"
 
@@ -42595,16 +42426,6 @@ msgstr "Kurzor k aktivnímu"
 
 
 msgctxt "Operator"
-msgid "Clipping Border..."
-msgstr "Ořezat pohled..."
-
-
-msgctxt "Operator"
-msgid "Zoom Border..."
-msgstr "Zobrazit oblast..."
-
-
-msgctxt "Operator"
 msgid "View Global/Local"
 msgstr "Celkový/částečný pohled"
 
@@ -42612,6 +42433,11 @@ msgstr "Celkový/částečný pohled"
 msgctxt "Operator"
 msgid "Playback Animation"
 msgstr "Přehrát animaci"
+
+
+msgctxt "Operator"
+msgid "Zoom Border..."
+msgstr "Zobrazit oblast..."
 
 
 msgctxt "Operator"
@@ -42652,6 +42478,11 @@ msgstr "Zprava"
 msgctxt "Operator"
 msgid "Left"
 msgstr "Zleva"
+
+
+msgctxt "Operator"
+msgid "Clipping Border..."
+msgstr "Ořezat pohled..."
 
 
 msgctxt "Operator"
@@ -42720,13 +42551,13 @@ msgstr "Vnitřní plošky"
 
 
 msgctxt "Operator"
-msgid "Sharp Edges"
-msgstr "Ostré hrany..."
+msgid "Linked Flat Faces"
+msgstr "Oblé plošky..."
 
 
 msgctxt "Operator"
-msgid "Linked Flat Faces"
-msgstr "Oblé plošky..."
+msgid "Sharp Edges"
+msgstr "Ostré hrany..."
 
 
 msgctxt "Operator"
@@ -42764,13 +42595,13 @@ msgid "Make Proxy..."
 msgstr "Přiřadit rodiče..."
 
 
-msgid "Make Links..."
-msgstr "Vytvořit propojení..."
-
-
 msgctxt "Operator"
 msgid "Make Local..."
 msgstr "Vytvořit lokální"
+
+
+msgid "Make Links..."
+msgstr "Vytvořit propojení..."
 
 
 msgctxt "Operator"
@@ -42943,11 +42774,6 @@ msgstr "Otáčení"
 
 
 msgctxt "Operator"
-msgid "Reset unkeyed"
-msgstr "Obnovit pohled"
-
-
-msgctxt "Operator"
 msgid "Browse Poses..."
 msgstr "Zobrazit vlastnosti..."
 
@@ -43090,8 +42916,8 @@ msgstr "Promítnout z pohledu (ohraničení)"
 
 
 msgctxt "Operator"
-msgid "Render Border..."
-msgstr "Nastavit okraje renderování"
+msgid "Active Camera"
+msgstr "Aktivní kamera"
 
 
 msgctxt "Operator"
@@ -43100,8 +42926,8 @@ msgstr "Vystředit kurzor a zobrazit všechno"
 
 
 msgctxt "Operator"
-msgid "Active Camera"
-msgstr "Aktivní kamera"
+msgid "Render Border..."
+msgstr "Nastavit okraje renderování"
 
 
 msgctxt "Operator"
@@ -43645,10 +43471,6 @@ msgid "in memory to enable editing!"
 msgstr "Typ filtru"
 
 
-msgid "Deflect emitter"
-msgstr "Vybrat podle vzoru"
-
-
 msgid "Correct:"
 msgstr "Odznačit spojené"
 
@@ -43802,10 +43624,6 @@ msgstr "Interaktivní zrcadlení"
 
 
 msgid "Could not create merged face"
-msgstr "Vytvoří novou vrstvu barvy vertexů"
-
-
-msgid "Could not rotate edge"
 msgstr "Vytvoří novou vrstvu barvy vertexů"
 
 
@@ -44153,24 +43971,20 @@ msgid "Online Python Reference"
 msgstr "Reference pythonu pro API"
 
 
-msgid "* Redo Unsupported *"
-msgstr "Renderovvat animaci"
-
-
-msgid "No Properties"
-msgstr "Bez vlastností"
-
-
-msgid "Reset operator defaults"
-msgstr "Defaultní nastavení"
-
-
 msgid "Hex"
 msgstr "Barevný tón"
 
 
 msgid "(Gamma Corrected)"
 msgstr "Odznačit spojené"
+
+
+msgid "Value in Display Color Space"
+msgstr "Zobrazit křivku"
+
+
+msgid "Value in Linear RGB Color Space"
+msgstr "Barva "
 
 
 msgid "Shortcut: %s"
@@ -44199,14 +44013,6 @@ msgstr "Zakázané: %s"
 
 msgid "Python: %s.%s"
 msgstr "Python: %s.%s"
-
-
-msgid "Value in Display Color Space"
-msgstr "Zobrazit křivku"
-
-
-msgid "Value in Linear RGB Color Space"
-msgstr "Barva "
 
 
 msgid "ID-Block:"
@@ -44257,6 +44063,14 @@ msgid "Reset Curve"
 msgstr "Znovu nastavit křivku"
 
 
+msgid "* Redo Unsupported *"
+msgstr "Renderovvat animaci"
+
+
+msgid "No Properties"
+msgstr "Bez vlastností"
+
+
 msgid "Capture"
 msgstr "Zachytit"
 
@@ -44303,6 +44117,10 @@ msgstr "Možnosti střihu"
 
 msgid "Delete points"
 msgstr "Vymazat body"
+
+
+msgid "Reset operator defaults"
+msgstr "Defaultní nastavení"
 
 
 msgid "Stop this job"
@@ -44916,12 +44734,12 @@ msgid "No active camera set"
 msgstr "Přidat primitivum"
 
 
-msgid "No active vertex group for painting, aborting"
-msgstr "Odstranit skupinu vertexů"
-
-
 msgid "Active group is locked, aborting"
 msgstr "Skupina pro akce je zamčena"
+
+
+msgid "No active vertex group for painting, aborting"
+msgstr "Odstranit skupinu vertexů"
 
 
 msgid "OK"

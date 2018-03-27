@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
+"Project-Id-Version: Blender 2.79 (sub 2) (b'6618852b7f1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-04 17:20:25\n"
+"POT-Creation-Date: 2018-02-23 10:49:02\n"
 "PO-Revision-Date: 2012-05-11 14:55+0200\n"
 "Last-Translator: Fatih EKE <fatiheke@hotmail.com>\n"
 "Language-Team: BLENDIST <fatiheke@hotmail.com>\n"
@@ -1632,12 +1632,12 @@ msgid "Boid state name"
 msgstr "İşareti (Tekrar) Adlandır"
 
 
-msgid "B-Bone Ease In"
-msgstr "Aktif Kemik Yok"
+msgid "Ease In"
+msgstr "Yakınlaştır"
 
 
-msgid "B-Bone Ease Out"
-msgstr "Aktif Kemik Yok"
+msgid "Ease Out"
+msgstr "Bellek yetersiz."
 
 
 msgid "B-Bone Segments"
@@ -4649,14 +4649,6 @@ msgid "Paint Lock"
 msgstr "Çoklu-Boyama"
 
 
-msgid "Ease In"
-msgstr "Yakınlaştır"
-
-
-msgid "Ease Out"
-msgstr "Bellek yetersiz."
-
-
 msgid "Custom"
 msgstr "Özel"
 
@@ -5461,6 +5453,10 @@ msgid "Forward"
 msgstr "10 Kare İleri"
 
 
+msgid "Frame Offset"
+msgstr "Kare Sil"
+
+
 msgid "Sequence"
 msgstr "Sıra"
 
@@ -5903,10 +5899,6 @@ msgstr "Simülasyonun başlangıç zamanı, blenderın ilk karesidir."
 
 msgid "Iris"
 msgstr "Kaydet IRIS"
-
-
-msgid "JPEG 2000"
-msgstr "Kaydet JPEG"
 
 
 msgid "Targa"
@@ -6999,10 +6991,6 @@ msgstr "Ekstrüzyon Boyutu"
 
 msgid "Update"
 msgstr "Otomatik güncelle"
-
-
-msgid "Frame Offset"
-msgstr "Kare Sil"
 
 
 msgid "Movie File"
@@ -9510,10 +9498,6 @@ msgid "Effect Strip"
 msgstr "Strip Özellikleri..."
 
 
-msgid "Change"
-msgstr "Kemik Katmanlarınını Değiştir..."
-
-
 msgid "Strip"
 msgstr "Strip Özellikleri..."
 
@@ -9566,12 +9550,12 @@ msgid "Bone Roll"
 msgstr "Kemik Kısıtlamaları"
 
 
-msgid "Clean up"
-msgstr "Yukarı Taşı"
-
-
 msgid "Normals"
 msgstr "Normaller"
+
+
+msgid "Select Linked"
+msgstr "Bağlantılı Çoğalt"
 
 
 msgid "Mesh Select Mode"
@@ -9616,6 +9600,10 @@ msgstr "Heykeltraşlık Modu"
 
 msgid "Clone Layer"
 msgstr "Katman Sil"
+
+
+msgid "Undo/Redo"
+msgstr "İleri Al (Düzenle)"
 
 
 msgid "UV Mapping"
@@ -12274,6 +12262,10 @@ msgid "Camera Data"
 msgstr "Nesne Verileri"
 
 
+msgid "Object Space"
+msgstr "Nesne Kısıtlamaları"
+
+
 msgid "Extended Material"
 msgstr "Malzeme butonları"
 
@@ -12312,10 +12304,6 @@ msgstr "Görüntü İşlenmedi (F12 ile işleyin)"
 
 msgid "Tangent Space"
 msgstr "Space Handler Scripts"
-
-
-msgid "Object Space"
-msgstr "Nesne Kısıtlamaları"
 
 
 msgid "Object space normal mapping"
@@ -12757,8 +12745,8 @@ msgid "Axis Range"
 msgstr "Yatay Eksen"
 
 
-msgid "Gesture Mode"
-msgstr "Düzenleme Modu"
+msgid "Deselect"
+msgstr "Kaldır"
 
 
 msgid "X Max"
@@ -12782,10 +12770,6 @@ msgid "Circle Select"
 msgstr "Ters Seçim"
 
 
-msgid "Event Type"
-msgstr "Kesme Biçimi "
-
-
 msgid "On Selected Keyframes"
 msgstr "Seçili Anahtarlarda"
 
@@ -12801,10 +12785,6 @@ msgstr "Seçili İşaretlerde"
 msgctxt "Operator"
 msgid "Lasso Select"
 msgstr "Ters Seçim"
-
-
-msgid "Deselect"
-msgstr "Kaldır"
 
 
 msgctxt "Operator"
@@ -14381,10 +14361,6 @@ msgstr "Eğriyi buna Çevir"
 msgctxt "Operator"
 msgid "Reveal Hidden"
 msgstr "Gizlileri Göster"
-
-
-msgid "Show again hidden control points"
-msgstr "Düzeltilmiş koordinatları görüntüler"
 
 
 msgid "(De)select all control points"
@@ -19010,10 +18986,6 @@ msgid "Unhide"
 msgstr "Gizle/Gizleme"
 
 
-msgid "Select Linked"
-msgstr "Bağlantılı Çoğalt"
-
-
 msgctxt "Operator"
 msgid "Expand/Collapse All"
 msgstr "Tüm Katmanları Göster"
@@ -20125,11 +20097,6 @@ msgstr "Kare Sil"
 msgctxt "Operator"
 msgid "Frame Offset"
 msgstr "Kare Sil"
-
-
-msgctxt "Operator"
-msgid "Flip Header Region"
-msgstr "Döngü Alana"
 
 
 msgctxt "Operator"
@@ -21695,14 +21662,6 @@ msgid "Dolly in/out in the view"
 msgstr "Ön Görünümde Olmalısınız (NumPad1)"
 
 
-msgid "Zoom Position X"
-msgstr "Yakınlaştır"
-
-
-msgid "Zoom Position Y"
-msgstr "Yakınlaştır"
-
-
 msgctxt "Operator"
 msgid "Enable 3D Manipulator"
 msgstr "3D Dönüşüm İşleci:"
@@ -22509,10 +22468,6 @@ msgid "Animation Playback"
 msgstr "Animasyonu Oynat"
 
 
-msgid "Undo/Redo"
-msgstr "İleri Al (Düzenle)"
-
-
 msgctxt "Operator"
 msgid "Save As Blender File"
 msgstr "Blender Dosyasını Farklı Kaydet"
@@ -22660,6 +22615,10 @@ msgstr "Kemik Ayarları"
 
 msgid "Mask Display"
 msgstr "Ekran Rengi:"
+
+
+msgid "Clean up"
+msgstr "Yukarı Taşı"
 
 
 msgid "Mask Tools"
@@ -23724,10 +23683,6 @@ msgstr "Şeffaflık kullan"
 
 msgid "Maximum number of transparent bounces"
 msgstr "En fazla dahili konsol satır sayısı"
-
-
-msgid "Transparent Min Bounces"
-msgstr "Şeffaflık kullan"
 
 
 msgid "Progressive Refine"
@@ -25196,10 +25151,6 @@ msgstr "Genişlik Boyutu"
 
 msgid "Wipe direction"
 msgstr "Yönü Çevir"
-
-
-msgid "Transition Type"
-msgstr "Kesme Biçimi "
 
 
 msgid "Mask Sequence"
@@ -28774,10 +28725,6 @@ msgid "Tiles:"
 msgstr "Pencereyi Küçült"
 
 
-msgid "Viewport:"
-msgstr "2B Görüş:"
-
-
 msgid "Final Render:"
 msgstr "Blender Sunum"
 
@@ -28806,12 +28753,28 @@ msgid "Transmission:"
 msgstr "Ekran Rengi:"
 
 
+msgid "Viewport:"
+msgstr "2B Görüş:"
+
+
 msgid "Aperture:"
 msgstr "Armature"
 
 
 msgid "Surface:"
 msgstr "Yüzey:"
+
+
+msgid "Geometry:"
+msgstr "Geometri:"
+
+
+msgid "Color:"
+msgstr "Renk:"
+
+
+msgid "Alpha:"
+msgstr "Alfa:"
 
 
 msgid "Subdivision"
@@ -29241,10 +29204,6 @@ msgid "Falloff:"
 msgstr "Bozulma Profili: "
 
 
-msgid "Form factor sampling:"
-msgstr "Harekete bağlı bulanıklık derecesi"
-
-
 msgid "Sampling:"
 msgstr "Örnekleme:"
 
@@ -29358,10 +29317,6 @@ msgstr "Doku Boyama"
 
 msgid "Sharp Edges"
 msgstr "Tüm Kenarlar"
-
-
-msgid "Vertex group:"
-msgstr "Yeni bir nokta grubu oluşturur"
 
 
 msgctxt "Operator"
@@ -29887,10 +29842,6 @@ msgid "Initial Orientation:"
 msgstr "Kullanacağınız eksen takımını burdan değiştirebilirsiniz. (Alt Space)"
 
 
-msgid "Color:"
-msgstr "Renk:"
-
-
 msgid "Type 1:"
 msgstr "Tip 1:"
 
@@ -29920,20 +29871,12 @@ msgid "Jittering Amount"
 msgstr "Yansıma miktarı"
 
 
-msgid "Fluid properties:"
-msgstr "Kanal Özellikleri"
-
-
 msgid "Advanced:"
 msgstr "Gelişmiş>>"
 
 
 msgid "Keys:"
 msgstr "Anahtarları Ters Çevir"
-
-
-msgid "Length in frames"
-msgstr "10 Kare Geri"
 
 
 msgid "Parting not"
@@ -29951,10 +29894,6 @@ msgstr "Düzenleme Modu"
 
 msgid "Use Timing"
 msgstr "Kırpma Kullan"
-
-
-msgid "Fluid interaction:"
-msgstr "Akışkan Simülasyonu"
 
 
 msgid "Align:"
@@ -30048,16 +29987,8 @@ msgid "Surface Movement:"
 msgstr "NURBS Yüzey"
 
 
-msgid "Particle effect:"
-msgstr "Efekti Sil"
-
-
 msgid "Use Particle's Radius"
 msgstr "Arkaplan Resmi Kullan"
-
-
-msgid "Smooth radius"
-msgstr "Yarıçap Ortalaması:"
 
 
 msgctxt "Operator"
@@ -30250,14 +30181,6 @@ msgid "Note"
 msgstr "Not"
 
 
-msgid "Buffer"
-msgstr "Arabellek rengini yapıştır"
-
-
-msgid "Packet Size"
-msgstr "Ekstrüzyon Boyutu"
-
-
 msgctxt "Operator"
 msgid "Animation"
 msgstr "Animasyon"
@@ -30267,8 +30190,12 @@ msgid "Sequencer:"
 msgstr "Sıralayıcı:"
 
 
-msgid "Video Codec"
-msgstr "Kaydet AVI Codec"
+msgid "Buffer"
+msgstr "Arabellek rengini yapıştır"
+
+
+msgid "Packet Size"
+msgstr "Ekstrüzyon Boyutu"
 
 
 msgid "Include:"
@@ -30320,10 +30247,6 @@ msgid "Noise:"
 msgstr "Parazit:"
 
 
-msgid "Alpha:"
-msgstr "Alfa:"
-
-
 msgid "Flip X/Y Axis"
 msgstr "Yatay Eksen"
 
@@ -30354,10 +30277,6 @@ msgstr "UV "
 
 msgid "System:"
 msgstr "Sistem:"
-
-
-msgid "Geometry:"
-msgstr "Geometri:"
 
 
 msgid "Physics:"
@@ -30393,10 +30312,6 @@ msgstr "Orijinali Koru"
 msgctxt "Operator"
 msgid "Build Proxy"
 msgstr "Vekil Korumalıdır"
-
-
-msgid "Proxy render size:"
-msgstr "Ayarlanan boyutun %50 si ölçeğinde işle"
 
 
 msgctxt "Operator"
@@ -30466,10 +30381,6 @@ msgid "3D Markers"
 msgstr "İşaretleri Ters Çevir"
 
 
-msgid "Use timecode index:"
-msgstr "Arkaplan Resmi Kullan"
-
-
 msgctxt "Operator"
 msgid "Set Floor"
 msgstr "Izgara Zemini"
@@ -30482,11 +30393,6 @@ msgstr "Özellik Seti"
 
 msgctxt "Operator"
 msgid "Enable Markers"
-msgstr "İşaretleri Ters Çevir"
-
-
-msgctxt "Operator"
-msgid "Disable markers"
 msgstr "İşaretleri Ters Çevir"
 
 
@@ -30868,11 +30774,6 @@ msgstr "Ara"
 
 
 msgctxt "Operator"
-msgid "Join in new Frame"
-msgstr "Animasyonun son karesi"
-
-
-msgctxt "Operator"
 msgid "Remove from Frame"
 msgstr "Tümünü Sil"
 
@@ -30880,25 +30781,6 @@ msgstr "Tümünü Sil"
 msgctxt "Operator"
 msgid "Move"
 msgstr "Taşı"
-
-
-msgctxt "Operator"
-msgid "Backdrop move"
-msgstr "Taşı"
-
-
-msgctxt "Operator"
-msgid "Backdrop zoom in"
-msgstr "Tekerle Yaklaş/Uzaklaş"
-
-
-msgctxt "Operator"
-msgid "Backdrop zoom out"
-msgstr "Tekerle Yaklaş/Uzaklaş"
-
-
-msgid "No Keying Set active"
-msgstr "Seçili Kamerayı Aktif Yap"
 
 
 msgid "Lift:"
@@ -30912,11 +30794,6 @@ msgstr "(Gamma Düzeltildi)"
 msgctxt "Operator"
 msgid "Grouped"
 msgstr "Gruplanmış"
-
-
-msgctxt "Operator"
-msgid "Path/Files"
-msgstr "Dosya yolu"
 
 
 msgctxt "Operator"
@@ -31063,10 +30940,6 @@ msgid "Distortion:"
 msgstr "Distorsiyon"
 
 
-msgid "Build JPEG quality"
-msgstr "Kaydet AVI Jpeg"
-
-
 msgid "Default fade"
 msgstr "Varsayılanı yükle"
 
@@ -31085,12 +30958,8 @@ msgid "Pack"
 msgstr "Arka"
 
 
-msgid "Effect fader"
-msgstr "Efekti Sil"
-
-
-msgid "Frame number"
-msgstr "Kare Sil"
+msgid "Use timecode index:"
+msgstr "Arkaplan Resmi Kullan"
 
 
 msgctxt "Operator"
@@ -31351,14 +31220,6 @@ msgid "Auto Save:"
 msgstr "Otomatik Kayıt:"
 
 
-msgid "Pan options"
-msgstr "Kaydırma Seçenekleri"
-
-
-msgid "Zoom options"
-msgstr "Yakınlaştırma Seçenekleri"
-
-
 msgid "Mouse:"
 msgstr "Fare:"
 
@@ -31439,10 +31300,6 @@ msgid "Axis Colors:"
 msgstr "Ekran Rengi:"
 
 
-msgid "Orbit options"
-msgstr "Yörünge Seçenekleri"
-
-
 msgctxt "Operator"
 msgid "API Concepts"
 msgstr "Blender/Python Kılavuzu"
@@ -31507,16 +31364,6 @@ msgstr "İmleci Aktif Olana"
 
 
 msgctxt "Operator"
-msgid "Clipping Border..."
-msgstr "Kesit Sınırı..."
-
-
-msgctxt "Operator"
-msgid "Zoom Border..."
-msgstr "Çerçeve Kadar Yaklaş..."
-
-
-msgctxt "Operator"
 msgid "View Global/Local"
 msgstr "Göster Küresel/Yerel"
 
@@ -31524,6 +31371,11 @@ msgstr "Göster Küresel/Yerel"
 msgctxt "Operator"
 msgid "Playback Animation"
 msgstr "Animasyonu Oynat"
+
+
+msgctxt "Operator"
+msgid "Zoom Border..."
+msgstr "Çerçeve Kadar Yaklaş..."
 
 
 msgctxt "Operator"
@@ -31564,6 +31416,11 @@ msgstr "Yörüngede Sağa"
 msgctxt "Operator"
 msgid "Left"
 msgstr "Sol Fare"
+
+
+msgctxt "Operator"
+msgid "Clipping Border..."
+msgstr "Kesit Sınırı..."
 
 
 msgctxt "Operator"
@@ -31632,13 +31489,13 @@ msgstr "İç Yüzler"
 
 
 msgctxt "Operator"
-msgid "Sharp Edges"
-msgstr "Tüm Kenarlar"
+msgid "Linked Flat Faces"
+msgstr "Bağlantılı Düz Yüzler"
 
 
 msgctxt "Operator"
-msgid "Linked Flat Faces"
-msgstr "Bağlantılı Düz Yüzler"
+msgid "Sharp Edges"
+msgstr "Tüm Kenarlar"
 
 
 msgctxt "Operator"
@@ -31671,13 +31528,13 @@ msgid "Make Proxy..."
 msgstr "Vekil Yap..."
 
 
-msgid "Make Links..."
-msgstr "Bağlantı Yap..."
-
-
 msgctxt "Operator"
 msgid "Make Local..."
 msgstr "Yerel Yap..."
+
+
+msgid "Make Links..."
+msgstr "Bağlantı Yap..."
 
 
 msgctxt "Operator"
@@ -31854,11 +31711,6 @@ msgstr "Dönme"
 
 
 msgctxt "Operator"
-msgid "Reset unkeyed"
-msgstr "Eğriyi Sıfırla"
-
-
-msgctxt "Operator"
 msgid "Browse Poses..."
 msgstr "Pozlara Gözat..."
 
@@ -31988,8 +31840,8 @@ msgstr "Z Lokal"
 
 
 msgctxt "Operator"
-msgid "Render Border..."
-msgstr "Render Sınırını Ayarla"
+msgid "Active Camera"
+msgstr "Aktif Kamera"
 
 
 msgctxt "Operator"
@@ -31998,8 +31850,8 @@ msgstr "İmleci Ortala ve Tümünü Göster"
 
 
 msgctxt "Operator"
-msgid "Active Camera"
-msgstr "Aktif Kamera"
+msgid "Render Border..."
+msgstr "Render Sınırını Ayarla"
 
 
 msgctxt "Operator"
@@ -32639,10 +32491,6 @@ msgid "Could not create merged face"
 msgstr "Yeni dosya oluştur"
 
 
-msgid "Could not rotate edge"
-msgstr "Yeni dosya oluştur"
-
-
 msgid "Scene not found"
 msgstr "Ses Pasif"
 
@@ -32959,18 +32807,6 @@ msgid "Online Python Reference"
 msgstr "Python Dili Klavuzu"
 
 
-msgid "* Redo Unsupported *"
-msgstr "* Desteklenmeyen Yineleme*"
-
-
-msgid "No Properties"
-msgstr "Özellikleri Yok"
-
-
-msgid "Reset operator defaults"
-msgstr "Kullanıcı ayarlarını (varsayılanı) kaydet"
-
-
 msgid "HSV"
 msgstr "HSV"
 
@@ -32985,6 +32821,10 @@ msgstr "Hex: "
 
 msgid "(Gamma Corrected)"
 msgstr "(Gamma Düzeltildi)"
+
+
+msgid "Hex triplet for color (#RRGGBB)"
+msgstr "Renk için Hex üçlüsü (#RRGGBB)"
 
 
 msgid "Shortcut: %s"
@@ -33017,10 +32857,6 @@ msgstr "Devre Dışı: %s"
 
 msgid "Python: %s.%s"
 msgstr "Python: %s.%s"
-
-
-msgid "Hex triplet for color (#RRGGBB)"
-msgstr "Renk için Hex üçlüsü (#RRGGBB)"
 
 
 msgid "ID-Block:"
@@ -33071,6 +32907,14 @@ msgid "Reset Curve"
 msgstr "Eğriyi Sıfırla"
 
 
+msgid "* Redo Unsupported *"
+msgstr "* Desteklenmeyen Yineleme*"
+
+
+msgid "No Properties"
+msgstr "Özellikleri Yok"
+
+
 msgid "Capture"
 msgstr "Yakala"
 
@@ -33105,6 +32949,10 @@ msgstr "Kırpma Seçenekleri"
 
 msgid "Delete points"
 msgstr "Noktaları sil"
+
+
+msgid "Reset operator defaults"
+msgstr "Kullanıcı ayarlarını (varsayılanı) kaydet"
 
 
 msgid "Stop this job"

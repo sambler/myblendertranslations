@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
+"Project-Id-Version: Blender 2.79 (sub 2) (b'6618852b7f1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-04 17:20:25\n"
+"POT-Creation-Date: 2018-02-23 10:49:02\n"
 "PO-Revision-Date: 2012-10-07 13:56+0300\n"
 "Last-Translator: Barak Itkin <lightningismyname@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -955,10 +955,6 @@ msgid "Add Shortcut"
 msgstr "ךרד־רוציק ףסוה"
 
 
-msgid "No Properties"
-msgstr "םינייפאמ אלל"
-
-
 msgid "(Gamma Corrected)"
 msgstr "(אמג ןקותמ)"
 
@@ -989,6 +985,10 @@ msgstr "‬%s‪ :תבשומ"
 
 msgid "Python: %s.%s"
 msgstr "Python: ‪%s‬.‪%s‬"
+
+
+msgid "No Properties"
+msgstr "םינייפאמ אלל"
 
 
 msgid "Convert virtual modifier to a real modifier"

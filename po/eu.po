@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.79 (sub 0) (b'9b7d5067795')\n"
+"Project-Id-Version: Blender 2.79 (sub 2) (b'6618852b7f1')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-04 17:20:25\n"
+"POT-Creation-Date: 2018-02-23 10:49:02\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Ainhize & Miriam <agoenaga006@ikasle.ehu.eus>\n"
 "Language-Team: Euskara <agoenaga006@ikasle.ehu.eus>\n"
@@ -866,6 +866,10 @@ msgid "Edit"
 msgstr "Editatu"
 
 
+msgid "Relations"
+msgstr "Loturak"
+
+
 msgid "UV"
 msgstr "UV"
 
@@ -912,10 +916,6 @@ msgstr "Bikoiztu"
 msgctxt "Operator"
 msgid "Properties"
 msgstr "Propietateak"
-
-
-msgid "Event Type"
-msgstr "Gertaera mota"
 
 
 msgid "Deselect"
@@ -2093,14 +2093,6 @@ msgid "Zoom Out"
 msgstr "Zoom Gutxiago"
 
 
-msgid "Zoom Position X"
-msgstr "X kokapenean zoom egin"
-
-
-msgid "Zoom Position Y"
-msgstr "Y kokapenean zoom egin"
-
-
 msgctxt "Operator"
 msgid "Layers"
 msgstr "Geruzak"
@@ -2156,10 +2148,6 @@ msgstr "Sistemaren Informazioa Gorde"
 msgctxt "Operator"
 msgid "Duplicate Window"
 msgstr "Leihoa Biderkatu"
-
-
-msgid "Relations"
-msgstr "Loturak"
 
 
 msgid "Create"
