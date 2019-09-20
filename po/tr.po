@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 3) (b'2b55f621fe20')\n"
+"Project-Id-Version: Blender 2.81 (sub 11) (b'345fb22ea3f7')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 00:00:00\n"
+"POT-Creation-Date: 2019-09-16 10:40:24\n"
 "PO-Revision-Date: 2012-05-11 14:55+0200\n"
 "Last-Translator: Fatih EKE <fatiheke@hotmail.com>\n"
 "Language-Team: BLENDIST <fatiheke@hotmail.com>\n"
@@ -670,8 +670,20 @@ msgid "Envelope Head Radius"
 msgstr "Ölçek Zarfı/BBone"
 
 
+msgid "Inherit Scale"
+msgstr "Döndürme & Ölçek"
+
+
+msgid "Full"
+msgstr "Tam Ekran"
+
+
 msgid "Layers"
 msgstr "Katmanlar 1-5"
+
+
+msgid "Length"
+msgstr "Kenar Uzunluğu"
 
 
 msgid "Bone Matrix"
@@ -715,10 +727,6 @@ msgstr "Obje bağlarına gözat"
 
 
 msgid "Inherit Rotation"
-msgstr "Döndürme & Ölçek"
-
-
-msgid "Inherit Scale"
 msgstr "Döndürme & Ölçek"
 
 
@@ -800,6 +808,10 @@ msgstr "Çözünürlük"
 
 msgid "Marker"
 msgstr "İşaret"
+
+
+msgid "Airbrush"
+msgstr "Sprey"
 
 
 msgid "Fill"
@@ -1563,6 +1575,10 @@ msgid "Invert the Z rotation"
 msgstr "Döndürme & Ölçek"
 
 
+msgid "Mix Mode"
+msgstr "Düzenleme Modu"
+
+
 msgid "Copy the target's X rotation"
 msgstr "Ölçeyi/Çevrimi Uygula"
 
@@ -2309,6 +2325,10 @@ msgstr "Kemik Adı"
 
 msgid "Data Path"
 msgstr "Veri Yolu"
+
+
+msgid "Rotation Mode"
+msgstr "Düzenleme Modu"
 
 
 msgid "Transform Space"
@@ -3132,10 +3152,6 @@ msgid "Display Mode"
 msgstr "Düzenleme Modu"
 
 
-msgid "Long List"
-msgstr "Ayrıntılı bilgi göster"
-
-
 msgid "Display files as thumbnails"
 msgstr "Çoklu Resim dosyaları"
 
@@ -3162,22 +3178,6 @@ msgstr "Çevre"
 
 msgid "Show Hidden"
 msgstr "Gizlileri Göster"
-
-
-msgid "Sort alphabetically"
-msgstr "Dosyaları alfabetik olarak sırala"
-
-
-msgid "Sort by extension"
-msgstr "Dosyaları uzantısına göre sırala"
-
-
-msgid "Sort by time"
-msgstr "Dosyaları zamana göre sırala"
-
-
-msgid "Sort by size"
-msgstr "Dosyaları boyutuna göre sırala"
 
 
 msgid "Sort files by size"
@@ -3800,10 +3800,6 @@ msgid "Build Modifier"
 msgstr "Değiştirici Ekle"
 
 
-msgid "Length"
-msgstr "Kenar Uzunluğu"
-
-
 msgid "Hook Modifier"
 msgstr "Değiştirici Ekle"
 
@@ -4100,6 +4096,14 @@ msgid "Rotate"
 msgstr "Döndür"
 
 
+msgid "Draw Sharp"
+msgstr "Sivri Bozulma"
+
+
+msgid "Pose"
+msgstr "Poz:"
+
+
 msgid "Smooth Stroke Factor"
 msgstr "Eğrileri yumuşat"
 
@@ -4118,10 +4122,6 @@ msgstr "Noktalı dosyaları gizle (Linuxta, Nokta ile başlayan dosyalar gizli d
 
 msgid "Space"
 msgstr "Boşluk"
-
-
-msgid "Airbrush"
-msgstr "Sprey"
 
 
 msgid "Texture Overlay Alpha"
@@ -4402,10 +4402,6 @@ msgstr "Düzenleme Modu"
 
 msgid "Mode of filling curve"
 msgstr "Eğriyi buna Çevir"
-
-
-msgid "Full"
-msgstr "Tam Ekran"
 
 
 msgid "Path Length"
@@ -4884,16 +4880,8 @@ msgid "Shadow Buffer Bias"
 msgstr "Arabellek rengini yapıştır"
 
 
-msgid "Shadow Buffer Bleed Bias"
-msgstr "Arabellek rengini yapıştır"
-
-
 msgid "Shadow Buffer Size"
 msgstr "Yazıtipi Boyutu Seçin:"
-
-
-msgid "Shadow Buffer Soft"
-msgstr "Arabellek rengini yapıştır"
 
 
 msgid "Shadow Color"
@@ -5432,10 +5420,6 @@ msgid "Parent Vertices"
 msgstr "Yalnız Noktalar"
 
 
-msgid "Pose"
-msgstr "Poz:"
-
-
 msgid "Pose Library"
 msgstr "Poz Ekle..."
 
@@ -5458,10 +5442,6 @@ msgstr "Döndürme & Ölçek"
 
 msgid "Rotation in Eulers"
 msgstr "Ölçeyi/Çevrimi Uygula"
-
-
-msgid "Rotation Mode"
-msgstr "Düzenleme Modu"
 
 
 msgid "No Gimbal Lock"
@@ -7657,10 +7637,6 @@ msgstr "Tüm Katmanları Göster"
 
 msgid "Mix Factor"
 msgstr "Harekete bağlı bulanıklık derecesi"
-
-
-msgid "Mix Mode"
-msgstr "Düzenleme Modu"
 
 
 msgid "Nearest vertex"
@@ -10849,8 +10825,16 @@ msgid "Reset Brush"
 msgstr "Eğriyi Sıfırla"
 
 
+msgid "Open"
+msgstr "Aç"
+
+
 msgid "Directory of the file"
 msgstr "Dosya adı"
+
+
+msgid "Long List"
+msgstr "Ayrıntılı bilgi göster"
 
 
 msgid "File Browser Mode"
@@ -12245,10 +12229,6 @@ msgid "Name of new directory"
 msgstr "Yeni bir değiştirici ekle"
 
 
-msgid "Open"
-msgstr "Aç"
-
-
 msgctxt "Operator"
 msgid "Execute File Window"
 msgstr "Yeni dosya oluştur"
@@ -12333,10 +12313,6 @@ msgstr "En Son"
 
 msgid "Reset Recent files"
 msgstr "Son Açılan..."
-
-
-msgid "Activate/select file"
-msgstr "Yeni dosya oluştur"
 
 
 msgctxt "Operator"
@@ -14067,6 +14043,18 @@ msgid "Change selection mode"
 msgstr "Kenar Seçme Modu:"
 
 
+msgid "Vertex selection mode"
+msgstr "Kamera Uçuş Modu"
+
+
+msgid "Edge selection mode"
+msgstr "Kenar Seçme Modu:"
+
+
+msgid "Face selection mode"
+msgstr "Kamera Uçuş Modu"
+
+
 msgid "Expand"
 msgstr "Genişletilmiş"
 
@@ -15333,6 +15321,10 @@ msgstr "Vekil Yap..."
 
 msgid "Proxy Object"
 msgstr "Nesne Kısıtlamaları"
+
+
+msgid "Edge Length"
+msgstr "Kenar Uzunluğu"
 
 
 msgctxt "Operator"
@@ -18746,11 +18738,6 @@ msgid "Memory Statistics"
 msgstr "Bellek yetersiz."
 
 
-msgctxt "Operator"
-msgid "Open Blender File"
-msgstr "Yeni dosya oluştur"
-
-
 msgid "Open a Blender file"
 msgstr "Yeni dosya oluştur"
 
@@ -18906,11 +18893,6 @@ msgstr "Animasyonu Oynat"
 
 msgid "Undo/Redo"
 msgstr "İleri Al (Düzenle)"
-
-
-msgctxt "Operator"
-msgid "Save As Blender File"
-msgstr "Blender Dosyasını Farklı Kaydet"
 
 
 msgid "Save Copy"
@@ -19070,6 +19052,10 @@ msgid "Subdivision"
 msgstr "Altbölüm:"
 
 
+msgid "Render Pass"
+msgstr "Blender Sunum"
+
+
 msgid "Area Shape"
 msgstr "Alan yüksekliği"
 
@@ -19206,6 +19192,10 @@ msgstr "Space Handler Scripts"
 
 msgid "Panel Colors"
 msgstr "Panel Hizalama"
+
+
+msgid "Shaded"
+msgstr "Gölgeli "
 
 
 msgid "Video Sequence Editor"
@@ -20583,6 +20573,14 @@ msgid "Progressive Refine"
 msgstr "İlerleme"
 
 
+msgid "Glossy Color"
+msgstr "Ekran Rengi:"
+
+
+msgid "Transmission Color"
+msgstr "Ekran Rengi:"
+
+
 msgid "Manual"
 msgstr "Kullanım Kılavuzu"
 
@@ -20719,20 +20717,12 @@ msgid "Deliver diffuse color pass"
 msgstr "Nesnenin genel rengi."
 
 
-msgid "Glossy Color"
-msgstr "Ekran Rengi:"
-
-
 msgid "Deliver material index pass"
 msgstr "Yeni malzeme ekle"
 
 
 msgid "Deliver shadow pass"
 msgstr "Mesh Gölgesini Çiz"
-
-
-msgid "Transmission Color"
-msgstr "Ekran Rengi:"
 
 
 msgid "Deliver texture UV pass"
@@ -20745,10 +20735,6 @@ msgstr "İplik"
 
 msgid "Zmask"
 msgstr "Zmaske"
-
-
-msgid "Render Pass"
-msgstr "Blender Sunum"
 
 
 msgid "Bake normals"
@@ -23243,10 +23229,6 @@ msgid "Shade Top"
 msgstr "Üst seviye"
 
 
-msgid "Shaded"
-msgstr "Gölgeli "
-
-
 msgid "Text Selected"
 msgstr "Seçilenler"
 
@@ -23399,18 +23381,6 @@ msgid "UV Selection Mode"
 msgstr "Kamera Uçuş Modu"
 
 
-msgid "Vertex selection mode"
-msgstr "Kamera Uçuş Modu"
-
-
-msgid "Edge selection mode"
-msgstr "Kenar Seçme Modu:"
-
-
-msgid "Face selection mode"
-msgstr "Kamera Uçuş Modu"
-
-
 msgid "Island selection mode"
 msgstr "Kamera Uçuş Modu"
 
@@ -23527,20 +23497,12 @@ msgid "Draw Seams"
 msgstr "Kenarları Vurgula"
 
 
-msgid "Draw Sharp"
-msgstr "Sivri Bozulma"
-
-
 msgid "Draw Edges"
 msgstr "Kenarları Vurgula"
 
 
 msgid "Edge Angle"
 msgstr "Çevirme Açısı: "
-
-
-msgid "Edge Length"
-msgstr "Kenar Uzunluğu"
 
 
 msgid "Display face normals as lines"
@@ -24569,6 +24531,11 @@ msgstr "Vertex Slide"
 
 
 msgctxt "Operator"
+msgid "Back"
+msgstr "Arka"
+
+
+msgctxt "Operator"
 msgid "Discontinuity (Euler) Filter"
 msgstr "Dosya Uzantılarını Filtrele"
 
@@ -25024,11 +24991,6 @@ msgstr "Ön"
 
 
 msgctxt "Operator"
-msgid "Back"
-msgstr "Arka"
-
-
-msgctxt "Operator"
 msgid "Child"
 msgstr "Çocuk Nesne"
 
@@ -25367,11 +25329,6 @@ msgid "Make"
 msgstr "Yap"
 
 
-msgctxt "Operator"
-msgid "Move to Layer"
-msgstr "Katmana Yolla..."
-
-
 msgid "Display:"
 msgstr "Görüntü:"
 
@@ -25543,11 +25500,6 @@ msgstr "Falloff Mesafesi"
 msgctxt "Operator"
 msgid "Empty Draw Size"
 msgstr "Boş Çizim Boyutu"
-
-
-msgctxt "Operator"
-msgid "Energy"
-msgstr "Enerji"
 
 
 msgctxt "Operator"
@@ -25911,6 +25863,11 @@ msgstr "Aktif Kamerayı Seçilene Hizala"
 
 
 msgctxt "Operator"
+msgid "Change Shortcut"
+msgstr "Kemik Katmanlarınını Değiştir..."
+
+
+msgctxt "Operator"
 msgid "Replace Keyframes"
 msgstr "Anahtar Kareyi Göster"
 
@@ -25978,11 +25935,6 @@ msgstr "Ses aramak için varsayılan dizin"
 msgctxt "Operator"
 msgid "Reset Single to Default Value"
 msgstr "Ses aramak için varsayılan dizin"
-
-
-msgctxt "Operator"
-msgid "Change Shortcut"
-msgstr "Kemik Katmanlarınını Değiştir..."
 
 
 msgctxt "Operator"
@@ -26062,22 +26014,6 @@ msgstr "Poz:"
 
 msgid "Use Clipping"
 msgstr "Kırpma Seçenekleri"
-
-
-msgid "Min X "
-msgstr "Asg X"
-
-
-msgid "Min Y "
-msgstr "Asg Y"
-
-
-msgid "Max X "
-msgstr "Azm X"
-
-
-msgid "Max Y "
-msgstr "Azm Y"
 
 
 msgid "Reset View"
@@ -26678,24 +26614,8 @@ msgid "No object to apply orientation on"
 msgstr "Alttaki değerlere bağlı olarak (DupSta, DupEnd, DupOn, DupOff) nesne, dış hattı (yolu) izleyerek çoğaltılacaktır"
 
 
-msgid "Cancel"
-msgstr "İptal"
-
-
 msgid "File path"
 msgstr "Dosya yolu"
-
-
-msgid "Decrement the filename number"
-msgstr "Izgara çizgilerinin sayısını ayarlayın"
-
-
-msgid "Increment the filename number"
-msgstr "Izgara çizgilerinin sayısını ayarlayın"
-
-
-msgid "File name"
-msgstr "Dosya adı"
 
 
 msgid "No parent directory given"
@@ -26704,6 +26624,14 @@ msgstr "Ses aramak için varsayılan dizin"
 
 msgid "Could not create new folder name"
 msgstr "Yeni dosya oluştur"
+
+
+msgid "Cancel"
+msgstr "İptal"
+
+
+msgid "File name"
+msgstr "Dosya adı"
 
 
 msgid "Cursor from Selection"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 3) (b'2b55f621fe20')\n"
+"Project-Id-Version: Blender 2.81 (sub 11) (b'345fb22ea3f7')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 00:00:00\n"
+"POT-Creation-Date: 2019-09-16 10:40:24\n"
 "PO-Revision-Date: 2019-06-01 18:12+0700\n"
 "Last-Translator: gongpha <gongpha@gmail.com>\n"
 "Language-Team: Thai Translation Team <gongpha@gmail.com>\n"
@@ -442,8 +442,16 @@ msgid "Head"
 msgstr "หัว"
 
 
+msgid "Full"
+msgstr "เต็ม"
+
+
 msgid "Layers"
 msgstr "ชั้น"
+
+
+msgid "Length"
+msgstr "ความยาว"
 
 
 msgid "Parent"
@@ -648,6 +656,10 @@ msgstr "กลับค่า Y"
 
 msgid "Invert Z"
 msgstr "กลับค่า Z"
+
+
+msgid "Mix Mode"
+msgstr "โหมดผสม"
 
 
 msgid "Power"
@@ -861,6 +873,10 @@ msgid "Workspace"
 msgstr "พื้นที่ใช้งาน"
 
 
+msgid "Rotation Mode"
+msgstr "โหมดหมุน"
+
+
 msgid "Replace Color"
 msgstr "แทนที่สี"
 
@@ -1045,10 +1061,6 @@ msgid "Vertex Group"
 msgstr "กลุ่มจุดยอด"
 
 
-msgid "Length"
-msgstr "ความยาว"
-
-
 msgctxt "Curve"
 msgid "Curve"
 msgstr "เส้นโค้ง"
@@ -1160,6 +1172,10 @@ msgid "Rotate"
 msgstr "หมุน"
 
 
+msgid "Pose"
+msgstr "ท่าทาง"
+
+
 msgid "Grab UVs"
 msgstr "จับ UV"
 
@@ -1190,10 +1206,6 @@ msgstr "ส่วน"
 
 msgid "Dimensions"
 msgstr "มิติ"
-
-
-msgid "Full"
-msgstr "เต็ม"
 
 
 msgid "Resolution U"
@@ -1546,16 +1558,8 @@ msgid "Texture Paint"
 msgstr "วาดพื้นผิว"
 
 
-msgid "Pose"
-msgstr "ท่าทาง"
-
-
 msgid "Euler Rotation"
 msgstr "หมุน"
-
-
-msgid "Rotation Mode"
-msgstr "โหมดหมุน"
 
 
 msgid "Scaling of the object"
@@ -1977,10 +1981,6 @@ msgid "Percent"
 msgstr "ร้อยละ"
 
 
-msgid "Mix Mode"
-msgstr "โหมดผสม"
-
-
 msgid "Ray Radius"
 msgstr "รัศมีรังสี"
 
@@ -2130,10 +2130,6 @@ msgid "Object Info"
 msgstr "ข้อมูลวัตถุ"
 
 
-msgid "Closest"
-msgstr "ใกล้ชิดที่สุด"
-
-
 msgctxt "Operator"
 msgid "New Action"
 msgstr "การกระทำใหม่"
@@ -2211,6 +2207,10 @@ msgstr "มน"
 
 msgid "Translation"
 msgstr "แปลภาษา"
+
+
+msgid "Open"
+msgstr "เปิด"
 
 
 msgid "Path to file"
@@ -2322,10 +2322,6 @@ msgid "Selection Only"
 msgstr "เลือกเท่านั้น"
 
 
-msgid "!EXPERIMENTAL! Apply Transform"
-msgstr "!การทดลอง! นำการปรับเปลี่ยนไปใช้"
-
-
 msgid "Scene Collections"
 msgstr "คอลเลกชันฉาก"
 
@@ -2357,10 +2353,6 @@ msgstr "+Y ขึ้น"
 msgctxt "Operator"
 msgid "Add Bookmark"
 msgstr "เพิ่มบุ๊คมาร์ค"
-
-
-msgid "Open"
-msgstr "เปิด"
 
 
 msgid "Increment"
@@ -2692,6 +2684,10 @@ msgid "Vertex (Triangle)"
 msgstr "จุดยอด (สามเหลี่ยม)"
 
 
+msgid "Edge Length"
+msgstr "ความยาวของเส้นขอบ"
+
+
 msgid "View %"
 msgstr "มุมมอง %"
 
@@ -2846,6 +2842,10 @@ msgid "Save As"
 msgstr "บันทึกเป็น"
 
 
+msgid "Closest"
+msgstr "ใกล้ชิดที่สุด"
+
+
 msgid "Transformation orientation"
 msgstr "ทิศทางการแปลง"
 
@@ -2928,16 +2928,6 @@ msgstr "เล่น"
 
 
 msgctxt "Operator"
-msgid "Link from Library"
-msgstr "ลิ้งค์"
-
-
-msgctxt "Operator"
-msgid "Open Blender File"
-msgstr "เปิดไฟล์ Blender"
-
-
-msgctxt "Operator"
 msgid "Restore Defaults"
 msgstr "คืนค่าเดิม"
 
@@ -2959,11 +2949,6 @@ msgstr "โหลดการตั้งค่าโรงงาน"
 msgctxt "Operator"
 msgid "Reload Start-Up File"
 msgstr "โหลดไฟล์เริ่มต้นใหม่"
-
-
-msgctxt "Operator"
-msgid "Save As Blender File"
-msgstr "บันทึกเป็นไฟล์ Blender"
 
 
 msgid "Save Copy"
@@ -3620,10 +3605,6 @@ msgid "Draw Edges"
 msgstr "วาดเส้นขอบ"
 
 
-msgid "Edge Length"
-msgstr "ความยาวของเส้นขอบ"
-
-
 msgid "Display Grid Floor"
 msgstr "แสดงพื้นตาราง"
 
@@ -3874,6 +3855,11 @@ msgstr "%s: %s"
 
 
 msgctxt "Operator"
+msgid "Back"
+msgstr "หลัง"
+
+
+msgctxt "Operator"
 msgid "New"
 msgstr "ใหม่"
 
@@ -3961,10 +3947,6 @@ msgstr "บน"
 msgctxt "Operator"
 msgid "Bottom"
 msgstr "ล่าง"
-
-
-msgid "View Axis:"
-msgstr "แกนมุมมอง:"
 
 
 msgctxt "Operator"
@@ -4211,11 +4193,6 @@ msgstr "ข้อผิดพลาด (ดูที่คอนโซล)"
 msgctxt "Operator"
 msgid "Front"
 msgstr "หน้า"
-
-
-msgctxt "Operator"
-msgid "Back"
-msgstr "หลัง"
 
 
 msgctxt "Operator"

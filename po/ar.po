@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 3) (b'2b55f621fe20')\n"
+"Project-Id-Version: Blender 2.81 (sub 11) (b'345fb22ea3f7')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 00:00:00\n"
+"POT-Creation-Date: 2019-09-16 10:40:24\n"
 "PO-Revision-Date: 2016-04-23 22:41+0300\n"
 "Last-Translator: Yousef Harfoush <bat3a@msn.com>\n"
 "Language-Team: Yousef Harfoush, Amine Moussaoui <bat3a@msn.com>\n"
@@ -1763,12 +1763,24 @@ msgid "Bone is able to be selected"
 msgstr "ﺭﺎﻴﺘﺧﻺ﻿ﻟ ﺔﻠﺑﺎﻗ ﺔﻤﻈﻌﻟﺍ"
 
 
+msgid "Inherit Scale"
+msgstr "ﻢﻴﺠﺤﺘﻟﺍ ﺙﺭﻭ"
+
+
+msgid "Full"
+msgstr "ﻼ﻿ﻣﺎﻛ"
+
+
 msgid "Layers"
 msgstr "ﺕﺎﻘﺒﻃ"
 
 
 msgid "Layers bone exists in"
 msgstr "ﺔﻤﻈﻌﻟﺍ ﻰﻠﻋ ﺔﻳﻮﺘﺤﻤﻟﺍ ﺕﺎﻘﺒﻄﻟﺍ"
+
+
+msgid "Length"
+msgstr "ﻝﻮﻄﻟﺍ"
 
 
 msgid "Bone Matrix"
@@ -1809,10 +1821,6 @@ msgstr "(ﻢﻈﻌﻠﻟ ﺔﺒﺟﺎﺣ-ﺮﻴﻏ ﺔﺼﺼﺨﻤﻟﺍ ﻝﺎ�
 
 msgid "Tail"
 msgstr "ﻞﻳﺫ"
-
-
-msgid "Location of tail end of the bone"
-msgstr "ﺔﻤﻈﻌﻟﺍ ﻞﻳﺫ ﺔﻳﺎﻬﻧ ﻊﻗﻮﻣ"
 
 
 msgid "Armature-Relative Tail"
@@ -1869,14 +1877,6 @@ msgstr "ﻥﺍﺭﻭﺩ ﺔﺛﺍﺭﻭ"
 
 msgid "Bone inherits rotation or scale from parent bone"
 msgstr "ﻞﺻﻻ﻿ﺍ ﺔﻤﻈﻌﻟﺍ ﻦﻣ ﻢﺠﺤﻟﺍ ﻭﺃ ﻥﺍﺭﻭﺪﻟﺍ ﺔﻤﻈﻌﻟﺍ ﺙﺭﻮﺘﺗ"
-
-
-msgid "Inherit Scale"
-msgstr "ﻢﻴﺠﺤﺘﻟﺍ ﺙﺭﻭ"
-
-
-msgid "Bone inherits scaling from parent bone"
-msgstr "ﻞﺻﻻ﻿ﺍ ﺔﻤﻈﻌﻟﺍ ﻦﻣ ﻢﻴﺠﺤﺘﻟﺍ ﺔﻤﻈﻌﻟﺍ ﺙﺭﻮﺘﺗ"
 
 
 msgid "Local Location"
@@ -2029,6 +2029,10 @@ msgstr "ﺔﺒﺘﻌﻟﺍ"
 
 msgid "Marker"
 msgstr "ﺔﻣﻼ﻿ﻋ"
+
+
+msgid "Airbrush"
+msgstr "ﺥﺎﺨﺑ"
 
 
 msgid "Fill"
@@ -3764,6 +3768,30 @@ msgid "Copy the rotation of the target"
 msgstr "ﻑﺪﻬﻟﺍ ﻥﺍﺭﻭﺩ ﺦﺴﻧﺍ"
 
 
+msgid "XYZ Euler"
+msgstr "XYZ ﺮﻟﻮﻳ"
+
+
+msgid "XZY Euler"
+msgstr "XZY ﺮﻟﻮﻳ"
+
+
+msgid "YXZ Euler"
+msgstr "YXZ ﺮﻟﻮﻳ"
+
+
+msgid "YZX Euler"
+msgstr "YZX ﺮﻟﻮﻳ"
+
+
+msgid "ZXY Euler"
+msgstr "ZXY ﺮﻟﻮﻳ"
+
+
+msgid "ZYX Euler"
+msgstr "ZYX ﺮﻟﻮﻳ"
+
+
 msgid "Invert the X rotation"
 msgstr "X ﻰﻠﻋ ﻥﺍﺭﻭﺪﻟﺍ ﺲﻜﻋﺇ"
 
@@ -3776,8 +3804,8 @@ msgid "Invert the Z rotation"
 msgstr "Z ﻰﻠﻋ ﻥﺍﺭﻭﺪﻟﺍ ﺲﻜﻋﺇ"
 
 
-msgid "Add original rotation into copied rotation"
-msgstr "ﺥﻮﺴﻨﻤﻟﺍ ﺮﻳﻭﺪﺘﻟﺍ ﻰﻟﺇ ﻲﻠﺻﻷ﻿ﺍ ﺮﻳﻭﺪﺘﻟﺍ ﻒﺿﺃ"
+msgid "Mix Mode"
+msgstr "ﻂﻠﺨﻟﺍ ﻊﺿﻭ"
 
 
 msgid "Copy the target's X rotation"
@@ -4792,6 +4820,10 @@ msgid "Bottom range of Z axis source motion"
 msgstr "Y ﺭﻮﺤﻤﻟﺍ ﻰﻠﻋ ﺭﺪﺼﻤﻟﺍ ﻙﺮﺤﺗ ﻕﺎﻄﻧ ﻰﻧﺩﺃ"
 
 
+msgid "Quaternion"
+msgstr "ﻲﻋﺎﺑﺭ"
+
+
 msgid "Map From"
 msgstr "ﻦﻣ ﻂﻄﺧ"
 
@@ -5434,6 +5466,10 @@ msgstr "(ﻝﻭﻷ﻿ﺍ ﻦﻴﻌﻳ ﻥﺃ ﺐﺠﻳ ﻉﻮﻨﻟﺍ ﻑﺮﻌ
 
 msgid "Type of ID-block that can be used"
 msgstr "ﻪﻟﺎﻤﻌﺘﺳﺍ ﻦﻜﻤﻤﻟﺍ ﻞﺴﻠﺴﺘﻟﺍ ﻑﺮﻌﻣ ﻉﻮﻧ"
+
+
+msgid "Rotation Mode"
+msgstr "ﺮﻳﻭﺪﺘﻟﺍ ﻊﺿﻭ"
 
 
 msgid "Transform Space"
@@ -6182,6 +6218,10 @@ msgstr "ﺱﺃﺮﻟﺍ ﺭﺎﻴﺘﺧﺍ"
 
 msgid "Tail Select"
 msgstr "ﻞﻳﺬﻟﺍ ﺭﺎﻴﺘﺧﺍ"
+
+
+msgid "Location of tail end of the bone"
+msgstr "ﺔﻤﻈﻌﻟﺍ ﻞﻳﺫ ﺔﻳﺎﻬﻧ ﻊﻗﻮﻣ"
 
 
 msgid "Effector weights for physics simulation"
@@ -7441,10 +7481,6 @@ msgid "Forcefield based on the Lennard-Jones potential"
 msgstr "ﺰﻧﻮﺟ-ﺩﺭﺎﻨﻴﻟ ﻝﺎﻤﺘﺣﺍ ﻰﻠﻋ ﺪﻤﺘﻌﻤﻟﺍ ﺓﻮﻘﻟﺍ ﻝﺎﺠﻣ"
 
 
-msgid "Forcefield based on a texture"
-msgstr "ﺞﻴﺴﻧ ﻰﻠﻋ ﺪﻤﺘﻌﻣ ﺓﻮﻘﻟﺍ ﻝﺎﺠﻣ"
-
-
 msgid "Create a force along a curve object"
 msgstr "ﻰﻨﺤﻨﻣ ﻦﺋﺎﻛ ﻰﻠﻋ ﺓﻮﻗ ﺙﺪﺤﻳ"
 
@@ -7611,22 +7647,6 @@ msgstr "ﺽﺮﻌﻟﺍ ﻊﺿﻭ"
 
 msgid "Display mode for the file list"
 msgstr "ﺕﺎﻔﻠﻤﻟﺍ ﺔﺤﺋﻼ﻿ﻟ ﺽﺮﻌﻟﺍ ﻊﺿﻭ"
-
-
-msgid "Short List"
-msgstr "ﺓﺮﻴﺼﻗ ﺔﺤﺋﻻ﻿"
-
-
-msgid "Display files as short list"
-msgstr "ﺓﺮﻴﺼﻗ ﺔﺤﺋﻻ﻿ ﻞﻜﺷ ﻰﻠﻋ ﺕﺎﻔﻠﻤﻟﺍ ﺽﺮﻋﺇ"
-
-
-msgid "Long List"
-msgstr "ﺔﻠﻳﻮﻃ ﺔﺤﺋﻻ﻿"
-
-
-msgid "Display files as a detailed list"
-msgstr "ﺔﻠﺼﻔﻣ ﺔﺤﺋﻻ﻿ ﻞﻜﺷ ﻰﻠﻋ ﺕﺎﻔﻠﻤﻟﺍ ﺽﺮﻋﺇ"
 
 
 msgid "Thumbnails"
@@ -7813,32 +7833,20 @@ msgid "Sort"
 msgstr "ﺐﺗّﺭ"
 
 
-msgid "Sort alphabetically"
-msgstr "ﺎﻳﺪﺠﺑﺃ ﺐﺗﺭ"
-
-
 msgid "Sort the file list alphabetically"
 msgstr "ﺎﻳﺪﺠﺑﺃ ﺕﺎﻔﻠﻤﻟﺍ ﺔﺤﺋﻻ﻿ ﺐﺗﺭ"
 
 
-msgid "Sort by extension"
-msgstr "ﺩﺍﺪﺘﻣﻹ﻿ﺎﺑ ﺐﺗﺭ"
+msgid "Extension"
+msgstr "ﺔﺌﻴﻫ"
 
 
 msgid "Sort the file list by extension/type"
 msgstr "ﻉﻮﻨﻟﺍ/ﺩﺍﺪﺘﻣﻻ﻿ﺍ ﺐﺴﺣ ﺕﺎﻔﻠﻤﻟﺍ ﺔﺤﺋﻻ﻿ ﺐﺗّﺭ"
 
 
-msgid "Sort by time"
-msgstr "ﺖﻗﻮﻟﺎﺑ ﺐﺗﺭ"
-
-
 msgid "Sort files by modification time"
 msgstr "ﻞﻳﺪﻌﺘﻟﺍ ﺖﻗﻮﺑ ﺕﺎﻔﻠﻤﻟﺍ ﺐﺗﺭ"
-
-
-msgid "Sort by size"
-msgstr "ﻢﺠﺤﻟﺎﺑ ﺐﺗﺭ"
 
 
 msgid "Sort files by size"
@@ -9477,10 +9485,6 @@ msgid "Build Modifier"
 msgstr "ءﺎﻨﺒﻟﺍ ﺮﻴﻐﻣ"
 
 
-msgid "Length"
-msgstr "ﻝﻮﻄﻟﺍ"
-
-
 msgid "Transition"
 msgstr "ﻝﺎﻘﺘﻧﺍ"
 
@@ -10087,6 +10091,10 @@ msgid "Sharper"
 msgstr "ﺩﺎﺣ"
 
 
+msgid "Deformation"
+msgstr "ﻩﻮّﺸﺘﻟﺍ"
+
+
 msgid "Fill Threshold"
 msgstr "ﺔﺌﺒﻌﺘﻟﺍ ﺔﺒﺘﻋ"
 
@@ -10303,6 +10311,14 @@ msgid "Rotate"
 msgstr "ﺭﻭﺩ"
 
 
+msgid "Draw Sharp"
+msgstr "ﺩﺎﺣ ﻢﺳﺭ"
+
+
+msgid "Pose"
+msgstr "ﺔﻔﻗﻭ"
+
+
 msgid "Secondary Color"
 msgstr "ﻲﻧﺎﺜﻟﺍ ﻥﻮﻠّﻟﺍ"
 
@@ -10381,10 +10397,6 @@ msgstr "ءﺎﻀﻓ"
 
 msgid "Limit brush application to the distance specified by spacing"
 msgstr "ﺪﻋﺎﺒﺘﻟﺎﺑ ﺓﺩﺪﺤﻤﻟﺍ ﺔﻓﺎﺴﻤﻠﻟ ﺓﺎﺷﺮﻔﻟﺍ ﻖﻴﺒﻄﺗ ﺮﺼﺣﺍ"
-
-
-msgid "Airbrush"
-msgstr "ﺥﺎﺨﺑ"
 
 
 msgid "Keep applying paint effect while holding mouse (spray)"
@@ -11041,10 +11053,6 @@ msgstr "ﺔﺌﺒﻌﺘﻟﺍ ﻊﺿﻭ"
 
 msgid "Mode of filling curve"
 msgstr "ﻰﻨﺤﻨﻤﻟﺍ ﺔﺌﺒﻌﺗ ﺔﻘﻳﺮﻃ"
-
-
-msgid "Full"
-msgstr "ﻼ﻿ﻣﺎﻛ"
 
 
 msgid "Half"
@@ -12555,22 +12563,6 @@ msgid "Shadow Buffer Bias"
 msgstr "ﻞﻈﻟﺍ ﺔﻜﺒﺷ ﻑﺍﺮﺤﻧﺇ"
 
 
-msgid "Shadow Buffer Bleed Bias"
-msgstr "ﻞﻈﻟﺍ ﺔﻜﺒﺷ ﻊﻴﻣﺪﺗ ﻑﺍﺮﺤﻧﺇ"
-
-
-msgid "Bias for reducing light-bleed on variance shadow maps"
-msgstr "ﺔﻔﻠﺘﺨﻣ ﻞﻇ ﻂﺋﺍﺮﺧ ﺪﻨﻋ ءﻮﻀﻟﺍ ﻊﻴﻣﺪﺗ ﻞﻴﻠﻘﺘﻟ ﺔﺣﺍﺯﺍ"
-
-
-msgid "Shadow Buffer Clip End"
-msgstr "ﺔﻜﺒﺸﻟﺍ ﻞﻇ ﻢﻴﻠﻘﺗ ﺔﻳﺎﻬﻧ"
-
-
-msgid "Shadow map clip end, beyond which objects will not generate shadows"
-msgstr "ﻝﻼ﻿ﻇ ﻩﺪﻌﺑ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺪﻟﻮﺗ ﻦﻟ ﻱﺬﻟﺍ ،ﻞﻇ ﺔﻄﻳﺮﺧ ﺺﻗ ﺔﻳﺎﻬﻧ"
-
-
 msgid "Shadow Buffer Clip Start"
 msgstr "ﺔﻜﺒﺸﻟﺍ ﻞﻇ ﻢﻴﻠﻘﺗ ﺔﻳﺍﺪﺑ"
 
@@ -12589,14 +12581,6 @@ msgstr "ﻞﻈﻟﺍ ﺔﻜﺒﺷ ﻢﺠﺣ"
 
 msgid "Resolution of the shadow buffer, higher values give crisper shadows but use more memory"
 msgstr "ﺮﺒﻛﺍ ﺓﺮﻛﺍﺫ ﺔﻴﻤﻛ ﻡﺪﺨﺘﺴﺗ ﻦﻜﻟ ﺮﻀﻧﺍ ﻞﻇ ﻲﻄﻌﺗ ﻰﻠﻋﺍ ﻢﻴﻗ ,ﻞﻈﻟﺍ ﺔﻜﺒﺷ ﺔﻗﺩ"
-
-
-msgid "Shadow Buffer Soft"
-msgstr " ﻥﺰﺨﻤﻟﺍ ﻞﻇ ﺔﻣﻮﻌﻧ"
-
-
-msgid "Size of shadow buffer sampling area"
-msgstr "ﻞﻈﻟﺍ ﺔﻜﺒﺸﻟ ﺔﻨﻳﺎﻌﻤﻟﺍ ﺔﺣﺎﺴﻣ ﻢﺠﺣ"
 
 
 msgid "Shadow Color"
@@ -12661,6 +12645,10 @@ msgstr "ﺓﺪﺷ"
 
 msgid "Clipping"
 msgstr "ﻢﻴﻠﻘﺗ"
+
+
+msgid "Bias for reducing light-bleed on variance shadow maps"
+msgstr "ﺔﻔﻠﺘﺨﻣ ﻞﻇ ﻂﺋﺍﺮﺧ ﺪﻨﻋ ءﻮﻀﻟﺍ ﻊﻴﻣﺪﺗ ﻞﻴﻠﻘﺘﻟ ﺔﺣﺍﺯﺍ"
 
 
 msgid "Active Shape Index"
@@ -13703,10 +13691,6 @@ msgid "Particle systems emitted from the object"
 msgstr "ﻦﺋﺎﻜﻟﺍ ﻦﻣ ﺔﺜﻌﺒﻨﻤﻟﺍ ﺕﺎﺌﻳﺰﺠﻟﺍ ﺔﻤﻈﻧﺃ"
 
 
-msgid "Pose"
-msgstr "ﺔﻔﻗﻭ"
-
-
 msgid "Current pose for armatures"
 msgstr "ﻞﻛﺎﻴﻬﻠﻟ ﺔﻴﻟﺎﺤﻟﺍ ﺔﻔﻗﻮﻟﺍ"
 
@@ -13759,10 +13743,6 @@ msgid "Rotation in Eulers"
 msgstr "ﺕﺍﺮﻟﻮﻴﻟﺎﺑ ﺮﻳﻭﺪﺘﻟﺍ"
 
 
-msgid "Rotation Mode"
-msgstr "ﺮﻳﻭﺪﺘﻟﺍ ﻊﺿﻭ"
-
-
 msgid "Quaternion (WXYZ)"
 msgstr "(WXYZ) ﻲﻋﺎﺑﺭ"
 
@@ -13771,48 +13751,24 @@ msgid "No Gimbal Lock"
 msgstr "ﻝﺎﺒﻤﻏ ﻞﻔﻗ ﻥﻭﺪﺑ"
 
 
-msgid "XYZ Euler"
-msgstr "XYZ ﺮﻟﻮﻳ"
-
-
 msgid "XYZ Rotation Order - prone to Gimbal Lock (default)"
 msgstr "(ﺎﻴﺿﺍﺮﺘﻓﺍ) ﻝﺎﺒﻤﻏ ﻞﻔﻘﻟ ﺽﺮّﻌﻣ - XYZ ﻥﺍﺭﻭﺩ ﺐﻴﺗﺮﺗ"
-
-
-msgid "XZY Euler"
-msgstr "XZY ﺮﻟﻮﻳ"
 
 
 msgid "XZY Rotation Order - prone to Gimbal Lock"
 msgstr "(ﺎﻴﺿﺍﺮﺘﻓﺍ) ﻝﺎﺒﻤﻏ ﻞﻔﻘﻟ ﺽﺮّﻌﻣ - XZY ﻥﺍﺭﻭﺩ ﺐﻴﺗﺮﺗ"
 
 
-msgid "YXZ Euler"
-msgstr "YXZ ﺮﻟﻮﻳ"
-
-
 msgid "YXZ Rotation Order - prone to Gimbal Lock"
 msgstr "ﻝﺎﺒﻤﻏ ﻞﻔﻘﻟ ﺽﺮّﻌﻣ - YXZ ﻥﺍﺭﻭﺩ ﺐﻴﺗﺮﺗ"
-
-
-msgid "YZX Euler"
-msgstr "YZX ﺮﻟﻮﻳ"
 
 
 msgid "YZX Rotation Order - prone to Gimbal Lock"
 msgstr "(ﺎﻴﺿﺍﺮﺘﻓﺍ) ﻝﺎﺒﻤﻏ ﻞﻔﻘﻟ ﺽﺮّﻌﻣ - YZX ﻥﺍﺭﻭﺩ ﺐﻴﺗﺮﺗ"
 
 
-msgid "ZXY Euler"
-msgstr "ZXY ﺮﻟﻮﻳ"
-
-
 msgid "ZXY Rotation Order - prone to Gimbal Lock"
 msgstr "(ﺎﻴﺿﺍﺮﺘﻓﺍ) ﻝﺎﺒﻤﻏ ﻞﻔﻘﻟ ﺽﺮّﻌﻣ - ZXY ﻥﺍﺭﻭﺩ ﺐﻴﺗﺮﺗ"
-
-
-msgid "ZYX Euler"
-msgstr "ZYX ﺮﻟﻮﻳ"
 
 
 msgid "ZYX Rotation Order - prone to Gimbal Lock"
@@ -15871,10 +15827,6 @@ msgstr "Y ﻰﻠﻋ ﺺﻗ ﻞﻗﺍ"
 
 msgid "Minimum Y value to crop the image"
 msgstr "ﺓﺭﻮﺼﻟﺍ ﺺﻘﻟ Y ﻰﻠﻋ ﺔﻤﻴﻗ ﻞﻗﺍ"
-
-
-msgid "Extension"
-msgstr "ﺔﺌﻴﻫ"
 
 
 msgid "How the image is extrapolated past its original bounds"
@@ -19472,10 +19424,6 @@ msgid "Mix Factor"
 msgstr "ﺞﻣﺪﻟﺍ ﻞﻣﺎﻌﻣ"
 
 
-msgid "Mix Mode"
-msgstr "ﻂﻠﺨﻟﺍ ﻊﺿﻭ"
-
-
 msgid "Above Threshold"
 msgstr "ﺔﺒﺘﻌﻟﺍ ﻕﻮﻓ"
 
@@ -22708,10 +22656,6 @@ msgid "Light Path"
 msgstr "ءﻮﺿ ﺭﺎﺴﻣ"
 
 
-msgid "Has Maximum"
-msgstr "ﻰﻠﻋﺍ ﺪﺣ ﻪﻳﺪﻟ"
-
-
 msgid "Mix Shader"
 msgstr "ﺝﺪﻣ ﻞﻠﻈﻣ"
 
@@ -24117,12 +24061,32 @@ msgid "Open a directory browser, Hold Shift to open the file, Alt to browse cont
 msgstr "ﺔﻨﻤﻀﺘﻤﻟﺍ ﺕﺍﺪﻠﺠﻤﻟﺍ ﺢﻔﺼﺘﻟ Alt ،ﻒﻠﻤﻟﺍ ﺢﺘﻔﻟ Shift ﻖﺑﺃ ،ﺪﻠﺠﻣ ﺢﻔﺼﺘﻣ ﺢﺘﻓﺇ"
 
 
+msgid "Open"
+msgstr "ﺢﺘﻓﺇ"
+
+
 msgid "Directory of the file"
 msgstr "ﻒﻠﻤﻟﺍ ﺪﻠّﺠﻣ"
 
 
 msgid "Automatically determine display type for files"
 msgstr "ﺎﻴﺗﺍﺫ ﺕﺎﻔﻠﻤﻠﻟ ﺽﺮﻌﻟﺍ ﻉﻮﻧ ﺩﺪﺣ"
+
+
+msgid "Short List"
+msgstr "ﺓﺮﻴﺼﻗ ﺔﺤﺋﻻ﻿"
+
+
+msgid "Display files as short list"
+msgstr "ﺓﺮﻴﺼﻗ ﺔﺤﺋﻻ﻿ ﻞﻜﺷ ﻰﻠﻋ ﺕﺎﻔﻠﻤﻟﺍ ﺽﺮﻋﺇ"
+
+
+msgid "Long List"
+msgstr "ﺔﻠﻳﻮﻃ ﺔﺤﺋﻻ﻿"
+
+
+msgid "Display files as a detailed list"
+msgstr "ﺔﻠﺼﻔﻣ ﺔﺤﺋﻻ﻿ ﻞﻜﺷ ﻰﻠﻋ ﺕﺎﻔﻠﻤﻟﺍ ﺽﺮﻋﺇ"
 
 
 msgid "The setting for the file browser mode to load a .blend file, a library or a special file"
@@ -25498,14 +25462,6 @@ msgid "-Z Axis"
 msgstr "Z ﺭﻮﺤﻣ"
 
 
-msgid "Main"
-msgstr "ﻲﺴﻴﺋﺮﻟﺍ"
-
-
-msgid "Geometries"
-msgstr "ﺕﺎﻤﺴﺠﻤﻟﺍ"
-
-
 msgid "Only Deform Bones"
 msgstr "ﻂﻘﻓ ﻡﺎﻈﻌﻟﺍ ﻉﻮﻃ"
 
@@ -25597,10 +25553,6 @@ msgstr "ﺓﺭﺎﺘﺨﻤﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ ﻑﺬﺣﺍ"
 msgctxt "Operator"
 msgid "Create New Directory"
 msgstr "ﺪﻳﺪﺟ ﺭﺎﺴﻣ ﺊﺸﻧﺍ"
-
-
-msgid "Open"
-msgstr "ﺢﺘﻓﺇ"
 
 
 msgctxt "Operator"
@@ -26426,10 +26378,6 @@ msgid "Set zoom ratio of the view"
 msgstr "ﺮﻈﻨﻤﻠﻟ ﻢﻴﺠﺤﺘﻟﺍ ﻝﺪﻌﻣ ﻊﺿ"
 
 
-msgid "Quaternion"
-msgstr "ﻲﻋﺎﺑﺭ"
-
-
 msgid "Scale FPS"
 msgstr "ﺔﻴﻧﺎﺛ ﻞﻜﻟ ﺮﻃﻷ﻿ﺍ ﻢﺠّﺣ"
 
@@ -26466,6 +26414,10 @@ msgstr "ﻚﻳﺮﺤﺘﻟﺍ ﺔﺣﺍﺯﺇ"
 
 msgid "Decal Offset"
 msgstr "ﺢﻄﺴﻟﺍ ﻦﻋ ﺔﺣﺍﺯﻹ﻿ﺍ"
+
+
+msgid "Main"
+msgstr "ﻲﺴﻴﺋﺮﻟﺍ"
 
 
 msgid "Import Animation"
@@ -27055,10 +27007,6 @@ msgid "Limited Dissolve"
 msgstr "ﺩﻭﺪﺤﻣ ﻞﻠﺤﺗ"
 
 
-msgid "Dissolve all vertices inbetween face boundaries"
-msgstr "ﺔﻠﺼﺘﻤﻟﺍ ﻡﺎﺴﺟﻻ﻿ﺍ ﻦﻴﺑ ﻡﺩﺎﺼﺘﻟﺍ ﻞﻄﻋ"
-
-
 msgctxt "Operator"
 msgid "Dissolve Selection"
 msgstr "ﺭﺎﻴﺘﺧﻻ﻿ﺍ ﻞﻠّﺣ"
@@ -27634,6 +27582,18 @@ msgstr "ﺭﺎﻴﺘﺧﺍ ﻂﻤﻧ"
 
 msgid "Change selection mode"
 msgstr "ﺔﻓﺎﺤﻟﺍ ﺭﺎﻴﺘﺣﺍ ﻂﻤﻧ"
+
+
+msgid "Vertex selection mode"
+msgstr "ﺔﻄﻘﻨﻟﺍ ﺭﺎﻴﺘﺧﺍ ﻊﺿﻭ"
+
+
+msgid "Edge selection mode"
+msgstr "ﺔﻓﺎﺤﻟﺍ ﺭﺎﻴﺘﺣﺍ ﻂﻤﻧ"
+
+
+msgid "Face selection mode"
+msgstr "ﻪﺟﻮﻟﺍ ﺭﺎﻴﺘﺧﺍ ﻊﺿﻭ"
 
 
 msgid "Expand"
@@ -28956,6 +28916,10 @@ msgstr "ﺔﻔﻗﻮﻟﺍ ﻊﺿﻭ ﺐﻠﻗﺍ"
 msgctxt "Operator"
 msgid "Make Proxy"
 msgstr "ﺏﻭﺪﻨﻣ ﺊﺸﻧﺍ"
+
+
+msgid "Edge Length"
+msgstr "ﺔﻓﺎﺤﻟﺍ ﻝﻮﻃ"
 
 
 msgctxt "Operator"
@@ -32335,11 +32299,6 @@ msgstr "ﻲﺸﻤﻟﺍ ﺢﻔّﺼﺗ"
 
 
 msgctxt "Operator"
-msgid "Append from Library"
-msgstr "ﺔﺒﺘﻜﻣ ﻦﻣ ﻦﻤّﺿ"
-
-
-msgctxt "Operator"
 msgid "Call Menu"
 msgstr "ﺐﻠﻄﻟﺍ ﺔﻤﺋﺎﻗ"
 
@@ -32668,18 +32627,8 @@ msgstr "ﺢﻴﺗﺎﻔﻤﻟﺍ ﺔﻠﻴﻜﺸﺘﻟ ﻖﺒﺴﻣ ﺩﺍﺪﻋ
 
 
 msgctxt "Operator"
-msgid "Link from Library"
-msgstr "ﺔﺒﺘﻜﻣ ﻦﻣ ﻂﺑﺭﺍ"
-
-
-msgctxt "Operator"
 msgid "Memory Statistics"
 msgstr "ﺓﺮﻛﺍﺬﻟﺍ ﺕﺎﻴﺋﺎﺼﺣﺍ"
-
-
-msgctxt "Operator"
-msgid "Open Blender File"
-msgstr "ﺭﺪﻨﻠﺑ ﻒﻠﻣ ﺢﺘﻓﺃ"
 
 
 msgid "Load UI"
@@ -32872,11 +32821,6 @@ msgstr "ﺪﻋﺃ/ﻊﺟﺍﺮﺗ"
 msgctxt "Operator"
 msgid "Revert"
 msgstr "ﺲﻜﻋﺇ"
-
-
-msgctxt "Operator"
-msgid "Save As Blender File"
-msgstr "ﺭﺪﻨﻠﺑ ﻒﻠﻤﻛ ﻆﻔﺣﺍ"
 
 
 msgid "Save a copy of the actual working state but does not make saved file active"
@@ -33234,6 +33178,10 @@ msgid "Subdivision"
 msgstr "ﻢﻴﻌﻨﺗ"
 
 
+msgid "Render Pass"
+msgstr "ﺮﻴﻴﺼﺗ ﺮﻤﻣ"
+
+
 msgid "Area Shape"
 msgstr "ﺔﺣﺎﺴﻤﻟﺍ ﻞﻜﺷ"
 
@@ -33466,6 +33414,10 @@ msgstr "ﻂﻤﻨﻟﺍ ءﺎﻀﻓ ﺔﻤﺋﺎﻗ"
 
 msgid "Panel Colors"
 msgstr "ﺡﺍﻮﻟﻻ﻿ﺍ ﻥﺍﻮﻟﺍ"
+
+
+msgid "Shaded"
+msgstr "ﻞﻠﻈﻣ"
 
 
 msgid "Styles"
@@ -36221,6 +36173,18 @@ msgid "Number of volume scattering samples to render for each AA sample"
 msgstr "ﺭﻮﻠﺒﺗ-ﺪﺿ ﺔﻨﻴﻋ ﻞﻜﻟ ﺮﻴﻴﺼﺘﻠﻟ ﻢﺠﺤﻟﺍ ﺭﺎﺸﺘﻧﺍ ﺕﺎﻨﻴﻋ ﺩﺪﻋ"
 
 
+msgid "Glossy Color"
+msgstr "ﻥﺎﻌﻤﻠﻟﺍ ﻥﻮﻟ"
+
+
+msgid "Transmission Color"
+msgstr "ﻝﺎﻘﺘﻧﻹ﻿ﺍ ﻥﻮﻟ"
+
+
+msgid "Subsurface Color"
+msgstr "ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﻥﻮﻟ"
+
+
 msgid "Object visibility for camera rays"
 msgstr "ﺍﺮﻴﻣﺎﻜﻟﺍ ﺔﻌﺷﻻ﻿ ﻦﺋﺎﻜﻟﺍ ﺭﻮﻬﻇ"
 
@@ -36477,10 +36441,6 @@ msgid "Deliver environment lighting pass"
 msgstr "ﻂﻴﺤﻤﻟﺍ ﺓءﺎﺿﺇ ﺔﻘﺒﻃ ﻊﻳﺯﻮﺗ"
 
 
-msgid "Glossy Color"
-msgstr "ﻥﺎﻌﻤﻠﻟﺍ ﻥﻮﻟ"
-
-
 msgid "Deliver glossy color pass"
 msgstr "ﻥﺎﻌﻤﻠﻟﺍ ﻥﻮﻟ ﺮﻤﻣ ﻞﻘﻧﺍ"
 
@@ -36513,10 +36473,6 @@ msgid "Deliver shadow pass"
 msgstr "ﻞﻇ ﺔﻘﺒﻃ ﻊﻳﺯﻮﺗ"
 
 
-msgid "Subsurface Color"
-msgstr "ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﻥﻮﻟ"
-
-
 msgid "Deliver subsurface color pass"
 msgstr "ﻲﺤﻄﺳ ﺖﺤﺘﻟﺍ ﻥﻮﻟ ﺮﻤﻣ ﺪﻟّﻭ"
 
@@ -36527,10 +36483,6 @@ msgstr "ﺮﺷﺎﺒﻤﻟﺍ ﻲﺤﻄﺳ ﺖﺤﺘﻟﺍ ﺮﻤﻣ ﺪﻟّﻭ
 
 msgid "Deliver subsurface indirect pass"
 msgstr "ﺮﺷﺎﺒﻣ ﺮﻴﻐﻟﺍ ﻲﺤﻄﺳ ﺖﺤﺘﻟﺍ ﺮﻤﻣ ﺪﻟّﻭ"
-
-
-msgid "Transmission Color"
-msgstr "ﻝﺎﻘﺘﻧﻹ﻿ﺍ ﻥﻮﻟ"
 
 
 msgid "Deliver transmission color pass"
@@ -36591,10 +36543,6 @@ msgstr "ﺔﻳﺩﻮﻤﻋ ﺔﻴﻓﺎﻔﺷ"
 
 msgid "Render Z-Transparent faces in this Layer (on top of Solid and Halos)"
 msgstr "(ﺔﺒﻠﺼﻟﺍ ﺕﻻ﻿ﺎﻬﻟﺍ ﻕﻮﻓ) ﺔﻘﺒﻄﻟﺍ ﻩﺬﻫ ﻲﻓ ﻩﻮﺟﻮﻠﻟ ﺔﻳﺩﻮﻤﻌﻟﺍ-ﺔﻴﻓﺎﻔﺸﻟﺍ ﺮﻴﻴﺼﺗ"
-
-
-msgid "Render Pass"
-msgstr "ﺮﻴﻴﺼﺗ ﺮﻤﻣ"
 
 
 msgid "Result of rendering, including all layers and passes"
@@ -38686,6 +38634,10 @@ msgid "Z Mapping"
 msgstr "Z ءﺎﺴﻛﺇ"
 
 
+msgid "Has Maximum"
+msgstr "ﻰﻠﻋﺍ ﺪﺣ ﻪﻳﺪﻟ"
+
+
 msgid "Texture Paint Slot"
 msgstr "ﺞﻴﺴﻧ ﻢﺳﺭ ﺔﺤﺘﻓ"
 
@@ -39582,10 +39534,6 @@ msgid "Shade Top"
 msgstr "ﻞﻈﻟﺍ ﻰﻠﻋﺃ"
 
 
-msgid "Shaded"
-msgstr "ﻞﻠﻈﻣ"
-
-
 msgid "Text Selected"
 msgstr "ﺭﺎﺘﺨﻤﻟﺍ ﺺﻨﻟﺍ"
 
@@ -39878,18 +39826,6 @@ msgid "UV selection and display mode"
 msgstr "UV ﺽﺮﻋ ﻭ ﺭﺎﻴﺘﺧﺍ ﻊﺿﻭ"
 
 
-msgid "Vertex selection mode"
-msgstr "ﺔﻄﻘﻨﻟﺍ ﺭﺎﻴﺘﺧﺍ ﻊﺿﻭ"
-
-
-msgid "Edge selection mode"
-msgstr "ﺔﻓﺎﺤﻟﺍ ﺭﺎﻴﺘﺣﺍ ﻂﻤﻧ"
-
-
-msgid "Face selection mode"
-msgstr "ﻪﺟﻮﻟﺍ ﺭﺎﻴﺘﺧﺍ ﻊﺿﻭ"
-
-
 msgid "Island"
 msgstr "ﺓﺮﻳﺰﺟ"
 
@@ -40106,10 +40042,6 @@ msgid "Display UV unwrapping seams"
 msgstr "UVـﻟﺍ ﺾﻓ ﺕﺍﺯﺭﺩ ﺮﻬﻇﺃ"
 
 
-msgid "Draw Sharp"
-msgstr "ﺩﺎﺣ ﻢﺳﺭ"
-
-
 msgid "Draw Edges"
 msgstr "ﻑﺍﻮﺤﻟﺍ ﻢﺳﺭﺍ"
 
@@ -40120,10 +40052,6 @@ msgstr "ﺔﻓﺎﺤﻟﺍ ﺔﻳﻭﺍﺯ"
 
 msgid "Display selected edge angle, using global values when set in the transform panel"
 msgstr "ﻝﻮّﺤﺘﻟﺍ ﺡﻮﻟ ﻲﻓ ﺎﻬﻌﺿﻭ ﺪﻨﻋ ﺔﻴﻤﻟﺎﻋ ﻢﻴﻗ ﻡﺍﺪﺨﺘﺳﺈﺑ ,ﺓﺭﺎﺘﺨﻤﻟﺍ ﺔﻓﺎﺤﻟﺍ ﺔﻳﻭﺍﺯ ﺽﺮﻋﺇ"
-
-
-msgid "Edge Length"
-msgstr "ﺔﻓﺎﺤﻟﺍ ﻝﻮﻃ"
 
 
 msgid "Display selected edge lengths, using global values when set in the transform panel"
@@ -40665,10 +40593,6 @@ msgstr "ﺝﺮﺧ ﺓﺪﻘﻋ ﺪﺟﻮﺗ ﻻ﻿"
 
 msgid "Homogeneous"
 msgstr "ﺲﻧﺎﺠﺘﻣ"
-
-
-msgid "Deformation"
-msgstr "ﻩﻮّﺸﺘﻟﺍ"
 
 
 msgid "Extrusion"
@@ -41715,10 +41639,6 @@ msgid "Invert"
 msgstr "ﺲﻜﻋﺇ"
 
 
-msgid "Not for Axis-Angle"
-msgstr "ﺭﻮﺤﻤﻟﺍ ﺔﻳﻭﺍﺰﻟ ﺲﻴﻟ"
-
-
 msgid "Old"
 msgstr "ﻢﻳﺪﻗ"
 
@@ -42177,6 +42097,11 @@ msgstr "ﺡﺯﺃ"
 msgctxt "Operator"
 msgid "Cleanup"
 msgstr "ﻒﻈّﻧ"
+
+
+msgctxt "Operator"
+msgid "Back"
+msgstr "ﻒﻠﺧ"
 
 
 msgctxt "Operator"
@@ -42796,11 +42721,6 @@ msgstr "ﻡﺎﻣﺃ"
 
 
 msgctxt "Operator"
-msgid "Back"
-msgstr "ﻒﻠﺧ"
-
-
-msgctxt "Operator"
 msgid "Child"
 msgstr "ﻉﺮﻓ"
 
@@ -43182,11 +43102,6 @@ msgid "Make"
 msgstr "ﻞﻌﺟﺇ"
 
 
-msgctxt "Operator"
-msgid "Move to Layer"
-msgstr "ﺔﻘﺒﻃ ﻰﻟﺍ ﻞﻘﻧﺍ"
-
-
 msgid "Creases"
 msgstr "ﻕﻮﻘﺷ"
 
@@ -43496,11 +43411,6 @@ msgstr "ﻞﻘﺤﻟﺍ ﻖﻤﻋ ﺔﻓﺎﺴﻣ"
 msgctxt "Operator"
 msgid "Empty Draw Size"
 msgstr "ﻲﻤﻫﻮﻟﺍ ﻢﺳﺭ ﻢﺠﺣ"
-
-
-msgctxt "Operator"
-msgid "Energy"
-msgstr "ﺔﻗﺎﻃ"
 
 
 msgctxt "Operator"
@@ -44106,6 +44016,11 @@ msgstr "ﺔﻟﺎﻌّﻓ ﺔﻘﻄﻨﻣ ﺪﺟﻮﺗ ﻻ﻿"
 
 
 msgctxt "Operator"
+msgid "Change Shortcut"
+msgstr "ﺭﺎﺼﺘﺧﻹ﻿ﺍ ﺮﻴﻏ"
+
+
+msgctxt "Operator"
 msgid "Replace Keyframes"
 msgstr "ﺢﻴﺗﺎﻔﻤﻟﺍ ﻝﺪّﺑ"
 
@@ -44178,11 +44093,6 @@ msgstr "ﺔﺿﺮﺘﻔﻤﻟﺍ ﺔﻤﻴﻘﻠﻟ ﺍﺩﺮﻔﻨﻣ ﻂﺒﻀ
 msgctxt "Operator"
 msgid "Unset"
 msgstr "ﻎﻟﺇ"
-
-
-msgctxt "Operator"
-msgid "Change Shortcut"
-msgstr "ﺭﺎﺼﺘﺧﻹ﻿ﺍ ﺮﻴﻏ"
 
 
 msgctxt "Operator"
@@ -44270,22 +44180,6 @@ msgstr ":ﺔﻔﻗﻭ"
 
 msgid "Use Clipping"
 msgstr "ﻢﻴﻠﻘﺗ"
-
-
-msgid "Min X "
-msgstr "X ﺭﻮﺤﻤﻟﺍ ﻰﻧﺩﺃ"
-
-
-msgid "Min Y "
-msgstr "Y ﺭﻮﺤﻤﻟﺍ ﻰﻧﺩﺃ"
-
-
-msgid "Max X "
-msgstr "X ﺭﻮﺤﻤﻟﺍ ﻰﺼﻗﺃ"
-
-
-msgid "Max Y "
-msgstr "Y ﺭﻮﺤﻤﻟﺍ ﻰﺼﻗﺃ"
 
 
 msgid "Reset View"
@@ -45145,36 +45039,8 @@ msgid "No object to apply orientation on"
 msgstr "ﺐﻄﻘﻟﺍ ﻥﺍﺭﻭﺪﻟ ﻦﺋﺎﻛ"
 
 
-msgid "Parent Directory"
-msgstr "ﻞﺻﻻ﻿ﺍ ﺱﺮﻬﻔﻟﺍ"
-
-
-msgid "Open Directory"
-msgstr "ﺱﺮﻬﻔﻟﺍ ﺢﺘﻓﺍ"
-
-
-msgid "Cancel"
-msgstr "ﻎﻟﺃ"
-
-
 msgid "File path"
 msgstr "ﻒﻠﻤﻟﺍ ﺭﺎﺴﻣ"
-
-
-msgid "Decrement the filename number"
-msgstr " ﻒﻠﻤﻟﺍ ﻢﺳﺇ ﺩﺪﻋ ﺹﺎﻘﻧﺇ"
-
-
-msgid "Increment the filename number"
-msgstr "ﻒﻠﻤﻟﺍ ﻢﺳﺇ ﺩﺪﻋ ﺓﺩﺎﻳﺯ"
-
-
-msgid "File name, overwrite existing"
-msgstr "ﺩﻮﺟﻮﻤﻟﺍ ﻰﻠﻋ ﺔﺑﺎﺘﻜﻟﺍ ،ﻒﻠﻤﻟﺍ ﺭﺎﺴﻣ"
-
-
-msgid "File name"
-msgstr "ﻒﻠﻤﻟﺍ ﻢﺳﺇ"
 
 
 msgid "No parent directory given"
@@ -45183,6 +45049,18 @@ msgstr "ﻁﻮﻄﺨﻟﺍ ﺪﻠﺠﻣ"
 
 msgid "Could not create new folder name"
 msgstr "ﺓﺪﻳﺪﺟ ﺪﻘﻋ ﺓﺮﺠﺷ ﺊﺸﻧﺍ"
+
+
+msgid "Cancel"
+msgstr "ﻎﻟﺃ"
+
+
+msgid "File name, overwrite existing"
+msgstr "ﺩﻮﺟﻮﻤﻟﺍ ﻰﻠﻋ ﺔﺑﺎﺘﻜﻟﺍ ،ﻒﻠﻤﻟﺍ ﺭﺎﺴﻣ"
+
+
+msgid "File name"
+msgstr "ﻒﻠﻤﻟﺍ ﻢﺳﺇ"
 
 
 msgid "Cursor from Selection"

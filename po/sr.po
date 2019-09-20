@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 3) (b'2b55f621fe20')\n"
+"Project-Id-Version: Blender 2.81 (sub 11) (b'345fb22ea3f7')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 00:00:00\n"
+"POT-Creation-Date: 2019-09-16 10:40:24\n"
 "PO-Revision-Date: 2012-09-07 22:32+0100\n"
 "Last-Translator: Nikola Radovanovic <cobisimo@gmail.com>\n"
 "Language-Team: Nikola Radovanovic\n"
@@ -1099,12 +1099,24 @@ msgid "Bone is able to be selected"
 msgstr "Може се изабрати кост"
 
 
+msgid "Inherit Scale"
+msgstr "Наследи увећање"
+
+
+msgid "Full"
+msgstr "Комплетно"
+
+
 msgid "Layers"
 msgstr "Слојеви"
 
 
 msgid "Layers bone exists in"
 msgstr "Слојеви кости постоје у"
+
+
+msgid "Length"
+msgstr "Дужина"
 
 
 msgid "Bone Matrix"
@@ -1133,10 +1145,6 @@ msgstr "Изабери реп"
 
 msgid "Tail"
 msgstr "Реп"
-
-
-msgid "Location of tail end of the bone"
-msgstr "Локација репа кости"
 
 
 msgid "Connected"
@@ -1169,14 +1177,6 @@ msgstr "Наследи ротацију"
 
 msgid "Bone inherits rotation or scale from parent bone"
 msgstr "Кост наслеђује ротацију и увећање са родитељске кости"
-
-
-msgid "Inherit Scale"
-msgstr "Наследи увећање"
-
-
-msgid "Bone inherits scaling from parent bone"
-msgstr "Кост наслеђује увећање са родитељске кости"
 
 
 msgid "Local Location"
@@ -1265,6 +1265,10 @@ msgstr "Праг"
 
 msgid "Marker"
 msgstr "Маркер"
+
+
+msgid "Airbrush"
+msgstr "Спреј"
 
 
 msgid "Fill"
@@ -2342,6 +2346,10 @@ msgstr "Копирај Z"
 
 msgid "Copy Rotation Constraint"
 msgstr "Умножи ограничења ротације"
+
+
+msgid "Mix Mode"
+msgstr "Режим мешања"
 
 
 msgid "Power"
@@ -3696,6 +3704,10 @@ msgid "Tail Select"
 msgstr "Избор краја"
 
 
+msgid "Location of tail end of the bone"
+msgstr "Локација репа кости"
+
+
 msgid "All"
 msgstr "Све"
 
@@ -4213,10 +4225,6 @@ msgid "Type of field"
 msgstr "Спој објекте"
 
 
-msgid "Forcefield based on a texture"
-msgstr "Даје текстуру ореолу"
-
-
 msgid "2D"
 msgstr "2D"
 
@@ -4301,22 +4309,6 @@ msgid "Large"
 msgstr "Велико"
 
 
-msgid "Short List"
-msgstr "Кратка листа"
-
-
-msgid "Display files as short list"
-msgstr "Прикажи датотеке као скраћену листу"
-
-
-msgid "Long List"
-msgstr "Дуга листа"
-
-
-msgid "Display files as a detailed list"
-msgstr "Прикажи датотеке као детаљну листу"
-
-
 msgid "Thumbnails"
 msgstr "Умањени прикази"
 
@@ -4361,28 +4353,16 @@ msgid "Sort"
 msgstr "Ређање"
 
 
-msgid "Sort alphabetically"
-msgstr "Поређај по азбучном реду"
-
-
 msgid "Sort the file list alphabetically"
 msgstr "Ређа листу датотека по азбучном реду"
 
 
-msgid "Sort by extension"
-msgstr "Поређај по наставку"
-
-
-msgid "Sort by time"
-msgstr "Поређај по времену"
+msgid "Extension"
+msgstr "Продужетак"
 
 
 msgid "Sort files by modification time"
 msgstr "Ређа листу датотека по времену измене"
-
-
-msgid "Sort by size"
-msgstr "Поређај по величини"
 
 
 msgid "Sort files by size"
@@ -5169,10 +5149,6 @@ msgid "Object Offset"
 msgstr "Растојање објекта"
 
 
-msgid "Length"
-msgstr "Дужина"
-
-
 msgid "Transition"
 msgstr "Прелаз"
 
@@ -5474,6 +5450,10 @@ msgid "Sharper"
 msgstr "Оштрије"
 
 
+msgid "Deformation"
+msgstr "Деформација"
+
+
 msgid "Fill Threshold"
 msgstr "Праг испуне"
 
@@ -5590,6 +5570,14 @@ msgid "Rotate"
 msgstr "Ротирање"
 
 
+msgid "Draw Sharp"
+msgstr "Цртај оштро"
+
+
+msgid "Pose"
+msgstr "Поза"
+
+
 msgid "Secondary Color"
 msgstr "Споредна боја"
 
@@ -5632,10 +5620,6 @@ msgstr "Омогући прецизно позиционирање сваке т
 
 msgid "Space"
 msgstr "Простор"
-
-
-msgid "Airbrush"
-msgstr "Спреј"
 
 
 msgid "Texture Overlay Alpha"
@@ -5968,10 +5952,6 @@ msgstr "Извуци"
 
 msgid "Fill Mode"
 msgstr "Попуни рупе"
-
-
-msgid "Full"
-msgstr "Комплетно"
 
 
 msgid "Half"
@@ -7402,10 +7382,6 @@ msgid "Particle systems emitted from the object"
 msgstr "Систем честица који емитује објекат"
 
 
-msgid "Pose"
-msgstr "Поза"
-
-
 msgid "Current pose for armatures"
 msgstr "Текућа поза костура"
 
@@ -8510,10 +8486,6 @@ msgstr "Минимално исецање по Y"
 
 msgid "Minimum Y value to crop the image"
 msgstr "Поставља минималну X вредност рендерованог оквира"
-
-
-msgid "Extension"
-msgstr "Продужетак"
 
 
 msgid "How the image is extrapolated past its original bounds"
@@ -10425,10 +10397,6 @@ msgstr "Сви слојеви"
 
 msgid "Mix Factor"
 msgstr "Фактор мешања"
-
-
-msgid "Mix Mode"
-msgstr "Режим мешања"
 
 
 msgid "Nearest vertex"
@@ -12498,14 +12466,6 @@ msgid "Light Path"
 msgstr "Путања светлости"
 
 
-msgid "Has Maximum"
-msgstr "Има максимум"
-
-
-msgid "Has Minimum"
-msgstr "Има минимум"
-
-
 msgid "MixRGB"
 msgstr "RGB мешање"
 
@@ -12676,10 +12636,6 @@ msgstr "Врста неба"
 
 msgid "Sun Direction"
 msgstr "Смер сунца"
-
-
-msgid "Closest"
-msgstr "Најближе"
 
 
 msgid "Wave Texture"
@@ -13724,8 +13680,28 @@ msgid "Accept"
 msgstr "Прихвати"
 
 
+msgid "Open"
+msgstr "Отвори"
+
+
 msgid "Automatically determine display type for files"
 msgstr "Самостално изабери врсту убрзања"
+
+
+msgid "Short List"
+msgstr "Кратка листа"
+
+
+msgid "Display files as short list"
+msgstr "Прикажи датотеке као скраћену листу"
+
+
+msgid "Long List"
+msgstr "Дуга листа"
+
+
+msgid "Display files as a detailed list"
+msgstr "Прикажи датотеке као детаљну листу"
 
 
 msgid "Filter .blend files"
@@ -15238,10 +15214,6 @@ msgid "Name of new directory"
 msgstr "Назив новог директоријума"
 
 
-msgid "Open"
-msgstr "Отвори"
-
-
 msgid "Open new directory"
 msgstr "Отвори нови директоријум"
 
@@ -15371,10 +15343,6 @@ msgstr "Скорашње"
 
 msgid "Reset Recent files"
 msgstr "Скорашње датотеке"
-
-
-msgid "Activate/select file"
-msgstr "Активирај/изабери датотеку"
 
 
 msgid "Select everything beginning with the last selection"
@@ -16686,10 +16654,6 @@ msgid "Delimit dissolve operation"
 msgstr "Поништи ограничење операције растапања"
 
 
-msgid "Dissolve all vertices inbetween face boundaries"
-msgstr "Растопи сва темена у граници странице"
-
-
 msgctxt "Operator"
 msgid "Dissolve Selection"
 msgstr "Растопи изабрано"
@@ -17324,6 +17288,18 @@ msgstr "Мод изабора"
 
 msgid "Change selection mode"
 msgstr "Промени мод избора"
+
+
+msgid "Vertex selection mode"
+msgstr "Мод избора темена"
+
+
+msgid "Edge selection mode"
+msgstr "Мод избора ивица"
+
+
+msgid "Face selection mode"
+msgstr "Мод избора страница"
 
 
 msgid "Expand"
@@ -18508,6 +18484,10 @@ msgstr "Освежи путање објекта"
 msgctxt "Operator"
 msgid "Toggle Pose Mode"
 msgstr "Мод позе"
+
+
+msgid "Edge Length"
+msgstr "Дужина ивице"
 
 
 msgctxt "Operator"
@@ -20891,6 +20871,10 @@ msgid "Align with Point Normal"
 msgstr "Поравнај са нормалом тачке"
 
 
+msgid "Closest"
+msgstr "Најближе"
+
+
 msgid "Snap closest point onto target"
 msgstr "Лепи најближу за циљну тачку"
 
@@ -22185,11 +22169,6 @@ msgid "Reload the saved file"
 msgstr "Поново учитај сачувану датотеку"
 
 
-msgctxt "Operator"
-msgid "Save As Blender File"
-msgstr "Сачувај Blender датотеку"
-
-
 msgid "Write compressed .blend file"
 msgstr "Упиши у компресовану .blend датотеку"
 
@@ -22664,6 +22643,10 @@ msgstr "Простор теме"
 
 msgid "Panel Colors"
 msgstr "Боје панела"
+
+
+msgid "Shaded"
+msgstr "Сенчено"
 
 
 msgid "Styles"
@@ -24082,6 +24065,14 @@ msgid "Max Steps"
 msgstr "Макс. корака"
 
 
+msgid "Glossy Color"
+msgstr "Боја неба"
+
+
+msgid "Transmission Color"
+msgstr "Боја преноса"
+
+
 msgid "When using volume rendering, assume volume has the same density everywhere(not using any textures), for faster rendering"
 msgstr "При рендеровању запремине, рачунај да је густина свуда иста (не користи текстуре), ради бржег рендеровања"
 
@@ -24196,14 +24187,6 @@ msgstr "Све Z"
 
 msgid "Fill in Z values for solid faces in invisible layers, for masking"
 msgstr "Попуни Z вредности пуних страница у провидном слоју за маскирање"
-
-
-msgid "Glossy Color"
-msgstr "Боја неба"
-
-
-msgid "Transmission Color"
-msgstr "Боја преноса"
 
 
 msgid "Sky"
@@ -25925,6 +25908,14 @@ msgid "Z Mapping"
 msgstr "Z мапирање"
 
 
+msgid "Has Maximum"
+msgstr "Има максимум"
+
+
+msgid "Has Minimum"
+msgstr "Има минимум"
+
+
 msgid "Text Box"
 msgstr "Блок текта"
 
@@ -26601,10 +26592,6 @@ msgid "Shade Down"
 msgstr "Доња сенка"
 
 
-msgid "Shaded"
-msgstr "Сенчено"
-
-
 msgid "Changed"
 msgstr "Промена"
 
@@ -26757,18 +26744,6 @@ msgid "UV selection and display mode"
 msgstr "UV избор и начин приказа"
 
 
-msgid "Vertex selection mode"
-msgstr "Мод избора темена"
-
-
-msgid "Edge selection mode"
-msgstr "Мод избора ивица"
-
-
-msgid "Face selection mode"
-msgstr "Мод избора страница"
-
-
 msgid "Island"
 msgstr "Острво"
 
@@ -26913,20 +26888,12 @@ msgid "Draw Bevel Weights"
 msgstr "Прикажи тежину искошавања"
 
 
-msgid "Draw Sharp"
-msgstr "Цртај оштро"
-
-
 msgid "Draw Edges"
 msgstr "Цртај ивице"
 
 
 msgid "Edge Angle"
 msgstr "Угао ивице"
-
-
-msgid "Edge Length"
-msgstr "Дужина ивице"
 
 
 msgid "Indices"
@@ -27289,10 +27256,6 @@ msgstr "Делова X"
 
 msgid "No output node"
 msgstr "Без излазног чвора"
-
-
-msgid "Deformation"
-msgstr "Деформација"
 
 
 msgid "Curve subdivisions"
@@ -28467,6 +28430,11 @@ msgstr "Клизај"
 
 
 msgctxt "Operator"
+msgid "Back"
+msgstr "Од позади"
+
+
+msgctxt "Operator"
 msgid "Less"
 msgstr "Мање"
 
@@ -28961,11 +28929,6 @@ msgstr "Спреда"
 
 
 msgctxt "Operator"
-msgid "Back"
-msgstr "Од позади"
-
-
-msgctxt "Operator"
 msgid "Child"
 msgstr "Дете"
 
@@ -29318,11 +29281,6 @@ msgid "Make"
 msgstr "Направи"
 
 
-msgctxt "Operator"
-msgid "Move to Layer"
-msgstr "Премести на слој"
-
-
 msgctxt "Plural"
 msgid "Sharp"
 msgstr "Оштро"
@@ -29499,11 +29457,6 @@ msgstr "Ширина"
 msgctxt "Operator"
 msgid "DOF Distance"
 msgstr "Удаљеност DOF-а"
-
-
-msgctxt "Operator"
-msgid "Energy"
-msgstr "Енергија"
 
 
 msgctxt "Operator"
@@ -29868,6 +29821,11 @@ msgstr "Модификатор вредности F-криве"
 
 
 msgctxt "Operator"
+msgid "Change Shortcut"
+msgstr "Промени пречицу"
+
+
+msgctxt "Operator"
 msgid "Replace Keyframes"
 msgstr "Замени кључне кадарове"
 
@@ -29925,11 +29883,6 @@ msgstr "Врати један на почетну вредност"
 msgctxt "Operator"
 msgid "Unset"
 msgstr "Поништи"
-
-
-msgctxt "Operator"
-msgid "Change Shortcut"
-msgstr "Промени пречицу"
 
 
 msgctxt "Operator"
@@ -30005,22 +29958,6 @@ msgstr "Поз"
 
 msgid "Use Clipping"
 msgstr "Користи исецање"
-
-
-msgid "Min X "
-msgstr "Мин  X "
-
-
-msgid "Min Y "
-msgstr "Мин Y "
-
-
-msgid "Max X "
-msgstr "Макс X "
-
-
-msgid "Max Y "
-msgstr "Макс Y "
 
 
 msgid "Reset View"
@@ -30746,28 +30683,8 @@ msgid "Cannot read '%s': %s"
 msgstr "Не могу да прочитам '%s': %s"
 
 
-msgid "Cancel"
-msgstr "Одустани"
-
-
 msgid "File path"
 msgstr "Путања датотеке"
-
-
-msgid "Decrement the filename number"
-msgstr "Умањи број назива датотеке"
-
-
-msgid "Increment the filename number"
-msgstr "Увећај број назива датотеке"
-
-
-msgid "File name, overwrite existing"
-msgstr "Име датотеке, препиши постојеће"
-
-
-msgid "File name"
-msgstr "Назив датотеке"
 
 
 msgid "No parent directory given"
@@ -30776,6 +30693,18 @@ msgstr "Иди на претходни каталог (PKEY)"
 
 msgid "Could not create new folder name"
 msgstr "Не могу да направим име новог директоријума"
+
+
+msgid "Cancel"
+msgstr "Одустани"
+
+
+msgid "File name, overwrite existing"
+msgstr "Име датотеке, препиши постојеће"
+
+
+msgid "File name"
+msgstr "Назив датотеке"
 
 
 msgid "Cursor from Selection"

@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 3) (b'2b55f621fe20')\n"
+"Project-Id-Version: Blender 2.81 (sub 11) (b'345fb22ea3f7')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 00:00:00\n"
+"POT-Creation-Date: 2019-09-16 10:40:24\n"
 "PO-Revision-Date: 2015-03-03 16:21+0530\n"
 "Last-Translator: Roshan Lal Gumasta <roshan@anisecrets.com>\n"
 "Language-Team: Hindi <www.anisecrets.com>\n"
@@ -547,6 +547,10 @@ msgid "Selectable"
 msgstr "चयनयोग्य"
 
 
+msgid "Full"
+msgstr "पूर्ण"
+
+
 msgid "Layers"
 msgstr "परतें"
 
@@ -890,6 +894,14 @@ msgstr "Y"
 
 msgid "Z"
 msgstr "Z"
+
+
+msgid "ZXY Euler"
+msgstr "ZXY यूलर"
+
+
+msgid "ZYX Euler"
+msgstr "ZYX यूलर"
 
 
 msgid "Power"
@@ -1433,14 +1445,6 @@ msgid "Display Mode"
 msgstr "प्रदर्शित रूप"
 
 
-msgid "Short List"
-msgstr "संक्षिप्त सूची"
-
-
-msgid "Long List"
-msgstr "लंबी सूची"
-
-
 msgid "File Name"
 msgstr "संचिका का नाम"
 
@@ -1886,6 +1890,10 @@ msgid "Rotate"
 msgstr "घूर्णन"
 
 
+msgid "Pose"
+msgstr "मुद्रा"
+
+
 msgid "Dots"
 msgstr "बिन्दु्"
 
@@ -1976,10 +1984,6 @@ msgstr "आयाम"
 
 msgid "Extrude"
 msgstr "बिहर्वेधन"
-
-
-msgid "Full"
-msgstr "पूर्ण"
 
 
 msgid "Half"
@@ -2398,24 +2402,12 @@ msgid "Motion Path"
 msgstr "गति पथ"
 
 
-msgid "Pose"
-msgstr "मुद्रा"
-
-
 msgid "Proxy"
 msgstr "प्रॉक्सी"
 
 
 msgid "Rigid Body Constraint"
 msgstr "कठोर-पदार्थ प्रतिबंधी"
-
-
-msgid "ZXY Euler"
-msgstr "ZXY यूलर"
-
-
-msgid "ZYX Euler"
-msgstr "ZYX यूलर"
 
 
 msgid "Pixel"
@@ -3510,10 +3502,6 @@ msgid "Projection"
 msgstr "प्रक्षेपण"
 
 
-msgid "Cells"
-msgstr "कक्ष"
-
-
 msgid "At"
 msgstr "पर"
 
@@ -3715,6 +3703,18 @@ msgstr "रेखा"
 msgctxt "Curve"
 msgid "Round"
 msgstr "दौर"
+
+
+msgid "Open"
+msgstr "खोलें"
+
+
+msgid "Short List"
+msgstr "संक्षिप्त सूची"
+
+
+msgid "Long List"
+msgstr "लंबी सूची"
 
 
 msgid "File Browser Mode"
@@ -3938,10 +3938,6 @@ msgstr "बंद/बुझ स्मृति प्रदर्शित क�
 msgctxt "Operator"
 msgid "Create New Directory"
 msgstr "नया निर्देशिका बनाएँ"
-
-
-msgid "Open"
-msgstr "खोलें"
 
 
 msgid "Dir"
@@ -4778,11 +4774,6 @@ msgid "View Documentation"
 msgstr "देखें प्रलेखन"
 
 
-msgctxt "Operator"
-msgid "Open Blender File"
-msgstr "ब्लेंडर संचिका खोलें"
-
-
 msgid "Open a Blender file"
 msgstr "एक ब्लेंडर संचिका खोलें"
 
@@ -4862,11 +4853,6 @@ msgstr "अनुप्राणन चलाएँ"
 
 msgid "Undo/Redo"
 msgstr "पूर्ववत करें/फिर से करें"
-
-
-msgctxt "Operator"
-msgid "Save As Blender File"
-msgstr "ब्लेंडर संचिका के रूप में सहेजें"
 
 
 msgid "Save the current file in the desired location"
@@ -5014,6 +5000,10 @@ msgid "Bone Color Sets"
 msgstr "हड्डी रंग समूह"
 
 
+msgid "Shaded"
+msgstr "छायांकित"
+
+
 msgid "Video Sequence Editor"
 msgstr "वीडियो अनुक्रम संपादक"
 
@@ -5121,6 +5111,10 @@ msgid "16x"
 msgstr "१६ x"
 
 
+msgid "Glossy Color"
+msgstr "चमकदार रंग"
+
+
 msgid "Manual"
 msgstr "नियम पुस्तिका"
 
@@ -5171,10 +5165,6 @@ msgstr "पॉट टेम्पलेट संचिका के लिए �
 
 msgid "All Z"
 msgstr "सभी z"
-
-
-msgid "Glossy Color"
-msgstr "चमकदार रंग"
 
 
 msgid "Sky"
@@ -5588,10 +5578,6 @@ msgstr "तार"
 
 msgid "Inner"
 msgstr "भीतरी"
-
-
-msgid "Shaded"
-msgstr "छायांकित"
 
 
 msgid "Mask Non-Group Vertices"
@@ -6381,6 +6367,11 @@ msgstr "सरकाएँ"
 
 
 msgctxt "Operator"
+msgid "Back"
+msgstr "पार्श्व"
+
+
+msgctxt "Operator"
 msgid "Less"
 msgstr "कम"
 
@@ -6617,11 +6608,6 @@ msgstr "सामने"
 
 
 msgctxt "Operator"
-msgid "Back"
-msgstr "पार्श्व"
-
-
-msgctxt "Operator"
 msgid "Child"
 msgstr "कारक"
 
@@ -6825,11 +6811,6 @@ msgstr "चौड़ाई आकार"
 msgctxt "Operator"
 msgid "DOF Distance"
 msgstr "DOF दूरी"
-
-
-msgctxt "Operator"
-msgid "Energy"
-msgstr "ऊर्जा"
 
 
 msgctxt "Operator"
@@ -7178,6 +7159,11 @@ msgstr "सतह"
 
 
 msgctxt "Operator"
+msgid "Change Shortcut"
+msgstr "परिवर्तन शॉर्टकट"
+
+
+msgctxt "Operator"
 msgid "Delete Single Keyframe"
 msgstr "एक अनुबोधक चिन्ह मिटाएँ"
 
@@ -7233,11 +7219,6 @@ msgstr "मूलभूत मान के लिए एकल पूर्व�
 
 
 msgctxt "Operator"
-msgid "Change Shortcut"
-msgstr "परिवर्तन शॉर्टकट"
-
-
-msgctxt "Operator"
 msgid "Remove Shortcut"
 msgstr "शॉर्टकट हटाएँ"
 
@@ -7256,10 +7237,6 @@ msgstr "अज्ञात"
 
 msgid "Pos"
 msgstr "पीओएस"
-
-
-msgid "Min X "
-msgstr "न्यूनतम् x "
 
 
 msgid "Reset"
@@ -7643,12 +7620,12 @@ msgid "Cannot read '%s': %s"
 msgstr "पढ़ा नहीं कर सकता: '%s': %s"
 
 
-msgid "Cancel"
-msgstr "रद्द करें"
-
-
 msgid "File path"
 msgstr "संचिका पथ"
+
+
+msgid "Cancel"
+msgstr "रद्द करें"
 
 
 msgid "File name"

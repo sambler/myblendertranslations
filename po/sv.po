@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 3) (b'2b55f621fe20')\n"
+"Project-Id-Version: Blender 2.81 (sub 11) (b'345fb22ea3f7')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 00:00:00\n"
+"POT-Creation-Date: 2019-09-16 10:40:24\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arvid Rudling <arvid.r@gmail.com>\n"
 "Language-Team: \n"
@@ -797,12 +797,20 @@ msgid "Bone is able to be selected"
 msgstr "Ingen materialnod markerad"
 
 
+msgid "Inherit Scale"
+msgstr "Ärva skalning"
+
+
 msgid "Layers"
 msgstr "Lager"
 
 
 msgid "Layers bone exists in"
 msgstr "Duplicera"
+
+
+msgid "Length"
+msgstr "Längd"
 
 
 msgid "Bone Matrix"
@@ -851,10 +859,6 @@ msgstr "Multiplicera vertexgrupp med omslutning"
 
 msgid "Inherit Rotation"
 msgstr "Ärv rotation"
-
-
-msgid "Inherit Scale"
-msgstr "Ärva skalning"
 
 
 msgid "Local Location"
@@ -971,6 +975,10 @@ msgstr "Tröskel"
 
 msgid "Marker"
 msgstr "Markör"
+
+
+msgid "Airbrush"
+msgstr "Flytta Till Lager"
 
 
 msgid "Fill"
@@ -1966,6 +1974,10 @@ msgid "Invert the Z rotation"
 msgstr "Ärv rotation"
 
 
+msgid "Mix Mode"
+msgstr "Läge:"
+
+
 msgid "Copy the target's X rotation"
 msgstr "Duplicera"
 
@@ -2594,6 +2606,10 @@ msgid "From Minimum Z"
 msgstr "Beskärningsminumum"
 
 
+msgid "Quaternion"
+msgstr "Kvaternion"
+
+
 msgid "Map From"
 msgstr "Starta Spel"
 
@@ -2920,6 +2936,10 @@ msgstr "Filnamn"
 
 msgid "Data Path"
 msgstr "Bana"
+
+
+msgid "Rotation Mode"
+msgstr "Rensa Rotation"
 
 
 msgid "Transform Space"
@@ -3959,6 +3979,10 @@ msgid "Shading"
 msgstr "Skuggning:"
 
 
+msgid "Extension"
+msgstr "Markera Länkad"
+
+
 msgid "Filter BlenderBackup files"
 msgstr "Rendera"
 
@@ -4691,10 +4715,6 @@ msgid "Build Modifier"
 msgstr "Radera Allt"
 
 
-msgid "Length"
-msgstr "Längd"
-
-
 msgid "Transition"
 msgstr "Markera Länkad"
 
@@ -5059,6 +5079,10 @@ msgid "Rotate"
 msgstr "Rotera"
 
 
+msgid "Draw Sharp"
+msgstr "Rensa Förälder"
+
+
 msgid "Smooth Stroke Factor"
 msgstr "Vektor Måla"
 
@@ -5077,10 +5101,6 @@ msgstr "Packa Data"
 
 msgid "Space"
 msgstr "Markera Rad"
-
-
-msgid "Airbrush"
-msgstr "Flytta Till Lager"
 
 
 msgid "Texture Overlay Alpha"
@@ -5987,20 +6007,12 @@ msgid "Shadow Buffer Bias"
 msgstr "Z-Buffer"
 
 
-msgid "Shadow Buffer Bleed Bias"
-msgstr "Z-Buffer"
-
-
 msgid "Number of shadow buffer samples"
 msgstr "Antal klyvningar"
 
 
 msgid "Shadow Buffer Size"
 msgstr "Markera Rad"
-
-
-msgid "Shadow Buffer Soft"
-msgstr "Spel"
 
 
 msgid "Shadow Color"
@@ -6721,10 +6733,6 @@ msgstr "Rensa Rotation"
 
 msgid "Rotation in Eulers"
 msgstr "Rotation med Euler"
-
-
-msgid "Rotation Mode"
-msgstr "Rensa Rotation"
 
 
 msgid "Axis Angle"
@@ -7959,10 +7967,6 @@ msgstr "Beskärningsminumum"
 
 msgid "Minimum Y value to crop the image"
 msgstr "Frövärde för slumpgeneratorn"
-
-
-msgid "Extension"
-msgstr "Markera Länkad"
 
 
 msgid "Clip Cube"
@@ -9593,10 +9597,6 @@ msgstr "Flytta Till Lager"
 
 msgid "Mix Factor"
 msgstr "Faktor"
-
-
-msgid "Mix Mode"
-msgstr "Läge:"
 
 
 msgid "Nearest vertex"
@@ -12343,14 +12343,6 @@ msgid "Light Path"
 msgstr "Flytta Till Lager"
 
 
-msgid "Has Maximum"
-msgstr "Använd maximum"
-
-
-msgid "Has Minimum"
-msgstr "Använd minimum"
-
-
 msgid "Mix Shader"
 msgstr "Avmarkera Länkad"
 
@@ -12557,10 +12549,6 @@ msgstr "Grumlighet"
 
 msgid "Voronoi Texture"
 msgstr "UVsfär"
-
-
-msgid "Cells"
-msgstr "Brus:"
 
 
 msgid "Wave Texture"
@@ -13824,6 +13812,10 @@ msgstr "Skala"
 msgctxt "Operator"
 msgid "Accept"
 msgstr "Infoga"
+
+
+msgid "Open"
+msgstr "Öppna"
 
 
 msgid "Directory of the file"
@@ -15590,10 +15582,6 @@ msgid "Name of new directory"
 msgstr "Bild Displist"
 
 
-msgid "Open"
-msgstr "Öppna"
-
-
 msgctxt "Operator"
 msgid "Execute File Window"
 msgstr "Extrudera"
@@ -15722,10 +15710,6 @@ msgstr "Versionshistorik"
 
 msgid "Reset Recent files"
 msgstr "Markera Länkad"
-
-
-msgid "Activate/select file"
-msgstr "Göm Markerad"
 
 
 msgid "Select everything beginning with the last selection"
@@ -16568,10 +16552,6 @@ msgid "Starting frame for the animation"
 msgstr "Starta rendering av sekvens"
 
 
-msgid "Quaternion"
-msgstr "Kvaternion"
-
-
 msgid "Convert rotations to quaternions"
 msgstr "Rensa Rotation"
 
@@ -17197,10 +17177,6 @@ msgstr "Lös upp"
 msgctxt "Operator"
 msgid "Limited Dissolve"
 msgstr "Lös upp"
-
-
-msgid "Dissolve all vertices inbetween face boundaries"
-msgstr "Antal uppdelningar mellan rutnätets linjer"
 
 
 msgid "Duplicate and extrude selected vertices, edges or faces towards the mouse cursor"
@@ -17849,6 +17825,18 @@ msgstr "Markera Rad"
 
 msgid "Change selection mode"
 msgstr "Ram Markering"
+
+
+msgid "Vertex selection mode"
+msgstr "Markeringsläge för vertex:ar"
+
+
+msgid "Edge selection mode"
+msgstr "Ram Markering"
+
+
+msgid "Face selection mode"
+msgstr "Markera Länkad"
 
 
 msgid "Expand"
@@ -19535,6 +19523,10 @@ msgstr "Skapa Förälder"
 
 msgid "Proxy Object"
 msgstr "Packa Data"
+
+
+msgid "Edge Length"
+msgstr "Markera Rad"
 
 
 msgctxt "Operator"
@@ -24033,11 +24025,6 @@ msgid "Print memory statistics to the console"
 msgstr "Materialets volym-inställningar"
 
 
-msgctxt "Operator"
-msgid "Open Blender File"
-msgstr "Öppna ett Blenderdokument"
-
-
 msgid "Open a Blender file"
 msgstr "Öppna ett Blenderdokument"
 
@@ -24225,11 +24212,6 @@ msgstr "Animationsuppspelning"
 
 msgid "Undo/Redo"
 msgstr "Ångra/gör om"
-
-
-msgctxt "Operator"
-msgid "Save As Blender File"
-msgstr "Öppna ett Blenderdokument"
 
 
 msgid "Write compressed .blend file"
@@ -24503,6 +24485,10 @@ msgstr "Arkiv"
 
 msgid "Subdivision"
 msgstr "Uppdelning"
+
+
+msgid "Render Pass"
+msgstr "Renderingsförinställningar"
 
 
 msgid "Area Shape"
@@ -25998,6 +25984,10 @@ msgid "Progressive Refine"
 msgstr "Rendera"
 
 
+msgid "Glossy Color"
+msgstr "Packa Data"
+
+
 msgid "Map Resolution"
 msgstr "Upplösning"
 
@@ -26146,10 +26136,6 @@ msgid "Deliver diffuse indirect pass"
 msgstr "Byta Stripp"
 
 
-msgid "Glossy Color"
-msgstr "Packa Data"
-
-
 msgid "Deliver glossy direct pass"
 msgstr "Ram Markering"
 
@@ -26188,10 +26174,6 @@ msgstr "Rendera"
 
 msgid "ZTransp"
 msgstr "Markera Länkad"
-
-
-msgid "Render Pass"
-msgstr "Renderingsförinställningar"
 
 
 msgid "Bias"
@@ -28186,6 +28168,14 @@ msgid "Z Mapping"
 msgstr "Mappning"
 
 
+msgid "Has Maximum"
+msgstr "Använd maximum"
+
+
+msgid "Has Minimum"
+msgstr "Använd minimum"
+
+
 msgid "Text Box"
 msgstr "Textrutor"
 
@@ -29358,18 +29348,6 @@ msgid "UV selection and display mode"
 msgstr "Markera Länkad"
 
 
-msgid "Vertex selection mode"
-msgstr "Markeringsläge för vertex:ar"
-
-
-msgid "Edge selection mode"
-msgstr "Ram Markering"
-
-
-msgid "Face selection mode"
-msgstr "Markera Länkad"
-
-
 msgid "Island"
 msgstr "Ö"
 
@@ -29510,20 +29488,12 @@ msgid "Display UV unwrapping seams"
 msgstr "Visa inställningar för kant"
 
 
-msgid "Draw Sharp"
-msgstr "Rensa Förälder"
-
-
 msgid "Draw Edges"
 msgstr "Vektor Måla"
 
 
 msgid "Edge Angle"
 msgstr "Kantvinkel"
-
-
-msgid "Edge Length"
-msgstr "Markera Rad"
 
 
 msgid "Indices"
@@ -30355,10 +30325,6 @@ msgid "Invert"
 msgstr "Invertera"
 
 
-msgid "Not for Axis-Angle"
-msgstr "Inte för axelvinkeln"
-
-
 msgid "Old"
 msgstr "Gammal"
 
@@ -30719,6 +30685,11 @@ msgstr "Utvidga"
 msgctxt "Operator"
 msgid "Slide"
 msgstr "Massiv"
+
+
+msgctxt "Operator"
+msgid "Back"
+msgstr "Svart"
 
 
 msgctxt "Operator"
@@ -31234,11 +31205,6 @@ msgstr "Fram"
 
 
 msgctxt "Operator"
-msgid "Back"
-msgstr "Svart"
-
-
-msgctxt "Operator"
 msgid "Child"
 msgstr "Dotterobjekt"
 
@@ -31575,11 +31541,6 @@ msgstr "Markera Rad"
 msgctxt "Operator"
 msgid "Make"
 msgstr "Skapa kant/yta"
-
-
-msgctxt "Operator"
-msgid "Move to Layer"
-msgstr "Flytta Till Lager"
 
 
 msgid "Creases"
@@ -32134,6 +32095,11 @@ msgstr "Markera Länkad"
 
 
 msgctxt "Operator"
+msgid "Change Shortcut"
+msgstr "Rendera"
+
+
+msgctxt "Operator"
 msgid "Replace Keyframes"
 msgstr "Radera"
 
@@ -32201,11 +32167,6 @@ msgstr "Förvalt övertoning"
 msgctxt "Operator"
 msgid "Reset Single to Default Value"
 msgstr "Förvalt övertoning"
-
-
-msgctxt "Operator"
-msgid "Change Shortcut"
-msgstr "Rendera"
 
 
 msgctxt "Operator"
@@ -32754,20 +32715,20 @@ msgid "File path"
 msgstr "Arkiv"
 
 
-msgid "File name, overwrite existing"
-msgstr "Överskrivning av/på"
-
-
-msgid "File name"
-msgstr "Arkiv"
-
-
 msgid "No parent directory given"
 msgstr "Bild Displist"
 
 
 msgid "Could not create new folder name"
 msgstr "Bild Displist"
+
+
+msgid "File name, overwrite existing"
+msgstr "Överskrivning av/på"
+
+
+msgid "File name"
+msgstr "Arkiv"
 
 
 msgid "Cursor from Selection"
