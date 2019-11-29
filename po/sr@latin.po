@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 13) (b'f6a90f018cfa')\n"
+"Project-Id-Version: Blender 2.82 (sub 1) (b'693d89170315')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-03 09:27:21\n"
+"POT-Creation-Date: 2019-11-25 10:53:41\n"
 "PO-Revision-Date: 2012-09-07 22:32+0100\n"
 "Last-Translator: Nikola Radovanovic <cobisimo@gmail.com>\n"
 "Language-Team: Nikola Radovanovic\n"
@@ -1563,14 +1563,6 @@ msgid "Internal Friction"
 msgstr "Unutrašnje trenje"
 
 
-msgid "Mass"
-msgstr "Masa"
-
-
-msgid "Mass of cloth material"
-msgstr "Masa tkanine"
-
-
 msgid "Pin Stiffness"
 msgstr "Krutost kačenja"
 
@@ -2712,16 +2704,12 @@ msgid "Keep Axis"
 msgstr "Zadrži ose"
 
 
-msgid "Keep Z Axis"
-msgstr "Zadrži Z osu"
+msgid "XZ"
+msgstr "XZ"
 
 
 msgid "Original Length"
 msgstr "Originalna dužina"
-
-
-msgid "XZ"
-msgstr "XZ"
 
 
 msgid "Aim the constrained object toward the target"
@@ -2914,6 +2902,14 @@ msgstr "Ploča"
 
 msgid "View"
 msgstr "Pogled"
+
+
+msgid "Steps"
+msgstr "Koraka"
+
+
+msgid "Segments"
+msgstr "Segmenata"
 
 
 msgid "Active Spline"
@@ -4733,30 +4729,6 @@ msgid "Face Smoothness"
 msgstr "Umekšavanje stranice"
 
 
-msgid "SSAO"
-msgstr "SSAO"
-
-
-msgid "GPU SSAO"
-msgstr "GPU SSAO"
-
-
-msgid "Attenuation"
-msgstr "Pažnja"
-
-
-msgid "Color for screen space ambient occlusion effect"
-msgstr "Boja ekranskog efekta ambijentalnog senčenja"
-
-
-msgid "Samples"
-msgstr "Uzoraka"
-
-
-msgid "Number of samples"
-msgstr "Broj uzoraka"
-
-
 msgid "Grease Pencil Frame"
 msgstr "Skicirani kadar"
 
@@ -5898,10 +5870,6 @@ msgid "Map the bevel factor to the number of subdivisions of a spline (U resolut
 msgstr "Mapira faktor iskošenja na broj podela krive (U rezolucija)"
 
 
-msgid "Segments"
-msgstr "Segmenata"
-
-
 msgid "Spline"
 msgstr "Kriva"
 
@@ -6644,6 +6612,10 @@ msgstr "Usmereni površinski izvor svetlosti"
 
 msgid "Falloff Type"
 msgstr "Vrsta opadanja"
+
+
+msgid "Samples"
+msgstr "Uzoraka"
 
 
 msgid "Number of shadow buffer samples"
@@ -7570,10 +7542,6 @@ msgid "Draw Size"
 msgstr "Veličina prikaza"
 
 
-msgid "Steps"
-msgstr "Koraka"
-
-
 msgid "Distribution"
 msgstr "Raspodela"
 
@@ -7664,6 +7632,10 @@ msgstr "Nasumična dužina"
 
 msgid "Lifetime"
 msgstr "Životni vek"
+
+
+msgid "Mass"
+msgstr "Masa"
 
 
 msgid "Index of material slot used for rendering particles"
@@ -8152,6 +8124,10 @@ msgstr "Uređivač teksta"
 
 msgid "Caching"
 msgstr "Keširanje"
+
+
+msgid "Attenuation"
+msgstr "Pažnja"
 
 
 msgid "Inner Cone Angle"
@@ -9598,6 +9574,10 @@ msgid "Snap"
 msgstr "Lepljenje"
 
 
+msgid "Material Specials"
+msgstr "Specijalni materijali"
+
+
 msgid "Grease Pencil Tools"
 msgstr "Alatke skiciranja"
 
@@ -9621,10 +9601,6 @@ msgstr "Prikaži/sakrij stranice"
 msgctxt "Operator"
 msgid "Add"
 msgstr "Dodaj"
-
-
-msgid "Material Specials"
-msgstr "Specijalni materijali"
 
 
 msgid "Vertex Group Specials"
@@ -12755,6 +12731,14 @@ msgid "Extend Select"
 msgstr "Proširi izbor"
 
 
+msgid "Mouse X"
+msgstr "Miš X"
+
+
+msgid "Mouse Y"
+msgstr "Miš Y"
+
+
 msgctxt "Operator"
 msgid "Copy Keyframes"
 msgstr "Umnoži ključni kadar"
@@ -14887,10 +14871,6 @@ msgid "Export PLY"
 msgstr "Izvoz PLY"
 
 
-msgid "Export a single object as a Stanford PLY with normals, colors and texture coordinates"
-msgstr "Koristi globalne koordinate za koordinate teksture"
-
-
 msgid "Y Up"
 msgstr "Gore po Y"
 
@@ -14911,6 +14891,10 @@ msgid "-Z Up"
 msgstr "Gore po -Z"
 
 
+msgid "Selection Only"
+msgstr "Samo izabrano"
+
+
 msgctxt "Operator"
 msgid "Export STL"
 msgstr "Izvoz u STL"
@@ -14918,10 +14902,6 @@ msgstr "Izvoz u STL"
 
 msgid "Ascii"
 msgstr "Ascii"
-
-
-msgid "Selection Only"
-msgstr "Samo izabrano"
 
 
 msgctxt "Operator"
@@ -15108,10 +15088,6 @@ msgstr "Prekini učitavanje izabrane datoteke"
 
 msgctxt "Operator"
 msgid "Delete Selected Files"
-msgstr "Izbriši izabrane datoteke"
-
-
-msgid "Delete selected files"
 msgstr "Izbriši izabrane datoteke"
 
 
@@ -15309,6 +15285,10 @@ msgstr "Raspakuj sve datoteke zapakovane u ovoj .blend datoteci kao spoljne dato
 
 msgid "How to unpack"
 msgstr "Kako raspakovati"
+
+
+msgid "Remove Pack"
+msgstr "Ukloni paket"
 
 
 msgctxt "Operator"
@@ -16896,6 +16876,10 @@ msgid "At Cursor"
 msgstr "Za kursor"
 
 
+msgid "Fill Holes"
+msgstr "Popuni rupe"
+
+
 msgid "Median"
 msgstr "Središte"
 
@@ -17073,17 +17057,8 @@ msgid "Run all checks"
 msgstr "Pokreni sve provere"
 
 
-msgid "Cleanup isolated vertices and edges"
-msgstr "Očisti izolovana temena i ivice"
-
-
 msgid "Minimum distance between elements to merge"
 msgstr "Minimalno rastojanje među elementima za spajanje"
-
-
-msgctxt "Operator"
-msgid "Print3D Select Report"
-msgstr "Izaberi Print3D izveštaj"
 
 
 msgid "Merge selected to other unselected vertices"
@@ -17297,10 +17272,6 @@ msgstr "Obrnuti redosled izabranih elemenata"
 
 msgid "Extrude selected vertices in a circle around the cursor in indicated viewport"
 msgstr "Izvlači izabrana temena u krug oko kursora prema trenutnom pogledu"
-
-
-msgid "Make Duplicates"
-msgstr "Nampravi duplikate"
 
 
 msgid "Subdivide selected edges"
@@ -17822,14 +17793,6 @@ msgstr "Izbriši izabrane čvorove"
 msgctxt "Operator"
 msgid "Render Changed Layer"
 msgstr "Renderuj izmenjene slojeve"
-
-
-msgid "Mouse X"
-msgstr "Miš X"
-
-
-msgid "Mouse Y"
-msgstr "Miš Y"
 
 
 msgid "(De)select all nodes"
@@ -21169,10 +21132,6 @@ msgid "Minimize Stretch"
 msgstr "Minimiziraj razvlačenje"
 
 
-msgid "Fill Holes"
-msgstr "Popuni rupe"
-
-
 msgctxt "Operator"
 msgid "Pack Islands"
 msgstr "Spakuj ostrva"
@@ -22555,10 +22514,6 @@ msgid "Motion Tracking"
 msgstr "Praćenje pokreta"
 
 
-msgid "Print3D"
-msgstr "3D štampa"
-
-
 msgid "Dyntopo"
 msgstr "Dinamičko vajanje"
 
@@ -23047,6 +23002,10 @@ msgid "Edit Methods"
 msgstr "Metode uređivanja"
 
 
+msgid "Experimental"
+msgstr "Proširi vodoravno"
+
+
 msgid "Default paths for external files"
 msgstr "Standardna akcija za srednji taster miša"
 
@@ -23111,10 +23070,6 @@ msgid "Causes curve data to be duplicated with the object"
 msgstr "Omogućava kopiranje krivih pomoću Shift+D"
 
 
-msgid "Duplicate F-Curve"
-msgstr "Dupliraj F-krivu"
-
-
 msgid "Duplicate Material"
 msgstr "Dupliraj materijal"
 
@@ -23157,14 +23112,6 @@ msgstr "Dupliraj tekst"
 
 msgid "Causes text data to be duplicated with the object"
 msgstr "Omogućava kopiranje teksta pomoću Shift+D"
-
-
-msgid "Duplicate Texture"
-msgstr "Dupliraj teksturu"
-
-
-msgid "Causes texture data to be duplicated with the object"
-msgstr "Omogućava kopiranje tekstura pomoću Shift+D"
 
 
 msgid "Enter Edit Mode"
@@ -23851,10 +23798,6 @@ msgid "Supported"
 msgstr "Podržani sloj"
 
 
-msgid "Experimental"
-msgstr "Proširi vodoravno"
-
-
 msgid "Total maximum number of bounces"
 msgstr "Ukupan maksimalni broj odbijanja"
 
@@ -23993,10 +23936,6 @@ msgstr "Putanja do datoteka"
 
 msgid "Is Stroke Start"
 msgstr "Samostalni početak"
-
-
-msgid "VRML2"
-msgstr "VRML2"
 
 
 msgid "Apply Scale"
@@ -24429,6 +24368,10 @@ msgstr "Gustina se računa kao faktor početne gustine (zavisi od veličine čes
 
 msgid "Factor Radius"
 msgstr "Faktor poluprečnika"
+
+
+msgid "Number of samples"
+msgstr "Broj uzoraka"
 
 
 msgid "YCbCr (ITU 601)"
@@ -27144,11 +27087,6 @@ msgstr "Proveri sve"
 
 
 msgctxt "Operator"
-msgid "Isolated"
-msgstr "Izolovano"
-
-
-msgctxt "Operator"
 msgid "Bounds"
 msgstr "Odbijanja"
 
@@ -27328,10 +27266,6 @@ msgstr "Prikaži ose"
 
 msgid "Volume:"
 msgstr "Jačina:"
-
-
-msgid "Plane:"
-msgstr "Ploča:"
 
 
 msgid "Min/Max:"
@@ -27521,6 +27455,10 @@ msgid "UVs:"
 msgstr "UV-i:"
 
 
+msgid "Outer"
+msgstr "Spoljašnje"
+
+
 msgid "Operation:"
 msgstr "Operacija:"
 
@@ -27645,20 +27583,12 @@ msgid "Deform:"
 msgstr "Deformacija:"
 
 
-msgid "Crease:"
-msgstr "Nabor:"
-
-
-msgid "Outer"
-msgstr "Spoljašnje"
+msgid "Material Index Offset:"
+msgstr "Odstojanje indeksa materijala:"
 
 
 msgid "Rim"
 msgstr "Obod"
-
-
-msgid "Material Index Offset:"
-msgstr "Odstojanje indeksa materijala:"
 
 
 msgid "From:"
@@ -27783,6 +27713,10 @@ msgstr "Sačuvaj eksterno ..."
 
 msgid "Cull Faces:"
 msgstr "Odaberi stranice:"
+
+
+msgid "Crease:"
+msgstr "Nabor:"
 
 
 msgid "Render:"
@@ -29023,13 +28957,13 @@ msgstr "Očisti"
 
 
 msgctxt "Operator"
-msgid "Hide Bounding Box"
-msgstr "Sakrij graničnu kocku"
+msgid "Show Bounding Box"
+msgstr "Prikaži graničnu kocku"
 
 
 msgctxt "Operator"
-msgid "Show Bounding Box"
-msgstr "Prikaži graničnu kocku"
+msgid "Hide Bounding Box"
+msgstr "Sakrij graničnu kocku"
 
 
 msgctxt "Operator"
@@ -31028,10 +30962,6 @@ msgstr "Prostor"
 
 msgid "Unpack File"
 msgstr "Raspakuj datoteku"
-
-
-msgid "Remove Pack"
-msgstr "Ukloni paket"
 
 
 msgid "Create %s"

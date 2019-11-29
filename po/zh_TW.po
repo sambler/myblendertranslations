@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 13) (b'f6a90f018cfa')\n"
+"Project-Id-Version: Blender 2.82 (sub 1) (b'693d89170315')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-03 09:27:21\n"
+"POT-Creation-Date: 2019-11-25 10:53:41\n"
 "PO-Revision-Date: 2018-09-23 13:23+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: chinese-l10n <chinese-l10n@googlegroups.com>\n"
@@ -2708,14 +2708,6 @@ msgid "Internal Friction"
 msgstr "內部摩擦"
 
 
-msgid "Mass"
-msgstr "質量"
-
-
-msgid "Mass of cloth material"
-msgstr "布料材質的質量"
-
-
 msgid "Pin Stiffness"
 msgstr "釘剛度"
 
@@ -4953,16 +4945,8 @@ msgid "Keep Axis"
 msgstr "保持軸"
 
 
-msgid "Axis to maintain during stretch"
-msgstr "拉伸過程中要維持的軸"
-
-
-msgid "Keep X Axis"
-msgstr "保持 X 軸"
-
-
-msgid "Keep Z Axis"
-msgstr "保持 Z 軸"
+msgid "XZ"
+msgstr "XZ"
 
 
 msgid "Original Length"
@@ -4975,10 +4959,6 @@ msgstr "靜止位置的長度"
 
 msgid "Maintain the object's volume as it stretches"
 msgstr "當物體拉伸時仍維持物體的體積"
-
-
-msgid "XZ"
-msgstr "XZ"
 
 
 msgid "Track To Constraint"
@@ -5327,6 +5307,14 @@ msgstr "檢視"
 
 msgid "Detect Corners"
 msgstr "偵測角落"
+
+
+msgid "Steps"
+msgstr "步數"
+
+
+msgid "Segments"
+msgstr "分段"
 
 
 msgid "Active Spline"
@@ -9205,62 +9193,6 @@ msgid "Keep the computed view map and avoid re-calculating it if mesh geometry i
 msgstr "保留計算的視圖映射，若網格幾何未改變時則可避免重新計算"
 
 
-msgid "GPU FX Settings"
-msgstr "GPU FX 設定"
-
-
-msgid "Settings for GPU based compositing"
-msgstr "以 GPU 為基礎的合成設定"
-
-
-msgid "Screen Space Ambient Occlusion settings"
-msgstr "螢幕空間周遭遮擋設定"
-
-
-msgid "SSAO"
-msgstr "SSAO"
-
-
-msgid "Use screen space ambient occlusion of field on viewport"
-msgstr "於視接口使用場域的螢幕空間周遭遮擋"
-
-
-msgid "GPU SSAO"
-msgstr "GPU SSAO"
-
-
-msgid "Settings for GPU based screen space ambient occlusion"
-msgstr "以 GPU 為基礎的螢幕空間周遭遮擋 (SSAO) 設定"
-
-
-msgid "Attenuation"
-msgstr "衰減"
-
-
-msgid "Attenuation constant"
-msgstr "衰減常數"
-
-
-msgid "Color for screen space ambient occlusion effect"
-msgstr "螢幕空間周遭遮擋效果的色彩"
-
-
-msgid "Distance of object that contribute to the SSAO effect"
-msgstr "影響 SSAO 效果的物體距離"
-
-
-msgid "Strength of the SSAO effect"
-msgstr "SSAO 效果的強度"
-
-
-msgid "Samples"
-msgstr "取樣"
-
-
-msgid "Number of samples"
-msgstr "取樣數"
-
-
 msgid "Grease Pencil Frame"
 msgstr "蠟筆框幀"
 
@@ -10550,6 +10482,10 @@ msgid "Rotate"
 msgstr "旋轉"
 
 
+msgid "Topology"
+msgstr "拓樸"
+
+
 msgid "Secondary Color"
 msgstr "次色"
 
@@ -11184,10 +11120,6 @@ msgstr "決定結束倒角係數映射到樣條的方法"
 
 msgid "Map the bevel factor to the number of subdivisions of a spline (U resolution)"
 msgstr "倒角係數映射至樣條的細分數 (U 解析度)"
-
-
-msgid "Segments"
-msgstr "分段"
 
 
 msgid "Map the bevel factor to the length of a segment and to the number of subdivisions of a segment"
@@ -12762,6 +12694,10 @@ msgid "Shadow map clip start, below which objects will not generate shadows"
 msgstr "陰影映射剪輯結束，沒到這裡物體不會生成陰影"
 
 
+msgid "Samples"
+msgstr "取樣"
+
+
 msgid "Number of shadow buffer samples"
 msgstr "陰影緩衝取樣的數量"
 
@@ -14302,10 +14238,6 @@ msgid "Draw Size"
 msgstr "描繪大小"
 
 
-msgid "Steps"
-msgstr "步數"
-
-
 msgid "How many steps paths are drawn with (power of 2)"
 msgstr "路徑以 (2 的次方) 多少步描繪"
 
@@ -14508,6 +14440,10 @@ msgstr "群集 2D"
 
 msgid "Constrain boids to a surface"
 msgstr "將群集約束至表面"
+
+
+msgid "Mass"
+msgstr "質量"
 
 
 msgid "Mass of the particles"
@@ -15396,6 +15332,10 @@ msgstr "聲音檔被解碼並載入 RAM 中"
 
 msgid "If the file contains multiple audio channels they are rendered to a single one"
 msgstr "如果該檔案包含多個聲道，它們會被算錄為單聲道"
+
+
+msgid "Attenuation"
+msgstr "衰減"
 
 
 msgid "How strong the distance affects volume, depending on distance model"
@@ -18359,6 +18299,10 @@ msgid "Snap"
 msgstr "吸附"
 
 
+msgid "Material Specials"
+msgstr "材質特殊項"
+
+
 msgid "A pie menu for quick access to Grease Pencil settings"
 msgstr "可快速存取蠟筆設定的圓派選單"
 
@@ -18398,10 +18342,6 @@ msgstr "焊接/對齊"
 msgctxt "Operator"
 msgid "Add"
 msgstr "添加"
-
-
-msgid "Material Specials"
-msgstr "材質特殊項"
 
 
 msgid "Shape Key Specials"
@@ -19372,10 +19312,6 @@ msgid "Material index of generated faces, -1 for automatic"
 msgstr "生成面的材質索引，-1 為自動"
 
 
-msgid "Amount Type"
-msgstr "量的類型"
-
-
 msgid "What distance Width measures"
 msgstr "寬度測量何距離"
 
@@ -19678,10 +19614,6 @@ msgstr "傳輸作用中的或所有的頂點群組"
 
 msgid "Edge Mapping"
 msgstr "邊線映射"
-
-
-msgid "Topology"
-msgstr "拓樸"
 
 
 msgid "Copy from identical topology meshes"
@@ -20990,10 +20922,6 @@ msgstr "柔體點快取"
 
 msgid "Solidify Modifier"
 msgstr "實體化修改器"
-
-
-msgid "Create a solid skin by extruding, compensating for sharp angles"
-msgstr "透過擠出建立實體皮膚，補償銳角"
 
 
 msgid "Inner Crease"
@@ -25817,6 +25745,14 @@ msgid "Extend Select"
 msgstr "擴展選取"
 
 
+msgid "Mouse X"
+msgstr "滑鼠 X"
+
+
+msgid "Mouse Y"
+msgstr "滑鼠 Y"
+
+
 msgctxt "Operator"
 msgid "Copy Keyframes"
 msgstr "複製鍵幀"
@@ -29499,10 +29435,6 @@ msgid "Export PLY"
 msgstr "匯出 PLY"
 
 
-msgid "Export a single object as a Stanford PLY with normals, colors and texture coordinates"
-msgstr "將單一物體透過法線、色彩、紋理座標軸匯出為 Stanford PLY"
-
-
 msgid "X Forward"
 msgstr "X 前進"
 
@@ -29567,6 +29499,14 @@ msgid "Export Normals for smooth and hard shaded faces (hard shaded faces will b
 msgstr "為平滑與硬著色的面匯出法線 (硬著色的面會被匯出為獨立面)"
 
 
+msgid "Selection Only"
+msgstr "僅所選項"
+
+
+msgid "Export selected objects only"
+msgstr "僅匯出選取的物體"
+
+
 msgid "Export the active UV layer"
 msgstr "匯出作用中 UV 分層"
 
@@ -29574,10 +29514,6 @@ msgstr "匯出作用中 UV 分層"
 msgctxt "Operator"
 msgid "Export STL"
 msgstr "匯出 STL"
-
-
-msgid "Save STL triangle mesh data from the active object"
-msgstr "從作用中物體儲存 STL 三角網格資料"
 
 
 msgid "Ascii"
@@ -29602,14 +29538,6 @@ msgstr "場景單位"
 
 msgid "Apply current scene's unit (as defined by unit scale) to exported data"
 msgstr "將目前場景的單位 (如單位規模所定義) 套用至匯出資料中"
-
-
-msgid "Selection Only"
-msgstr "僅所選項"
-
-
-msgid "Export selected objects only"
-msgstr "僅匯出選取的物體"
 
 
 msgctxt "Operator"
@@ -29904,10 +29832,6 @@ msgid "Delete Selected Files"
 msgstr "刪除所選的檔案"
 
 
-msgid "Delete selected files"
-msgstr "刪除所選的檔案"
-
-
 msgctxt "Operator"
 msgid "Create New Directory"
 msgstr "建立新的資料夾"
@@ -30175,6 +30099,10 @@ msgstr "將檔案寫入原始位置 (覆寫既有檔案)"
 
 msgid "Disable Auto-pack, keep all packed files"
 msgstr "停用自動打包，保留所有打包的檔案"
+
+
+msgid "Remove Pack"
+msgstr "移除包裝"
 
 
 msgctxt "Operator"
@@ -32910,6 +32838,10 @@ msgid "Make face and vertex normals point either outside or inside the mesh"
 msgstr "讓面與頂點法線點都在網格的外面或是內面"
 
 
+msgid "Fill Holes"
+msgstr "充填孔洞"
+
+
 msgctxt "Operator"
 msgid "Poke Faces"
 msgstr "戳裂面"
@@ -33164,134 +33096,48 @@ msgid "Construct a UV sphere mesh"
 msgstr "建立一個 UV 球體網格"
 
 
-msgctxt "Operator"
-msgid "Print3D Check All"
-msgstr "Print3D 檢驗全部"
-
-
 msgid "Run all checks"
 msgstr "執行所有檢驗"
-
-
-msgctxt "Operator"
-msgid "Print3D Check Degenerate"
-msgstr "Print3D 檢驗退化"
 
 
 msgid "Check for degenerate geometry that may not print properly (zero area faces, zero length edges)"
 msgstr "檢查是否有可能無法正常印出 (零面積面、零長度邊線) 的退化幾何"
 
 
-msgctxt "Operator"
-msgid "Print3D Check Distorted Faces"
-msgstr "Print3D 檢驗扭曲面"
-
-
-msgid "Check for non-flat faces "
-msgstr "檢驗是否有非扁平的面"
-
-
-msgctxt "Operator"
-msgid "Print3D Check Intersections"
-msgstr "Print3D 檢驗交錯"
-
-
 msgid "Check geometry for self intersections"
 msgstr "檢查幾何是否有自我交錯情況"
-
-
-msgctxt "Operator"
-msgid "Print3D Check Overhang"
-msgstr "Print3D 檢驗懸凸"
 
 
 msgid "Check faces don't overhang past a certain angle"
 msgstr "檢查面是否懸凸出特定角度"
 
 
-msgctxt "Operator"
-msgid "Print3D Check Sharp"
-msgstr "Print3D 檢驗銳利"
-
-
 msgid "Check edges are below the sharpness preference"
 msgstr "檢查邊線是否低於銳利度偏好"
-
-
-msgctxt "Operator"
-msgid "Print3D Check Solid"
-msgstr "Print3D 檢驗實心"
 
 
 msgid "Check for geometry is solid (has valid inside/outside) and correct normals"
 msgstr "檢查幾何是否是實心的 (具有效的內部/外部)，並校正法線"
 
 
-msgctxt "Operator"
-msgid "Print3D Check Thickness"
-msgstr "Print3D 檢驗厚度"
-
-
 msgid "Check geometry is above the minimum thickness preference (relies on correct normals)"
 msgstr "檢查幾何是否高於最小厚度偏好 (依賴校正法線作業)"
-
-
-msgctxt "Operator"
-msgid "Print3D Clean Distorted"
-msgstr "Print3D 清理扭曲"
 
 
 msgid "Tessellate distorted faces"
 msgstr "鑲嵌扭曲面"
 
 
-msgctxt "Operator"
-msgid "Print3D Clean Isolated "
-msgstr "Print3D 清理孤獨"
-
-
-msgid "Cleanup isolated vertices and edges"
-msgstr "清理孤獨的頂點和邊線"
-
-
-msgctxt "Operator"
-msgid "Print3D Clean Non-Manifold and Inverted"
-msgstr "Print3D 清理非流形和反轉"
-
-
-msgid "Cleanup problems, like holes, non-manifold vertices, and inverted normals"
-msgstr "清理問題，如空洞、非流形頂點、反轉的法線等"
-
-
-msgid "Number of sides in hole required to fill"
-msgstr "需要填補的空洞邊線數"
+msgid "Limit for checking distorted faces"
+msgstr "檢查扭曲面的限制"
 
 
 msgid "Minimum distance between elements to merge"
 msgstr "要合併的元素之間的最小距離"
 
 
-msgctxt "Operator"
-msgid "Print3D Export"
-msgstr "Print3D 匯出"
-
-
-msgid "Export active object using print3d settings"
-msgstr "使用 print3d 設定來匯出作用中的物體"
-
-
-msgctxt "Operator"
-msgid "Print3D Info Area"
-msgstr "Print3D 資訊面積"
-
-
 msgid "Report the surface area of the active mesh"
 msgstr "報告作用中網格的表面面積"
-
-
-msgctxt "Operator"
-msgid "Print3D Info Volume"
-msgstr "Print3D 資訊體積"
 
 
 msgid "Report the volume of the active mesh"
@@ -33318,11 +33164,6 @@ msgstr "縮放至體積"
 
 msgid "Scale edit-mesh or selected-objects to a set volume"
 msgstr "將編輯網格或選取網格縮放成設定體積"
-
-
-msgctxt "Operator"
-msgid "Print3D Select Report"
-msgstr "Print3D 選取報告"
 
 
 msgid "Select the data associated with this report"
@@ -33695,6 +33536,10 @@ msgid "Solidify"
 msgstr "實體化"
 
 
+msgid "Create a solid skin by extruding, compensating for sharp angles"
+msgstr "透過擠出建立實體皮膚，補償銳角"
+
+
 msgctxt "Operator"
 msgid "Sort Mesh Elements"
 msgstr "排序網格元素"
@@ -33762,10 +33607,6 @@ msgstr "反轉所選元素的目前順序"
 
 msgid "Extrude selected vertices in a circle around the cursor in indicated viewport"
 msgstr "在指示的視接口中圍以繞游標的圓擠出所選的點"
-
-
-msgid "Make Duplicates"
-msgstr "創建複本"
 
 
 msgid "Split off selected geometry from connected unselected geometry"
@@ -34819,14 +34660,6 @@ msgstr "重新調整節點的大小"
 
 msgid "Select the node under the cursor"
 msgstr "選取游標下的節點"
-
-
-msgid "Mouse X"
-msgstr "滑鼠 X"
-
-
-msgid "Mouse Y"
-msgstr "滑鼠 Y"
 
 
 msgid "(De)select all nodes"
@@ -39979,19 +39812,6 @@ msgid "Select other strips at the same time"
 msgstr "選取相同時間的其他片段"
 
 
-msgctxt "Operator"
-msgid "Select Active Side"
-msgstr "選取作用側"
-
-
-msgid "Select strips on the nominated side of the active strip"
-msgstr "選取作用中片段的任命片段"
-
-
-msgid "The side of the handle that is selected"
-msgstr "選取的控制桿側"
-
-
 msgid "Select or deselect all strips"
 msgstr "選取或取消選取全部片段"
 
@@ -40047,6 +39867,10 @@ msgstr "覆蓋時間"
 msgctxt "Operator"
 msgid "Select Handles"
 msgstr "選取控制桿"
+
+
+msgid "The side of the handle that is selected"
+msgstr "選取的控制桿側"
 
 
 msgid "Shrink the current selection of adjacent selected strips"
@@ -40719,10 +40543,6 @@ msgstr "所選游標位置的單詞"
 
 msgid "Set cursor selection"
 msgstr "設定游標選取"
-
-
-msgid "Set selection end rather than cursor"
-msgstr "設定選取終點，而不是游標"
 
 
 msgctxt "Operator"
@@ -41694,10 +41514,6 @@ msgstr "透過放鬆角度來降低 UV 拉伸"
 
 msgid "Blend factor between stretch minimized and original"
 msgstr "在伸展最小化與原始之間的混合因子"
-
-
-msgid "Fill Holes"
-msgstr "充填孔洞"
 
 
 msgid "Virtual fill holes in mesh before unwrapping, to better avoid overlaps and preserve symmetry"
@@ -44232,10 +44048,6 @@ msgid "Motion Tracking"
 msgstr "運動跟蹤"
 
 
-msgid "Print3D"
-msgstr "Print3D"
-
-
 msgid "Dyntopo"
 msgstr "Dyntopo"
 
@@ -45330,6 +45142,10 @@ msgid "Settings for interacting with Blender data"
 msgstr "Blender 資料的互動設定"
 
 
+msgid "Experimental"
+msgstr "實驗中"
+
+
 msgid "Default paths for external files"
 msgstr "外部檔案的預設路徑"
 
@@ -45490,14 +45306,6 @@ msgid "Causes curve data to be duplicated with the object"
 msgstr "使曲線資料隨物體一同製作出複本"
 
 
-msgid "Duplicate F-Curve"
-msgstr "製作 F 曲線複本"
-
-
-msgid "Causes F-curve data to be duplicated with the object"
-msgstr "使 F 曲線資料隨物體一同製作出複本"
-
-
 msgid "Duplicate Material"
 msgstr "製作材質複本"
 
@@ -45544,14 +45352,6 @@ msgstr "製作文字複本"
 
 msgid "Causes text data to be duplicated with the object"
 msgstr "使文字資料可隨物體一同製作出複本"
-
-
-msgid "Duplicate Texture"
-msgstr "製作紋理複本"
-
-
-msgid "Causes texture data to be duplicated with the object"
-msgstr "使紋理資料可隨物體一同製作出複本"
 
 
 msgid "Enter Edit Mode"
@@ -47014,10 +46814,6 @@ msgid "Only use finished and supported features"
 msgstr "僅使用完成的與支援的功能"
 
 
-msgid "Experimental"
-msgstr "實驗中"
-
-
 msgid "Use experimental and incomplete features that might be broken or change in the future"
 msgstr "使用實驗中與未完成的功能，可能導致失敗，或是未來有所更動"
 
@@ -47406,16 +47202,8 @@ msgid "Brush Size"
 msgstr "筆刷大小"
 
 
-msgid "Limit for checking distorted faces"
-msgstr "檢查扭曲面的限制"
-
-
 msgid "Format type to export to"
 msgstr "要匯出的格式類型"
-
-
-msgid "VRML2"
-msgstr "VRML2"
 
 
 msgid "Export Directory"
@@ -48680,6 +48468,14 @@ msgstr "彈性限度"
 
 msgid "How much the spring has to be stretched/compressed in order to change it's rest length"
 msgstr "彈簧要延伸/壓縮多少以改變其靜止長度"
+
+
+msgid "Attenuation constant"
+msgstr "衰減常數"
+
+
+msgid "Number of samples"
+msgstr "取樣數"
 
 
 msgid "Factor for ambient occlusion blending"
@@ -51693,14 +51489,6 @@ msgstr "3D 視圖的遠方剪輯距離"
 
 msgid "3D View near clipping distance (perspective view only)"
 msgstr "3D 視圖的近處剪輯距離 (僅限透視法檢視)"
-
-
-msgid "FX Options"
-msgstr "FX 選項"
-
-
-msgid "Options used for real time compositing"
-msgstr "實時合成用的選項"
 
 
 msgid "Viewport lens angle"
@@ -55100,11 +54888,6 @@ msgstr "檢查全部"
 
 
 msgctxt "Operator"
-msgid "Isolated"
-msgstr "孤獨"
-
-
-msgctxt "Operator"
 msgid "Bounds"
 msgstr "邊界"
 
@@ -55368,10 +55151,6 @@ msgstr "體積最大"
 
 msgid "Volume:"
 msgstr "音量："
-
-
-msgid "Plane:"
-msgstr "平面："
 
 
 msgid "Min/Max:"
@@ -55662,12 +55441,12 @@ msgid "UVs:"
 msgstr "UV："
 
 
+msgid "Outer"
+msgstr "外部"
+
+
 msgid "Limit Method:"
 msgstr "限制方法："
-
-
-msgid "Width Method:"
-msgstr "寬度方法："
 
 
 msgid "Operation:"
@@ -55823,20 +55602,12 @@ msgid "Deform:"
 msgstr "變形："
 
 
-msgid "Crease:"
-msgstr "硬邊："
-
-
-msgid "Outer"
-msgstr "外部"
+msgid "Material Index Offset:"
+msgstr "材質索引偏移："
 
 
 msgid "Rim"
 msgstr "邊框"
-
-
-msgid "Material Index Offset:"
-msgstr "材質索引偏移："
 
 
 msgid "Aspect X"
@@ -56020,6 +55791,10 @@ msgstr "建置時忽略海洋模擬修改器"
 
 msgid "Cull Faces:"
 msgstr "淘選面："
+
+
+msgid "Crease:"
+msgstr "硬邊："
 
 
 msgid "Render:"
@@ -57845,13 +57620,13 @@ msgstr "修正變形"
 
 
 msgctxt "Operator"
-msgid "Hide Bounding Box"
-msgstr "隱藏邊界方塊"
+msgid "Show Bounding Box"
+msgstr "顯示邊界方塊"
 
 
 msgctxt "Operator"
-msgid "Show Bounding Box"
-msgstr "顯示邊界方塊"
+msgid "Hide Bounding Box"
+msgstr "隱藏邊界方塊"
 
 
 msgctxt "Operator"
@@ -60198,24 +59973,20 @@ msgid "Parse error in %s"
 msgstr "解析錯誤位於 %s"
 
 
-msgid "Cannot add geometry in edit mode"
-msgstr "編輯模式中無法添加幾何"
+msgid "Cannot add vertices in edit mode"
+msgstr "無法在編輯模式中添加頂點"
 
 
 msgid "Cannot add edges in edit mode"
 msgstr "無法在編輯模式中添加邊線"
 
 
-msgid "Cannot add vertices in edit mode"
-msgstr "無法在編輯模式中添加頂點"
+msgid "Cannot add loops in edit mode"
+msgstr "無法在編輯中添加線圈"
 
 
-msgid "Cannot remove edges in edit mode"
-msgstr "無法在編輯模式中移除邊線"
-
-
-msgid "Cannot remove more edges than the mesh contains"
-msgstr "無法移除超過該網格所含的邊線數"
+msgid "Cannot add polygons in edit mode"
+msgstr "無法在編輯模式中添加多角形"
 
 
 msgid "Cannot remove vertices in edit mode"
@@ -60226,12 +59997,12 @@ msgid "Cannot remove more vertices than the mesh contains"
 msgstr "無法移除超過該網格所含的頂點數"
 
 
-msgid "Cannot add loops in edit mode"
-msgstr "無法在編輯中添加線圈"
+msgid "Cannot remove edges in edit mode"
+msgstr "無法在編輯模式中移除邊線"
 
 
-msgid "Cannot add polygons in edit mode"
-msgstr "無法在編輯模式中添加多角形"
+msgid "Cannot remove more edges than the mesh contains"
+msgstr "無法移除超過該網格所含的邊線數"
 
 
 msgid "%d %s mirrored, %d failed"
@@ -61082,10 +60853,6 @@ msgstr "無法建立新的資料夾名稱"
 
 msgid "Could not create new folder: %s"
 msgstr "無法建立新的資料夾：%s"
-
-
-msgid "Could not delete file: %s"
-msgstr "無法刪除檔案：%s"
 
 
 msgid "Cancel"
@@ -62424,10 +62191,6 @@ msgstr "無法使用零面積的面"
 
 msgid "Unpack File"
 msgstr "解包檔案"
-
-
-msgid "Remove Pack"
-msgstr "移除包裝"
 
 
 msgid "Create %s"

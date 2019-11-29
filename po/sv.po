@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 13) (b'f6a90f018cfa')\n"
+"Project-Id-Version: Blender 2.82 (sub 1) (b'693d89170315')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-03 09:27:21\n"
+"POT-Creation-Date: 2019-11-25 10:53:41\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arvid Rudling <arvid.r@gmail.com>\n"
 "Language-Team: \n"
@@ -1247,14 +1247,6 @@ msgstr "Gravitation"
 
 msgid "Internal Friction"
 msgstr "Interaktion:"
-
-
-msgid "Mass"
-msgstr "Massa:"
-
-
-msgid "Mass of cloth material"
-msgstr "Materialets halo-inställningar"
 
 
 msgid "Pin Stiffness"
@@ -2538,14 +2530,6 @@ msgid "Keep Axis"
 msgstr "Axel"
 
 
-msgid "Keep X Axis"
-msgstr "Avmarkera Länkad"
-
-
-msgid "Keep Z Axis"
-msgstr "Zooma In"
-
-
 msgid "Original Length"
 msgstr "Rensa Ursprung"
 
@@ -2744,6 +2728,14 @@ msgstr "Plan"
 
 msgid "View"
 msgstr "Visa"
+
+
+msgid "Steps"
+msgstr "Steg"
+
+
+msgid "Segments"
+msgstr "Segment"
 
 
 msgid "Active Spline"
@@ -4371,14 +4363,6 @@ msgid "Use"
 msgstr "Använd"
 
 
-msgid "Attenuation"
-msgstr "Rensa Rotation"
-
-
-msgid "Samples"
-msgstr "Samplar"
-
-
 msgid "Grease Pencil Frame"
 msgstr "Starta Spel"
 
@@ -5379,10 +5363,6 @@ msgid "End Bevel Factor"
 msgstr "Rensa Förälder"
 
 
-msgid "Segments"
-msgstr "Segment"
-
-
 msgid "Start Bevel Factor"
 msgstr "Markera Rad"
 
@@ -5993,6 +5973,10 @@ msgstr "Rensa Rotation"
 
 msgid "Shadow Buffer Bias"
 msgstr "Z-Buffer"
+
+
+msgid "Samples"
+msgstr "Samplar"
 
 
 msgid "Number of shadow buffer samples"
@@ -6943,10 +6927,6 @@ msgid "Draw Size"
 msgstr "Duplicera"
 
 
-msgid "Steps"
-msgstr "Steg"
-
-
 msgid "Distribution"
 msgstr "Markera Länkad"
 
@@ -7061,6 +7041,10 @@ msgstr "Materialets volym-inställningar"
 
 msgid "Constrain boids to a surface"
 msgstr "Lägg till Stripp"
+
+
+msgid "Mass"
+msgstr "Massa:"
 
 
 msgid "Mass of the particles"
@@ -7621,6 +7605,10 @@ msgstr "Textredigerare"
 
 msgid "Caching"
 msgstr "Cache"
+
+
+msgid "Attenuation"
+msgstr "Rensa Rotation"
 
 
 msgid "Inner Cone Angle"
@@ -8850,6 +8838,10 @@ msgid "Snap"
 msgstr "Snäpp"
 
 
+msgid "Material Specials"
+msgstr "Spara som"
+
+
 msgid "UV Select Mode"
 msgstr "UV-markeringsläge"
 
@@ -8865,10 +8857,6 @@ msgstr "Löd/räta upp"
 msgctxt "Operator"
 msgid "Add"
 msgstr "Ny"
-
-
-msgid "Material Specials"
-msgstr "Spara som"
 
 
 msgid "Shape Key Specials"
@@ -12620,6 +12608,14 @@ msgid "Extend Select"
 msgstr "Markera Rad"
 
 
+msgid "Mouse X"
+msgstr "Packa Data"
+
+
+msgid "Mouse Y"
+msgstr "Packa Data"
+
+
 msgctxt "Operator"
 msgid "Copy Keyframes"
 msgstr "Radera"
@@ -15242,10 +15238,6 @@ msgid "Export PLY"
 msgstr "Exportera"
 
 
-msgid "Export a single object as a Stanford PLY with normals, colors and texture coordinates"
-msgstr "Klibbig texturkoordinat för meshvertex"
-
-
 msgid "X Forward"
 msgstr "Håll fast framåt"
 
@@ -15282,6 +15274,14 @@ msgid "Apply Modifiers to the exported mesh"
 msgstr "Duplicera"
 
 
+msgid "Selection Only"
+msgstr "Bara Markerad"
+
+
+msgid "Export selected objects only"
+msgstr "Markera Länkad"
+
+
 msgid "Export the active UV layer"
 msgstr "Rendera endast aktivt lager"
 
@@ -15291,20 +15291,8 @@ msgid "Export STL"
 msgstr "Exportera"
 
 
-msgid "Save STL triangle mesh data from the active object"
-msgstr "Markera Länkad"
-
-
 msgid "Batch Mode"
 msgstr "Packa Data"
-
-
-msgid "Selection Only"
-msgstr "Bara Markerad"
-
-
-msgid "Export selected objects only"
-msgstr "Markera Länkad"
 
 
 msgctxt "Operator"
@@ -17446,6 +17434,10 @@ msgid "At Cursor"
 msgstr "Markera Länkad"
 
 
+msgid "Fill Holes"
+msgstr "Fyll deformerad"
+
+
 msgid "Median"
 msgstr "Medianpunkt"
 
@@ -17881,10 +17873,6 @@ msgstr "Markera Länkad"
 
 msgid "Extrude selected vertices in a circle around the cursor in indicated viewport"
 msgstr "Markera Länkad"
-
-
-msgid "Make Duplicates"
-msgstr "Duplicera"
 
 
 msgid "Split off selected geometry from connected unselected geometry"
@@ -18616,14 +18604,6 @@ msgstr "Buffertstorlek"
 
 msgid "Select the node under the cursor"
 msgstr "Rendera"
-
-
-msgid "Mouse X"
-msgstr "Packa Data"
-
-
-msgid "Mouse Y"
-msgstr "Packa Data"
 
 
 msgid "(De)select all nodes"
@@ -22026,15 +22006,6 @@ msgid "Select other strips at the same time"
 msgstr "Packa Data"
 
 
-msgctxt "Operator"
-msgid "Select Active Side"
-msgstr "Renderings Fönster"
-
-
-msgid "Select strips on the nominated side of the active strip"
-msgstr "Markera Länkad"
-
-
 msgid "Select or deselect all strips"
 msgstr "(Av)Markera Alla"
 
@@ -22568,10 +22539,6 @@ msgid "Set cursor selection"
 msgstr "Markera Länkad"
 
 
-msgid "Set selection end rather than cursor"
-msgstr "Rendera"
-
-
 msgctxt "Operator"
 msgid "Find"
 msgstr "Sök"
@@ -23041,10 +23008,6 @@ msgstr "Rensa Förälder"
 msgctxt "Operator"
 msgid "Minimize Stretch"
 msgstr "Tänj"
-
-
-msgid "Fill Holes"
-msgstr "Fyll deformerad"
 
 
 msgctxt "Operator"
@@ -25244,6 +25207,10 @@ msgid "File Paths"
 msgstr "Sökvägar:"
 
 
+msgid "Experimental"
+msgstr "Markera Rad"
+
+
 msgid "Default paths for external files"
 msgstr "Markera Länkad"
 
@@ -25300,10 +25267,6 @@ msgid "Duplicate Armature"
 msgstr "Duplicera"
 
 
-msgid "Duplicate F-Curve"
-msgstr "Duplicera"
-
-
 msgid "Duplicate Material"
 msgstr "Duplicera"
 
@@ -25325,10 +25288,6 @@ msgstr "Duplicera"
 
 
 msgid "Duplicate Text"
-msgstr "Duplicera"
-
-
-msgid "Duplicate Texture"
 msgstr "Duplicera"
 
 
@@ -25742,10 +25701,6 @@ msgstr "Renderingsmotor"
 
 msgid "Supported"
 msgstr "Nivå"
-
-
-msgid "Experimental"
-msgstr "Markera Rad"
 
 
 msgid "Image brightness scale"
@@ -29541,10 +29496,6 @@ msgid "Volume:"
 msgstr "Volym:"
 
 
-msgid "Plane:"
-msgstr "Plan:"
-
-
 msgid "Min/Max:"
 msgstr "Min/max:"
 
@@ -29748,6 +29699,10 @@ msgid "First Last"
 msgstr "Öppna senaste"
 
 
+msgid "Outer"
+msgstr "Yttre"
+
+
 msgid "Limit Method:"
 msgstr "Packa Data"
 
@@ -29884,20 +29839,12 @@ msgid "Deform:"
 msgstr "Deformera"
 
 
-msgid "Crease:"
-msgstr "Vecka:"
-
-
-msgid "Outer"
-msgstr "Yttre"
+msgid "Material Index Offset:"
+msgstr "Materialindexförskjutning:"
 
 
 msgid "Rim"
 msgstr "Ovan"
-
-
-msgid "Material Index Offset:"
-msgstr "Materialindexförskjutning:"
 
 
 msgid "Aspect X"
@@ -30035,6 +29982,10 @@ msgstr "Spara extern data…"
 
 msgid "Built without OceanSim modifier"
 msgstr "byggd utan vätskor"
+
+
+msgid "Crease:"
+msgstr "Vecka:"
 
 
 msgid "Render:"
@@ -31275,12 +31226,12 @@ msgstr "Fyll deformerad"
 
 
 msgctxt "Operator"
-msgid "Hide Bounding Box"
+msgid "Show Bounding Box"
 msgstr "Auto Handtag"
 
 
 msgctxt "Operator"
-msgid "Show Bounding Box"
+msgid "Hide Bounding Box"
 msgstr "Auto Handtag"
 
 
@@ -32243,7 +32194,7 @@ msgid "Selection not supported in object mode"
 msgstr "Antal uppdelningar mellan rutnätets linjer"
 
 
-msgid "Cannot add geometry in edit mode"
+msgid "Cannot add vertices in edit mode"
 msgstr "Markera Länkad"
 
 
@@ -32251,16 +32202,12 @@ msgid "Cannot add edges in edit mode"
 msgstr "Markera Länkad"
 
 
-msgid "Cannot add vertices in edit mode"
+msgid "Cannot add loops in edit mode"
 msgstr "Markera Länkad"
 
 
-msgid "Cannot remove edges in edit mode"
-msgstr "Visa ytors normaler som linjer"
-
-
-msgid "Cannot remove more edges than the mesh contains"
-msgstr "Visa ytors normaler som linjer"
+msgid "Cannot add polygons in edit mode"
+msgstr "Markera Länkad"
 
 
 msgid "Cannot remove vertices in edit mode"
@@ -32271,12 +32218,12 @@ msgid "Cannot remove more vertices than the mesh contains"
 msgstr "Bild Displist"
 
 
-msgid "Cannot add loops in edit mode"
-msgstr "Markera Länkad"
+msgid "Cannot remove edges in edit mode"
+msgstr "Visa ytors normaler som linjer"
 
 
-msgid "Cannot add polygons in edit mode"
-msgstr "Markera Länkad"
+msgid "Cannot remove more edges than the mesh contains"
+msgstr "Visa ytors normaler som linjer"
 
 
 msgid "Cannot join while in edit mode"

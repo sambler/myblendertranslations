@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 13) (b'f6a90f018cfa')\n"
+"Project-Id-Version: Blender 2.82 (sub 1) (b'693d89170315')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-03 09:27:21\n"
+"POT-Creation-Date: 2019-11-25 10:53:41\n"
 "PO-Revision-Date: 2016-04-23 22:41+0300\n"
 "Last-Translator: Yousef Harfoush <bat3a@msn.com>\n"
 "Language-Team: Yousef Harfoush, Amine Moussaoui <bat3a@msn.com>\n"
@@ -2491,14 +2491,6 @@ msgid "Internal Friction"
 msgstr "ﻲﻠﺧﺍﺪﻟﺍ ﻙﺎﻜﺘﺣﻻ﻿ﺍ"
 
 
-msgid "Mass"
-msgstr "ﺔﻠﺘﻜﻟﺍ"
-
-
-msgid "Mass of cloth material"
-msgstr "ﺵﺎﻤﻘﻟﺍ ﺔﻣﺎﺧ ﺔﻠﺘﻛ"
-
-
 msgid "Pin Stiffness"
 msgstr "ﺖﻴﺒﺜﺘﻟﺍ ﺔﺑﻼ﻿ﺻ"
 
@@ -4712,16 +4704,8 @@ msgid "Keep Axis"
 msgstr "ﺭﻮﺤﻤﻟﺍ ءﺎﻘﺑﺍ"
 
 
-msgid "Axis to maintain during stretch"
-msgstr "ﺩﺪّﻤﺘﻟﺍ ﻝﻼ﻿ﺧ ﻊﺒﺘﻤﻟﺍ ﺭﻮﺤﻤﻟﺍ"
-
-
-msgid "Keep X Axis"
-msgstr "X ﺭﻮﺤﻣ ﻲﻘﺑﺍ"
-
-
-msgid "Keep Z Axis"
-msgstr "Z ﺭﻮﺤﻣ ﻲﻘﺑﺍ"
+msgid "XZ"
+msgstr "XZ"
 
 
 msgid "Original Length"
@@ -4734,10 +4718,6 @@ msgstr "ﺔﺣﺍﺮﻟﺍ ﻊﺿﻭ ﻲﻓ ﻝﻮﻄﻟﺍ"
 
 msgid "Maintain the object's volume as it stretches"
 msgstr "ﺩﺪﻤﻳ ﺎﻤﻨﻴﺑ ﻦﺋﺎﻜﻟﺍ ﻢﺠﺣ ﻰﻠﻋ ﻆﻓﺎﺣ"
-
-
-msgid "XZ"
-msgstr "XZ"
 
 
 msgid "Track To Constraint"
@@ -5062,6 +5042,14 @@ msgstr "ﺢﻄﺳ"
 
 msgid "View"
 msgstr "ﺮﻈﻨﻣ"
+
+
+msgid "Steps"
+msgstr "ﺕﺍﻮﻄﺧ"
+
+
+msgid "Segments"
+msgstr "ﺢﺋﺍﺮﺷ"
 
 
 msgid "Active Spline"
@@ -8901,62 +8889,6 @@ msgid "Keep the computed view map and avoid re-calculating it if mesh geometry i
 msgstr "ﻢﺴﺠﻤﻟﺍ ﺔﺳﺪﻨﻫ ﺮﻴﻐﺘﺗ ﻢﻟ ﺍﺫﺍ ﺎﻬﺑﺎﺴﺣ ﺓﺩﺎﻋﺇ ﺐﻨﺠﺗ ﻭ ﺔﺑﻮﺴﺤﻤﻟﺍ ﺮﻈﻨﻤﻟﺍ ﺔﻄﻳﺮﺧ ﻖﺑﺍ"
 
 
-msgid "GPU FX Settings"
-msgstr "GPU ﺕﺍﺮﺛﺆﻣ ﺕﺍﺩﺍﺪﻋﺇ"
-
-
-msgid "Settings for GPU based compositing"
-msgstr "GPU ـﻟﺍ ﻰﻠﻋ ﻢﺋﺎﻘﻟﺍ ﺐﻴﻛﺮﺘﻠﻟ ﺕﺍﺩﺍﺪﻋﺇ"
-
-
-msgid "Screen Space Ambient Occlusion settings"
-msgstr "ﺔﺷﺎﺸﻟﺍ ءﺎﻀﻓ ﻂﻴﺤﻣ ﺱﺎﺒﺤﻧﺍ ﺕﺍﺩﺍﺪﻋﺇ"
-
-
-msgid "SSAO"
-msgstr "SSAO"
-
-
-msgid "Use screen space ambient occlusion of field on viewport"
-msgstr "ﺽﺮﻌﻟﺍ ﺬﻔﻨﻣ ﻲﻓ ﺔﺷﺎﺸﻟﺍ ءﺎﻀﻔﻟ ﻂﻴﺤﻣ ﺱﺎﺒﺤﻧﺍ ﻡﺪﺨﺘﺳﺍ"
-
-
-msgid "GPU SSAO"
-msgstr "GPU SSAO"
-
-
-msgid "Settings for GPU based screen space ambient occlusion"
-msgstr "GPU ـﻟﺍ ﻰﻠﻋ ﻢﺋﺎﻘﻟﺍ ﺔﺷﺎﺸﻟﺍ ءﺎﻀﻓ ﻂﻴﺤﻣ ﺱﺎﺒﺤﻧﺍ ﺕﺍﺩﺍﺪﻋﺇ"
-
-
-msgid "Attenuation"
-msgstr "ﻒﻴﻔﺨﺘﻟﺍ"
-
-
-msgid "Attenuation constant"
-msgstr "ﻝﺅﺎﻀﺘﻟﺍ ﺖﺑﺎﺛ"
-
-
-msgid "Color for screen space ambient occlusion effect"
-msgstr "ﺔﺷﺎﺸﻟﺍ ءﺎﻀﻓ ﻂﻴﺤﻣ ﺱﺎﺒﺤﻧﺍ ﻥﻮﻟ"
-
-
-msgid "Distance of object that contribute to the SSAO effect"
-msgstr "SSAO ﺮﻴﺛﺄﺗ ﻲﻓ ﻢﻫﺎﺴﻤﻟﺍ ﻦﺋﺎﻜﻟﺍ ﺪﻌﺑ"
-
-
-msgid "Strength of the SSAO effect"
-msgstr "ﻲﻘﺒﻃ ﺖﺤﺘﻟﺍ ﻂﻴﺤﻤﻟﺍ ﺱﺎﺒﺤﻧﻻ﻿ﺍ ﺮﻴﺛﺄﺗ ﺓﺪﺷ"
-
-
-msgid "Samples"
-msgstr "ﺕﺎﻨﻴﻋ"
-
-
-msgid "Number of samples"
-msgstr "ﺕﺎﻨﻴﻌﻟﺍ ﺩﺪﻋ"
-
-
 msgid "Grease Pencil Frame"
 msgstr "ﺕﺎﻈﺣﻼ﻿ﻤﻟﺍ ﻢﻠﻗ ﺭﺎﻃﺇ"
 
@@ -10807,10 +10739,6 @@ msgid "Map the bevel factor to the number of subdivisions of a spline (U resolut
 msgstr "(U ﺔﻗﺪﻟﺍ) ﻰﻨﺤﻨﻤﻠﻟ ﺕﺎﻤﻴﺴﻘﺘﻟﺍ ﺩﺪﻌﺑ ﺔﻔﻄﺸﻟﺍ ﻞﻣﺎﻌﻣ ﻂﺑﺭﺍ"
 
 
-msgid "Segments"
-msgstr "ﺢﺋﺍﺮﺷ"
-
-
 msgid "Map the bevel factor to the length of a segment and to the number of subdivisions of a segment"
 msgstr "ﺎﻬﺗﺎﻤﻴﺴﻘﺗ ﺩﺪﻌﺑ ﻭ ﺔﻤﻴﺴﻘﺘﻟﺍ ﻝﻮﻄﺑ ﺔﻔﻄﺸﻟﺍ ﻞﻣﺎﻌﻣ ﻂﺑﺭﺇ"
 
@@ -12415,6 +12343,10 @@ msgid "Shadow map clip start, below which objects will not generate shadows"
 msgstr "ﻝﻼ﻿ﻇ ﺎﻬﻠﺒﻗ ﺪﻟﻮﺘﻳ ﻦﻟ ﻲﺘﻟﺍ ﻭ ,ﻞﻈﻟﺍ ﺔﻄﻳﺮﺧ ﻢﻴﻠﻘﺗ ﺔﻳﺍﺪﺑ"
 
 
+msgid "Samples"
+msgstr "ﺕﺎﻨﻴﻋ"
+
+
 msgid "Number of shadow buffer samples"
 msgstr "ﻞﻈﻟﺍ ﺔﻜﺒﺷ ﺕﺎﻨﻴﻋ ﺩﺪﻋ"
 
@@ -13959,10 +13891,6 @@ msgid "Draw Size"
 msgstr "ﻢﺳﺮﻟﺍ ﻢﺠﺣ"
 
 
-msgid "Steps"
-msgstr "ﺕﺍﻮﻄﺧ"
-
-
 msgid "How many steps paths are drawn with (power of 2)"
 msgstr "(2 ـﻟﺍ ﺕﺎﻔﻋﺎﻀﻣ) ﺕﺍﺭﺎﺴﻤﻟﺍ ﻢﺳﺮﺗ ﺓﻮﻄﺧ ﻢﻜﺑ"
 
@@ -14189,6 +14117,10 @@ msgstr "2D ﺪﻳﻮﺑ"
 
 msgid "Constrain boids to a surface"
 msgstr "ﺢﻄﺴﻟ ﺕﺍﺪﻳﻮﺒﻟﺍ ﺪﻴﻗ"
+
+
+msgid "Mass"
+msgstr "ﺔﻠﺘﻜﻟﺍ"
 
 
 msgid "Mass of the particles"
@@ -15105,6 +15037,10 @@ msgstr "ﺓﺮﻛﺍﺬﻠﻟ ﻪﻠﻴﻤﺤﺗ ﻭ ﺕﻮﺼﻟﺍ ﻒﻠﻣ �
 
 msgid "If the file contains multiple audio channels they are rendered to a single one"
 msgstr "ﺓﺩﺮﻔﻨﻣ ﺓﺪﺣﺍﻭ ﻰﻟﺍ ﺮﻴّﺼﺗ ﺕﻮﺻ ﺕﺍﻮﻨﻗ ﺓﺪﻋ ﻰﻠﻋ ﻒﻠﻤﻟﺍ ﻯﻮﺘﺣﺍ ﺍﺫﺍ"
+
+
+msgid "Attenuation"
+msgstr "ﻒﻴﻔﺨﺘﻟﺍ"
 
 
 msgid "How strong the distance affects volume, depending on distance model"
@@ -18219,6 +18155,10 @@ msgid "Snap"
 msgstr "ﻱﺫﺎﺣ"
 
 
+msgid "Material Specials"
+msgstr "ﺕﺎﻣﺎﺨﻟﺍ ﺕﺎﻓﺎﺿﺇ"
+
+
 msgid "Grease Pencil Tools"
 msgstr "ﺕﺎﻈﺣﻼ﻿ﻣ ﻢﻠﻗ ﺕﺍﻭﺩﺃ"
 
@@ -18242,10 +18182,6 @@ msgstr "ﻱﺫﺎﺣ/ﻢﺤﻟﺍ"
 msgctxt "Operator"
 msgid "Add"
 msgstr "ﻒﺿﺃ"
-
-
-msgid "Material Specials"
-msgstr "ﺕﺎﻣﺎﺨﻟﺍ ﺕﺎﻓﺎﺿﺇ"
 
 
 msgid "Shape Key Specials"
@@ -25139,10 +25075,6 @@ msgid "Export PLY"
 msgstr "PLY ﺭﺪّﺻ"
 
 
-msgid "Export a single object as a Stanford PLY with normals, colors and texture coordinates"
-msgstr "ﺔﺠﺴﻧﻻ﻿ﺍ ﺕﺎﻴﺛﺍﺪﺣﺍ ﻭ ﻥﺍﻮﻟﻷ﻿ﺍ ,ﻢﻇﺍﻮﻨﻟﺎﺑ ﻲﺟﺫﻮﻤﻧ PLY ـﻛ ﺩﺮﻔﻨﻤﻟﺍ ﻦﺋﺎﻜﻟﺍ ﺭﺪّﺻ"
-
-
 msgid "Z Forward"
 msgstr "Z ﻡﺎﻣﻸ﻿ﻟ"
 
@@ -25170,10 +25102,6 @@ msgstr "ﺔﻟﺎﻌّﻔﻟﺍ UV ـﻟﺍ ﺔﻘﺒﻃ ﺭﺪّﺻ"
 msgctxt "Operator"
 msgid "Export STL"
 msgstr "STL ﺭﺪّﺻ"
-
-
-msgid "Save STL triangle mesh data from the active object"
-msgstr "ﻝﺎﻌﻔﻟﺍ ﻦﺋﺎﻜﻟﺍ ﻦﻣ ﻲﺜﻠﺜﻤﻟﺍ STL ﻢﺴﺠﻤﻟﺍ ﺕﺎﻧﺎﻴﺑ ﻆﻔﺣﺍ"
 
 
 msgctxt "Operator"
@@ -25316,10 +25244,6 @@ msgid "Delete Selected Files"
 msgstr "ﺓﺭﺎﺘﺨﻤﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ ﻑﺬﺣﺍ"
 
 
-msgid "Delete selected files"
-msgstr "ﺓﺭﺎﺘﺨﻤﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ ﻑﺬﺣﺍ"
-
-
 msgctxt "Operator"
 msgid "Create New Directory"
 msgstr "ﺪﻳﺪﺟ ﺭﺎﺴﻣ ﺊﺸﻧﺍ"
@@ -25453,6 +25377,10 @@ msgstr "ﺝﺭﺎﺨﻟﺍ ﻰﻟﺍ blend. ـﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﻧﺰ�
 
 msgid "Write files to original location (overwrite existing files)"
 msgstr "(ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ ﻝﺪﺒﺘﺳﺍ) ﻲﻠﺻﻻ﻿ﺍ ﻊﻗﻮﻤﻟﺍ ﻲﻓ ﺕﺎﻔﻠﻤﻟﺍ ﺐﺘﻛﺍ"
+
+
+msgid "Remove Pack"
+msgstr "ﻥﺰّﺨﻤﻟﺍ ﻑﺬﺣﺍ"
 
 
 msgctxt "Operator"
@@ -27250,11 +27178,6 @@ msgstr "ﺩﻭﺪﺤﻟﺍ ﻰﺘﺣ ﻢﺠّﺣ"
 
 
 msgctxt "Operator"
-msgid "Print3D Select Report"
-msgstr "ﻲﺛﻼ﻿ﺜﻟﺍ ﻊﺒﻄﻟﺍ ﺭﺎﻴﺘﺧﺍ ﺮﻳﺮﻘﺗ"
-
-
-msgctxt "Operator"
 msgid "Triangulate Faces"
 msgstr "ﻪﺟﻭﻻ﻿ﺍ ﺚﻠّﺛ"
 
@@ -27507,10 +27430,6 @@ msgstr "ﺓﺭﺎﺘﺨﻤﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﺎﻴﺋﺍﻮﺸﻋ ﺐ
 
 msgid "Reverse current order of selected elements"
 msgstr "ﺓﺭﺎﺘﺨﻤﻟﺍ ﺮﺻﺎﻨﻌﻠﻟ ﻲﻟﺎﺤﻟﺍ ﺐﻴﺗﺮﺘﻟﺍ ﺲﻜﻋﺍ"
-
-
-msgid "Make Duplicates"
-msgstr "ﺦﺴﻧ ﻞﻌﺟﺇ"
 
 
 msgid "Fractal"
@@ -30870,15 +30789,6 @@ msgid "Linked Time"
 msgstr "ﻂﺒﺗﺮﻤﻟﺍ ﻦﻣﺰﻟﺍ"
 
 
-msgctxt "Operator"
-msgid "Select Active Side"
-msgstr "ﻝﺎﻌﻔﻟﺍ ﺐﻧﺎﺠﻟﺍ ﺮﺘﺧﺍ"
-
-
-msgid "The side of the handle that is selected"
-msgstr "ﺭﺎﺘﺨﻤﻟﺍ ﺾﺒﻘﻤﻟﺍ ﺐﻧﺎﺟ"
-
-
 msgid "All strips of same basic type (Graphical or Sound)"
 msgstr "(ﻲﺗﻮﺻ ﻡﺍ ﻱﺭﻮﺻ) ﻲﺴﻴﺋﺮﻟﺍ ﻉﻮﻨﻟﺍ ﺲﻔﻧ ﻦﻣ ﺔﻃﺮﺷﻻ﻿ﺍ ﻞﻛ"
 
@@ -30890,6 +30800,10 @@ msgstr "(ﺕﺍﺮﺛﺆﻤﻟﺍ ﺮﻴﻏ ﻂﺋﺍﺮﺸﻟﺍ ﻞﻛ ﺮﺘ�
 msgctxt "Operator"
 msgid "Select Handles"
 msgstr "ﺾﺑﺎﻘﻤﻟﺍ ﺮﺘﺧﺍ"
+
+
+msgid "The side of the handle that is selected"
+msgstr "ﺭﺎﺘﺨﻤﻟﺍ ﺾﺒﻘﻤﻟﺍ ﺐﻧﺎﺟ"
 
 
 msgctxt "Operator"
@@ -34260,6 +34174,10 @@ msgid "Settings for interacting with Blender data"
 msgstr "ﺭﺪﻨﻠﺑ ﺕﺎﻧﺎﻴﺑ ﻊﻣ ﻞﻋﺎﻔﺘﻠﻟ ﺕﺍﺩﺍﺪﻋﺇ"
 
 
+msgid "Experimental"
+msgstr "ﻲﺑﺮﺠﺗ"
+
+
 msgid "Default paths for external files"
 msgstr "ﺔﻴﺟﺭﺎﺨﻟﺍ ﺕﺎﻔﻠﻤﻠﻟ ﺔﻴﺿﺍﺮﺘﻓﻹ﻿ﺍ ﺕﺍﺭﺎﺴﻤﻟﺍ"
 
@@ -34420,14 +34338,6 @@ msgid "Causes curve data to be duplicated with the object"
 msgstr "ﻦﺋﺎﻜﻟﺍ ﻊﻣ ﺭﺮﻜﺘﺗ ﻰﻨﺤﻨﻤﻟﺍ ﺕﺎﻧﺎﻴﺑ ﻞﻌﺠﻳ"
 
 
-msgid "Duplicate F-Curve"
-msgstr "ﻞﻤﻌﻟﺍ ﻰﻨﺤﻨﻣ ﺦﺴﻧﺍ"
-
-
-msgid "Causes F-curve data to be duplicated with the object"
-msgstr "ﻦﺋﺎﻜﻟﺍ ﻊﻣ ﻞﻤﻌﻟﺍ ﻰﻨﺤﻨﻣ ﺕﺎﻧﺎﻴﺑ ﺦﺴﻧ ﻰﻟﺇ ﻱﺩﺆﻳ"
-
-
 msgid "Duplicate Material"
 msgstr "ﺔﻣﺎﺨﻟﺍ ﺦﺴﻧﺍ"
 
@@ -34474,14 +34384,6 @@ msgstr "ﺺﻨﻟﺍ ﺦﺴﻧﺍ"
 
 msgid "Causes text data to be duplicated with the object"
 msgstr "ﻦﺋﺎﻜﻟﺍ ﻊﻣ ﺺﻨﻟﺍ ﺕﺎﻧﺎﻴﺑ ﺦﺴﻧ ﻰﻟﺇ ﻱﺩﺆﻳ"
-
-
-msgid "Duplicate Texture"
-msgstr "ﺞﻴﺴﻨﻟﺍ ﺦﺴﻧﺍ"
-
-
-msgid "Causes texture data to be duplicated with the object"
-msgstr "ﻦﺋﺎﻜﻟﺍ ﻊﻣ ﺞﻴﺴﻨﻟﺍ ﺕﺎﻧﺎﻴﺑ ﺦﺴﻧ ﻰﻟﺇ ﻱﺩﺆﻳ"
 
 
 msgid "Enter Edit Mode"
@@ -35732,10 +35634,6 @@ msgid "Only use finished and supported features"
 msgstr "ﺔﻣﻮﻋﺪﻤﻟﺍ ﻭ ﺔﻴﻬﺘﻨﻤﻟﺍ ﺕﺍﺰﻴﻤﻟﺍ ﻂﻘﻓ ﻡﺪﺨﺘﺳﺍ"
 
 
-msgid "Experimental"
-msgstr "ﻲﺑﺮﺠﺗ"
-
-
 msgid "Use experimental and incomplete features that might be broken or change in the future"
 msgstr "ﻞﺒﻘﺘﺴﻤﻟﺍ ﻲﻓ ﺮﻴﻐﺘﺘﺳ ﻭﺃ ﺓﺭﻮﺴﻜﻣ ﻥﻮﻜﺗ ﺪﻗ ﻲﺘﻟﺍ ﻭ ﺔﻠﻣﺎﻛ ﺮﻴﻏ ﻭ ﺔﻴﺒﻳﺮﺠﺗ ﺕﺍﺰﻴﻣ ﻞﻤﻌﺘﺳﺇ"
 
@@ -36984,6 +36882,14 @@ msgid "How much the spring has to be stretched/compressed in order to change it'
 msgstr "ﺎﻨﻛﺎﺳ ﻪﻟﻮﻃ ﺮﻴﻴﻐﺗ ﻑﺪﻬﺑ ﻂﻐﻀﻳ ﻭﺃ ﺾﺑﺎﻨﻟﺍ ﺩﺪﻤﺘﻳ ﻥﺃ ﻦﻤﻜﻳ ﻢﻛ ﻰﻟﺇ"
 
 
+msgid "Attenuation constant"
+msgstr "ﻝﺅﺎﻀﺘﻟﺍ ﺖﺑﺎﺛ"
+
+
+msgid "Number of samples"
+msgstr "ﺕﺎﻨﻴﻌﻟﺍ ﺩﺪﻋ"
+
+
 msgid "Factor for ambient occlusion blending"
 msgstr "ﻂﻴﺤﻤﻟﺍ ﺱﺎﺒﺤﻧﻻ﻿ﺍ ﺝﺰﻣ ﻞﻣﺎﻋ"
 
@@ -38211,10 +38117,6 @@ msgstr "ﻲﺛﻼ﻿ﺜﻟﺍ ﺮﻈﻨﻤﻟ ﺓﺪﻴﻌﺒﻟﺍ ﺺﻘﻟﺍ
 
 msgid "3D View near clipping distance (perspective view only)"
 msgstr "ﻲﺛﻼ﻿ﺜﻟﺍ ﺮﻈﻨﻤﻟ ﺓﺪﻴﻌﺒﻟﺍ ﺺﻘﻟﺍ ﺔﻓﺎﺴﻣ"
-
-
-msgid "FX Options"
-msgstr "ﺕﺍﺮﺛﺆﻤﻟﺍ ﺕﺍﺭﺎﻴﺧ"
 
 
 msgid "3D View center is locked to this bone's position"
@@ -40515,10 +40417,6 @@ msgid "Volume:"
 msgstr ":ﻢﺠﺤﻟﺍ"
 
 
-msgid "Plane:"
-msgstr ":ﺢﻄﺴﻟﺍ"
-
-
 msgid "Min/Max:"
 msgstr ":ﻰﺼﻗﻷ﻿ﺍ/ﻰﻧﺩﺃ"
 
@@ -40778,12 +40676,12 @@ msgid "UVs:"
 msgstr "UVs:"
 
 
+msgid "Outer"
+msgstr "ﻲﺟﺭﺎﺧ"
+
+
 msgid "Limit Method:"
 msgstr ":ﺪﺤﻟﺍ ﺔﻘﻳﺮﻃ"
-
-
-msgid "Width Method:"
-msgstr ":ﺽﺮﻌﻟﺍ ﺔﻘﻳﺮﻃ"
 
 
 msgid "Operation:"
@@ -40935,20 +40833,12 @@ msgid "Deform:"
 msgstr ":ﻉﻮّﻃ"
 
 
-msgid "Crease:"
-msgstr ":ﺪﻌﺠﺘﻟﺍ"
-
-
-msgid "Outer"
-msgstr "ﻲﺟﺭﺎﺧ"
+msgid "Material Index Offset:"
+msgstr ":ﺔﻣﺎﺨﻟﺍ ﺮﺷﺆﻣ ﺔﺣﺍﺯﺇ"
 
 
 msgid "Rim"
 msgstr "ﺔﻓﺎﺣ"
-
-
-msgid "Material Index Offset:"
-msgstr ":ﺔﻣﺎﺨﻟﺍ ﺮﺷﺆﻣ ﺔﺣﺍﺯﺇ"
 
 
 msgid "Aspect X"
@@ -41119,6 +41009,10 @@ msgstr "ﻂﻴﺤﻤﻟﺍ ﻲﻛﺎﺤﻣ ﺮﻴﻐﻣ ﻥﻭﺪﺑ ﺖﻴﻨ�
 
 msgid "Cull Faces:"
 msgstr ":ﺔﻴﻔﺨﻣ ﻩﻮﺟﻭ"
+
+
+msgid "Crease:"
+msgstr ":ﺪﻌﺠﺘﻟﺍ"
 
 
 msgid "Render:"
@@ -42690,13 +42584,13 @@ msgstr "ﺕﺎﻫﻮﺸﺘﻟﺍ ﺢﻠﺻﺃ"
 
 
 msgctxt "Operator"
-msgid "Hide Bounding Box"
-msgstr "ﺩﻭﺪﺤﻟﺍ ﻕﻭﺪﻨﺻ ﻲﻔﺧﺍ"
+msgid "Show Bounding Box"
+msgstr "ﺩﻭﺪﺤﻟﺍ ﻕﻭﺪﻨﺻ ﺮﻬﻇﺍ"
 
 
 msgctxt "Operator"
-msgid "Show Bounding Box"
-msgstr "ﺩﻭﺪﺤﻟﺍ ﻕﻭﺪﻨﺻ ﺮﻬﻇﺍ"
+msgid "Hide Bounding Box"
+msgstr "ﺩﻭﺪﺤﻟﺍ ﻕﻭﺪﻨﺻ ﻲﻔﺧﺍ"
 
 
 msgctxt "Operator"
@@ -44296,7 +44190,7 @@ msgid "No edges selected"
 msgstr "ﺓﺭﺎﺘﺨﻣ ﻑﺍﻮﺣ ﺪﺟﻮﻳ ﻻ﻿"
 
 
-msgid "Cannot add geometry in edit mode"
+msgid "Cannot add vertices in edit mode"
 msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻰﻨﺤﻨﻤﻟﺍ ﺍﺬﻫ ﻲﻔﺧﺍ"
 
 
@@ -44304,16 +44198,12 @@ msgid "Cannot add edges in edit mode"
 msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻰﻨﺤﻨﻤﻟﺍ ﺍﺬﻫ ﻲﻔﺧﺍ"
 
 
-msgid "Cannot add vertices in edit mode"
+msgid "Cannot add loops in edit mode"
 msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻰﻨﺤﻨﻤﻟﺍ ﺍﺬﻫ ﻲﻔﺧﺍ"
 
 
-msgid "Cannot remove edges in edit mode"
-msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻰﻨﺤﻨﻤﻟﺍ ﺾﺑﺎﻘﻣ ﺮﻬﻇﺍ"
-
-
-msgid "Cannot remove more edges than the mesh contains"
-msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻰﻨﺤﻨﻤﻟﺍ ﺾﺑﺎﻘﻣ ﺮﻬﻇﺍ"
+msgid "Cannot add polygons in edit mode"
+msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻰﻨﺤﻨﻤﻟﺍ ﺍﺬﻫ ﻲﻔﺧﺍ"
 
 
 msgid "Cannot remove vertices in edit mode"
@@ -44324,12 +44214,12 @@ msgid "Cannot remove more vertices than the mesh contains"
 msgstr "ءﻱﺰﺠﻟﺍ ﺮﻳﺮﺤﺗ ﻊﺿﻭ ﺐﻠﻗﺍ"
 
 
-msgid "Cannot add loops in edit mode"
-msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻰﻨﺤﻨﻤﻟﺍ ﺍﺬﻫ ﻲﻔﺧﺍ"
+msgid "Cannot remove edges in edit mode"
+msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻰﻨﺤﻨﻤﻟﺍ ﺾﺑﺎﻘﻣ ﺮﻬﻇﺍ"
 
 
-msgid "Cannot add polygons in edit mode"
-msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻰﻨﺤﻨﻤﻟﺍ ﺍﺬﻫ ﻲﻔﺧﺍ"
+msgid "Cannot remove more edges than the mesh contains"
+msgstr "ﺮﻳﺮﺤﺘﻟﺍ ﻊﺿﻭ ﻲﻓ ﻰﻨﺤﻨﻤﻟﺍ ﺾﺑﺎﻘﻣ ﺮﻬﻇﺍ"
 
 
 msgid "Cannot join while in edit mode"
@@ -45381,10 +45271,6 @@ msgstr "ءﺎﻀﻓ"
 
 msgid "Unpack File"
 msgstr "ﻒﻠﻤﻟﺍ ﻍﺮّﻓ"
-
-
-msgid "Remove Pack"
-msgstr "ﻥﺰّﺨﻤﻟﺍ ﻑﺬﺣﺍ"
 
 
 msgid "Overwrite %s"

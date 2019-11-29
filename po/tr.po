@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 13) (b'f6a90f018cfa')\n"
+"Project-Id-Version: Blender 2.82 (sub 1) (b'693d89170315')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-03 09:27:21\n"
+"POT-Creation-Date: 2019-11-25 10:53:41\n"
 "PO-Revision-Date: 2012-05-11 14:55+0200\n"
 "Last-Translator: Fatih EKE <fatiheke@hotmail.com>\n"
 "Language-Team: BLENDIST <fatiheke@hotmail.com>\n"
@@ -986,14 +986,6 @@ msgid "Internal Friction"
 msgstr "Dahili Blender"
 
 
-msgid "Mass"
-msgstr "Kütle"
-
-
-msgid "Mass of cloth material"
-msgstr "Bağlı Malzemeler:"
-
-
 msgid "Pin Stiffness"
 msgstr "H.Paneli iğnele"
 
@@ -1951,14 +1943,6 @@ msgid "Keep Axis"
 msgstr "Yatay Eksen"
 
 
-msgid "Keep X Axis"
-msgstr "Yatay Eksen"
-
-
-msgid "Keep Z Axis"
-msgstr "Yatay Eksen"
-
-
 msgid "Original Length"
 msgstr "Kenar Uzunluğu"
 
@@ -2157,6 +2141,10 @@ msgstr "Düzlem"
 
 msgid "View"
 msgstr "Görünüş"
+
+
+msgid "Steps"
+msgstr "Adımlar"
 
 
 msgid "Active Spline"
@@ -5572,10 +5560,6 @@ msgid "Draw Size"
 msgstr "Ekstrüzyon Boyutu"
 
 
-msgid "Steps"
-msgstr "Adımlar"
-
-
 msgid "Jittered"
 msgstr "Sabit, Değişmez"
 
@@ -5642,6 +5626,10 @@ msgstr "Satır numaralarını göster"
 
 msgid "Constrain boids to a surface"
 msgstr "Nurbs Yüzeyi buna çevir"
+
+
+msgid "Mass"
+msgstr "Kütle"
 
 
 msgid "Material Slot"
@@ -6990,6 +6978,10 @@ msgid "Snap"
 msgstr "Yakala"
 
 
+msgid "Material Specials"
+msgstr "Ekstra Kenar Özellikleri"
+
+
 msgid "UV"
 msgstr "UV "
 
@@ -7009,10 +7001,6 @@ msgstr "Görüntü Hizalama"
 msgctxt "Operator"
 msgid "Add"
 msgstr "Ekle"
-
-
-msgid "Material Specials"
-msgstr "Ekstra Kenar Özellikleri"
 
 
 msgid "Shape Key Specials"
@@ -9996,6 +9984,14 @@ msgid "Extend Select"
 msgstr "Ters Seçim"
 
 
+msgid "Mouse X"
+msgstr "Sol Fare"
+
+
+msgid "Mouse Y"
+msgstr "Sol Fare"
+
+
 msgctxt "Operator"
 msgid "Copy Keyframes"
 msgstr "Anahtar Kareyi Göster"
@@ -11981,6 +11977,14 @@ msgid "Apply Modifiers"
 msgstr "Nesne Değiştiricileri"
 
 
+msgid "Selection Only"
+msgstr "Yalnız Kenarlar"
+
+
+msgid "Export selected objects only"
+msgstr "Seçili Nesne ve Bilgileri"
+
+
 msgid "Export the active UV layer"
 msgstr "Yeni bir UV doku katmanı Oluştur"
 
@@ -11991,14 +11995,6 @@ msgstr "İşlenen görüntünün kaydedileceği biçimi seç"
 
 msgid "Batch Mode"
 msgstr "Düzenleme Modu"
-
-
-msgid "Selection Only"
-msgstr "Yalnız Kenarlar"
-
-
-msgid "Export selected objects only"
-msgstr "Seçili Nesne ve Bilgileri"
 
 
 msgid "Null"
@@ -13730,6 +13726,10 @@ msgid "At Cursor"
 msgstr "İmleçte"
 
 
+msgid "Fill Holes"
+msgstr "Güzelce Kapla"
+
+
 msgid "Median"
 msgstr "Medyan:"
 
@@ -14060,10 +14060,6 @@ msgstr "Seçili İşaretler arasında"
 
 msgid "Extrude selected vertices in a circle around the cursor in indicated viewport"
 msgstr "Seçili noktalar, bakış doğrultusunda, imleç etrafında dairesel olarak Extrude edilir"
-
-
-msgid "Make Duplicates"
-msgstr "Gerçek Kopyalarını Oluştur"
 
 
 msgid "Subdivide selected edges"
@@ -14602,14 +14598,6 @@ msgstr "Düğüm Editörü"
 
 msgid "Resize a node"
 msgstr "Düğüm Editörü"
-
-
-msgid "Mouse X"
-msgstr "Sol Fare"
-
-
-msgid "Mouse Y"
-msgstr "Sol Fare"
 
 
 msgid "(De)select all nodes"
@@ -17103,11 +17091,6 @@ msgid "Linked Time"
 msgstr "Bitiş Zamanı"
 
 
-msgctxt "Operator"
-msgid "Select Active Side"
-msgstr "Aktif pozisyonu sil"
-
-
 msgid "Shared strip type"
 msgstr "Nesne Tipini Değiştir..."
 
@@ -17887,10 +17870,6 @@ msgstr "Space Handler Scripts"
 
 msgid "Clear Seams"
 msgstr "Dikişi Temizle"
-
-
-msgid "Fill Holes"
-msgstr "Güzelce Kapla"
 
 
 msgctxt "Operator"
@@ -19593,6 +19572,10 @@ msgid "Edit Methods"
 msgstr "Düzenleme Metotları"
 
 
+msgid "Experimental"
+msgstr "Deneysel"
+
+
 msgid "Settings for input devices"
 msgstr "Durağan saç-iplik tarzındaki parçacıklar için boyut ve şekil ayarları."
 
@@ -19681,14 +19664,6 @@ msgid "Causes curve data to be duplicated with the object"
 msgstr "Shift+D ile Eğri bilgisini çoğalt"
 
 
-msgid "Duplicate F-Curve"
-msgstr "Eğri Önayarı"
-
-
-msgid "Causes F-curve data to be duplicated with the object"
-msgstr "Shift+D ile Eğri bilgisini çoğalt"
-
-
 msgid "Duplicate Material"
 msgstr "Malzeme butonları"
 
@@ -19731,14 +19706,6 @@ msgstr "Metni Düzenle:"
 
 msgid "Causes text data to be duplicated with the object"
 msgstr "Shift+D ile Metin bilgisini çoğalt"
-
-
-msgid "Duplicate Texture"
-msgstr "Doku Boyama"
-
-
-msgid "Causes texture data to be duplicated with the object"
-msgstr "Shift+D ile Doku bilgisini çoğalt"
 
 
 msgid "Enter Edit Mode"
@@ -20355,10 +20322,6 @@ msgstr "Özellik Seti"
 
 msgid "Supported"
 msgstr "Desteklenen"
-
-
-msgid "Experimental"
-msgstr "Deneysel"
 
 
 msgid "Image brightness scale"
@@ -23550,10 +23513,6 @@ msgid "Clamp Region:"
 msgstr "Döngü Alana"
 
 
-msgid "Plane:"
-msgstr "Düzlem:"
-
-
 msgid "Linked Collision"
 msgstr "Bağlantılı Çoğalt"
 
@@ -23708,6 +23667,10 @@ msgid "First Last"
 msgstr "İlk Büyük"
 
 
+msgid "Outer"
+msgstr "Select Outer"
+
+
 msgid "Limit Method:"
 msgstr "Kontur Metodu:"
 
@@ -23813,14 +23776,6 @@ msgstr "Yeni dosya oluştur"
 
 msgid "Target:"
 msgstr "Hedef değişkeni sil"
-
-
-msgid "Crease:"
-msgstr "Kırışıklık:"
-
-
-msgid "Outer"
-msgstr "Select Outer"
 
 
 msgid "Material Index Offset:"
@@ -23958,6 +23913,10 @@ msgstr "Harici Düzenleme:"
 
 msgid "Cull Faces:"
 msgstr "Yüzeyleri Vurgula"
+
+
+msgid "Crease:"
+msgstr "Kırışıklık:"
 
 
 msgid "Render:"
@@ -25076,13 +25035,13 @@ msgstr "Güzelce Kapla"
 
 
 msgctxt "Operator"
-msgid "Hide Bounding Box"
-msgstr "Sınır Kutucuğunu Gizle"
+msgid "Show Bounding Box"
+msgstr "Sınır Kutucuğunu Göster"
 
 
 msgctxt "Operator"
-msgid "Show Bounding Box"
-msgstr "Sınır Kutucuğunu Göster"
+msgid "Hide Bounding Box"
+msgstr "Sınır Kutucuğunu Gizle"
 
 
 msgctxt "Operator"
@@ -26170,7 +26129,7 @@ msgid "Selection not supported in object mode"
 msgstr "Aynı Tip Nesneler"
 
 
-msgid "Cannot add geometry in edit mode"
+msgid "Cannot add vertices in edit mode"
 msgstr "Tüm nesnenin yada sadece seçtiğiniz yüzeylerin keskin kenarlarını yumuşatır"
 
 
@@ -26178,15 +26137,11 @@ msgid "Cannot add edges in edit mode"
 msgstr "Tüm nesnenin yada sadece seçtiğiniz yüzeylerin keskin kenarlarını yumuşatır"
 
 
-msgid "Cannot add vertices in edit mode"
+msgid "Cannot add loops in edit mode"
 msgstr "Tüm nesnenin yada sadece seçtiğiniz yüzeylerin keskin kenarlarını yumuşatır"
 
 
-msgid "Cannot remove edges in edit mode"
-msgstr "Tüm nesnenin yada sadece seçtiğiniz yüzeylerin keskin kenarlarını yumuşatır"
-
-
-msgid "Cannot remove more edges than the mesh contains"
+msgid "Cannot add polygons in edit mode"
 msgstr "Tüm nesnenin yada sadece seçtiğiniz yüzeylerin keskin kenarlarını yumuşatır"
 
 
@@ -26198,11 +26153,11 @@ msgid "Cannot remove more vertices than the mesh contains"
 msgstr "Dzn. moduna Gir"
 
 
-msgid "Cannot add loops in edit mode"
+msgid "Cannot remove edges in edit mode"
 msgstr "Tüm nesnenin yada sadece seçtiğiniz yüzeylerin keskin kenarlarını yumuşatır"
 
 
-msgid "Cannot add polygons in edit mode"
+msgid "Cannot remove more edges than the mesh contains"
 msgstr "Tüm nesnenin yada sadece seçtiğiniz yüzeylerin keskin kenarlarını yumuşatır"
 
 

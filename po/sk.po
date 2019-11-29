@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 13) (b'f6a90f018cfa')\n"
+"Project-Id-Version: Blender 2.82 (sub 1) (b'693d89170315')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-03 09:27:21\n"
+"POT-Creation-Date: 2019-11-25 10:53:41\n"
 "PO-Revision-Date: 2019-09-18 15:13+0200\n"
 "Language-Team: pegas923\n"
 "MIME-Version: 1.0\n"
@@ -3949,14 +3949,6 @@ msgid "Internal Friction"
 msgstr "Vlastné trenie"
 
 
-msgid "Mass"
-msgstr "Hmotnosť"
-
-
-msgid "Mass of cloth material"
-msgstr "Hmotnosť materiálu plášťa"
-
-
 msgid "Pin Stiffness"
 msgstr "Tvrdosť prichytenia"
 
@@ -6542,16 +6534,8 @@ msgid "Keep Axis"
 msgstr "Zachovať osi"
 
 
-msgid "Axis to maintain during stretch"
-msgstr "Zachová osi počas napínania"
-
-
-msgid "Keep X Axis"
-msgstr "Zachovať os X"
-
-
-msgid "Keep Z Axis"
-msgstr "Zachovať os Z"
+msgid "XZ"
+msgstr "XZ"
 
 
 msgid "Original Length"
@@ -6564,10 +6548,6 @@ msgstr "Dĺžka v kľudovej polohe"
 
 msgid "Maintain the object's volume as it stretches"
 msgstr "Zachová objem objektu po napnutí"
-
-
-msgid "XZ"
-msgstr "XZ"
 
 
 msgid "Track To Constraint"
@@ -7076,6 +7056,14 @@ msgstr "Len prvý"
 
 msgid "Use the start of the stroke for the depth"
 msgstr "Použije počiatočný ťah pre hĺbku"
+
+
+msgid "Steps"
+msgstr "Kroky"
+
+
+msgid "Segments"
+msgstr "Segmenty"
 
 
 msgid "Curve Splines"
@@ -11843,62 +11831,6 @@ msgid "Keep the computed view map and avoid re-calculating it if mesh geometry i
 msgstr "Udržiava vypočítanú mapu zobrazenia a vyhne sa jej opätovnému výpočtu, ak sa geometria povrchovej siete nezmení"
 
 
-msgid "GPU FX Settings"
-msgstr "Nastavenia GPU FX"
-
-
-msgid "Settings for GPU based compositing"
-msgstr "Nastavenia pre kompozíciu založenú na GPU"
-
-
-msgid "Screen Space Ambient Occlusion settings"
-msgstr "Nastavenie Pohltenia okolím priestoru obrazovky"
-
-
-msgid "SSAO"
-msgstr "SSAO"
-
-
-msgid "Use screen space ambient occlusion of field on viewport"
-msgstr "Použije Pohltenie okolím priestoru obrazovky (SSAO) poľom vo výreze"
-
-
-msgid "GPU SSAO"
-msgstr "GPU SSAO"
-
-
-msgid "Settings for GPU based screen space ambient occlusion"
-msgstr "Nastavenia pre GPU na základe Pohltenia okolím priestoru obrazovky (SSAO)"
-
-
-msgid "Attenuation"
-msgstr "Zoslabenie"
-
-
-msgid "Attenuation constant"
-msgstr "Konštanta zoslabovania"
-
-
-msgid "Color for screen space ambient occlusion effect"
-msgstr "Farba pre priestoru obrazovky efektu pohltenia okolím"
-
-
-msgid "Distance of object that contribute to the SSAO effect"
-msgstr "Vzdialenosť objektu, ktorý prispieva k efektu SSAO"
-
-
-msgid "Strength of the SSAO effect"
-msgstr "Sila SSAO efektu"
-
-
-msgid "Samples"
-msgstr "Vzorky"
-
-
-msgid "Number of samples"
-msgstr "Počet vzoriek"
-
-
 msgid "Grease Pencil Frame"
 msgstr "Snímka pastelky"
 
@@ -14640,10 +14572,6 @@ msgid "Gpencil Settings"
 msgstr "Nastavenia pastelky"
 
 
-msgid "Category of the brush"
-msgstr "Kategória štetca"
-
-
 msgid "Draw"
 msgstr "Kresliť"
 
@@ -14878,6 +14806,10 @@ msgstr "Drgnutie"
 
 msgid "Rotate"
 msgstr "Rotácia"
+
+
+msgid "Topology"
+msgstr "Topológia"
 
 
 msgid "Secondary Color"
@@ -15734,10 +15666,6 @@ msgstr "Určuje faktor konca skosenia priradeného ku krivke ohybu"
 
 msgid "Map the bevel factor to the number of subdivisions of a spline (U resolution)"
 msgstr "Priradí faktor skosenia k počtu delení krivky ohybu (U rozlíšenie)"
-
-
-msgid "Segments"
-msgstr "Segmenty"
 
 
 msgid "Map the bevel factor to the length of a segment and to the number of subdivisions of a segment"
@@ -17932,6 +17860,10 @@ msgstr "Strih začiatku zásobníka tieňov"
 
 msgid "Shadow map clip start, below which objects will not generate shadows"
 msgstr "Strih začiatku mapy tieňov, za ktorým objekty nebudú generovať tiene"
+
+
+msgid "Samples"
+msgstr "Vzorky"
 
 
 msgid "Number of shadow buffer samples"
@@ -20200,10 +20132,6 @@ msgid "Size of particles on viewport in BU"
 msgstr "Veľkosť častíc vo výreze v BU"
 
 
-msgid "Steps"
-msgstr "Kroky"
-
-
 msgid "How many steps paths are drawn with (power of 2)"
 msgstr "Množstvo vykreslených krokov cesty (sila 2)"
 
@@ -20450,6 +20378,10 @@ msgstr "2D kŕdle"
 
 msgid "Constrain boids to a surface"
 msgstr "Obmedzí kŕdle na povrchu"
+
+
+msgid "Mass"
+msgstr "Hmotnosť"
 
 
 msgid "Mass of the particles"
@@ -21550,6 +21482,10 @@ msgstr "Ak súbor obsahuje viac zvukových kanálov, tieto sú vykresľované ak
 
 msgid "Speaker data-block for 3D audio speaker objects"
 msgstr "Blok údajov reproduktorov pre objekty 3D zvukového reproduktora"
+
+
+msgid "Attenuation"
+msgstr "Zoslabenie"
 
 
 msgid "How strong the distance affects volume, depending on distance model"
@@ -25322,10 +25258,6 @@ msgid "Objects in collection only contribute indirectly (through shadows and ref
 msgstr "Objekty v kolekcii iba nepriamo prispievajú (prostredníctvom tieňov a odrazov) do vrstvy zobrazenia"
 
 
-msgid "Whether this collection is visible, take into account the collection parent"
-msgstr "Zoberie do úvahy kolekciu rodičov, keď je táto kolekcia viditeľná"
-
-
 msgid "Name of this view layer (same as its collection one)"
 msgstr "Názov tejto vrstvy zobrazenia (rovnaká ako jej kolekcia)"
 
@@ -26812,6 +26744,10 @@ msgid "Clean Up"
 msgstr "Vyčistiť"
 
 
+msgid "Material Specials"
+msgstr "Špeciálne materiály"
+
+
 msgid "GP Vertex Groups"
 msgstr "Skupiny vrcholov pastelky"
 
@@ -26883,10 +26819,6 @@ msgstr "Kontextová ponuka informácií"
 msgctxt "Operator"
 msgid "Add"
 msgstr "Pridať"
-
-
-msgid "Material Specials"
-msgstr "Špeciálne materiály"
 
 
 msgid "Shape Key Specials"
@@ -28369,24 +28301,16 @@ msgid "Pattern to use for inside of miters"
 msgstr "Profil použitý pre vnútorné úkosy"
 
 
-msgid "Default sharp miter"
-msgstr "Predvolený ostrý úkos"
-
-
-msgid "Patch"
-msgstr "Záplata"
-
-
-msgid "Miter with extra corner"
-msgstr "Úkos s extra rohom"
+msgid "Inside of miter is sharp"
+msgstr "Vnútro sklonu je ostré"
 
 
 msgid "Arc"
 msgstr "Oblúk"
 
 
-msgid "Miter with curved arc"
-msgstr "Úkos oblúka zakrivenia"
+msgid "Inside of miter is arc"
+msgstr "Vnútro sklonu je oblúkové"
 
 
 msgid "Outer Miter"
@@ -28397,8 +28321,24 @@ msgid "Pattern to use for outside of miters"
 msgstr "Profil použitý pre vonkajšie úkosy"
 
 
-msgid "Amount Type"
-msgstr "Typ množstva"
+msgid "Outside of miter is sharp"
+msgstr "Vonkajšok sklonu je ostrý"
+
+
+msgid "Patch"
+msgstr "Záplata"
+
+
+msgid "Outside of miter is squared-off patch"
+msgstr "Vonkajšok sklonu je upravený štvorhran"
+
+
+msgid "Outside of miter is arc"
+msgstr "Vonkajšok sklonu je oblúk"
+
+
+msgid "Width Type"
+msgstr "Typ šírky"
 
 
 msgid "What distance Width measures"
@@ -28851,10 +28791,6 @@ msgstr "Priradenie hrán"
 
 msgid "Method used to map source edges to destination ones"
 msgstr "Metóda používaná na priradenie zdrojových hrán k prvým cieľovým"
-
-
-msgid "Topology"
-msgstr "Topológia"
 
 
 msgid "Copy from identical topology meshes"
@@ -30700,10 +30636,6 @@ msgstr "Zásobník bodu mäkkého telesa"
 
 msgid "Solidify Modifier"
 msgstr "Modifikátor spevnenia"
-
-
-msgid "Create a solid skin by extruding, compensating for sharp angles"
-msgstr "Vytvorí plné opláštenie vysúvaním, kompenzáciou ostrých uhlov"
 
 
 msgid "Inner Crease"
@@ -36451,6 +36383,14 @@ msgid "Toggle keyframe selection instead of leaving newly selected keyframes onl
 msgstr "Prepne výber kľúčovej snímky namiesto opustenia novo vybratých kľúčových snímok"
 
 
+msgid "Mouse X"
+msgstr "Myš X"
+
+
+msgid "Mouse Y"
+msgstr "Myš Y"
+
+
 msgctxt "Operator"
 msgid "Copy Keyframes"
 msgstr "Kopírovať kľúčovú snímku"
@@ -40847,10 +40787,6 @@ msgid "Export PLY"
 msgstr "Export PLY"
 
 
-msgid "Export a single object as a Stanford PLY with normals, colors and texture coordinates"
-msgstr "Exportuje jeden objekt ako Stanford .ply s kolmicami, farbami a súradnicami textúr"
-
-
 msgid "X Forward"
 msgstr "X vpredu"
 
@@ -40915,6 +40851,14 @@ msgid "Export Normals for smooth and hard shaded faces (hard shaded faces will b
 msgstr "Exportuje kolmice pre vyhladené a tvrdé zatienené plôšky (tvrdé zatienené plôšky budú exportované ako samostatné plôšky)"
 
 
+msgid "Selection Only"
+msgstr "Len vybrané"
+
+
+msgid "Export selected objects only"
+msgstr "Exportuje len vybrané objekty"
+
+
 msgid "Export the active UV layer"
 msgstr "Exportuje aktívnu UV vrstvu"
 
@@ -40922,10 +40866,6 @@ msgstr "Exportuje aktívnu UV vrstvu"
 msgctxt "Operator"
 msgid "Export STL"
 msgstr "Export STL"
-
-
-msgid "Save STL triangle mesh data from the active object"
-msgstr "Uloží údaje z povrchovej siete STL aktívneho objektu"
 
 
 msgid "Ascii"
@@ -40958,14 +40898,6 @@ msgstr "Jednotky scény"
 
 msgid "Apply current scene's unit (as defined by unit scale) to exported data"
 msgstr "Použije jednotky aktuálnej scény (definovanej jednotkovou stupnicou) na exportované údaje"
-
-
-msgid "Selection Only"
-msgstr "Len vybrané"
-
-
-msgid "Export selected objects only"
-msgstr "Exportuje len vybrané objekty"
 
 
 msgctxt "Operator"
@@ -41844,10 +41776,6 @@ msgid "Delete Selected Files"
 msgstr "Odstrániť vybrané súbory"
 
 
-msgid "Delete selected files"
-msgstr "Odstráni vybrané súbory"
-
-
 msgctxt "Operator"
 msgid "Create New Directory"
 msgstr "Vytvoriť nový priečinok"
@@ -42149,6 +42077,10 @@ msgstr "Zapíše súbory do pôvodného umiestnenia (prepíše existujúce súbo
 
 msgid "Disable Auto-pack, keep all packed files"
 msgstr "Zakázať automatické rozbalenie, zachová všetky zbalené súbory"
+
+
+msgid "Remove Pack"
+msgstr "Odstrániť zbalené"
 
 
 msgctxt "Operator"
@@ -45872,10 +45804,6 @@ msgid "Bevel"
 msgstr "Skosenie"
 
 
-msgid "Cut into selected items at an angle to create flat or rounded bevel or chamfer"
-msgstr "Nakrája na vybrané položky pod uhlom pre vytvorenie plochého, zaobleného alebo skoseného"
-
-
 msgid "Do not allow beveled edges/vertices to overlap each other"
 msgstr "Nedovolí, aby sa skosené hrany/vrcholky navzájom prekrývali"
 
@@ -45892,36 +45820,8 @@ msgid "Set face strength on new and modified faces only"
 msgstr "Nastaví spevnenie plôšky len na nové a modifikované plôšky"
 
 
-msgid "Prefer slide along edge to even widths"
-msgstr "Preferuje posun pozdĺž okraja na rovnobežné šírky"
-
-
 msgid "Material for bevel faces (-1 means use adjacent faces)"
 msgstr "Materiál pre skosenie plôšky (-1 znamená použitie priľahlých plôšok)"
-
-
-msgid "Inside of miter is sharp"
-msgstr "Vnútro sklonu je ostré"
-
-
-msgid "Inside of miter is arc"
-msgstr "Vnútro sklonu je oblúkové"
-
-
-msgid "Outside of miter is sharp"
-msgstr "Vonkajšok sklonu je ostrý"
-
-
-msgid "Outside of miter is squared-off patch"
-msgstr "Vonkajšok sklonu je upravený štvorhran"
-
-
-msgid "Outside of miter is arc"
-msgstr "Vonkajšok sklonu je oblúk"
-
-
-msgid "Width Type"
-msgstr "Typ šírky"
 
 
 msgid "Controls profile shape (0.5 = round)"
@@ -47175,6 +47075,10 @@ msgid "Offset Edge Loop"
 msgstr "Posunúť slučku hrán"
 
 
+msgid "Fill Holes"
+msgstr "Vyplniť otvory"
+
+
 msgctxt "Operator"
 msgid "Point Normals to Target"
 msgstr "Namieriť kolmice na cieľ"
@@ -47548,134 +47452,48 @@ msgid "Construct a UV sphere mesh"
 msgstr "Vytvorí povrchovú sieť tvaru UV gule"
 
 
-msgctxt "Operator"
-msgid "Print3D Check All"
-msgstr "Prekontrolovať všetko 3D tlačou"
-
-
 msgid "Run all checks"
 msgstr "Spustiť všetky kontroly"
-
-
-msgctxt "Operator"
-msgid "Print3D Check Degenerate"
-msgstr "Skontrolovať zdegenerovania 3D tlačou"
 
 
 msgid "Check for degenerate geometry that may not print properly (zero area faces, zero length edges)"
 msgstr "Skontroluje zdegenerovanú geometriu, ktora sa nemusí vytlačiť správne (nulové plochy plôšok, nulové dĺžky hrán)"
 
 
-msgctxt "Operator"
-msgid "Print3D Check Distorted Faces"
-msgstr "Skontrolovať skreslené plôšky 3D tlačou"
-
-
-msgid "Check for non-flat faces "
-msgstr "Prekontroluje nerovné plôšky "
-
-
-msgctxt "Operator"
-msgid "Print3D Check Intersections"
-msgstr "Skontrolovať pretnutia 3D tlačou"
-
-
 msgid "Check geometry for self intersections"
 msgstr "Skontroluje geometriu vlastných pretnutí"
-
-
-msgctxt "Operator"
-msgid "Print3D Check Overhang"
-msgstr "Skontrolovať previs plôšok 3D tlačou"
 
 
 msgid "Check faces don't overhang past a certain angle"
 msgstr "Skontroluje previs plôšok okolo určitého uhla"
 
 
-msgctxt "Operator"
-msgid "Print3D Check Sharp"
-msgstr "Prekontrolovať ostrosť hrán 3D tlačou"
-
-
 msgid "Check edges are below the sharpness preference"
 msgstr "Skontroluje hrany pod preferenciou ostrosti"
-
-
-msgctxt "Operator"
-msgid "Print3D Check Solid"
-msgstr "Prekontrolovať celistvosť 3D tlačou"
 
 
 msgid "Check for geometry is solid (has valid inside/outside) and correct normals"
 msgstr "Skontroluje celistvosť geometrie (platnosť vnútornej/vonkajšej) a korektnosť kolmíc"
 
 
-msgctxt "Operator"
-msgid "Print3D Check Thickness"
-msgstr "Prekontrolovať hrúbku 3D tlačou"
-
-
 msgid "Check geometry is above the minimum thickness preference (relies on correct normals)"
 msgstr "Skontrolujte minimálnu preferenciu hrúbky geometrie (spolieha na správne kolmice)"
-
-
-msgctxt "Operator"
-msgid "Print3D Clean Distorted"
-msgstr "Vyčistiť skreslené 3D tlačou"
 
 
 msgid "Tessellate distorted faces"
 msgstr "Mozaikovanie skreslených plôšok"
 
 
-msgctxt "Operator"
-msgid "Print3D Clean Isolated "
-msgstr "Vyčistiť oddelené 3D tlačou "
-
-
-msgid "Cleanup isolated vertices and edges"
-msgstr "Vyčistí oddelené vrcholy a hrany"
-
-
-msgctxt "Operator"
-msgid "Print3D Clean Non-Manifold and Inverted"
-msgstr "Vyčistiť mnohonásobné a obrátené 3D tlačou"
-
-
-msgid "Cleanup problems, like holes, non-manifold vertices, and inverted normals"
-msgstr "Vyčistí problémy, ako sú diery, nerozvetvené vrcholy a obrátené kolmice"
-
-
-msgid "Number of sides in hole required to fill"
-msgstr "Počet strán v otvore potrebných na vyplnenie"
+msgid "Limit for checking distorted faces"
+msgstr "Limit kontroly skreslených plôšok"
 
 
 msgid "Minimum distance between elements to merge"
 msgstr "Minimálna vzdialenosť medzi prvkami na zlúčenie"
 
 
-msgctxt "Operator"
-msgid "Print3D Export"
-msgstr "Exportovať 3D tlač"
-
-
-msgid "Export active object using print3d settings"
-msgstr "Exportuje aktívny objekt použitím nastavení 3D tlače"
-
-
-msgctxt "Operator"
-msgid "Print3D Info Area"
-msgstr "Info priestoru 3D tlače"
-
-
 msgid "Report the surface area of the active mesh"
 msgstr "Nahlási povrch plochy aktívnej povrchovej siete"
-
-
-msgctxt "Operator"
-msgid "Print3D Info Volume"
-msgstr "Info objemu 3D tlače"
 
 
 msgid "Report the volume of the active mesh"
@@ -47702,11 +47520,6 @@ msgstr "Mierka objemu"
 
 msgid "Scale edit-mesh or selected-objects to a set volume"
 msgstr "Zmena veľkosti povrchovej siete alebo vybraných objektov na nastavený objem"
-
-
-msgctxt "Operator"
-msgid "Print3D Select Report"
-msgstr "Výber zostavy 3D tlače"
 
 
 msgid "Select the data associated with this report"
@@ -48212,6 +48025,10 @@ msgid "Solidify"
 msgstr "Spevniť"
 
 
+msgid "Create a solid skin by extruding, compensating for sharp angles"
+msgstr "Vytvorí plné opláštenie vysúvaním, kompenzáciou ostrých uhlov"
+
+
 msgctxt "Operator"
 msgid "Sort Mesh Elements"
 msgstr "Zoradiť prvky povrchovej siete"
@@ -48283,10 +48100,6 @@ msgstr "Vytiahnuť vybrané vrcholy v kruhu okolo kurzora v indikovanom výreze"
 
 msgid "Rotation for each step"
 msgstr "Otočiť po každom kroku"
-
-
-msgid "Make Duplicates"
-msgstr "Vytvorí kópie"
 
 
 msgid "Auto Merge"
@@ -49503,14 +49316,6 @@ msgstr "Zmena veľkosti uzla"
 
 msgid "Select the node under the cursor"
 msgstr "Vyberie uzol pod kurzorom"
-
-
-msgid "Mouse X"
-msgstr "Myš X"
-
-
-msgid "Mouse Y"
-msgstr "Myš Y"
 
 
 msgid "Socket Select"
@@ -56744,19 +56549,6 @@ msgid "Select other strips at the same time"
 msgstr "Súčasne vyberie iné pásy"
 
 
-msgctxt "Operator"
-msgid "Select Active Side"
-msgstr "Vybrať aktívnu stranu"
-
-
-msgid "Select strips on the nominated side of the active strip"
-msgstr "Vyberie pásy na menovanej strane aktívneho pásu"
-
-
-msgid "The side of the handle that is selected"
-msgstr "Strana manipulátora, ktorá je vybratá"
-
-
 msgid "Select or deselect all strips"
 msgstr "Vyberie alebo zruší výber všetkých pásov"
 
@@ -56828,6 +56620,10 @@ msgstr "Vybrať manipulátory"
 
 msgid "Select gizmo handles on the sides of the selected strip"
 msgstr "Vyberie manipulátor manipulačného prvku po stranách vybraného pásu"
+
+
+msgid "The side of the handle that is selected"
+msgstr "Strana manipulátora, ktorá je vybratá"
 
 
 msgid "Shrink the current selection of adjacent selected strips"
@@ -57623,10 +57419,6 @@ msgstr "Vyberie slovo pod kurzorom"
 
 msgid "Set cursor selection"
 msgstr "Nastavenie výberu kurzora"
-
-
-msgid "Set selection end rather than cursor"
-msgstr "Nastaví ukončenia výberu na mieste kurzora"
 
 
 msgctxt "Operator"
@@ -58930,10 +58722,6 @@ msgstr "Zníži UV napnutie podľa kľudových uhlov"
 
 msgid "Blend factor between stretch minimized and original"
 msgstr "Faktor zmiešavania medzi minimálnym napnutím a originálom"
-
-
-msgid "Fill Holes"
-msgstr "Vyplniť otvory"
 
 
 msgid "Virtual fill holes in mesh before unwrapping, to better avoid overlaps and preserve symmetry"
@@ -63806,10 +63594,6 @@ msgid "Weights Context Menu"
 msgstr "Kontextová ponuka váh"
 
 
-msgid "Print3D"
-msgstr "3D tlač"
-
-
 msgid "Quad View"
 msgstr "Štvornásobné zobrazenie"
 
@@ -65374,6 +65158,10 @@ msgid "Settings for interacting with Blender data"
 msgstr "Nastavenia vzájomného pôsobenia údajmi Blendera"
 
 
+msgid "Experimental"
+msgstr "Experimentálne"
+
+
 msgid "Default paths for external files"
 msgstr "Predvolené cesty externých súborov"
 
@@ -65590,14 +65378,6 @@ msgid "Causes curve data to be duplicated with the object"
 msgstr "Spôsobí vytváranie údajov krivky spolu s objektom"
 
 
-msgid "Duplicate F-Curve"
-msgstr "Vytvárať kópiu krivky funkcie"
-
-
-msgid "Causes F-curve data to be duplicated with the object"
-msgstr "Spôsobí vytváranie údajov krivky funkcie spolu s objektom"
-
-
 msgid "Duplicate GPencil"
 msgstr "Vytvárať kópie pastelky"
 
@@ -65668,14 +65448,6 @@ msgstr "Vytvárať kópiu textu"
 
 msgid "Causes text data to be duplicated with the object"
 msgstr "Spôsobí vytváranie údajov textu spolu s objektom"
-
-
-msgid "Duplicate Texture"
-msgstr "Vytvárať kópiu textúry"
-
-
-msgid "Causes texture data to be duplicated with the object"
-msgstr "Spôsobí vytváranie údajov textúry spolu s objektom"
 
 
 msgid "Enter Edit Mode"
@@ -68238,10 +68010,6 @@ msgid "Only use finished and supported features"
 msgstr "Používa iba dokončené a podporované funkcie"
 
 
-msgid "Experimental"
-msgstr "Experimentálne"
-
-
 msgid "Use experimental and incomplete features that might be broken or change in the future"
 msgstr "Používa experimentálne a nekompletné funkcie, ktoré by mohli byť v budúcnosti zrušené alebo zmenené"
 
@@ -69106,16 +68874,8 @@ msgid "Export Freestyle edges to an .svg format"
 msgstr "Exportuje hrany Voľného štýlu do formátu .svg"
 
 
-msgid "Limit for checking distorted faces"
-msgstr "Limit kontroly skreslených plôšok"
-
-
 msgid "Format type to export to"
 msgstr "Typ formátu na exportovanie"
-
-
-msgid "VRML2"
-msgstr "VRML2"
 
 
 msgid "Export Directory"
@@ -71018,8 +70778,16 @@ msgid "Direction of the light for shadows and highlights"
 msgstr "Smer svetla pre tiene a presvetlenia"
 
 
+msgid "Attenuation constant"
+msgstr "Konštanta zoslabovania"
+
+
 msgid "Distance of object that contribute to the Cavity/Edge effect"
 msgstr "Vzdialenosť objektu prispievajúceho k efektu dutiny/hrany"
+
+
+msgid "Number of samples"
+msgstr "Počet vzoriek"
 
 
 msgid "Render Anti-Aliasing"
@@ -75917,14 +75685,6 @@ msgstr "Vzdialenosť orezania 3D zobrazenia"
 
 msgid "3D View near clipping distance (perspective view only)"
 msgstr "3D zobrazenie blízko orezania vzdialenosti (iba perspektívny pohľad)"
-
-
-msgid "FX Options"
-msgstr "Voľby FX"
-
-
-msgid "Options used for real time compositing"
-msgstr "Možnosti používané v reálnom čase kompozície"
 
 
 msgid "Visibility Icon"
@@ -81164,34 +80924,6 @@ msgid "DEM data (.hgt) as Mesh and/or Image"
 msgstr "Údaje DEM (.hgt) ako povrchová sieť a/alebo obrázok"
 
 
-msgid "Current directory is already an Amber repository, '%s'"
-msgstr "Súčasný priečinok už je úložiskom Amber, '%s'"
-
-
-msgid "Current directory is already an Amber repository"
-msgstr "Súčasný priečinok už je úložiskom Amber"
-
-
-msgid "No suitable active datablock found to create a new asset"
-msgstr "Nenašiel sa žiadny vhodný aktívny blok údajov na vytvorenie nového aktíva"
-
-
-msgid "Current .blend file not saved on disk, enforcing copying data into local repository storage"
-msgstr "Aktuálny .blend súbor sa neuložil na disk a vynútil kopírovanie údajov do lokálneho úložiska"
-
-
-msgid "No Amber repository found at '%s'"
-msgstr "Na '%s' sa nenašlo žiadne úložisko Amber"
-
-
-msgid "Active datablock is a linked one, this is not supported currently"
-msgstr "Aktívny blok údajov je prepojený, to nie je momentálne podporované"
-
-
-msgid "Order by:"
-msgstr "Zoradiť podľa:"
-
-
 msgid "Denoising completed."
 msgstr "Zníženie šumu dokončené."
 
@@ -81556,11 +81288,6 @@ msgstr "Skontrolovať všetko"
 
 
 msgctxt "Operator"
-msgid "Isolated"
-msgstr "Izolované"
-
-
-msgctxt "Operator"
 msgid "Make Manifold"
 msgstr "Vytvoriť rozvetvené"
 
@@ -81878,10 +81605,6 @@ msgstr "Maximálny objem"
 
 msgid "Volume:"
 msgstr "Objem:"
-
-
-msgid "Plane:"
-msgstr "Rovina:"
 
 
 msgid "Min/Max:"
@@ -82419,20 +82142,12 @@ msgid "UVs:"
 msgstr "UV:"
 
 
+msgid "Outer"
+msgstr "Vonkajší"
+
+
 msgid "Limit Method:"
 msgstr "Metóda limitu:"
-
-
-msgid "Width Method:"
-msgstr "Metóda šírky:"
-
-
-msgid "Set Face Strength Mode"
-msgstr "Nastaviť režim pevnosti plôšky"
-
-
-msgid "Miter Patterns"
-msgstr "Vzorka zakrivenia"
 
 
 msgid "Operation:"
@@ -82624,20 +82339,12 @@ msgid "Deform:"
 msgstr "Deformácia:"
 
 
-msgid "Crease:"
-msgstr "Záhyb:"
-
-
-msgid "Outer"
-msgstr "Vonkajší"
+msgid "Material Index Offset:"
+msgstr "Posun indexu materiálu:"
 
 
 msgid "Rim"
 msgstr "Lem"
-
-
-msgid "Material Index Offset:"
-msgstr "Posun indexu materiálu:"
 
 
 msgid "Aspect X"
@@ -82845,6 +82552,10 @@ msgstr "Postavené bez modifikátora Simulátora oceánu"
 
 msgid "Cull Faces:"
 msgstr "Vyradené plôšky:"
+
+
+msgid "Crease:"
+msgstr "Záhyb:"
 
 
 msgid "Render:"
@@ -83494,8 +83205,20 @@ msgid "Source Clone UV Map"
 msgstr "UV mapa zdroja klonu"
 
 
+msgid "Thickness Profile"
+msgstr "Profil hrúbky"
+
+
 msgid "Mask Value"
 msgstr "Hodnota masky"
+
+
+msgid "Fill Options"
+msgstr "Možnosti výplne"
+
+
+msgid "Ignore Transparent Strokes"
+msgstr "Ignorovať priehľadné ťahy"
 
 
 msgctxt "Operator"
@@ -86014,10 +85737,6 @@ msgid "Report a Bug"
 msgstr "Správy o chybách"
 
 
-msgid "Ignore Transparent Strokes"
-msgstr "Ignorovať priehľadné ťahy"
-
-
 msgid "Sequence Strip Name"
 msgstr "Názov sekvenčného pásu"
 
@@ -86847,13 +86566,13 @@ msgstr "Opraviť deformované"
 
 
 msgctxt "Operator"
-msgid "Hide Bounding Box"
-msgstr "Skryť schránku ohraničenia"
+msgid "Show Bounding Box"
+msgstr "Zobraziť schránku ohraničenia"
 
 
 msgctxt "Operator"
-msgid "Show Bounding Box"
-msgstr "Zobraziť schránku ohraničenia"
+msgid "Hide Bounding Box"
+msgstr "Skryť schránku ohraničenia"
 
 
 msgctxt "Operator"
@@ -87240,14 +86959,6 @@ msgstr "Zobraziť:"
 
 msgid "Frames:"
 msgstr "Snímky:"
-
-
-msgid "Thickness Profile"
-msgstr "Profil hrúbky"
-
-
-msgid "Fill Options"
-msgstr "Možnosti výplne"
 
 
 msgctxt "Operator"
@@ -87892,11 +87603,6 @@ msgstr "Konvertovať na povrchovú sieť"
 msgctxt "Operator"
 msgid "Convert to Path"
 msgstr "Konvertovať na cestu"
-
-
-msgctxt "Operator"
-msgid "Convert to Bezier Curves"
-msgstr "Konvertovať na Bézierove krivky"
 
 
 msgctxt "Operator"
@@ -90909,10 +90615,6 @@ msgid "Icosphere"
 msgstr "Ico guľa"
 
 
-msgid "%s: confirm, %s: cancel, %s: mode (%s), %s: width (%s), %s: segments (%d), %s: profile (%.3f), %s: clamp overlap (%s), %s: vertex only (%s), %s: outer miter (%s), %s: inner miter (%s), %s: harden normals (%s), %s: mark seam (%s), %s: mark sharp (%s)"
-msgstr "%s: potvrdenie, %s: zrušiť, %s: režim (%s), %s: šírka (%s), %s: segmenty (%d), %s: profil (%.3f), %s: prekrytie zarážky (%s), %s: iba vrcholy (%s), %s: vonkajší úkos (%s), %s: vnútorný úkos (%s), %s: upevnenie kolmíc (%s), %s: označenie švu (%s), %s: označenie ostrých (%s)"
-
-
 msgid "LMB: Click and drag to draw cut line"
 msgstr "ĽTM: kliknite a ťahajte pre nakreslenie čiary rezu"
 
@@ -91113,24 +90815,20 @@ msgid "Parse error in %s"
 msgstr "Chyba analýzy v %s"
 
 
-msgid "Cannot add geometry in edit mode"
-msgstr "Nemožno pridať geometriu v režime editácie"
+msgid "Cannot add vertices in edit mode"
+msgstr "Nemožno pridať vrcholy v režime editácie"
 
 
 msgid "Cannot add edges in edit mode"
 msgstr "Nemožno pridať hrany v režime editácie"
 
 
-msgid "Cannot add vertices in edit mode"
-msgstr "Nemožno pridať vrcholy v režime editácie"
+msgid "Cannot add loops in edit mode"
+msgstr "Nemožno pridať slučky v režime editácie"
 
 
-msgid "Cannot remove edges in edit mode"
-msgstr "Nemožno odstrániť hrany v režime editácie"
-
-
-msgid "Cannot remove more edges than the mesh contains"
-msgstr "Nemožno odstrániť viac hrán než obsahuje povrchová sieť"
+msgid "Cannot add polygons in edit mode"
+msgstr "Nemožno pridať polygóny v režime editácie"
 
 
 msgid "Cannot remove vertices in edit mode"
@@ -91141,12 +90839,12 @@ msgid "Cannot remove more vertices than the mesh contains"
 msgstr "Nemožno odstrániť viac vrcholov než obsahuje povrchová sieť"
 
 
-msgid "Cannot add loops in edit mode"
-msgstr "Nemožno pridať slučky v režime editácie"
+msgid "Cannot remove edges in edit mode"
+msgstr "Nemožno odstrániť hrany v režime editácie"
 
 
-msgid "Cannot add polygons in edit mode"
-msgstr "Nemožno pridať polygóny v režime editácie"
+msgid "Cannot remove more edges than the mesh contains"
+msgstr "Nemožno odstrániť viac hrán než obsahuje povrchová sieť"
 
 
 msgid "%d %s mirrored, %d failed"
@@ -92774,10 +92472,6 @@ msgstr "'%s' danej cesty je neplatný OS a namiesto nej sa vytvorí cesta '%s'"
 
 msgid "Could not create new folder: %s"
 msgstr "Nemožno vytvoriť nový priečinok: %s"
-
-
-msgid "Could not delete file: %s"
-msgstr "Nemožno odstrániť súbor: %s"
 
 
 msgid "Cancel"
@@ -94768,10 +94462,6 @@ msgstr "Späť zakázané pri štarte"
 
 msgid "Unpack File"
 msgstr "Rozbaliť súbor"
-
-
-msgid "Remove Pack"
-msgstr "Odstrániť zbalené"
 
 
 msgid "Create %s"

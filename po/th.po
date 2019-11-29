@@ -1,9 +1,9 @@
 
 msgid ""
 msgstr ""
-"Project-Id-Version: Blender 2.81 (sub 13) (b'f6a90f018cfa')\n"
+"Project-Id-Version: Blender 2.82 (sub 1) (b'693d89170315')\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-03 09:27:21\n"
+"POT-Creation-Date: 2019-11-25 10:53:41\n"
 "PO-Revision-Date: 2019-06-01 18:12+0700\n"
 "Last-Translator: gongpha <gongpha@gmail.com>\n"
 "Language-Team: Thai Translation Team <gongpha@gmail.com>\n"
@@ -718,6 +718,10 @@ msgid "View"
 msgstr "มุมมอง"
 
 
+msgid "Segments"
+msgstr "ส่วน"
+
+
 msgid "Viewport"
 msgstr "วิวพอร์ต"
 
@@ -997,10 +1001,6 @@ msgid "Advanced Options"
 msgstr "การตั้งค่าขั้นสูง"
 
 
-msgid "Samples"
-msgstr "ตัวอย่าง"
-
-
 msgid "Custom"
 msgstr "กำหนดเอง"
 
@@ -1200,10 +1200,6 @@ msgid "Depth Of Field"
 msgstr "ระยะชัดลึก"
 
 
-msgid "Segments"
-msgstr "ส่วน"
-
-
 msgid "Dimensions"
 msgstr "มิติ"
 
@@ -1348,6 +1344,10 @@ msgstr "พื้นที่"
 
 msgid "Inverse Square"
 msgstr "จัตุรัสผกผัน"
+
+
+msgid "Samples"
+msgstr "ตัวอย่าง"
 
 
 msgid "Rectangle"
@@ -2130,6 +2130,14 @@ msgid "Object Info"
 msgstr "ข้อมูลวัตถุ"
 
 
+msgid "Mouse X"
+msgstr "เมาส์ X"
+
+
+msgid "Mouse Y"
+msgstr "เมาส์ Y"
+
+
 msgctxt "Operator"
 msgid "New Action"
 msgstr "การกระทำใหม่"
@@ -2596,14 +2604,6 @@ msgstr "-Z ไป +Z"
 
 msgid "+Z to -Z"
 msgstr "+Z ไปยัง -Z"
-
-
-msgid "Mouse X"
-msgstr "เมาส์ X"
-
-
-msgid "Mouse Y"
-msgstr "เมาส์ Y"
 
 
 msgctxt "Operator"
